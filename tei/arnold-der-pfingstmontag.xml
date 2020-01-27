@@ -25,7 +25,7 @@
         <bibl type="digitalSource">
           <name>MeThAL</name>
           <idno type="URL"
-            >https://git.unistra.fr/ruizfabo/methal-sources/blob/master/arnold-01.xml</idno>
+            >https://git.unistra.fr/methal/methal-sources/blob/master/arnold-der-pfingstmontag.xml</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
