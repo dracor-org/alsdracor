@@ -91,6 +91,15 @@
           <person xml:id="claus" sex="MALE">
             <persName>Claus</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#starkhans #dorthee"/>
+            <relation name="parent_of" active="#starkhans #dorthee" passive="#lissel"/>
+            <relation name="spouses" mutual="#mehlbrüej #rosine"/>
+            <relation name="parent_of" active="#mehlbrüej #rosine" passive="#wolfgang"/>
+            <relation name="associated_with" active="#christinel" passive="#mehlbrüej"/>
+            <relation name="related_with" active="#lizentiat" passive="#mehlbrüej"/>
+            <relation name="parent_of" active="#prechtere" passive="#klärel"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -102,6 +111,7 @@
     <revisionDesc>
       <listChange>
         <change when="2019-12-06">(Dominique Huck) initial version</change>
+        <change when="2020-02-03">(ff) add listRelation</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

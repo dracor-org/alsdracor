@@ -92,6 +92,15 @@
           <person xml:id="wanda" sex="FEMALE">
             <persName>Wanda Stern</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#ropfer #emilie"/>
+            <relation name="parent_of" active="#ropfer #emilie" passive="#jeanne"/>
+            <relation name="related_with" active="#anatol" passive="#jeanne"/>
+            <relation name="associated_with" active="#jules" passive="#ropfer"/>
+            <relation name="parent_of" active="#schmidt" passive="#susanne"/>
+            <relation name="associated_with" active="#general" passive="#ropfer"/>
+            <relation name="spouses" mutual="#general #ammej"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
@@ -103,6 +112,7 @@
     <revisionDesc>
       <listChange>
         <change when="2020-01-27">(Pablo Ruiz Fabo) initial version</change>
+        <change when="2020-02-03">(ff) add listRelation</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
