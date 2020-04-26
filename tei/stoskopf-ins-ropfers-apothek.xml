@@ -6,7 +6,7 @@
       <titleStmt>
         <title type="main">In’s Ropfer’s Apothek</title>
         <title type="sub">Schwank in 3 Aufzügen</title>
-        <author key="bnf:11925619 pnd:117304778">Gustave Stoskopf</author>
+        <author key="wikidata:Q923554">Gustave Stoskopf</author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
@@ -118,6 +118,13 @@
   </teiHeader>
   <text>
     <front>
+      <pb n="1"/>
+      <div type="front">
+        <head>In’s Ropfer’s Apothek</head>
+        <head>Schwank in 3 Aufzügen von G. Stoskop</head>
+      </div>
+      <pb n="2"/>
+      <pb n="3"/>
       <castList>
         <head>Personen.</head>
         <castItem corresp="#ropfer"><role>Antoine Ropfer</role>,
@@ -157,6 +164,7 @@
       </set>
     </front>
     <body>
+      <pb n="4"/>
       <pb n="5"/>
       <div type="act">
         <head>1. Aufzug.</head>
