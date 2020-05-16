@@ -1,0 +1,1289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../../../css/tei-drama.css"?>
+<TEI xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">D’r poetisch Oscar</title>
+        <title type="sub">Einakter vun Marie Hart. Nej bearweit vun E. Deck, Regisseur vom Els. Theater in
+        Hawenau.</title>
+        <author key="wikidata:Q1897363 bnf:12678653">Marie Hart</author>
+        <respStmt>
+          <name>Delphine Bernhard</name>
+          <resp>OCR &amp; its correction</resp>
+        </respStmt>
+        <respStmt>
+          <name>Pablo Ruiz</name>
+          <resp>TEI encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LiLPa - Université de Strasbourg</publisher>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q91900355</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109761z</idno>
+          <bibl type="originalSource">
+            <author key="wikidata:Q1897363 bnf:12678653">Marie Hart</author>
+            <title type="main">D’r poetisch Oscar</title>
+            <title type="sub">Einakter vun Marie Hart. Nej bearweit vun E. Deck, Regisseur vom Els. Theater in
+            Hawenau.</title>
+            <publisher>Edition de théâtre et de musique L. Jaggi-Reiss, Gundershoffen (Bas-Rhin)</publisher>
+            <date type="print" when="1937">1937</date>
+            <date type="written" />
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="madame_schweberle" sex="FEMALE">
+            <persName>Madame Schweberle</persName>
+          </person>
+          <person xml:id="oscar" sex="MALE">
+            <persName>Oscar</persName>
+          </person>
+          <person xml:id="madame_lewermann" sex="FEMALE">
+            <persName>Madame Lewermann</persName>
+          </person>
+          <person xml:id="suzanne" sex="FEMALE">
+            <persName>Suzanne</persName>
+          </person>
+          <person xml:id="jean_brey" sex="MALE">
+            <persName>Jean Brey</persName>
+          </person>
+          <person xml:id="schakob" sex="MALE">
+            <persName>Schakob</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#madame_schweberle" passive="#oscar" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>Personen.</head>
+        <castItem corresp="#madame_schweberle">
+          <role>
+            <persName>Madame Schweberle</persName>
+          </role>
+        </castItem>
+        <castItem corresp="#oscar">
+        <role>
+          <persName>Oscar</persName>
+        </role>, 
+        <roleDesc>ihr Sohn, Kaufmann, 28 Johr</roleDesc>.</castItem>
+        <castItem corresp="#madame_lewermann">
+        <role>
+          <persName>Madame Lewermann</persName>
+        </role>, 
+        <roleDesc>veuve, 38 Johr</roleDesc>.</castItem>
+        <castItem corresp="#suzanne">
+        <role>
+          <persName>Suzanne</persName>
+        </role>, 
+        <roleDesc>ihri Nièce, 20 Johr</roleDesc>.</castItem>
+        <castItem corresp="#jean_brey">
+        <role>
+          <persName>Jean Brey</persName>
+        </role>, 
+        <roleDesc>Kaufmann, 38 Johr</roleDesc>.</castItem>
+        <castItem corresp="#schakob">
+        <role>
+          <persName>Schakob</persName>
+        </role>, 
+        <roleDesc>Garçon vum Land</roleDesc>.</castItem>
+      </castList>
+      <set />
+      <div type="front" xml:lang="ger">
+        <head>Inhaltsangabe.</head>
+        <p>Der Urtext stammt aus der Feder der bekannten Dichterin des « Stadtnarr », der erst vor kurzem durch
+        Aufführungen des Elsässischen Theaters Hagenau, auf der Bühne und am Radio, grosse Erfolge erzielt hat
+        und der auch auf dem nächstjährigen Spielplan des Elsässischen Theaters Strassburg figuriert. Der
+        poetische Oskar, ein schwärmerischer Jüngling der seine meiste Zeit mit Dichten verbringt, wird von
+        seiner realistischer denkenden Mutter in die Sommerfrische geführt, um dort seine Zukünftige zu finden,
+        die auch durch geschickte Manipulationen in der Person der Nichte einer Freundin der Mutter, der kleinen
+        Suzanne, bereit steht. Sie ist jedoch gerade das Gegenteil von Oskar und scheint zunächst viel zu
+        prosaisch veranlagt, als dass sie zu diesem passen könnte. Die Tante, eine verliebte Witwe, scheint sich
+        eher anpassen zu können, wird aber von der Mutter Oskars, die ihr ihr Alter vorhält, in einer köstlichen
+        Szene auf die richtige Bahn zurückgeleitet. Jedoch auch sie findet ihr Glück in einem sehr materiell
+        veranlagten Geschäftsmann den Suzanne als Liebhaber schroff abgewiesen hat. Ein tölpelhafter Kellner vom
+        Land ist die Ursache von tollen Verwechslungen und Verwicklungen, bis sich am Ende alles zum besten
+        wendet und auch Oskar und Suzanne ein glückliches Paar werden.</p>
+      </div>
+    </front>
+    <body>
+      <div type="scene">
+        <head>SZENE 1</head>
+        <stage>(Uff d’r Veranda vum e einsame Vogesehotel. Disch, Gardemöwel, hinde e Dier wo ens Hüss fiert.
+        Rechts: Uesgang ins Freie.) (Madame Schweberle, Oskar.) (Madame Schweberle sitzt uff eme Stuehl un
+        strickt. Oskar sitzt am Disch un schriebt.)</stage>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Bisch ball ferti, Oscar?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Nur noch en Auesblick, Mamme. D’r letscht « Reim » zue mimm Gedicht kummt m’r nit in. 
+          <stage>(Deklamiert)</stage>
+          <lg>
+            <l>In dem himmlischen Gefilde</l>
+            <l>Schwebet Luna hoch und hehr;</l>
+            <l>Königin der Sterngebilde….</l>
+          </lg>Weisch dü nix, wie zue « hehr » passt?</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Hehr? Was isch denn « hehr »?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ei hehr isch doch hoch, erhawe, majestätisch. Kennsch denn dü dies Wort nit?</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Un wer isch denn die Lina, wie de-n-andichtsch?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR</speaker>
+          <stage>(entsetzt):</stage>
+          <p>Lina, nee awer Mamme, ich red doch vun d’r Luna, dies isch jo d’r Mond. 
+          <stage>(Zue Schakob, der in d’r Dier erschiene isch):</stage> Zaij, Schakob, bring m’r e schwarzer
+          Kaffee uf dene Schrecke. 
+          <stage>(Schakob ab.)</stage></p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Dies haw ich jetzt wieder nit gewisst, dass de Mond e su heisst. Awer Lina, oder Luna, dies isch
+          g'hüpst wie g’sprunge; ich find, Oscar, es wär besser dü dätsch e mol e Gedicht üwer d’ Suzanne
+          mache.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Uewer d’ Suzanne? Do käm ich schoen an; dies dät mich nit üwel üsslache; ebs unpoetischeres als d’
+          Suzanne git’s üewerhaupt in d’r ganze Welt nit.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>D’ Suzanne isch e verständigs Maidel, un grad will’s ken so hochi Gedanke im Kopf het wie dü, täts
+          am allerbeschte zue d’r passe. Lüej, Oscar, bim Suzanne
+          <pb n="6" />wärsch dü guet uffg'hebt. Es het Vermöje, es wär e Frau for ’s G’schäft, es versteht d’
+          Hüshaltung….</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Mamme, hör uf oder ich lauf furt. Red m’r denn in de Lieb vum Vermöje, un wenn m’r eini lieb het,
+          denkt m’r denn dran, ob se ’n e G’schäftsfrau isch, ob se ’n ebs vun d’r Hüshaltung versteht?</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Verifer dich net, Oscar. Dass m’r in d’r Poesie an e so ebs nit denkt, dis weiss ich wohl, do tuets
+          e jedi Zigienere, wenn se nur schoeni Aue het. Awer im wirikliche Läwe un wenn sich ’s um ’s Hieroote
+          handelt, do muess m’r doch zuem allererschte an dies denke. Un weisch, mit’m Suzanne kännsch de grad e
+          so furtläwe wie dü’s gewohnt bisch. Owets, nooch’m Nachtesse kännsch dinni Gedichtle mache, kännsch wie
+          jetz e jeds Johr hie in dies Hotel kumme un e paar Wuche ganz in dinre Poesie läwe, — d’ Suzanne tät
+          d’r gewiss ken Stein in de Weij leije.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ihr verstehn mich alli mitenander nit. Was ich suech, isch e G’fährtin, e Seel, wie mit mir ringt,
+          liedt un strebt, e Herz wie sich sehnt, wie suecht, un au besoin, still mit mim Herze verbluete
+          kann.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Geh, Oscar, red kenn so schrecklichi Sache; m’r kreijt jo e Heideangscht.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ja, Mamme, e Poet isch allewiel trürig; « Poesie ist tiefes Schmerzen ». 
+          <stage>(Zuem Schakob, der in d’r Dier erschient):</stage> Kummt d’r Kaffee ball, Schakob?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ei, Ihr were warte kenne 
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Dass dü awer jetzt grad dis trürig Talent müesch han. Hättsch doch liewer ebs vun Müsik verstande un
+          wärsch Compositeur wore, do wärsch doch luschtig gebliewe d’rbie.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>SZENE 2</head>
+        <stage type="character">Die Vorigen, Madame Lewermann.</stage>
+        <stage>(Begrüssung. Oscar geht z’erscht uf un ab, d’rno furt in ’s Freie.)</stage>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Ei, leuj do, so e kurzes Mitaaschläfel han Sie g'halte. Mme Lewermann?</p>
+        </sp>
+        <pb n="7" />
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN</speaker>
+          <stage>(gähnt):</stage>
+          <p>M’r kann doch nit de ganze Daa schloofe, Am niene gehn m’r jo schun in ’s Bett, am aachte schtehn
+          m’r uff, do haw ich noch em Esse gar kenn Schloof meh.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Sie ambetiere sich e bissel, nit wohr? Awer dies Läwe schlaat ne guet an. Sie wäre alle Daa jünger;
+          erscht gescht bin ich g’fröjt wore wie alt as Sie sin, un wie ich g’sait hab vierzi, do…</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Achtedrissig. Bscht! Sie brüche uewerhaupt dies nit e so lütt ze sawe ich glaub, Ihr Sohn isch do
+          drüsse.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>D’r Oscar hört nix, der macht e Gedicht, er het’s grad mit em Mond ze tuen. Un was ich hab saawe
+          welle, — ja richtig — die Person wie mich g’fröjt het, die het g’sait, ihr Lebdaa hätt se nit gedenkt,
+          dass Sie schun vierzi sin, sie het Sie for d’ ältscht Schweschter vun Ihrer Nièce g'halte.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN</speaker>
+          <stage>(g’schmeichelt):</stage>
+          <p>Och, was meine Sie, Mme Schweberle. In de Läde wor ich als noch Mademoiselle tituliert, un ererscht
+          d’ vorig Wuch het mer minni Stundefrau verzählt, d’r Herr Summer, d’r Locataire vum erschte Stock, het
+          se g’fröjt, was dies fer e jungi Mamsell isch, wie im troisième loschiert?</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Do het er doch d’ Suzanne gemeint?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Meine Sie?</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Ei natierlich, er word doch Sie nit meine, wenn er vun ere junge Mamsell red. Sie sin jo noch guet
+          konserviert, un vun wittem halt m’r Sie au noch fuer jung, awer bilde Sie sich jo nit in, dass Sie
+          met’m Suzanne konkuriere kenne, do wärte Se’n uf’m Holzweij.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Han Sie nuer kenn Angscht, Mme Schweberle, ich brüch m’r e so ebs net inzebilde; es git Männer
+          genue, denne e Frau von minne Johre, vun minnere G’schtalt vun mim 
+          <seg xml:lang="fre">savoir-vivre</seg> besser g'fallt als e Gänsel vun zwanzig Johr.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Awer nit zuem hieroote.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Welle Sie mich am End beleidige?</p>
+        </sp>
+        <pb n="8" />
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Ne, ne, Mme Lewermann, ich wott numme nit, dass Sie sich lächerlich mache.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB</speaker>
+          <stage>(im Hintergrund briehlt):</stage>
+          <p>He!</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN</speaker>
+          <stage>(krischt):</stage>
+          <p>Uh!</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Was krische denn er e so?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ei dass ar mi hört.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Wer, er?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Der wie euch g’hört.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Ah min Sohn, er esch jetz grad nit do, was welle’n Ihr denn mit’m?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Dies will i im sälwer säuje 
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Was han mer grad geredt?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ich weiss nimmi ereecht.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Ich mein vum Suzanne.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ja un vum Oscar.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Es isch doch au Ihr Wunsch, dass die zwei e Paar wäre?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Gewiss, ich tät’s jo so gere sehn wie Sie. Awer ich muess Ihne doch saawe, d’ Suzanne het noch e
+          prétendant, d’r Herr Brey; Sie kenne ne jo.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Der isch doch viel ze alt for ’s Suzanne. Awer 
+          <seg xml:lang="fre">raison de plus</seg>, dass mer die Sach in Ordnung bringe. Finde Sie nit au, dass
+          es gar nit vorwärts geht mit ne?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>D’ Suzanne findt den Oscar halt zue uewerschwänglich.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Un er, d’r Oscar, findt d’ Suzanne ze nuechtere. Könnte Sen’m denn nit e Wink genn, dass es e bissel
+          poetischer soll sin mit em?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Saawe Sie doch liewer em Oscar, er soll e bissel prosaischer sin.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>D’r Oscar losst sich vun mer gar nix saawe; awer wisse Sie was? Sie könnte emol mit em rede, ich hab
+          schun oft bemerikt, Sie han e grosser Influss uf ’ne. Sie könnte e bissel am stupfe, dass er sich
+          ehnder decidiert.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Diss will ich gern tuen, awer ob ich ebs üssricht?</p>
+        </sp>
+        <pb n="9" />
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Seie Sie stille, do kummt er grad. Sie kenne glich mit’m rede, Ich geh einschtwiele nuf in mini
+          Stub. Au revoir, Madame, un gueti Verrichtung.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>SZENE 3</head>
+        <stage type="character">Mme Lewermann, Oscar.</stage>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Na, Monsieur Oscar, han Sie Ihr Gedicht fertig?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Nee, ich wor noch ganz e Narr druewer; ich find als noch nix wie zue « hehr » passt.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Hehr, ze nemme Sie doch Meer.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>MEER? Meer? Ja wahrhaftig, ich glaub dies geht. 
+          <stage>(Denkt noch)</stage> Es geht, prächtig. 
+          <stage>(Denkt wieder noch, d’rno freidig):</stage> Es isch gange. 
+          <stage>(Deklamiert)</stage>:
+          <lg>
+            <l>In dem himmlischen Gefilde</l>
+            <l>Schwebet Luna hoch und hehr;</l>
+            <l>Königin der Sterngebilde</l>
+            <l>Thront sie über’m Wolkenmeer.</l>
+          </lg></p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>O wie schön.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Un Sie han m’r wieder d’rzue verholfe, Madame Lewermann, Sie ellein verstehn min poetisch Empfinde. 
+          <seg xml:lang="fre">Vous êtes ma muse</seg>.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Et vous êtes Apollon.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ach, Mme Lewermann, wenn ich’s numme wär, awer ich bin noch witt vom Apollon weg. Wenn Sie wisste,
+          wie sehr ich mich nooch’m e reinere, schönere Läwe sehn, wo ich ganz in Poesie getaucht, nuer seelischi
+          Rejunge empfinde könnt.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ach, dies kann ich Ihne noochfühle, Herr Oscar, m’r het oft dies irdisch Lewe e so satt, m’r wott
+          sich emporschwinge in höheri Regione...</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>M’r wott in den Aether flieje wie e’n Adler...</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Oder in e bläujer See untertauche wie e Schwan...</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Mit eme andere Schwan.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Oder mit em en andere Adler...</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR</speaker>
+          <stage>(geht nehder zue ihre):</stage>
+          <p>Wenn ich doch denne Schwan finde könnt, Mme Lewermann.</p>
+        </sp>
+        <pb n="10" />
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN</speaker>
+          <stage>(ganz nod bie em):</stage>
+          <p>Oder ich denne Adler, Herr Oscar.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Wie däte m’r do neji Fluejel wachse?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Wie dät min Herz sich begeischtere.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB</speaker>
+          <stage>(der immer nehder kumme ’n isch, dicht vor alle zwei):</stage>
+          <p>Herr! 
+          <stage>(Sie fahre üsenander.)</stage></p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR</speaker>
+          <stage>(wuetig):</stage>
+          <p>Was bruehlsch denn dü e so?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ei dass Ihr mi höre.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Was isch denn los?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ich will ejch ebes fröje.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Na, herüss mit.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>D’ Köche will wisse, ob Ihr Milich zuem Kaffee welle?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Dies isch alles? Scheer dich zuem Kückück mit dinne dumme Fröje. Ich hab g’saijt, schwarze Kaffee
+          will ich, verstande.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ja, Herr. Awer, awer 
+          <stage>(kratzt sich hinterm Ohr)</stage> es isch e jeder Kaffee schwarz 
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Dauwer Simpel, eine so ze derangiere. 
+          <stage>(Zue Madame Lewermann)</stage> Vun was han mer denn grad geredt g'het?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN</speaker>
+          <stage>(piquiert):</stage>
+          <p>Wisse Sie des nimmi?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Nee, ich bin ganz verwirrt, ich kumm nimmi drüss.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ich glaub, m’r hen grad vum Suzanne geredt.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ah vum Suzanne, was han mer denn vum g’sait?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>M’r hann g’sait, dass es e netti, artligi, g’sundi Mamsell isch, wie in alle Stuecke zue Ihne passe
+          tät.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ja, zell isch wohr, wenn’s numme e bissel meh geischtige Schwung hät, wenn ’s nit e so 
+          <seg xml:lang="fre">terre à terre</seg> wär.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ja, d’ Suzanne steht ze fescht uf’m Bode; sinner Geischt kann nit in d’ Höh flieje; es esch wie e
+          Hüehnel, wie nit höcher kummt als sinner Hüehnerkorb.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Wie oft haw ich’s schun flieje lehre welle, awer es will nit. Ihm isch wohl drunte in sim
+          Hüehnerhoft.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ja, es git Litt, die gackere liewer als dass sie singe.</p>
+        </sp>
+        <pb n="11" />
+      </div>
+      <div type="scene">
+        <head>SZENE 4</head>
+        <stage type="character">Suzanne, die Vorigen.</stage>
+        <sp who="#suzanne">
+          <speaker>SUZANNE</speaker>
+          <stage>(läbhaft un nadierlich, kummt vom Freie erin; d’ Händ voll Blüeme):</stage>
+          <p>Tante, luej emol die schöne Blueme, wie ich g’funde hab.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Im Wald?</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Nee, um ’s Hüss erum, im Feld, hinte im Garte, uewerall wachse se, ganzi Hiffe haw’ ich
+          abgerupft.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Wart, ich hol e paar Wase, noo rangiere m’r se nin 
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Wenn Sie numme wisste, was Sie for e nettes Bild abgenn, mit alle denne Blueme, Mamsell Suzanne. Sie
+          sehn üss, wie e Waldfee.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Jetz drechsle Sie schun wieder Komplimente, helfe Sie m’r liewer die Blueme arrangiere. 
+          <stage>(Oscar helft.)</stage> Awer schicke Sie sich net so dumm.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Es freit mich, Mamsell Suzanne, dass Sie wenigschtens for d’ Schönheit vun de Blueme empfänglich
+          sin.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Ich hab d’ Blueme allewiel gern g'het.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Un dass Sie d’ Poesie, wie in e su ere Bluem leijt, doch anerkenne.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Ja, sie rieche guet un han netti Farwe.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Un schun allein ihri Näme sin voll vun köschtlicher Poesie.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE</speaker>
+          <stage>(rasch):</stage>
+          <p>Ja, dies sin Fingerhuet, un dies Plapperoose, dies sin Haasemiilele un dies Katzegigele, un zell
+          isch stinkigi Hoffart, rieche sen emol; un wenn ’s Frühjohr wär, hät ich gewiss au noch Schwizerhosse
+          im Garte g’funde; do hen Sie ihri Poesie.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>O Mamsell Suzanne, muen Sie m’r alli Illusione nemme. Es gitt doch au Blueme wie Vergissmeinnichtle
+          un Morjestern heisse. Awer Sie muen natierlich grad d’ allerprosaischte erüsssueche. Han Sie denn gar
+          kenn Fantasie? Sehne Sie sich denn nit e bissel nooch ebs Höcherem?</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Gottlob nee. Es g’fallt m’r ganz guet do unte. Su lang as ich guete Apetit hab un d’ ganz Nacht
+          schloof, bin ich zefridde.</p>
+        </sp>
+        <pb n="12" />
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Awer Suzanne? M’r han doch nit nur e Körper, m’r han doch au noch e Geischt un e Gemuet. M’r kann
+          doch nit allewiel ans Esse, Trinke un Schloofe denke; es git en Aueblick, wo m’r satt esch un wo m’r
+          üsg’schloofe het.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Ei d’rno schafft m’r ebs.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ja, awer m’r kann au nit allewiel schaffe. Han Sie denn noch nie in ere helle Mondnacht en
+          uewerwältigendi Sehnsucht nooch Ihrem Ideal g’schpiert?</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Nee, esu Züständ haw’ich kenni; ich geh meischtens frühj in’s Bett un schloof glich in. Do haw ich
+          gar kenn Zitt an en Ideal ze denke.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Han Sie noch nie in einsame Stunde sich am e Gedicht vum Schiller begeischtert?</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Dies isch m’r ze hoch. Ich les liewer’s Wocheblättel.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Un z’morjeds früij bim Sunneuffgang, füehle Sie do nit d’ Poesie vun d’r Stund, wenn d’r Sunnegott
+          sini Rösser lenkt?</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Gehn Sie m’r eweg mit denne Visione. Ich sieh nierigs e Sunnegott. Un uewerhaupt in d’r Friehj
+          isch’s Gras noch viel ze nass, do bliet m’r am beschte d’heime.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Sie verstehn mich nit, Suzanne, oder welle mich nit verstehn.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Wenn Sie emol redde wie anderi Lit au, no wor ich Sie ganz guet verstehn.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR</speaker>
+          <stage>(pathetisch, leijt ere d’ Hand uff d’ Achsel):</stage>
+          <p>O Suzanne, ewiger Widerspruch; sieht üs wie d’ Poesie selwer, un in sim Herze wohnt d’
+          allergewöhnlichscht Prosa. An dem Zwiespalt wäre alli minni Hoffnunge ze Schande wäre. Läb wohl,
+          Suzanne, läb wohl 
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE</speaker>
+          <stage>(allein):</stage>
+          <p>Ich glaub dem esch’s nit guet. M’r het e Miej mit denne Männer, nit zuem saawe. Ich bin jo gar nit e
+          so prosaisch wie der meint, awer ich kann’s nit liede, wenn er esu lächerlich redt. Er dät mer au ganz
+          guet g’falle, viel besser als de Brey, der isch mer viel ze alt. Awer grad der muess jetzt eso
+          uewerspannti Idee im Kopf han. 
+          <stage>(Lüijt noch hinte.)</stage> Wer kummt denn do? Herrjeh, wenn m’r de Essel nennt, ze kummt er
+          gerennt. Do isch de Brey.</p>
+        </sp>
+        <pb n="13" />
+      </div>
+      <div type="scene">
+        <head>SZENE 5</head>
+        <stage type="character">Suzanne, Jean Brey (e bissel korpulent, het e kleins Köfferle in d’r
+        Hand).</stage>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Tiens, lüij do, d’ Mamsell Suzanne, läwe Sie au noch? Ich hab gedenkt, in dem verlorene Nescht sin
+          Sie am End schun lang g’storwe.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Un do han Sie zue minere Licht kumme welle.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Sie henns geroote. Ich hab express de Gibus em Köfferle mitgebroocht.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Dies esch nett vun Inne. Sin Sie vun der Gare ze Fuess kumme?</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Ne, leider Gottes mit em Velo. Dies sin verdammti Waij do hinte. D’ halb Zitt haw’ich ’s Rad drucke
+          muen. Ich schwitz awer jetz au, ken drucketer Fade haw’ich meh uff em Lieb 
+          <stage>(wischt sich d' Stirn ab)</stage>.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Do tät ich an Ihrem Platz glich nuff gehn un schanschiere.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Nee, nee, die Geleijeheit e mol ung’stört mit Ihne bable ze kenne, will ich m’r doch nit entgehn
+          lon. Schunsch isch jo doch allewiel e Tante hinter Ihne here, oder d’r Oscar scharwenzelt um Sie herum.
+          Wie geht’s denn im Oscar, macht’r brav Gedichtle?</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Dies weiss ich nit, er lest m’r kenni vor.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Er weiss w’rum. Sie täte ne jo doch numme üsslache. Ihne isch dies uewerspannt Gedues grad so
+          zewieder wie mir. Sie passe e su weni zuem Oscar, as wie e Küh zuer e goldene Uehr.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Was rede Sie do?</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Stelle Sie sich nit e so dumm. Ich weiss doch weye was Sie do here g’füehrt wore sin. Die zwei Alte
+          welle Sie mit em Oscar verkupple, awer ich hab glich gedenkt, dass Sie ne nit nemme. Im Büür g’hert
+          Hawerstroh, un im Suzanne g’hört e Mann wie zuem passt.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Ah, un was soll denn diess for e Mann sin?</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>
+          <seg xml:lang="fre">Tenez, Mademoiselle Suzanne</seg>, versteckle m’r uns. nit. Sie wisse, dass ich en
+          Au uff Sie geworfe hab?</p>
+        </sp>
+        <pb n="14" />
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Ah.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Un mir zwei täte zuenander passe, wie e Paar Händschih. M’r sin kenn üwerspannti Sternegickler wie
+          d’r Oscar; m’r sin zefriede so lang ass m’r guet esse un guet trinke un guet schloofe kenne, un pfiffe
+          uff Poesie, Ideal un all dies G’schlamassels.</p>
+        </sp>
+        <stage>(D’r Oscar erschient uff d’r Szen ohne vun den andere g’sähn ze wäre.)</stage>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Ja, des isch alles schön un guet; awer Sie muen doch bedenke, Herr Brey, dass mer nit numme e Körper
+          han; m’r han au noch e Geischt un e Gemuet.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Plän vun Paris.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Un wenn m’r satt isch un üssg’schloofe het, do sehnt m’r sich doch noch ebs Höcherem.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Ei, noo kann m’r jo emol mit em Zeppelin fahre.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Sie verstehn mich nit, Herr Brey. Han Sie denn gar kenn Fantasie. Han Sie noch nie in ere helle
+          Mondnacht e Sehnsucht noch’m Ideal g’schpiert?</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>B'huetes Gott, wie kumme denn Sie mir vor? Ich bin doch ken Katzeroller.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Un han Sie sich noch nie an eme schöne Gedicht begeischtert?</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Lon doch Sie mich in Friede mit dem Gedings. Wenn ich e freiji Stund hab, trink ich liewer e
+          Schöppel in d’r Taverne.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Do sin Sie ze bedüre, Herr Brey. Wenn Sie wisste, wie schön es, 
+          <seg xml:lang="fre">par exemple</seg>, am Morje isch, wenn d' Welt eso frisch do lejt, d’
+          Vergissmeinnicht un d’ Morjestern im Tau glänze, un d’r Sunnegott sinni Rösser lenkt...</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR</speaker>
+          <stage>(schnell, stüerzt vor Suzanne uff d’ Knie):</stage>
+          <p>O Suzanne, wie schön, wie unüssprechlich schön dü geredt hesch, wie poetisch. Jetz ha wich die Seel
+          g’funde, wie zue minere Seel passt...</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY</speaker>
+          <stage>(für sich):</stage>
+          <p>Ah Matin, do bin ich jo sozesaawe uewerflüssig, ’s isch am beschte ich geh nuf un schangier; jetz
+          schpier ich ererscht dass ich e nasses Hemb hab 
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <pb n="15" />
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Stehn Sie doch uff, was mache Sie denn jetz wider for e Lewesdaa?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Dies isch d’r schönscht Auesblick vun mim Läwe. Suzanne, dü bisch die G’fährtin, wie mit minere Seel
+          ringt, liedt un strebt.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Par exemple, Sie han uns also belüschtert, höre Sie jetz awer uf. Ihri Deklamatione gehn m’r uf d’
+          Nerve. Wenn ich au nit ganz e so unpoetisch bin wie ich üssieh, su en uewerspanntes G’schöpf wie Sie
+          eins üss mir mache welle, bin ich doch noch lang nit 
+          <stage>(noch hinte ins Freie)</stage>.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR</speaker>
+          <stage>(lauft ere noch):</stage>
+          <p>Suzanne, ze hör mich doch an, Suzanne.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>SZENE 6</head>
+        <stage type="character">Schakob, d’rno Brey, d’rno Mme Lewermann.</stage>
+        <sp who="#schakob">
+          <speaker>SCHAKOB</speaker>
+          <stage>(rueft im Oscar un Suzane noch):</stage>
+          <p>Herr, do isch Eier Kaffee 
+          <stage>(stellt de Kaffee uff de Disch)</stage>. Z’erscht het er ne nit erwarte kenne, jetz lauft er
+          furt vor em 
+          <stage>(luejt in Oscar un Suzanne noch)</stage>. Ich glaub, die spiele Fangedissels mitenanger; ar
+          läuft als hinger Ihre hare. Diese solle kenn Narre sin, die Stadtlitt 
+          <stage>(lacht Iütt)</stage>.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY</speaker>
+          <stage>(kummt üss em Hüss):</stage>
+          <p>Jetz bin ich wieder trucket. Ah, do steht e Tass Kaffee, der kummt m’r grad erecht.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Däne därfe Ihr nit trinke, däne han Ihr nit b’schtellt.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Awer ich bezahl n’e, dies kummt uf eins erüss. Do han Ihr au noch e Trinkgeld.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <stage>(betracht des Geld un schmunzelt)</stage>
+          <p>Soll i Euch noch e su e Tass bringe?</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Wie isch de Zucker?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Schun dringe.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Ich hab ne gere recht suess 
+          <stage>(versuecht ne)</stage>.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Er isch suess genue, ich hab ne schun versuecht 
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY</speaker>
+          <stage>(geht uf un ab):</stage>
+          <p>Jetz muess ich m’r en anderi Frau sueche. D’ Suzanne isch ang’steckt wore vum Oscar sinere
+          Dichteritis; brrr, wenn ich dies au noch bekumme tät. Nee, ich muess m’r e g’sundi Frau sueche, eini wo
+          fescht uf em
+          <pb n="16" />Bode steht. Su e Kerl wie ich word schun en anderi finde. 
+          <stage>(Madame Lewermann kummt üss em Hüss.)</stage></p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY</speaker>
+          <stage>(froh):</stage>
+          <p>Ah bonjour Madame Lewermann, dies freit mich awer, dass Sie mer grad in d’ Händ laufe.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>D’ Freid isch ganz uf minere Sitt, Herr Brey.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Do han mer alli zwei e Freid.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Wisse Sie, in dere Einsamkeit isch eim e Visit doppelt angenehm.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Un mir wär Ihr Anblick unter alle Umständ angenehm.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Sie mache m’r Komplimente.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Nee, gewiss nit, dies isch min Sach nit. Wenn ich saa, Sie g’falle m’r, ze g'falle Sie m’r au, do
+          kenne Sie sich druff verlonn.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN</speaker>
+          <stage>(verschämt):</stage>
+          <p>G’fall ich Ihne wiriklich?</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Un wie; ich weiss gar nit wie ich bis jetzt mini Aue hab g'het. Sie sin e Frauezimmer, do isch doch
+          au ebs dran. Ken so e rüdigi Gais wie, 
+          <seg xml:lang="fre">par exemple</seg>, ’s Suzanne.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>’s Suzanne isch awer viel jünger als ich.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Dies het kenn Sach; en abgelaauerter Broote isch allewiel zarter als e frischer. Nee, Madame
+          Lewermann, es isch m’r bitterer Ernscht. Sie sin d’ Frau wie ich brüch.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Sie gehn awer g’schwind an ’s Werik.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>For was solle m’r noch langi Sparichlemente mache? M’r sinn alli zwei nimmi so jung, m’r muen uns
+          dummle. Alle hoppla, schlaawe Se ihn, dass d’ Sach perfekt word.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Nee, so g’schwind geht des Ding doch nit. Sie müehn m’r wenigschtens noch zwei Daa de Hof mache.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Wie Sie welle, ich mach Ihne au noch de Hof.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Fange m’r mit eme kleine Spaziergang an.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>
+          <seg xml:lang="fre">A vos ordres, Madame</seg>
+          <stage>(gibt' ere de Vortritt.)</stage>
+          <seg xml:lang="fre">Passez, beauté</seg>
+          <stage>(ab in ’s Freie)</stage>.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>SZENE 7</head>
+        <stage type="character">Schakob, d’rno Mme Schweberle.</stage>
+        <sp who="#schakob">
+          <speaker>SCHAKOB</speaker>
+          <stage>(allein):</stage>
+          <p>Jetz losst er de Kaffee stehn, un het doch ewe 3 Franke defuer bezahlt. Dies heiss ich sündhaft. 
+          <stage>(Trinkt e Schluck, luejt d’rno dene zwei noch.)</stage> Die spiele 
+          <pb n="17" />nit Fangedissels, die zwei. Ar het e Bichel un Sie wackelt. Jetz packt er sie gar, un jetz
+          gibt er ere e Schmutz. Ha, ha.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE</speaker>
+          <stage>(kummt üss em Hüss):</stage>
+          <p>Han Ihr mine Sohn nit g’sehn?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>E Mannskarl haw'i g’sahn, awer i weiss nit, ob ar Eier Sohn isch.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Stelle Eich nit e su dumm, Ihr kenne ne doch; er het doch ewe Kaffee bie Eich b’stellt.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ei der, wie de Kaffee getrunke het, isch grad ewe do nüs.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Allein?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Nee; mit eme Wiebsbild.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Mit was for’m e Wiebsbild?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Mit ’me fatte.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Was?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Sie wackelt — e su — 
+          <stage>(macht in de Mme Lewermann noch)</stage> un d’ Nas hebt se in d’ Höh un redt süss.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Dies isch d’ Lewermänne. Die isch mit mim Sohn furt?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ja, mit dem, wie de Kaffee getrunke het. Ar het se gepackt — e su — un het ere e Schmutz gann — e
+          su.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Was, e Schmutz het ere genn? Hann Ihr au erecht g’sehn?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ich hab ne jo krache here 
+          <stage>(lacht verschmitzt)</stage>.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Dis esch awer doch unerhört. So e falschi Katz. Awer dere will ich saawe was sie esch.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Do kummt sie grad, stecke’sere numme guet 
+          <stage>(ab)</stage>.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>SZENE 8</head>
+        <stage type="character">Mme Schweberle, Mme Lewermann.</stage>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ich suech min Paraselele.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Ah, die Madame suecht ihr Paraselele. Es wär schad for ihr fin Hittel, wenns verbrenne tät. Sie
+          könnt d’ Männer nimmi so guet anlocke.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ich fall üss de Wolike, was esch denn los?</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Sie fröjt noch was los esch. Het m’r minner Sohn verfuehrt un im Suzanne abspenschtig gemacht un
+          stellt sich noch unschuldig d’rbie.</p>
+        </sp>
+        <pb n="18" />
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ich weiss nit was Sie wölle.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Lewermänne, bringt Sie mich nit üss em Hiesel, ich könnt ere schunscht grob kumme. Schäme sott Sie
+          sich, in Ihre Johre su e junger Bue inzefange un d’r eijene Nièce de Hochzitter ze nemme.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ich denk nit dran, minnere Nièce de Hochzitter ze nemme.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>So, un w’rum isch Sie denn mit’m nüss in de Wald, un w’rum het Sie sich denn ewe vum packe un
+          verschmutze lon? Isch dies au en Ufführung for e Frau vun vierzig Johr?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN</speaker>
+          <stage>(indigniert):</stage>
+          <p>Achtedrissig.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>So fuehrt sich e lichtsinnigi Person uff un kenn anständigs Frauezimmer, denn Sie meint doch nit
+          ebe, ass er Sie hieroote word. Nee, Lewermänne, do bin ich au noch do, un ehnder als dass ich e so e
+          Vieheit zueloss, ehnder schick ich ne uf Amerika. Ich pack jetz glich minni Koffer. Kenn Stund länger
+          soll er meh in Ihrem Netz zawwle 
+          <stage>(ab in ’s Hüss)</stage>.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>SZENE 9</head>
+        <stage type="character">Madame Lewermann, d’rno Oscar, d’rno Suzanne.</stage>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN</speaker>
+          <stage>(allein):</stage>
+          <p>Na, wart numme, dir will ich’s zeije. Wenn ich dinne Sohn au nit verfuehre will, ze will ich eich
+          doch noch de Kueche versalze. Do kommt er m’r grad erecht. Dem will ich d’ Hochzitterei mit em Suzanne
+          e bissel verleide 
+          <stage>(zue Oscar)</stage> Worum so drüürig, Herr Oscar?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR</speaker>
+          <stage>(setzt sich):</stage>
+          <p>O Madame Lewermann, ich wott gar nimmi lewe.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Alle, alle, Herr Oscar, nuer nit glich d’ Flüejel lapple lon. Was isch ne denn geje de Strich
+          gange?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ach, ich bin vun alle Himmel herunterg’falle. Grad ewe haw ich noch gemeint ich hab endlich im
+          Suzanne min Ideal g'funde — awer es het mich hart uf de Bode zeruckgstosse.</p>
+        </sp>
+        <pb n="19" />
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>D' Suzanne Ihr Ideal? Höre Sie, dies isch awer doch zuem Lache. ’s Suzanne kann for kenne Mensche e
+          Ideal sin, es isch materiell was m’r materiell heisst.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Saawe Sie dies nit, en einzigi Minüt haw ich in sinni Seel nin g’sehn; awer jetz isch se wider ganz
+          verschlosse.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Glauwe Sie mer, Oscar, es isch gar nix drinne. Meine Sie denn, dass ’s Suzanne an ebs Höcheres
+          denkt, dass es nur einmol e Gedicht lest?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR</speaker>
+          <stage>(trürig):</stage>
+          <p>Ja ich weiss wohl, es lest liewer ’s Wocheblättel.</p>
+        </sp>
+        <stage>(Suzanne erschient ohne ass m’r ins sieht.)</stage>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Jo, d'allerletschte Nejichkeite interessiere ins allein. Ich saa Ihne, ’s Suzanne isch d’
+          personnifiziert Prosa. Es tuet nix als esse, trinke un schloofe.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Un schaffe. Vergesse Sie dies nit, Madame Lewermann, ’s Suzanne isch immer b’schäftigt. Uewerall wie
+          ’s anne kummt, findt’s ebs ze schaffe, un wenn’s numme e Stuehl grad stellt oder e Tischteppi
+          uffhebt.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Awer vun Poesie het’s kenn Schimmer. Meine Sie, es isch numme capawel Ihr Gedicht an d' Luna, wie
+          Sie hitt gemacht han, ze verstehn?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Oh, des het nix uf sich.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Oder glauwe Sie, dass es in stille Näächt mit Ihne de Sternehimmel anlüje un sich nooch’m Höchste
+          sehne word?</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Ach, ich denk m’r jetz, ich tät’s gere schloofe lon. So e g’sunder, unschuldiger Schloof isch au
+          Poesie.</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Un nie wär’s im Stand d’ majestätisch Erhaweheit vu me Sunneuffgang ze bewundere.</p>
+        </sp>
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>B’huet es Gott, ich wor’s doch nit in aller Frühj nüsfuehre wenn’s Gras noch e so nass isch. Sehn
+          Sie, Madame Lewermann, isch zelli Bluem wenjer schoen will se verzwurzelti Bried heisst? Ach, e so e
+          verzwurzeltes Briedel isch au min Suzanne. s isch einfach, nadierlich, viellicht au prosaisch — awer e
+          liewes, herziges Bluemel isch’s doch.</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE</speaker>
+          <stage>(kummt schnell noch vorne):</stage>
+          <p>Ach, Oscar; wie schön dü jetz redsch, wie poetisch.</p>
+        </sp>
+        <pb n="20" />
+        <sp who="#oscar">
+          <speaker>OSCAR:</speaker>
+          <p>Suzanne, hesch mich denn e kleins bissele lieb?</p>
+        </sp>
+        <sp who="#suzanne">
+          <speaker>SUZANNE:</speaker>
+          <p>Ja, Oscar, vun ganzem Herze 
+          <stage>(umarmen sich)</stage>.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>SZENE 10</head>
+        <stage type="character">D’ Vorige, Mme Schweberle, Brey, Schakob.</stage>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Jetz saa ich awer nix meh. Do isch jo ’s richtig Paar binander. O ihr liewi Kinder, wie mich des
+          fraijt. 
+          <stage>(Zue Frau Lewermann)</stage> Haw ich Ihne am End Unrecht angedon, Madame Lewermann?</p>
+        </sp>
+        <sp who="#madame_lewermann">
+          <speaker>Mme LEWERMANN:</speaker>
+          <p>Ja, un in doppelter Hinsicht. Ich hab nit allein Ihre Oscar nit verfuehrt, nee, ich hab m’r selbscht
+          e ganz andere üssg’suecht.</p>
+        </sp>
+        <sp who="#jean_brey">
+          <speaker>BREY:</speaker>
+          <p>Ja, Madame Schweberle, ’s Julie un ich wölle ’s emol prowiere mitnander.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>
+          <seg xml:lang="fre">Toutes mes félicitations</seg>; ich wuensch eich Glueck vun ganzem Herze. 
+          <stage>(Zue Schakob)</stage> Un Ihr, do hinte, kumme emol here.</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB</speaker>
+          <stage>(kummt vor):</stage>
+          <p>Was beliebt?</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Weye was saawe denn Ihr, dass min Sohn e fetti Madam verschmutzt het?</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ich hab g’sait, dar wie der Kaffi getrunke het.</p>
+        </sp>
+        <sp who="#madame_schweberle">
+          <speaker>Mme SCHWEBERLE:</speaker>
+          <p>Na, un…</p>
+        </sp>
+        <sp who="#schakob">
+          <speaker>SCHAKOB:</speaker>
+          <p>Ei dar, wie ne b’stellt het, isch nit allewiel dar, wie ne trinkt.</p>
+        </sp>
+        <stage>ENDE</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

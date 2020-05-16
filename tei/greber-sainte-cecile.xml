@@ -1,0 +1,2571 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../../../css/tei-drama.css"?>
+<TEI xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Sainte-Cécile!</title>
+        <title type="sub">Lustspiel in einem Aufzuge in Straßburger Mundart von Julius Greber</title>
+        <author key="wikidata:Q91904226">Jules Greber</author>
+        <respStmt>
+          <name>Delphine Bernhard</name>
+          <resp>OCR &amp; its correction</resp>
+        </respStmt>
+        <respStmt>
+          <name>Pablo Ruiz</name>
+          <resp>TEI encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LiLPa - Université de Strasbourg</publisher>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q92047713</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k91095618</idno>
+          <bibl type="originalSource">
+            <author key="wikidata:Q91904226">Jules Greber</author>
+            <title type="main">Sainte-Cécile!</title>
+            <title type="sub">Lustspiel in einem Aufzuge in Straßburger Mundart von Julius Greber</title>
+            <publisher>Verlag von Schlesier &amp; Schweikhardt</publisher>
+            <date type="print" when="1897">1897</date>
+            <date type="written" when="1897">1897</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="anatole" sex="MALE">
+            <persName>Anatole Stieffatre</persName>
+          </person>
+          <person xml:id="sophie" sex="FEMALE">
+            <persName>Sophie</persName>
+          </person>
+          <person xml:id="cecile" sex="FEMALE">
+            <persName>Cécile</persName>
+          </person>
+          <person xml:id="enishaensel" sex="MALE">
+            <persName>Désiré Enishänsel</persName>
+          </person>
+          <person xml:id="karcher" sex="MALE">
+            <persName>Jules Karcher</persName>
+          </person>
+          <person xml:id="schante" sex="MALE">
+            <persName>Barthélemy Schanté</persName>
+          </person>
+          <person xml:id="e_kommissionaer" sex="MALE">
+            <persName>É Kommissionär</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#anatole #sophie" />
+            <relation name="associated_with" active="#cecile" passive="#anatole" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>Personen.</head>
+        <castItem corresp="#anatole">
+        <role>
+          <persName>Anatole Stieffatre</persName>
+        </role>, 
+        <roleDesc>Proprietär, früehjer Epicier</roleDesc>.</castItem>
+        <castItem corresp="#sophie">
+        <role>
+          <persName>Sophie</persName>
+        </role>, 
+        <roleDesc>sini Frau</roleDesc>.</castItem>
+        <castItem corresp="#cecile">
+        <role>
+          <persName>Cécile</persName>
+        </role>, 
+        <roleDesc>sini Magd</roleDesc>.</castItem>
+        <castItem corresp="#enishaensel">
+        <role>
+          <persName>Désiré Enishänsel</persName>
+        </role>, 
+        <roleDesc>Abedeeker en retraite</roleDesc>.</castItem>
+        <castItem corresp="#karcher">
+          <role>
+            <persName>Jules Karcher</persName>
+          </role>
+        </castItem>
+        <castItem corresp="#schante">
+          <role>
+            <persName>Barthélemy Schanté</persName>
+          </role>
+        </castItem>
+        <castItem corresp="#e_kommissionaer">
+          <role>
+            <persName>É Kommissionär</persName>
+          </role>
+        </castItem>
+      </castList>
+      <set>
+        <p>’s Stück spielt in d’r Gejewart in Stroßburri.</p>
+      </set>
+      <set xml:lang="ger">
+        <head>Scenerie :</head>
+        <p>Ein gediegen möbliertes Wohnzimmer. Mittelthür (führt nach außen), rechte und linke Seitenthür. Rechts
+        ein Tisch (links davon ein Papierkorb) und ein Kanapee, links ein Nähtischchen. Sonstige Möbel und
+        Hausrat. Im Hintergrunde an der Wand (rechts von der Mittelthüre) steht ein Bombardon, daneben ein
+        Notenpult. Im Hintergrunde links ein Porzellanofen. Auf dem Kanapee liegt eine schwarze Hose, eine
+        schwarze Weste, ein Frack und ein Cylinder. (Rechts und links vom Zuschauer.)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene">
+        <head>1. Scene.</head>
+        <stage type="character">Cécile, nachher ein Kommissionär.</stage>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(häßliche Person, ungefähr 40 Jahre alt; dabei beschäftigt, die Möbel abzuwischen ; sie spricht
+          durch die Nase):</stage>
+          <p>Gottlob, jetz bin i ferdi. Stuwwe-n-un Better mache, uff de Merk gehn, koche, wäsche-n-un beijle, so
+          geht ’s jetz schun ball e Johrer fuffzeh daadäjli in einere Lier furt, ohne changement un distraction .
+          . . . ’s isch schier züem verzwazzle! 
+          <stage>(Sie gähnt)</stage> Un ich hab die Nacht so e schöner Traum ghett ; ich hab getraimt, ich dhädd
+          mich widder hirote . . . . un sogar mit eme Wittmann ohne Kinder . . . . nein! wär dis e Glück! . . . .
+          hinnicht isch Vollmond gsin; was m’r in so ere Nacht traimt, soll in Erfüllung gehn, saat m’r. 
+          <stage>(Man hört Lärm in der Stube rechts.)</stage> Do drinne gehts schun widder los . . . . züe
+          merkwürdig, züe merkwürdig! — — Was d’r Herr Stieffatre nur het? Jetz düürts schun ball zwei Woche, un
+          ’s wurd nit andersch. — — Was wurd er jetz widder mache? Ich will doch emol lüeje. 
+          <stage>(Sie eilt an die Thüre rechts und sieht durchs Schlüsselloch ; es klopft an der Mittelthür; sie
+          hört es nicht.)</stage> Als noch ’s nämlich. — — Do drinne siehts wärli güet üs! Alles z’undersch
+          z’öwersch. M’r derf nit erin, ’r will nit gstört sin, saat ’r, het ’r gsaat. 
+          <stage>(Es klopft wiederum, sie hört es wieder nicht.)</stage> Jesses nein! jetz fangt er widder an ze
+          babble — — ’s isch züem lache — — züe fürios! züe fürios ! 
+          <stage>(Ein Kommissionär durch die Mittelthür.)</stage> Nurre Geduld! Ich komm noch d’rhinter, so wohr
+          ich Cécile heiß, un Geduld iwwerwind au de-n-Eierküeche.</p>
+        </sp>
+        <pb n="6" />
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Bonjour, Mamsell.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Um Gottswille — — bin i jetz verschrocke — —</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Wohnt do d’r Herr Anatole Stieffatre?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ganz erecht. Sie wölle züem? Do drinnen-isch ’r.</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Het d’r Herr Stieffatre d’ Sache gerüscht, wo ich abhole soll? 
+          <stage>(zieht einen Zettel heraus)</stage>.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Do uff ’m Canapée leijt alles. — — Jetz saaue Sie mir doch emol, was dis beditte soll, daß er dis
+          Dings verlehnt. ’s isch doch züe merkwürdig.</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <stage>(liest ab und nimmt die Stücke auf den Arm)</stage>
+          <p>E paar Hosse — güet, e Schilet — do isch’s, e Rock — do hammer ne, e Schibüs — do leijt ’r, un e
+          Bombardon — do steht ’r. Helfe Sie m’r e bissel. — So, merci.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ja awer wurum dis alles?</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <stage>(ausweichend)</stage>
+          <p>. . . . ’s isch wäje’re Kindtaif, for e güete Frind.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Au dis Bombardon? Dis kann doch nit möejli sin.</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Wurum nit? ’s wurd nit ’s erscht Mol sin, daß uff ere Kindtaif ebbs gebloose wurd.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Dis isch awer doch züe kürios —</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>’s geht mich nix an, Mamsell.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(scharf):</stage>
+          <p>Bardon, m’sieur, ich bin Wittfrau.</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Macht nix, madame, ich bin Wittmann.</p>
+        </sp>
+        <pb n="7" />
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <stage>(entzückt)</stage>
+          <p>E Wittmann? — Ohne Kinder?</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Ohne Kinder. — Ich müeß jetz gehn.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ze bliewe Sie doch noch e bissel. — — Möchte Sie sich nit noch emol hirote?</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Merci bien, hab grad genüe vum erschte Mol.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Awer nein! — — 
+          <stage>(Verschämt)</stage> Ich for min Dheil wüßt nit was dhüen, wenn m’r ebber dhädd e Hirotsantraa
+          mache.</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Sie wüßte ’s nit? — — Awer ich. Adieu madame.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Am liebschte hätt ich e Wittmann ohne Kinder.</p>
+        </sp>
+        <sp who="#e_kommissionaer">
+          <speaker>Kommissionär:</speaker>
+          <p>Eh ben, güet, ze will i sehn, daß ich einer find. 
+          <stage>(Für sich):</stage> E warmi Person! 
+          <stage>(Ab.)</stage></p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>E züe nedder Mensch! Nurre schad, daß ’r mich nit versteht. M’r dhädde nit üwel züenand passe. Er
+          het Nümmero siwwezeh ghet, dis will i m’r merke.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>2. Scene.</head>
+        <stage type="character">Cécile, Sophie (von links).</stage>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <stage>(würdige, starke Matrone von ungefähr 45 Jahren)</stage>
+          <p>Cécile, hesch de schun bi’s Meyer’s de neije, Butzlumpe kauft?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ja, madame.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Denne Midda wurd d’ Stubb vun mim Mann uffgewäsche; ’s isch höchschti Zitt.</p>
+        </sp>
+        <pb n="8" />
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Do wurd’s awer noch hewwe, Madam. Er loßt Nieme-n-in sini Stubb. Er will nit gstört sin, saat ’r,
+          het ’r gsaat.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Isch dis nit e Kurweh mit dem Mann! Was macht ’r wirklich?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Do drinne lauft ’r erum wie e Muck in ere Drumm un babbelt mit sich selbscht.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>’s wurd m’r ball unheimlich, wenn dis so fort geht.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Er het ganz ’s équilibre verlore, d’r Schinder kummt nit drüs.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Daß er awer au gar nit saat, was er het!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Irid ebbs, was m’r nit wisse derfe, dis isch emol sicher.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Er wurd doch nit krank sin?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Jo Pfiffedeckel ! Ich will e Weddung druff mache, daß do irid e Heimlichkeit d’rhinter steckt. Der
+          Mann het kein Beschäftigung meh. Ich hab’s jo allewyl gsaat, ’s isch e Dummheit gsin, denne schöne
+          Epizierlade ze verkaufe. Wenn d’r Mensch nix ze schaffe het, ze fangt ’r mit de Viehheite-n-an.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>M’r sott’s fascht meine.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Madame, verlon Sie sich nur uff mich. Ich bin au ghirot gsin, un hab e Mann ghet, un e Dukelmüser,
+          wie kein größerer uff ’m Erdsbodde-n-erumgeloffe-n-isch. Ich versicher Sie awer, er het
+          könne-n-anstelle was er gewöllt het, der Daudel, ich hab’s erüskreijt.</p>
+        </sp>
+        <pb n="9" />
+      </div>
+      <div type="scene">
+        <head>3. Scene.</head>
+        <stage type="character">Die Vorigen. Enishänsel (durch die Mitte).</stage>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel</speaker>
+          <stage>(Mann von sechszig Jahren, gestutzter Schnurrbart, Schnupfernase — er priest zuweilen — Brille
+          mit blauen Gläsern, altmodischer Kragen; in der Rechten trägt er einen Koffer, in der Linken einen
+          großen Regenschirm. Er spricht fast durchweg sehr schnell):</stage>
+          <p>Bonjour, liewi Kusin, bonjour bisamme !</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Min Seel, d’r Désiré! Bonjour, Désiré! Wo kommsch denn dü here? Awer e surprise!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Güete Daa, Herr Enishänsel. 
+          <stage>(Nimmt ihm Hut Koffer und Schirm ab.)</stage></p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Kinder, Kinder, lon mich üsschnüüfe, lon mich üsschnüüfe. Nein, was e Wedder! Nit ze glauwe, so e
+          Wedder. — — Do hinne isch’s gemütlich. Gottlob, daß ich do bin.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Kummsch vun Bischwiller?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ganz erecht, directement mit ’m Isebahn. Hab e paar Kommissione ze b’sorje un möcht gern
+          e-n-assemblée mitmache. — — In Bischwiller isch wirklich nix los. D’ Hieser stehn als noch uff de
+          nämliche Stein, un ’s „Schwänel“ het sine Waddel noch nit verlore. Awer ’s allerneijscht : d’r alt
+          Schladenhauffen isch iwwergschnappt un sie han ne müen furtschaffe als incurable. Ja, so gehts als: so
+          e Mann het e-n-Idee, d’r Idee wurd e-n-idée fixe, d’r idée fixe wurd Narrheit, d’Narrheit wurd
+          Verrucktheit, un d’Verrucktheit wurd incurable. Voilà-tout. — Un wenn m’r nit bezitte d’rfor dhüed,
+          ze-n-isch d’r Mensch verlore.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Was dü nit saasch!</p>
+        </sp>
+        <pb n="10" />
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>’s isch noch allewyl so gsin un wurd so bliewe : wenn d’r Mensch verruckt wurd, no fangts im Hirn
+          an. — Gehts als noch güet, Cécile? Als noch bi d’r Familli Stieffatre ? Dis nenn ich Anhänglichkeit! —
+          — Awer was sieh ich? Sie het jo e gschwollener Backe!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Zitter gescht, Herr Enishänsel.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <stage>(sie betastend)</stage>
+          <p>Dhüet’s do weh?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ja. — Au, au!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ja dis derf m’r nit eso henke lon. Uff einmol setzt sich d’Ros nin, un d’rno kamm’r sechs Wuche lang
+          küriere. Do müeß e Düech drum. Sophie, lang doch gschwind e frisch’s Nasdüech.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Do isch eins.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel</speaker>
+          <stage>(verbindet sie):</stage>
+          <p>So, so! ’s isch e kleini Verkältung. Nurre warmhalte, daß nix bösartigs drüs wurd.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Merci, Herr Enishänsel. 
+          <stage>(Das Tuch behält sie während des ganzen Stückes an.)</stage></p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ja, so helft m’r d’r leidende Menschheit. M’r saat als, e-n-Abedeeker isch e halwer Dokter, ich awer
+          saa, zwei Dokter sin noch kein halwer Abedeeker. Die Experience, wo mir han, kann jo ken Dokter han.
+          Wenn so e Kranker in mini Abedeek kumme-n-isch, hawi ne z’erscht angelüejt, un hab d’rno ’s Recept
+          gemacht, wo im d’r Dokter verschriwwe het ghet. Armer Deifel, hawi als gedenkt, un hab d’Medicin
+          zsammegebäschtelt. Derwilsch hawi m’r denne Mann widder betracht vun owwe bis unde 
+          <stage>(er macht es vor)</stage>, 
+          <pb n="11" />un so het sich’s Au vun Aase dran gewöhnt ze sehn, wo d’r Mensch gsund un wo ’r krank
+          isch.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Dis glauwi gern.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ja ja, ja ja! Gsundheit isch Gsundheit, un Krankheit isch Krankheit. Un wo d’Gsundheit uffhört,
+          fangt d’Krankheit an. — — Awer was babbel ich d’ganz Zitt ! 
+          <stage>(zu Sophie)</stage> Jetz verzähl m’r doch emol — — was machsch denn dü un d’r Anatole?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>’s geht sowit ganz güet.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Nit ganz güet, Herr Enishänsel, wenn’s erlaubt isch, e Wort ze redde.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Oho — —! Wo hebt’s denn?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>D’letschte Woche han uns viel changement gebroocht.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>D’r Herr Stieffatre het ebbs im Kropf stecke, m’r wisse blos noh nit was.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Im Kropf? Ja isch ’r denn krank? — Nurre nix verdütscht — — dies kann alles nix helfe.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Wemm’r dis nur wüßt! Er isch halt absolument wie umgewendt, dü kennsch ne nimm.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Het ’r denn güete-n-Abbedit ?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Gottlob, esse kann ’r noch kräftig.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Hm — hm. Het ’r denn au — — bardon, dis will i ne doch liewer selbscht fröuje.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Do kannsch lang fröuje — — er saat nix, ken Wort schnüüft er.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Was sin denn sunsch noch for symptomes do?</p>
+        </sp>
+        <pb n="12" />
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>De ganze Daa isch ’r präoggubiert, wie in Gedanke; wenn m’r ebbs saat, isch ’r glich owwenüs; ball
+          rümort ’r wie wild in sinere Stubb erum — — un ball sitzt ’r widder do, un grüwelt un simlirt . . .
+          .</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Oh! oh! oh! oh!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ja Herr Enishänsel, denne Mann sotte Sie sehn! Ganz batawatisch un verstöwert isch ’r, wie wenn e
+          böser Geischt in ne ning’fahre wär. Mit d’r Madam redt ’r iwwerhaupt gar nix. Gewöhniglich dhüet ’r
+          sich in sinere Stubb inb’schließe; no bloost er sich als uff wie e Kidder und stellt sich en position
+          un scheschtikülirt mit Händ un Füeß — — un no rebbedirt er als: „wir sind ja alle Brüder“ — — un no
+          wurds widder ganz still.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Un mit keinere Lieb isch ze-n-erfahre, was do los isch.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Oh, oh, oh, oh! E merkwürdiger Fall!</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Hör Cécile, traa doch im Herr Enishänsel ’s Kifferle in sini Stubb. Er bliet bi uns üwer Nacht.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>’s isch erecht, madame 
+          <stage>(durch die Mittelthüre mit dem Koffer ab)</stage>.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>4. Scene</head>
+        <stage type="character">Die Vorigen ohne Cécile</stage>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Désiré — — m’r sin ellein — — jetz saa m’r uffrichtig un ehrlich . . . was denksch dü vun dere
+          Gschicht mit mim Mann?</p>
+        </sp>
+        <pb n="13" />
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Entre nous soit dit — — han ihr zwei Händel mitnand ghet?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Mais pas du tout, was denkt denn din Herz, nit ’s Geringscht. Zitter daß ich ’s vorigt Johr mit im
+          denne-Leids Krach hab ghet — weisch die Gschicht wäje d’r Sainte-Cécile in d’r Fanfare — — hamm’r
+          Fridde-n-im Hüs ghet.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Un uff einmol redd ’r nimm mit d’r?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>So viel wie gar nit. Nurre ’s Allernotwendigscht. Zwei Wuche wäre ’s ball sin.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ei, ei, ei, ei! — — Hm, hm. Dis sin ganz bedenklichi symptomes.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Hesch dü e-n-Ahnung, was dis könnt sin?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Poh — — dis isch nit schwer erüszebuchstewiere. 
+          <stage>(Für sich):</stage> ’s kann nur dis sin — oder ebbs andersch.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Um’s Himmelswille . . . es wurd m’r ganz kalt und heiß — — saa m’r’s wenn dü’s weisch — — erüs
+          d’rmit, es man sin, was es will, ich bin uff alles gerüscht.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>D’r Fall isch kumplizirt und doch widder ganz einfach. — — Hm, hm, — — Eh ben, müesch’s jo doch emol
+          erfahre; ’s het nurre zwei Möijlichkeite: entweder isch din Mann dir untreij — — oder er isch
+          verruckt.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Allmächtiger Gott, was saasch dü do?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>So müeß es sin, tertiom non datür.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Der Mann mir untreij! Der Mann e Liebschti newe mir! — — ’s wär jo e Schand! Ich
+          <pb n="14" />müeßt mich jo schäme-n-in de-n-Erdsbodde nin, so tief als wie e Has siwwe Johr lauft. — —
+          Was wär der Mann, wenn ich ne nit ghirot hätt! Dü weisch ’s Désiré, ich bin’s gsin, wo denne schöne
+          Lade-n-am Raweplatz in d’Eh mitgebroocht het als Hüsstyr, denn er het jo nix ghet, er wär commis
+          gebliwwe sin Lewe lang. Un was hawi dem Mann gemacht? Nix andersch als was ich im hab könne-n-an
+          de-n-Aue-n-absehn, gebitschelt hawi ne, gfleijt, hab im d’beschte Sache kocht — — un dis isch d’r Dank
+          for alli Lieb, wo ich an ne gewendt hab. Er soll awer schun sehn! Entweder sie oder ich. Ich hädd jo
+          ken Ehr im Lieb, wenn i m’r dis dhädd gfalle lon.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Jetz veryffer dich doch nit eso; m’r wisse jo noch gar nix; verlicht isch ’r numme verruckt.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>O nein, der Mann isch m’r untreij. Jetz weiß ich au, wurum daß ’r mich so schändli neglischiert.
+          Natürlich, wenn ’r e-n-anders Wibsbild im Kopf het, wurd for d’ghyrot Frau nimm viel üwrig bliewe.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Nur langsam, nur langsam . . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Un wenn ich driwer ze Grund geh, ich müeß bardü wisse, was do los isch.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ganz mini Meinung — — wie fange m’r dis jetz am beschte-n-an? 
+          <stage>(Er überlegt)</stage> Dis isch nix... dis au nit. . . Hm, hm . . . hm, hm... Halt Sophie, ich
+          habs! So gehts! M’r müen im e Bein stelle.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>E Bein stelle?</p>
+        </sp>
+        <pb n="15" />
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Nix einfachers uff d’r Welt. 
+          <stage>(Er zählt an den Fingern.)</stage> Wie hawi gsaat? — — Entweder er geht newesnüs oder er isch nit
+          erecht im Kopf. Dodrüs folgt: Wenn ’r nit newes nüs geht, isch ’r verruckt. Wer awer sini Frau gern
+          het, geht nit newesnüs. Au contraire, er wurd schallü, wenn m’r em Grund d’rzüe gitt; denn wo ken
+          Schallüsität isch, isch au ken Lieb.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ich versteh ken Wort vun dem, was dü do saasch.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Do isch doch nit viel dran ze verstehn. Mer müen de Anatole in e Sitüation bringe, wo er schallü
+          müeß wäre, wenn ’r dich noch gern het. Wurd ’r awer schallü weje Dir, ze-n-isch ’r verruckt. . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Oho, ich bedank mi schön!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Versteh doch, will ’r nur eins vun denne zwei kann sinn. . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ah so!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Wurd ’r awer nit schallü, ze-n-isch ’r d’r untreij. Denn do d’rdurch zait er, daß dü im nimm
+          anleijsch. An dem syllogisme isch gar nix üszesetze.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Wahrhafti, dü hesch erecht. Jetz awer wittersch ; dis isch Queschtion.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>E Kleinigkeit. Ich hab e güete Frind in Bischwiller, wo grad ewwe mit m’r uff Stroßburri
+          gfahre-n-isch. Der Mann wurd vun m’r instrüirt, daß er do here kumme soll — — — etcetera, verstehsch mi
+          — — dü bhandelsch ne in üffälliger Wis frindli — — kannsch züem Beijspiel e Rendez-vous mit im üsmache
+          — — eh
+          <pb n="16" />ben, verstehsch mi schun — — awer natierlich eso, daß es d’r Anatole merke müeß — — un
+          drno wölle m’r abwarte, ob dis Pflaschter zeijt oder nit.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Awer so ball wie möejli . . . je t’enprie.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Grad geh i züem un schick ne here. — — 
+          <stage>(Will fortgehen.)</stage> Awer was sieh ich? 
+          <stage>(Er betrachtet ihr Gesicht.)</stage> Dü hesch jo e kleins Pfizel uff ’m Backe.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ah, ’s isch jo wohr.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dis derf m’r nit eso henke lon. Dis könnt e-n-Eisse genn. Kumm her, ich mach d’r ebbs druff. 
+          <stage>(Er zieht aus der Westentasche ein größeres schwarzes Pflaster, beleckt es und klebt ihr es
+          mitten auf den Backen)</stage> So, so... jetz wurds schun hewwe.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Merci bien, merci bien. — Jetz geh awer glich un mach gschwind . . . ich kanns fascht nimm
+          üshalte.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ich geh. 
+          <stage>(Er kommt nochmals zurück.)</stage> Naturellement silence üwer unsre Plan, verstehsch mi, un wenn
+          d’r Herr üs Bischwiller kummt . . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Es soll nix fehle, ich will m’r Müehj genn. 
+          <stage>(Enishänsel durch die Mittelthüre ab)</stage> Dis het jetz au nit min Herz gedenkt, daß i noch
+          müeß Komedie spiele. O ihr Männer! 
+          <stage>(Nach links ab.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>5. Scene.</head>
+        <stage type="character">Anatole, dann Cécile, nachher Sophie.</stage>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(ein Mann von ungefähr 55 Jahren; kommt vorsichtig von rechts. Er hat einen Schlafrock
+          unordentlich an, sein Haar, das nicht gekämmt ist, hängt ihm ins Gesicht hinein. In der rechten Hand
+          trägt er einen Zettel, in den er zuweilen beim Memorieren einblickt)</stage>
+          <p>Gottlob, ’s isch Nieme do. Die Stubb isch größer, do geht’s besser. D’Akuschtik
+          <pb n="17" />isch au besser do. 
+          <stage>(Sieht auf’s Kanapee.)</stage> D’Sache sin schun abg’holt. Es wurd sich schun alles mache. Jetz
+          fehlt m’r blos noch d’r Jules, daß ich üwwermorje unschenirt üs mim Käfi kumm. 
+          <stage>(Er schaut sich vorsichtig um.)</stage> Also fange m’r noch emol do an, wo d’Societät fünf e
+          zwanzig Johr alt wurd. 
+          <stage>(Er stellt sich in Pose, d s Hochdeutsche spricht er mit auffallend elsässischem
+          Accent)</stage> „So hat denn die Fanfare nach fünf und zwanzig Jahren glorreichen Bestehens eine
+          glänzende Zukunft hinter sich“; halt, dis isch falsch 
+          <stage>(er blickt ein):</stage>. . . . ja so!... „eine glänzende Zukunft vor sich“. 
+          <stage>(Liest weiter):</stage> „Wir sind alle umschlungen von dem gemeinsamen Bande der Liebe und
+          Freundschaft . . . . wir sind ja alle Brüder!“ Bumme-n-un Granate, müeß dis e-n-Effekt mache, wenn ich
+          dis so erüsbrüel „wir sind ja alle Brüder!“ Dis het ’r famos gemacht, d’r Zittungeschriwer ; d’r
+          discours isch ganz großarti . . . ’r het au nit umesunscht drissig Mark koscht. Un wenn ich uff einmol
+          franzeesch anfang . . . . no kannsch awer lüeje, dü Nundebuckels-caissier! . . . dich dhüe ich noch
+          siwwe mol üsbisse, denk dran! Mais à l’œuvre! à l’œuvre! . . . ich will ken Zitt versüme .... ’s Fescht
+          isch jo schun üwwermorje . . . ’s isch höchschti Zitt. 
+          <stage>(Er liest):</stage> „Wir können es stolz sagen — und die heutige fünfundzwanzigste Sainte-Cécile
+          unserer Fanfare lehrt es uns — der Verein ist auf die höchste Stufe der Entwickelung gekommen . . . . .
+          “ 
+          <stage>(Er hält inne dann begeistert):</stage> Ja, so isch’s! Ich bin jo selbscht membre fondateur vun
+          d’r Societät un ’s gedenkt m’r noch hit, wie m’r im Anfang im e lumpige Waldhorn nochgeloffe 
+          <pb n="18" />sin, wo in d’r Siwwemannsgaß gewohnt het, owwe-n-im vierte Stock.... un jetz hammer meh
+          Waldhörner, als m’r brüche könne . . . Ja, ja . . . . „wir können es stolz sagen“ . . . .</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(durch die Mitte):</stage>
+          <p>Herr Stieffatre, d’r Kommissionär Nümero siwwezeh isch do gsin un het d’Sachen-abgholt.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(kurz):</stage>
+          <p>Ich weiß. 
+          <stage>(Leise für sich weiter studirend.)</stage> „Wir können es stolz sagen, der Kommissionär Nümero
+          siwwezeh isch do gsin“ . . . . Züem Dunderwetter noch emol, dis Wibsbild macht mich ganz maschukke . .
+          . .</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Er het au Ine-n-ihr Bombardon mitgenumme.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>De Bombardon? — — — Jaja, ’r müeß schun lang züem Instrümentemacher.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>D’r Kommissionär Nümero siwwezeh het awer gsaat, ’r isch for d’Kindtaif . . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ah so — — ganz erecht — — ’s isch jo d’r Instrümentemacher, wo Kindtaif het.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>D’r Kommissionär Nümero siwwezeh . . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Geh m’r doch züem dicke Deifel mit dim Kommissionär Nümero siwwezeh . . . . Mach daß de nüs kummsch,
+          oder i hilf d’r. Siehsch denn nit, daß i b’schäftigt bin? 
+          <stage>(Er brüllt sie an):</stage> I will nit gstört sin!!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich geh jo. 
+          <stage>(Für sie):</stage> Züe merkwürdig! 
+          <stage>(Durch die Mittelthüre ab.)</stage></p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Nix andersch als d’r Wunderfitz, wo die Wibsbilder plöuje dhüed. Un ich kumm nit wittersch. — Also
+          noch emol vun vorn. 
+          <stage>(Auswendig)</stage>: „So hat denn die 
+          <pb n="19" />Fanfare nach fünfundzwanzig Jahren eine glänzende Vergangenheit vor sich“ . . . O
+          Gasladern! Widder falsch. 
+          <stage>(Er sieht in den Zettel und prägt sich ein)</stage>: „eine glänzende Zukunft vor sich, eine
+          glänzende Zukunft vor sich, eine glänzende Zukunft vor sich“. So — jetz wurd’s doch sitze. 
+          <stage>(Er seufzt.)</stage> „Wir können es stolz sagen . . . der Verein ist auf die höchste Stufe der
+          Verwickelung gekommen! — Wir sind alle durch . . . . wir sind alle eine gemeine Bande, wir sind ja alle
+          Brüder!!“ O ich Roß Gottes am Palmsundaa! die Gschicht will noch gar nit gehn... ich hab schun jetz e
+          Kopf wie e Seschter un bin noch nit emol am franzeesche Dheil . . . . Wenn ich jetz uff einmol dhädd
+          stecke bliewe — — un nimmi wittersch wüßt — — ’s isch m’r schun grad, wie wenn mich e-n-Aff mit
+          Gockelsnüß verschmisse dhädd . . . . un min Herz klopft schun wie e Schüeschtershammer . . . . ’s wär
+          jo schrecklich! Dis wär jo d’r comble vun ere Blamasch!! 
+          <stage>(Er wischt sich den Schweiß aus dem Gesicht und wirft sich auf die Knie.)</stage> O heiligi Ste
+          Cécile! erbarm dich üwer mich, un lüej, was for e Müehj ich d’rmit hab, for denne discours üswendi ze
+          lehre . . . . ’s isch jo din Fescht, wo m’r fiehre . . . un dü wursch au nit wölle han, daß i stecke
+          blie; un wenn dü machsch, daß i denne discours güet halt, so versprich i d’r, so viel ze trinke, als dü
+          meinsch, daß es genüe isch . . . un au noch meh, wenn de’s verlangsch . . . . 
+          <stage>(Sophie von links.)</stage> Un ich gieb d’r d’heilig Versicherung . . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ich glaub, dir schwabbelt’s, daß dü so uff ’m Bode-n-erum fahrsch. Lehrsch am End e Lieweserklärung
+          üswendi . . . . oder sunsch ebbs. Wurrsch awer
+          <pb n="20" />noch e Hüfnaauel in d’r Wurscht finde, dis garandir ich d’r.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(ist ganz bestürzt aufgestanden und putzt sich die Kniee ab):</stage>
+          <p>O nein — — kein Idee — — ich hab jo — — ich hab jo nurre-n-e Guff gsüecht, wo ich verlore hab.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Mir machsch nix vor . . . . dis kannsch d’r merke.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(für sich):</stage>
+          <p>O jeh, jetz kummt au die noch mit irem Drzwischegebabbels. Un ich müeß doch lehre. 
+          <stage>(Ärgerlich)</stage>: Loß mich in Fridde — — ich hab nit d’r Zitt. 
+          <stage>(Sophie bleibt kopfschüttelnd stehen.)</stage> Sacré matin noch emol! ich hab ze schaffe. 
+          <stage>(Er brüllt sie an):</stage> Was witt denn?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ich hab dir blos saaue welle, daß d’r Désiré kumme-n-isch.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Sunsch nix? — — Dis isch m’r nix Neijs — — dis sieh ich schun an dim verbebbte Gsicht. 
+          <stage>(Halblaut, aber so, daß es Sophie hören muß):</stage> „Wir sind ja alle Brüder“ . . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ja, un dü d’r allersüferscht! 
+          <stage>(Ab nach links, die Thüre hinter sich ärgerlich zuschlagend.)</stage></p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Wenn mini Alte nurre nix gemerkt het — — sie dhädd mir d’ganz Baschdeed verderwe.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>6. Scene.</head>
+        <stage type="character">Anatole, Karcher.</stage>
+        <sp who="#karcher">
+          <speaker>Karcher</speaker>
+          <stage>(schmales Männchen von ungefähr 45 Jahren, ganz in schwarz gekleidet, Gehrock, Filzhut ; spricht
+          trocken und etwas zaghaft ; macht überhaupt einen schüchternen Eindruck:</stage>
+          <p>Bonjour, Herr Vicepräsident. Dü hesch m’r gschriwwe...</p>
+        </sp>
+        <pb n="21" />
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ah, do bisch jo. Bonjour, Herr Schriftführer. Y-a-t-il quelque chose de nouveau? 
+          <stage>(durchweg schlechte Aussprache)</stage>.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ich wärd so wie so kumme wäje’m Fescht . . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Pscht! pscht! 
+          <stage>(legt den Finger auf den Mund)</stage>. Vorsichtig! Mini Litt derfe nix d’rvun wisse. Sollsch au
+          glich erfahre wurum. — Also d’abord, was gitts Neijs?</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>D’Dekoratione vum Saal sin gfitzt arranschiert. Nurre mein ich, m’r sotte noch e schöner transparent
+          mache lon mit d’r Uffschrift „Fanfare 1872—1897! Sainte-Cécile N° 25“. Es macht sich arri schön. Wie
+          ich noch in Bischwiller bin gsin bi d’r Harmonie, hamm’r au so e Ding gemacht un ’s het allgemein
+          g’falle.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Eh ben, loß es mache. Es kummt uff e paar Sü nit an.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ich bin au bim Wirt gsin, un der het m’r mitgenn, daß d’r Kalbskopf en tortue eweck müeß, wil nurre
+          fünf Gäng üsgemacht sin worre; uff ’m Menü, wo m’r han drucke lon, stehn sechs.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Un ich saa, er derf nit eweck... es geht nit.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Der Wirt isch awer in sim Recht . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ça ne me regarde pas. Ohne de Kalbskopf kann ich mini Redd nit halte. ’s isch alles ingedheilt, un
+          dis kann jetz hintenooch nit widder umgschmisse wäre. Dis dhädd e schöns Gschlamassels genn.</p>
+        </sp>
+        <pb n="22" />
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Er het awer gsaat, ’r kann’s Kuvert for denne Pris nit liffere.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ze bleche m’r halt statt 4 Mark fuffzig 5 Mark. Dis isch nit ze viel bezahlt, wenn’s güet isch.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Was wurd awer d’r Herr Präsident d’rzüe saaue ?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Sappristi! Der Präsident isch krank, un so lang ’r krank isch, bin ich d’r Präsident. Do springt m’r
+          keiner drüwer.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Mir soll’s erecht sin. — ’s isch züe Schad, daß er nit kumme kann. Er het als so schöni Redde
+          ghalte.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Die Redd, wo ich halt, wurd au nit schlecht, je t’assure. Es gitt ebbs ganz Neijs.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Derf m’r villicht wisse was?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ich will d’r ’s saa — entre nous, verstehsch — es soll e surprise genn. Ich hab en projet, mine
+          discours in zwei Sprooche ze halte. Je pense que ça suffira.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Dis langt joh for Hosse-n-un Schilet.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Zerscht isch die Redd ganz ditsch un d’rno ganz franzeesch. Un gfitzt, was gfitzt heißt.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Wurum nit uf Stroßburjerditsch? ’s isch doch sunsch allewyl so geredt worre.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ih hab m’rs emol so in de Kopf gsetzt — ça me plait ainsi. Bi denne viele Delegatione, wo züe unserm
+          anniversaire kumme, müeß ebbs Üßerordentlichs geleischt wäre.</p>
+        </sp>
+        <pb n="23" />
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ich denk awer... wie ich noch in Bischwiller bin gsin bi d’r Harmonie . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Do gitt’s ken Nein un ken Awer. — Es müeß so sin. 
+          <stage>(Er nimmt ihn bei Seite.)</stage> Dü weisch, wie m’r in d’r letschte-n-Assemblée driwwer
+          diskeriert han, wer de discours soll halte for de kranke Präsident. Un ’s wurd d’r noch gedenke, wie
+          d’r caissier vor alle membres gemeint het, m’r könnt mir d’Redd nit genn, m’r könnt mich iwwerhaupt nit
+          brüche-n-als Vicepräsident . . . ich könnt nit ditsch un nit franzeesch! Et tu sais ce que j’ai dit le
+          même jour... wenn sie mir d’Redd eweckgenumme hätte, hätt ich uff d’r Stell mini Demission genn.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ja, ja, ich weiß.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Wie kann denn der Mensch mir saaue, ich kann nit ditsch un nit franzeesch! II ne manquerait plus que
+          ça! E membre, wo erscht zitter dreij Johr in d’Societät erinschmeckt. Mais ce qu’il y a de certain —
+          ich wur im noch e Denkzettel anhenke, dem dumme Bebbelenz.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Dis isch ’r. — ’r het’s nit sotte saaue.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>E Niddertracht isch’s, e Gemeinheit, e Beleidigung for d’ganz Societät! — — Un siehsch, schun weje
+          dem müeß ich zaije, was ich kann un was ich ze leischte-n-im Stand bin.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>E surprise gitts uff jede Fall, do hesch erecht. — Hesch dich schun e bissel prepariert ?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Poh! — — was brüch ich mich groß ze prepariere! Am Daa vun d’r Sainte-Cécile iwwer-
+          <pb n="24" />leij ich m’r e bissel, was ich saaue will, et ça se fait comme ça.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Alle Reschpekt d’rfor! — — Awer ich müeß gehn. Ich will noch gschwind lüeje, was d’r Präsident
+          macht. Au revoir, Herr Vicepräsident.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Au revoir, Herr Schriftführer.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher</speaker>
+          <stage>(geht bis zur Thüre, kehrt sich um):</stage>
+          <p>Hesch m’r nit noch ebbs ze saaue ghet? Dü hesch m’r doch gschriwwe . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dunderlettel noch emol! Wo hawi denn mine Kopf? Natürlich, natürlich... ich spann jo schun de ganze
+          Morje uff dich wie e Sperwer. — Ich müeß dich nämlich um ebbs bitte — — um e Kleinigkeit. Gell, dü
+          lachsch nit driwwer.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Awer wurum denn?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Wie ich d’r schun gsaat hab — dis heißt, gsaat hawi’s noch nit, awer dü kannsch d’r’s denke — mini
+          Litt sin gar nit d’rmit inverstande, daß ich uff d’Sainte-Cécile geh — c’est à dire sie wisse gar nix
+          d’rvun. Denn wenn’s erüs kummt, kann ich mini Sainte-Cécile in minere Stubb mit em Stickele Käs un Brod
+          fiere.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Geh, mach Plän.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>’s isch eso. Loß d’r die Gschicht emol expliziere, wie dis Dings an enander henkt. — Uff d’r
+          letschte Sainte-Cécile — dü bisch jo au drbi gsin — het’s d’r Züefall gewellt, daß ich am Owes züem
+          Henry, wo’s Gewitter mache müeß im Fremersberry, un züem erschte Piston ze sitze bin kumme. Mir sin
+          heiter un fidel — — d’r Henry arretiert ein Liter um de-n-andere — m’r klopfe noch e paar Extrabudelle,
+          daß es besser rutscht —
+          <pb n="25" />— affin — — küm hamm’r uns versehn, ze fangt d’r Morje-n-an ze bleiche.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ja, wenn m’r en société isch . . . ihr wäre ghet han, was ’r gebrücht han.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Hör wittersch. Die Gschicht fangt jo ererscht an. — Wil’s halt schun acht isch gsin, hawi nit heime
+          getröujt. Züem Unglück proposirt jetz d’r Henry, e kleini Promenad ze mache. Mir also, mit unsrem
+          anständige Burjerskischtel, troddle los, kaufe Häri un Rollmöps uff’m alte Fischmärk, mache-n-e paar
+          Statione for apéritif, absynthe etc. un kumme so — ohne daß m’r’s wisse — uff’m Grüneberry im
+          Gänsgraaue-n-an. Jetz isch’s awer widder los gange! Nom d’un canon, wenn ich noch dodran denk! Bref:
+          m’r bliwe drüsse hocke d’ganz Naacht durich un ich kumm erscht am nächschte Daa am Morjes geje de zehne
+          heime.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>E netti Leischtung.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Un in was for eme-n-état! Figure-toi: e Schlenzer in de Hosse, fuffzeh Centimeter lang, de Hüet
+          verlore, de Pardessü henke lon, de Rock verrissen-un e Blechschäddel, daß i gemeint hab, e ganzi Laad
+          voll Maikäfer surre m’r im Kopf erum. Mini Alt het mich schun erwart — — sie isch in d’r
+          gröschte-n-Uffreijung gsin. Sie lest m’r e Leids Lawaß erunter, ich fang an fuchsdeifelswild ze wäre —
+          — un so gitts e Spektakel, daß d’ganz Noochberschaft zsammelauft.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Nit e Wunder!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ich also leij mich ins Bett un schloof mi üs — ich habs nöti ghet.</p>
+        </sp>
+        <pb n="26" />
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>’s isch au ’s bescht gsin.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Am nächschte Daa, wie ich verwach, denk ich m’r, jetz wurd widder alles güet sin. Ja, Lohkäs. Ken
+          Wort het mini Alt geredt: un ’s Sainte-Cécile, will ich saaue ’s Cécile, mini Magd, het mich nit emol
+          angelüejt. Un dis Gsicht vun minere Frau! Ich bin als zsammekeijt wie e Muck, wenn ich’s gsehn hab.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ja, ja, ich kenn dis üs aijener Erfahrung.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>So het’s e Monet lang gewährt, drno het’s e-n-armistice genn, un am e schöne Daa hamm’r uns widder
+          versöhnt. Ich hab awer minere Frau in d’Hand verspreche müen, daß i uff kein Sainte-Cécile meh geh un
+          nimmi drum anhalt. Was dhüed m’r nit for de Fridde! — — Affin, jetz wursch alles begriffe.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>E verflüemti Sitüation, dis.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ja, ich mein au! Was will i awer mache? Uff d’r einte Sitt steht züem erschte d’Societät, wo ich als
+          Vicepräsident repräsentiere müeß, 
+          <stage>(mit erhobener Stimme):</stage> züem zweite mini Redd, wo im caissier zaije soll, daß ich au
+          moins grad so viel Spiritüs im Kopf hab wie er, 
+          <stage>(wieder leiser):</stage> züem dritte ’s fünfezwanzigjährig anniversaire vun d’r Sainte-Cécile, e
+          Fescht, wo nur alle fünf e zwanzig Johr vorkummt — — un uff d’r andr Sitt steht mini Frau un mini
+          Dinschtmagd.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Mit dine Domeschtike wursch awer doch ball ferdi wäre.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dü hesch güet redde. Du weisch gar nit, wie die zwei anenander henke. Dis isch e Geschnakkels de
+          ganze Daa un e Gebüschbers . . . m’r han ’s Cécile halt
+          <pb n="27" />schun e bissel arig lang — — macht awer nix, macht awer nix. Wenn ich’s emol bi irid ebbs
+          üshebb, ich gib im de congé — — un do kann drüs wäre, was will.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ze redd doch mit dinere Frau . . . . die het doch ellein ze kummedire. Explizier’s ere-n-emol. . . .
+          .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Um’s Gottswille nur dis nit. Vor e paar Woche hawi emol e bissel druff angsüecht un bin mit eme
+          dauwe Schäddel heime gschickt worre. — — Nein, nein, es geht nit andersch. 
+          <stage>(Tonlos):</stage> Iwwermorje-n-Owes müeß ich durichbrenne.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Durichbrenne?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>C’est ça, un dü müesch m’r drbi helfe.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>O jeh!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dü derfsch m’r denn kleine service nit refüsiere. Also hör: mini schwarz Klift un mine Bombardon
+          hawi schun durich e Kommissionär züe ’me güete Frind bsorje lon. Jetz gehsch dü züe minere Frau, un
+          saasch ere, am Samschdaa Owes wär e gschäftliche Besprechung, m’r welle saaue in Schilke, Un ’s wär ari
+          notwendi, daß i persönlich kumm, wil ’s sich um e placement vun Geld handle dhädd. — Dü kannsch dis
+          ganz güet dhüen, dü kennsch jo mini Alt nit un sie dich noch wenijer.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Versüeche will is schun, awer . . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Nurre kein Angscht. Mini Alt het jo kein Idee vun dere Sainte-Cécile ! Jetz mach dini Sach güet un
+          saa m’r hernooch Antwort. 
+          <stage>(Nach rechts ab.)</stage></p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Güet gelöuje-n-isch au nit wüscht. — Also los! 
+          <stage>(Er klopft mehrmals links an.)</stage></p>
+        </sp>
+        <pb n="28" />
+      </div>
+      <div type="scene">
+        <head>7. Scene.</head>
+        <stage type="character">Karcher, Sophie (läßt ihn kaum zu Worte kommen).</stage>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <stage>(nach einer Verbeugung)</stage>
+          <p>Ih hab doch d’Ehr mit d’r Madame Stieffatre?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ganz erecht. 
+          <stage>(Für sich):</stage> Sott dis d’r Mann sin, wo mir d’r Désiré schicke will? ’s schint fascht so.
+          Ich will ne doch glich fröuje. 
+          <stage>(Laut)</stage> Sin Sie der Herr üs Bischwiller ?</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>So isch’s, ich bin üs Bischwiller. 
+          <stage>(Für sich)</stage>: Woher weiß sie dis nurre?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ze saa ich ’ne vielmols merci, daß Sie sich dohere bemühjt han. Angenehm isch’s jo nit grad, was Sie
+          iwwernumme han — —</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <stage>(kurzer Einwurf)</stage>
+          <p>Nein gar nit ....</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <stage>(ohne sich beirren zu lassen)</stage>
+          <p>Awer ich versicher Sie, mir isch’s einfach schrecklich, mich züe so ebbs here ze genn. Was will m’r
+          awer mache? M’r schikt sich drin, dis isch’s Bescht.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ja, dis isch’s Bescht. 
+          <stage>(Für sich):</stage> Ich versteh kein Wort.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Kenne Sie mine Mann?</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>O ja, ganz güet.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Tant mieux, tant mieux! Sie wäre ne vun Bischwiller her kenne, ’r het als früehjer drüwwe viel ze
+          dhüen ghet. ’r wurd sich nit üwwel verwundere, wenn m’r mit unsrem Kumedie anfange. Un for de
+          <pb n="29" />Fall, daß es je e kleiner Skandal sott’ genn — was jo leider Gotts nit ze hoffe-n-isch —
+          ze bitt ich Sie im Vorüs, alles ze-n-exküsiere ; Iri Müehj soll ’ne güet belohnt wäre.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Wurum soll’s denn awer e Skandal genn?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ja, ja, ich weiß, daß m’r lang druff warte könne. ’s isch arri genüe. Awer Gottlob, daß m’r
+          wenigstes ball erfahre, wo dran daß m’r sin. Denke Sie emol die Uffreijung zitter zwei Woche! Un jetz
+          sitz ich wie uff Guffe-n-un Noodle, dis könne Sie m’r glauwe.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ich awer au, madame. 
+          <stage>(Nach einer Pause)</stage>: Wisse Sie madame, am nächschde Samschdaa Owes isch in Schilke...</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ich weiß, ich weiß. Der Kirchechor gitt e Konzert. M’r sin au ingelade. 
+          <stage>(Pause, für sich):</stage> Der isch stiff wie e Säejbock. 
+          <stage>(Laut):</stage> M’r wölle-n-in mini Stubb gehn. M’r warte, bis ’r vun selbscht erinkummt. Un drno
+          kann’s Kumedie los gehn.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher</speaker>
+          <stage>(Für sich):</stage>
+          <p>Ich fercht fascht, es gitt e tragédie. 
+          <stage>(Laut):</stage> Wenn m’r nämlich Geld placiere will...</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Kumme Sie, wenn’s beliebt. Verzähle Sie m’r ebbs vun Bischwiller. Ich interessir mich arri
+          drfor.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher</speaker>
+          <stage>(für sich):</stage>
+          <p>Awer ich nit. Hätt ich nur schun mini Kommission üsgericht! 
+          <stage>(Laut)</stage>: Eh ben, ich kumm. 
+          <stage>(Für fich)</stage>: E füerichti Familli ! 
+          <stage>(Beide nach links ab.)</stage></p>
+        </sp>
+        <pb n="30" />
+      </div>
+      <div type="scene">
+        <head>8. Scene.</head>
+        <stage type="character">Enishänsel, Schanté (durch die Mitte).</stage>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Kumm erin, Barthélemy, kumm erin. Sychsch, dis isch d’r Platz, wo dü dini Lorbeere verdiene
+          kannsch.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté</speaker>
+          <stage>(diefer Mann von ungefähr 40 Jahren, mit rotem, pfiffigem Gesicht. Bäurisch angezogen. Er trägt
+          auf dem Backen ein ähnliches Pflaster wie Sophie):</stage>
+          <p>Oder wo ich nüsgschmisse wur, ’s isch jo ’s nämli.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Kopf hoch, Barthélemy, Kopf hoch! Halt dich nur an dini Instrüktione. Wenn de’s güet machsh, ze
+          gitt’s e Souper Nümero Pfiff. Jetz awer d’Hauptsach : stopf dine Ehring ins Schilesäckel 
+          <stage>(Schanté steckt ihn ein)</stage> un loß nix d’rvun verlütte, daß de schun dreij Kinder hesch. E
+          lediger Mann isch viel gfährlicher, wie e ghiroter, un wer dreij Kinder het, der het schun e starki
+          Familli. D’r alt Stieffatre müeß absolument in de Glauwe gebroocht wäre, daß dü uff sini Frau brennsch.
+          Un wenn de merksch, daß d’Flint losgeht, — d’rno furt wie’s Dunderwedder.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Verlonn Sie sich uff mich, Herr Enishänsel, m’r wäre’s schun packe.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Zaij denne Litt, daß e Bischwillemer züem Wenigste grad so viel Schokola gfresse het, wie e
+          Stroßburjer.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Ich mein au!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dü weisch wodruff daß es ankummt.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Lon Sie mich nur mache. Wenn ich emol ze schmüse-n-anfang, ze kracht’s.</p>
+        </sp>
+        <pb n="31" />
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Bravo, bravo! Ich sieh, ich hab mich mit d’r nit trumpiert. Ich loß dich jetz ellein.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>’s isch güet, Herr Enishänsel.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel</speaker>
+          <stage>(will fortgehn ; er kommt zurück, schaut sich das Pflaster an):</stage>
+          <p>Hebbt’s noch? Nurre nit eweck mache, es könnt züe licht e Knochefraß genn. Au revoir. Barthélemy. 
+          <stage>(Durch die Mitte ab.)</stage></p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>E rechts Büewestickel. Awer was geht’s mich an! — — Halt, was hör ich? ich mein, d’Madam Stieffatre
+          kummt schun. Soll ich glich mit ’m Spück anfange? ’s wurd ’s Bescht sin; no bin ich au famos entrain,
+          wenn d’r Alt driwer kummt. 
+          <stage>(Cécile durch die Mitte.)</stage> Wahrhafti dis isch sie. Sie het Zahnweh.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>9. Scene.</head>
+        <stage type="character">Schanté, Cécile, nachher Anatole,</stage>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Bonjour, Madam. Ich kumm vum Herr Enishänsel.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Bonjour m’sieur. 
+          <stage>(Für sich):</stage> Madam het ’r mich titliert! Der Herr Enishänsel wurd ’m gsaat han, daß ich
+          Wittfrau bin.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Ich bin d’r Herr Barthélemy Schanté.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(affektiert):</stage>
+          <p>Enchanté de vous voir m’sieur Schanté. 
+          <stage>(Für fich):</stage> Barthelmeh heißt ’r. D’r schönscht Namme wo’s gitt. 
+          <stage>(Laut):</stage> Was beliebt Herr Schanté ?</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Offe-n-erüs gsaat, ich kumm nur wäjen-Ine, madame.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(triumphierend für sich):</stage>
+          <p>Er kummt wäje mir!</p>
+        </sp>
+        <pb n="32" />
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Ich hab schon so viel Schöns un Güets vun ’ne ghört, daß ich mich wirklich fraij, Sie kenne ze
+          lehre.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Vous êtes bien aimable, m’sieur. 
+          <stage>(Für sich):</stage> E gfitzter Typ! Ganz andersch mie d’r Kommissionär Nümero siwwezeh.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Un so hoff ich denn au, daß Sie mich nit schlecht uffnemme wäre, wenn Sie erfahre .... wenn Sie
+          erfahre ....</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Redde Sie nurre, redde Sie nurre....</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>. . . . daß Sie m’r ganz miserawel . . . güet gfalle . . .</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich Ine?</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>. . . un daß ich nimm lewe kann ohne Sie. 
+          <stage>(Für sich):</stage> ’s geht, wie gschmiert.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>
+          <stage>(Für sich):</stage> Wie kumm ich züe dem große Glück! Sott min Traum in Erfüllung gehn? — — Halt,
+          vorsichtig. 
+          <stage>(Laut):</stage> Jetz müeß ich Sie awer doch dumm fröuje.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Plait-il madame?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Sin Sie ghirot?</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Ja natürlich, ich bin ghirot — — bardon, dis heißt, ich bin’s gsin. Ich bin Wittmann.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(entzückt):</stage>
+          <p>E Wittmann! — Ohne Kinder?</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Ich hab nur dreij Kinder — — bardon, dis heißt, mini Mamme het dreij Kinder. Ich, zuem Beijspiel,
+          bin e Kind vun minere Mamme.</p>
+        </sp>
+        <pb n="33" />
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Dis isch jo großarti. 
+          <stage>(Für sich):</stage> Jetz loß i de Kommissionär Nümero siwwezeh fahre. 
+          <stage>(Laut)</stage>: Herr Barthelmeh . . . .</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté</speaker>
+          <stage>(für sich):</stage>
+          <p>Sie redd mich schun mit ’m Vornamme-n-an. Jetz derft d’r Alt kumme.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Liewer Barthelmeh .... liewer Barthelmeh . . . . 
+          <stage>(Sie nähert sich ihm.)</stage></p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté</speaker>
+          <stage>(für sich):</stage>
+          <p>O, dü heiliger Strohsack !</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Dü kummsch wäje mir . . . . dü witt mich hirote.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Natürlich, natürlich . . . 
+          <stage>(bei Seite)</stage> wenn’s emol drizeh schlaat.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>’s isch doch züe schön, ’s Familjelewe.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Un b’sundersch mit ere Person wie Sie !!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Dü derfsch m’r nimmi „Sie“ saaue. Denn ich glaub, m’r sin im Moment, for uns ze fianciere. 
+          <stage>(Sie geht auf ihn zu.)</stage></p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>M’r sin uff ’m beschte Wäj d’rzüe. 
+          <stage>(Für sich):</stage> Isch dis jetz Ernscht oder Gspaß ? 
+          <stage>(Anatole kommt von rechts ; Schanté bemerkt ihn; für sich)</stage>: Jetz awer losgeleijt, jetz
+          kummt’s druff an.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <stage>(steht so, daß sie Anatole nicht bemerkt)</stage>
+          <p>Wer het gedenkt, daß i noch so glückli wur!!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(bemerkt die beiden nicht; vor sich hin memorirend)</stage>
+          <p>À plusieurs mains l’ouvrage avance. 
+          <stage>(Er bewegt beständig die Lippen)</stage></p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>So kumm denn an min Herz, min güeter, liewer Barthelmeh! 
+          <stage>(Sie umarmen sich; der Kopf Schanté’s schaut nach dem Publikum.)</stage></p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Jetz wurds güet. 
+          <stage>(Schneidet eine Grimasse.)</stage></p>
+        </sp>
+        <pb n="34" />
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(w. o.)</stage>
+          <p>L’union fait la force! Vive la Fanfare!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Gieb m’r e Schmutz. 
+          <stage>(Sie küssen sich.)</stage> O wie hawi dich so gern! Jetz könnt i grad sterwe!</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <stage>(noch immer in der Umarmung)</stage>
+          <p>E warmi Person !</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>A plusieurs forces... à plusieurs mains ... 
+          <stage>(Er stößt an beide an. Er ist sprachlos vor Verwunderung ; noch nicht im Affekt)</stage>:
+          Herrschaft noch emol! Dis isch doch e bissel starker Düwack.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>
+          <stage>(will sich los machen, was ihm aber nicht gelingt)</stage>: Allons, lon Sie mich doch gehn.
+          Cécile 
+          <stage>(zärtlich)</stage> Barthelmeh !!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(indem er in die Hände schlägt und auf den Boden stampft, im höchsten Affekt):</stage>
+          <p>Potz Mordgallee ! 
+          <stage>(Beide fahren auseinander, Cécile schreit laut auf.)</stage> Wölle-n-er glich üsenander gehn! E
+          Rendez-vous in mim Hüs! Standare Sapperment!</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>’s Gewitter schlaat in. Ich mach, daß i los kumm. 
+          <stage>(Sucht seinen Hut.)</stage></p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(zu Cécile):</stage>
+          <p>Was hesch dü in mim Hüs mit dem Manschettebüer ze schaffe?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Denne Mann loß i nit beleidige. Dis isch min Liebschter!</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté:</speaker>
+          <p>Bonjour bisamme. Au revoir, ma Chérie! 
+          <stage>(Er wirft ihr eine Kußhand zu.)</stage></p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Halt, bliewe Sie! bliewe Sie.</p>
+        </sp>
+        <sp who="#schante">
+          <speaker>Schanté</speaker>
+          <stage>(durch die Mitte ab):</stage>
+          <p>Hit nimm; e-n-ander Mol.</p>
+        </sp>
+        <pb n="35" />
+      </div>
+      <div type="scene">
+        <head>10. Scene.</head>
+        <stage type="character">Anatole, Cécile.</stage>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>’s isch empörend! — Un dü schämst dich nit, for so e-n-alti Person, mit eme Mann erumzeschmüse wie e
+          jungs Maidel ?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Herr Stieffatre . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>A présent halt’s Mül! 
+          <stage>(Für sich):</stage> Gottlob, endlich e-n-occasion für dis Muschter züem Tempel nüszeschmisse. 
+          <stage>(Laut und entschieden)</stage>: Geh nuff in dini Kammer un mach din Bindel. Dü bisch ferdi in
+          dem Hüs do.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(heulend):</stage>
+          <p>Ich bitt Sie um Alles in d’r Welt . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Nix do! nix do! nix do! — — Dü meinsch, dü kannsch do mache, was de witt. Ich will d’r awer noch
+          zaije, wer Herr im Hüs isch!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(w. o.):</stage>
+          <p>Ich versprich ’ne...</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ih hab dich schun lang satt, daß de’s nurre weisch. ’s isch ferdi mit uns... absolument ferdi. Jetz
+          pack dini Bimbelebaasch zsamme, no kreijsch din Geld un dini Invalidekaart, un d’rno kannsch gehn.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(w. o.):</stage>
+          <p>Herr Stieffatre, güeter Herr Stieffatre . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ich saa dir, Sainte-Cécile, wenn dü mich wüedi machsch . . . Sainte-Cécile, ich saa dir...</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(schaut verwundert auf):</stage>
+          <p>Sainte-Cécile — — ?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Holla — — wer saat ebbs vun ere Sainte-Cécile? . . . . Dü meinsch doch nit . . . .</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Sie han mir jo Sainte-Cécile gsaat.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Nein Sainte-Cécile, ich hab Cécile gsaat.</p>
+        </sp>
+        <pb n="36" />
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Sie saaue ’s jo schun widder. — — Aha! Jetz geht m’r e Liecht uff. Herr Stieffatre, jetz weiß ich
+          alles.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Was weisch? — — ’s isch nit wohr — —</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Herr Stieffatre, Sie gehn uff e Sainte-Cécile.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dir isch, glauwi, nit güet. Wie kummsch denn uff so ebbs?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Jetz weiß i au, wurum Sie Ire Bombardon un Iri schwarzi Klift han hole lon, jetz weiß ich au, wurum
+          Sie allewyl so stüdiere un üswendi lehre ... Uff d’r Stell geh ich nin züe d’r Madam un saa ’re, wo
+          d’Kindtaif gefiert wurd.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(erschrickt)</stage>
+          <p>Was witt dü mache?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich geh d’r Madam saaue, daß Sie uff e Sainte-Cécile gehn. 
+          <stage>(Sie will gehen.)</stage></p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(hält sie zurück):</stage>
+          <p>Pscht! pscht! witte stille sin! 
+          <stage>(Für sich):</stage> O, ich Dolle!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich möcht noch d’r Madam de letschte Dienscht erwiese, eb daß i furt geh.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Pscht! pscht! dü brüchsch nit furt, wenn d’noch bliewe witt.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Also Sie gehn wirkli uff e Sainte-Cécile! Awer nein!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dis hawi nit gsaat. — — Hör, wenn de nix verrootsch, ze will i vergesse, was i hit gsehn hab.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Isch dis alles? Do d’rmit bin i nit zefridde.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ja was witt denn sunsch noch? 
+          <stage>(Für sich):</stage> O, ich Rhinozeros !</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Zerscht dhüe ich ’ne annonciere, daß ich mich mit ’m Barthelmeh hirot.</p>
+        </sp>
+        <pb n="37" />
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dis geht mich nix an. Wittersch.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Wenn m’r hirot, ze will m’r e Hüsstier vun sinere Herrschaft, surtout wenn m’r so lang in d’r
+          nämliche Stell gewese-n-isch.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Wie viel witt denn han?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Züem wenigschte zweihundert Liwer.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Zweihundert Liwer! Ja do, was meinsch ! Dis isch ze viel, dis gib ich nit.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Eh ben, ze geh ich züe d’r madame: ich müeß ere-n-ebbs verzähle. 
+          <stage>(Will gehen.)</stage></p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(hält sie zurück):</stage>
+          <p>Ze blie doch! ze blie doch! 
+          <stage>(Für sich):</stage> Ich möcht grad üs d’r Hüt nüs fahre! 
+          <stage>(Laut):</stage> Affin, ich gib d’r se, daß d’arm Seel Rüehj het.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich dank schön, Herr Stieffatre. Sie sin züe güet.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Awer dü saasch au nix vun dere Sainte-Cécile.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ken Wort schnüüf ich drvun, ich versprich’s ne.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Abgemacht.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich denk, ich blie noch bis züem nächschte Ziel, un drno hirot ich mich.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>’s isch güet.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich geh jetz nüs wittersch beijle, daß d’r Herr e schöns Hemd het, wenn ’r uff d’Sainte-Cécile geht.
+          
+          <stage>(Durch die Mitte ab.)</stage></p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(in sich hinein):</stage>
+          <p>Alts Laschter !</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>11. Scene.</head>
+        <stage type="character">Anatole, nachher Karcher und Sophie.</stage>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>O, ich Troddel! — — Jetz will i doch gschwind im Herr Marbach schriewe, der isch m’r noch e Nott vun
+          <pb n="38" />fünfhundert Liwer schuldi. 
+          <stage>(Er setzt sich so an den Tisch, daß er dem Publikum das Gesicht zukehrt.)</stage> Zweihundert
+          Liwer isch e bissel ari viel, awer m’r mießt jo so wie so ebbs genn. 
+          <stage>(Er schreibt):</stage> „Sehr geehrter Herr Marbach, erlaube mir hiermit gütigst, Sie daran zu
+          erinnern“....</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie</speaker>
+          <stage>(mit Karcher von links; leise zu Karcher):</stage>
+          <p>Kumme Sie; do sitzt ’r un schriebt.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(sie bemerkend):</stage>
+          <p>Sin die als noch nit ferdi? Ja, ja, wer minere-n-Alt emol in d’Händ gerooth . . . . 
+          <stage>(Er steht auf; zu Sophie):</stage> Ich geh nüwwer, wenn de witt ....</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>O nein, blie numme, m’r dhüen dich nit lang deranschiere.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Mir isch’s au liewer. 
+          <stage>(Anatole setzt sich wieder und schreibt: Karcher und Sophie setzen sich
+          gleichfalls.)</stage></p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie</speaker>
+          <stage>(affektirte Sprache):</stage>
+          <p>Ja, denke Sie, ich dhädd züe gern emol nüwwer uff Bischwiller fahre. ’s isch doch e-n-ari schöns
+          Städtel. Min Mann könnt freijli nit mitkumme, er isch ze präoggubiert, er het andri Sache-n-im Kopf.
+          Awer was schadt dis? Ellein amesiert m’r sich jo viel besser. 
+          <stage>(Leise zu Karcher)</stage>: Jetz saaue Sie doch ebbs.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Die verkohlt denne-n-arme Jules, daß ’r blöuj anlauft. Un ich kann nit schriewe. 
+          <stage>(Er zerknüllt den beschriebenen Bogen und wirft ihn ärgerlich in den Papierkorb.)</stage></p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ihr Mann möcht gern . . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Was der gern möcht, geht mich nix an. — — Wenn m’r so lang ghirot ish, möcht m’r au e bissel
+          changement han. Drum denk ich, daß mir zwei uff dere partie-plaisir, wo ich proposiert hab, famos
+          amesiere wäre.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Was for e Partie-Pläsier ? 
+          <stage>(Sophie zwinkert ihm lebhaft zu.)</stage></p>
+        </sp>
+        <pb n="39" />
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Jetz loß denne Herr doch au emol redde, hörsch doch, daß ’r d’r ebbs ze saaue het! — Schun widder
+          verschriwwe! 
+          <stage>(Er zerknüllt den zweiten Bogen und wirft ihn ärgerlich in den Papierkorb.)</stage></p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <stage>(ohne sich stören zu lassen)</stage>
+          <p>Ich hoff, daß m’r dem glükliche Moment, wo m’r uns han kenne lehre, noch schöni Stunde ze verdanke
+          han. Wann welle m’r uns denn widder treffe? Wenn Sie lang furt bliewe, mach ich m’r chagrin. 
+          <stage>(Ärgerlich zu Karcher):</stage> Jetz saaue Sie doch nur ein Wort!!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(wird aufmerksam):</stage>
+          <p>Was Dunders babbelt do mini Alt? Dis isch jo meh Mord!</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Am nächshte Samschdaa Owes . . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Mir isch’s erecht.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>.... in Schilke ...</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Angenumme, angenumme! O, wie fraij ich mich druff! Ja Sie glauwe gar nit, was ich de ganze Daa an
+          Sie denk. Natürlich, wenn m’r vun sim Mann eso neglischiert wurd, ze müeß m’r halt ’s amusement
+          andersch wo süeche.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(er zerknüllt auch den dritten Bogen und wirft ihn ärgerlich in den Papierkorb)</stage>
+          <p>Dunderlettel noch emol, jetz hawi’s dick. 
+          <stage>(Er steht auf.)</stage> Was faselsch dü d’r do zsamme? Der Herr wurd e schöner Begriff vun uns
+          bekumme mit dim wüschte Gebabbels. 
+          <stage>(Sophie und Karcher stehen auf.)</stage></p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Gottlob, jetz wurd ’r bröjes.</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher</speaker>
+          <stage>(zu Anatole):</stage>
+          <p>Hör, ich müeß jetz gehn. Mini Kommission hawi nit könne ferdi mache, dini Frau het m’r e Loch in de
+          Kopf geredt.</p>
+        </sp>
+        <pb n="40" />
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>’s isch doch züe schändli mit denne Wibslitt !</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Bonjour bisamme! 
+          <stage>(Durch die Mittelthüre ab.)</stage> Anatole 
+          <stage>(im Affekt)</stage>; Nom d’un canon! ’s isch doch nit ze glauwe, ’s isch nit ze glauwe! — —
+          Denne Mann siehsch hit züem erschte Mol . . . . glich wäre-n-alli Famillje-n-Aﬀäre-n uffs Dabeet
+          gebroocht . . . was Nieme nix angeht . . . . un do wurd Dings gebabbelt, wo din Herz nit dran denkt . .
+          . blos um mich ze stupfe . . . .! Dis hätt i m’r doch nit erwaart vun d’r, daß de so weni uff dine
+          Namme-n-ebbs haltsch. Schäm dich doch e bissel!</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie</speaker>
+          <stage>(freudig):</stage>
+          <p>Un wenn ich jetz doch mit dem Herr üsgemacht hätt . . . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Eh ben, ze geh anne! Ich wünsch d’r viel amusement! — — Iwwerhaupt: mach, was de witt, ich empeschir
+          dich nit dran. Awer ich saa dir — un do kannsch Gift druff nemme — — ich mach au, was ich will.
+          Wettmache-n-isch kein Sind! Revanche est douce! Dis isch ditsch genüe.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Jetz isch ’r schallü! famos! famos!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Geh, mach mi nit lache! ’s isch jo züe gspässig ! 
+          <stage>(Nach rechts ab.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>12. Scene.</head>
+        <stage type="character">Sophie, nachher Enishänsel.</stage>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Un ’r isch doch schallü, Gottlob, daß ’r schallü isch. Ich hab’s jo gewißt . . . . ’s isch kein
+          üwler
+          <pb n="41" />Mann . . . . ich bin ’m doch noch e bissel ans Herz gebache.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel</speaker>
+          <stage>(durch die Mittelthür):</stage>
+          <p>Hän, wie isch’s gange?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Hättsch ne sotte-n-emol sehn! Schallü isch ’r worre wie e jung ghiroti Frau!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>So, so, dis fraijt mich! Jetz wisse m’r doch, daß ’r dir nit untreij isch.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Nein, dis isch ’r nit! — — Awer mit dim Bischwillemer isch nit viel los gsin. Der isch do gstande
+          wie e Pfohl un het nix geredt. D’Hauptarweit hab’ ich müen mache.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>’s isch güet, daß de m’r’s saasch. Jetz kreijt ’r e Budell wenijer züe sim Souper.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Der Anatole isch noch jetz in eim Wüeth.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Macht nix, macht nix — — e güets warms Füeßwässerle mit e bissel Salz drinne zeijt alles Blüet üs ’m
+          Kopf.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ich kann d’r gar nit saaue, wie froh daß i bin.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Hawi’s nit gsaat? Nurre züem Enishänsel kumme, der weiß iwwerall ze helfe. Jetz isch alles widder im
+          Gleich. Ich geh jetz. Ich hab noch e kleini Kommission. 
+          <stage>(Er geht bis zur Thüre, kommt zurück):</stage> Oh, oh, oh, oh! Was fallt m’r grad in! Oh, oh, oh,
+          oh!</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Was isch denn?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Jetz isch ’r jo verruckt!</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Wer?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Der Anatole. Alli symptomes bewiese’s jetz. Ich hab m’r dis glich gedenkt.</p>
+        </sp>
+        <pb n="42" />
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Wahrhafti, ’s isch jo wohr. Was jetz mache? Dis isch jo schrecklich! Soll ich villicht e Dokter
+          hole?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Babberlababb! So lang wie ich do bin, brüche m’r ken Dokter. — — Wenn m’r nurre wißt, was for e
+          Verrucktheit dis isch!</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Wie dis!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Es gitt verschiedeni Verrucktheite ; wenn’s nur e Narrheit isch, isch’s besser. Villicht het ’r au
+          nurre-n-e-n-idée fixe . . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>E-n-idée fixe? Was isch dis?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dis isch, wenn einer allewyl ’s nämli saat un denkt, un was gar nit möejli isch. Hesch dü villicht
+          so ebbs am Anatole remarkiert . . . .?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ich wüßt nit grad... loß mich emol nochdenke ... wahrhafti, Désiré, er het e-n-idée fixe.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Was for einer?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Er saat allewyl „wir sind ja alle Brüder“...</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dis saat ’r allewyl? Ja, do hammer’s jo schun; do leijt d’r Hund begrawe.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Er saat’s als drissig Mol am Daas.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Oh, oh, oh, oh! Dis isch drissig Mol ze viel.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Désiré, ich hab e-n-unbegrenzti confiance züe d’r...</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>’s isch schun güet, ’s isch schun güet. M’r mache, was m’r könne.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Meinsch, daß ’r noch ze küriere-n-isch?</p>
+        </sp>
+        <pb n="43" />
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ich hoff’s — was will i do saa — ich hoff’s. Hm — — hm. So geht’s — oder au nit.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Was witt mache?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ich will’s mit eme ganz neije Mittel prowiere, wo wirklich nit viel succès employirt wurd.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Mit was?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Mit Süscheschtion. Versteh mich erecht, mit Süscheschtion. M’r müeß em so lang ze bewiese süeche,
+          daß dis, was er glaubt, unmöijli isch, bis ’r genüe Milichsupp het, dis heißt, bis ’r vun selbsch druff
+          kummt, daß ’r sich blos ebbs ingebild het.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ze bitt ich dich, dhüe was de kannsch. Unser Herrgott wurd d’r’s vergelte ! 
+          <stage>(Sie will gehen.)</stage></p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel</speaker>
+          <stage>(ihr nachrufend):</stage>
+          <p>Was het ’r for e-n-idée fixe?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Er meint, daß m’r alli Brieder sin. 
+          <stage>(Nach links ab.)</stage></p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>So e Verrucktheit! — — Dis welle m’r im schun üsredde. Do kummt ’r grad.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>13. Scene.</head>
+        <stage type="character">Anatole, Enishhänsel.</stage>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(bemerkt Enishänsel nicht, der etwas zurücktritt, um ihn zu beobachten, weinerlich)</stage>
+          <p>O Gasladern! Wenn ich’s nur noch meischtere kann ... ich fircht fascht, ich bring’s nimmi hin. Also
+          noch emol. „Wir sind alle umschlungen von dem gemeinsamen Bande der Freude und Liebschaft“ will ich
+          saaue „der Liebe und Freundschaft. Wir sind
+          <pb n="44" />ja alle Brüder.“ Do geht’s am beschte, wenn’s heißt „Wir sind ja alle Brüder!“</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel</speaker>
+          <stage>(der die letzten Worte gehört hat):</stage>
+          <p>Oh, oh, oh, oh!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Wer isch denn do in d’r Stubb? 
+          <stage>(Bemerkt Enishänsel.)</stage> O Jemine, d’r pharmacien! min Goschmar!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Bonjour, Anatole.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ah dü bischs! 
+          <stage>(Für sich):</stage> Schun widder e Störung. 
+          <stage>(Laut):</stage> Dis donc, was masch denn in Stroßburri ?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Nix vun Wichtigkeit. Ich dhüe eich nur e paar Daa Societät leischte.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(für sich)</stage>
+          <p>Sappristi! au dis noch!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Was meinsch?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dü bisch e Kusin vun minere Frau un sollsch bi m’r uffghebbt sin wie e Brüeder.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Oh, oh, oh, oh!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Was saasch?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Nix vun Wichtigkeit. Ich möcht dich blos ebbs fröuje. 
+          <stage>(Für sich):</stage> Jetz will is versüeche, for’s ’m üszeredde, daß m’r alli Brieder sin.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Eh ben, mach’s kurz; ich hab ze dhüen, ich bin pressiert.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Wie d’r Adam un d’Eva noch ellein uff d’r Welt sin gsin ....</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(für sich):</stage>
+          <p>O dü heiligs Kanonerohr!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>. . . . ze sin sie mitnand ghyrot gsin.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dis welle m’r wenistes vun ne hoffe.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Nemm jetz an, daß die zwei gstorwe sin un daß ihri Kinder noch keini Kinder ghet han . . .</p>
+        </sp>
+        <pb n="45" />
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ja, was isch drno?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Zellemols sin alli Mensche züe enander Brieder gsin, wenn m’r d’Schweschtre nit mitrecht.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ich glaub’s emol starik.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Hittisdaas het sich dis alles schanschiert. Der eint isch d’r Babbe vum andere, oder der Großbabbe,
+          oder d’r Unkel, der isch widder ’s Gschwischterkind vun em andere, un zeller isch widder d’r Stiefunkel
+          vum Doochtermann vun sinere Gschweij . . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Waas babbelsch do for daub Dings? Ich bin pressiert.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Nit bös wäre, Anatole, ’s isch jo alles züe dim Beschte. . . . Bedenk doch nur... wenn dü dis Ding
+          nähtersch betraachtsch . . . ze-n-isch’s doch nit möejli, daß m’r alli Brieder sin!</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Züem Gügsel noch emol, wer saat denn dis ?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Wer denn andersch, als dü?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Ich?!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dü.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(im Affekt):</stage>
+          <p>Dü bisch glauwi gebickt!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ze saa doch emol, was m’r alli sin.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(im höchsten Affekt)</stage>
+          <p>Was m’r alli sin? Mintwäje Simbel!! 
+          <stage>(Schnell nach rechts, die Thüre hinter sich zuschlagend )</stage></p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <stage>(ihm nachrufend)</stage>
+          <p>Anatole! Anatole! ich bin jo ganz vun dinere-n-opinion . . . awer . . . . Oh, oh, oh, oh! furt isch
+          ’r — — dis isch e Beleidigung! — — un doch kann ich’s im nit in Iwwel nemme, ’r isch jo 
+          <stage>(er deutet auf den Kopf)</stage>. Ich hab kein Glück mit d’r Süscheschtion. 
+          <pb n="46" />Dis isch awer au min Seel ’s letscht Mol gsin, daß ich eine durch Süscheschtion ze küriere
+          versüech.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>14. Scene.</head>
+        <stage type="character">Enishänsel, Sophie, nachher Cécile, nachher Anatole.</stage>
+        <sp who="#sophie">
+          <speaker>Sophie</speaker>
+          <stage>(von links):</stage>
+          <p>Ihr sin jo merkwürdi lütt mitnand gsin. Was isch denn los?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Nit viel rars; dü hesch erecht ghet.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Gell, er het de-n-idée fixe, daß m’r alli Brieder sin?</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dis nit grad, er meint awer, m’r sin alli Simbel.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Dis isch jo schrecklich ! Dis isch jo schrecklich ! Un dü hesch nit . . . .</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Alles umesunscht.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Der güet, brav Mann! Ich wüßt nit, was ich drum gäb ....</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(durch die Mitte):</stage>
+          <p>Madame, ich möcht’ ne blos annonciere, daß ich uffs Ziel furtgeh.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ja, wurum dis?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich dhüe mich hirote.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Mit wem?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Mit ’m Herr Barthelmeh Schanté.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Potz Sternesapperment — —! Was saat Sie do?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>For gewiß. Der Herr Stieffatre isch drbi gsin, wie m’r eß fianciert han, un er het m’r e Hüsstier
+          vun 200 Liwer versproche.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>’s isch awer doch ze-n-arig mit dem Barthélemy! Jetz kreijt ’r zwei Budelle wenijer.</p>
+        </sp>
+        <pb n="47" />
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Was isch ze-n-arig?</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Zweihundert Liewer!</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Daß Sie’s nur weiß Cécile, üs dere Hirot kann nix wäre. Der Herr Schanté het e Frau un dreij
+          Kinder.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Was — —!? Dis isch jo e ganz erbärmlicher Stoß vum Herr Stieffatre. Ich will zeh wette geje-n-eins:
+          er het gewißt, daß mich der elend Mensch am Narreseil erumführt.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Müesch halt bedenke — — ’r isch krank un weiß als nit — —</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Schändlich! schändlich! — — Aha, Herr Stieffatre, jetz versteh ich au, wurum daß Sie m’r glich die
+          zweihundert Liewer versproche han — — Jetz soll awer alles erüskumme, jetz wurd alles gsaat. 
+          <stage>(Stieffatre von rechts.)</stage> Madam, wenn Sie meine, d’r Herr isch krank, ze sin Sie famos uff
+          ’m Holzwäj. Der isch grad so gsund wie mir. — Ich wills ne saaue, was do im Spiel isch, Sie wäre sich
+          nit iwwel driwwer verwundere: Ir Mann geht in eim vun den nächschte Däj uff e Sainte-Cécile.</p>
+        </sp>
+        <sp who="#enishaensel #sophie">
+          <speaker>Enishänsel, Sophie:</speaker>
+          <p>Uff e Sainte-Cécile?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile</speaker>
+          <stage>(auf Anatole deutend):</stage>
+          <p>Do isch ’r jo selbst; fröuje Sie ne doch, eb’s nit wohr isch.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Dü müesch au noch ’s groß Wort führe welle, e Person, wüscht wie e Schießbüdiksmamsell un d’rbi
+          verliebt wie e Katzeroller, e Person, wo iwwerall ihre Schmecker vorne dran het un d’Arweit driwwer
+          <pb n="48" />neglischiert, e Schwätzbese, wie kein größerer uff d’r Welt erumlauft. Dü meinsch Wunders
+          was for e Spück de mir gspielt hesch, daß de mich verroothe hesch. Do bisch awer letz gfahre! E Spück
+          hesch m’r nit gspielt, au contraire, dü hesch m’r e service rendiert, daß dü dis gsaat hesch. — — Ja,
+          ich geh uff e Sainte-Cécile, un wenn ’r noch meh wisse welle, uff d’Sainte-Cécile vun d’r Fanfare, un
+          wenn ’r noch meh wisse welle, uffs fünfezwanzigscht anniversaire vun dere Sainte-Cécile, un wenn ’r
+          noch meh wisse welle, bloos ich dismool widder uff mim Bombardon, wie ich als früehjer gebloose hab.
+          Ich bin in dere Societät schun fünfezwanzig Johr, ich hab sie helfe fondiere, ich hab Zitte
+          durchgemacht, wo sie tief im Morascht gsteckt isch — un ’s het Müehj genüe koscht, for sie widder uff e
+          glatte Wäej ze bringe: drum hawi au e Recht, mich driwwer ze fraije, daß i nit umesunsch gschafft hab.
+          So wie ich weiß, daß ich emol vun dere Societät begrawe wur, wenn ich emol stirb, so bin i jetz, solang
+          ich noch leb, e membre mit Lib un Seel, mit Fleisch un Blüet — — ich, Anatole Stieffatre, Vicepräsident
+          vun d’r Fanfare!</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie</speaker>
+          <stage>(zu Enishänsel):</stage>
+          <p>Der Mann redd awer ganz verständig, do merkt m’r jo gar nit....</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dis kummt als vor; er het e-n-intervalle lucide.</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Er het au ebbs üswendi gelehrt, wo drinne vorkummt, daß m’r alli Brieder sin.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie</speaker>
+          <stage>(freudig):</stage>
+          <p>Siehsch, Désiré, jetz klärt sich alles uff.</p>
+        </sp>
+        <pb n="49" />
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Jetz fröüj ne doch au, ob drin vorkummt, daß m’r alli Simbel sin.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Sophie, eb dü m’r jetz d’Permission züe dere Sainte-Cécile genn witt oder nit, do fröüj ich nix
+          drnoch. E Frau, wo im e wildsfremde Mann e Rendezvous proposirt, gelt bi mir nix meh. Wett mache-n-isch
+          kein Sind, hawi gsaat. Affin —, ich geh uff d’Sainte-Cécile, un wenn d’r Deifel uff Stelze kummt. 
+          <stage>(Für sich):</stage> Gottlob, jetz isch’s hüsse.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Awer Anatole, versteh doch, ’s isch jo alles Gspaß gsin.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(zärtlich):</stage>
+          <p>Wirklich? — Wirklich? — O, ich hab m’r’s doch glich gedenkt. — 
+          <stage>(Kleinlaut)</stage>: Un derf ich jetz au uff d’Sainte-Cécile ?</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Lon Sie ne nurre nit gehn — — ’s gitt sicher widder ebbs, wie’s letscht Mol.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Mach daß de nüs kumsch, sunsch wursch sehn!</p>
+        </sp>
+        <sp who="#cecile">
+          <speaker>Cécile:</speaker>
+          <p>Ich geh. 
+          <stage>(Für sich):</stage> Jetz schrieb ich im Kommissionär numéro siwwezeh. 
+          <stage>(Durch die Mitte ab.)</stage></p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Un dü hesch ebbs gelehrt for dini Sainte-Cécile?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>E Redd halt ich — denk — — e discours, wie noch kein gfitztrer ghalte-n-isch worre — — denk — — ja —
+          — zerscht uff hochditsh un d’rno uff franzeesch — — ja! — — ha, dis wurd e-n-Uffsehns mache in d’r
+          Stadt, wenn dis in alle Zittunge steht — — ja!</p>
+        </sp>
+        <pb n="50" />
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dis wurd ebbs schöns genn. 
+          <stage>(Für sich)</stage>: Verruckt isch ’r nit grad, awer ’r het doch sini Mucke.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Hör emol, Anatole — — ich will jo nix drgeje han, daß de-n-uff d’Sainte-Cécile gehsch ...</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Sicher nit? Ah, min lieb’s Sophie!</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>...awer mit dinere Redd uff ditsch un franzeesch wurd’s Schette genn.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Dis mein i au! So e-n-idée!</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Ze saa m’r doch emol ehrlich: kannsch dü denn genüe ditsch un franzeesch?</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Oho — —! Dis saasch dü mir au? — — Ei — — natierlich — naturellement kann ich dis... Dis heißt...
+          dis heißt...</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Min liewer Anatole, dis weiß ich besser, dis kannsch dü nit. Un wenn dü dich nit andersch bsinnsch,
+          ze wursch dich bis uff d’Knoche blamiere. Redd doch wie d’r d’r Schnawwel gewachse-n-isch, dis isch un
+          bliet allewyl ’s Bescht.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Awer ’s isch schun ze spoot! . . . Wer soll m’r denne discours noch mache ... wie soll ich ne lehre
+          bis am Samschdaa . . . ich hab nit d’r Zitt drzüe . . . ich wur ze viel gstört . . .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Dü bisch iwwerhaupt nit d’r Mann drzüe, e discours ze halte. Blos dü dine Bombardon, un iwwerloß
+          d’Redde in andere, wo’s besser ferti bringe-n-als dü.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole</speaker>
+          <stage>(im Kampfe):</stage>
+          <p>Es geht nit, — — nein es geht nit — — dü weisch au nit, wie m’r mich annegstellt het — — awer — —
+          awer es het jo ken
+          <pb n="51" />Sach . . . ich glaub nämlich nit, daß ich uff d’Sainte-Cécile kann gehn... ’s isch m’r
+          zitter e paar Däj nit ganz extra . . . schun zitter zwei Woche hawi mit ere Indischestion ze dhüen . .
+          .</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Jo, hesch ganz erecht; besser nit anne gehn, als dich blamiere.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Nemm doch e bissel Pfefferminzthee, no hesch’s glich eweck.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>15. Scene.</head>
+        <stage type="character">Anatole, Sophie, Enishänsel, Karcher.</stage>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Bonjour bisamme.</p>
+        </sp>
+        <sp who="#sophie">
+          <speaker>Sophie:</speaker>
+          <p>Jetz kummt der. Ich geh gschwind furt. 
+          <stage>(Ab nach links.)</stage></p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <p>Ah, Herr Karcher! Alter Frind vun Bischwiller! Was mache Sie denn, wie geht’s denn? Lon Sie sich
+          emol betrachte: e famosi Farb un sunsch au gsund, dis fraijt mich. — Awer was sieh ich? Sie han sich e
+          bissel owwe-n-am Kopf gstoße. 
+          <stage>(Er greift in die Westentasche.)</stage> Dis derf m’r nit eso henke lon . . . .</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Merci bien, merci bien. Ich glaub, ’s heilt au eso.</p>
+        </sp>
+        <sp who="#enishaensel">
+          <speaker>Enishänsel:</speaker>
+          <stage>(in den Taschen suchend)</stage>
+          <p>Wer weiß! wer weiß!.... awer tant mieux, ’s Pflaschter isch m’r üsgange.</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Was gitt’s Neijs, Herr Schriftführer ?</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ich bin grad bim Präsident gsin . . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Gehts besser?</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Denk emol an, ’r isch widder gsund worre-n-un möcht, wenn dü’s bermediersch, d’Redd selbscht
+          halte.</p>
+        </sp>
+        <pb n="52" />
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <stage>(freudig erregt)</stage>
+          <p>Natürlich, natürlich . . . 
+          <stage>(seine Freude bemeisternd)</stage> dis heißt . . . . wenn d’r Herr Präsident dis will ....</p>
+        </sp>
+        <sp who="#karcher">
+          <speaker>Karcher:</speaker>
+          <p>Ich hab’s im glich so gsaat . . . . ich hab m’r gedenkt, daß dr’s nix üsmacht . . . . .</p>
+        </sp>
+        <sp who="#anatole">
+          <speaker>Anatole:</speaker>
+          <p>Gar nit, gar nit . . . . . 
+          <stage>(freudig zum Publikum)</stage>: Sakrenundebib! ich geh jetz doch uff d’Sainte-Cécile! 
+          <stage>(Drohend):</stage> Un jetz soll m’r noch emol einer saaue, ich kann nit ditsch un nit
+          franzeesch!!</p>
+        </sp>
+        <stage>Ende.</stage>
+      </div>
+    </body>
+  </text>
+</TEI>
