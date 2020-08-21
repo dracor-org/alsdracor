@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alsatian Drama Corpus</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>DraCor</publisher>
+        <idno type="URI" xml:base="https://dracor.org/">als</idno>
+        <idno type="repo">https://github.com/dracor-org/alsdracor</idno>
+      </publicationStmt>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+          Edited by Pablo Ruiz Fabo
+          (<ref target="https://methal.pages.unistra.fr/">MeThAL project</ref>
+          at University of Strasbourg). Features a growing number of Alsation
+          plays from the 19th and 20th century. For a corpus description and
+          full credits please see the
+          <ref target="https://github.com/dracor-org/alsdracor">README on
+          GitHub</ref>.
+        </p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+</teiCorpus>

@@ -1,1 +1,0 @@
-Edited by Pablo Ruiz Fabo ([MeThAL project](https://methal.pages.unistra.fr/) at University of Strasbourg). Features a growing number of Alsation plays from the 19th and 20th century. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/alsdracor).
