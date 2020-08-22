@@ -1,0 +1,1124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Chrischtowe</title>
+        <title type="sub">E Wihnachtsstüeckel in 1 Akt in elsässischem Dialekt füer kleine und grossi
+        Kinder</title>
+        <author key="wikidata:Q96464291">Paul Clemens</author>
+        <respStmt>
+          <name>Audrey Deck</name>
+          <resp>OCR and its correction, TEI encoding</resp>
+        </respStmt>
+        <respStmt>
+          <name>Delphine Bernhard</name>
+          <resp>OCR scripting</resp>
+        </respStmt>
+        <respStmt>
+          <name>Pablo Ruiz</name>
+          <resp>TEI encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">als000006</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q97285602</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k91095403</idno>
+          <bibl type="originalSource">
+            <author key="wikidata:Q96464291">Paul Clemens</author>
+            <title type="main">Chrischtowe</title>
+            <title type="sub">E Wihnachtsstüeckel in 1 Akt in elsässischem Dialekt füer kleine und grossi
+            Kinder</title>
+            <publisher>Société d’Edition de la Haute-Alsace S. A. Colmar 1919</publisher>
+            <date type="print" when="1919">1919</date>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="voltz_martin" sex="MALE">
+            <persName>Voltz Martin</persName>
+          </person>
+          <person xml:id="marikel" sex="FEMALE">
+            <persName>Marikel</persName>
+          </person>
+          <person xml:id="xaverel" sex="MALE">
+            <persName>Xaverel</persName>
+          </person>
+          <person xml:id="schorschel" sex="MALE">
+            <persName>Schorschel</persName>
+          </person>
+          <person xml:id="grossbabbe" sex="MALE">
+            <persName>Dr Grossbabbe</persName>
+          </person>
+          <person xml:id="spahnelanz" sex="MALE">
+            <persName>Spähnelänz</persName>
+          </person>
+          <person xml:id="nissmeier" sex="MALE">
+            <persName>Nissmeier</persName>
+          </person>
+          <person xml:id="chrischtkindel" sex="UNKNOWN">
+            <persName>’s Chrischtkindel</persName>
+          </person>
+          <person xml:id="hanstrapp" sex="MALE">
+            <persName>Dr Hanstrapp</persName>
+          </person>
+          <personGrp xml:id="alli" sex="UNKNOWN">
+            <persName>Alli</persName>
+          </personGrp>
+          <personGrp xml:id="kinder" sex="UNKNOWN">
+            <persName>Kinder</persName>
+          </personGrp>
+          <personGrp xml:id="marikel_un_xavier" sex="UNKNOWN">
+            <persName>Marikel un Xavier</persName>
+          </personGrp>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#voltz_martin" passive="#marikel" />
+            <relation name="parent_of" active="#voltz_martin" passive="#xaverel" />
+            <relation name="parent_of" active="#voltz_martin" passive="#schorschel" />
+            <relation name="siblings" mutual="#marikel #xaverel #schorschel" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">weihnachtsmärchen</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>Persone:</head>
+        <castItem corresp="#voltz_martin">
+        <role>
+          <persName>Voltz Martin</persName>
+        </role>, 
+        <roleDesc>Waldarweiter.</roleDesc></castItem>
+        <castGroup>
+          <castItem corresp="#marikel">
+            <role>
+              <persName>Marikel</persName>
+            </role>
+          </castItem>
+          <castItem corresp="#xaverel">
+            <role>
+              <persName>Xaverel</persName>
+            </role>
+          </castItem>
+          <castItem corresp="#schorschel">
+            <role>
+              <persName>Schorschel</persName>
+            </role>
+          </castItem>
+          <roleDesc>sini Kinder.</roleDesc>
+        </castGroup>
+        <castItem corresp="#grossbabbe">
+        <role>
+          <persName>Dr Grossbabbe</persName>
+        </role>.</castItem>
+        <castItem corresp="#spahnelanz">
+        <role>
+          <persName>Spähnelänz</persName>
+        </role>, 
+        <roleDesc>e Holzhauer.</roleDesc></castItem>
+        <castItem corresp="#nissmeier">
+        <role>
+          <persName>Nissmeier</persName>
+        </role>, 
+        <roleDesc>dr Hüsseijetüemer.</roleDesc></castItem>
+        <castItem corresp="#chrischtkindel">
+        <role>
+          <persName>’s Chrischtkindel</persName>
+        </role>.</castItem>
+        <castItem corresp="#hanstrapp">
+        <role>
+          <persName>Dr Hanstrapp</persName>
+        </role>.</castItem>
+      </castList>
+      <set>
+        <p>Zitt: Chrischtowe 1918.</p>
+        <p>Ort: Im e Hiesel vorm Dorf drüsse in dr Vosges.</p>
+      </set>
+      <set>
+        <head>Scènerie:</head>
+        <p>Einfach möblierti, awer süferi Wohnstubb. Rechts un links e Düer, In dr Mitte steht e Disch mit-ere
+        Bank drhinter. Hinte an dr Wand steht e Commode mit-ere Glasglock un sonscht Sache drowe. Üewerem Commode
+        hängt e Kückücksühr un e paar alti Bilder. Vorne uf dr Sitt steht e Lehnstuehl, wo als dr Grossbabbe
+        drinne sitzt. An dr Wand han se e Danneascht angemacht mit Papierkette un Goldfäde dran. Üewerem Disch e
+        Hänklamp.</p>
+      </set>
+      <pb n="4" />
+      <div type="front">
+        <list rend="numbered">
+          <head>Personebeschriewung:</head>
+          <label>Voltz Martin</label>
+          <item>45 Johr alt. Franzöeschi Uniform, Wickelgamasche, Reistasch. Schnurrbart un Bart sinn
+          gröj.</item>
+          <label>Marikel</label>
+          <item>13 Johr alt. Schwarzes Füerduech, Zöpf mit schwarze Bändel.</item>
+          <label>Xaverel</label>
+          <item>11 Johr alt. Wilder Bue, e dunkli Blus an un e Calot uf.</item>
+          <label>Schorschel</label>
+          <item>6 Johr alt. Ratbackicher dicker Bue.</item>
+          <label>Grossbabbe</label>
+          <item>70 Johr alt. Isch fascht blind, geht am e Stock, ganz wissi Hoor, ohne Schnüzer, wolles
+          Halstuech, gestrickter Mutze un Pantoffle an.</item>
+          <label>Spähnelänz</label>
+          <item>50 Johr alt. Ärmlich gekleid’t, hinkt, redd langsam.</item>
+          <label>Nissmeier</label>
+          <item>50 Johr alt. Langer mauerer Mann, gähli Gsichtsfarb.</item>
+          <label>’s Chrischtkindel</label>
+          <item>Wisses Kleid.</item>
+          <label>Hanstrapp</label>
+          <item>Mantel mit Kapüz. Langer wisser Bart, e Ruet un e Sack uf-em Bueckel.</item>
+        </list>
+      </div>
+      <div type="front">
+        <p>Wenn der Vorhang ufgeht schlaat d’ Uhr sechsmol „Kückück“. Dr Schorschel sitzt am Disch uf dr Bank.
+        Uf’m Disch stehn 4 gebluemti Kaffeschüssle. Dr Grossbabbe sitzt im Lehnstuehl.</p>
+      </div>
+    </front>
+    <body>
+      <div type="act">
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>
+          <stage>(zehlt wenn dr „Kückück“ rueft)</stage> Äins, zwäi, drey, vier, fünef, sechs! Schun sechs — Jetz
+          isch’s ganz finschter drüsse un der käiwe Xaverel isch noch nitt do. Wie der widder erumspangelt, wann
+          ne numme dr Hanstrapp verwitsche dät.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Grossbabbe, ich bin glich erin wie’s finschter isch worre. Ich hab Angscht dr Hanstrapp kummt.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>
+          <stage>(kummt üss dr Küeche mit-em Kaffeun Millichhafe)</stage> So jetz welle-mr z’nacht asse. 
+          <stage>(schenkt in)</stage>.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Marikel gib mr d’Hütt vun dr Millich.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Dü wäisch ass d’Hütt füer de Grossbabbe isch.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Gib’s em numme wann-r se garn hett — Awer der Bohnekaffe schmeckt so guet, diss esch doch kenn
+          Ersatz meh, diss schmeckt ganz andersch ass wie der Wiedegrund.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>
+          <stage>(fuehrt de Grossbabbe an de Disch)</stage> Ich hab ne bekumme vun dr Madam Lefèvre, sie hett mr
+          äu schöens Wissmahl gann. Ich hab e natt’s Küechel gebache. 
+          <stage>(Alli drey drinke Kaffe — s’Marikel schnied Brot)</stage></p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Uuh — Kueche! Marikel gäb mr e Stückel Kueche !</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Näin, näin Buwele — der isch fuer morje. Wäisch morje-n-isch Wihnachte un do hett uns d’Mamme als äu
+          Kueche gebache.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Mäinsch kummt hitt Owe äu s’Chrischtkindel zue uns ? Ich hab alle Nacht gebatt ass-es mir ebs
+          Schöens bringe soll.</p>
+        </sp>
+        <pb n="6" />
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Na, wenn dü brav gebatt hesch no bringt’s dir äu ebs Natt’s — Was wottsch am Liebschte vum
+          Chrischtkindel ?</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Am liebschte wott ich, ass d’Mamme widder kumme dätt — un no e Farwelad — un no sott dr Babbe kumme.
+          Wann’s numme boll kumme duet — ich hab kenn Angscht vor-em Hanstrapp. 
+          <stage>(Mr höert drüsse boldere)</stage> U — Marikel! 
+          <stage>(versteckelt sich hinterem Marikel)</stage></p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>
+          <stage>(höert mr drüsse brüele)</stage> Kumm numme einer häre wann-r z’Harz hett! 
+          <stage>(Kummt erin)</stage> Denne hawi de Äpfel gedroffe, im Langhalseschüll haw i äini uf d’Nas
+          gebämmert un em Stumpevälte haw i e blöj Gückel ghäue, der isch gezäicht uf d’Wihnachte.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Was isch dann widder — was isch dann widder ?</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Äi sie ruefe mr alli e Üwername. Dr Schuelmäischter hett mi gfröjt wie „der Ofen“ häisst — no hawi
+          gsäit „Furneau“ 
+          <stage>(deutsch aussprechend)</stage> jetz ruefe mr alli „Dr Furneau“ awer ich hab ne de Furneau
+          inghäizt !</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Un dü bisch dracket ! 
+          <stage>(bürscht na ab)</stage> Un der hett d’Hosse verisse ! 
+          <stage>(ziwelt-em d’Ohre)</stage> Witt dü ball andersch wäre un brav sinn, hä ?</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Uu-atsch — ich kann jo nix derfüer, sie sinn vun aase verisse.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Awer Xaverel kannsch denn dü nitt folje un brav sinn. Jetz machsch dim Schweschterle widder Arwäit
+          un ass muess schun alles alläin mache, zitter ass d’Mamme dot isch — dü sottsch dich schäme e so böeser
+          Bue ze sinn. Duesch a so dinn Verspracha halte, wie de dr Mamme uf-em Dotsbett gann hesch ? Hesch ere
+          nitt versproche allewill brav ze sinn un im Marikel an d’Hand ze gehn. Un wann de an de Babbe dänke
+          dätsch, wie mr schun vier Johr nix meh vum wisse, ze sottsch di schäme — wär wäis ob-r noch am
+          Läwe-n-isch.</p>
+        </sp>
+        <pb n="7" />
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>
+          <stage>(hielt)</stage> Grossbabbe ich will brav sinn, ich will nix meh anstelle ! — — — Un ich hab
+          Hunger !</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Do sitz an dine Platz, dir fählt dr Babbe, dass de gezöje dätsch wäre. 
+          <stage>(schenkt-em Kaffe in)</stage></p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Dät mich dr Babbe äu zeje — Ja mäinsch kummt-er jetz boll?</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Dr Kaffe isch jo gar nitt süess — denne will ich nitt — 
+          <stage>(bätzich)</stage> Ich will noch Zucker, ich will Zucker.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Dü hesch Zucker genuej, ich mues spare dran. Dü verdiensch üewerhäubt kenn Zucker, dü Räiwer.</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>No drink ich äu kenn Kaffi. Ich will noch Zucker — Ich will noch Zucker.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Mildebibb noch emol! Witt jetz stille sinn un de Kaffe drinke, dü ungarschticher Bue, dü! Grad
+          säisch dü witt brav sinn un jetz fangsch schun widder an —</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Wenn de Hanstrapp kummt, der wurd di fitze mi dere lange Ruet. Ich bin brav ich hab kenn Angscht
+          vor-em 
+          <stage>(es klopft)</stage> U — Marikel, es hett geklopft, s’Chrischtkindel kummt! 
+          <stage>(versteckelt sich hinterem Marikel)</stage>.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Entrez !</p>
+        </sp>
+        <sp who="#spahnelanz">
+          <speaker>Spähnelänz:</speaker>
+          <p>Guete-n-Owe biesamme’! 
+          <stage>(Alli danke-n-em)</stage> Wie geht’s wie steht’s ? Drüsse haw i e Wall Holz un e Sack Spähne füer
+          ejch, ass macht kalt — ass de fiere kannsch.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Merci äu Spähnelänz, ihr danke doch als äu noch an uns, ich bin froh no brüch ich nitt in de Wald
+          üewer d’Fierdäy.</p>
+        </sp>
+        <sp who="#spahnelanz">
+          <speaker>Spähnelänz:</speaker>
+          <p>Joo, ich due allewäj im Voltz-Märtel sini Familie vergasse, ar isch äu e gueter Kärl un hett mir
+          viel Gfalle gedoon.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Ich sää ejch äu vielmols merci! Welle-n-er äu e bissel Kaffi drinke ? Ass isch Bohnekaffi !</p>
+        </sp>
+        <pb n="8" />
+        <sp who="#spahnelanz">
+          <speaker>Spähnelänz:</speaker>
+          <p>Näin, näin, Mäidel, ich hab schun e Schnäpsel gepackt. Awer ich will mich e bissel wärme un e bissel
+          babble mit-em Grossvater.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Dü besch doch e gueter Kärl, dü luejsch als doch noch uns do hüsse, in unserem Misere.</p>
+        </sp>
+        <sp who="#spahnelanz">
+          <speaker>Spähnelänz:</speaker>
+          <p>As wurd jetz besser kumme, die Zitte sinn erum. Mer hann doch widder satt ze asse un Wissbrot hann
+          mr äu. Morje bring i e Budäll Roter, wäisch, bim e guete Gläsel Win vergisst mr alles Misère. Jetz sott
+          noch dr Voltz kumme no war Massel. Ich kanns nitt gläuwe, ass-r nimi läwe sell, ihr wäre sähn, ar steht
+          am e schöene Döj do in dr Stubb. Dr Stäinpeterseppel isch gescht äu üss Rüssland kumme, ganz
+          unverhofft.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>E Glüeck war’s jo, wann’s eso kam — awer war wäiss, wär wäiss. Zitter vier Johr hann mr kenn
+          Stärweswöertele meh vum g’höert. Alli Brief wie mr gschriewe hann, sinn zeruck kumme, mr hann-em nitt
+          kenne schriewe, ass ’s Marie, sini Fräu, krank esch, un wie’s gstorwe isch, hann mr-em kenn Nochricht
+          kenne gann. Wie m’r uns anegewend’t hann, isch Bschäid zeruckkumme : Seit dem 24. August 1914 vermisst
+          — — ja — ja! 
+          <stage>(alles isch e Will still.)</stage></p>
+        </sp>
+        <sp who="#spahnelanz">
+          <speaker>Spähnelänz:</speaker>
+          <p>Na, wann’s awer häisst „vermisst — isch’s als noch kenn Bewies, ass-r nimi läbt, un ihr derfe d’
+          Hoffnung nitt uffgänn. Am End bringt ne gar ’s Chrischtkindel mit, ejere Babbe, diss war awer e
+          Chrischtowe. — Mäinsch Schorschel, wann dr Babbe hinnicht käm, do datsch lache, hä ?</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Awer sicher, awer wie sieht dann e Babbe üss ?</p>
+        </sp>
+        <sp who="#spahnelanz">
+          <speaker>Spähnelänz:</speaker>
+          <p>Ah, jasoo — dü kennsch jo dine Babbe gar nitt, dü bisch noch kenn zwäj Johr alt gewann, wie se ne
+          g’holt hann d’ Prejse — un ar isch so ungarn furt von Fräu un Kind.</p>
+        </sp>
+        <pb n="9" />
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Ich wäiss-es noch, wie er furt isch, ar hett uns alli gschmutzt un hett gsäit zue dr Mamme : Marie,
+          hiel nitt, ich kumm ball widder. Ar isch awer noch nitt kumme.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Un ’s wär nöeti, ass-r ball kam, schun waje dir, ass de widder emol ghöerich abgschmiert dätsch
+          wäre.</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Waje mir, ich hab ganz Häimweh denoch, im Babbe sini Schmier gspiert mr doch äu. 
+          <stage>(Alle lachen.)</stage></p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Do müess mr noch lache zue allem Misère — un wie wurd’s uns noch gehn ? 
+          <stage>(sifzt schwär)</stage> Mr hann grad ’s Notwandigscht zuem läwe, kenn Gald, ass wie diss bissel
+          Unterstützung un wänn’s im Nissmeier infallt uns zuem Hiesel nüsszestelle — was no? No kumme d’ Kinder
+          in’s Wäiselhüss un ich noch Strossburri zue de „Kläine Schweschtere“. Ass war glich so kumme, wie ’s
+          Marie gstorwe isch gewann, awer ich hab mi mit Hand un Füess gewehrt dergeje, ich hab gsäit, so lang
+          wie kenn Nochricht do isch, ass dr Babbe dot isch, gehn mir nitt vonander. —</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Grossbabbe, mir bliewe bienander, ich will gare schaffe.</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>As sell numme äiner kumme, ich bring ne nüss ! 
+          <stage>(holt e Stock hinte vor.)</stage></p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>As isch alles racht — wann numme emol e Brief oder e Nochricht vum kam — nurre e Zäiche, ass-r labt,
+          sunsch sinn mr verlore. Die arme King düre mich, wäje mir hätt’s jo kenn so Wärt, ich läb doch nimmi
+          lang.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Grossbabbe, dü sollsch noch nitt stärwe, dü sollsch noch lang bie uns bliewe, gar jetz, wie d’
+          Franzose do sinn.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Dü derfsch nitt starwe Grossbabbe, wie de starbsch, bin i böes mit dr.</p>
+        </sp>
+        <pb n="10" />
+        <sp who="#spahnelanz">
+          <speaker>Spähnelänz:</speaker>
+          <p>Ihr wisse wie’s häisst: „Wann d’Not am gröeschte isch, isch Gottes Hilf am nächschte“ Un ihr wäre
+          sähne, ar hilft äu bie ejch. Ihr derfe nitt glich ’s Ärigscht danke. Wann halt d’ Mamme noch do wär,
+          war’s halt viel besser — die vermaledäit Gripp hett viel Mansche ’s Läwe koscht. 
+          <stage>(steht uf)</stage>. Ja — un ich will jetz e-n-attatta gehn, un mich häime züe schaffe, dann ’s
+          Chrischtkindel kummt allewäj ball — ass kummt äu do rüss züe ejch un bringt e Dannebäum un schöeni
+          Sache, diss häisst, dene wie brav sinn gewann, dann sunsch gitt’s vum Hanstrapp mit dr Ruet. — Alle
+          jetz, „Guet Nacht“ bienand un’s Chrischtkindel sell ejch guet bschare.</p>
+        </sp>
+        <sp who="#alli">
+          <speaker>Alli:</speaker>
+          <p>Guet Nacht, Spähnelänz.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Un äu merci füer’s Holz, un ’s Chrischtkindel sell ejch äu ebs schöen’s bringe.</p>
+        </sp>
+        <sp who="#spahnelanz">
+          <speaker>Spähnelänz:</speaker>
+          <p>As sell mr numme e Päckel Düwak bringe, diss isch mr liewer wie alles, ass i kenn Keschteblätter un
+          wäiss dr Deifel was füer Mischt räuche muess. — Guet Nacht! 
+          <stage>(ab.)</stage></p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Ich will de Disch abrümme, un no sitze mr zuem Grossbabbe, un ar verzehlt uns no e schöen’s
+          Gschichtel, gall Grossbabbe ?</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Aijo, ihr Quälgeischter, ass-r zefridde sinn. 
+          <stage>(Er geht an de Lehnstüehl. Xaverel un Schorschel stehn äu uf. Dr Xavier hebbt de Schorschel vun
+          hinte unter de Ärm un schlenkert ne im Ringel erum un saat dezü :)</stage></p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Die Mühle geht langsam, das Rad geht schnell — —</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>
+          <stage>(brüelt)</stage> Grossbabbe — Marikel ! ! !</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Xaverel, witt de ruejh sinn! 
+          <stage>(Xaverel stellt ne anne.)</stage></p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>
+          <stage>(düermelt erum)</stage> Jooo, jetz bin i ganz durmelich.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>
+          <stage>(nimmt de Martinné)</stage> Wart, ich will dr halfe, ehnder duesch doch nitt guet, dü müesch alle
+          Döj dini Wichs hann. 
+          <stage>(haut ne)</stage>.</p>
+        </sp>
+        <pb n="11" />
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Autsch — autsch — ich bin brav, Schweschterle, halt jetz — autsch, es langt — gisch mr dr Räscht
+          e-n-ander Mol !</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>So, un jetz do hare gsasse uf de Schämel un nimm gemückst. 
+          <stage>(Beidi sitze uf de Schemel zuem Grossbabbe. ’s Marikel nimmt e Kaffeeschüssel, geht an d’ Düer
+          un lockt im Kätzel „bsssw“ — mr höert e Katz drüsse „miau“ brüele. — ’s Marikel macht no Düer
+          zü)</stage>.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Grossbabbe, ich kann äu schun eb’s natt’s ufsäue, höer emol Grossbabbe :</p>
+          <l>„Bin e kläiner Stumpe,</l>
+          <l>Steckt mr in de Lumpe,</l>
+          <l>Dr Lumpe isch ze kläin,</l>
+          <l>Mr steckt ne in e Stein ;</l>
+          <l>Dr Stäin isch ze kalt,</l>
+          <l>Mr steckt ne in e Wald,</l>
+          <l>Dr Wald isch ze finschter,</l>
+          <l>Mr steckt ne ins Münschter,</l>
+          <l>’s Münschter isch ze hoch,</l>
+          <l>Mr steckt ne in e Rohr,</l>
+          <l>’s Rohr isch ze äng,</l>
+          <l>Mr steckt ne in d’ Budäll,</l>
+          <l>d’ Budäll läuft üss,</l>
+          <l>D’r Stumpe blitzt erüss.“</l>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>
+          <stage>(üsslachend)</stage> Öööööh — diss isch noch ebs !</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Stille bisch — diss isch ganz ebs schöen’s Schorschel ! Ar isch numme schallü, will ar nix kann.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>
+          <stage>(isch ferti mit-em Disch, nimmt e Stricket un setzt sich zue de andere.)</stage> So, jetz bin i
+          ferdi — Grossbabbe, alle verzehl jetz e Gschichtel !</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Glich — e Momant noch, ich bin so rüch im Hals. 
+          <stage>(nimmt üss-em Sack e Lädel mit Pastille.)</stage></p>
+        </sp>
+        <pb n="12" />
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>
+          <stage>(fangt an krampfhaft ze hueschte)</stage> Ich hab äu so dr Hueschte !</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>
+          <stage>(haut-em eini rab)</stage> Do hesch e Paschtill vum Dokter Scholli. — Dr Grossbabbe muess d’
+          Paschtille spare füer sich, dr Harr Pfarrer hett’s em gann füer de Hueschte !</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>
+          <stage>(macht Gspass)</stage> Also basse uff;</p>
+          <l>As isch emol gewänn,</l>
+          <l>E Stackel un e Spähn.</l>
+          <l>As isch emol gsinn.....</l>
+        </sp>
+        <sp who="#kinder">
+          <speaker>Alli drej:</speaker>
+          <p>Jooo, Grossbabbe, nitt eso — —</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Wann de so anfangsch, no bloss i druff.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Wann dü nitt miesli stille bisch —</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>
+          <stage>(fladdiert)</stage> Grossbabbe, ich druckt di äu lieb — awer no muesch äu e natt’s verzehle —
+          wäisch diss vum Katzemisel. 
+          <stage>(druckt de Grossbabbe.)</stage></p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>
+          <stage>(verzehlt)</stage> Es isch emol e armi alti Fräu gewann und die isch ganz witt vom Dorf ewäck
+          gewohnt, mittles im e finschtere Dannewald. Die alt Fräu , sie hett Philome ghäisse, hett e kläins
+          Katzemiesel ghett, diss isch ihr alles gewann, sie hett de letschte Bisse mit-em gedäilt un hett’s
+          bsorit wie e liewer gueter Friend. Diss isch so langi Johr gange, bis am e Owe, do hett’s Katzemiesel
+          ganz biezitte sinn Läujer hinterm Häerd ufgsuecht un hett ganz jämmerli gebrüelt : „Miau, miau“. Die
+          arm Philome isch in grosser Angscht un Sorje gewann un hett-em glich häissi Millich mit Wecke gemacht,
+          awer ’s Katzemiesel hett nix angerüehrt — awer zuem grosse Stüne vun dr Philome fangt’s an ze redde un
+          säit: Liewi Philome, ich bin arich krank, ich gspier’s, ich muess starwe, dü hesch mich awer immer in
+          trejer Lieb gepfläjt, diss will ich dir belohne. Drüsse im Garte, unterm Holderbäum, haw ich e Schatz
+          begrawe, der soll dini sinn, muesch mr awer verspreche, d’ Hälft devun in dem arme blinde Mann im Dorf
+          ze gänn.</p>
+          <pb n="13" />
+          <p>D’ arm Philome hett versproche, alles wohl üsszerichte, un no isch’s Katzemiesel gstorwe. Sie hett’s
+          im Garte, grad vor ihrem Fanschter begrawe un isch glich ane gange un hett e Stächschar genumme un hett
+          anfange unterem Holderbäum ze dälwe un ze sähne, obs Katzemiesel d’ Wohret gsäit hett. Sie hett
+          tatsächli äu e grosser Hüffe Gold un Silwer gfunde, awer biem Anblick vun dam viele Gold isch äu glich
+          d’ Habsucht un dr Giz in ihr Härz ingezöje, un sie hett ihr Verspreche vergässe, wie se im Katzemiesel
+          gemacht hett un hett alles füer sich gepalte. Sie hett’s im Commode inbschlosse un hett dem blinde Mann
+          nix devun gann vun dam viele Gold un Silwer.</p>
+          <p>Uf-em Grab vum Katzemiesel isch e Quätschelbäum gewachse, d’ Philome isch als alle Öwe unter dene
+          Quätschelbäum gsässe, un emol, wie er ganz voll Quatschle isch g’hänkt, hett se alli Fräid ghett,
+          ass-se so viel Quätschle bekummt, isch’s grad gsinn, ass wann se e häimlichs Rüsche in de Äscht höere
+          dat un wie e Stimm säit :</p>
+          <l>War von sinem Üewerfluss</l>
+          <l>Un Richtum vollem Säje</l>
+          <l>E armer Blinder darwe losst,</l>
+          <l>Dam bringt’s kenn Glüeck, ar hett Verdruss.</l>
+          <p>Do isch d’ Philome bläich worre wie e Suppedaller, sie isch in d’ Stubb nin, hett’s Commode
+          ufgerisse un da — ihr Schatz isch nimmi do gewann, alles Gold un Silwer futsch. Do isch se bedrüebt un
+          voll Kummer un Anleje unter de Quätschelbäum gsässe un hett gejommert: „O ich armi Fräu, worum bin ich
+          so harthärzi un gizich gewänn. Von was sell ich armi, alti Fräu jetz läwe, jetz muess i vor Hunger
+          stärwe.“</p>
+          <p>Do hett’s widder anfange ze rüsche in de Äscht, e paar Quätschle sinn erab kejt un die Stimm hett
+          gsäit: Äimol noch soll dr gholfe ware, hebb die Quätschle uf, sie sinn von pürem Gold, die sinn dine,
+          awer ’s erscht arm Kind wie zue dr kummt, dem
+          <pb n="14" />müesch d’ Hälft devun gann. Diss hett d’ Philome ganz glüeckli gemacht, sie hett die
+          goldene Quätschle ufghebbt ins Füerdi un wie se in d’ Höeh geluejt hett, isch e arm’s Mäidele vor-ere
+          gstande, ganz in Lumpe gekläid’t un bättelt um e Almose. Awer d’ Habsucht un dr Giz hann schun widder
+          d’ Macht üewer d’ Philome ghett, ihr Härz isch zue Stäin worre, sie hett gedankt, was sell ich vun
+          danne paar Quätschle d’ Hälft hare gann — no haw ich jo nix meh, un sie hett dem arme Kind e Stüeck
+          Brot gänn, diss isch so drucket gewänn, e Wolf hätt sich d’ Zähn dran erüssgebisse. Sie hett noch
+          wundersch was gemäint, was se Guets gemacht hett. Wie se awer in d’ Stubb isch kumme un hett die
+          goldiche Quätschle üss-em Füerdi welle namme, ze sinn’s ganz gewöehnlichi Quätschle gsinn.</p>
+          <p>Vor Scham un Ärjer, ass se widder e Dummhäit gemacht hett, isch se nüss geloffe in de Hoft un hett
+          sich uf d’ Bank unter de Quätschlebäum gsetzt, un wie se nuff lüejt, ob kenn goldichi Quätschle meh
+          drowe hänke, ze sieht se e schöener Vöjel drowe sitze mit-ere Goldkron uf-em Kopf, un dar hett no
+          gsunge :</p>
+          <l>„Dü hesch nitt ghöert uf gueti Wort,</l>
+          <l>Drum isch din Gold un Richtum furt.“</l>
+          <p>„O dü liewer Vöjel“, hett d’ Philome gejommert, „datsch mr nurre noch emol halfe, ich will garn
+          alles mache, was de mr säisch un nie widder gizich ware.“</p>
+          <p>Do hett der Vöjel e Fader keje lonn, die hett so geglänzt, ass dr Philome d’ Aue weh gedon hann, un
+          wie se geluejt hett, isch se vun pürem Gold gsinn. Dr Vöjel hett awer gsäit: „Nimm die Fäder un steck
+          se in de Bodde, do wie ’s Katzemiesel begrawe lejt, no wurd üewer Nacht e Bluemestock wachse, wie ganz
+          von Gold isch, un do briechsch jede Owe e Blatt ab un dü wursch rich un glüeckli ware, nurre vergiss im
+          Glück d’ Arme nitt.“</p>
+          <p>Do drüwer hett d’ Philome e grossi Fräid ghett un in ihrem Härze isch awer glich widder d’ Habsucht
+          un dr Giz kumme un sie hett sich in Gedanke
+          <pb n="15" />schun widder vorgenumme, ass se alles füer sich will b’halte un sich nätti Kläider un
+          Staat un gueti Sache käufe will, Küm awer hett se d’ Fäder in de Bodde gsteckt, ze isch e grossi Flamm
+          üss-em Bodde erüss gschläue un hett d’ Philome un ihr Hüss mit Hab un Guet verbrännt. So isch däre
+          giziche Philome gange — un jetz isch üss, dert läuft e Müs, fang se un mach dir e schöeni Pelzkapp
+          drüss.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Diss esch e natti Gschicht gewann — dare „Fillemej“ gschied’s ganz eracht, ass se verbrännt
+          isch.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>So köennt ich schun nitt sinn, ich dat de letschte Mumpfel häre gänn. 
+          <stage>(Es schlaat uf dr Ühr siewe Mol „Kückück“.)</stage></p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>
+          <stage>(zehlt)</stage> Äins, zwäi, drej, vier, fünef, sechs, siewe. Was schun siewe !</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Iööö — schun siewe ! Isch jetz ball zwöelf?</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>
+          <stage>(stupft ne)</stage> Jo, dü Gackel !</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Er stupft mich! — Wart dr Hanstrapp muess die fitze.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Xaverel, losch dene Bue gehn ! Noch e Wort, no muesch ins Bett.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Kummt jetz ’s Chrischtkindel ball? 
+          <stage>(es klopft)</stage> U — ’s Chrischtkindel! 
+          <stage>(versteckelt sich hinterem Marikel)</stage>.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Entrez! 
+          <stage>(es klopft widder)</stage> Entrez — numme erin !</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>
+          <stage>(macht d’ Düer uf)</stage> O jeh, diss isch mr e natt’s Chrischtkindel !</p>
+        </sp>
+        <sp who="#nissmeier">
+          <speaker>Niessmeier:</speaker>
+          <p>
+          <stage>(kummt erin)</stage> Guete-n-Owe. Isch will nitt lang stöere, isch hab numme welle sehne ob-r
+          schun Nochricht vum Voltz hann grejt — wisse-n-er, ich kennt diss Baräckel günschtich verkaafe, un wenn
+          dr Voltz doch nimi kommt — — no müen-r halt nüss. Es sinn jetzert vier Termin verfalle un dr Kriej isch
+          erum, jetz müen-r halt bezahle oder ’s Baräckel leer mache, also mache-n-ejch gfasst druff, dü reste
+          —</p>
+        </sp>
+        <pb n="16" />
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Awer Nissmeier, jetz mitte im Winter wotte ihr uns nüss stelle ? Bedänke doch, was diss füer uns
+          wär, warte doch noch e bissel, hann noch e weni Geduld, mr hoffe alle Döj druff, ass dr Voltz widder
+          kummt, no wurd’r jo alles bezahle,</p>
+        </sp>
+        <sp who="#nissmeier">
+          <speaker>Nissmeier:</speaker>
+          <p>Ja, mit Versprechunge kann isch awer nitt inkaafe, un ob de Voltz kummt, diss isch e anderi
+          Fröj.</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Awer sicher kummt-r.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Na, awer gedulde ejch doch noch. Ihr hann jo ze läwe un sinn jetz nitt grad angewiese uf die paar
+          hundert Livres. Ihr sinn doch e richer Mann. —</p>
+        </sp>
+        <sp who="#nissmeier">
+          <speaker>Nissmeier:</speaker>
+          <p>Was heisst e richer Mann ? Du reste, ich müess au lueje, ass ich durichkumm, isch hab nix eweck ze
+          schmisse un wenn de Voltz als weniger geblosse hätt, wär’s Baräckel längscht bezahlt.</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Was säit dar ? Unsere Babbe hett geblose ! 
+          <stage>(langt de Stock, geht uf de Nissmeier los)</stage> Jetz awer nix wie nüss, Niesskräue ass-r sinn
+          — ah ihr mache mine Babbe schlächt.</p>
+        </sp>
+        <sp who="#nissmeier">
+          <speaker>Nissmeier:</speaker>
+          <p>
+          <stage>(risst-em de Stock üss de Händ)</stage> Was dü Lüsangel, witt uf e Mann los gehn. 
+          <stage>(geht-em noch)</stage>.</p>
+        </sp>
+        <sp who="#alli">
+          <speaker>Alli:</speaker>
+          <p>
+          <stage>(ruefe durich-e-n-ander)</stage> Welle ne gehn lonn! Ruehj do hinne ! 
+          <stage>(üewer dem geht d’ Düer uf un dr Voltz kummt erin)</stage>.</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Was geht do vor ? Sapristi noch emol !</p>
+        </sp>
+        <sp who="#alli">
+          <speaker>Alli:</speaker>
+          <p>
+          <stage>(üsser Nissm. un Schorschel)</stage> Dr Babbe!!</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>
+          <stage>(risst Nissm. zeruck)</stage> Zeruck vun dam Bue — was hann ihr in dere Stubb ze sueche am e so e
+          Owe?</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Ar hett gsäit mr müen nüss, wann mr nitt bezahle kenne.</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Soo — diss isch dr Dank von dere Sort Litt, ass mr 5 Johr lang sini Knoche ze Märik getraue hett un
+          sie sinn d’häime hinterem warme Offe ghuckt. ’s isch guet Nissmeier — Ihr bekumme ejer Gald,
+          <pb n="17" />ich kumm morje un bezahl ejch mit Zins un Zinseszins. 
+          <stage>(klopft uf Dasch)</stage> Do isch Gald! Awer jetz mache, ass-r häime kumme.</p>
+        </sp>
+        <sp who="#nissmeier">
+          <speaker>Nissmeier:</speaker>
+          <p>Non, monsieur Voltz, ’s isch nitt so böes gemaant gewäse — Ich tröj eich jo — ihr brüche nitt glich
+          morje ze kumme. — Ich waas jo, ihr sinn e braver rechtschaffener Mann — isch hab numme welle lueje, was
+          d’ Familie macht, wie’s geht dene Kinder, ich bin nurre froh, ass isch nix Böeses üewer ejch gsaat hab.
+          — Adje, un amesiere-n-ejch guet! 
+          <stage>(geht ab)</stage>.</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Kinder — Vater — Gott-lowe-dank d’häime ! —</p>
+        </sp>
+        <sp who="#marikel_un_xavier">
+          <speaker>Marikel un Xavier:</speaker>
+          <p>Babbe, liewer Babbe — jetz bliesch awer do, gall ?</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Wie isch d’ Mamme ? Ruefe d’ Mamme, saue de Babbe isch do! 
+          <stage>(Alli stehn ganz verdattert do — kenns dröjt ne anlueje.)</stage></p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Ja, wie gemahnt mich diss ? Wie isch d’ Mamme? 
+          <stage>(Paus)</stage>.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Unseri Mamme isch nitt do — sie isch gstorwe !</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>
+          <stage>(sinkt uf e Stuehl am Disch, hielt)</stage> D’ Mamme dot ! Au diss Unglüeck noch, nitt genuej,
+          ass ich so viel durich gemacht hab — äu noch d’ Fräu verlore ! 
+          <stage>(lejt de Kopf uf de Disch un hielt arich.)</stage></p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Martin — verzwiefel nitt, ass isch jo hart, was dich getroffe hett — awer luej, dü muesch’s ze
+          üewerwinde sueche, dü muesch jetz starik sin ! — Ja, ’s Marie hett müen starwe, d’ Gripp hett’s
+          mitgenumme, wie noch so viel — awer do hesch dini Kinder, unschuldichi Tröepfle, wie mit Schmarze uf de
+          Babbe gewart hann un de Glauwe nitt verlore hann, ass de widder kummsch, un ihrer Glauwe hett se nitt
+          im Stich gelonn, dü bisch widderkumme. — Diss isch doch au e Droscht füer di un soll dr Kraft gann äu
+          diss ze üewerwinde — — un am Schicksal kenne mr nix ändere, ass hett so selle sinn.</p>
+        </sp>
+        <pb n="18" />
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>
+          <stage>(zum Grossbabbe)</stage> Grossbabbe — war isch dar Mann ? Waje was hielt-r dann.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Schorschel, diss isch jetz dr Babbe — wie de als gebatt hesch ass-r ball kumme sell.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>
+          <stage>(geht an de Disch zuem Babbe, lehnt sich an-ne)</stage> Babbe! — Babbe, luej mich doch an! 
+          <stage>(schlingt de Arm um de Hals)</stage> Babbe, luej, so garn haw i dich, un da hesch e Schmutz, dann
+          d’ Mamme hett gsäit, wann dr Babbe kummt sell ich em glich e Schmutz gann un sell dir viel Grüess
+          üssrichte vun-ere, höersch Babbe ?</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>
+          <stage>(luejt de Schorschel an)</stage> Jaa — gall diss isch jo dr Schorschel ? Gott, bisch dü awer
+          gross worre un e natter Bue ! Wie ich furt bin, bisch so gross gsinn un hesch als zue mr gsäit :
+          „Babbe, mach mr e Fiff !“ Wäisch’s noch ? 
+          <stage>(schmutz ne)</stage> Un do isch jo dr Xaverel, dü bisch jo e läids Burscht worre — un ’s Marikel
+          — dü hesch d’ Mamme müen spiele, dü arm’s Mäide. 
+          <stage>(alle stehn um de Babbe erum)</stage> Dü wursch awer d’ ähnli Mamme, je älter ass de wursch.</p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Babbe, hesch kenn Hunger — ich hab e Kueche gebache füer morje, awer mr asse ne jetz.</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Loss numme, Kind, ich hab gueti Sache mitgebrocht, Asse un Trinke. 
+          <stage>(macht de Koffer uf)</stage> Do isch e Budäll Bordeaux, er hett füer d’ Mamme selle sinn, do e
+          Budäll Malaga füer de Grossbabbe, un do isch Wurscht, Chambon, Sardinle, Mehl, Gries un do
+          Chocolade.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>Uuh — Schocola ! Babbe, gab mr e Stüekkel 
+          <stage>(gibt alle Chocolade.)</stage></p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Babbe, worum hesch dann so lang nix von dr höere lonn ? Vier Iohr lang ohne e Zäiche vun dr.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Ja, Martin, mr hann in Angscht um dich gelabt. Dü hesch allewäj viel ze verzehle.</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Ich möecht am liebschte nim dran dänke, gschweje devun redde. Am 24. August 1914 bin ich an dr
+          Oschtfront biem e Vormarsch nitt witt vun Allenstein gfange genumme worre. Bis noch Sibirien
+          <pb n="19" />bin i kumme, emol isch’s schlächt, emol guet gange, no bin ich schwär krank worre un bin
+          bis vor drej Monet im Lazarett geläje, ich hab nimi gedänkt, ass ich noch häime kumm, so eland bin i
+          geläje. Ich bin fascht narrächt worre, vier Johr vun aller Welt abgschnitte, von nieme e Brief, kenn
+          Nochricht vun Fräu un Kind. Do hann mr in’s Lazarett e nejer Docter bekumme, e Amerikaner, un do hett
+          sich’s erüssgstellt, ass-es e Sohn isch gewänn vum Unkel Jacques, wie vor Johre üssgewandert isch. Er
+          häisst Edgar, un ich sell ejch alli vum grüesse un bsunders ejch, Vater.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossvater:</speaker>
+          <p>Diss war im Jacques sinner Bue. Wie geht’s em dann in Amerika ?</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Ar hat e grossi Holzhandlung un verdient viel Gald, ar isch e gemachter Mann. Ar hett mr Gald gann,
+          e so viel, ass ich kann säue, mr sinn so gstellt, ass mr e äjes Hiesel un e sorjeloses Läwe hann. Ar
+          hett äu gemacht, ass ich jetz schun d’häime bin, ich hab üewer Frankrich kenne räise, in Lyon haw i die
+          Kleider bekumme, un mit-em erschte Transport bin i abgfahre ins Elsass. Ich war erscht morje kumme, es
+          fahrt hinnicht kenn Bähnel meh, awer ich hab de Wäj nitt gschejt un bin üwer de Barri rüewer geloffe,
+          ich hab doch am Chrischtowe d’häime welle sinn bie minere Familie.</p>
+        </sp>
+        <sp who="#marikel_un_xavier">
+          <speaker>Marikel un Xavier:</speaker>
+          <p>Gott-lowe-dank, ass mr die widder hann, dü bisch widder bie uns, jetz isch alles vergasse.</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Numme d’Mamme sott noch do sinn.</p>
+        </sp>
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Die isch im Himmel und fräit sich jetz mit uns, ass dr Babbe widder do isch.</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>
+          <stage>(ganz verschmiert vom Chocolade)</stage> Babbe, nim mich e bissel ! 
+          <stage>(Voltz setzt-ne uf de Gehre.)</stage></p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Xaverel, lang emol de Kuffer, ich hab ejch ebs mitgebrocht üss Rüssland. E Halstuech fürs Marikel, e
+          Pelzkapp füer de Xaverel un e Mutze füer de Schorschele. 
+          <stage>(Alli drej verschmutze ne.)</stage></p>
+        </sp>
+        <pb n="20" />
+        <sp who="#grossbabbe">
+          <speaker>Grossbabbe:</speaker>
+          <p>Martin, siehsch, wo so viel Lieb isch, do isch äu e Glüeck.</p>
+        </sp>
+        <sp who="#voltz_martin">
+          <speaker>Voltz:</speaker>
+          <p>Noch d’ Mamme — noch war min Glüeck vollkomme. 
+          <stage>(Paus — mr höert klingle von wittem, es kommt als nähter.)</stage></p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>’s Chrischtkindel kummt — ’s Chrischtkindel kummt ! 
+          <stage>(Xaverel schlupft schnell unter de Disch.)</stage></p>
+        </sp>
+        <sp who="#marikel">
+          <speaker>Marikel:</speaker>
+          <p>Kumm Schorschel, ich will dr ’s Müll abbutze, sunsch bekummts jo Angscht. 
+          <stage>(Alli lueje gespannt uf Düer, erin kummt ’s Chrischtkindel mit-eme Dannebaum un dr
+          Hanstrapp.)</stage></p>
+        </sp>
+        <sp who="#chrischtkindel">
+          <speaker>Chrischtkindel:</speaker>
+          <p>Ehre sei Gott in der Höhe und Friede den Menschen, die eines guten Willens sind.</p>
+        </sp>
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>Millionesternschnüppe ! — Jetz emol do häre un gsunge „O Tannenbaum“. — Ja, do fehlt jo einer, wo
+          stackt dann der ? Aha, der hett e böeses Gewisse, der hett Angscht vor-em Hanstrapp. 
+          <stage>(nimmt d’ Ruet un haut ne unterem Disch vor.)</stage> Als vor dü Galjestrick un versproche ass de
+          brav witt sinn.</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>
+          <stage>(knejt ane)</stage> Liewer Hanstrapp, ich will brav sinn !</p>
+        </sp>
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>Un ihr zwei, sinn ihr brav, oder müen ihr äu Wichs hann ?</p>
+        </sp>
+        <sp who="#chrischtkindel">
+          <speaker>Chrischtkindel:</speaker>
+          <p>Halt — liewer Hanstrapp. Ich bitt füer die Kinder, sie hann in dene vier Johr genuej liede müen un
+          hann kenn Mamme meh. —</p>
+        </sp>
+        <sp who="#kinder">
+          <speaker>Alli drej Kinder:</speaker>
+          <p>Liebs Chrischtkindel, mr welle allewill brav un folgsam sinn.</p>
+        </sp>
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>
+          <stage>(zuem Chrischtkindel)</stage> Dü mit dim weiche Härz duesch mr alli Freid verderwe, widder nix ze
+          fitze, Millionesternschnüppe noch emol. Jetz singe „O Tannenbaum“.</p>
+        </sp>
+        <sp who="#alli">
+          <speaker>Alli</speaker>
+          <stage>(singe:)</stage>
+          <p>„O Tannenbaum, o Tannenbaum, wie grün sind deine Blätter“ usw.</p>
+        </sp>
+        <pb n="21" />
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>Guet so gsinn. Do häre, jetz gitts Äpfel un Nusse un nitt züe knapp, Millionesternschnüppe ! 
+          <stage>(deilt Äpfel un Nusse üss)</stage> Wer kann jetz noch ebs ufsaue vum Chrischtkindel, der bekummt
+          noch diss schöen Lebkuchehärz !</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <p>Ich — Hanstrapp !</p>
+        </sp>
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>Dü ? Zej emol, angfange — wann’s nix isch no rauchts 
+          <stage>(fuchtelt mit dr Ruet)</stage> — ffft ! Millionesternschnüppe !</p>
+        </sp>
+        <sp who="#xaverel">
+          <speaker>Xaverel:</speaker>
+          <stage>(saat uf :)</stage>
+          <p>
+            ’s Chrischtkindel.
+          </p>
+          <l>De brave Kinder ihri Zitt,</l>
+          <l>Ruckt nähter als dezü.</l>
+          <l>Dr Chrischtdaa isch jetz gar nim witt,</l>
+          <l>Do gitt’s Pläsir genuej.</l>
+          <l>’s Chrischtkindel kummt,</l>
+          <l>Isch diss e Läwe.</l>
+          <l>Was wurd’s do füer Presantle gäwe.</l>
+          <l>Sie höere in Gedanke schun</l>
+          <l>Sin Glöeckel silwerhäll,</l>
+          <l>Mr säit sie draime gar devun,</l>
+          <l>Der geht gewiss nitt fahl.</l>
+          <l>Na, nurr Geduld, nim lang soll’s wäre,</l>
+          <l>’s Chrischtkind wurd ejch brachti b’schäre.</l>
+          <l>Do gitt’s füer Mäidle Küechegschirr</l>
+          <l>Un Puppe, natt un fin.</l>
+          <l>Mit Lockehoor, mr meint jo schier,</l>
+          <l>Dass sie natirlich sinn.</l>
+          <l>Zuem koche Äpfel, Bonbons, Tarte,</l>
+          <l>Füer ihre Puppe uffzewarte.</l>
+          <l>Füer Büewe gitt’s e Stäckepferd,</l>
+          <l>E Trumm un e Trumbeet,</l>
+          <l>E Flint un gar au noch e Schwärt,</l>
+          <l>Soldate gar ze natt.</l>
+          <pb n="22" />
+          <l>Do kenne se als exerziere</l>
+          <l>Un mitnander blinde Schlachte füere.</l>
+          <l>Diss war füer die, wo brav als sinn,</l>
+          <l>De Eltere folje schöen,</l>
+          <l>Wo d’ Lehrer niemols strofe müen</l>
+          <l>Un gärn in d’ Schuel au gehn.</l>
+          <l>Füer d’ Böese, wie stets brumme</l>
+          <l>Wurd mit dr Ruet dr Hanstrapp kumme.</l>
+          <l>Drum liewi Kinder uffgebasst</l>
+          <l>Un seje brav un guet,</l>
+          <l>Dr Hanstrapp hett noch niemols gspasst,</l>
+          <l>Er hett e dicki Ruet.</l>
+          <l>I mein, er wurd im Eck dort sitze</l>
+          <l>Füer böese Kinder scharf ze fitze.</l>
+        </sp>
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>Guet gemacht — do hesch’s Härz un sej vun jetz ab brav, sunsch butterts, wänn i widder kumm.</p>
+        </sp>
+        <sp who="#chrischtkindel">
+          <speaker>Chrischtkindel:</speaker>
+          <p>Awer der Klein do muess au e Lebkuechehärz hann.</p>
+        </sp>
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>Kannsch au ebs uffsaue, Dicker ?</p>
+        </sp>
+        <sp who="#schorschel">
+          <speaker>Schorschel:</speaker>
+          <p>
+          <stage>(saat uf)</stage> Min Harz isch kläin, min Harz isch räin, derf niemes drinne wohne, wie’s
+          Chrischtkindel alläin.</p>
+        </sp>
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>Diss isch kläin, awer fein! do hesch e Härz.</p>
+        </sp>
+        <sp who="#chrischtkindel">
+          <speaker>Chrischtkindel:</speaker>
+          <p>Diss isch lieb vun dir un au im Maidel muesch e Härz gänn 
+          <stage>(Hanstrapp gibt im Marikel au eins)</stage>.</p>
+        </sp>
+        <sp who="#hanstrapp">
+          <speaker>Hanstrapp:</speaker>
+          <p>Do wurr ich alli Härzer los, Millionesternschnüppe, un mr hann noch meh Kinder ze bschäre.</p>
+        </sp>
+        <sp who="#chrischtkindel">
+          <speaker>Chrischtkindel:</speaker>
+          <p>Ihr liewi Kinder, ich hab gsähn ass ihr alli brav sinn, un de brave Kinder duet’s Chrischtkindel
+          allewill helfe un biestehn. Denn durch diss ass ihr zuem Chrischtkindel immer gebett hänn,
+          <pb n="23" />hett’s ejch de Babbe widder gebrocht un Glüeck un Säje wurd vun jetz an in ejerem Hiesel
+          herrsche, bliewe allewil brav un folgsam, un ’s Chrischtkindel wurd ejch nie verlonn. Jetz singe mr
+          noch: „Stille Nacht, heilige Nacht.“</p>
+        </sp>
+        <sp who="#alli">
+          <speaker>Alli:</speaker>
+          <p>
+          <stage>(singe)</stage> Stille Nacht, heilige Nacht, alles schläft, einsam wacht usw. 
+          <stage>(Noch-em erschte Vers fallt dr Rideau.)</stage>.</p>
+    <stage>
+        <p>Diss Wihnachtsgedicht „’s Chrischtkindel“ isch vum Strossburjer Dichter Stöber</p>
+      </stage>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>
