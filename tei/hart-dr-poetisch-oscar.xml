@@ -28,7 +28,7 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q91900355</idno>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q91900355</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
