@@ -6,7 +6,13 @@
       <titleStmt>
         <title type="main">Sainte-Cécile!</title>
         <title type="sub">Lustspiel in einem Aufzuge in Straßburger Mundart von Julius Greber</title>
-        <author key="wikidata:Q91904226">Jules Greber</author>
+        <author>
+          <persName>
+            <forename>Jules</forename>
+            <surname>Greber</surname>
+          </persName>
+          <idno type="wikidata">Q91904226</idno>
+        </author>
         <respStmt>
           <name>Delphine Bernhard</name>
           <resp>OCR &amp; its correction</resp>
@@ -34,7 +40,7 @@
           <name>Numistral</name>
           <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k91095618</idno>
           <bibl type="originalSource">
-            <author key="wikidata:Q91904226">Jules Greber</author>
+            <author>Jules Greber</author>
             <title type="main">Sainte-Cécile!</title>
             <title type="sub">Lustspiel in einem Aufzuge in Straßburger Mundart von Julius Greber</title>
             <publisher>Verlag von Schlesier &amp; Schweikhardt</publisher>

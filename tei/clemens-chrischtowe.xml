@@ -7,7 +7,13 @@
         <title type="main">Chrischtowe</title>
         <title type="sub">E Wihnachtsstüeckel in 1 Akt in elsässischem Dialekt füer kleine und grossi
         Kinder</title>
-        <author key="wikidata:Q96464291">Paul Clemens</author>
+        <author>
+          <persName>
+            <forename>Paul</forename>
+            <surname>Clemens</surname>
+          </persName>
+          <idno type="wikidata">Q96464291</idno>
+        </author>
         <respStmt>
           <name>Audrey Deck</name>
           <resp>OCR and its correction, TEI encoding</resp>
@@ -39,7 +45,7 @@
           <name>Numistral</name>
           <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k91095403</idno>
           <bibl type="originalSource">
-            <author key="wikidata:Q96464291">Paul Clemens</author>
+            <author>Paul Clemens</author>
             <title type="main">Chrischtowe</title>
             <title type="sub">E Wihnachtsstüeckel in 1 Akt in elsässischem Dialekt füer kleine und grossi
             Kinder</title>

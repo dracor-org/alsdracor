@@ -7,7 +7,13 @@
         <title type="main">D’r poetisch Oscar</title>
         <title type="sub">Einakter vun Marie Hart. Nej bearweit vun E. Deck, Regisseur vom Els. Theater in
         Hawenau.</title>
-        <author key="wikidata:Q1897363 bnf:12678653">Marie Hart</author>
+        <author>
+          <persName>
+            <forename>Marie</forename>
+            <surname>Hart</surname>
+          </persName>
+          <idno type="wikidata">Q1897363</idno>
+        </author>
         <respStmt>
           <name>Delphine Bernhard</name>
           <resp>OCR &amp; its correction</resp>
@@ -35,7 +41,7 @@
           <name>Numistral</name>
           <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109761z</idno>
           <bibl type="originalSource">
-            <author key="wikidata:Q1897363 bnf:12678653">Marie Hart</author>
+            <author>Marie Hart</author>
             <title type="main">D’r poetisch Oscar</title>
             <title type="sub">Einakter vun Marie Hart. Nej bearweit vun E. Deck, Regisseur vom Els. Theater in
             Hawenau.</title>
@@ -281,7 +287,7 @@
           <speaker>Mme LEWERMANN:</speaker>
           <p>Han Sie nuer kenn Angscht, Mme Schweberle, ich brüch m’r e so ebs net inzebilde; es git Männer
           genue, denne e Frau von minne Johre, vun minnere G’schtalt vun mim 
-          <seg xml:lang="fre">savoir-vivre</seg> besser g'fallt als e Gänsel vun zwanzig Johr.</p>
+          <foreign xml:lang="fre">savoir-vivre</foreign> besser g'fallt als e Gänsel vun zwanzig Johr.</p>
         </sp>
         <sp who="#madame_schweberle">
           <speaker>Mme SCHWEBERLE:</speaker>
@@ -359,7 +365,7 @@
         <sp who="#madame_schweberle">
           <speaker>Mme SCHWEBERLE:</speaker>
           <p>Der isch doch viel ze alt for ’s Suzanne. Awer 
-          <seg xml:lang="fre">raison de plus</seg>, dass mer die Sach in Ordnung bringe. Finde Sie nit au, dass
+          <foreign xml:lang="fre">raison de plus</foreign>, dass mer die Sach in Ordnung bringe. Finde Sie nit au, dass
           es gar nit vorwärts geht mit ne?</p>
         </sp>
         <sp who="#madame_lewermann">
@@ -427,7 +433,7 @@
         <sp who="#oscar">
           <speaker>OSCAR:</speaker>
           <p>Un Sie han m’r wieder d’rzue verholfe, Madame Lewermann, Sie ellein verstehn min poetisch Empfinde. 
-          <seg xml:lang="fre">Vous êtes ma muse</seg>.</p>
+          <foreign xml:lang="fre">Vous êtes ma muse</foreign>.</p>
         </sp>
         <sp who="#madame_lewermann">
           <speaker>Mme LEWERMANN:</speaker>
@@ -551,7 +557,7 @@
         <sp who="#oscar">
           <speaker>OSCAR:</speaker>
           <p>Ja, zell isch wohr, wenn’s numme e bissel meh geischtige Schwung hät, wenn ’s nit e so 
-          <seg xml:lang="fre">terre à terre</seg> wär.</p>
+          <foreign xml:lang="fre">terre à terre</foreign> wär.</p>
         </sp>
         <sp who="#madame_lewermann">
           <speaker>Mme LEWERMANN:</speaker>
@@ -770,7 +776,7 @@
         <sp who="#jean_brey">
           <speaker>BREY:</speaker>
           <p>
-          <seg xml:lang="fre">Tenez, Mademoiselle Suzanne</seg>, versteckle m’r uns. nit. Sie wisse, dass ich en
+          <foreign xml:lang="fre">Tenez, Mademoiselle Suzanne</foreign>, versteckle m’r uns. nit. Sie wisse, dass ich en
           Au uff Sie geworfe hab?</p>
         </sp>
         <pb n="14" />
@@ -823,7 +829,7 @@
         <sp who="#suzanne">
           <speaker>SUZANNE:</speaker>
           <p>Do sin Sie ze bedüre, Herr Brey. Wenn Sie wisste, wie schön es, 
-          <seg xml:lang="fre">par exemple</seg>, am Morje isch, wenn d' Welt eso frisch do lejt, d’
+          <foreign xml:lang="fre">par exemple</foreign>, am Morje isch, wenn d' Welt eso frisch do lejt, d’
           Vergissmeinnicht un d’ Morjestern im Tau glänze, un d’r Sunnegott sinni Rösser lenkt...</p>
         </sp>
         <sp who="#oscar">
@@ -959,7 +965,7 @@
           <speaker>BREY:</speaker>
           <p>Un wie; ich weiss gar nit wie ich bis jetzt mini Aue hab g'het. Sie sin e Frauezimmer, do isch doch
           au ebs dran. Ken so e rüdigi Gais wie, 
-          <seg xml:lang="fre">par exemple</seg>, ’s Suzanne.</p>
+          <foreign xml:lang="fre">par exemple</foreign>, ’s Suzanne.</p>
         </sp>
         <sp who="#madame_lewermann">
           <speaker>Mme LEWERMANN:</speaker>
@@ -994,9 +1000,9 @@
         <sp who="#jean_brey">
           <speaker>BREY:</speaker>
           <p>
-          <seg xml:lang="fre">A vos ordres, Madame</seg>
+          <foreign xml:lang="fre">A vos ordres, Madame</foreign>
           <stage>(gibt' ere de Vortritt.)</stage>
-          <seg xml:lang="fre">Passez, beauté</seg>
+          <foreign xml:lang="fre">Passez, beauté</foreign>
           <stage>(ab in ’s Freie)</stage>.</p>
         </sp>
       </div>
@@ -1261,7 +1267,7 @@
         <sp who="#madame_schweberle">
           <speaker>Mme SCHWEBERLE:</speaker>
           <p>
-          <seg xml:lang="fre">Toutes mes félicitations</seg>; ich wuensch eich Glueck vun ganzem Herze. 
+          <foreign xml:lang="fre">Toutes mes félicitations</foreign>; ich wuensch eich Glueck vun ganzem Herze. 
           <stage>(Zue Schakob)</stage> Un Ihr, do hinte, kumme emol here.</p>
         </sp>
         <sp who="#schakob">

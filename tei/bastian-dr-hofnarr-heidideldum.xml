@@ -6,7 +6,13 @@
       <titleStmt>
         <title type="main">D’r Hofnarr Heidideldum</title>
         <title type="sub">Märel in 6 Bilder un 2 Verwandlunge vun Ferd. Bastian. Musik von Aug. Schwoob</title>
-        <author key="wikidata:Q13099282">Ferdinand Bastian</author>
+        <author>
+          <persName>
+            <forename>Ferdinand</forename>
+            <surname>Bastian</surname>
+          </persName>
+          <idno type="wikidata">Q13099282</idno>
+        </author>
         <respStmt>
           <name>Audrey Deck</name>
           <resp>OCR and its correction, TEI encoding</resp>
@@ -38,7 +44,7 @@
           <name>Numistral</name>
           <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109710n</idno>
           <bibl type="originalSource">
-            <author key="wikidata:Q13099282">Ferdinand Bastian</author>
+            <author>Ferdinand Bastian</author>
             <title type="main">D’r Hofnarr Heidideldum</title>
             <title type="sub">Märel in 6 Bilder un 2 Verwandlunge vun Ferd. Bastian. Musik von Aug.
             Schwoob</title>

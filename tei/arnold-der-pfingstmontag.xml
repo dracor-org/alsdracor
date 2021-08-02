@@ -6,7 +6,15 @@
       <titleStmt>
         <title type="main">Der Pfingstmontag</title>
         <title type="sub">Lustspiel in Straßburger Mundart</title>
-        <author key="wikidata:Q3180474">Arnold, Johann Georg Daniel</author>
+        <author>
+          <persName>
+            <forename>Johann</forename>
+            <forename>Georg</forename>
+            <forename>Daniel</forename>
+            <surname>Arnold</surname>
+          </persName>
+          <idno type="wikidata">Q3180474</idno>
+        </author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>

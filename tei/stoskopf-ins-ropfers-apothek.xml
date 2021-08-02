@@ -6,7 +6,13 @@
       <titleStmt>
         <title type="main">In’s Ropfer’s Apothek</title>
         <title type="sub">Schwank in 3 Aufzügen</title>
-        <author key="wikidata:Q923554">Gustave Stoskopf</author>
+        <author>
+          <persName>
+            <forename>Gustave</forename>
+            <surname>Stoskopf</surname>
+          </persName>
+          <idno type="wikidata">Q923554</idno>
+        </author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>

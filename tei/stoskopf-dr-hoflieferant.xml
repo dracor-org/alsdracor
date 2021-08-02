@@ -6,7 +6,13 @@
       <titleStmt>
         <title type="main">D’r Hoflieferant</title>
         <title type="sub">Elsässische Komödie in 3 Aufzügen von G. Stoskopf</title>
-        <author key="wikidata:Q923554">Gustave Stoskopf</author>
+        <author>
+          <persName>
+            <forename>Gustave</forename>
+            <surname>Stoskopf</surname>
+          </persName>
+          <idno type="wikidata">Q923554</idno>
+        </author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
