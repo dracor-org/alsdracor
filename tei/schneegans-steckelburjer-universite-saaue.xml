@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Was d' Steckelburjer vun d'r „Université“ saaue</title>
+        <title type="sub">Humoristisches Intermezzo von Dr. Heinrich Schneegans Privatdocent, Aufgeführt zum
+        Universitäts-Jubiläum am 2. Mai 1897</title>
+        <author>
+          <persName>
+            <forename>Heinrich</forename>
+            <surname>Schneegans</surname>
+          </persName>
+          <idno type="wikidata">Q1598786</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Barbara Hoff</name>
+          <name>Vedisha Toory</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Andrew Briand</name>
+          <name>Hoda Chouaib</name>
+          <name>Barbara Hoff</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">als000023</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q107247835</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109602r</idno>
+          <bibl type="originalSource">
+            <author>Heinrich Schneegans</author>
+            <title type="main">Was d' Steckelburjer vun d'r „Université“ saaue</title>
+            <title type="sub">Humoristisches Intermezzo von Dr. Heinrich Schneegans Privatdocent, Aufgeführt zum
+            Universitäts-Jubiläum am 2. Mai 1897</title>
+            <publisher>Schlesier &amp; Schweikhardt</publisher>
+            <date when="1897" type="print">1897</date>
+            <date type="written" />
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="eugene_mathis">
+            <persName>Eugène Mathis</persName>
+          </person>
+          <person sex="FEMALE" xml:id="sophie_mathis">
+            <persName>Sophie Mathis</persName>
+          </person>
+          <person sex="MALE" xml:id="dr_schaufler">
+            <persName>Dr. Schaufler</persName>
+          </person>
+          <person sex="MALE" xml:id="otto_kuhne">
+            <persName>Otto Kühne</persName>
+          </person>
+          <person sex="MALE" xml:id="ein_herr_vom_comite">
+            <persName>Ein Herr vom Comité</persName>
+          </person>
+          <listRelation>
+            <relation name="spouses" mutual="#eugene_mathis #sophie_mathis" />
+            <relation name="related_with" active="#dr_schaufler" passive="#eugene_mathis" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="3" />
+      <castList>
+        <head>Persone:</head>
+        <castItem corresp="#eugene_mathis">
+          <role><persName>Eugène Mathis</persName></role>,
+          <roleDesc>Rentier un Proprietär</roleDesc>.
+        </castItem>
+        <castItem corresp="#sophie_mathis">
+          <role><persName>Sophie Mathis</persName></role>,
+          <roleDesc>sini Frau</roleDesc>.
+        </castItem>
+        <castItem corresp="#dr_schaufler">
+          <role><persName>Dr. Schaufler</persName></role>,
+          <roleDesc>Oberlehrer, sin Nevö</roleDesc>.
+        </castItem>
+        <castItem corresp="#otto_kuhne">
+          <role><persName>Otto Kühne</persName></role>,
+          <roleDesc>stud. med.</roleDesc>
+        </castItem>
+        <castItem corresp="#ein_herr_vom_comite">
+        <role>
+          <persName>Ein Herr vom Comité</persName>
+        </role>.</castItem>
+      </castList>
+      <set>
+        <p>Das Stück spielt zu Straßburg i. E. in der Hauptrestauration der Orangerie am 2. Mai 1897.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="5" />
+      <div type="act">
+        <div type="scene">
+          <head>Scene I.</head>
+          <stage>Spielt sich an der Thüre der Restauration ab.</stage>
+          <stage>(Während der Herr vom Comité auf dem Podium eine Rede hält, treten Herr Mathis und Madame Mathis
+          ein.)</stage>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>I saa der, Eugène, geh nit witersch! Dü sisch jo, 's isch g'schlosseni G'sellschaft. Mer derf nit
+            nin.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Un wenn ich bis do her kumme bin, so geh ich a ganz nin — deß loß ich m'r nit g'falle, daß m'r
+            d'Orangerie absperrt. Di isch für Jedermann do. Un wenn ich do e Scheppel trinke will, so kann mers
+            ken Mensch verwehre.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Awer, Eugène, j't'en prie! Dü sisch jo, 's isch e Concert oder e Hochzitt. — Gehn mer liewer ins
+            Bäckehiesel.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Nein, Sophie. — Wenn's e Concert isch, un wenn's eb's koscht, so bezahl' ich schun. Ich bin nit e'
+            so, daß ich uf's Geld lüej. Deß weisch dü schun, Sophie. Je ne suis pas commeça que je regarde à
+            l'argent.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Zell weiß ich schun! Ça je le sais bien — awer du machsch' d'r noch e "mauvaise affaire". — Kumm,
+            d' Lytt lüejen alli so. Un do kummt schun e Herr uf uns zü! O, i müß mich schemme.</p>
+          </sp>
+          <pb n="6" />
+        </div>
+        <div type="scene">
+          <head>Scene II.</head>
+          <stage>Die Vorigen. Herr vom Comité.</stage>
+          <sp who="#ein_herr_vom_comite">
+            <speaker>Herr:</speaker>
+            <p>Entschuldigen Sie, mein Herr, ich muß Sie darauf aufmerksam machen, daß es hier geschlossene
+            Gesellschaft ist, und der Saal abgesperrt ist. Oder haben Sie etwa eine Einladungskarte erhalten
+            ?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Haw' ich's d'r nit gsaat? Allez, kumm. — J't'en prie, Eugène! . ..</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis</speaker>
+            <stage>(im bekannten sog. Psarrerdeutsch):</stage>
+            <p>Nein, mein Herr, ich habe keine Einladungskarte — aber ich muß doch sagen — die Orangerie ist für
+            Jedermann da, und ich seh nicht ein, warum man sie absperren sollte, an einem so schönen Abend wie
+            heute, ganz besonders.</p>
+          </sp>
+          <sp who="#ein_herr_vom_comite">
+            <speaker>Herr:</speaker>
+            <p>Entschuldigen Sie vielmals, — aber die Stadt ist so freundlich gewesen, uns das Lokal zu
+            überlassen, um unser Fest darin abzuhalten. So gern ich Ihnen das Vergnügen machen würde. . .</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Awer Eugène, sois donc raisonnable — Kumm, mer gehn jezt. . .</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Loß mi doch. . . Ich wurr mich schun ze rangire wisse.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>O jemerliche! Wenn der Mann emol ebbs in simm Kopf het, so isch's nit mejli, mit dem beschte Wille
+            nit. . . Entschuldigen Sie, mein Herr.</p>
+          </sp>
+          <pb n="7" />
+          <sp who="#eugene_mathis">
+            <speaker>Mathis</speaker>
+            <stage>(zum Herrn):</stage>
+            <p>Ich bezahl jo gern was es koscht. . . . Saue Se mer nur, was ich ze bezahle hab.</p>
+          </sp>
+          <sp who="#ein_herr_vom_comite">
+            <speaker>Herr</speaker>
+            <stage>(lachend):</stage>
+            <p>Ja, mein verehrter Herr, es ist nichts zu bezahlen. Sie sehen ja doch selber ein, daß Sie sich
+            nicht in eine fremde Gesellschaft eindrängeln können.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Mein Herr! Ich bin nit le premier venu. Ich bin der Herr Eugène Mathis, un wohn uf'em Pont
+            couvert, un Jedermann kennt mich für en' ordentlicher Mann — un deß isch min Frau . . .</p>
+          </sp>
+          <sp who="#ein_herr_vom_comite">
+            <speaker>Herr:</speaker>
+            <p>Ja, mein verehrter Herr! Ich bezweifle ja nicht im Geringsten, daß Sie ein ordentlicher Mann sind.
+            Es liegt mir ja natürlich vollständig fern, Ihnen in irgend einer Weise zu nahe treten zu wollen,
+            aber Sie werden doch begreifen. . . .</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Nein, Herr, min Mann begrifft's nit; wenn er sich so ebs in de Kopf setzt, so isch Alles verlore.
+            D' Lit sauen als: C'est une tête carrée.</p>
+            <stage>(Unterdessen sind sie immer weiter gegangen, bis in die Mitte des Saales. Andere Herren des
+            Comité's sind auf dieses Vorkommniß aufmerksam geworden und sprechen zusammen. Im Publikum befindet
+            sich stud. med. Kühne, der nun unter lebhaften Zeichen der Verwunderung näher tritt.)</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Scene III.</head>
+          <stage>Die Vorigen. Kühne.</stage>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Donnerschlag! Das sind ja meine Wirthsleute! Was will denn der verdrehte Kerl 
+            <pb n="8" />hier? Na, das ist ja famos! . . . 
+            <stage>(geht auf sie zu):</stage>Guten Tag Herr Mathis! Guten Tag Frau Mathis! — Was machen Sie nur
+            hier? 
+            <stage>(Auf den Herrn vom Comite zugehend.)</stage>Erlauben Sie, daß ich mich Ihnen vorstelle: Mein
+            Name ist: Studiosus Kühne.</p>
+          </sp>
+          <sp who="#ein_herr_vom_comite">
+            <speaker>Herr:</speaker>
+            <p>Prof.....</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ah, Sind sie a do, Herr Kihne!</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Gueten owe, Herr Kihne. Ich bitt' Sie, sind Sie doch so frindlich un helfe Se m'r mine Mann zü
+            persuadiere, daß er ken G'schicht anfangt.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ich saa d'rs jetz ein für alle mol. Loß mi jetz gehn. Was min Recht isch, isch min Recht, un do
+            kann der Herr Kihne a nix mache . . . un wenn sie mir's verwehre, no mach ich erscht recht Krambohl,
+            oder schrieb an d'Birjerzittung! Do solle Sie erscht sehn . . . .</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Herr Jeses! Was wurd jetz noch do drüs!</p>
+          </sp>
+          <stage>Kühne und der Herr vom Comité haben sich lachend unterhalten, indem sie auf die beiden
+          sehen.</stage>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne</speaker>
+            <stage>(zum Herrn);</stage>
+            <p>Wenn Sie mir erlauben, Herr Prof., so würde ich Ihnen rathen, die beiden eintreten zu lassen. Das
+            sind köstliche Leute, wirkliche Straßburger Typen, die unterhalten die ganze Gesellschaft. . . .</p>
+          </sp>
+          <sp who="#ein_herr_vom_comite">
+            <speaker>Herr:</speaker>
+            <p>Na, dann meinetwegen. Ich hoffe die andern Herren vom Comité haben nichts dagegen?</p>
+          </sp>
+          <pb n="9" />
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Und wenn es auch nicht im Programm steht, Sie werden es sicher nicht bereuen. Erlauben Sie mir
+            nur, die Geschichte zu deichseln. Das werde ich schon recht machen. - 
+            <stage>(Zu Herrn Mathis.)</stage>Kommen Sie doch nur mit, Herr und Frau Mathis, und haben Sie keine
+            Angst. Sie werden sehen, wie's hier gemüthlich wird.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Awer, ich tröj mir nit, ich bin jo a nit en toilette, und die Madame do sin jo alli so scheen hell
+            angezöje.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Haw ich's dir nit g'saat?? Wenn ich ebs will, no wurd a ebs drüs. Jetz bin i drin!</p>
+            <stage>(Unterdessen haben sie sich dem Podium genähert.)</stage>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne</speaker>
+            <stage>(von dem Podium aus zum Publikum gewendet) :</stage>
+            <p>Verehrte Damen und Herren, ich bitte Sie Plaß zu nehmen! Der Zufall hat gewollt, daß meine
+            vortrefflichen Wirthsleute sich hier in unsere Gesellschaft verirrt haben. Ich bin sicher, daß Sie
+            damit einverstanden sein werden, wenn ich sie in Ihrem Namen auffordere hier auf dem Podium Plaß zu
+            nehmen. Es find ganz famose Leute, die echten Steckelburjer, von altem Schrot und Korn! Ich
+            unterhalte mich sehr oft und gerne mit ihnen, und ich glaube annehmen zu dürfen, daß es auch für Sie,
+            meine verehrten Anwesenden, von Interesse sein wird, ein solches echtes Straßburger Gespräch mit
+            anzuhören. Namentlich dürfte es für die, welche hier früher docirt oder studirt haben, eine Freude 
+            <pb n="10" />sein, sich wieder in die alte Straßburger Vergangenheit hinein zu versetzen. Also ich
+            stelle Ihnen vor: Herr Mathis, Eigenthümer und Rentier, und seine Frau, Wirthsleute, wie man sie
+            nicht besser haben könnte. Ich wohne schon seit 3 Semestern bei ihnen. Mein Name ist stud. Kühne.
+            Pst! Musik!</p>
+          </sp>
+          <stage>(Die Musik spielt darauf: O Straßburg, o Straßburg, du wunderschöne Stadt! . . .)</stage>
+          <stage>(Während dessen läßt Kühne Herrn und Frau Mathis an einen Tisch sich setzen, holt Bier und sucht
+          es ihnen so gemütlich als möglich zu machen. Herr Mathis zeigt großes Unbehagen, seine Frau sucht ihn
+          zu beschwichtigen, sobald die Musik aufhört.)</stage>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Cantus ex! Ein Schmollis der Musik! Und Ihnen, mein verehrter Herr Mathis, komm' ich einen Halben
+            aufs Spezielle sine, sine. Das ist doch reizend von Ihnen und Ihrer Frau, daß Sie uns mit Ihrer
+            Gegenwart beehren! Prosit!</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis</speaker>
+            <stage>(wüthend):</stage>
+            <p>Ja here Sie mol, Herr Kihne. Was isch jetz deß ? Was solle mir do mache? Was lon sie uns do auf
+            deren Estrade size, daß alli Lit uns anlüeje! Mer thät grad meine, mir sin "bêtes curieuses", Wisse
+            Sie, deß loß ich mir nit g'falle! ich bin en alter Chasseur d'Afrique.J'ai fait plusieurs campagnes
+            mit Üszeichnung. Un min Capitaine het als g'saat: ,Mathis est un brave soldat. Il porte le bâton de
+            maréchal 
+            <pb n="11" />dans son havresac." Un wer weiß, wenn d' Schwowe. nit g'kumme wärde . . . ..</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>O bli doch still! Herr Jeses Gott! — Dü hesch jo durchüs nin gehn welle.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ja, nin gehn, haw i gewellt! Awer nit do sitze, so vor alli Litt, grad wie wenn ich Theater wott
+            spiele. Deß leijt m'r grad an. Ich bin ken Comédien.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Nun, nun, mein lieber Herr Mathis,nehmen Sie das doch. nicht krumm! — Sehen Sie, Sie wollten
+            durchaus hineingehn. Schließlich, nach langem Hinund Herreden, ist es mir gelungen, Ihnen einen Platz
+            im Saale zu verschaffen, und dazu noch einen sehr ehrenvollen, den ehrenvollsten vielleicht; und
+            jetzt reklamieren Sie wiederum! Sie sind mir der rechte Straßburger, denn das habe ich in den 3
+            Semestern, die ich hier studirte, doch allmählich herausbekommen. Ein jeder Straßburger hat etwas von
+            seinem Nationalhelden an sich, dem Hans im Schnackenloch . . "Der Hans im Schnackenloch het Alles was
+            er will, und was er will das het er nit, und was er het, das will er nit, der Hans im Schnackenloh
+            het Alles, was er will!" -</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>O gehn Se m'r doch mit Ihrem Stroßburjer Ditsch. S'macht mer grad Büchweh, wenn ichs heer. So redt
+            mer doch nit: Der Hans im Schnokeloch het Alles was er will, und was 
+            <pb n="12" />er will, deß het er nit, und was er het, deß will er nit, der Hans im Schnokeloch het
+            Alles was er will — oder wenn mr's scheen uf franzesch saue will:"Jean dans le tru du cusin, il havre
+            di tut ce qui vul'r, et tut ce qui vul'r il havre di pas, et tut ce qu'il havre ti vul'r ti pas. Jean
+            dans le tru du cusin, il havre ti tut ce qui vul'r. — Gel' Sophie, so ischs! — Un do brücht m'r nit
+            so ze lache. Un was lache denn die Pfohl alli do?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Dü redsch halt so firig! Kannsch denn's Mül nit halte?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Halt dü's Mül. — Un jetzt, Herr Kihne, mecht ich doch endlich e-mol wisse, was mir do mache. Was
+            welle die Lit? Was sin so vieli do? Isch's e Hochzitt, e Kindtauf oder was?</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Aber, mein lieber Herr Mathis! Wissen Sie denn nicht, was heute los ist? Es ist ja das
+            fünfundzwanzigste Jubiläum der Universität, heute, und nicht bloß heute, sondern auch gestern und
+            vorgestern, und morgen noch!</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Le 25e jubilé de l'Université? -</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Grad wie e silwerni Hochzitt! -</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Hesch e Recht, Sophie, e silwerni Hochzitt ! Weisch noch, wie mer unsri celebrirt hen!</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>'s sind jetzt 11 Johr!</p>
+          </sp>
+          <pb n="13" />
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Isch des e Gejäschts g'sin! — A, e silwerni Hochzitt! Un die celebrirt jetz d'Université? Ja, mit
+            wem denn?</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Na, mein lieber Herr Mathis! Wohl kaum mit der Bürgerschaft, nach dem was Sie davon zu wissen
+            scheinen! — Na, schad' nichts, wird schon allmählich anders werden! — Ja, sagen Sie mal, haben Sie
+            denn gar nicht gemerkt, daß in der Stadt etwas besonderes los ist?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ich hab's gemerkt, Herr Kihne! O jemerliche, was sind Sie agitiert gsin die Täj! Als B'süch g'hett
+            von güti Frind, als im schenste Gala, un furt gange, un heim kumme un wider furtgange — un als im
+            Waue g'sesse un rumg'fahre. — Was hett min Berwel Kleider mien birschte un Stiefel wichse! Un was hen
+            sie z'nächt Kleider vertreckelt uff'm Fackelzüg!</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ah, für deß isch der Fackelzüg gsin am Frida!</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Ja, natürlich, mein lieber Herr Mathis! Haben Sie sich denn das nicht angesehn?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>O lon Sie mich numme rühig, Herr Kihne Ich hab genüe mit dem Fackelzüg am 22te März g'hett. Do haw
+            i mit gehn mien! — Ich bin doch trésorier vom Angelverein. Un wenn mir nit mitgange werde, do wär's
+            uns schlecht gange! Do sin mir halt mit. A paar sin d'heim gebliwwe. Awer ich bin halt 
+            <pb n="14" />im Comité gsin. Un dernoh, wisse Sie, 's isch halt der alt Kaiser g'sin. — J'ai été
+            chasseur d'Afrique, et j'ai fait plusieurs campagnes mit Uszeichnung. — Awer wisse Sie, dem alt
+            Kaiser müß mer's lon, 's isch so en alter ehrwirdiger Herr g'sin, vor dem haw i Respekt bekumme. Dem
+            het m'r gern a Plaisir gemacht. A nach em Tod! — Oui, awer anmol ich güt. So im Treck rum watschlen e
+            paar Stund isch ken Fraid! — Un no henn Sie deß am Frida gemacht? Gelte Sie, m'r bekummt e scheener
+            Durscht nochher. -</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Herr Jeses Gott! Un Kleider sen üs. Do hemmer putze mien! Unser Berwel isch ganz üßer sich gjsin.
+            — Un saue Sie, Herr Kihne, was hen Sie denn gescht owes gemacht? O jemerliche, wie het des Zimmer
+            üsgsehn denne Morje, wie 's Berwel nin isch gange, 's het mer verzehlt, alles durchenander ! Un
+            Stiefel uff em Kannapee! Un d'Hose uff em Ofe; un unterm — Bett sin a noch Saches g'sin. Un Sie henn
+            g'schlofe un g'schnarcht noch am halwer elfe, wie ich von d'r Kirch' bin g'kumme; un hen so e roter
+            Kopf g'het! Ja, ja Herr Kihne! — Un uff an Mol, do schellt's un schellt's un schellt's — 's Berwel
+            geht nuf un saat mer: 's wurd fur der Kaffee sin! Awer nein: "Kaffee nehmen Sie nur ruhig wieder mit.
+            Ich trinke keinen heute. Aber bringen Sie mir ein Glas Wasser !" 
+            <pb n="15" />Un wie's deß Glas Wasser gebrocht het, schnell wider gebimmelt, un s' Berwel isch üßer
+            Othem gsin, un het als g'saat: O je, was het numme der Herr Kihne hit! Un was hen Sie gwellt: Noch e
+            Glas Wasser! Und doch saue Sie gewehnlich als: "'s Wasser ischs für's liebe Vieh! Wein muß der Mensch
+            trinke." -Un dernoh isch's im Trab gange, un Sie hen so g'scholte, wil Sie d'andre Kleider hen
+            gebirscht han welle ; un mir hen springe mien. Sie sin erecht bees gsin, wil nit alles glich ferti
+            isch g'sin. Un wie ich Sie g'fröjt hab, was denn los ish, daß Sie so jeschte, no hen sie g'saat: "Ich
+            muß mich tummeln, weil um 3/4 12 Frühschoppen im Tivoli ist. Da darf ich nicht zu spät kommen." Saue
+            Sie doch: Wurd mer denn glich relegiert, wenn mer ze spot zum Frihschoppe kummt?</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Relegirt — — ich bitte Sie, Frau Mathis. Wie kommen Sie überhaupt zu dem Wort?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>O, deß het mer dene Winter doch oft genüe in d'r Zittung gelese!</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Jo, 's hett fascht so lang gedürt un isch so ambetant g'sin ze lese, wie deß Dings do in Kreta. —
+            Awer saue Sie, Herr Kihne, was han Se denn gescht owes ghet, daß Sie so in dem Zuestand beim kumme
+            sin?</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne :</speaker>
+            <p>Nun, gestern Abend war ja Commers !</p>
+          </sp>
+          <pb n="16" />
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Sie han mir schints e scheens Commerce gemacht, mit Kischte, gelte Si?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Awer, was denksch denn, Eugène! Commers het mit dem Handel nix ze dhuen.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Er wurd doch nit im Hôtel du Commerce sin gsin, wo's Casino isch, uf'm Gütebergplatz. Do hett er
+            sich nit so viehmäßig kenne betrinke. Deß hätte d'habitués nit gelitte. Un dernoh — weiß i a nit, ob
+            er grad ins Casino het nien kumme kenne! Do welle sie ken Schwowe han. Nit daß sie eb's geje sie
+            hätte — so politisch mein ich — nein, awer sie wellen under sich sin -</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Aber, mein lieber Herr Mathis, Sie scheinen ja gar nicht zu wissen, was ein Commers ist. Es ist
+            eine festliche Veranstaltung beim Bier ; Professoren und Studenten kommen zusammen, halten Reden,
+            reiben Salamander, singen Lieder, rauchen ihre Cigarren und die Damen schauen von der Tribüne
+            herunter auf das fröhliche Treiben, das sich da unten entwickelt.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Na, deren ihri Kleider mien den andre Morjen e scheener Gschmack han, wenn sie sich so raichere
+            lon! — Un deß isch Alles für's Jubilé g'sin ?</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Ja natürlich, und heute ist hier Festessen gewesen, und Sie nehmen selbst nun an der 
+            <pb n="17" />geselligen Vereinigung mit Damen theil, die sich in den festlich geschmückten Räumen der
+            OrangerieRestauration abspielt.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Deß alles noch silwerni Hochzitt! — Passe Sie uf! Do were noch andri Hochzitte drüs wenn so viel
+            Mamsellen un Herre zsamme sin! . . .Meinsch nit Sophie?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>O sicherlich! So es Fescht macht m'r jo a numme für deß, daß e mariage drüß wurd.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Oder e Paar! Un saue Sie, Herr Kihne, all die Herren un Madamen un Mamselle die g'here zür
+            Université?</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Jawohl, die stehen alle in dem einen oder andern Verhältniß zur Universität.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ja, do mißt ich jo e Paar Herre kenne! Ich bin doch Proprietär von e Paar Hieser in der Neistadt
+            und do haw ich mit dene Herre manchmol zu dhün. Un ich müß saue, ich bin recht zefridde mit 'ne. Sie
+            bezahlen ihre Zins regelmäßig und keiner isch mir noch ebs schuldig gebliewe.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>O ja, deß muß mer 'ne lon, 's sind ordentlichi und bravi Litt.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Manchmol sind si so e bissel krittlich, und lamentire! — So hen se nit verstehn welle, daß mer so
+            d'Beim abhaut, wo einem grad vor der Nas stehn, un d' Üssicht versperre . . . 
+            <pb n="18" />Awer ich loß mir nix saue. J'ai été Chasseur d'Afrique, j'ai fait plusieurs campagnes,
+            mit Üszeichnung — und min Capitaine het als g'saat: "Mathis est un brave soldat. Il porte le bâton de
+            maréchal dans son havresac, un wenn d'Schwowe nit kumme wärde . . . . . Awer ich bin als heflich und
+            frindlich mit 'ne, und wenn einer ebs will, so sau ich als, Herr Professor, wissen Sie, ich bin schon
+            in Stroßburi seit 64 Jahren, seit meiner Geburt, und Sie sind erst hier seit ein Paar Jahren, und Sie
+            verstehen . . . Un do fahr ich als so furt — un sie verstehn's in de meischte Fäll! — 'S sin halt
+            g'scheiti Litt. Ja, wenn mer so lang stüdiert, und 's doch nit verstehn thät, — wisse Sie, deß wär
+            doch trürig. Wer müß doch zü ebs kummen in der Welt.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Heer, Eugène, do fallt mer awer grad ebs in. Die Herre were sicher froh sin, daß dü a zum Jubilé
+            kumme bisch! Deß kann Dir viellicht noch nutze.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis :</speaker>
+            <p>Siesch, Alterle. Ich hab doch Recht g'het, daß ich durchüs hab nin gehn welle! Ja, ja, hab so e'
+            pressentiment g'het, daß ich so nin müß. — Wer weiß, viellicht nimmt einer noch der erscht Stock, wo
+            nit verlehnt isch, wenn er erscht sicht, was ich für e Proprietär bin. Gelte Sie, Herr Kihne, wenn
+            Sie so ebs heere, — Sie 
+            <pb n="19" />kenne mich schun lang. — Do kennte Sie ebs fur mich mache.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne</speaker>
+            <stage>(allmählich ärgerlich werdend):</stage>
+            <p>Versteht sich, mit dem größten Vergnügen, mein Verehrtester. — Aber sagen Sie mir doch mal, das
+            interessirt mich, und ist ja typisch für die hiesigen Verhältnisse. Haben Sie denn gar keine Ahnung
+            von diesem Fest gehabt?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Vom Jubilé ? Nein, was geht mich deß an? Wisse Sie, min liewer Herr Kihne! Ich will nen ebs saue.
+            Je veux vous dire quelquechose. Ich hab als in mim Lewe deß principe ghet: Mer soll sin Sach güt
+            mache. Was d'andri mache, deß geht eine nix an.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ja, wisse Sie, min Mann isch en alter rentier, er het sini paar Hieser ; er macht, daß
+            d'locataires zefridde sin , er cüjonirt sie nit — -</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Un ich loß mich a nit cüjonire. Ich hab min Frau! Mini Kinder sin driwwen in Frankrich. Ich mach
+            mini G'schäft, am zweie spiel ich mini Partie Ecarté im Bausin, am 6e trink ich min Scheppel im
+            Dauphin oder in der Taverne, am 10 geh' ich schlofe. Un witersch süch ich nix un will ich a nix
+            süche. Un am Sundaa geh ich halt fische am Pont Couvert oder wo's sunsch am beschten isch.</p>
+          </sp>
+          <pb n="20" />
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Ein sehr bequemer Standpunkt! -Und Sie haben gar nicht mal das Gefühl, daß die Universität auch
+            etwas für die Stadt bedeutet?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Einmol haw ich's ghet, un ich will ne saue, wenn. -Deß isch zellemol g'sin, wo mer d'r tramway
+            electrique bis z'r Orangerie het fihre welle. Wie ich 'ne gsaat hab, ich hab so e paar Hieser drüsse.
+            Un no hen als d'locataires lamentirt un reclamirt, daß der tramway electrique von d'r Kinigstroß bis
+            an d'Orangerie sott gehn. No het mer deß rangire welle. Un alles wärs zefridde g'sin. Do kummt uff
+            anmol so e Herr Professor von d'r Université un saat: Die Wissenschaft erlaubt nicht, daß der tramway
+            an der Universität vorbeifährt. Es stört uns in unseren Arbeiten." Voilà! Qu'est ce que vous pensez
+            de ça? Hab 'ne doch grad g'saat, daß ich d' Professore für g'scheidt halt, en gros. — Awer so ebs
+            saue! — Wenn Sie sich noch beklaue thäte, daß d' jetzig Dampfmaschin se steert, wil si so bimmelt und
+            poltert und schnüft. — Awer so en' electrischer. Kaschte, wo miesstill fahrt! do heert doch Alles
+            uf.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Awer heer, Eugène! Min Nevö, der Ernest, wo stüdirt hett, hett's uns doch scheen explizirt, worum
+            deß isch g'sin.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Lo mi rühig mit dim Nevö. Der halt's allewil mit de' Schwowe. — Ja, Herr 
+            <pb n="21" />Kiehne, zellemols haw i g'sen, daß d'Université a ebs fur d'Stadt beditt!</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Im negativen Sinne also nur! — Und nicht einmal das macht Eindruck auf Sie, um etwas ganz
+            Materielles anzuführen, da Sie ja nur dafür Interesse zu haben scheinen — daß aus allen Gauen
+            Deutschlands Studenten hierher kommen, sich bei den Bürgern einmiethen und ihr gutes Geld hier
+            verzehren!</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Was haw ich dr'vun? Si trinke doch nur bairisch Bier. Un unser Bier lüje si nit emol an, un saue
+            gar, 's isch Wackesbier. Un doch hett m'r frijer als g'saat, mir hen hier 's bescht Bier!</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ja, deß müß mer faue, Herr Kihne! Deß kenne mir Stroßburjer nit verputze, daß Sie alles von drüße
+            kumme lon: Wirscht, Schinke, Brot oder in dene Delicatessehandlungen inkaufe. Un daß sie nix halten
+            uf unsri gueti Stroßburjer Charcuterie, Knackwirscht und Brofesserwirscht, un unser Mülun Füßsalat,
+            un Froscheschenkel . . . . Un nit emol wäsche lon se hie, wo m'r doch so scheeni Wäschpritschen in
+            der Ill han.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Aber Verehrteste! Ihr macht mich endlich nervös. Wenn uns das Alles nicht shmeckt! — Und dann ist
+            das Alles nur äußerlich! Der Student ist doch nicht bloß da, um zu essen und 
+            <pb n="22" />zu trinken! Der Student bezieht die Universität aus idealen Gründen. Der Student ist der
+            Pionier der Wissenschaft. -</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Un der Hussard wo spazire fahrt! Meine Si, ich sieh Se nit, die Herre Studente, wi si in ihre
+            citadines in d'r Stadt 'rum fahre, der ein' in Uniform, d'r ander mit sim Käppel uf em Kopf, als
+            rechti faquins mit ihre gele Hendschih, un als numme zwei z'samme in einer Kitsch, daß es nobler
+            üssicht, un 's G'sicht so verhaue, daß m'r grad meint, s'isch e roh's Biftek.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Aber mein lieber Herr Mathis! Sehen Sie denn nicht ein, daß das die Hülle ist, hinter welcher sich
+            der Kern verbirgt? Wir sind die Raupen, aus denen sich der Schmetterling entwickelt! Und als solche
+            werden wir einst über das Land dahin flattern, und die Wissenschaft, die wir an der Brust unserer
+            alma mater gesogen, in die Herzen dieser im Grunde deutschen Bevölkeruug einpflanzen.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Versteh'sch was er saat?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Er redt gar scheen!</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne</speaker>
+            <stage>(immer feuriger werdend) :</stage>
+            <p>Sie haben einen viel zu philiströsen und hausbackenen Standpunkt! . . . Es ist zum Verzweifeln,
+            daß Sie nicht die hohe Aufgabe verstehen können, die sich die Universität gesteckt hat, daß Sie nicht
+            verstehen, daß sie eine Wohlthat ist für das Land. 
+            <pb n="23" />Gemäß dem Wahlspruch, der in goldenen Lettern auf dem Giebel unserer Hochschule prangt,
+            litteris et patriae, wird die Universität unentwegt das Banner der Wissenschaft und der
+            Vaterlandsliebe hochhalten, und dieses Banner, es wird wehen über die fruchtbaren Gauen des schönen
+            wiedergewonnenen Elsaßlandes, und alle die Söhne dieses im Grunde urdeutschen Landes, sie werden sich
+            um dasselbe scharen in edler Begeisterung. — Und in diesem Sinne, Commilitonen, fordere ich Euch auf
+            einen urkräftigen Salamander. . . . Donnerwetter, wo bin ich denn? Es brummt mir im ganzen Kopf
+            herum, da sag ich ja meine Commersrede wieder her. Es sind auch zu schwere Tage....</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Heere Se, Herr Kihne, welle Si nit e Prise nemme?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Loß ne doch gehn, Mathis! Dü siehsch jo, er isch ganz üsser Othem! — Un er het scheen geredt, gar
+            ze scheen. — Alles haw i nit verstande, 's isch ze gelehrt g'sin — awer wenn ich's so iwerdenk, er
+            het doch e Recht, d'Universität isch doch e Wohlthat für's Land. Min Nevö, der a stüdiert het, un
+            jetz Lehrer worren isch, er saat's als au. Un deß hesch dü doch selwer a gsaat, daß d'Lehrer in d'r
+            Schuel ihri Sach besser mache wie zer franzesche Zitt'. Weisch dü wie unsri Kinder guet gelehrt han,
+            daß alli im 
+            <pb n="24" />Frankrich verstünt sin g'sin, wie sie derte kumme sin. — Un d'Lehrer kumme doch von d'r
+            Üniversität?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Oui, oui, oui, 's ich schun guet! Mach dü a noch Plän jetz !</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Nein, Mathis, so derfsch m'r nit rede! un weisch: dü hesch's doch selwer emol ing'sehn, wie guet
+            es isch, daß m'r d'Universität han, wie unserm Pauline ihr Kind so krank isch g'sin, un wie sie von
+            Epinal do her sin g'fahre — un alli han gemeint: Mit dem Kind isch's üs . . un dü hesch selwer
+            g'krine. No het min Nevö g'saat, m'r solle doch zue dem Professor gehn, wo so berihmt isch. Er wurd's
+            heile! Un mir sin ane gange, un ihm isch's a gelunge, mit Gottes Hilf!</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis</speaker>
+            <stage>(sich die Augen abwischend):</stage>
+            <p>Oui, oui, oui, 's isch guet, deß isch ebs. — Awer, sehn Si' Herr Kihne, wenn Si so rede, wie Si
+            vorher geredt han, von dem Banner un dem scheene Land . .. do mueß i halt grad lache. I kann m'r a
+            nit denke, daß Si emol e Schmetterling wäre. — Wisse Si, d'Welsche hen a so vielmols scheeni Rede
+            g'halte, deß het m'r a nit guet g'falle. — Wir Stroßburjer, mir sin praktischi Litt. Mir mache unsri
+            Sach, awer deß Gejeschts isch uns zewidder.</p>
+          </sp>
+          <pb n="25" />
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Na, da sollten Sie aber doch gerade die stille, aber stete Arbeit der Wissenschaft anerkennen, die
+            nicht um äußerer Lorbeeren willen, sondern nur der Sache zu Liebe ihre Arbeit verrichtet ?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ja, Herr Kihne! Si henn e recht. So isch mer's a vorkumme, wie ich bi dem Professer bin g'sinn mit
+            dem kranke Kind, er isch so schlicht g'sin, un het nit g'fröit, wer mir sin, un was m'r han. Er het
+            numme sin Sach gemacht. — Un min Nevö saat als grad' so ebs, wie Sie's g'saat han. Wie er gelehrt het
+            uff d'r Universitté, het er a so als d'impression g'het wie wenn's die Herre numme so mache thäte,
+            wil sie denke, daß es so wohr isch. . . . Un sie lüeje nit rechts un nit links, nach dem was d' Litt
+            saue, sie mache so grad furt, fur sich — — Ich kann's nit guet explicire . . . awer wenn min Nevö do
+            wärt, er kennt's ne so scheen klar mache. . . .</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Scene IV.</head>
+          <stage>Die Vorigen. Dr. Schaufler.</stage>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler</speaker>
+            <stage>(aus dem Publikum):</stage>
+            <p>Er isch do, Tante. Un dü hesch e' Recht. Ja, ich hab's d'r vilmols so g'saat. 
+            <stage>(Kommt vor und tritt auf das Podium)</stage></p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Was, dü bisch do, Ernest ?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Wi kummsch denn dü doher ?</p>
+          </sp>
+          <pb n="26" />
+          <sp who="#otto_kuhne">
+            <speaker>Kühne</speaker>
+            <stage>(zu Schaufler):</stage>
+            <p>Meine Name ist stud. Kühne.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Dr. Schaufler — Ja, meinen Ihr denn, wenn's Fescht von d'r Universität isch, un d'alti Schieler
+            ing'lade sin, werd ich d'heim bliewe, hinter mini vier Wänd? Deß wär jo 'e Schand! Ich bin d'ganz
+            Zitt do g'sesse un haw Eich züg'hert. Un es hät mich noch recht g'fuxt, daß dü Unkel unsri gueti
+            Stroßburjer so lächerlich machsch.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ich! Do heert awer Alles uf! Ich en alter Chasseur d'Afrique . ..</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Ja g'rad dü, mit dim Chasseur d'Afrique . . . — Und sehen Sie, mein lieber Herr — gestatten Sie
+            mir die Bemerkung, Sie haben auch nicht den richtigen Ton mit den Leuten getroffen. Sie sind zu
+            nervös geworden, das darf man hierzulande nie.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Ja, aber erlauben Sie, ich habe mich lang genug gehalten . . . Aber diese hausbackenen
+            Anschauungen . . . .</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Geduld, Geduld, wenn's Herz auch bricht. Bedenken Sie, daß Sie es hier nicht mit leichtbeweglichen
+            und leichtentzündbaren Franken, sondern mit schwerfälligen und langsamen Alemanen zu thun haben. Sehn
+            Sie, all' die schönen Reden, das Banner der Wissenschaft, die Pioniere, das wiedergewonnene, im
+            Grunde deutsch 
+            <pb n="27" />gebliebene Land, all diese überschwinglichen Redensarten, die können höchstens einen
+            Augenblick ein weiches Frauenherz rühren, 
+            <stage>(zur Frau Mathis):</stage>Gel' Tante?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ja, mir hets guet g'falle, 's isch grad wie Müsik g'sin.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Awer verstande hesch's doch nit, liebs Täntele? 
+            <stage>(zu Kühne)</stage>Nein, mein lieber Freund, das sind rauschende Phrasen. Aber was der
+            Bevölkerung imponirt, das ist die gewissenhafte Arbeit des Lehrers in der Schule, der fürsorgliche
+            Rat des Arztes — ich kann hinzufügen, die gerechte Handhabung der Justiz und Ordnung in der
+            Verwaltung, 
+            <stage>(zu Mathis gewendet):</stage>deß mien Ihr doch saue, daß deß besser isch wie z'r franzesche
+            Zitt. — -</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>In d'r Birgerzittung isch nix dervon ze lese, un doch isch's e Schwob wo sie schribt. Il ne faut
+            pas être plus royaliste que le roi.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Loß doch d'Zittung, de wursch als de mauvaise humeur, wenn dü dervon redsch! — Un gel Ernest,
+            unsri Pfarrer sin doch a recht guet?</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler :</speaker>
+            <p>Die Geistlichkeit ist von jeder in unserm Land vortrefflich g'sin — -</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Aber ich bitte Sie — ich sehe nicht ein, was das Alles mit der Universität zu thun hat?</p>
+          </sp>
+          <pb n="28" />
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Ist denn die Universität nicht die Anstalt, welche die jungen Leute zu diesen Berufen vorbereitet?
+            Und ist das Alles nicht in letzter Linie ihr Verdienst? . .</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Ja aber die Wissenschaft !</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Die Arbeit der Wissenschaft ist selbstlos. Und wenn sie, erhaben über das Parteigetriebe und frei
+            von der Beeinflussung durch die Tagespolitik, nur ihrer hohen Aufgabe der Erforschung der Wahrheit
+            nachgeht, und wenn sie dieses Streben nach Wahrheit und sachlicher Objectivität, die von jeher ein
+            besonderes Verdienst der deutschen Wissenschaft war, der jungen Generation einpflanzt, dann hat sie
+            meines Erachtens ihre Pflicht gethan. Und da werden sich die Früchte schon einstellen, langsam aber
+            sicher, vielleicht am allerersten durch uns, die Lehrer. Aber in der Schule liegt die Zukunft.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Het der jetz bald ferti?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ich heer der Ernest gar gern rede.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler</speaker>
+            <stage>(fortfahrend zu Kühne):</stage>
+            <p>Und zu dieser Fanfarenmusik gehört auch das sog. Germanisiren. Ich erinnere mich stets, als
+            Student die Commersrede eines allgemein geachteten und weltberühmten Professors gehört zu haben, —
+            und in diesen Tagen ist auch wieder davon die Rede gewesen — die in dem Worte gipfelte: Die
+            Universität ist keine 
+            <pb n="29" />SchnellgermanisirungsAnstalt . . . . Wissen Sie, sobald ein Straßburger dies Wort nur
+            hört . ..</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis :</speaker>
+            <p>Heer mol, Nevö, jetzt hesch genü der Schwowe g'sspielt. Was red'sch dü von Germanisiren un so
+            Plän.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Sehen Sie? Was sagt' ich Ihnen eben?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Loß ne doch, er redt so scheen gelehrt.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Weisch Nevö, in minen Aue bisch dü ken Stroßburjer meh.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Unkel, ich bin villicht e besserer wie dü.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ja, er het a Recht, er loßt nix uf sin Vaterstadt kumme.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Un all deß Gepappels haw i jetz genü! — Ich bin doch nit do, f'r e ditsch Fescht ze celebrire, was
+            mich Stroßburjer nix angeht, un wo d' Litt doch ken Herz f'r uns hen.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Do bisch grad uf em Holzweg, Unkel! — Meinsch denn wirklich, die Herre hen ken Verständniß f'r
+            Strotzburjer Dings?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Nit emol soviel! Hesch dü schon einer g'sen, wo Pompier woren isch?</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Isch denn deß d'Hauptsach ? Nein, Unkel. Do bring ich dir morjen e Büch, wo einer von dene Herre
+            für's Jubiläum gemacht het. Do wursch dich villicht anders b'sinne.</p>
+          </sp>
+          <pb n="30" />
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ich kauf ken Bicher.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Er lest numme d' Birgerzittung.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Deß wurd Eich awer g'falle! — Gellen, Ihr halten ebs uf eier Stroßburjer Ditsch?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Deß will ich meine! Strotzburjer Ditsch isch e Sproch, wie en andri Sprach. — Wie ich frijer
+            Chasseur d'Afrique bin g'sin, hätts mich als g'suxt, wenn so e Paar Parisiens kumme sin un zü mer
+            g'saat hen, wie ich Stroßburjer Ditsch mit den andren Elsässer geredt hab: Laissez donc cette langue
+            barbare, et parlez français!</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Jo, un do henn Si als g'saat: C'est une tête carrée. — Un weisch, wenn die Kinder jetz kumme, 's
+            Pauline üs Epinal, un der Jules von Nancy un 's Emilie üs Paris, no heißt's als: Papa, ne parle donc
+            pas cet horrible jargon.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Awer, dü weisch, daß ich m'r deß nit g'falle loß, un daß ich dernoh d' Antwort gib: E jeder soll
+            rede, wi im d'r Schnawel gewachsen ish. Chacun doit parler comme le bec lui à poussé. Voilà mon
+            opinion. Deß isch min Ansicht.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Eh ben! wenn deß din Ansicht ish, so wursch din Fraid han, wenn dü 
+            <pb n="31" />deß Elsässicsh Büch fiehsch, was der Herr g'schriewe het.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Sie meinen wohl das elsässische Idiotikon ?</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>'s Werterbüch vom Elsässer Ditsch.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>E Dictionnaire vom Stroßburjer Ditsch?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Un do ka mer Alles drin finde, was mir rede, so jeder Taa, unsri gewehnlichi Sproch? -</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Ja wohl, das finden Sie Alles drin!</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Un deß hät 'e Professor g'schriewe?</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>So 'e Welscher von driwe?</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Ja, er un e Elsässer, die gen 's zammen herüs, zum Jubiläum d'r Universität.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Nun de Bickel, deß hätt ich jetz nit for mejli g'halte.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Heer, Eugène. Deß müeß e guets Buech sin! Deß sott in kener Hüshaltung fehle.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Derfsch's m'r kaufe fur min Anniversaire, deß macht m'r Plaisir! Ich hätt awer nit gedenkt, daß e
+            Professor so ebs macht. Sie kumme mir ze stolz fur deß vor.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Ja, glauben Sie denn, mein lieber Herr, daß wir kein Vergnügen haben an Eurem 
+            <pb n="32" />urwüchsigen Dialekt? Glauben Sie denn, daß wenn wir nicht unsere helle Freude daran
+            hätten, ich Sie hier auf das Podium gelootst hätte, um die Gesellschaft zu unterhalten?</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Un meinsh denn, Unkel, daß deß mejli wärt g'sin, am Jubilé ze franzesche Zitte? Ich mein, die
+            Herre hätten a g'saat: Laissez donc cet horrible jargon!</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Grad wies Pauline un 's Emilie un d'r Jules! . . Ja, deß isch wohr! deß mueß m'r de Ditsche lon.
+            Sie hen Fraid dran, deß het m'r a g'sehn, wie sie d'r Pfingstmonda inscenirt han, un jetz d'andri
+            elsässischi Comedi!</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Ja, natürlich! Ich schwärme doch auch für mein Plattdeutsch und die Württemberger für ihr
+            Schwäbisch.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Sehn Sie, das ist ein fruchtbarerer Boden als "das schöne neugewonnene Bruderland, wo die bunten
+            Schmetterlinge fliegen und das Banner der Wissenschaft weht"! Was an der Scholle klebt, kann nur von
+            der Scholle ausgehen.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ja, ja, do sicht mer, was mir Steckelburjer fur gfitzte Litt sin. Denn weisch, Sophie, ich merk
+            eb's! — Ja, ich habs halt dick hinter den Ohre! Ich hab's d'r doch vielmols g'saat, die Herre
+            Professore, die sinn g'scheidt !Un wil sie so g'scheidt sinn, so welle sie als eb's 
+            <pb n="33" />nei's lehre. Einer von mine locataires hett mer emol so g'saat, wie ich ihm reproches
+            gemacht hab, daß sie so langi Vacanze hen. "Ja das brauchen wir zum Studieren !" Un siehsch Sophie,
+            wie di's verstehn, allewil ebs nei's ze profitiere ! Jetz hen sie sich uff 's Stroßburjer Ditsch
+            gelejt — un fur deß noch besser ze lehre un nix ze bezahle derfur, do hen sie deß mit dem Herr Kihne
+            rangiert , daß mier zwei do kummen un e ganzi Halbstund vor 'ne redde. Sie wisse fur ihri Sach a ihr
+            Jubilé üszenutze, — Awer ich bin a g'sitzt! Wenn ich ebs gib, so will ich a ebs d'rfur han. —
+            Messieurs, Sie wisse, ich bin proprietaire, ich hab e paar scheni Hieser, un wenn Sie mir die Ehre
+            machen wollen, bei mir zu wohnen, so empfehle ich mich Ihnen beschtens. Am liebschte, deß will ich
+            glich faue, hätt' ich dene Herre, wo deß Stroßburjer Ditsch Dictionnair g'schriwe hett. Ich thät ne
+            guet logiere, nit grad fur nix, — deß kammer nit, — awer ich thät em e scheeni faveur mache. Un er
+            kennt ebs Strotzburjer Ditsch bi mer profitiere.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne :</speaker>
+            <p>Der schlaue Fuchs !</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Heer, Eugène, jetz isch awer Zitt, daß mer heimgehn. Ich heer d'Lumpeglock grad litte. Un 's isch
+            wit bis z'm Pont convert.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Hesch e Recht. En alter Stroßburjer geht bi Zitte schlofe. Kummsch mit, Ernest?</p>
+          </sp>
+          <pb n="34" />
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Was glaubsch denn, Unkel; jetz fangt's erscht an!</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Mach mer numme ken Commers mit Kischte , wie der Herr Kihne! — Dü bisch doch so e halwer Schwob. —
+            Kumm Sophie, m'r gehn jetz.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Austrinken zuerst, meine Verehrten, das gehört dazu und auf Ihr ganz spezielles Wohl.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>G'sundheit Ihne, und Dir, und Dir Alterle, und d'r ganze G'sellschaft, e scheeni santé un viel
+            Amusement züm Jubilé. Un nix fer unguet, mini Herre, wenn ich so frisch von d'r Lewer geredt hab. Ich
+            bin halt en alter Chasseur d'Afrique. J'ai fait plusieurs campagnes, mit Üszeichnung und min
+            Capitaine het als g'saat :"Mathis est un brave soldat. Il porte le bâton de maréchal dans son
+            havresac!" Un wer weiß, wenn d'Schwowe nit . . . . Awer jez saue ich nix meh. Vive le jubilé!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Hoch.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Heer' mol Unkel, witt dü morje villicht uf den Üsflüg? ...</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Erlauben Sie aber, Ihr Onkel dürfte wohl kaum je akademische Bildung genossen haben und
+            dann...</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Ach das wird sich schon machen lassen 
+            <stage>(Zum Publikum gewandt):</stage>Es wird doch Keiner etwas dagegen haben ?</p>
+            <stage>(Mehrere Stimmen aus dem Publikum : Nein, nein.)</stage>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ja, wo sol denn des anne gehn ?</p>
+          </sp>
+          <pb n="35" />
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Auf drei Ähren! - 
+            <stage>(Nimmt das StudentenProgramm heraus, mit dem Bild des Studenten aus dem 16. Jahrh. darauf,
+            kukt hinein).</stage>Ach, da steht nichts Näheres 
+            <stage>(legt es auf den Tisch)</stage>: Aber auf der Karte! 
+            <stage>(lieft die Karte).</stage></p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mme. Mathis</speaker>
+            <stage>(hat das Programm genommen, mit Entsetzen die Figur betrachtend):</stage>
+            <p>Awer Ihr wären Sich doch nit so wischt travestiere! Wenn so Carnevaldings d'rbi isch, loß i mine
+            Mann nit mitgehn.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Jo, wenn Ihr so uf drei Aehre thäte nufgehn, kennt 'e scheener Crambohl drüs wäre. — So wiethig
+            wie der Brigand do, haw ich nit emol üsg'sehn, wie ich mich als Chasseur d'Afrique mit den Arawer in
+            der Kabylie 'rumg'schlaue hab!</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Seien Sie unbesorgt! Das ist ja nur ein Symbol!</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Auch so ein Schmetterling, der das Banner der Wissenschaft hoch hält ?</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ja, awer min Mann kennt sich egariere, wenn er e' bissel Wien getrunke het.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis :</speaker>
+            <p>Hab ken Angst, Sophie — deß kann mer in de Vogese nimmer so licht, 's sin jo iwerall Wejwieser.
+            Weisch noch, wo m'r vorm — Johr, uf 'em Odilienberg sin g'sin! do hemmer glich der Wej g'funde.</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Un weisch dü, Unkel, wer die viele Wejwieser gemacht het, un die bequeme Wej, un d'Schlesser
+            restaurirt !</p>
+          </sp>
+          <pb n="36" />
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Wie wurd ich deß wisse?</p>
+          </sp>
+          <sp who="#dr_schaufler">
+            <speaker>Dr. Schaufler:</speaker>
+            <p>Deß isch d'r Vogeseclub.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Und der geht auch so halb und halb von der Universität aus. Kennen Sie denn den kleinen Herrn
+            nicht. .. .</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ah! der mit dem große Schlapphuet, der d'Kinder so gern het, un ken Wien trinkt, un als uf's
+            Minster krattelt ? Dene kennt jo jeder Mann in Stroßburi.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Un der hets gemacht? Heer emol, Sophie, 's kummt m'r doch fascht vor, daß die Litt doch meh fur's
+            Land gemacht han, als ich gemeint hab. — Un wenn noch emol so e Jubilé kummt, thät ich viellicht e
+            scheeni Red halten uf die Litt, scheen uf franzeesch.</p>
+          </sp>
+          <sp who="#otto_kuhne">
+            <speaker>Kühne:</speaker>
+            <p>Die können Sie ja morgen auf dem Ausfluge halten.</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Ja, Hop la Geis, deß mueß g'stüdirt sin. So schnell geht's nit. -Jetz will i awer heim, daß i
+            morjen ufstehn kann.</p>
+          </sp>
+          <sp who="#sophie_mathis">
+            <speaker>Mme. Mathis:</speaker>
+            <p>Ja, mach schnell, d'Lumpeglock het schun ufg'hert. Bonsoir Bisamme!</p>
+          </sp>
+          <sp who="#eugene_mathis">
+            <speaker>Mathis:</speaker>
+            <p>Bonsoir un au revoir, morje frij!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

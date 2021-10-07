@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Bureaukrate!</title>
+        <title type="sub">Dialektkomödie in einem Akt</title>
+        <author>
+          <persName>
+            <forename>Fernand</forename>
+            <surname>Kühne</surname>
+          </persName>
+          <idno type="wikidata">Q96622965</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Lena Camillone</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Andrew Briand</name>
+          <name>Hoda Chouaib</name>
+          <name>Barbara Hoff</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">als000020</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106558114</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109624b</idno>
+          <bibl type="originalSource">
+            <author>Fernand Kuehne</author>
+            <title type="main">Bureaukrate!</title>
+            <title type="sub">Dialektkomödie in einem Akt</title>
+            <publisher>Société Alsacienne d'Edtion „Alsatia“ S. A.</publisher>
+            <date when="1923" type="print">1923</date>
+            <date type="written" />
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="linsenspalter">
+            <persName>Linsenspalter</persName>
+          </person>
+          <person sex="MALE" xml:id="dindeschlecker">
+            <persName>Dindeschlecker</persName>
+          </person>
+          <person sex="MALE" xml:id="frisch">
+            <persName>Frisch</persName>
+          </person>
+          <person sex="MALE" xml:id="frei">
+            <persName>Frei</persName>
+          </person>
+          <person sex="MALE" xml:id="frohlich">
+            <persName>Fröhlich</persName>
+          </person>
+          <person sex="MALE" xml:id="hasepfeffer">
+            <persName>Hasepfeffer</persName>
+          </person>
+          <person sex="MALE" xml:id="lob_walfisch">
+            <persName>Löb Walfisch</persName>
+          </person>
+          <person sex="MALE" xml:id="fred_windmacher">
+            <persName>Fred Windmacher</persName>
+          </person>
+          <person sex="MALE" xml:id="ein_inspecteur_de_la_surete">
+            <persName>Ein Inspecteur de la Sureté</persName>
+          </person>
+          <personGrp sex="MALE" xml:id="alle">
+            <persName>Alle</persName>
+          </personGrp>
+          <personGrp sex="MALE" xml:id="die_andern">
+            <persName>Die Andern</persName>
+          </personGrp>
+          <listRelation>
+            <relation name="associated_with" active="#frisch" passive="#linsenspalter" />
+            <relation name="associated_with" active="#frei" passive="#linsenspalter" />
+            <relation name="associated_with" active="#frohlich" passive="#linsenspalter" />
+            <relation name="associated_with" active="#hasepfeffer" passive="#linsenspalter" />
+            <relation name="associated_with" active="#dindeschlecker" passive="#linsenspalter" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="2" />
+      <castList>
+        <head>Personen:</head>
+        <castItem corresp="#linsenspalter">
+          <role><persName>Linsenspalter</persName></role>,
+          <roleDesc>Chef de Bureau</roleDesc>;
+        </castItem>
+        <castItem corresp="#dindeschlecker">
+          <role><persName>Dindeschlecker</persName></role>,
+          <roleDesc>Expéditionnaire</roleDesc>;
+        </castItem>
+        <castGroup>
+          <castItem corresp="#frisch">
+            <role><persName>Frisch</persName>
+            </role>
+          </castItem>
+          <castItem corresp="#frei">
+            <role>
+              <persName>Frei</persName>
+            </role>
+          </castItem>
+          <castItem corresp="#frohlich">
+            <role>
+              <persName>Fröhlich</persName>
+            </role>
+          </castItem>
+          <roleDesc>employés</roleDesc>
+        </castGroup>
+        <castItem corresp="#hasepfeffer">
+        <role>
+          <persName>Hasepfeffer</persName></role>,
+            <roleDesc>Bureaudiener</roleDesc>;
+          </castItem>
+        <castItem corresp="#lob_walfisch">
+          <role><persName>Löb Walfisch</persName></role>,
+          <roleDesc>ein Winkeladvokat</roleDesc>;
+        </castItem>
+        <castItem corresp="#fred_windmacher">
+          <role><persName>Fred Windmacher</persName></role>,
+          <roleDesc>ein « Selfmademan »</roleDesc>;
+        </castItem>
+        <castItem corresp="#ein_inspecteur_de_la_surete">
+        <role>
+          <persName>Ein Inspecteur de la Sureté</persName>
+        </role>.</castItem>
+      </castList>
+      <set>
+        <p>ZEIT: Gegenwart.</p>
+        <p>ORT: Dienstzimmer einer Verwaltung.</p>
+      </set>
+      <div type="front">
+        <p>VORBEMERKUNG.</p>
+        <p>Das Stück erfordert flottes Zusammenspiel und ein gewisses Vertiefen der Hauptdarsteller in den
+        Charakter der Rolle. Linsespalter ist ein kleiner, aufgeregter Herr in langem, schwarzem Frack. Typus des
+        nervös-überreizten « Buchstabenreiters. » Dindeschlecker : Gutmütige, im Dienst ergraute Beamtenfigur,
+        resigniert und mit seinem Schicksal abgefunden. Hasepfeffer : Typus des behäbigen Unterbeamten, der aus
+        seiner langjährigen Dienstzeit sich das Recht ableitet, auch mal « mitreden » zu dürfen. Frisch, Frei,
+        Fröhlich : Uebermütige, junge Leute ; letzterer muss Linsespalters Stimme etwas nachahmen können. Die
+        Figur des Juden Walfisch darf nicht ins gehässige und zum unsympathischen Intriganten vergröbert werden;
+        muss eher als Mitleid erweckender, armseliger « kleiner Sünder » erscheinen. Windmacher: Keck und
+        selbstbewusst, aber nicht protzenhaft. Eleganter Sportsanzug. Inspecteur : Liebenswürdig-bestimmtes
+        Auftreten, auch zu Walfisch ironisch-freundlich.</p>
+      </div>
+      <set>
+        <p>Szenerie:</p>
+        <p>Dienstzimmer einer Verwaltung : Grosser kahler Raum. Fenster im Hintergrund, an der Hinterwand in
+        genau ausgerichteter Stellung vier Schreibtische mit Aufsatz. Links seitlich eine Tür mit der Aufschrift:
+        « Chef de Bureau », rechts seitlich der allgemeine Eingang, daneben eine andere Tür. Rechts ganz vorn ein
+        grosser, sogen. Kanonenofen mit mächtigem, eisernen Schirm, welcher so steht, dass er gegen den
+        Zuschauerraum zu offen ist, d. h. den Ofen den Blicken frei lässt. Eine grosse, runde Uhr zeigt auf 8.40
+        Uhr. Aktenschränke voll verstaubten Materials vervollständigen die Einrichtung ; an den Wänden hängen
+        Verfügungen Erlasse etc. Wenn der Vorhang aufgeht, sitzt Frisch an dem Tisch am weitesten rechts, hinter
+        ihm Dindeschlecker, hinter diesem Frei. Der Tisch am weitesten links ist unbesetzt.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="5" />
+      <div type="act">
+        <div type="scene">
+          <head>1. Scène.</head>
+          <stage>(Frisch — Dindeschlecker — Frei)</stage>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <stage>(liest Zeitung)</stage>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker :</speaker>
+            <stage>(rechnet eifrig.)</stage>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <stage>(starrt in die Luft und trämut ; das Schweigen dauert etwa eine Minute, fällt schliesslich
+            Frei auf ; er beugt den Kopf leicht um den Aufsatz seines Pultes herum, gewahrt das Idyll, nimmt eine
+            Zitronen- oder Orangenschale und wirft sie über das Pult Dindeschleckers hinweg, auf Frisch's
+            Zeitung. Worauf er eifriges Schreiben markiert.)</stage>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <stage>(fährt auf)</stage>
+            <p>Ninevierzig noch emol ! Jetz stecke mr emol die Fisik uff, Babbe Dindeschlecker ! Nit emol riehwig
+            sinne Zitung lase ka mr im Dienscht ! 
+            <stage>(nimmt die Schale und wirft sie über den Aufsatz Dindeschleckers hinweg, diesem gerade auf
+            seine Arbeit.)</stage></p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker :</speaker>
+            <stage>(gemütlich)</stage>
+            <p>Allons, allons ! 
+            <stage>(wirft die Schale in den Papierkorb.)</stage></p>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <stage>(nimmt eine weitere Schale und wirft sie an die Zimmerdecke, derart, dass sie zurückfallend
+            auf Dindeschleckers Arbeit fällt.)</stage>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker :</speaker>
+            <stage>(gemütlich)</stage>
+            <p>Allons, allons, Herr Frisch, wenn Sie's salwer nit verputze kenne, wurum warfe Sie mir so Dings a!
+            
+            <stage>(wirft die Schale weg.)</stage></p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <p>Was? Ich?</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Wer sunscht denn ?</p>
+          </sp>
+          <pb n="6" />
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <p>Am And gar ich, hm ?</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <p>Egal wer ! Ich will minne Rüehj ha! Einer von Euich isch's sicher, wu so Fisik tribt ; wenn's jetz
+            nit uffheert, pack i eifach dr eint un verhaui dr ander drmit, drno isch dr Richtig scho drbi, soviel
+            weiss i drno wenigschtens.</p>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <p>Dü verstehsch awer o gar kä Spass !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <p>Spass hin, Spass har! Ich bin gwis e dummer Teuifel, awer alles wird eim emol z'güet - halt nei: E
+            gueter Teuifel awer alles wird eim z'dumm mit dr Zit : Wenn i schaff, hann i nix drgege, wenn
+            Dummheite g'macht ware, awer wenn i Zittung lies, drno mecht i minne Rüehj ha!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. Scène.</head>
+          <stage>(Die Vorigen — Hasepfeffer — dann Fröhlich)</stage>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(tritt ein)</stage>
+            <p>Messieurs, jetz awer gmietlig, dr Alt müess glich kumme, ich mein, ich heer ne scho !</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <stage>( im leichten Staubmantel, tritt ein, bleibt jedoch hinter der geöffneten Tür stehen. Im
+            Tonfalle Linsespalter's :)</stage>
+            <p>Bonjour Messieurs ! Tout le monde est là, personne ne manque ?</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <stage>(wirft schnell die Zeitung in den Papierkorb ; Hasepfeffer kichernd ab.)</stage>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle&#160;:</speaker>
+            <p>Bonjour Monsieur Linsespalter !</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <stage>(tritt lachend vollends herein)</stage>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle :</speaker>
+            <stage>(durcheinander)</stage>
+            <p>So ne Hanswurscht ! E so ne Kamel ! Alle Morge d'gliche Fisik im Schadel.</p>
+          </sp>
+          <pb n="7" />
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <stage>(mit seiner wirklichen Stimme)</stage>
+            <p>Un alle Morge falle Ihr prompt uff dr gliche Schwindel inne ! 
+            <stage>(auf seinen Platz deutend, im Tonfall Linsespalters)</stage>C'est vraiment étonnant ! Toujours
+            quand je suis là, il n'est pas ici et quand je suis ici, il n'est pas là ! 
+            <stage>(die andern lachen)</stage>C'est pourtant déjà 8 heures 40 !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(tritt hastig ein)</stage>
+            <p>Achtung, Ihr Herre! Jetz kummtr wirklig!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. Scène.</head>
+          <stage>(Die Vorigen — Linsespalter)</stage>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(tritt schnell ein)</stage>
+            <p>Bonjour, Messieurs ! Tout le monde est là, personne ne manque ?</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle :</speaker>
+            <stage>(während Fröhlich eiligst den Hut; an den Nagel hängt, sich auf den leeren Platz setzt und die
+            Feder zur Hand nimmt)</stage>
+            <p>Bonjour Monsieur Linsespalter !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(will in sein Zimmer gehen, stutzt)</stage>
+            <p>Sie hann jo dr Mantel noch a, Monsieur Fröhlich? Sinn Sie jetzt erscht kumme ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Nei, nei, Monsieur Linsespalter, ich bin scho sitter am achte do! S'isch m'r numme e bizzi
+            z'frisch gsi, do inne !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Was ? Im Jüli ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Doch, doch, s'isch so ! Lüege Se, ich schrieb jo scho'ne ganze Zit lang ! 
+            <stage>(er kritzelt schnell einige Buchstaben auf's Papier und zeigt es Linsespalter)</stage>S'isch
+            jo noch nass, sahn Se ! 
+            <stage>(wischt mit der Hand darüber)</stage></p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(streng)</stage>
+            <p>Ich weiss Bscheid! Sage Sie mir kurz un bindig, worum Sie hit scho widder 3/4 Stund z'spot sinn
+            !</p>
+          </sp>
+          <pb n="8" />
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Après vous M. le Chef !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Reschpektiere Sie mi Grad !</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <p>Garn !</p>
+            <stage>(einlenkend)</stage>
+            <p>Awer sahn Sie, Monsieur Linsespalter, das mien Sie doch versteh kenne, dass mr sich emol
+            vrschloft, bsundersch, wenn mr e so ne unriehwige Nacht g'ha hat wie ich! Minne Fraui hat hinicht e
+            Kindbett g'ha!</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Scho widder ? Das hann Sie mir doch erscht vor 14 Tag vrzehlt bim gliche Anlass !</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <stage>(trocken)</stage>
+            <p>O, quant à cela ! Ich dank, das se noch mankmol eins wird ha ..... Vor 3 Wuche hat se sich erscht
+            als Hewamm etabliert.</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Uff alle Fall därf das kä Grund si fir Sie, alle Tag z'spot z'ku ! Vous rattraperez le temps ... 
+            <stage>(ab nach links)</stage></p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <p>Oui, Monsieur ! 
+            <stage>(leiser)</stage>... le 31 février !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Ja, ja, die güete, alte Zitte. Zu minnre Zit, do isch's noch gmietliger gsi, do isch's noch
+            gmietliger zuegange uff dr Administration ! Wu'n ich noch in Paris gsi bin, uff'm ministère des
+            décorations, do sinn die Herre kumme un gange, wie se hann welle un kä Mensch hat e Starweswärtle
+            drzüe gsait! Awer hit-ze-tags ! .....</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(aus seinem Bureau rufend)</stage>
+            <p>Hasepfeffer !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(brummelt)</stage>
+            <p>Küm isch'r do, scho fangt die Rennerei a !</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Vrlangt wird doppelt so viel as friehjer .....</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>..... Un g'schafft dr zehnte Teil drvu !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(dringender, immer aus seinem Bureau)</stage>
+            <p>Hasepfeffer ! ! Ha-se-pfeffer ! ! !</p>
+          </sp>
+          <pb n="9" />
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Ha jo ! Ich kumm scho ! 
+            <stage>(will links ab)</stage></p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(erscheint unter seiner Tür wütend)</stage>
+            <p>Hasepfeffer, wurum kumme Sie eigetlig nit glich, wenn i rief ?</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Awer Monsieur le Chef, ich kumm jo scho ! Wu'n ich noch in Paris uff'm ministère des décorations
+            gsi bin, do....</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(kurz)</stage>
+            <p>Ich kenn das ! .. Do isch's ewe gmietliger züegange! Awer bi uns geht's ewe nit gmietlig züe! Do
+            gehl's sogar arg ungmietlig züe ! Merke Sie sich das !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Oui, Monsieur le Chef !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Wurum hann Sie eigetlig bi mir dr Bode nit g'wischt ?</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Hä ?</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Wurum Sie bi mir dr Bode nit gfajt hann ? — Un sage Sie nit « hä » zue ihrem Chef !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Oui, Monsieur le Chef !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Sofort namme Sie Base un Schüfel in d'Hand !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Oui, Monsieur le Chef .....</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>... Verstehn Sie mich ! —</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Oui, Monsieur le Chef !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Un putze mir dr Bode uff !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Oui, Monsieur le Chef !</p>
+          </sp>
+          <pb n="10" />
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(aufgebracht)</stage>
+            <p>Sage Sie nit immer « Oui, Monsieur le Chef!&#160;»</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Non, Monsieur le Chef !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>..... un mache sie ringer Ihre Arbeit besser ! 
+            <stage>(ab)</stage></p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <p>Non, Monsieur le Chef! ..... Eh... eh ... Oui Monsieur le Chef ! ..... Nundebibbl noch emol, isch
+            das e Behandlung, wu m'r im e alte, im Dienscht graui gwordene Beamte z'Teil warde losst? ! Züe
+            minnre Zit, wu'n ich noch in Paris gsi bin, am ministère des décorations .....</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker :</speaker>
+            <stage>(klopft ihm begütigend auf die Schultern)</stage>
+            <p>Ja, ja, Hasepfeffer, do isch's noch gmietliger zuegange ! Zu minnre Zit ewefalls ! Ich bsinn mi
+            noch ganz guet ! Sallemols, wu'n ich als junger Dachs in das bâtiment kumme bin, hat mich mi Chef ab
+            d'Sitte gnumme un hat gsait : « Dindeschlecker, » hat'r gsait, sait'r, « merke Euich eins güet :
+            Rachts wenn'r üs'm Kaschte kumme, isch e Wirtschaft, dert git's 'sbeschte Bier un vis-à-vis in sallre
+            Metzge d'beschte Groschewirschtle ! Merke Euich das güet, schriewe's Euich hinter d'Ohre, sodass'r 's
+            z'Nacht, wenn mr Euich üs'm tiefschte Schlof tat schittle, fählerlos harsage kennte - grad wie's
+            Vaterunser ! S'andre lehre-n-Ihr drno alles naweszue mit dr Zit! » Un eso, Hasepfeffer, isch's
+            g'halte worde, ich ha alles andre no-z'no o kapiert un bin uff die Art e brüchbarer Beamter worde
+            !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>So isch's, Herr Dindeschlecker ! Mir Alte, mir kenne ebbs vrzehle, awer do, die junge Litt, die
+            meine, 's müess alles trapp-trapp gschah, die meine, unsereins hätt vier Hand un an jedre zeh Finger
+            !</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Un was nutzt's? Dr Amtsschimmel galoppiert doch nit schnaller ! Immer langsam vora .....</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>..... So kummt m'r am wittschte ! 
+            <stage>(zieht hinter dem Ofen Schaufel und Besen hervor, die er jedoch sofort hinter seinem Rücken
+            versteckt, wie er hört, dass Linsespalter's Tür geht.)</stage></p>
+          </sp>
+          <pb n="11" />
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Hasepfeffer ! Wird's boll? Ich sieh scho, nachschtens müess i doch Ihre mise à la retraite
+            beantrage, das isch kä Macherei mehr mit Ihne !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(indem er sich umwendet und gegen die Tür rechts geht, Besen und Schaufel aber so hält, dass
+            Linsespalter sie nicht sieht)</stage>
+            <p>Oui, oui, Monsieur le Chef, ich kumm glich, grad hann i gmerkt, dass i Base un Schüfel noch unte
+            an dr Porte hann — ich kumm glich ! 
+            <stage>(rechts ab.)</stage></p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Monsieur Frisch, voilà encore une affaire que vous avez mal traitée! C'est pourtant un cas
+            intéressant!</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <p>Soll m'r denn dam alte Invalid d'augmentation vu sinnre Rante nit bewillige ?</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Mais bien sûr! Nadirlig soll mr's ihm bewillige, mais dans la forme prescrite, eso wie's
+            d'Dienschtvorschrifte vorschriewe ! Namme Sie emol Ihre Dienschtvorschrifte mit heim z'nacht un
+            stecke Sie d'Nas dri statt Dummheite z'mache ! Wu'n ich noch jung gsi bin wie Sie, wisse Sie, was ich
+            do gmacht hann ?</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <stage>(ironisch)</stage>
+            <p>Nei !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Uff eigne Koschte, mit minne erschte ersparte Sü hann i mr se alle agschafft ! Fir dass i se immer
+            d'heim hann un se nit brüch uff's Bureau z'ruckbringe am e Morge ! Un am e Sunntig z'mittag, do isch
+            gebiffelt worde, statt Schnackedanz im Kopf z'ha !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <p>Ja, was isch denn do latz an dare ordre ?</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Was latz isch? Alles! Sie schriewe do ganz eifach, dass d'augmentation vu 75 uff 80 Franke im
+            Monet bewilligt isch ! Mais ce n'est pas exact! Ce n'est pas exact ! Wisse Sie denn nit, was in dr
+            Dienschtvorschrift 1279 § 715 bis Absatz 25 steht? Erscht isch d'jetzige Rante ganz z'striche un drno
+            erscht d'neije z'beantrage.</p>
+          </sp>
+          <pb n="12" />
+          <sp who="#frisch">
+            <speaker>Frisch&#160;:</speaker>
+            <p>Wenn awer da Invalid in dr Zwischezit vrhungert, ich mein in dr Zit zwische dr Strichung un dr
+            Neuibewilligung ?</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Ganz egal! D'Dienschtvorschrifte welle's eso ha un eso wird's gmacht !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <p>Drno kummt's awer doch uff eins üsse !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Hann Sie sich um das z'bekimmere ? Um d'Dienschtvorschrifte hann Sie sich z'bekimmere, voilà tout!
+            Un jetz kumme Sie emol mit m'r ! 
+            <stage>(im Abgehen)</stage>as intéres sant, un cas vraiment intéressant, e enorm interessanter Fall !
+            
+            <stage>(mit Frisch links ab)</stage></p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <stage>(ironisch)</stage>
+            <p>Hann'r 's g'heert, Babbe Dindeschlecker, was fir interessante Fall bi uns vorkumme, hann'r 's
+            g'hert ?</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Ar isch, glauib, güet g'lünt, hit dr Chef ! Wohrschints isch'r mit'm linke Bei z'erscht uffgstande
+            !</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Wisse-n-Ihr awer o, Babbe Dindeschlecker, wels dr interessanteschte, m'r möcht sage, dr einzig
+            interessante Fall isch in re Verwaltung ?</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Weller ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Ich will's Euich verrote, vu allei kumme Ihr doch nit druff! Das isch, wenn dr quatorze juillet
+            uff e Fritig oder uff e Zischtig fallt !</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>... Ihr meine?...</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Denn drno wird vum Fritig uff dr Sunndig oder vum Sunndig uff dr Zischtig dr « pont » gmacht !</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker :</speaker>
+            <stage>(lacht)</stage>
+            <p>Was Ihr allewil fir Plan im Schadel hann ! Ihr sinn immer dr glich, Herr Fröhlich !</p>
+          </sp>
+        </div>
+        <pb n="13" />
+        <div type="scene">
+          <head>4. Scène.</head>
+          <stage>(Die Vorigen — Frisch — Hasepfeffer)</stage>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <stage>(kommt kopfschüttelnd aus Linsespalters Bureau)</stage>
+            <p>Do lüeg emol einer da Kitt a! Ich ha gschriewe : « Je vous envoie », dr Herr Sous-Inspecteur
+            schickt's zuruck, 's miesst heisse : « Je vous transmets. » Heiliger Bürokratius, erbarme di ! Isch
+            denn das nit g'hoppst wie gsprun-ge : « je vous envoie » un « je vous transmets ! »</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(kommt schnaubend von rechts)</stage>
+            <p>Messieurs, do unte isch e Obstkarre mit Orange ! Scheene guldegale, sechs Stick fir e Franke ! 
+            <stage>(geht in Linsespalters Zimmer, ab)</stage>Fröhlich — Frei : Uh, Juhu ! Ju ! 
+            <stage>(eilen lärmend rechts ab.)</stage></p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker :</speaker>
+            <stage>(kopfschüttelnd)</stage>
+            <p>Junge Lit, junge Lit! D'Jugend will üstowe, was will mr mache drgege ? Am beschte : Nix ! So lang
+            as 's Asah vu dr Vrwaltung nit gschadigt wird, so lang ass noch Reschpakt do isch vor dr Owrigkeit,
+            solle se ihre Freid un Luscht ha, so viel ass's uff mich akummt! 
+            <stage>(den andern nach, ab.)</stage></p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch&#160;:</speaker>
+            <p>So, jetz isch's changiert ! Jetz han i « transmets » gsetzt fir « envoie. » Jetz bin i gspannt,
+            was dr Herr Inspecteur drzüe sait, dr Herr Sous-Inspecteur isch z'friedegstellt. Awer 1000 :1 will i
+            wette, dass dr Herr Inspecteur noch emol e Anderung vornimmt ! 
+            <stage>(ebenfalls rechts ab.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>5. Scène.</head>
+          <stage>Hasepfeffer (allein)</stage>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(kommt aus Linsespalters Zimmer, geht zum Ofen und zieht dort einen Eimer hervor,
+            kopfschüttelnd)</stage>
+            <p>Dr Kalander hann i ihm vrgasse abz'risse, m'r wird halt schwach im Kopf im Alter! Awer das hätt'r
+            schliesslig salwer merke solle, dass hit nimm Sundig isch ! 
+            <stage>(ab in Linsespalters Zimmer. Die Bühne bleibt einige Augenblicke leer, dann steckt Walfisch
+            den Kopf zur Tür rechts herein.)</stage></p>
+          </sp>
+        </div>
+        <pb n="14" />
+        <div type="scene">
+          <head>6. Scène.</head>
+          <stage>Walfisch (allein)</stage>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <p>Nu, das heisst jetz à Vrwaltung ! Löb, wie wird dr ! Kei Mensch weit, kei Mensch breit ! A
+            Stilleben, à Stilleben, à Maler könnt dran han seine Freid ! Grad wie an dr Poscht, grad wie an dr
+            Bahn : 36 Schalter un uff 35 steht : « Fermé. » Nu komme Se halt herein, Herr Löb Walfisch — nei Löb
+            Walfisch — selig ! 
+            <stage>(tritt ein)</stage>S'isch halt à Vrwaltung, à Ad-mi-ni-stra-ti-on, was will mr meh! Bi mir im
+            Geschäft wär sowas nit vorkumme, trotzdem isch's Geschäftlich gegange pleite ! 
+            <stage>(geht an den ersten Tisch rechts, setzt sich und frägt ins Leere)</stage>Nu, wer sinn Sie, was
+            welle Sie? 
+            <stage>(steht auf, stellt sich vor den Tisch hin und spricht zu diesem hin)</stage>Nu, ich möcht halt
+            rede mit'm Monsieur le Chef de Bureau ! 
+            <stage>(setzt sich wieder wie vorhin)</stage>Dr Herr Chef de Bureau isch no nit do ! 
+            <stage>(steht auf, wie oben)</stage>Nu, wie heisst, ich kann warte ! 
+            <stage>(setzt sich wieder, etc. wie oben)</stage>So, setze Sie sich derwilsch ! 
+            <stage>(steht auf etc. wie oben, mit höflicher Verbeugung gegen den leeren Platz)</stage>Merci,
+            vielmols, Ihr Herre ! Das isch emol e heeflige Vrwaltung, so wird mr nit empfange iwerall ! 
+            <stage>(mit Verbeugung)</stage>Ich bin so frech ! 
+            <stage>(setzt sich in der Nähe der Tür Linsespalters auf einen Stuhl, zieht ein Zeitungsblatt aus der
+            Tasche, entfaltet es bedachtsam und liest in ruhigem Tonfall)</stage>« Statt besonderer Anzeige ! » «
+            Heute entriss uns der Tod unsern innigstgeliebten Löb Walfisch » 
+            <stage>(zum Publikum, auf sich deutend)</stage>Das bin ich! .... « in der Blüte seiner Jahre, auf dem
+            Höhepunkt seines Schaf-fens..... 
+            <stage>(er lässt das Blatt sinken und wiederholt leise)</stage>« in der Blüte seiner Jahre, auf dem
+            Höhepunkt seines Schaffens ! » ..... Isch das scheen, isch das scheen ! Grad hile kennt mr, grad
+            hile, so scheen isch's — wenn m'r 
+            <stage>(er spricht « wennémr)</stage>da Schwindel nit hätt' gemacht salwer ins Blättle ! Awer was
+            will mr 
+            <stage>(willémr)</stage>mache ? Was will mr mache ? Was will mr mache, wenn mr 
+            <stage>(wennémr)</stage>hat gsteckt dem Mündel sei Geld in sei eiges Gschäftlich, wo 
+            <pb n="15" />das Gschäftelich hat gemächt pleite? Was wit mache, Löb Walfisch, jetzt wo dr Windmacher
+            isch gekomme heim — unverhofft — unerwarte — dod geglauibt un dod erklärt vor 3 Wuche -, wo dr
+            Windmacher isch gekomme heim, e Sportsgrösse, e ge'achter, grausser, amerikanischer Boxer, ä
+            Boxprofesser! Was willsch do mache, Löb Walfisch, sag, was kannsch do mache, wenn'r reklamiert sei
+            Geld ? Dei' eigne Todesannonce in 's Blättelich setze, still wie de Nacht iwer's Bächle schwimme un
+            schaue, wie de's witterscht tribsch ! 
+            <stage>(weiter lesend)</stage>« Alle, die ihn kannten, werden unsern Schmerz zu würdigen wissen » 
+            <stage>(für sich)</stage>am meischte dr Windmacher ! 
+            <stage>(lesend)</stage>« Das Leichenbegängnis findet nicht hier statt. » 
+            <stage>(für sich)</stage>Das vrsteht sich! 
+            <stage>(lesend)</stage>« Blumenund Kranzspenden dankend verbeten. » 
+            <stage>(mit leisem Lachen)</stage>Das hätt ich eigetlig nit solle setze ins Blättle, mr hätt gsah,
+            wer noch ahanglig isch an so me arme bankrotte Walfisch ! 
+            <stage>(Die Tür links wird aufgestossen und der fegende Hasepfeffer jagt Walfisch eine ganze Ladung
+            Staub auf Gesicht und Kleidung)</stage>Au weih gschrie! Wos ä Untat, was ä Untat! Die ganz Wüste
+            Saharah jagt mir dr Herr uff d'Kleider !</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>7. Scène.</head>
+          <stage>(Walfisch — Hasepfeffer, dann Dindeschlecker, Fröhlich und Frei, später Frisch).</stage>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Ach, Pardon Monsieur, awer wie kumme Sie denn do inne, sage Se emol !</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch&#160;:</speaker>
+            <p>Nu, Herr Amtsvorstand, wie wir ich kumme si do inne ? Dur das Tirelich, wu sunscht ?</p>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <stage>(mit Dindeschlecker und Fröhlich von rechts)</stage>
+            <p>E wunderscheener Summermorge hit! Un mir arme Süschriewer, mir Unglickswirmer mien in da Stall
+            hocke — acht Stunde lang, Tag fir Tag !</p>
+          </sp>
+          <pb n="16" />
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>S'isch unser Los, was welle-n-r ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Allez, Kinder, grine nit drwage ! Hit isch jo scho Mantig un iwer — iwer — iwer — iwer — iwer-morn
+            scho widder Sunntig !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Ssst! Ssst! Ihr Herre! Dr Alt isch ferchterlig bees g'lünt hit !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <stage>(eintretend, hat die letzten Worte gehört ; eifrig)</stage>
+            <p>Drno schitte nüumme Oel uffs Fir ! Hasepfeffer, bringe-n ihm schnall das Gsudels wieder zruck un
+            sage'n'm, dr Herr Inspecteur isch nit d'accord mit'm Herr Sous-Inspecteur un losst sage, das war
+            miserabel Franzeesch, s'miesst heisse: « Veuillez trouver ci-inclus ..... »</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <p>Bon! Do vrplatzt'r vor Wuet, dr Alt!</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch:</speaker>
+            <p>Sage awer racht ditlig : « Miserawel ! »</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <p>Très bien, 's wird bsorgt !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch&#160;:</speaker>
+            <p>Un dr ganz Kitt soll neij gschriewe warde, — s' isch jetz scho zwei Mol radiert - nochhar direkt
+            im Herr Inspecteur divisionnaire vorz'lege !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Bon! Bon!</p>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <p>Was hann Sie welle, Monsieur ?</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Mit'm Chef rede will dr Herr !</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Namme grad dr Herr mit inne !</p>
+          </sp>
+          <stage>(Hasepfeffer und Walfisch links ab).</stage>
+        </div>
+        <pb n="17" />
+        <div type="scene">
+          <head>8. Scène.</head>
+          <stage>(Die Vorigen — Windmacher.)</stage>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(klopft kräftig an ; es erfolgt keine Antwort. Er klopft noch einmal und tritt dann
+            energischen Schrittes ein. Er trägt ein Lederköfferchen in der Hand, welches er im Ver- lauf der
+            folgenden Scène in der Nähe des Ofens absetzt.)</stage>
+            <p>Bonjour Messieurs !</p>
+          </sp>
+          <sp who="#die_andern">
+            <speaker>Die Andern :</speaker>
+            <stage>(antworten nicht ; alle schreiben eifrig. Einer knurrt eine unverständliche Antwort.)</stage>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(lauter)</stage>
+            <p>Bonjour Messieurs !</p>
+          </sp>
+          <sp who="#die_andern">
+            <speaker>Die Andern :</speaker>
+            <stage>(schreiben ruhig weiter)</stage>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(betrachtet sie eine Weile mit verschränkten Armen, dann tritt er heftig gegen den Ofenschirm
+            ; schreit)</stage>
+            <p>Bonjour Messieurs ! !</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker :</speaker>
+            <stage>(voller Würde)</stage>
+            <p>Sie brüche sich do nit eso uffz'fiehre, Sie solle wisse, wie m'r sich in re Vrwaltung gegeniwer
+            benimmt !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch&#160;:</speaker>
+            <p>Was welle Sie eigetlig ?</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Mi Namme isch Windmaker 
+            <stage>(spr. Ueindmeker)</stage>Fred Windmaker, Professeur de Boxe in Michigan U. S. A. !</p>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <p>Hahaha ! Nit schlacht! Sie sinn dr Windmacher Freddy üs Pfatzehüsse ?</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>So isch's ! Was isch do lacherligs drbi ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <stage>(lachend und mit abwehrender Gebärde)</stage>
+            <p>Drno gehn Se numme glich widder uff Michigan U. S. A. Sie sinn dod!</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <p>Was bin ich? Dod ?</p>
+          </sp>
+          <pb n="18" />
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Sie sinn dod fir uns !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(stellt sich breitspurig vor Dindeschlecker hin)</stage>
+            <p>Oho, ich bin dod !</p>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <p>Vor 3 Wuche erscht sinn Sie fir dod erklärt worde !</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Drum gehn Se ringer glich widder, nit dass Se noch mit'm Staalsanwalt in Konflikt kumme !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Nit iwel ! Un drbi bin i fidel un munter wie ne Fisch im Wasser !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <p>Gehn Se, Mann, gehn Se! Ich rot Ihne numme güet ! Gehn Se !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Wenn ich awer nit dod bin ? Was drno hm ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Fir uns sinn Se dod !</p>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei :</speaker>
+            <p>Müsdod !</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Do steht's schwarz uff wiss in unsre Akte ! Vor 6 Monet scho hat m'r Sie in de hiesige Zittungen
+            uffgebotte ; worum hann Sie sich nit g'malde, wenn Se noch am Lawe sinn ?</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Was Sie sich ibilde! Glauiwe Sie villicht, ich lies driwe in Amerika Euire Kasblättle ? Awer,
+            schliesslig, — was gehn mich Euire Bürokratefisik a! Me voilà gsund un lawandig ! Mir-a kenne Ihr
+            Euich danke, ich seig widder ufferstande !</p>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Fir uns sinn un bliwe Sie dod !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(drohend)</stage>
+            <p>Herr! 
+            <stage>(krempelt die Aermel auf und packt Dindeschlecker am Kragen)</stage>Herr ! Noch ei Wort un Sie
+            bekumme eine g'langt — von're Dodehand — dass Se noch 6 Wuche dra danke !</p>
+          </sp>
+          <pb n="19" />
+          <sp who="#alle">
+            <speaker>Alle :</speaker>
+            <stage>(durcheinander)</stage>
+            <p>Das isch Beamtebeleidigung — Körperverletzung — Drohung. — M'r verklage Sie !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Was isch das? Vrklage welle Ihr mich? Très bien! Z'erscht heisst's, ich seig dod un jetz welle Ihr
+            dà dode Mann o noch vrklage ! Nit schlacht, nit iwel ! 
+            <stage>(einlen- kend)</stage>Nei, Ihr Herre ! Spass apartig ! Ich ha o Vrstandnis fir Humor, awer was
+            mich do anefiehrt, das isch e hocharnschte Sach ! Mi Vrmöge will i widder, mi Eige- tum, wu ne
+            gwisser Walfisch, Löb Walfisch, vrwalte hat, un — wie'n ich erfahre hann - schlacht vrwalte, pour
+            ainsi dire : unterschlage hat ! Un jetz lehn Se mich zu Ihrem Chef inne, do isch dankwohl d'Tire ! 
+            <stage>(will links ab).</stage></p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle :</speaker>
+            <stage>(ihn zurückhaltend)</stage>
+            <p>Grad isch e Herr drinne bim Chef ! Sie derfe jetz nit inne. — Warte Sie noch e Rung !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Bon! Ich bin kä Unmensch ! Ich kann warte — awer nit länger als 5 Minüte wart i! 
+            <stage>(Auf und ab)</stage>Do drinn ka's e gsunder Mensch gar nit üshalte ; e Luft, e Luft —
+            s'reinschte Bazilleheim ! 
+            <stage>(will rechts ab ; bleibt an der Tür stehen, zieht aus einem Aktenschrank ein Bündel Akten
+            heraus, die, Staub aufwirbelnd, zu Boden fallen)</stage>A propos, was hann'r denn do fir Gekrizels —
+            das Dings isch jo ganz fattig — stauiwig, vrschmiert un vrschimmelt !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <stage>(aufgebracht)</stage>
+            <p>Monsieur ! Das sinn Akte ! Lehn Se do d'Finger drvu !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(lachend)</stage>
+            <p>Soo ! Akte ! Wisse Sie was, jeune homme de bonne famille ? Warfe Sie emol e Hand voll « Akte » in
+            kochig Wasser, das git e prima Fleischsupp ! 
+            <stage>(ab)</stage></p>
+          </sp>
+          <sp who="#frei">
+            <speaker>Frei:</speaker>
+            <p>Monsieur, Ihre Koffer !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(zurückrufend)</stage>
+            <p>Lehn Se ne numme steh', villicht hat'r Junge, bis i zruckkumm ! 
+            <stage>(Linsespalter kommt mit Walfisch aus seinem Bureau heraus.)</stage></p>
+          </sp>
+        </div>
+        <pb n="20" />
+        <div type="scene">
+          <head>9. Scène.</head>
+          <stage>(Die Vorigen, ohne Windmacher — Linsespalter — Walfisch).</stage>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>D'Vrwaltung nimmt jo harzlig, racht harzlig Ateil an dam schware Vrluscht, wu Sie dur dr Dod vu
+            Ihrem .....</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <p>...Cousin! ...</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>... vu Ihrem Cousin Walfisch erlitte hann. Dr Vrwaltung kann jo viel — g'wisse Lit sage, kei Ding
+            seig're unmeglig — awer alles ka se doch no nit un so isch's're leider nit gà, da arme Mann widder
+            züem Lawe z'erwecke !</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <stage>(während er sein Taschentuch zieht und dureh Gebärdenspiel Leid auszudrücken sucht ; für
+            sich)</stage>
+            <p>Nu, wenn de tätsch wisse !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Un drno wage dare Vrmögensvrwaltung vu Ihrem vrstorwene Cousin — wisse Sie, fir dane vrschollene
+            —</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <p>— fir « dod » erklärte —</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Ja, fir dane « dod » erklärte Fred Windmacher, do wird Sie d'Vrwaltung emol bstelle - so in e paar
+            Wuche — zur Abrachnung !</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch&#160;:</speaker>
+            <p>Non, non, non! Ich will nit! Ich will mitm Gschäftlich vom selige Walfisch nix hawe ze tüen ! Nix,
+            gar nix !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>S'isch doch Ihre Cousin gsi !</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch&#160;:</speaker>
+            <p>Wie heisst « Cousin » ? Ich schlag se üs die Erbschaft, ich schlag se üs ! Wie heisst Cousin ? A
+            cousin, wu mr nit hat gegriesst, wenn m'r 
+            <stage>(wennémr)</stage>ne hat gsah! 
+            <pb n="21" />A cousin, wu m'r sich hat scheniert ze sage, mr isch in dr Verwandtschaft ! A cousin, wu
+            hat — mit eim Wort — gsteckt das Geld vum Windmacher in sei Gschäftelich, wo gegange isch pleite
+            !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Was heer ich do ? Dr Walfisch hat im Windmacher si Vrmöge unterschlage ! 
+            <stage>(schreiend)</stage>Das isch unerheert, das isch — do steht jo Zuchthüs druff !</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <stage>(ruhig)</stage>
+            <p>Nu, Herr Linsepalter, was schreie Se denn eso mit mir? Bin ich dr Löb Walfisch oder bin ich nit dr
+            Walfisch Löb ?</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Gwiss, gwiss ! Sie sinn ne nit, dr Löb Walfisch !</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch&#160;:</speaker>
+            <p>Nu also! 
+            <stage>(triumphierend)</stage>Wenn Sie's salwer sage, ich bin nit dr Walfisch Löb !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Awer unerheert, schandlig, strofbar isch's doch !</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch&#160;:</speaker>
+            <p>Was welle Sie mache im e Dode ! M'r soll nix nochrede im e dode Mensch !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Gwiss, gwiss, z'mache isch nix meh ! Awer dr Staatsanwalt müess doch preweniert warde, ich will's
+            glich bsorge! Au revoir, Monsieur ! 
+            <stage>(will ab in sein Zimmer, unter der Tür)</stage>Monsieur Fröhlich !</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Herr Linsespalter ?</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Dr Herr Inspecteur divisionnaire will nit ha, dass mr schribt « Veuillez trouver ci-inclus » 's
+            muess kurz un bindig heisse : « Je vous communique. » Andere Sie das Schriwe entsprachend ab, Sie
+            wisse doch — ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Ja, ja, ich weiss, das wu m'r scho X-Mol umg'andert hann !</p>
+          </sp>
+          <pb n="22" />
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Un schriwe Sie iwerhaupit in Züekunft : « Je vous communique ». 
+            <stage>(ab.)</stage></p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch&#160;:</speaker>
+            <p>Jetz, Walfisch, los ! Jetz schwimm iwers Bachle ! 
+            <stage>(gewahrt den Koffer Windmachers)</stage>Au weih gschrie — sei Koffer! Das isch sei Koffer !
+            Jetz awer los !</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>10. Scène.</head>
+          <stage>(Die Vorigen — Windmacher)</stage>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(öffnet die Tür ein wenig, steckt den Kopf durch den Spalt, zu Frisch)</stage>
+            <p>Ich'r jetz allei, Euier Chef ?</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <stage>(leise)</stage>
+            <p>Au weih! Au weih! Ar salwer ! 
+            <stage>(springt hinter den Ofenschirm, wo er — dem Publikum sichtbar, aber unsichtbar für Windmacher
+            — sich einen Trauerflor umbindet. Fröhlich, mit einem Schreiben in der Hand rechts ab.)</stage></p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch :</speaker>
+            <stage>(zu Windmacher)</stage>
+            <p>Ja, Monsieur, jetz isch'r do ! Gehn Se grad inne !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Bon ! 
+            <stage>(tritt ein, geht zur Tür links und klopft an.)</stage></p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(von drinnen, scharf)</stage>
+            <p>Entrez sans frapper ! !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(trocken)</stage>
+            <p>Merci fir d'Belehrung ! 
+            <stage>(tritt ein, ab).</stage></p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <stage>(leise)</stage>
+            <p>Gott der Gerechte! Jetz hann i gelosse drinne dr Hüet! Was mache? Ohne Hüet kann i nit furt! Do
+            fall i glich uff an dr Brucke !</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>11. Scène.</head>
+          <stage>(Die Vorigen — Hasepfeffer.)</stage>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(kommt aus Linsespalters Zimmer)</stage>
+            <p>Ssst! Ssst! Herr Dindeschlecker !</p>
+          </sp>
+          <pb n="23" />
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker&#160;:</speaker>
+            <p>Was gits ?</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>Dr Alt hat d'Antwort drinn uff Ihre Demande fir Ghaltsuffbesserung ! Ich ha se g'lase !</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle :</speaker>
+            <stage>(leise, während sie sich um Hasenfeffer arunpieren)</stage>
+            <p>Was steht drin ? Wie heisst d'Antwort ?</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <stage>(leise)</stage>
+            <p>Was fir glickliche Leit ! Allewil G'haltsuffbesserung, allewil Teuerungszuelag !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(geheimnisvoll)</stage>
+            <p>S'steht drin. dass dr Vrwaltung leider kä Kredit mehr offe steh hat. fir in dam p. Dindeschlecker
+            e Uffbesserung züekumme z'losse .....</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle :</speaker>
+            <stage>(enttäuscht)</stage>
+            <p>Oh ! Oh!</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>..... dass se awer, als Bewis vu Ihrem « Wohlwolle », im Personal geseniwer, bschlosse hat 
+            <stage>(zitierend)</stage>« die von dem p. Dindeschlecker innegehabte Dienstwohnung, bisher zu 450
+            Francs veranschlagt, vom 1. 8. a. c. ab mit 900 Francs zu veranschlagen, was gewissermassen » — 's
+            steht so drinn, wortwörtlig — « was gewissermassen einer Erhöhung seiner Bezüre um 450 Francs
+            gleichkommt! »</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle :</speaker>
+            <stage>(geben Zeichen ihrer grossen Enttäuschung)</stage>
+          </sp>
+          <sp who="#dindeschlecker">
+            <speaker>Dindeschlecker :</speaker>
+            <stage>(erblassend)</stage>
+            <p>O, Malheur ! Do bikumm ich jo gar nix, im Gegeteil : Ich müess noch 450 Franes mehr vrstire !</p>
+          </sp>
+          <sp who="#frisch">
+            <speaker>Frisch&#160;:</speaker>
+            <p>Was hann i gsait! Hätte Ihr numme das Gsüech nit gmacht, sallemols !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer&#160;:</speaker>
+            <p>So isch's! Ich hann Euich ewefalls abg'rote ! Ich kenn mi üs! Wu'n i noch in Paris gsi bin, am
+            ministère des décorations — 
+            <stage>(eilt rechts ab, da Windmacher und Linsespalter aus des letzteren Zimmer heraustreten, beide
+            lebhaft gestikulierend und sprechend).</stage></p>
+          </sp>
+        </div>
+        <pb n="24" />
+        <div type="scene">
+          <head>12. Scène.</head>
+          <stage>(Die Vorigen — Windmacher — Linsespalter).</stage>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Babberlababb ! Fir d'Vrwaltung sinn Sie — dod !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <p>Awer Monsieur, ich stand doch vor Ihne, « en chair et en os »! Ich vrsicher Sie : Fred Windmacher
+            üs Pfatzehüse, Professeur de Boxe in Michigan U. S. A.</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>So ka ne jeder kumme ! isch Ihre Todeserklärung !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Die mächt i gsah !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Pardon — die geht. Sie gar nix a!</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <p>Se betrifft awer doch mich !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Das sinn unsre Sache, do driwer hat d'Vrwaltung « z'befinde » !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Ich bin doch nit dod !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(scharf)</stage>
+            <p>Das müess d'Vrwaltung besser wisse als Sie!</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <p>Jetz heert awer alles uff ! Jetz hann i gnüe ! 
+            <stage>(zieht den Rock aus, eilt an den Koffer, entnimmt ihm ein paar Boxhandschuhe und macht. sich
+            zum Boxen fertig.)</stage></p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(ängstlich schreiend)</stage>
+            <p>Herr Frei, Herr Frisch ! Alarmiere Sie d'Polizei, ar wird aggressiv! Ar wird handgriflig ! Ich
+            teleponier in dr Staatsanwaltschaft ! 
+            <stage>(in sein Zimmer, ab : er schliesst hörbar die Tür hinter sich zu, Frei und Frisch nach rechts
+            ab ; Dindeschlecker einige Male 
+            <pb n="25" />ängstlich um den sich fertig machenden Windmacher herumhüpfend, eilt, einem plötzlichen
+            Gedanken folgend, hinter den Ofenschirm, zu dem sich angswoll zusammendrückenden Walfisch. Beide
+            zittern.)</stage></p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <stage>(mit derbem Lachen)</stage>
+            <p>Ja, wu sinn se jetzt die Gselle ! Wu stacke se, unsre Bureaukrate ? Allons, Messieurs, uff dr «
+            Ring » ! Alle mitenander, wennr welle! « Premier round ! »</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(in seinem Zimmer)</stage>
+            <p>Ich mach Sie druff uffmerksam ! Das isch Bedrohung vu Beamte im Dienscht ! Dienscht- vorschrift
+            273 e § 88, Absatz A, alinéa 2 ff. — Sie kumme ins Gfangnis, ich telefonier in dr Staatsanwaltschaft
+            !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Quatsch, mi Liewer ! Ich bin jo dod! Sie wisse's jo besser als ich! Jetz muess i doch lüege, ob
+            d'bewaffnete Macht boll aruckt ! 
+            <stage>(lachend rechts ab).</stage></p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <stage>(kommt mit Dindeschlecker hinter dem Ofen hervor. An der Tür links)</stage>
+            <p>Monsieur, gann Sie mir mi Hüet, wenn's b'liebt! Sinn Se so güet, gann Sie mir mi Hüet ! 
+            <stage>(er horcht an der Tür links, wobei er öfters bittend « Monsieur » sagt.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>13. Scène.</head>
+          <stage>(Die Vorigen — Windmacher — der Inspecteur de la Sureté — hinterher Frei und Frisch, die vier
+          letzteren von rechts. Windmacher und der Inspecteur in freundschaft- lichem Gespräch.)</stage>
+          <sp who="#ein_inspecteur_de_la_surete">
+            <speaker>Der Inspecteur de la Sureté :</speaker>
+            <p>Ja, ja, mi liewer Windmacher, Dü mach'sch dr kä Begriff, wie mich das freit, e alter,
+            Schüelkamerad widder az'traffe ! Voyons! Wit hasch's brocht, viel witerscht as ich! Bisch e grosser,
+            geachteter Sportsmann worde, bi mir hats numme zuem bessre Schutzmann g'langt !</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch :</speaker>
+            <stage>(dreht sich um, erbleicht)</stage>
+          </sp>
+          <pb n="26" />
+          <sp who="#ein_inspecteur_de_la_surete">
+            <speaker>Der Inspecteur de la Sureté :</speaker>
+            <p>Was sieh ich do? Dr Löb Walfisch !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <p>Wahrhaftig, ar isch's !</p>
+          </sp>
+          <sp who="#ein_inspecteur_de_la_surete">
+            <speaker>Der Inspecteur de la Sureté :</speaker>
+            <stage>(jüdelnd, aber freundlich)</stage>
+            <p>Ja, kleiner Walfisch, ich ha g'meint, dü bisch gstorwe ! S'steht doch so scheen in dr Zitung :
+            ..... «&#160;In der Blüte seiner Jahre, auf dem Höhepunkt seines Schaffens ! » .....</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch&#160;:</speaker>
+            <p>Wenn's doch nur so war, wenn's doch nur so war!</p>
+          </sp>
+          <sp who="#ein_inspecteur_de_la_surete">
+            <speaker>Der Inspecteur de la Sureté:</speaker>
+            <p>Wie reimt sich denn das zamme, sag, Alterle ?</p>
+          </sp>
+          <sp who="#lob_walfisch">
+            <speaker>Löb Walfisch&#160;:</speaker>
+            <p>Nu, was soll ich sage ? Gar nit! 's wird 's beschte si!!</p>
+          </sp>
+          <sp who="#ein_inspecteur_de_la_surete">
+            <speaker>Der Inspecteur de la Sureté :</speaker>
+            <p>Nu, weischte was, kleiner Walfisch, schwimm mit mr, saisch im Untersüechungsrichter, was ze sage
+            isch ! 
+            <stage>(er nimmt den ganz Verzweifellen am Gelenk ; im Abgehen)</stage>A tout à l'heure, mon ami ! A
+            tout à l'heure ! 
+            <stage>(mit Walfisch ab.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>14. Scène.</head>
+          <stage>(Vorige — Linsespalter.)</stage>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(öffnet zaghaft die Tür, tritt ein, Walfisch's Hut in den Händen)</stage>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>Kumm inne, edle Akteseele, ich mach dr nix ! Grad hann se ne Doder zuem Lawe erweckt, villicht
+            kumm o ich emol an d'Reih'! Einschtwile, au revoir — Sie Kaffer !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Oh ! Ich bin Chef !</p>
+          </sp>
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher&#160;:</speaker>
+            <p>« Chef » isch d'Mehrzahl vu « Schaf ! »</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <p>Das isch Beleidigung, ich zeig Se a!</p>
+          </sp>
+          <pb n="27" />
+          <sp who="#fred_windmacher">
+            <speaker>Fred Windmacher :</speaker>
+            <p>O racht, — Sie Kaffer ! 
+            <stage>(ab !)</stage></p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <stage>(ihm nachrufend)</stage>
+            <p>Wenn ich e Kaffer bin, drno sinn Sie e Owerkaffer, e Muschterkaffer ! He! Sie hann ebbs vrgasse ! 
+            <stage>(ihm den Koffer nachwerfend)</stage>Do isch Ihre Muschterkoffer, Sie Muschterkaffer !</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>15. Scène.</head>
+          <stage>(Vorige — Fröhlich — dann Hasepfeffer)</stage>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <stage>(eiligst von rechts herein)</stage>
+            <p>Herr Linsespalter, Herr Linsespalter !</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Was gits, Herr Fröhlich, was bringe Sie ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>Dr Herr Inspecteur en Chef kocht vor Wüet. S'därf nit heisse : « je vous transmets », wie's dr
+            Herr Sous-Inspecteur gsait hat, un nit « Veuillez trouver ci-inclus », wie's dr Herr Inspecteur hat
+            welle ha, un o nit « je vous communique », wie dr Herr Inspecteur divisionnaire g'meint hat un nit «
+            je vous adresse », wie's dr Herr Inspecteur principal adjoint a git un o nit: « Jai l'honneur de vous
+            faire parvenir », wie's dr Herr Inspecteur principal salwer anegesetzt hat! Dr Herr Inspecteur en
+            Chef will's anderscht ha!</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <p>Wie will ar 's denn ha, dass me schribt ..... ?</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle&#160;:</speaker>
+            <p>Wie? Wie? Wie will'r 's ha?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich :</speaker>
+            <p>— dass me schribt: Je vous envoie !&#160;»</p>
+          </sp>
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter :</speaker>
+            <p>Ja, un was hann Sie denn z'erscht gschriwwe g'ha ?</p>
+          </sp>
+          <sp who="#frohlich">
+            <speaker>Fröhlich&#160;:</speaker>
+            <p>« Je vous envoie ! »</p>
+          </sp>
+          <pb n="28" />
+          <sp who="#linsenspalter">
+            <speaker>Linsespalter&#160;:</speaker>
+            <p>Drno hann mir's jo racht g'ha ! Sag i's nit immer: E Bürokrat trifft allewil dr Nagel uff dr Kopf
+            !</p>
+          </sp>
+          <sp who="#hasepfeffer">
+            <speaker>Hasepfeffer :</speaker>
+            <stage>(eintretend, breit)</stage>
+            <p>Wurum denn ebbis eifach mache, wenn's kompliziert so scheen geht ? !</p>
+          </sp>
+          <stage>VORHANG.</stage>
+          <stage>ENDE.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

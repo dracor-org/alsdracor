@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">E Daa im Narrehüss</title>
+            <title type="sub">E Original-Farce in zwei kurze  Akt vum Camille Jost</title>
+           <author>
+             <persName>
+               <forename>Camille</forename>
+               <surname>Jost</surname>
+             </persName>
+             <idno type="wikidata">Q96489174</idno>
+           </author>
+           <respStmt>
+               <resp>OCR scripting</resp>
+               <name>Delphine Bernhard</name>
+            </respStmt>
+            <respStmt>
+               <resp>OCR and its correction</resp>
+               <name>Audrey Deck</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI encoding</resp>
+               <name>Audrey Deck</name>
+               <name>Pablo Ruiz</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+           <publisher xml:id="dracor">DraCor</publisher>
+           <publisher>LiLPa – Université de Strasbourg</publisher>
+           <idno type="URL">https://dracor.org</idno>
+           <idno type="dracor" xml:base="https://dracor.org/id/">als000017</idno>
+           <availability>
+               <licence>
+                  <ab>CC BY 2.0</ab>
+                  <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+               </licence>
+            </availability>
+           <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q100753215</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <name>Numistral</name>
+               <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109684m</idno>
+               <bibl type="originalSource">
+                  <author>Camille Jost</author>
+                  <title type="main">E Daa im Narrehüss</title>
+                  <title type="sub">E Original-Farce in zwei kurze  Akt vum Camille Jost</title>
+                  <publisher>Druck und Verlag von F. X. Le Roux &amp; Cie., S. A.</publisher>
+                  <date type="print" when="1928">1928</date>
+                  <date type="written"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person sex="MALE" xml:id="brummer">
+                  <persName>Brummer</persName>
+               </person>
+               <person sex="FEMALE" xml:id="oktavie">
+                  <persName>Oktavie</persName>
+               </person>
+               <person sex="FEMALE" xml:id="euphrosine_bendele">
+                  <persName>Euphrosine Bendélé</persName>
+               </person>
+               <person sex="MALE" xml:id="nervich_paul">
+                  <persName>Nervich Paul</persName>
+               </person>
+               <person sex="MALE" xml:id="erster_warter">
+                  <persName>1. Wärter</persName>
+               </person>
+               <person sex="MALE" xml:id="zweiter_warter">
+                  <persName>2. Wärter</persName>
+               </person>
+               <person sex="MALE" xml:id="dritter_warter">
+                  <persName>3. Wärter</persName>
+               </person>
+               <person sex="MALE" xml:id="en_arweiter">
+                  <persName>E’n Arweiter</persName>
+               </person>
+               <person sex="MALE" xml:id="e_passant">
+                  <persName>E Passant</persName>
+               </person>
+               <person sex="MALE" xml:id="e_blejele">
+                  <persName>E Blejele</persName>
+               </person>
+               <person sex="MALE" xml:id="e_gauner">
+                  <persName>E Gauner</persName>
+               </person>
+               <person sex="UNKNOWN" xml:id="d_stimm_vum_e_papagei">
+                  <persName>D’Stimm vum e Papegei</persName>
+               </person>
+               <person sex="MALE" xml:id="narr">
+                  <persName>Narr</persName>
+               </person>
+               <listRelation>
+                  <relation name="parent_of" active="#brummer" passive="#oktavie"/>
+               </listRelation>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term type="genreTitle">comedy (farce)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <head>Persone:</head>
+            <castItem corresp="#brummer">
+               <role>
+                  <persName>Brummer</persName>
+               </role>, <roleDesc>Privatier.</roleDesc>
+            </castItem>
+            <castItem corresp="#oktavie">
+               <role>
+                  <persName>Oktavie</persName>
+               </role>, <roleDesc>syni Dochter.</roleDesc>
+            </castItem>
+            <castItem corresp="#euphrosine_bendele">
+               <role>
+                  <persName>Euphrosine Bendélé</persName>
+               </role>, <roleDesc>e’n-älteri Mamsell.</roleDesc>
+            </castItem>
+            <castItem corresp="#nervich_paul">
+               <role>
+                  <persName>Nervich Paul</persName>
+               </role>, <roleDesc>Dokter.</roleDesc>
+            </castItem>
+            <castGroup>
+               <castItem corresp="#erster_warter">
+                  <role>
+                     <persName>1. Wärter</persName>
+                  </role>
+               </castItem>
+               <castItem corresp="#zweiter_warter">
+                  <role>
+                     <persName>2. Wärter</persName>
+                  </role>
+               </castItem>
+               <castItem corresp="#dritter_warter">
+                  <role>
+                     <persName>3. Wärter</persName>
+                  </role>
+               </castItem>
+               <roleDesc>Ang’stellt im Narrehüss.</roleDesc>
+            </castGroup>
+            <castGroup>
+               <castItem corresp="#en_arweiter">
+                  <role>
+                     <persName>E’n Arweiter</persName>
+                  </role>
+               </castItem>
+               <castItem corresp="#e_passant">
+                  <role>
+                     <persName>E Passant</persName>
+                  </role>
+               </castItem>
+               <castItem corresp="#e_blejele">
+                  <role>
+                     <persName>E Blejele</persName>
+                  </role>
+               </castItem>
+               <castItem corresp="#e_gauner">
+                  <role>
+                     <persName>E Gauner</persName>
+                  </role>
+               </castItem>
+               <roleDesc>Evtl. vun einere Person ze spiele.</roleDesc>
+            </castGroup>
+            <castItem corresp="#d_stimm_vum_e_papagei">
+               <role>
+                  <persName>D’Stimm vum e Papegei</persName>
+               </role>, <roleDesc>(vun’re Person, evtl. vum Regisseur, hinter d’r Scène ze-n-imitiere).</roleDesc>
+            </castItem>
+         </castList>
+         <set>
+            <p>ORT:</p>
+            <p>1. AKT: E frejer Platz mit-e-me Hüss im Hintergrund odder an d’r Sytt ; evtl. sieht m’r numme-n-e Deil devun. ’s Hüss hett e’n-anstaltsmässigs Üssähns.</p>
+            <p>2. AKT: E Sprechzimmer im Narrehüs.</p>
+         </set>
+         <set>
+            <p>ZYTT:</p>
+            <p>Gejewart.</p>
+         </set>
+         <set>
+            <p>SPIELZYTT:</p>
+            <p>Circa 45 Minütte.</p>
+         </set>
+         <set>
+            <head>Dekorationsplan</head>
+            <p>I. Akt.</p>
+            <p>E frejer Platz odder e Strooss mit e’me Hüss, wo’s Narrehüss vorstelle soll, D’r Yndruck isch also amstaltsmässig, evtl. vergitterti Fenschter. ’s Dach vum Narrehüss isch nitt ze sähn: Zuegang fur uff d’Scène vun links unn rächts. (Verglych au unter Absatz «Ort».)</p>
+            <p>II. Akt.</p>
+            <p>E Sprechzimmer im Narrehüss. Links unn rächts e Dier als Yngang. Im Hintergrund zwei Diere näwenand; an d’r eint e Plakat mit: « Gummizelle », an der ander mit: « Kaltwasser ».</p>
+            <p>Links uff d’r Scène e Schryebdisch mit-e-me Telephon, rächts e Kleiderständer mit-e-me Huet, me Pardessü unn e’me-n-Anstaltsmantel dran. An’re Wand e’n-elektrischer Druckknopf. ’s iwrig Mobiliar nooch Beliewe.</p>
+         </set>
+         <div type="front">
+            <head>Rolle-Beschrywung:</head>
+            <p corresp="#brummer">BRUMMER: Ca. 50 Johr alt; grosser Dierfrind, schunscht awer zimlich grobb.</p>
+            <p corresp="#oktavie">OKTAVIE: Ca. 25 Johr alt; frindlich.</p>
+            <p corresp="#euphrosine_bendele">EUPHROSINE: Älteri, verschroweni Jumpfer.</p>
+            <p corresp="#nervich_paul">NERVICH: Ca. 30 Johr alt; frindlich.</p>
+            <p corresp="#erster_warter #driter_warter #zweiter_warter">1., 2., 3. WÄRTER: Robüscht ; sie hann wyssi Hosse-n-unn ee dito Schurz an; d’Hemdsärmel sinn uffg’streift. Zuem bessere Verständnis vun d’r Handlung isch’s guet, wenn s’e sich in d’r G’stalt guet unterscheide lonn.</p>
+            <p corresp="#narr">NARR: Ca. 30 Johr alt; er hett e blöj-wyss g’streifter Anstalts-Mantel an. Durich bleed’s Lache, lätzi Bewejungen-unn Hüpser markiert’r e Verruckter.</p>
+            <p corresp="#e_blejele #e_gauner #e_passant #en_arweiter">D’ANDRE ROLLE: ergänn sich vun ase.</p>
+         </div>
+      </front>
+      <body>
+         <div type="act">
+            <head>I. AKT.</head>
+            <div type="scene">
+               <head>1. Scène.</head>
+               <stage>Brummer.</stage>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(vun rächts):</stage>
+                  <p>Wenn ich mich nitt drumbier, ze muess’s Narrehüss do in d’r Gejed sinn !</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>2. Scène.</head>
+               <stage>Wie vorig. E Passant (vun links).</stage>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Ah, do kummt jo ebber !  <stage>(Zuem Passant):</stage>  Pardon, kenne Sie mir saawe, wo d’Irre-Anstalt isch ?</p>
+               </sp>
+               <sp who="#e_passant">
+                  <speaker>PASSANT:</speaker>
+                  <p>Nein, leider nitt !  <stage>(Geht wyddersch.)</stage>
+                  </p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Awer ’s nächscht Wirtshüss, diss dhät’r wisse !</p>
+               </sp>
+               <sp who="#e_passant">
+                  <speaker>PASSANT</speaker>
+                  <stage>(kummt wichtig zeruck):</stage>
+                  <p>Monsieur, meine Sie am End ’s Narrehüss ?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Gewiss, diss suech ich jo!</p>
+               </sp>
+               <sp who="#e_passant">
+                  <speaker>PASSANT:</speaker>
+                  <p>Ja, wo diss isch, weiss ich nämlich au nitt!  <stage>(Rächts ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>3. Scène.</head>
+               <stage>Brummer.</stage>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(wietig):</stage>
+                  <p>Awer zyttig sinn Sie, fur’s ball ze wisse ! Na, ich wurr’s schun finde ! No will ich awer im Monsieur Nervich, wo Dokter drinne-n-isch, schun de Marsch bloose !  <stage>(Lungt e Brief üss’m Sack)</stage>  : Nitt nummen-ass’r hinter mym Buckel mit mynere Dochter e Techtelmechtel ang’fange hett, nein, jetzt fröjt’r mich au noch do in dem Brief um d’Hand vum Octavie ! Schamä! E <pb n="8"/> Narredokter kummt nitt in d’Famili Brummer ! Ihnne mache d’Kranke verruckt, er macht no myni Dochter verruckt unn die schliesslich noch mich — nein, so verruckt bin ich jetzt doch nitt ! Warte Sie, Herr Dokter, ich kenn Sie zwar noch nitt, awer hytt solle Sie mich kenne lehre, selbscht wenn’s Octavie noch so verruckt in Sie isch unn Sie noch so narrächt ins Octavie sinn ! E Narredokter ! M’r saat nitt umesunscht: « Sage mir, mit wem du umgehst, und ich will dir sagen, wer du bist!» Iwerhaupt, was verstehn d’junge Lytt vun d’r Lieb? Do g’heert Erfahrung dezue! Ich habb d’Lieb au erscht g’funde, wo myni erscht Frau dood isch g’sinn. In d’r Biwel steht bekanntlich: «Wen Gott liebt, den straft er!» Na, uff myni erscht Frau angewend, muess ich directement de Fifi vum liewe Herrgott gewänn sinn! Hoffetlich breche-n-awer jetzt besseri Zytte an, denn durich e Zyttungs-Annonce steh ich dato mit’re Mamsell im Briefwechsel ; denne-n-Oowe haw ich’s erscht Rendezvous mit’re, na, unn wenn d’Mamsell Euphrosine Bendélé nooch mym goût isch, ze wurd halt widder g’hyroot, awer nitt üss Verrucktheit, so wie d’junge Lytt! Die solle mit’m Hyroote liewer warte, bis ass s’e-n-au emool Wittmann sinn !</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>4. Scène.</head>
+               <stage>Wie vorig, Vum Dach vun d’r Anstalt heert m’r d’Stimm vum’e Papegei.</stage>
+               <sp who="#d_stimm_vum_e_papagei">
+                  <speaker>PAPEGEI:</speaker>
+                  <p>Wo isch’s Lorele? Da, Lorele, do hesch de Zuckerle !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(luejt erum):</stage>
+                  <p>Wer isch denn diss?</p>
+               </sp>
+               <sp who="#d_stimm_vum_e_papagei">
+                  <speaker>PAPEGEI:</speaker>
+                  <p>Lorele ! Gibb mir e Schmitzele !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(luejt am Hüss nuff):</stage>
+                  <p>Ah, do owe huckt jo e Papegei, wo schynnt’s in ebber furtg’flöje-n-ich ! E zü scheens Dierele !  <stage>(Lockt’m):</stage>  Lorele, kumm! Do isch Zuckerle !</p>
+               </sp>
+               <pb n="9"/>
+               <sp who="#d_stimm_vum_e_papagei">
+                  <speaker>PAPEGEI</speaker>
+                  <stage>(lacht):</stage>
+                  <p>Lorele will Kueche !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>E gelehrig’s Dierele ! Ich muess’s unbedingt fange, denn diss arm Vieh kummt jo in d’r Frejheit um!  <stage>(Zuem Papegei):</stage>  Kumm scheen, Lorele ! Kumm, schunscht fange dich d’beese Katze!  <stage>(Fur sich):</stage>  Jo, ’s lejt’m an !</p>
+               </sp>
+               <sp who="#d_stimm_vum_e_papagei">
+                  <speaker>PAPEGEI:</speaker>
+                  <p>Lorele, kumm !  <stage>(Lacht.)</stage>
+                  </p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>’s wär direkt e Verbreche, so e schlöj’s Dierele umkumme ze lonn !  <stage>(Lockt’m still wyddersch.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>5. Scène.</head>
+               <stage>Wie vorig. E’n-Arweiter (mit’re Leiter vun rächts).</stage>
+               <sp who="#en_arweiter">
+                  <speaker>ARWEITER:</speaker>
+                  <p>Heiliché, haw ich e Durscht!  <stage>(Leijt d’Leiter uff de Bodde):</stage>  Ich will g’schwind do am Eck e Seidel schlutze gehn !  <stage>(Links ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>6. Scène.</head>
+               <stage>Brummer.</stage>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Dem Vöjel kann ich lang ebbs vormache ! Ah, do lejt jo e Leiter ! Jetzt bekumm ich denne Babbelfritz doch.  <stage>(Stellt d’Leiter an’s Hüss unn leijt syne Huet unn Stock näwe d’Leiter, krawelt nuff unn stehnt: «O je!» odder « So e Schinderej ! » unn geroot als mit de Fiess zwische d’Sprosse. Iwerdem lock’r wyddersch)</stage>  : Lorele, sej brav! — Kumm scheen zuem Herrele!  <stage>(Lockt’m still wyddersch.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>7. Scène.</head>
+               <stage>Wie vorig. E Gauner (vun rächts).</stage>
+               <sp who="#e_gauner">
+                  <speaker>GAUNER</speaker>
+                  <stage>(kummt vorsichtig g’schliche unn nemmt de Huet unn de Stock vum Brummer):</stage>
+                  <p>M’r saat jo, ’s Geld lejt uff d’r Strooss ! Zwanzig Fränkle bekumm ich allewyll noch fur die paar Brocke !  <stage>(Links ab.)</stage>
+                  </p>
+               </sp>
+               <pb n="10"/>
+            </div>
+            <div type="scene">
+               <head>8. Scène.</head>
+               <stage>Brummer.</stage>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Lorele, ze kumm doch — baddabing ! d’Leiter isch ze kurz !  <stage>(Kummt vorsichtig erabb.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>9. Scène.</head>
+               <stage>Wie vorig. 1. Wärter kummt üss’m Hüss.</stage>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(sieht d’Leiter):</stage>
+                  <p>Was Dejfels, ich glabb gar, do rysst einer vun unsere Verruckte üss !  <stage>(Zuem Brummer, wo jetzt unte-n-isch):</stage>  Ja, Mann, was mache denn Sie do?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Pscht ! Stille! Ich habb e Vöjel !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <stage>(meh fur sich unn lacht)</stage>
+                  <p>Denne hann d’anderen-au !  <stage>(Lütt):</stage>  Woher isch Er denn, Mann ?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>’s isch sicher einer üss Indie ! Awer ze briehle Sie doch nitt so! Sie verscheiche mir’ne jo schunscht !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Ich kenn’ne nitt! Der isch gewiss üss d’r Abteilung II!</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Pscht! Wenn’r furtfliejt, ze-n-isch’s Ihri Schuld!</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Ach was! Do fliejt keim so g’schwind d’r Vöjel furt !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Kenne Sie guet klettere ?</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Muess ich denn daadsächlich erscht noch Hilf dezue hole!</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Diss isch nitt neetig! Awer e längeri Leiter miehn mir hann ! Wenn ’r in dere Zytt numme nitt furtfliejt !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(lacht):</stage>
+                  <p>Der sitzt fescht fur syn Läbdesdaa! Wie heisse Sie eijetlich ?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Worum? Hann Sie sich viellycht mir schun vorg’stellt ?</p>
+               </sp>
+               <pb n="11"/>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Numme nitt uffreje, liewer Frind ! Üss wellere Abteilung sinn Sie, odder hann Sie Separat-Pension?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Abteilung ? Pension ? Was welle Sie eijetlich vun mir ? Ich habb doch e Vöjel, wo ...</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Nadierlich, schunscht wäre Sie jo nitt do!  <stage>(Meh fur sich):</stage>  Ich dhue’ ne vorlaifig isolere, bis ass ich weiss, wo’r üssgebroche-n-isch !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Was? Üssgebroche ? Wer ? Ich ? Fur was halte Sie mich denn ?</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Halte? Diss sieht m’r au so! Also los unn kein langi Plän gemacht !  <stage>(Er packt zue, so dass sich d’r Brummer kümm wehre kann, unn schleift’ne ins Hüss nyn.)</stage>
+                  </p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(iwerdem verzwyfelt, iwerlütt):</stage>
+                  <p>Hilf! M’r will e Verbreche-n-an mir begehn ! Hilf !  <stage>(Alli zwei verschwinde-n-im Hüss.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>10. Scène.</head>
+               <stage>Euphrosine.</stage>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(in Huet unn Mantel ; uffgerejt vun rächts):</stage>
+                  <p>Dü liewer Gott, myn Papegei, myn lieb’s Lorele, isch mir furtg’flöje !  <stage>(Zuem Publikum):</stage>  Ihr liewi Lytt, ze hälfe mir doch, myn arm’s Lorele sueche ! Was b’sinnen-Ihr Ejch, Ihr Männer ! ’s winkt Ejch e hocher Lohn, denn ich, d’Mamsell Euphrosine Bendélé, reich myni jungfrailich Hand zuem Hyroote dem wackere Held, wo mir myn Lorele widerbringt !</p>
+               </sp>
+               <sp who="#d_stimm_vum_e_papagei">
+                  <speaker>PAPEGEI:</speaker>
+                  <p>’s Lorele will liewer Zucker !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Herrjeh, diss isch jo d’Stimm vun mym Papegei ! Wo isch’r denn ? Ah, do owe-n-uff’m Dach !  <stage>(Lockt):</stage>  Kumm, Lorele, kumm scheen zue dym Frauele!</p>
+               </sp>
+               <sp who="#d_stimm_vum_e_papagei">
+                  <speaker>PAPEGEI</speaker>
+                  <stage>(lacht):</stage>
+                  <p>Was b’sinne-n-Ihr Ejch, Ihr Männer ?</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Er will nitt ! Ich muess partout uff’s Dach vun dem Hüss ! No kann ich myn Lorele sälwer fange</p>
+               </sp>
+               <pb n="12"/>
+               <stage>— (zuem Publikum) — schad, Ihr liewi Männer, ich hätt eich jo schunscht gern ’s Pläsier gegunnt, mit eim vun eich glicklich ze wäre ! Du reste, ich habb schun so wytt eine, unn ich gunn’s im Monsieur Brummer vun Härze gern, ass’r so e jungi, zarti unn unschuldigi Person wie mich als Frau bekummt ! So unn jetzt zue mym liewe Lorele! (G’schwind ab ins Hüss. D’r Vorhang fallt.)</stage>
+               <stage>Schluss vom 1. Akt.</stage>
+               <pb n="13"/>
+            </div>
+         </div>
+         <div type="act">
+            <head>II. AKT.</head>
+            <div type="scene">
+               <head>1. Scène.</head>
+               <stage>Brummer, wo vum 1. Wärter rächts eryngebroocht wurd.</stage>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(als wietiger):</stage>
+                  <p>Was fallt Ihnne yn, mich do in e Narrehüss ynzesperre ! Ich bin doch nitt verruckt !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Diss saawe-n-alli, wo dohinne loschiere !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Ich habb allerdings dohere gewellt, awer . . .</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Sie hann jo jetzt Ihre Wille!</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Ich bin e Bekannter vum Dokter Nervich !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Diss kann schun stimme !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(nemmt e Stuehl unn geht mit im 1. Wärter ze Lyeb):</stage>
+                  <p>Wenn Sie meine, ass ich verruckt bin, ze sinn Sie verruckt !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Jetzt wurd’r rabiat! Na, e gueti Kaltwasserdüsch macht’ne schun zahm !  <stage>(Wärft sich uff de Brummer, wo sich verzwyefelt wehrt, zejt’m Frack unn Gilet üss unn zejt ihm e’n-Anstaltsmantel an, wo am Ständer hängt. Syni Kleider hängt’r no an de Kleiderständer.)</stage>
+                  </p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(iwerdem):</stage>
+                  <p>Lonn mich doch gehn ! Hilf ! ’s isch jo numme d’r Vöjel dran schuld !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Grad waje dem !  <stage>(Er stosst’ne in d’KaltwasserCabine nyn unn schliesst d’Dier ab.)</stage>  So e Verruckter wie denne haw ich noch keine zwische de Finger g’hett!</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>2. Scène.</head>
+               <stage>1. Wärter, Dokter Nervich (vun links).</stage>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Was isch denn do fur e Krach ?</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Ich habb grad e Verruckter yng’fange, wo hett welle üssrysse, Herr Dokter ! Ich habb’ne-n-einschtwylle dort nyng’sperrt !</p>
+               </sp>
+               <pb n="14"/>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Ich weiss’s ! Grad isch mir g’saat worre, ass in d’r Abteilung II vum Professer Zawlich einer fählt ! D’r Herr Professer kummt awer erscht denne-n-Oowe widder — na, m’r b’halte no halt denne Patient so lang by uns!</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Wurd gemacht, Monsieur Nervich !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Ah, noch ebbs ! Saawe Sie doch dem neje Wärter, wo hytt yng’stellt isch worre, äss’r sich by mir vorstelle soll! Er kann mir no au glych denne do drinne vorfiehre.  <stage>(Er zeijt uff d’Kaltwasser-Cabine.)</stage>
+                  </p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Ja, Herr Dokter !  <stage>(Rächts ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>3. Scène.</head>
+               <stage>Dokter Nervich.</stage>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>`s wundert mich doch, ass ich als noch kein Antwort habb vum Octavie syn Babbe ! Ich glabb awer, ass diss e guet’s Zeiche-n-isch, denn was lang währt, wurd endlich guet! Ah, schier hätt ich’s vergesse, ass’s Octavie mir jo denne Middaa e Visit will mache!  <stage>(Schellt.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>4. Scène.</head>
+               <stage>Wie vorig. 2. Wärter (vun rächts).</stage>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER:</speaker>
+                  <p>Was beliebt, Herr Dokter ?</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Jean, denne Middaa kummt myni fiancée ! Wenn ich nitt grad do sott sinn, ze exküsiere Sie mich by’re, unn wenn s’e-n-ebbs will, ze hann Sie’re ze folje wie mir !</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER:</speaker>
+                  <p>Wurd gemacht, Herr Dokter!  <stage>(Rächts ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>5. Scène.</head>
+               <stage>Nervich.</stage>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Unn jetzt will ich in myne Kranke noch e Visit mache.  <stage>(Will ab; in dem Moment schellt d’r Téléphone.)</stage>  ’s telephoniert !  <stage>(Nemmt de Heerer ab.)</stage>  Do isch Dokter <pb n="15"/> Nervich ! Wer isch dorte ? — D’ Mamsell Claire !  <stage>(Fur sich):</stage>   Mon Dieu! Au noch die Säj!  <stage>(Lütt):</stage>  Nein, Mamsell Claire, `s isch ganz zwecklos! Sie wisse, wie ich denk ! — Was? Sie welle dohere zue mir kumme ? — Nein, diss geht nitt! — Wie ? Sie kumme doch ? Nein, ich will nitt — heere Sie ? Sinn Sie noch do? — Au diss noch! Sie hett schun yng’hängt!  <stage>(Hängt de Heerer yn.)</stage>  Diss fählt mir jetzt grad! Uff Schritt unu Tritt verfoljt mich jetzt diss Mensch mit syne-n-Andräj, obwohl ich gar nix vun’re wisse will. Sie isch rein verschosse-n-in mich — sozesaawe Liewes-Wahnsinn ! Ich muess’re doch emool e’n-eklatante Bewyes gänn, ass s’e mir Wurscht isch !  <stage>(Schellt.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>6. Scène.</head>
+               <stage>Wie vorig. 1. Wärter (vun rächts).</stage>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>D’r Herr Dokter hett g’schellt !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Horiche Sie, Léon : ’s kummt glych e Mamsell, wo mit mir redde will; ich habb awer kein Luscht dezue. Bref, wenn s’e kummt, ze gänn Sie’re so richtig ze verstehn, ass s’e mir g’stohle kann wäre, so ass s’e’s Widderkumme vergesst.</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Herr Dokter, verlonn Sie sich ganz uff mich !  <stage>(Rächts ab)</stage> .</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>7. Scène.</head>
+               <stage>Nervich</stage>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>So, unn jetzt g’schwind an d’Arweit!  <stage>(Links ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>8. Scène.</head>
+               <stage>Euphrosine (vun rächts),</stage>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Diss isch mir noch e scheeni Uffsicht fur e Narre-Hüss ! Kein Seel haw ich g’sähn, unn ich muess doch myn lieb’s Lorele widder hann!  <stage>(Sie luejt zuem Fenschter nüss uff’s Dach.)</stage>
+                  </p>
+               </sp>
+               <pb n="16"/>
+            </div>
+            <div type="scene">
+               <head>9. Scène.</head>
+               <stage>Wie vorig. 2. Wärter (vun rächts).</stage>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER:</speaker>
+                  <stage>(fur sich)</stage>
+                  <p>Wie isch denn die do ryngewitscht? Diss isch ohne Zwyefel im Herr Dokter syni fiancée ! Heiliché, muess die e Hüffe Geld hann, ass sich d’r Herr Dokter in diss alt Kaliwer vergafft hett !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(drähjt sich erum):</stage>
+                  <p>Ah, do isch jo endlich ebber.</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER:</speaker>
+                  <p>Mademoiselle, Sie exküsiere, d’r Herr Dokter macht grad Visit !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Diss isch mir egal! Ich will uff’s Dach steje !</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Im Herr Dokter ?  <stage>(Lütt):</stage>  Sie wäre doch nitt!</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>0, ’s isch e scheener Vöjel!</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER:</speaker>
+                  <stage>(fur sich)</stage>
+                  <p>Sicher hett s’e de Herr Dokter mit’re andere verwitscht! Na, ich kann’s ihm nitt in iwel nemme !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Unn er hett allewyl so scheen babble kenne!</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>E Wunder, wenn s’e viel Glüwes hett !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Üss d’r Hand hett’r mir g’fresse !</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Hoffetlich isch s’e proper g’sinn !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Er isch mir als uff d’Achsel g’huckt...</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Diss hätt ich sähn mechte !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>. . . unn hett mich ins Ohreläppel gebisse !</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Als besser, als wenn s’e d’r Herr Dokter uff’s Müll hätt g’schmutzt !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Ich habb’m awer ze viel Frejheite gelonn, unn so isch’s kumme, ass’r mir durich d’Lumpe isch !</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>D’r Herr Dokter hett gewisst, was’r macht !</p>
+               </sp>
+               <pb n="17"/>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Awer ich bekumm’ne widder! Ich weiss, wo’r isch! Hann Sie alli Schlissel vum Hüss ?</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER:</speaker>
+                  <p>Gewiss, Mademoiselle !  <stage>(Fur sich):</stage>  Armer Herr Dokter !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Na, ze kumme Sie mit mir!</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>In Gott’s Namme denn ! Ich muess’re folje — d’r Herr Dokter hett’s jo g’saat !  <stage>(Geht d’r Euphrosine nooch, wo nooch links ab isch gange.)</stage>
+                  </p>
+               </sp>
+               <stage>10. Scène</stage>
+               <stage>E Narr (vun rächts),</stage>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(in Anstaltsmantel, macht vorsichtig d’Dier uff, kummt no eryng’stirmt unn hüpst im Zimmer unn uff de Stiehl unn uff’m Schryebdisch erum):</stage>
+                  <p>Tahitata ! Ich bin frej — ich bin’ne üssgerisse! Ich bin nitt verruckt, awer alli andere sinn gebiekt — sogar d’r Herr Professer ! — Tahitata ! Do hänge Kleider — die zej ich an unn no kann ich unscheniert vun do verschwinde !  <stage>(Zejt de Frack unns Gilet vum Brummer an unn hängt synen-Anstaltsmantel an de Ständer.)</stage>  Tahitata! Ich bin d’r Kinni vun Siam unn erklär jetzt in alle Natione de Kriej !  <stage>(Gryfft in de Sack vum Frack unn langt e Brief erüss, wo’r läst):</stage>  Was isch diss? — «Werter Herr Brummer! Obwohl Ihnen noch unbekannt — Fräulein Tochter kennen und schätzen gelernt — bitte ich um die Hand von Fräulein Oktavie — Hochachtend Dokter Nervich.» Diss isch jo d’r Dokter vun dere-n-Abteilung ! — Grosser Gott, ’s kummt ebber! Was mache ? Halt, e’nldee! In dere-n-Abteilung kennt mich jo niemand I  <stage>(Setzt sich uff e Stuehl.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>11. Scène.</head>
+               <stage>Wie vorig. Dokter Nervich (vun rächts.)</stage>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Do isch schynnt’s Visit kumme !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <stage>(steht uff)</stage>
+                  <p>Myn Namme-n-isch Brummer !</p>
+               </sp>
+               <pb n="18"/>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Dokter Nervich ! Fraid mich, Sie kenne ze lehre !  <stage>(Fur sich):</stage>  Wie wurd d’Antwort üssfalle ?</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Sie hann mir g’schriwe ...  <stage>(Zeijt de Brief.)</stage>
+                  </p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Gewiss, Monsieur Brummer, unn ich hoff, ass Sie mir kenn Absaa bringe !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Wenn ich numme schun drüsse wär!  <stage>(Lütt):</stage>  Herr Dokter, halte Sie mich fur verruckt, wenn ich Ihnne myni Dochter gibb ?</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Awer ganz unn gar nitt.</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(vergesst sich):</stage>
+                  <p>Tahitata !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH.:</speaker>
+                  <p>Wie meine Sie !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Ich? Ich habb nix g’saat! — Also guet, Sie solle myni Dochter hann !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(umarmt’ne):</stage>
+                  <p>Merci, liewer Schwejerbabbe !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Schun guet! D’r Kinni vun Siam kann sich diss leischte !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Wie hann Sie gemeint ?</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Ich? O, gar nix!</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>12. Scène.</head>
+               <stage>Wie vorig. 1. Wärter (vun rächts),</stage>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(mit Brief):</stage>
+                  <p>Do isch d’Poscht, Herr Dokter!</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>’s isch guet ! Ich mecht awer nimmi g’steert sinn — d’r Monsieur Brummer, myn zuekinftiger Schwejerbabbe-n-isch by mir!  <stage>(Er zeijt uff de Narr.)</stage>
+                  </p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>’s isch rächt, Herr Dokter !  <stage>(Rächts ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>13. Scène.</head>
+               <stage>Doktor Nervich. Narr.</stage>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Unn wie wär’s jetzt, myn Liewer ? Hann Sie nix fur mit anzestosse an so’me Fraidedaa, wo ich die Säj los bin ?</p>
+               </sp>
+               <pb n="19"/>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Wie ? Wer isch e Säj? ’s Oktavie doch nitt?</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(vergelschtert fur sich):</stage>
+                  <p>Schier hätt ich mich verschnappt ! Ich habb d’G’fangeschaft gemeint!  <stage>(Lütt):</stage>  Allewäj!... ich habb unseri hyttig Rucksprooch gemeint, wo mir schun lang uff’m Maawe geläje-n-isch !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Ah so! Ze will ich g’schwind e guet’s Fläschel b’stelle gehn !  <stage>(Fur sich):</stage>  Er isch gar nitt so iwel, wie ’s Oktavie als saat! E bissel komisch isch’r jo, awer ’s isch widder emool e Bewyes defür, ass sogar d’r normalscht Mensch pathologisch veranlaat isch !  <stage>(Links ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>14. Scène.</head>
+               <stage>Narr.</stage>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Tahitata! Denne Narr bin ich los! Jetzt wurd’s Zytt, ass sich d’r Kinni vun Siam üss’m Staub macht!  <stage>(Will rächts ab.)</stage>  Wer kummt denn do ?</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>15. Scène.</head>
+               <stage>Wie vorig. Euphrosine (vun links).</stage>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Vun mym Papegei isch kein Spür ze sähn ! Awer finde muess ich’ne !</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>16. Scène.</head>
+               <stage>Wie vorig. 1. Wärter (vun rächts).</stage>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(gepressiert unn ohne-n-uff d’Euphrosine ze-n-achte):</stage>
+                  <p>Pardon, Monsieur Brummer, wisse Sie, wo d’r Herr Dokter isch ? Ich brüch e Rezept vun’m.</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Er isch grad dort nüss!  <stage>(Zeijt nooch links, 1. Wärter links ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>17. Scène.</head>
+               <stage>Narr und Euphrosine.</stage>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Haw ich rächt g’heert ?  <stage>(Lütt):</stage>  Sie sinn d’r Monsieur Brummer ?</p>
+               </sp>
+               <pb n="20"/>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Was will denn diss Muschter vun mir ?  <stage>(Lütt):</stage>  Allerdings, ich muess’s zuegänn!</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Wie mich diss fraid ! Ich bin nämlich d’ Mamsell Euphrosine Bendélé ! Mir hann uns doch denne Oowe welle perseenlich kenne lehre, fur iwer unseri Hyroot ze redde !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <stage>(fur sich)</stage>
+                  <p>Tahitata! So verruckt bin ich jetzt doch nitt !  <stage>(Lütt):</stage>  Stimmt, Mademoiselle! Ich bin nämlich grad do bym Dokter, fur’ne ze konsültiere, ob ich d’neetig Verrucktheit fur’s Hyroote habb !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Ich bin au ganz verruckt üss lütter Lieb ! Ich kann’s kümm verwarte !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>’s isch jo nimm lang bis denne-n-Oowe !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Ze will ich mich so lang noch beherrsche ! Zuedem haw ich noch Arweit in dem Hüss. Also, au revoir, myn Liewer !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Nein, d’r Kinni vun Siam geht nitt in d’Sklaverej !</p>
+               </sp>
+               <stage>(D’Euphrosine geht iwerdem nooch links ab unn wärft im Narr Schmutzhändle zue.)</stage>
+            </div>
+            <div type="scene">
+               <head>18. Scène.</head>
+               <stage>Narr.</stage>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Tahitata ! Ich bin s’e los! Unn ich geh jetzt au los!  <stage>(Will rächts ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>19. Scène.</head>
+               <stage>Wie vorig. 3. Wärter (vun rächts).</stage>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <stage>(fur sich)</stage>
+                  <p>E Heilich, ich bin verlore !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Herr Dokter, ich bin d’r nej Wärter !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Tahitata! D’r Thron vun Siam isch gerett !  <stage>(Lütt)</stage>  : Guet ! Scheen !  <stage>(Fur sich):</stage>  E’n-Idee! Der Wärter muess mir helfe, ass ich glicklich üss dem Keffi kumm !  <stage>(Lütt):</stage>  Sie kenne glych emool zeije, was Sie</p>
+               </sp>
+               <pb n="21"/>
+               <stage>kenne ! Mir hann nämlich hytt e Patient bekumme, wo sich ynbilde dhuet, er wär dohinne Dokter unn zuedem noch myn Dochtermann. Au isch’r arich gewalttätig, so ass ich’’ne bis jetzt noch nitt habb kenne ynsperre. Ich sieh, Sie sinn e stariker Brocke; ’s wurd’ne also nitt schwär falle, fur’ne do in d’Gummizell ze spediere !</stage>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Diss will ich meine, Herr Dokter !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Lonn Sie sich uff nix yn, was’r au saat !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Ich bin schun mit andere Meischter worre !</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>20. Scène.</head>
+               <stage>Wie vorig. Dokter Nervich (vun links).</stage>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>So, liewer Schwejerbabbe, d’r Wyn kummt glych!</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(zuem Wärter):</stage>
+                  <p>Diss isch’r !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(zuem Wärter):</stage>
+                  <p>Wer sinn Sie? Ich habb Sie noch nitt g’sähn, zydder ass ich do hinne Dokter bin !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(zuem Narr):</stage>
+                  <p>Denne soll’s nitt hann!  <stage>(Lütt zuem Nervich):</stage>  Was isch, gehn Sie guetwillig mit odder nitt ?</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Was soll diss heisse ? Ich glabb, Sie sinn verruckt !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>E Verruckter luejt alli G’scheite fur verruckt an! — Allez-hopp, Männel, als do nyn g’spaziert  <stage>(macht d’Gummizell uff)</stage> .</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Was fallt denn dem Mensch yn ?</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(zuem Nervich):</stage>
+                  <p>’s isch guet fur Ihri G’sundheit !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Ich habb jo g’saat, ass’r pathologisch isch ! Ihr sinn alli zwei meschugge !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(zuem Narr):</stage>
+                  <p>Ich will’s kurz mache, Herr Dokter!  <stage>(Packt de Nervich unn zerrt’ne-n-an d’Cabine)</stage> .</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Was, Herr Dokter ! Ich bin dohinne d’r Dokter !</p>
+               </sp>
+               <pb n="22"/>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(hälft au):</stage>
+                  <p>Tahitata ! Diss kenne Sie de Gummiwänd do hinne verzehle !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Jesses, im Octavie syn Babbe-n-isch wohrhaftig verruckt worre ! — Hilf! E Revolt im Narrehüss !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(gitt im Nervich e Stoss, so ass’r in d’Cabine nynfliejt, schlaat d’Dier zue unn schliesst ab):</stage>
+                  <p>So, der wär uffg’hebbt !</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>21. Scène.</head>
+               <stage>Narr unn 3. Wärter.</stage>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <stage>(fur sich)</stage>
+                  <p>Uun jetzt nix als wie ab !  <stage>(Lütt)</stage>  : Ich geh’ e Commission mache !  <stage>(Zejt de Pardessü unn de Huet an, wo am Ständer hänge)</stage> .</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Ich soll im Herr Dokter doch noch denne Patient vorfiehre, wo üss d’r Abteilung II üssgerisse-n-isch !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Tahitata! Diss wär jo no ich! Denne muess ich kenne lehre !  <stage>(Lütt):</stage>  Na, in Gott’s Namme denn!</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>22. Scène.</head>
+               <stage>Wie vorig. Brummer (üss d’r KaltwasserCabine).</stage>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(wietig):</stage>
+                  <p>Endlich! Ich bin nass bis unter d’Hütt ! Sinn Sie d’r Dokter Nervich ?</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Allerdings, Monsieur. ...</p>
+               </sp>
+               <stage>BRUMMER ... Brummer isch myn Namme !</stage>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(für sich):</stage>
+                  <p>Jesses, der Schwejeres vum Dokter!  <stage>(Lütt)</stage>  : Ah, Sie sinn d’r Babbe vun mym Octavie !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Sie kumme mir grad g’schliche! Ich hätt’ne jo myni Dochter sowieso nitt gänn ; nooch dere Behandlung awer bekumme Sie s’e erscht erächt nitt!  <stage>(D’r Wärter macht sich in dere Zytt im Zimmer ze schaffe; er kann uffrümme, etc.)</stage>  .</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Ich gibb Ihnne myn Wort, ass ich nix defur kann !</p>
+               </sp>
+               <pb n="23"/>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Do isch e Gaunerej im Spiel! Wyll Sie sich hann denke kenne, ass ich geje d’Hyroot bin, hann Sie mich einfach dohinne welle verschwinde mache! Unn myn Geld hätte Sie no au g’hett!</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Der isch gar nitt so verruckt ! So isch’s schun gemacht worre.  <stage>(Lütt):</stage>  Bon, ich gibb zue, ass e Fähler gemacht isch worre, unn will’ne au widder guet mache, wenn Sie mir Ihri Dochter gänn !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Im Läwe nie!</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>No kumme Sie nimmi üss dem Hüss erüss.  <stage>(Fur sich)</stage>  : Die do hinne solle-n-an mich denke!</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>No geh ich uff d’ Polizej unn ....</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Awer ohne myne Wille nitt ! — Wärter, fiehre Sie’ne widder ab !  <stage>(D’r 3. Wärter will’s mache)</stage> .</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Nein, numme diss nitt!  <stage>(Fur sich):</stage>  O, was muess ich erläwe! Wenn ich’m de Wille nitt mach, ze bin ich verlore !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Na, wie steht’s ?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Was blyet mir iwrig! Nemme Sie myntwäje myni Dochter !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>No gänn Sie mir’s grad do schriftlich !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>So e Gaunerej !  <stage>(Schryebt.)</stage>  ’s reinscht Middelalter !  <stage>(Gitt im Narr `s Schrywe):</stage>  So, diss wurd lange !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(leijt’s uff de Schryebdisch):</stage>
+                  <p>Merci, cher beau-père ! D’r Wärter b’sorjt Ihnne Ihri Kleider !  <stage>(Fur sich)</stage>  : Jetzt wurd’s brenzlich ! Tahitata !  <stage>(Rächts ab.)</stage>
+                  </p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(zuem Brummer):</stage>
+                  <p>Ich will sähn, ass ich Ihri Kleider find !  <stage>(Links ab.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>23. Scène.</head>
+               <stage>Brummer.</stage>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(gebroche):</stage>
+                  <p>Isch denn so ebbs in unserer Zytt noch mejlich! Na, wenn ich üss dem Narrehüss, drüsse bin, ze will ich’s dem nowle Fitzer schun zeije !</p>
+               </sp>
+               <pb n="24"/>
+            </div>
+            <div type="scene">
+               <head>24. Scène.</head>
+               <stage>Wie vorig. Dokter Nervich (üss d’r Cabine).</stage>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>’s isch doch guet, ass unsereiner uff so Fäll vorg’sähn isch unn ich de Schlissel by mir habb g’hett !  <stage>(Sieht de Brummer):</stage>  Was isch denn diss fur e Patient ? Denne haw ich noch nitt by mir g’sähn !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <stage>(vergelschtert fur sich)</stage>
+                  <p>Grosser Gott, do brächt jo e Verruckter üss !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Wer sinn Sie ?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <stage>(fur sich)</stage>
+                  <p>D’Verruckte muess m’r zart behandle!  <stage>(Lütt):</stage>  Myn Namme isch Brummer, unn ich bin d’r Schwejerbabbe vum Dokter Nervich !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <stage>(fur sich)</stage>
+                  <p>Diss isch e ganz hoffnungsloser Fall!  <stage>(Lütt, lacht):</stage>  Wer sinn Sie? De Monsieur Brummer kenn ich besser ! Unn d’r Dokter Nervich bin ich sälwer!</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER,:</speaker>
+                  <stage>(fur sich)</stage>
+                  <p>’s isch doch trürich, wemm’r so komplett verruckt isch !  <stage>(Lütt):</stage>  De Dokter Nervich kenn ich leider besser !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Ich verbitt mir diss ! Sie sinn verruckt unn nitt ich ! Ich loss’ne glych e Kaltwasserdüsch gänn !  <stage>(Will de Brummer packe, wo im Zimmer erumrennt)</stage> .</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Wer do de Verstand nitt verliert, hett keine meh ze verliere !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Do hinne geht’s jo hytt zue wie im e Narrehüss!</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>25. Scène.</head>
+               <stage>Wie vorig. 3. Wärter (vun links).</stage>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Was geht denn do vor !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Er isch dort üssgebroche ! Er hett e Schlissel g’hett!!</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(packt de Nervich, nemmt’m de Schlissel ab unn stosst’ne an d’Cabine):</stage>
+                  <p>So, de Schlissel haw ich ! Diss isch jo e ganz G’fährlicher !</p>
+               </sp>
+               <pb n="25"/>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Ich saa’s Ejch jetzt im Ernscht: Ich bin d’r Dokter Nervich ! Der dort awer isch verruckt!</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Diss hett’r mir ewe-n-au g’saat !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Diss sinn mir gewehnt !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Ich glabb jetzt sälwer ball, ass ich gebickt bin!</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(hett’ne-n-in d’r Cabine unn macht zue):</stage>
+                  <p>So Kräfte kann numme-n-e Verruckter hann !  <stage>(Links ab)</stage> .</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Hoffetlich losst ’r mich nitt lang ellein, denn do hinne wurd m’r noch g’schosse !</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>26. Scène.</head>
+               <stage>Brummer. 1. Wärter (vun rächts).</stage>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(zeijt uff de Brummer):</stage>
+                  <p>Der isch jo nimmi yng’sperrt ? Ich habb doch gemeint, ich habb d’ Dier guet zuegemacht ! Als widder nyn mit’m!  <stage>(Er will de Brummer packe.)</stage>
+                  </p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER,</speaker>
+                  <stage>(wycht zeruck):</stage>
+                  <p>Ich bitt Sie, ich bin doch d’r Monsieur Brummer !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <stage>(lacht)</stage>
+                  <p>Denne kenn ich besser !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Ich bin doch d’r Schwejervadder vum Dokter Nervich !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Der Kaib hett in d’r Cabine alles mitang’heert, was vorig do hüsse gebabbelt isch worre. Als widder nyn mit’m!  <stage>(Er packt de Brummer; der wehrt sich, rueft wm Hilf, wurd awer doch in d’Cabine nyng’spediert)</stage> .</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(als letscht’s Wort):</stage>
+                  <p>Diss isch widder e nejer Streich vun mym süfere Herr Dochtermann !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Hoffnungsloser Verfolgungswahnsinn !</p>
+               </sp>
+               <pb n="26"/>
+            </div>
+            <div type="scene">
+               <head>27. Scène.</head>
+               <stage>Wie vorig. Oktavie (vun rächts)</stage>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE:</speaker>
+                  <p>Ah, endlich losst sich emool ebber blicke!  <stage>(Zuem 1. Wärter):</stage>  Ich bin d’Mamsell Oktavie — d’r Herr Dokter erwart mich!</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Halt, diss isch gewiss diss Bibbel, wo ich an d’Luft soll spediere !  <stage>(Lütt):</stage>  Wenn Sie erwarte, ass Sie d’r Herr Dokter erwart, no kenne Sie lang warte !</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE:</speaker>
+                  <p>Was soll diss heisse ? Ich bin doch syni fiancée !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(lacht boshaft):</stage>
+                  <p>Jo, die Fianciererej kennt m’r! Do hett d’r Herr Dokter ganz anderi Lytt an de Händ !  <stage>(Fur sich):</stage>  Myn Kolleg hett mir’s zuem Glick grad ewe verroote !</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE</speaker>
+                  <stage>(hyllt schier):</stage>
+                  <p>Was fallt Ihnne-n-yn, fur eso mit mir ze verfahre ?</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Ei, im Uffdraa vum Herr Dokter !</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE</speaker>
+                  <stage>(hyllt):</stage>
+                  <p>Isch’s mejlich, ass d’r Paul eso gemein kann sinn! O, ich arm’s Maidel !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Arm ? Diss isch’s jo grad! D’r Herr Dokter hett e rychi fiancée, wenn s’e zwar au üss’m Middelalter stammt! Er hett awer ganz rächt, denn Minz isch hytt Trumpf! Sie wisse also, wo Sie dran sinn!  <stage>(Rächts ab.)</stage>
+                  </p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE:</speaker>
+                  <p>Diss iwerläw ich nitt!  <stage>(Hyllt in ihre Nasdiechel nyn.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>28. Scène.</head>
+               <stage>Wie vorig. Euphrosine (vun links).</stage>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(ohne’s Oktavie ze sähn):</stage>
+                  <p>Iwerall haw ich jetzt g’suecht — ich kann’ne nierigs finde! Unn deby hängt doch myn ganz Härz an’m!</p>
+               </sp>
+               <pb n="27"/>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Was heer ich do!</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(wie vorig):</stage>
+                  <p>Er kann so lieb sinn!</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Kein Zwyefel, diss isch mym beese Paul syni rych Partie !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(wie vorig):</stage>
+                  <p>E Stickele Zucker fresst’r fur syn Läwe gern!</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Vun dem hett mir de Paul noch nie ebbs g’saat !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(wie vorig):</stage>
+                  <p>Kein Mensch weiss’ne so guet ze streichle als wie ich !</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE</speaker>
+                  <stage>(trätt wietig vor ; lütt):</stage>
+                  <p>Doch! Ich !  <stage>(Fur sich):</stage>  Trotz allem gibb ich de Paul noch nitt uff !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Sie? Wie kumme Sie iwerhaupt dezue, fur mir diss ze saawe ?</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE:</speaker>
+                  <p>Wyll’r myne isch !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(uffgerejt):</stage>
+                  <p>Do heert sich d’Weltg’schicht in acht Bänd uff!  <stage>(Fur sich):</stage>  Nein, myne Papegei gibb ich nitt here !</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE:</speaker>
+                  <p>Ich habb’ne vor Ihnne g’sähn !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Er koscht awer myn Geld!</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>O, die kaiwe Geldhyroote !  <stage>(Lütt):</stage>  Egal, ich bekumm’ne doch !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Nein, ich, Sie frechi Person ! Ich weiss’ne ze fange !</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE:</speaker>
+                  <p>Unn ich au!  <stage>(Beidi uffgerejt unn glychzyttig ab nooch links.)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>29. Scène.</head>
+               <stage>1. Wärter (vun rächts).</stage>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Aha, diss Bibbel hett sich myni Predicht schynnt’s doch ze Härze genumme unn isch ab !</p>
+               </sp>
+               <pb n="28"/>
+            </div>
+            <div type="scene">
+               <head>30. Scène.</head>
+               <stage>Wie vorig. 3. Wärter (vun links; mit Kleider uff’m Arm).</stage>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Leon, wo isch denn d’r Monsieur Brummer ? Er isch doch grad noch do g’sinn !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Er wurd mit’m Herr Dokter furt sinn.</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>31. Scène.</head>
+               <stage>Wie vorig. E Blejele, wo de Narr am Arm erynfiehrt (vun rächts).</stage>
+               <sp who="#erster_warter #zweiter_warter">
+                  <speaker>1. unn 2. WÄRTER:</speaker>
+                  <p>Was isch denn do los !  <stage>(Beidi sinn baff)</stage> .</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>Tahitata ! Revolütion in Siam !</p>
+               </sp>
+               <sp who="#e_blejele">
+                  <speaker>BLEJELE:</speaker>
+                  <p>Wenn ich mich nitt drumpier, ze muess Ejch der Monsieur durch de Räps gange sinn ! Er isch grad ewe ganz stichem durch’s Dor gewitscht !</p>
+               </sp>
+               <sp who="#dritter_warter #erster_warter">
+                  <speaker>1. unn 3. WÄRTER</speaker>
+                  <stage>(schlaawe d’Händ iwer’m Kopf z’samme; zuem. Blejele):</stage>
+                  <p>Jesses, Schutzmann, do hann Ihr ebbs Scheen’s ang’stellt ! Diss isch jo . . .</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>... d’r Monsieur Brummer !</p>
+               </sp>
+               <sp who="#zweiter_warter">
+                  <speaker>2. WÄRTER:</speaker>
+                  <p>... d’r Herr Dokter Nervich !</p>
+               </sp>
+               <sp who="#e_blejele">
+                  <speaker>BLEJELE</speaker>
+                  <stage>(vergelschtert):</stage>
+                  <p>Do bekumm ich widder e scheener Schnaps vun owe-n-erabb !  <stage>(Rächts ab.)</stage>
+                  </p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(zuem 3. Wärter):</stage>
+                  <p>Wer soll diss sinn ?</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Ei, d’r Herr Dokter Nervich nadierlich ! Unn wer saasch dü, ass diss isch ?</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Ei, nadierlich d’r Schwejervadder vum Herr Dokter!</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Der sieht andersch üss!</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Unn d’r Dokter Nervich au!  <stage>(Zuem Narr):</stage>  Wer sinn Sie, Monsieur ?</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Ei, d’r Schwejeres nadierlich vum Herr Dokter !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(zuem 3. Wärter):</stage>
+                  <p>Siehsch d’e’s!</p>
+               </sp>
+               <pb n="29"/>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Bin ich denn uff’s Mool sälwer iwerg’schnappt!  <stage>(Zuem Narr):</stage>  Ich fröj Sie, wer Sie sinn, Monsieur ?</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Ei, d’r Dokter Nervich nadierlich !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(zuem 1. Wärter):</stage>
+                  <p>Siehsch de’s !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(rennt erum):</stage>
+                  <p>Jetzt steht mir d’r Verstand still! D’r Herr Dokter unn syner Schwejerbabbe kenne doch nitt in ein unn d’r nämlich Person stecke !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER:</speaker>
+                  <p>Am End isch der Mann do gar keiner vun beide !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(zue beide wie vorig d’r 1. unn d’r 3. Wärter):</stage>
+                  <p>Siehsch de’s !</p>
+               </sp>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(kratzt sich hinter de-n-Ohre):</stage>
+                  <p>Mildebickel, haw ich am End e Bock g’schosse ?  <stage>(Zeijt uff d’Kaltwasserzell.)</stage>
+                  </p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(grad so):</stage>
+                  <p>Mon Dieu, mir lauft’s yskalt iwer de Buckel!  <stage>(Zeijt uff d’Gummizell.)</stage>
+                  </p>
+               </sp>
+               <stage>(Jeder Wärter macht iwerdem syni Cabine uff.)</stage>
+            </div>
+            <div type="scene">
+               <head>32. Scène.</head>
+               <stage>Wie vorig. Nervich unn Brummer (kumme wietig üss de Cabine g’stirmt ; sie beachte sich gejesyttig nitt).</stage>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER</speaker>
+                  <stage>(fur sich):</stage>
+                  <p>D’r Herr Dokter !</p>
+               </sp>
+               <sp who="#dritter_warter">
+                  <speaker>3. WÄRTER</speaker>
+                  <stage>(dito):</stage>
+                  <p>Syn Schwejervadder !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(zuem Narr unn macht’m e Füscht):</stage>
+                  <p>Sie impertinenter Mensch! Was fallt Ihnne yn, mich ynsperre ze lonn !  <stage>(Geht uff unn ab.)</stage>
+                  </p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(grad so zuem Narr):</stage>
+                  <p>Sie Erbschlycher ! Was unterstehn Sie sich, mich in e Narrehüss ze stecke!  <stage>(Geht au uff unn ab.)</stage>
+                  </p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(wie vorig):</stage>
+                  <p>Ihri Dochter kenne Sie b’halte ! Ich will kein Schwejervadder, wo e Klapps hett!</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(wie vorig):</stage>
+                  <p>Unn Ihnne soll ich myni Dochter gänn ? Nein, e Narr kummt mir nitt ins Hüss !</p>
+               </sp>
+               <stage>(D’r Narr lacht iwerdem in eim furt fur sich.)</stage>
+               <pb n="30"/>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(langsam):</stage>
+                  <p>Tahitata ! Ze will ich Ejch ebb’s ander’s saawe: Wyll der  <stage>(zeijt uff de Brummer)</stage>  mir syni Dochter nitt will gänn, unn wyll der  <stage>(zeijt uff de Nervich)</stage>  myni Dochter nitt will, ze soll doch der  <stage>(zeijt uff de Brummer)</stage>  syni Dochter dem  <stage>(zeijt uff de Nervich)</stage>  gänn, unn ich habb myni Ruehj !</p>
+               </sp>
+               <sp who="#brummer #nervich_paul">
+                  <speaker>BRUMMER unn NERVICH</speaker>
+                  <stage>(zeije-n-uff de Narr; glychzyttig):</stage>
+                  <p>Ich hahb’s jo g’saat, ass’r verruckt isch !</p>
+               </sp>
+               <sp who="#brummer #nervich_paul">
+                  <speaker>NERVICH unn BRUMMER</speaker>
+                  <stage>(lueje sich no gejesyttig an; glychzyttig):</stage>
+                  <p>Ich kenn Sie jo gar nitt!</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>33. Scène.</head>
+               <stage>Wie vorig. Euphrosine (vun links).</stage>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(uffgerejt):</stage>
+                  <p>Nein, die jung Gans geht mir jetzt doch ze wytt!  <stage>(Sieht de Narr):</stage>  Gell, lieb’s Männele, dü hälfsch mir, jetzt, wo mir ball Mann unn Frau sinn ?  <stage>(Will’ne-n-umarme.)</stage>
+                  </p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(wycht zeruck, fur sich):</stage>
+                  <p>Gott behietmich !  <stage>(Streckt im 1. unn 2. Wärter je e Hand anne ; lütt):</stage>  Höpp, ihr Wärter, fiehre mich jo g’schwind ab — ich bin d’r Narr, wo üssgerisse-n-isch, unn will’ne au gern blyewe, statt ze hyroote !</p>
+               </sp>
+               <stage>(D’Wärter packe de Narr.)</stage>
+               <sp who="#erster_warter">
+                  <speaker>1. WÄRTER:</speaker>
+                  <p>Der hett uns schynnt’s kein lätzi Farce g’spielt !</p>
+               </sp>
+               <sp who="#narr">
+                  <speaker>NARR:</speaker>
+                  <p>Unn so e’n-Artist soll no e Muck im Hirn hann! Tahitata !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Mir steht d’r Verstand stille !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(uffgerejt):</stage>
+                  <p>Ja, wer isch denn no eijetlich d’r Dokter Nervich ?</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(grad so):</stage>
+                  <p>Diss bin ich, Monsieur ! Wer isch no awer myner richtig Schwejerbabbe ?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Ich heiss Brummer ! Awer myner Dochtermann sinn Sie waje dem noch lang nitt !</p>
+               </sp>
+               <pb n="31"/>
+               <sp who="#narr">
+                  <speaker>NARR</speaker>
+                  <stage>(lacht lütt):</stage>
+                  <p>Tahitata! Dort isch’s schriftlich !  <stage>(Zeijt uff de Schryebdisch.)</stage>
+                  </p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Jesses, ich habb’s jo dem Narr schriftlich gänn !</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(wo’s Schryewes geläse hett, zuem Brummer):</stage>
+                  <p>Welle mir’s no nitt au deby lonn, liewer Herr Brummer ?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(unentschlosse):</stage>
+                  <p>Nein, mir isch zue arich mitg’spielt worre!</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Monsieur Brummer, was Kinder unn Narre welle, isch d’Stimm vum Himmel! Also...</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Na, myntwäje !  <stage>(Zuem Nervich):</stage>  Ich hoff awer, ass Sie sich besser uffiehre, als wie Ihre Vorgänger !  <stage>(Zeijt uff de Narr.)</stage>
+                  </p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH</speaker>
+                  <stage>(umarmt de Brummer):</stage>
+                  <p>Liewer Schwejerbabbe, ich bin numme-n-ins Oktavie verruckt, schunscht awer ganz normal!</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>34. Scène.</head>
+               <stage>(D’Wärter fiehre iwerdem de Narr, wo komischi Hüpser macht, rächts ab. Wie vorig.)</stage>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(wo bis do unne baff do isch g’stunde, zuem Brummer):</stage>
+                  <p>Was? Sie sinn d’r Monsieur Brummer ?</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Allerdings, Mademoiselle ...</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>... Euphrosine Bendélé heiss ich !</p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER:</speaker>
+                  <p>Isch’s mejlich !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>Ja, unn ich bin do fur myne Goldschatz ze sueche, wo...</p>
+               </sp>
+            </div>
+            <div type="scene">
+               <head>35. Scène.</head>
+               <stage>Wie vorig. Oktavie (in dem Moment vun links).</stage>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE</speaker>
+                  <stage>(stirmt uff de Nervich los):</stage>
+                  <p>Nein, der Goldschatz do isch myne! Gell, Paul, ’s isch wohr ?</p>
+               </sp>
+               <sp who="#nervich_paul">
+                  <speaker>NERVICH:</speaker>
+                  <p>Gewiss, lieb’s Kind ! Dyn Babbe isch d’accord mit mir !</p>
+               </sp>
+               <pb n="32"/>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE:</speaker>
+                  <p>Gott sej Dank !  <stage>(Zue’r Euphrosine):</stage>  Hann Sie’s jetzt g’heert, ass d’r Herr Dokter myne isch ?</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE:</speaker>
+                  <p>D’r Herr Dokter? Ich habb doch myne Papegej gemeint, wo mir furtg’flöje isch !</p>
+               </sp>
+               <sp who="#oktavie">
+                  <speaker>OKTAVIE:</speaker>
+                  <p>No isch jo alles guet !  <stage>(Sie umarmt de Nervich, unn beidi blyewe in dere Pos stehn.)</stage>
+                  </p>
+               </sp>
+               <sp who="#brummer">
+                  <speaker>BRUMMER</speaker>
+                  <stage>(zuer Euphrosine):</stage>
+                  <p>Was, der Unglieksvöjel isch Ihnne? In dem Fall will ich Ihnne gern bis an myne Dood sueche hälfe —  <stage>(fur sich)</stage>  — fur’m de Hals erumzedrähje !</p>
+               </sp>
+               <sp who="#euphrosine_bendele">
+                  <speaker>EUPHROSINE</speaker>
+                  <stage>(fallt’m um de Hals):</stage>
+                  <p>Nein, jetzt loss ich’ne flieje, wo’r anne will, denn d’r scheenscht Papegei isch nix geje-n-e lieb’s Babbele !</p>
+               </sp>
+               <stage>(D’r Vorhang fallt g’schwind.)</stage>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

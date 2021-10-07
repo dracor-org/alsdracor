@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Gift!</title>
+        <title type="sub">Schwank in einem Akt in elsässischer Mundart</title>
+        <author>
+          <persName>
+            <forename>Paul</forename>
+            <surname>Clemens</surname>
+          </persName>
+          <idno type="wikidata">Q96464291</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Lena Camillone</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Andrew Briand</name>
+          <name>Hoda Chouaib</name>
+          <name>Barbara Hoff</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">als000013</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106554879</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109546k</idno>
+          <bibl type="originalSource">
+            <author>Paul Clemens</author>
+            <title type="main">Gift!</title>
+            <title type="sub">Schwank in einem Akt in elsässischer Mundart</title>
+            <publisher>Société alsacienne d'édition (Alsatia)</publisher>
+            <date when="1919" type="print">1919</date>
+            <date type="written" />
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="steinle">
+            <persName>Steinle</persName>
+          </person>
+          <person sex="MALE" xml:id="robert">
+            <persName>Robert</persName>
+          </person>
+          <person sex="MALE" xml:id="daniel">
+            <persName>Daniel</persName>
+          </person>
+          <person sex="MALE" xml:id="anselm">
+            <persName>Anselm</persName>
+          </person>
+          <person sex="MALE" xml:id="barasoll">
+            <persName>Barasoll</persName>
+          </person>
+          <person sex="MALE" xml:id="ernest">
+            <persName>Ernest</persName>
+          </person>
+          <listRelation>
+            <relation name="related_with" active="#robert" passive="#steinle" />
+            <relation name="associated_with" active="#daniel" passive="#steinle" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="3" />
+      <div type="front">
+        <head>Beschreibung der Rollen.</head>
+        <p corresp="#steinle">Steinle: 60 Jahre alt, mit vollem Haar, schon etwas grau, glattes, rotes Gesicht;
+        ist im Schlafrock und hat Pantoffeln an.</p>
+        <p corresp="#robert">Robert: 28 Jahre alt ; schöner Mann mit lustigem Charakter, moderne Kleidung,
+        dunkler Filzhut, heller Sommerüberzieher auf dem Arm.</p>
+        <p corresp="#daniel">Daniel: etwa 45 Jahre alt ; spricht langsam und stottert beim ersten Wort ein wenig;
+        ist hemdärmelig, blaue Hausschürze, schwarze Zipfelmütze, rotes Haar.</p>
+        <p corresp="#barasoll">Barasoll: 50 Jahre alt; geflickte Hosen, gestrickter Frack, blaues Käppi, graues
+        Haar, ebensolcher Schnurrbart und Napoleonsbärtchen ; spricht schnell und prahlerisch.</p>
+        <p corresp="#anselm">Anselm: Dunkle Werktagskleidung ; hat den Hals mit weisser Binde umwickelt, daher
+        steifes Benehmen.</p>
+        <p corresp="#ernest">Ernest: etwa 12 Jahre alt, helle Kleidung, kurze Kniehosen, Mütze.</p>
+      </div>
+      <div type="front">
+        <p>Dauer der Aufführung&#160;: 45 Minuten</p>
+      </div>
+      <pb n="4" />
+      <castList>
+        <head>Personen:</head>
+        <castItem corresp="#steinle">
+          <role><persName>Steinle</persName></role>,
+          <roleDesc>Rentier</roleDesc>.
+        </castItem>
+        <castItem corresp="#robert">
+          <role><persName>Robert</persName></role>,
+          <roleDesc>neuveu vum Steinle</roleDesc>.
+        </castItem>
+        <castItem corresp="#daniel">
+          <role><persName>Daniel</persName></role>,
+          <roleDesc>d'r Hüsknecht</roleDesc>.
+        </castItem>
+        <castItem corresp="#anselm">
+          <role><persName>Anselm</persName></role>,
+          <roleDesc>e Nochber</roleDesc>.
+        </castItem>
+        <castItem corresp="#barasoll">
+          <role><persName>Barasoll</persName></role>,
+          <roleDesc>d'r Barickes</roleDesc>.
+        </castItem>
+        <castItem corresp="#ernest">
+          <role><persName>Ernest</persName></role>,
+          <roleDesc>e Bue</roleDesc>.
+        </castItem>
+      </castList>
+      <set>
+        <p>Ort der Handlung: Wohnzimmer Steinles. Zeit: Gegenwart.</p>
+      </set>
+      <set>
+        <head>Szenerie&#160;:</head>
+        <p>Hübsch möbliertes Wohnzimmer ; rechts und links Seitentüren. An der Wand hinten steht ein Büffet, auf
+        demselben eine Blumenvase. In der Mitte vorn ein Tisch mit moderner Decke. Links vorn ein Fauteuil ;
+        einige Stühle stehen in der Stube und am Tisch ; an den Wänden einige Bilder und dem Publikum gut
+        sichtbar ein Abreisskalender.</p>
+        <p>Rechts und links vom Spieler.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="5" />
+      <div type="scene">
+        <head>1. Auftritt.</head>
+        <stage>Steinle.</stage>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(sitzt im Fauteuil und liest in einem grossen dicken Buche)</stage>
+          <p>Die Gesundheit ist des Menschen höchstes und teuerstes Gut. 
+          <stage>(spricht)</stage>Stimmt, diss Buch red't d'Wohrheit, denn e kranker Mensch isch niemols g'sund,
+          un wie d'r Mensch nit füer sini G'sundheit sorit, no hett's... 
+          <stage>(es schellt)</stage>g'schellt.... stimmt, no hett's g'schellt ! 
+          <stage>(ruft)</stage>Daniel, Daniel! 
+          <stage>(es schellt wieder ; Steinle steht auf, geht an die Türe links und ruft hinaus)</stage>Daniel
+          !</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>2. Auftritt.</head>
+        <stage>Steinle, Daniel.</stage>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <stage>(von rechts kommend)</stage>
+          <p>Mei - Meischter, es hett g'schellt !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Diss haw-ich au g'höert ; worum kumme-nr denn nit, wenn-mr ruft ?</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <p>I-ich hab grad d' Müsfall g'stellt, no haw-ich mr noch d'r Finger verquetscht.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>'s wurd nit g'fährli sinn — gehn un mache-n-uff. 
+          <stage>(Daniel rechts ab: Steinle legt das Buch auf den Tisch.)</stage>Wer wurd diss sinn, wo jetzt
+          kummt, allewäj d'r Barickes !</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>3. Auftritt.</head>
+        <stage>Steinle, Anselm.</stage>
+        <sp who="#anselm">
+          <speaker>Anselm :</speaker>
+          <stage>(von rechts kommend)</stage>
+          <p>Buschur. Herr Steinle, ich will fröje, ob ich Eich ebs mit soll bringe üs d'r Stadt, ich fahr doch
+          grad nin mit-em Tram, e Kommission mache.</p>
+        </sp>
+        <pb n="6" />
+        <sp who="#steinle">
+          <speaker>Steinle:</speaker>
+          <p>Doch, Anselm, diss isch grad recht, ass-r fröje... Ihr kennte m'r üs d'r Drogerie von dem Gift
+          "Ratten- und Mäusetod" mitbringe. Ich hab in letschter Zitt so schrecklich viel Mies in mim Hüss, bis
+          in d' Stubb kumme se m'r sogar ; es isch vun nix andersch als vun d'r Mälzerei do newe-n-uns.</p>
+        </sp>
+        <sp who="#anselm">
+          <speaker>Anselm :</speaker>
+          <p>Mir hann au soviel Mies g'hett, awer zitter ass ich vun dem "Ratten- und Mäusetod" gelajt hab,
+          g'spiere mr kenn einzichi meh.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(gibt ihm Geld)</stage>
+          <p>Ebä, do Anselm, bringe mir e Päckel mit für e Franke, will Ihr doch grad in d' Stadt fahre,
+          gelle!... Un wie isch's mit-em Eise do hinte am Hals, isch-r noch nit zitti ?</p>
+        </sp>
+        <sp who="#anselm">
+          <speaker>Anselm :</speaker>
+          <p>Ich glaub, ass-r jetz doch uffgeht... es wär au ball Zitt, es isch jetzt schun in d'r vierte Wuch,
+          dass ich ne hab.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Nurre nit verzwifelt, Anselm, ich bring-ne schun uf, numme d' Bäbb vun Hanfsoot un Söjbohnemehl so
+          heiss ufgelajt, wie Ihr's verlide kenne ; — uf muss-r un wenn alles hin geht.</p>
+        </sp>
+        <sp who="#anselm">
+          <speaker>Anselm :</speaker>
+          <stage>(kratzt sich hinter dem Ohr)</stage>
+          <p>Jo, jo — — wenn ich awer emol zuem Dokter dätt gehn...</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(böse werdend)</stage>
+          <p>Seje mr still, kenn Wort vom Dokter ; den der geht anne un schnied Ejch glich e Stück üss-em Hals un
+          verderbt Ejch's Blüet mit Salwe. — — Do, noch dem Buech tu ich Ejch küriere, diss isch meh wert wie
+          zehn Dokter !... Ah, un was ich noch fröje will, hann-r die Nacht guet kenne schlofe uf dene Tee, wo
+          ich Ejch gänn hab ?</p>
+        </sp>
+        <sp who="#anselm">
+          <speaker>Anselm :</speaker>
+          <p>Nit vum Beschte, ich hab mich d' ganz Nacht vun einere Sitt uf d' ander gewälzt.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>So, so — — 
+          <stage>(schaut im Buche nach)</stage>no browiere mrs emol hienicht mit 
+          <stage>(liest)</stage>"Mohn mit echtem Bienenhonig" 
+          <stage>(spricht)</stage>Mohn, diss isch Maashüchel — diss trinke-nr, no schlofe-nr wie e Roller ! 
+          <stage>(holt im Büffet eine Flasche mit Schnaps und zwei Gläschen)</stage>Jetz welle-mr noch e Träwerle
+          päckle. 
+          <stage>(schenkt ein)</stage>G'sundheit, Anselm ! 
+          <stage>(trinken)</stage>Der isch famos, hä ?—</p>
+        </sp>
+        <pb n="7" />
+        <sp who="#anselm">
+          <speaker>Anselm :</speaker>
+          <p>Exelänt isch'r, Herr Steinle ; wisse-nr, ich versteh ebs vum Schnaps, miner Babbe isch früehjer
+          Fuhrmann g'sinn in-ere Schnapsbrennerej ..... ja, un ich will mich uf d' Hinterfüess mache, alle, merci
+          au ...</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Nit d'rwärt, Anselm, un vergesse mr diss Gift nit !</p>
+        </sp>
+        <sp who="#anselm">
+          <speaker>Anselm :</speaker>
+          <p>Aba — — ich denk dran, adje, Herr Steinle !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Adje, Anselm ! 
+          <stage>(Anselm rechts ab.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>4. Auftritt.</head>
+        <stage>Steinle.</stage>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>No wurd doch die Plöj mit dene Mies ufhöere... Wieviel Ühr isch denn au ? 
+          <stage>(schaut nach)</stage>Was, schun glich füenf! E Nuntebuckel, geht die Zitt erum, jetz muess d'r
+          Barickes jede Aujesblick kumme, denn morje isch Sundaa... 
+          <stage>(geht in der Stube umher, am Abreisskalender bleibt er stehn, reisst einen Zettel ab)</stage>So,
+          welle-mr wieder eine abrisse...; wie mr so e Zettel abrisst, ze isch-mr au e Daa älter, un so risst-mr
+          einer noch-em andere ab bis-mr uf einmol selwer abgerisse isch un no isch fini. Awer e Kalender hett
+          diss guete an sich, ass-r no wieder von vorne anfangt, awer bim Mensche isch üss un "Amen". 
+          <stage>(wirft den abgerissenen Zettel fort)</stage>Morje hätte-mr also wieder e roter. 
+          <stage>(liest)</stage>Sonntag, den 28. September 
+          <stage>(sinnend)</stage>"Dr 28. September 1913". E Nuntebibb, do haw-ich jo morje Geburtsdaa ! Do bin
+          ich jo morje 60 Johr alt ; — — 60 Johr, un noch e so frisch un g'sund wie e-n-Eichel ! Diss haw-ich
+          alles do dem Buech ze verdanke, diss erhalt mir mini G'sundheit, 
+          <stage>(küsst das Buch)</stage>60 Johr, d'juchheirassa !! 
+          <stage>(macht einen Luftsprung, schreit auf und hält sich das rechte Bein)</stage>Autsch ! Uh!... 
+          <stage>(hinkt an den Fauteuil, lässt sich hineinfallen)</stage>Uh, wie duet mir uf einmol diss Bein so
+          weh... diss sinn die kaiwe Rumatisse. 
+          <stage>(ruft)</stage>Daniel — Daniel !!</p>
+        </sp>
+        <pb n="8" />
+      </div>
+      <div type="scene">
+        <head>5. Auftritt.</head>
+        <stage>Steinle, Daniel.</stage>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(von links)</stage>
+          <p>He -he -hatt 's g'schellt ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Do kumme here un griffe emol, ob ich wieder kalti Füess hab, ich hab wieder Rumatisse.</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <stage>(zieht Steinle die Pantoffeln aus und befühlt die Füsse)</stage>
+          <p>D'r links isch warm, un d'r rechts - ho - ho - ho, der isch kalt wie-n-e Iszapfe am Neujohr !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ze hole glich e warme Socke — zeje m'r d'r linkse Pantoffel wieder an, d'r links Füess isch jo
+          warm.</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <stage>(zieht Steinle den Pantoffel an, zieht zu fest, rutscht aus und fällt hin)</stage>
+          <p>Ho - ho - hoi, do lejt-r !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(wütend)</stage>
+          <p>Ze stehn au wieder uf un mache, dass der Socke glich kummt.</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>-So - so - sofort Meischter. 
+          <stage>(rasch ab links).</stage></p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Der Mensch wurd alle Daa dauwer, ich glaub, der grejt als d'r Gänsdirmel. 
+          <stage>(reibt den Fuss)</stage>Die kaiwe Rumatisse ! 
+          <stage>(ruft)</stage>Daniel ! Herrschaft, wurd's ball mit dem Socke ?!</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(kommt von links, hat einen roten Socken in die Schürze eingewickelt)</stage>
+          <p>Do - do - do haw-ich ne ! 
+          <stage>(zieht Steinle denselben umständlich an)</stage>Ho-hoppla, er isch drinne - er isch guet wärm,
+          galle Meischter ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ah ! dess macht guet, füer Rumatisse isch halt nix besser wie warmi Füess, däjlich dreimol abwäsche
+          mit Keschtebluescht un uf d' Nacht inriewe mit Ameisespiritüs, so steht's in dem Buech. 
+          <stage>(Trägt nun am rechten Fuss den Socken, am linken den Pantoffel.)</stage></p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Mr sott's gar nitt füer mejli halte, ass im e Buech so heilsami Sache kenne stehn ; wo hann-r dann
+          dess Buech numme häre ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Vore Johre drissig haw-ichs kauft vum e Grimpler in d'r Stadt un es rejt mich nit, denn es hett mr
+          schun grossi Dienschte geleischt. 
+          <stage>(es schellt).</stage></p>
+        </sp>
+        <pb n="9" />
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>We - wenn ich mich nit trumbier hett's g'schellt!</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle:</speaker>
+          <p>Gehn un mache-n-uf. 
+          <stage>(Daniel rechts ab)</stage>Es wurd d'r Barickes sinn — 
+          <stage>(steht auf)</stage>ah! es geht schun wieder, ich g'spier fascht nix meh — was doch e warmer
+          Socke üsmacht.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>6. Auftritt.</head>
+        <stage>Steinle, Daniel, Robert.</stage>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(hereinkommend)</stage>
+          <p>Mei - Meischter, as isch iemes do, rote-n-emol wer ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Eich soll e Bumm pfatze, han-'r denn de Gänsdirmel schun wider ?! Welle-n-r glich saue, wer's isch
+          !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert:</speaker>
+          <stage>(von rechts kommend)</stage>
+          <p>Ich bin's Unkel! Bonjour Unkel, wie geht's ? — Do haw-ich e Strüss füer Dich züe Dim 60. Geburtsdaa
+          morje, un ich soll Dich vielmols grüesse von d'r Mama un Dir viel Glück wünsche züe Dim Geburtsdaa ; un
+          dem Wunsch von minere Mamme schliess ich mich voll un ganz an !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(gerührt)</stage>
+          <p>Merci Robert, vielmols merci, dess frajt mich, dass Ihr an mine Geburtsdaa gedenkt hann, ich hätt's
+          jo fascht vergesse, — un dess isch schöen von Dir, ass Dü mich wieder emol b'suechsch, denn Dü bisch
+          schun lang nim bie m'r g'sinn. Awer kumm, laj ab. — Daniel, do nemme im Robert sini Sache un traue se
+          ins Fremdezimmer un no gehn-'r-nab in de Keller un hole e Fläschl, von dene mit Spinnhuddle dran —</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <stage>(einfallend)</stage>
+          <p>Nein, nein, Unkel, ich trink jetz nix, absolüt nit, später —</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Wie Dü witt — also Daniel kenn Fläschl hole — gehn jetzt.</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <p>Wie Ihr saue, so wurd's gemacht, Meischter. 
+          <stage>(nimmt Robert den Überzieher ab, legt ihn auf den Arm, den Hut setzt er auf seinen Kopf und geht
+          links ab; für sich sprechend)</stage>Des Fläschl trink ich uf sini G'sundheit.</p>
+        </sp>
+      </div>
+      <pb n="10" />
+      <div type="scene">
+        <head>7. Auftritt.</head>
+        <stage>Steinle, Robert.</stage>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>So — un jetz kumm un setz Dich do here, no welle-mr e bissel verzehle.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Bon, Unkel. — Un wie geht's D'r denn allewill ? Immer noch frisch un munter ?! Awer was hesch am
+          Füess, dass De e Socke anhesch ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ah — nit schlimm, ich hab grad ewe so e Schmerz nin bekumme, so e-n-Art Rumatisse — 's isch schun
+          wieder besser.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Oho, Rumatisse hesch, do will ich Dir glich e guets Mittel drgeje — —</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Pscht, pscht, ich brüch kenn Mittel von Dir — ich kürier mich selwer. Do min Buch ! —</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Hesch denn dess Buch als noch ! Do bisch noch nit güet uf Dokter ze spreche, witt noch nix vun-ene
+          wisse ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Robert, Dü kennsch mini Abneigung geje Dokter. Zitter zellemols, wie ich die innerlich Krankheit hab
+          g'hett, un kenn Dokter hett mich g'sund gebrocht, bis ich per Züfall zue dem Buch bin kumme — un dess
+          hett mich küriert. Von dert eweg will ich nix meh vun de Dokter wisse ! Un wieviel Litt haw-ich schun
+          g'holfe oder doch Linderung verschafft.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Do machsch Dü jo d'Schlofere vun Schillike noch ab.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Nit ütze, Robert! — Unseri Bas Theres hätt sicher noch vierzehn Daa länger gelebt, wenn ich se
+          behandelt hätt, zellemols, wie se d'r Schlaa getroffe hett, anstatt dass mr se ins Spital gemacht hett
+          !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <stage>(lachend)</stage>
+          <p>O hör Unkel, bi-n-re Fräu vun 82 Johr — was heisst do vierzehn Daa —</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>So! — Vierzehn Daa sin als wieder zwei Wuche! Awer die im Spital un die Dokter zamme kenne nix ass
+          wie glich am Mensche erumschniede oder eine mit Pulver un dene Dreckpille un Medizine vergifte, un 
+          <pb n="11" />no eim noch e Hüffe Geld abnemme für ihri Plöjerej un Litschinderej !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <stage>(aufstehend)</stage>
+          <p>Höer Unkel! ich loss d'r Dokter stand nit schlecht mache vun Dir, denn ich will Dir mitteile, dass
+          ich vor drei Daa mine Exame gemacht hab als Dokter.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>So, so, Dokter bisch!— Ja un jetz ? !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert:</speaker>
+          <p>Un jetz !? — Jetz haw-ich eso gedenkt. Diner Exame als Dokter hesch gemacht, jetz gehsch zum Unkel,
+          stehsch vor-ne, laisch-em d' Hand uf d' Achsel un saasch: "Unkel, Dü bisch rich, gib mir 5000 Franke
+          füer e Stell als Dokter ze üewernemme, wo mir angebotte isch worre."</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle:</speaker>
+          <p>Un dr Unkel wurd die Hand erab mache vun sinere Achsel, wurd Dir de Buckel drähje un wurd saue :
+          "Min liewer Herr Dokter: Nix ze mache."</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Unkel, dass De eso bisch gege dine Neveu, dess hätt ich nit gedenkt !— Was wurd do d' Mamme
+          saue?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(heftig)</stage>
+          <p>Wurum isch mim Rot nit g'follit worre! Hättsch ebs rächts gelehrt, wärsch Mürer worre, wie ich,
+          anstatt Dokter! — sigsch, hättsch ufs Bäufach stüdiert wie ichs hab welle hann, no hättsch min G'schäft
+          kennte üewernemme, anstatt dass ich's in fremdi Händ müess genn ; — awer nein, Dokter hett-r müen wäre
+          !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Unkel, ich hab kenn Luscht g'hett füer's Bäufach, ich hab vun jehär füer d'r Dokterberuef g'schwärmt
+          un d' Mamme hett m'r mine Wille gelonn; es isch-ere schwer g'falle, als Wittfräu, denn 's stüdiere hett
+          alles Geld verschlunge. Awer ich hab immer in dem Glauwe gelebt, d'r Unkel düet schun helfe, un Dü
+          helfsch m'r jetz, gell Unkele ? !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Brüchsch mir nit ze fladiere — ich gib nix — emol nit füer e Dokter.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Ich gib d'Hoffnung nit uf. — Unkel, wenn Dü dätsch sehn, wie witt dass wirkli d' Chirurgie voran
+          isch, un was alles geleischt wurd zuem Wohl vun d'r Menschheit, do bekämsch Dü e ganz anderi Meinung 
+          <pb n="12" />vun de Dokter — un gib acht, Unkel, nit dass Dü noch emol froh bisch um e Dokter.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ganz üsg'schlosse, niemols, do kennsch Dü mich schlecht; — do dät ich d'gröscht Wettung mache.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <stage>(lustig)</stage>
+          <p>Unkel, wett nit !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Doch ich wett — — um was ass de witt.... dass de siehsch, wie sicher ich bin, wett ich mit Dir um
+          die 5000 Franke geje e Flasch Schampanjer.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Die Wettung nemm ich an !... Also, sobald Dü e Dokter brüchsch, bekumm ich die 5000 Franke,
+          andernfalls müess ich e Flasch Schampanjer zahle. Gilt's eso? Awer ich derf alli Farce anwende ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle:</speaker>
+          <p>Alles angenumme! 
+          <stage>(lachend)</stage>Robert, do kannsch lang basse uf die 5000 Fränkle...; die Wettung due ich nie
+          verliere !... Do betracht denne Mann mit sine 59 Johr und 364 Daa un e halwer, frisch un g'sund wie e
+          Fisch im Wasser, un wenn ich noch dem Buch do läb un noch was es mir vorschriebt, kann ich hundert Johr
+          alt wäre....</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Wenn de 's Läwe b'halsch...</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Brüchsch nit ze ütze, grad ze leid wur ich so alt — un uf mini G'sundheit ane welle-mr jetz e
+          Träwerle päckle mitnander. 
+          <stage>(holt ein frisches Gläschen aus dem Büffet.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>8. Auftritt.</head>
+        <stage>Steinle, Robert, Daniel.</stage>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <stage>(von links kommend, mit der Mäusefalle)</stage>
+          <p>Mei - Meischter, e Müs haw-ich g'fange...</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ja, wie hann-r se denn, ich sieh kenni ?</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Ei, ei, sie isch-mr wieder furt gewitscht !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>
+          <stage>(lacht)</stage>Ihr sin guet, — fangt Mies un losst se wieder furt.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Was hann-r denn do wieder gemacht ?</p>
+        </sp>
+        <pb n="13" />
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <p>Do, do, d' Müs isch mit-m Wäddele zwische d'r Fall ingeklämmt g'sin un ass se nit liede muess,
+          haw-ich d' Fall e bissel — numme so zwei Finger breit, ufgemacht 
+          <stage>(lacht)</stage>un no esch se fort gewänn.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ihr brüche noch ze lache üewer Ejere Daubheit; mache dass-r nüss kumme — 
+          <stage>(Daniel geht gekränkt hinaus ; Türe links)</stage>Waisch, Robert, mr hann se viel Mies do, awer
+          ich grej e guets Mittel gebrocht.... un jetz wele-mr unser Schnäpsel trinke. 
+          <stage>(schenkt ein)</stage>G'sundheit !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Uf din Wohl, Unkel ! 
+          <stage>(beide trinken)</stage>E guets Tröpfel.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Jaa, e guets Schnäpsel un e gueter Humor hilft geje alli Maläschte — un morje an mim 60. Geburtsdaa,
+          gitt's e kleins Stiewerle un no sing ich diss Lied'l, wie als diner Grossbabbe allewil g'sunge hett,
+          wenn-r Eini stehn hett g'hett 
+          <stage>(singt)</stage>Wer niemals einen Rausch gehabt, der ist kein braver Mann. 
+          <stage>(stampft mit dem Fusse auf)</stage>D' Juchhee ! Autsch ! min-r Füess — uh!</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <stage>(erschrocken)</stage>
+          <p>Unkel, was hesch ? Kumm ich helf D'r.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Nein, nein, eweg, Dü bisch e Dokter ! Ich geh in d' Kiche, dr Daniel muess mr e warmer Socke anzeje
+          un de Füess inriewe. 
+          <stage>(hinkt links ab)</stage>Ah, stell doch d' Schnapsbudell in's Büffet, wenn D' so guet witt
+          sinn.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Unkel, kumm ich helf D'r, ich weiss e guets Mittel geje Rumatisse —</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ich will Din Mittel nit wisse. 
+          <stage>(An der Tür sich umdrehend)</stage>Ich denk noch an d' Wettung, ja, ja. 
+          <stage>(ab)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>9. Auftritt.</head>
+        <stage>Robert.</stage>
+        <sp who="#robert">
+          <speaker>Robert:</speaker>
+          <p>Eijesinniger Unkel! — Er isch jo e gueter, liewer Mann, wenn-'r numme dene Idee-fix nit hätt mit dem
+          verfluchte Buch : dess isch schuld, dass m'r 
+          <pb n="14" />d'r Unkel dess Geld nit gitt, un ich muess-'s hann, sunsch schnappt mr e-n-anderer die
+          güet Stell eweg. — Wenn ich numme kennt mache, dass der Unkel e Dokter brücht, no hätt ich d' Wettung
+          gewunne un bekäm die 5000 Fr., no wär alles güet. 
+          <stage>(Denkt nach)</stage>Was numme mache ? — Es fallt m'r nix in; sunsch hawi hunderti von Infäll
+          g'hett, wenn’s als Stüdent hett g'heisse e Lumpestreich anstelle ; do bin ich nie verläje g'sinn, un
+          jetz, wo's füer min Glüeck gilt, fallt mir nix in ! Un schun will dr Unkel d'r Dokterstand so schlacht
+          gemacht hett, g'hert-m e kleini Lexion. — Ah! ja, d' Schnapsbudell soll ich eweg stelle. — Halt!
+          Juchhee ! Ich hab e-n-Idee ! — Die Schnapsbudell muess helfe ; — jetz mäche-mr üss dem Schnaps "Gift".
+          Ich hab züfälli noch so Etikette üss-m Laboratorium 
+          <stage>(sucht in der Tasche),</stage>wo hawich se numme ? Do sinn se, im Notizbüechel — e Dotekopf
+          drowe un "Gift". 
+          <stage>(klebt eine Etikette auf die Flasche, zeigt es dem Publikum)</stage>So, dess Pfläschterle zejt !
+          
+          <stage>(Die Flasche gegen die Türe haltend, lachend)</stage>G'sundheit Unkel ! — Jetz die Budell an de
+          Platz gstellt, dr Rescht geht von ase. 
+          <stage>(Stellt die Flasche ins Büffet, geht an die Türe links, ruft hinaus :)</stage>Unkel, ich geh in
+          min Zimmer, mini Sache üspacke un e Kart schriewe an d' Mamme !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(hinter der Bühne)</stage>
+          <p>'s isch erecht, ich kumm grad, ich bin wieder herg'stellt.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>So, so, es freijt mich, Unkel ! 
+          <stage>(Geht lustig pfeifend nach rechts ab.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>10. Auftritt.</head>
+        <stage>Steinle, Daniel.</stage>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(nachdem die Bühne ein Moment leer war, kommt Steinle, an beiden Füssen Pantoffeln, von
+          rechts.)</stage>
+          <p>So, es geht jetz wieder. — Dass ich grad hitt so Maläschte muess hann — 
+          <stage>(setzt sich in den Fauteuil)</stage>d' Schnapsbudell isch eweg. D'r güet Robert, er dürt mich
+          doch. — 
+          <stage>(es schellt)</stage>Daniel, Daniel !</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(streckt den Kopf zur Tür links herein)</stage>
+          <p>Mei- Meischter, es isch d'r Barickes, ich kenne am schelle!</p>
+        </sp>
+        <pb n="15" />
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Mache-n-em uf, sunsch risst-r noch d'r Schällezug erab. 
+          <stage>(Daniel ab.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>11. Auftritt.</head>
+        <stage>Steinle, Barasoll, Daniel.</stage>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(hinter der Bühne)</stage>
+          <p>Worum mache-n-'r denn nit uf, Dunderwetter noch-emol, ich bin pressiert ! 
+          <stage>(Kommt zur Tür herein, rechts.)</stage>Salü, salü, Monsieur Steinle, d'r Coiffeur isch ici. — Ze
+          welle-m'r glich anfange ; nemme grad do Platz uf dem Stuhl, voilà. 
+          <stage>(Hat einen Stuhl nach vorn gestellt.)</stage>Ich bin e bissel spot hit, awer ich hab schon viel
+          g'schafft, viel g'schafft hit.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Salü Barasoll ! 
+          <stage>(nimmt Platz auf dem Stuhl).</stage>Wenn Ejeri Messer au so güet gschliffe sin wie Ejer Mül, no
+          gehts guet hit.</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(hatt inzwischen sein Rasierkästchen geöffnet und nimmt sein Rasierzeug heraus.)</stage>
+          <p>Ja, ich bin allewill vivant 
+          <stage>(ruft)</stage>Daniel, e Serviette, s'il vous plaît ! — Un füer was haw-ich's Mül ? füer ze rede,
+          denn wenn ich emol nimi red — no bin ich dot !</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Do, do, do, do ! 
+          <stage>(Wirft Barasoll die Serviette zu, welcher sie auffängt, gleich wieder ab.)</stage></p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Merci bien ! Gälle, der lehrt Note, dass'r als do, do, do macht. 
+          <stage>(Legt die Serviette um)</stage>So, d'r Kopf e bissel hoch, Monsieur Steinle — Was gits Nejs,
+          Monsieur ? Nit viel, gelle! 
+          <stage>(Schlägt Schaum.)</stage></p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Min'r Neveu, d'r Robert, isch uf B'suech kumme, es isch e Bue vun minere Schwester. er hett sine
+          Exame gemacht als Doktor.</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>A la bonheur, do kenne Sie stolz sin ; e Dokter in der Familie, do isch's e Pläsier krank ze sin, —
+          kenn besser's Métier, wie Dokter!</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(böse)</stage>
+          <p>Was saue-n-Ihr .... 's isch nit wohr, nix isch e Dokter; ich hab welle hann, er soll Mürer
+          lehre.</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(einseifend)</stage>
+          <p>Jaa, do hann Sie recht, ganz erecht, Monsieur Steinle, nix besseres hittzedaa's wie 
+          <pb n="16" />Mürer, die verdiene e hüffe Geld, ich bin ganz vun Ihrer Meinung. —</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle:</speaker>
+          <p>Un min G'schäft... 
+          <stage>(spuckt)</stage>pfui, Seif ins Müll!...</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Pardon, exküsiere Se; Monsieur Steinle, awer Sie derfe nit rede üwer-m Inseife ! Ja, die junge
+          Burscht vun hitt sin nimi so wie mir Alti; do isch kenn Läwe meh, kenn Kürasch — Joo — geje uns ! Wenn
+          ich noch dran denk, wie ich in d'r Legion bin g'sinn, 
+          <stage>(zieht das Rasiermesser auf der Hand ab)</stage>Herrschaft mille-de-pippe ! Wenn ich so 's
+          Rasiermesser abzieh, ze fahrt's m'r als uf d' Nerve, ich main als grad, ich hab so e-n-Araber unter de
+          Händ un will-em de Hals abschnide...</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(aufstehend)</stage>
+          <p>He, he, Barasoll, lon die Plän eweg, sunsch derfe-n-Ihr mich nim rasiere.</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(lachend, drückt Steinle auf den Stuhl nieder)</stage>
+          <p>Ich glaub, Sie hann Angscht, Monsieur Steinle, allez, — ich mach jo nur Plän, numme kenn Ängschte,
+          diss haw-ich noch gar nie kennt in mim Läwe — Angscht, ha, nit emol vor 10 Arawer, mort du diable !!! 
+          <stage>(Man hört hinter der Bühne Geschirr fallen.)</stage>Was isch denn los ? !</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>12. Auftritt.</head>
+        <stage>Steinle, Barasoll, Daniel.</stage>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(schreit hinter der Bühne)</stage>
+          <p>Hewe-se, hewe-se ! 
+          <stage>(reisst die Türe auf, kommt mit einem Teppichklopfer von links)</stage>E Müs, e Müs, Meischter,
+          do isch se rin, hewe se, hewe se!!! Do läuft se — dert isch se im Eck !...</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(springt in einem Satz auf den Tisch, fuchtelt mit dem Rasiermesser in der Luft herum, duckt
+          sich ängstlich.)</stage>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(springt auf, mit eingeseiftem Gesicht, will die Maus fangen)</stage>
+          <p>Wo isch se — — wo?</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Do, do, im Eck 
+          <stage>(deutet in die rechte Ecke.)</stage></p>
+        </sp>
+        <pb n="17" />
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Wart, dü Kaib, ich gib d'r füer d' Wändle 
+          <stage>(tritt nach der Maus).</stage></p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Wäck, wäck, ich schlaa se hin! 
+          <stage>(schlägt Steinle.)</stage></p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Autsch ! Basse doch uff, e Nuntebuckel !</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(sieht Barasoll auf dem Tisch)</stage>
+          <p>Hahaha! — Barasoll, was mache denn Ihr uf'm Disch ? Ich hab gemaint, Ihr kenne kenn Angscht ?</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Ich hab au kenn Angscht, parole d'honneur ! Sie hett chance kett, dass se nit do ruf isch kumme, ich
+          hätt-ere minsex d'r Schädel abg'schnitte. 
+          <stage>(kommt vom Tisch herunter).</stage></p>
+        </sp>
+        <sp who="#steinle #daniel">
+          <speaker>Beide :</speaker>
+          <stage>(lachen ihn aus).</stage>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Ja, jo, mit-em Müll, alter Hosseloddel !</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Daniel, mache mich nit wüeti ! Wenn mir diss aner vor 30 Jahr g'saat hätt, Herrschaft, mille pots de
+          confiture — denne hätt ich genumme bim Kopf und am Arm un hätt ne e pique tête mache sitze, ass'r
+          gemeint hätt, Oschtere un Pfingschte falle uf aine Daa ! 
+          <stage>(macht einige Sprünge wie volte de fasse usw. — Gelächter.)</stage></p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Barasoll, jetz steck-es awer uf mit dene Plän un rasiere mich.</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Avec plaisir, Monsieur Steinle... Miner Wüet isch schun wieder eweg. 
+          <stage>(seift noch ein wenig ein, rasiert dann)</stage>E bissel de Kopf in d'Höh, s'il vous plaît — so
+          — voilà ; noch e bissel rüewer — e bissel nüewer — un do — un noch do — so, voilà ! fini — isch ferti,
+          Monsieur Steinle !... Diss isch gange, wie g'schmiert, gälle-se, Monsieur Steinle ! — Jaa... d'r
+          Barasoll hett noch e lichti Hand... un e trucketi Läwer ! 
+          <stage>(trocknet Steinle ab und macht sein Rasierzeug zusammen.)</stage></p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ich schmeck de Büchon, alter Schikanebuckel ! ... Daniel, lange de Trawere un zwei Gläs'le im Büffet
+          !</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Wie - wieviel Gläsle, Meischter ?</p>
+        </sp>
+        <pb n="18" />
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Zwei — füer d'r Barasoll un füer mich ; Dü trinksch genuej dervun im Versteckte.</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Mei - Meischter, noch kenn Tropfe haw-ich...</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>'s isch schun guet, ich glaub's Ejch jo, ass-r kein Tropfe trinke. Ihr nemme immer e guete Schluck.
+          Lange jetz numme d' Budell un zwei Gläsle ! ..... Barasoll, nemme noch e bissel Platz...</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(holt die Flasche und zwei Gläschen im Büffet, nimmt einen tüchtigen Schluck aus der
+          Flasche.)</stage>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(schaut herum, zu Daniel)</stage>
+          <p>Kummt der Schnaps — ja was Schinders, was mache denn Ihr an dere Budell ?</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <p>Ei, ei, der Zapfe geht so böes erab — er isch jetz hüsse. 
+          <stage>(wischt den Mund verstohlen ab mit der Schürze.)</stage></p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ich mach Ejch glich d'r Zapfe herab — schenke-n-emol in un mache nit so lang — 
+          <stage>(Daniel schenkt ein, die Etikette gegen das Publikum haltend, die Spieler dürfen sie noch nicht
+          gewahr werden.)</stage>So, G'sundheit, Barasoll ! 
+          <stage>(trinkt)</stage></p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll:</speaker>
+          <p>A votre santé, Monsieur Steinle! 
+          <stage>(stürzt das Gläschen auf einen Zug hinunter)</stage>A la bonheur, der hett e G’schmäckel, dene
+          schmeckt e Blinder uf 10 Meter; diss isch au Trawere, diss isch kenn Gieges...</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <p>Ja, ja, e famoser Schnaweretraps - - ä-ä Trawereschnaps, will ich saue. - - Meischter, welle-nr noch
+          eins pfätze ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Es pressiert nit ; Barasoll, han-r Ejere Büchs do ? Lange-n-emol e Bris !</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Voilà, Monsieur Steinle, ächter franzescher. 
+          <stage>(gibt Steinle sowie Daniel eine Priese)</stage>Sehn-r, die Büchs haw-ich noch üss d'r Legion,
+          diss isch e souvenir von mim Colonel... Mit dere Büchs haw-ich emol e Löeb g'fange...</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(lachend)</stage>
+          <p>Alle, alle, Barasoll, fange-nr schun wieder an ze schnitze ; diss hann-r mir noch nit verzehlt,
+          dass-r als uf d' Löewejagd sin.</p>
+        </sp>
+        <pb n="19" />
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Na, no will ich's verzehle — wart, wie fangt's an ? — Ah ja — — also, am e schöene Daa geh ich emol
+          in d'r Wüschte Sahara spaziere, ganz allein mit minere Schnupftüwaksbüchs un denk an nit Böses ...</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <p>War, war isch diss, die "Wüschte Sarah" ?</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Oh "Schiff der Wüste", ass-r sinn !... Diss isch e grosses Stück Land, wo nix wachst, as wie Sand,
+          un drum nennt-mr 's die Wüschte Sahara ; un do isch so heiss, dass-mr "Bäckenofe" in d'r Sunn kann
+          mache, so heiss isch's — jo, noch heisser, un do greijt-mr e Durscht, e Durscht greit-mr do...</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Daniel, schenk-em eins in, ass-r nit verdurscht!</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(trinkt)</stage>
+          <p>Also... ich geh e bissel in d' Wüschte nin, züend-mr e Sigarett'l an, klett'r uf e Dattelbaum, un
+          setz mich gemüetli do nuf. — Jetz, wie ich so sitz, sieh ich uf einmol am Horizont e schwarzen Dupfe 
+          <stage>(steht auf und markiert das folgende Gespräch)</stage>wie als grösser wurd un geje mich züe
+          kummt. Ich rutsch runter vum Dattelbaum, un wie d'r Dupfe ganz not bie mir isch, ze isch's
+          e-n-Arawer-Scheik, wo in eim Schweiss ze laufe kummt un brüellt uf arawisch : "Do hinte kummt e Löeb, e
+          Löeb" !!! Do saa ich ganz ruehig : "Numme kenn Angscht, Monsieur le Scheik, denne fangt sich d'r
+          Barasoll. — Sueche emol e grosser Stein". — D'r Scheik suecht e Stein, ich luej, ob d'r Löeb ball do
+          isch, richtig, dort kummt-r ze springe un brüelt, we e rechter Löeb : 
+          <stage>(brüllt)</stage>"Wöööah"! — Min-r Scheik loddelt vor Angscht wie e Kühschwanz ; — awer ich geh
+          jetz ane un zettel e guete Bris Schnupftüwak uf dene Stein. No laje mir zwei uns langs uf de Bode; —
+          wie jetz d'r Löeb an dene Stein kummt, ze schnuffelt er dran erum un schnuffelt halt au an dene
+          Schnupftüwak... Der fahrt-em in d'Nas nuf, un d'r Löeb fangt an ze niese "Hattschi" ! Un jed'smol, wie
+          er "Hattschi" macht, ze schlaat er sine dicke Schädel uf d'r Stein uf, un so ebbene 15-20 mol — so
+          hett-r sich selwer 's Hirn ing'schlaue, bis er zamme isch kejt — hin isch hin ! — Ich glich uf un
+          geluejt, was-r macht, no isch-r do geläje uf-m Buckel un hett mich mit sini 
+          <pb n="20" />Glotzgückle so trürich angeluejt, grad as wenn-r saue hätt wotte: "Barasoll, diss
+          hättsch-mr nitt solle mache !" — — Un no hett-r sine Geischt ufgenn. D'r Scheik isch vor Fraide schier
+          e Narr worre ; er hett-mr uf die Achsel do geklopft — nein, uf die do, un hett g'saat : "Barasoll, Anté
+          maboul bé-séf !" Diss heisst uf ditsch soviel wie : "Barasoll, Dü bisch e gfitzter Typ !" 
+          <stage>(Diese Erzählung muss Barasoll genau markieren und recht prahlerisch sprechen.)</stage></p>
+        </sp>
+        <sp who="#steinle #daniel">
+          <speaker>Steinle und Daniel:</speaker>
+          <stage>(lachen)</stage>
+          <p>Hahaha !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>O, Ihr Schnitzbuckel, Ihr Löyebittel, dass-'r sin.</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>De - de - der lijt, ass m'r blöj wäre !</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Ihr kenne's ruehig glauwe, es isch sicher wohr ! Ihr kenne dene Arawerscheik fröje, obs nit so isch,
+          wie ich do verzehlt hab, parole d'honneur, Monsieur Steinle. Do von dem Platz solle-n-Ihr nimmi ufstehn
+          kenne, wenn's nit wohr isch !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Alter Farçeur, dass Ihr sin — ich will Ejch noch Eins inschenke, un no mache-n-ass'r loskumme un
+          verzähle Jemes andersch's die Löweg'schicht, Ihr Carotier, dass-'r sin, 
+          <stage>(nimmt die Flasche und will einschenken, plötzlich die Etikette erblickend und dieselbe ganz
+          ernst und starr ansehend.)</stage>Was isch denn dess füer e Ding do ? — Daniel han ihr so Daubheite
+          gemacht, und dess do druff gebäbbt ?</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>I-i-ich?! Nein, Meischter !</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(hinsehend)</stage>
+          <p>Dess isch jo e Dotekopf ! — Ja, mort du vinaigre — dess isch jo Gift ! — 
+          <stage>(zitternd)</stage>ja — wie — ?!</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle:</speaker>
+          <p>Dü liewer Himmel! mir han Gift getrunke. Wie kummt awer nurre dess Gift do nin, — es brennt mich
+          schun im Hals —</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Ihr hann mich vergift, Ihr kenne mich bezahle. — Mort du diable ! — Uaatsch, miner Büch !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Schnell im Buch noch gelujt. 
+          <stage>(schaut im Buche nach)</stage>Vergiftungen, Seite 629 — au noch so witt hinte. 
+          <stage>(schlägt im Buch nach)</stage>Do haw-ich's. 
+          <stage>(liest)</stage>
+          <pb n="21" />Bei schweren Vergiftungen durch Flüssigkeiten, nehme man sofort ein Brechmittel, wie Öl,
+          warmes Wasser, besonders auch Milch und schicke sofort zum Arzt — Was zum e Dokter ? ! — Daniel hol
+          Milich ! — Uuh, miner Hals !</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(schreit)</stage>
+          <p>Millich, Kühmillich, Geissemillich, nurre Millich !</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <stage>(ist schon von Anfang der Vergiftungsszene ängstlich geworden, geht nun bis an die Tür, bleibt
+          dann stehen, hält sich den Leib, zieht ein Bein in die Höhe)</stage>
+          <p>U-u-aaah!!</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Was hesch denn ? Hesch Dü au üs dere Bu-dell?!...</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Ja, ja Meischter, vor wie ich se üss-'m Büffet gelangt hab.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle:</speaker>
+          <p>Dü Simpel, wenn de geluejt hättsch, hättsch dene Dotekopf müen sehn — jetz g'schieht's d'r ganz
+          erecht — jetz müe-m'r alli Drej sterwe !</p>
+        </sp>
+        <sp who="#barasoll #daniel #steinle">
+          <speaker>Alle :</speaker>
+          <p>Ojeh, ojeh !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Un morje haw-ich au noch Geburtsdaa — uaah!</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Un am Mondaa steht's in d'r Zitung, ass m'r e so miserawel sterwe han müen, un ich kanns nit emol
+          meh lese, ujeh !</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Un am Dienschdaa isch d'Licht — drej ledichi Burscht ! — Ojeh, ojeh, un ich hab so viel gelöje in
+          mim Läwe ; die G'schicht von dere Löewejagd isch au nit wohr.</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Meischter, Meischter ! 
+          <stage>(kniet vor Steinle)</stage>Verzeje-mr — ich bin alle Daa Stüecker viermol an der Schnapsbudell
+          g'hängt.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ich hab mr-'s awer doch gedänkt ! — Awer m'r müen Hilf han. 
+          <stage>(reisst das Fenster auf.)</stage></p>
+        </sp>
+        <sp who="#barasoll #daniel #steinle">
+          <speaker>Alle:</speaker>
+          <stage>(rufen zum Fenster hinaus)</stage>
+          <p>Helfe, helfe !</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>13. Auftritt.</head>
+        <stage>Steinle, Robert, Barasoll, Daniel.</stage>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <stage>(von rechts)</stage>
+          <p>Aha, es hett gezöje! 
+          <stage>(laut)</stage>Was isch denn bassiert ?</p>
+        </sp>
+        <pb n="22" />
+        <sp who="#steinle #barasoll #daniel">
+          <speaker>Alle drei:</speaker>
+          <stage>(hängen an Robert und sprechen durcheinander).</stage>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Robert, helf, mir sin vergift !</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Monsieur Robär, ich hab Gift — o min Büch, min Büch !</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <p>Do, do, do, Budell Gift, Gift, Gift !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Ihr müen nit alli mit-e-nand rede, — stille ! Unkel, red, was isch bassiert ?</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Do in dere Budell isch Gift ! Mir hann gemeint, es isch Trawere un han drvun getrunke — awer ich
+          kann m'r nit denke, wie häre in die Budell Gift kumme-n-isch ? !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert:</speaker>
+          <p>Do han Ihr drvun getrunke? — Ei, ei, — do haw-ich e Gift nin gemacht füer Ejeri Mies ! Do drvun
+          brücht m'r nurre 10 Tropfe uf e Stückel Zucker ze mache, ze gehn 100 Mies hin !</p>
+        </sp>
+        <sp who="#steinle #barasoll #daniel">
+          <speaker>Alle drei:</speaker>
+          <stage>(schreien)</stage>
+          <p>Uaaah !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Ich hab awer doch e Dotekopf uf d' Flasch gebäbbt, dass mr's jo sieht, ass Gift drinne isch.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Mr hann's erscht g'sehn, wie mr getrunke han g'het — jetz numme Hilf here. —</p>
+        </sp>
+        <sp who="#barasoll #daniel">
+          <speaker>Barasoll und Daniel :</speaker>
+          <p>E Dokter, e Dokter ! Uuh !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert:</speaker>
+          <p>Unkel — e Dokter sell ich hole?!</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Lauf doch — ebs ze spot isch — schnell, hol einer !</p>
+        </sp>
+        <sp who="#steinle #barasoll #daniel">
+          <speaker>Alle drei:</speaker>
+          <stage>(halten den Leib und jammern.)</stage>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Stille! — Ich brüch kenn Dokter ze hole, ich bin jo Dokter — ich will Ejch sofort helfe. 
+          <stage>(Stellt drei Stühle vorn in eine Reihe.)</stage>Do setze-n-Ejch anne, do uf die Stüehl 
+          <stage>(setzen sich)</stage>Zaje-n-emol d'Zung! 
+          <stage>(strecken die Zunge heraus)</stage>Halte, halte!... nit so witt... 
+          <stage>(schaut die Zungen)</stage>Alli Zunge sin fierich rot. Ihr hann nit weni Gift getrunke. 
+          <stage>(hat sich hinter die Stühle gestellt, lacht für sich.)</stage></p>
+        </sp>
+        <pb n="23" />
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(tupft auf Steinles Zunge)</stage>
+          <p>Ga-ga-ganz rot isch se, Meischter.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Gehn-r eweck vun minere Zung mit dene Stinkfinger !</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll:</speaker>
+          <p>Wenn ich nit halwer dot wär, ze müsst ich noch lache, hahaha.</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Jaa — ruehig müen-r sin; kenn Dummheite mache, wenn Eich 's Läwe lieb isch ! —</p>
+        </sp>
+        <sp who="#steinle #barasoll #daniel">
+          <speaker>Alle drei:</speaker>
+          <p>Uah !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Stille, — lon d' Zunge schöen hüsse, ich will in d'r Kieche e Glas Wasser hole un e Gejegift
+          fawriziere, wo Ejch glich küriere wurd!</p>
+        </sp>
+        <sp who="#steinle #barasoll #daniel">
+          <speaker>Alle drei:</speaker>
+          <stage>(wollen mit der heraushängenden Zunge sprechen.)</stage>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Nuere ruehig. — 
+          <stage>(geht ab; während die drei ruhig sitzen bleiben mit der heraushängenden Zunge; kommt nach
+          einigen Sekunden mit einem Glase Wasser, in welchem er rührt ; lässt jeden trinken.)</stage>So — — jetz
+          e jeder e Schluck gedrunke, un no uf min Kommando drejmol uf un-n-ab geblotzt, domit's durich de ganze
+          Körper fahrt... Also, Achtung ! Eins ! — zwei ! — drej ! — So, wie isch's Ejch jetz ? 
+          <stage>(Erheben sich auf Kommando dreimal.)</stage></p>
+        </sp>
+        <sp who="#steinle #barasoll #daniel">
+          <speaker>Alle drei:</speaker>
+          <stage>(befühlen sich den Leib, stehen auf; Robert stellt die Stühle weg)</stage>
+          <p>Es isch besser — ganz küriert!...</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Ich gschpier kenn Grimmele meh, ganz wohl isch 's mr. Parole d'honneur !... Sicher un gewiss ;
+          gschpier nix meh im Büech !</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel:</speaker>
+          <p>Vejele wohl isch's-mr ; ich kennt singe vor lütter Fraid !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Dir hätt-r gar nit helfe solle füer d' Strof, will de als hinterwärts Schnaps getrunke hesch! —
+          Awer-mr welle froh sin, dass-mr noch läwe, denn die Reis hann-mr d'Engel schun höere pfiffe... Un vun
+          Dir, Robert, isch's e grossi Lichtsinnigkeit, in e Budell, wo mr drüss trinke duet, Gift ze mache, diss
+          isch au nix vum-e Dokter, verstehsch !</p>
+        </sp>
+        <pb n="24" />
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Diss stimmt, Unkel, awer zum Erschte hawich e Dotekopf druf gekläbt, wie's Vorschrift isch, un zuem
+          Zweite — — isch gar kenn Gift in d'r Flasch gsin.</p>
+        </sp>
+        <sp who="#steinle #barasoll #daniel">
+          <speaker>Alle drei :</speaker>
+          <stage>(erstaunt):</stage>
+          <p>Was ? ! ..... Gar kenn Gift?!</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert:</speaker>
+          <p>Nein, 's isch gar kenn Gift drinne gsinn, Ihr hann de rein unverfälschte Schnaps gedrunke; d'r
+          Dotekopf hett Eich verfüehrt, dass-r hann geglaubt, es isch Gift ; un's Gejemittel isch nix gsinn als
+          wie Wasser un Zucker. 
+          <stage>(lacht).</stage></p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(böse)</stage>
+          <p>Höer, Robert, diss isch doch zue starik, mit-eme alte Mann so Kabriole ze mache! — Schäm Dich !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Unkel, verzej-mr.... Ich hab's ja e bissel zue starik getriewe; awer Dü hesch au e bissel e Strof
+          verdient, füer diss, dass Dü d'r Dokterberuef so ungerechter Wies verdächtigt hesch, un d'rno hab ich
+          mir schun ebs erlauwe derfe, isch's mir doch d'rum ze duen g'sinn, mini Wettung ze gewinne, domit ich
+          vun Dir, min liebs Unkele, die 5000 Franke bekumm ; un ich hab gewunne, denn Dü hesch g'saat: "Lauf un
+          hol e Dokter." Hahaha !</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <stage>(ist auf einen Stuhl gesunken)</stage>
+          <p>E Nuntebuckel ! — So daub bin ich do ningebatscht ! 
+          <stage>(aufstehend)</stage>Na, ich halt min Wort, ich hab d' Wettung verlore, awer do diss Buch isch d'
+          Schuld, denn do steht selwer drinn, dass-mr e Dokter soll hole. — No brüch ich au diss Buch nimm ! 
+          <stage>(wirft es zum Fenster hinaus.)</stage></p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Bravo, Unkel! So isch's recht — un dass Dü trotzdem 100 Johr alt wursch, do wur ich schun min
+          Mejlichscht mache, denn ich versteh min métier.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ja, ja, Dü Wackebumm, dü bisch e ganz riewener Dokter.</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll:</speaker>
+          <p>Ah — jetz grej ich doch e Wuet wie e Hüs ; Ihr hann e Wettung mitnand gemacht, un ich d'r Barasoll,
+          soldat de la Légion étrangère, muess do die Jagd mitmache un muess de Lälle erüss hänke bis uf de
+          siewete Gamascheknopf ! Herrschaft, mille pots de confiture !! 
+          <stage>(Gelächter.)</stage></p>
+        </sp>
+        <pb n="25" />
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Monsieur Barasoll, exküsiere vielmols, awer ich will ne füer die üsg'stande Angscht gern 20 Mark
+          genn, sin se no zefridde ?... 
+          <stage>(Gibt ihm das Geld.)</stage></p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <stage>(erfreut)</stage>
+          <p>Avec plaisir, Monsieur Robär — mille fois merci !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <stage>(zu Daniel)</stage>
+          <p>Un für Ejch Daniel, isch's e Warnung un e Strof.</p>
+        </sp>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <p>Ja, ja — ich denk dran. — In mim Läwe drink ich nimmi üs-ere Budell, wie ich nit kenn. 
+          <stage>(es schellt)</stage>Meischter, 's hätt glauwi g'schellt.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Gehn, un mache-n-uf ! 
+          <stage>(Daniel ab)</stage>Wer wurd jetzt kumme ? 
+          <stage>(Man hört Ernest hinter der Bühne weinen.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>14. Auftritt.</head>
+        <stage>Steinle, Robert, Barasoll, Daniel und Ernest.</stage>
+        <sp who="#daniel">
+          <speaker>Daniel :</speaker>
+          <stage>(von rechts mit Ernest, welcher laut weint)</stage>
+          <p>Do, do isch e Kneckes, wie zue Ejch will.</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Was hesch denn gewellt, Männel ?</p>
+        </sp>
+        <sp who="#ernest">
+          <speaker>Ernest :</speaker>
+          <stage>(weinend)</stage>
+          <p>E schöen's — hü-hü-hü — Kumpliment vom Herr Maire, un do schickt-r Ihne e Tart uf de Geburtsdaa, un
+          — hü-hü-hü -</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Ja, worum hielsch denn — wo hesch denn die Tart ?</p>
+        </sp>
+        <sp who="#ernest">
+          <speaker>Ernest :</speaker>
+          <p>Ei, wie ich in Ihre Hoft erin bin, hett mr Jemes so e dicks Buch mittles uf d'Tart geworfe, dass se
+          zue Krüt un Käs verfahre isch — im Hof lejt se im Dreck — hü-hü-hü. 
+          <stage>(Gelächter.)</stage></p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Do setze mr uns grad derzüe un esse se im Hoft. 
+          <stage>(Gelächter — Ernest weint noch stärker.)</stage></p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Stille Männel — 's macht nix; ich geh no selwer zuem Herr Maire! — Do hesch ebs füer dich — Müesch
+          jetz nim hiele ! 
+          <stage>(Gibt ihm ein Geldstück.)</stage></p>
+        </sp>
+        <sp who="#ernest">
+          <speaker>Ernest:</speaker>
+          <stage>(das Geldstück betrachten)</stage>
+          <p>E Franke! — 
+          <stage>(lacht)</stage>Wenn Sie e so mit eim rede, no kann-mr jo 
+          <pb n="26" />nimi hiele, hahaha ! Vielmols merci, guet Nacht biesamme ! 
+          <stage>(lustig rechts ab).</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>15. Auftritt.</head>
+        <stage>Steinle, Robert, Barasoll, Daniel.</stage>
+        <sp who="#barasoll">
+          <speaker>Barasoll:</speaker>
+          <p>Ja, un ich will jetz au gehn, un —</p>
+        </sp>
+        <sp who="#steinle">
+          <speaker>Steinle :</speaker>
+          <p>Nix do — do gebliewe ! — Ich will mir durch die Affär mit dere Tart dr Owe nit verderwe lonn. —
+          Daniel, mache die Tart eweg im Hoft un gänn se im Hund, dass der au weiss, ass ich morje Geburtsdaa
+          hab! — Un Ihr zwei gehn mit-mr ins Restaurant Klein. — Dort verdaxe mr e g'fitzt's Souper un breche in
+          e paar Flasche Riesling dr Hals un 's erscht Glas trinke mr uf's Wohl von unserm frischgebackene Dokter
+          un vom ganze Dokterstand !</p>
+        </sp>
+        <sp who="#robert">
+          <speaker>Robert :</speaker>
+          <p>Angenumme Unkel ! — Do hett dess Gift doch ebs genutzt, Dü bisch von dinere schlechte Meinung, wie
+          Dü üewer d' Dokter hesch g'hett, küriert worre.</p>
+        </sp>
+        <sp who="#barasoll">
+          <speaker>Barasoll :</speaker>
+          <p>Un ich kumm zuem e g'fitzte Friko — do dran isch numme di Giftbudell schuld. 
+          <stage>(Gelächter).</stage>
+          <stage>Vorhang fällt.</stage></p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

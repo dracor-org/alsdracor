@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">D'Madam fahrt Velo</title>
+        <title type="sub">E modern's Lustspiel in 1 Akt</title>
+        <author>
+          <persName>
+            <forename>Adolphe</forename>
+            <surname>Horsch</surname>
+          </persName>
+          <idno type="wikidata">Q13099277</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Lena Camillone</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Andrew Briand</name>
+          <name>Hoda Chouaib</name>
+          <name>Barbara Hoff</name>
+          <name>Vedisha Toory</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">als000016</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q13099277</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109569k</idno>
+          <bibl type="originalSource">
+            <author>Adolphe Horsch</author>
+            <title type="main">D'Madam fahrt Velo</title>
+            <title type="sub">E modern's Lustspiel in 1 Akt</title>
+            <publisher>Elsassische Aktien-Gesellschaft für Buchhandel und Publicität, vormals A.
+            Ammel</publisher>
+            <date when="1901" type="print">1901</date>
+            <date type="written" />
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="contre">
+            <persName>Contre</persName>
+          </person>
+          <person sex="FEMALE" xml:id="juliette">
+            <persName>Juliette</persName>
+          </person>
+          <person sex="FEMALE" xml:id="mme_trett">
+            <persName>Mme. Trett</persName>
+          </person>
+          <person sex="FEMALE" xml:id="ursule">
+            <persName>Ursule</persName>
+          </person>
+          <person sex="MALE" xml:id="blotzmeier">
+            <persName>Blotzmeier</persName>
+          </person>
+          <person sex="FEMALE" xml:id="colette">
+            <persName>Colette</persName>
+          </person>
+          <person sex="MALE" xml:id="alphonsel">
+            <persName>Alphonsel</persName>
+          </person>
+          <person sex="MALE" xml:id="kutscher">
+            <persName>Kütscher</persName>
+          </person>
+          <listRelation>
+            <relation name="spouses" mutual="#contre #juliette" />
+            <relation name="parent_of" active="#mme_trett" passive="#juliette" />
+            <relation name="siblings" mutual="#ursule #contre" />
+            <relation name="associated_with" active="#colette" passive="#contre #juliette" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="6" />
+      <div type="dedication">
+        <p>Mim Frind 
+        <lb />Theophile Debus in Schilke 
+        <lb />dedicirt.</p>
+      </div>
+      <pb n="7" />
+      <castList>
+        <head>Persone:</head>
+        <castItem corresp="#contre">
+          <role><persName>Contre</persName></role>,
+          <roleDesc>e junger Mann, anfangs drißig</roleDesc>.
+        </castItem>
+        <castItem corresp="#juliette">
+          <role><persName>Juliette</persName></role>,
+          <roleDesc>sini Frau</roleDesc>.
+        </castItem>
+        <castItem corresp="#mme_trett">
+          <role><persName>Mme. Trett</persName></role>,
+          <roleDesc>Mamme vun d'r Mme. Juliette</roleDesc>.
+        </castItem>
+        <castItem corresp="#ursule">
+          <role><persName>Ursule</persName></role>,
+          <roleDesc>Schwester vum Herr Contre</roleDesc>.
+        </castItem>
+        <castItem corresp="#blotzmeier">
+          <role><persName>Blotzmeier</persName></role>,
+          <roleDesc>Velohändler</roleDesc>.
+        </castItem>
+        <castItem corresp="#colette">
+          <role><persName>Colette</persName></role>,
+          <roleDesc>Kammerjumpfer bi's Contre's</roleDesc>.
+        </castItem>
+        <castItem corresp="#alphonsel">
+          <role><persName>Alphonsel</persName></role>,
+          <roleDesc>e Kneckes (10 -12 Johr)</roleDesc>.
+        </castItem>
+      </castList>
+      <set>
+        <p>Ort: Stroßburri.</p>
+        <p>Zytt: Jetzt.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="9" />
+      <div type="act">
+        <stage>Die Bühne stellt ein gutes, solid möblirtes Salle-a-manger vor. Thüre im Hintergrund, eine rechts
+        in die Küche, eine links in die anderen Räume. Rechts vorn ein Tisch, zum Frühstücken gedeckt, zwei
+        Stühle daran. Links vorn ein Divan, hinten links Credenztisch, rechts ein Buffet, an dieses ist ein
+        Damenfahrrad angelehnt. Einige weitere Stühle. Rechts und links vom Zuschauer.</stage>
+        <div type="scene">
+          <head>1. Scene.</head>
+          <stage>Colette, Alphonsel.</stage>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel</speaker>
+            <stage>(streckt den Kopf zur Thüre rechts herein):</stage>
+            <p>St, st, Mamsell Colette!</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Was beliebt, — ah Sapristi, d'r Alphonsel isch's ! Wart Knedes, ich will dr d'Lytt so verschrecke
+            !</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Oho, Mamsell Colette, ich hab Sie jo noh nie verschreckt, wenn i ne als e Briefel bring.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Dü kleiner Saperlot ! — Hesch de schun widder eins?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Ja, do isch's.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Here mit, postillon d'amour de mon cœur, 
+            <stage>(halblant.)</stage>S'isch vun mimm Tortino.</p>
+          </sp>
+          <pb n="10" />
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Ich, ich kenn' ne guet.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>So — dü kennsch ne guet?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Heijo, bring ich nit allewyl sinni Briefle do here? — un d'rno hawi ne schun oft uff d'r Rennbahn
+            fahre sehn.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Jo, dü hesch erecht, hein, der kann's ? E épatanter Typ. De Kilometer macht 'r in ere Minüt un 53
+            3/4 Sekunde, départ lancé.</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Ja, ich weiß, diß letscht hett 'r sogar emol e Weltrecord um e Viertelsekund verbessert. Isch's
+            nit so, Mamsell Colette ?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Doch, dü kleiner Hosselottl. Fahrsch dü au schun Velo, daß de dich so interessirsch?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>A noch, wisse Sie, ich helf als im Herr Blotzmeier driwwe d'Velo uffbumbe un schmiere, un do lehnt
+            'r m'r als eine vun sinne alte Kärich. Sie sotte emol sehn, wie ich schun loszeij.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Ha ha ha, do wursch dü halt au am e schöne Daa e Champion oder e Recordman genn. Was witt denn
+            wäre ?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Sie hann's grad geroothe, — Rennfahrer wurr i, sunsch nix.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Voyons, was schriebt m'r min Shatz? 
+            <stage>(Lest den Brief.)</stage>— Was, er will m'r hitt e Visit mache, un denne Morje noch. I soll
+            mache, daß i e Minütt for ne hab? Diß isch nit möjli!!</p>
+          </sp>
+          <pb n="11" />
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Er hett g'faat i soll'm e-n-Antwort bringe.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Ja, do isch gueter Roth dier. I mueß jo mit d'r Madam furt uff Allerheilige. Herrschaft, diß isch
+            m'r jezt e Stoß! Saa-m, es geht nit, un daß i mit d'r Madam furt mueß. Mit dere dumme Partie uff
+            Allerheilige !</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Guet Mamsell, — Adje.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Wart, säh, do hesch for e Wecke. 
+            <stage>(Gibt ihm ein Geldstück.)</stage>Ei, ei, ei, 
+            <stage>(Alphonsel ab, Colette ruft ihm nah.)</stage>Halt!, Alphonsel, weisch was, i mach e
+            Kapitalstreich. I mach ebs am Velo, no kanni nit mit. Saasch'm bis in ere Halbstund kann 'r komme.
+            Bis dort anne isch s'Nescht per Rad üsgflöije.</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>I wurr's üsrichte. Bonjour Mamsell Colette.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Au revoir, Alphonsel — un e schön's Kumpliment, vergiß's nit!</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Wein, nein. 
+            <stage>(Ab. Colette setzt sich wieder in den Lehnstuhl und studiert weiter in der
+            Zeitung.)</stage></p>
+          </sp>
+          <pb n="12" />
+        </div>
+        <div type="scene">
+          <head>2. Scene.</head>
+          <stage>Colette, Contre.</stage>
+          <sp who="#contre">
+            <speaker>Contre</speaker>
+            <stage>(kommt durch die Mitte):</stage>
+            <p>Elle w'est pas gênée! Hm, hm. 
+            <stage>(Colette steht rasch auf und macht sich ans Radputzen.)</stage>Luej do, het der letzgedräijt
+            Barickeszipfel widder s'nämli Pläßzel vergesse ze rasiere, un e ganzes Pädel Bürschte stehn Ionn. —
+            Colette, wo isch d'Madam? isch sie schun zeruck? Denn do steht schun widder min cauchemar.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Grad isch d'Madam kumme, vor e paar Minüte.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Wo isch sie denn ?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>In ihrem Zimmer, sie düet e paar anderi Hosse an, denn d'andere sinn denne Morje.....</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Hein, was isch ?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Ja, d'andere han e Schade gelitte. Madame a ramassée une pelle, mais une pelle! — Nein, sehn die
+            Hosse üs. — E so langer Schlenzer. 
+            <stage>(Zeigt mit den Händen.)</stage></p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Isch d'Madam g'falle ? Sie wurd sich doch nit weh gedohn hann?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>O nein Herr, seije Sie nurre getroscht, d'Madam hett's hüsse, wenn sie fallt, duet sie sich 
+            <pb n="13" />nit weh, denn sie isch's jo gewöhnt, un no isch sie flink as wie e Katz.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Colette!</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Pour sür, s'isch ere fascht nix g'schehn. Elle a une veine bleue.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Décidément, elle est émancipée cette fille. 
+            <stage>(Saut.)</stage>Nit emol s'Velo isch hin? flûte alors! So e Glück hawi keins.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>S'isch nix dran. Ein pedale isch e bissel faussiert g'sinn, awer d'r Herr Blotzmeier hett's
+            unterwäij's reparirt. Jetzt fehlt ere nur noh e bissel Luft.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Kein Luft? Was saat Sie jeht diß erersch. Hett sie eng? Do isch sie amend doch krank. Ich mueß
+            schnell noch e-re lueije. 
+            <stage>(Will abgehen.)</stage></p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Halte Sie, halte Sie, s'isch jo nur d'r Maschin, wo Luft fehlt, — do hawi d'Luftspritz schun
+            gerischt.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre</speaker>
+            <stage>(beruhigt):</stage>
+            <p>Ah, très bien, wenn nurre diß Rad in Stücker wär! — Wie steht's mit-em café?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>D'Madam hett g'saat, Sie solle ne nurr ellein trinke, sie hett ne schun denne Morje früeij uff'm
+            Fuchsebuckel genumme, entre deux enlevages! —</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Sacré! — ah so, na ze here mit.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Oui Monsieur, un petit emballage, un i bin in-e-ere Minüt un fünf Sekunde widder do, — grad wie
+            d'r Tortino. 
+            <stage>(Ab.)</stage></p>
+          </sp>
+          <pb n="14" />
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>D'r Tortino? — e-n-emballage? — Die wurd m'r noch verrukt. O mit dere nundebuckels Stramplereij. 
+            <stage>(Colette kommt mit dem Kaffeeservice herein, rüstet den Tisch.)</stage>I hab gar ken Frau meh
+            im Hüß! Zitter daß sie Velo fahrt, plus de femme chez moi! De ganze Daa wurd do gerädelt. Ihri Mamme
+            rädelt, minni Schweschter rädelt, minni Magd idem, — i bin meischt nurr noch ellein in d'r
+            Menasch!</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette</speaker>
+            <stage>(ist mit rüsten fertig):</stage>
+            <p>Voilà Monsieur, do isch Ihr café! Awer jetzt mueß i s'Rad g'schwind butze, d'Madam wurd glich eryn
+            kumme for's abzehole, sie will widder furt, un ich bin au noch nit gerischt.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Misère! — In's Gottsnamme butzt Sie was Sie will. Heh, — awer doch nit do hinne, als nüs, hopp, in
+            de Gang, oder in d'Küche.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Za do käm ich schön an. In d'r Küche könnte jo Fettflecke od'r Wasserspriber drankumme, un im
+            Gang, do sinn Debbi mit Näjel angemacht, on pourrait crever un pneu. Nein d'Madam lyd's nit.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Hm, 's wundert mi ball, daß sie diß Möwel nit im Salon oder im Schloofzimmer butze loßt. 
+            <stage>(Colette schraubt die Pumpe an, und gibt dem hinteren Rade Luft und Contre ißt seinen Kaffee
+            fertig.)</stage></p>
+          </sp>
+        </div>
+        <pb n="15" />
+        <div type="scene">
+          <head>3. Scene.</head>
+          <stage>Die Vorigen, Juliette.</stage>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(rechts herein):</stage>
+            <p>Isch min Rad widder propper ? — Sie brücht jo e-n-Ewigkeit dezue! — Ah, bonjour Jean. 
+            <stage>(Colette ist fertig, ab.)</stage></p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Bonjour Madame, bisch de schun widder g'stisselt un g'spoort? Wo geht denn d'Reif' schun widder
+            anne? Kummsch jo kümm heim, un jezt witt schun widder loß? I mein, de könntsch jetzt d'heim bliewe.
+            For denne Morje wär's genue. Tu te fatigues trop, et puis — i hab erfahre, daß de e Burzelbaum
+            g'schlaaue hesch. Tu n'as pas mal?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ach, fangsch de schun widder an? Non, je n'ai rien, sunsch dät i jo d'heime bliewe. Mais, haw' ich
+            d'r nit die Wuch g'saat, daß m'r hitt in's Badisch niewer welle, uff Allerheilige. Dü hesch jo
+            versproche mit em Zuck nochzekumme. Un jetzt saasch, que je devrai rester là?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Ma chère, diß hawi wohl g'saat, mais enfin, tu sais, diß ewig geräddels, ce n'est pas du tout mon
+            goût, je n'aime pas ga. M'r könnte jo au sunsch ienes anne gehn.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Oui, je sais, daß dü mir die Fraid nit gunsch. So sinn'r alli, ihr Männer. Wenn e 
+            <pb n="16" />Wybsbild e Fraid an ebs hett, ze-n-isch's Euch e Dorn im Au. Dü bisch wie alli andere,
+            kein Hoor besser, — c'est vraiment vrai.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Bon, voilà que ça recommence. — So hawi 's nit gemeint! Unn wenn i ebs d'rgeije hätt? — Dü bisch
+            jo kein Minüt meh d'heim. Un d'rno, weisch, moi qui ne suis pas avec, — dü fahrsch allewyl mit andere
+            Lytt.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Mit andere Lytt? mit minnere Mamme, mit dinnere Schweschter, mit'm Colette, voilà tout. Un diß
+            heisch dü mit andere Lytt?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Ma chère, dü hesch einer vergesse, — d'r Herr Blotzmeier !</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Der? Der zählt nit, — der fahrt nurre mit.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Ach, der zählt nit, — awer bi mir zählt der, un starik. I hab ne uff d'r Latt, denne
+            durichgebloßte Ex-Stüdent, d'Madame kann 'r s'Velofahre lehre. Ha, ha, zell isch nit so schwer als e
+            Exame mache. Weisch, for Räder zue verkaufe, hett 'r au kenn siwwe Semeschter stüdiere brüche. Der
+            ish jo Schuld an dem große Uewel. Der hett d'r jo diß Rad uffgebebbt. Weisch, daß der grad gejenüewer
+            von uns e Velolade hett anfange müen, diß due i em nie vergesse. Un wo de hesch g'sehn, daß ball meh
+            Wybslytt wie Herre sinni Pratike sinn, hesch dü halt au so e Rad müen hann. Un jetzt 
+            <pb n="17" />haw' ich de Broote. Der hett dich fahre lehre, un gehsch dü emol furt, na, — na so isch
+            der Herr allewyl debie.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Tiens, tiens, je crois qu'il devient jaloux ?!</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Moi, non Madame, vun dem isch kein Redd. Awer ich find, daß sich diß nit allewyl schickt. Immer
+            mit dem Blotzmeier do, — meinsch, daß d'Lytt nix do drüwer ze saaue hann, — die wäre sich nit
+            sümme.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Was d'Eytt drüwer fauue, je me demande quoi, — do leij ich fein Werth druff.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Ich au nit, awer doch mueß m'r mit dem reche. D'böse Miller erfinde, was sie nit wisse, un s'isch
+            m'r schun e Manichs an d'Ohre kumme, wo.....</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ah, ah, i glaub dü spionirsch mi üs, oder soll diß verlicht heiße, daß i nimmi Velo fahre derf,
+            od'r soll, — wäje de Lytt ?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Dü hesch verlicht erecht, — doch verbiete — nein, diß will i d'r jo grad nit. Awer weisch, entre
+            nous, une femme sur un vélo, — oh! diß isch nit allewyl g'fitzt, awer gar nit. Ce n'est pas gracieux
+            du tout.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Was, dü wursch viel verstehn, was gracieux isch oder nit?</p>
+          </sp>
+          <pb n="18" />
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>So, meinsch, eh bien, hör, ich hab doch schun ebbs netters g'sehn, as e frauezimmer, wo uff e re
+            Maschin drowe fitzt, un druff loos strampelt wie e Scheereschliffer, un Hoffe an hett, wie d'r erscht
+            bescht Säckträjer! Wenn 'r euch nurre sehr däte, s'dät verlicht e manchi schneller widder erunter
+            springe als sie nuff kumme isch.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ich weiß absolument nit, was dü do dran üszesetze hesch. Soll e Frau nit au d'nämliche Blessiere
+            hann, als wie d'r Mann. Mueß sie denn nurre ihri ganz Exischtenz in d'r Küche am Wasserstein, od'r in
+            ihre vier Müüre, wo ihri Menasch drinne steht, zuebringe. Im Herre Knöpf annäije, Schueh wichse,
+            d'Kinder.....</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Machsch dü diß Alles?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ich — ja — nein.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Also, was wilt denn?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ja un wurum solle m'r nit Velo fahre ?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Wurum, wurum, — weisch au point de vue esthétique.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Esthétique! Ah, dü bisch esthétique, ça c'est du nouveau. Eh bien, was findsch dü do
+            non-esthétique dran? I bin wunderfitzi.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre :</speaker>
+            <p>Oho, wenn 'r verlicht alli wärde wie d'Venus vun Médici, dät m'r schun e-n-Au zuedrucke, 
+            <pb n="19" />awer so! — hm — i hab gescht eini g'sehn, e Dicki, e Dicki, — mit Hoffe an, e wohrer
+            zweithüriger Kaschte, e Feschtung, e Mehlsack, e Blotzständel, e-n-Omnibus, e..... Dampfwalz.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Merci!</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Bref, e Monstrum, quoi! Ulli Lytt hann ere nochgelueijt, un hann sich geringelt. Un no hett sie e
+            Buckel gemacht, wie e Katz wenn's dundert, — dü siehsch diß Bild vun do? E-n-andermol sieht m'r
+            widder e Maueri, e Stede, e Besestiel, wo d'Kleider annere rumflattere, wie d'Lumpe an-ere
+            Spatzeschaich. Extremitäte wie Sandschiffle an de Shwewelhölzle, autrement dit — Bein!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Tu es insupportable.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>A bah — s'isch d'Wohrheit. Wo sieht m'r alti, jungi, kurzi, dinni G'schteller, un mit em e chic
+            gemutzt, daß m'r ne par pitié gern e Sü gäbt, — wohri Prachtexemplar for in e Wachsfigürehitt, —
+            Abtheilung für Velowomen.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Jetzt geh i...</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Ich bin noch nit ferti. Un die alli fahre drufflos, jeschte un strampfe, han G'fichter, roth wie e
+            fochter Krebs, un schwitze, daß ne s'Wasser in Bächle üwer d'Backe na lauft. D'Hoor henke ne in
+            d'Aue, vun denne schöne, fünschtliche Locke, wo stundelang geringelt un gebrennt wäre, kein Spür meh,
+            un sehn üs grad wie e-n-alti Ziginere, 
+            <pb n="20" />wenn sie am Morje üs'em Karich schlupft. Wenn dü diß alles schön findsch, ma chère, mes
+            compliments.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Hör Jean, wenn de m'r nix andersch ze sauue hesch als wie diß! — Dü bisch awer for unsereins awer
+            nit im Geringschte galant. — Der Herr Blotzmeier isch in denne Stücke doch viel galanter uns
+            gejenüwer, i mueß 's g'stehn un sauue.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Hm, galanter, — galant — il te fait la cour, voilà tout, — ich weiß 's.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Jean! — A moi — ah non, c'est trop fort! Do bisch de awer uff 'm Holzwäij. — Diß hawi jo noch gar
+            nit gemerkt. Er isch artli, zevorkommend, zell isch wohr, arri artli — awer meh nit. Ah non, diß dät
+            i ihm nit erlauwe, do dät 'r nit ung'strooft durichschlupfe, — do kennt 'r mi awer noch nit.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Bildsch dü dir verlicht in, i hab kenn Aue?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>I hab d'r jo vori schun g'saat, dü bisch schallü. Arms Männel — je mueß i di jo au noh tröesch'e.
+            Tu me fais de la peine! Na, will dü awer saasch, dü hesch Aue — do will i d'r nur sauue, daß 'r
+            d'ganz Zytt hinter dinnere Schweschter her isch.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Ha, ha, ha. — — —</p>
+          </sp>
+          <pb n="21" />
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Un wenn de so gueti Aue hettsch, wie de meinsch, ze mueschte schun g'sehn han, daß er d'ganz Zitt
+            mit dinnere Schweschter redd, un e-re gewalti hoffiert ?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Od'r sie ihm! Mit minnere Schweschter, la bonne farce, die isch jo zehn Johr älter als wie er!
+            Geh' mach m'r fen Plän, ich weiß, was ich weiß. Diß alles isch e excuse, — so g'scheit bin i au.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>E-n-excuse? — Meinsch dü mich, ich sott mich vor dir excüsire?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Mais non.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ach, mais, diß isch nit üwel. Glaubt der dumm Mann, daß ich -! Mon cher Jean, tu me connais bien,
+            tu sais comme je t'aime. Dü hesch ken Recht, nurre de geringschte soupçon ze hann an mir, bin ich nit
+            dinni lieb, klein Frau? —</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Gewiß, gewiß — i tröj d'r jo! Awer der schnied dir e cour numéro Pfiff, un zell isch au wohr. Dü
+            bisch jo e Muschterwywele, wärsch noch e viel größers, — wenn de nit Velo fahre dätsch! Awer d'Lytt,
+            lueij d'Lytt, i möcht absolument nit vor denne, un vor'm Blotzmeier als Simpel passiere. Ich sich
+            hell, un wenn's ze bunt kommt, no guetnacht.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Allons, allons Jean, calmier dich, un redd dich doch nit in d'Hitz nin, ça ne vaut pas la
+            peine.</p>
+          </sp>
+          <pb n="22" />
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Hesch erecht, — s'isch wohr, i hab e Röijes wie e Hüß ! Tiens lueij, i weiß gar nit ebb ich noch
+            mit euch fahre soll od'r nit?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Diß derfsh nit mache, denn dü hesch m'r's versproche. D'Mamme un's Ursule wäre jetzt glich kumme
+            vor uns abzehole. s'Colette fahrt au mit, i hab's-m versproche. Diß arm Maidel hett schun vier Wuche
+            kenne Sundaa meh g'hett.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Do hawi am meischte Fraid dran, daß diß au fahrt. —</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Que veux-tu mon cher, diß ish modern, diß ish hittzedaa emol eso, — s'fahrt Alles —</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre :</speaker>
+            <p>Als ich nit!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Wer weiß, s'wurd am End nimmi lang düüre, ze sitsch dü au uff so e-re Maschin.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. Scene.</head>
+          <stage>Die Vorigen, Colette, Blotzmeier.</stage>
+          <sp who="#colette">
+            <speaker>Colette</speaker>
+            <stage>(kommt als Velocipedistin angezogen, Hosen):</stage>
+            <p>D'r Herr Blotzmeier isch drunte un fröijt ob Sie gerischt sinn?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Wenn'r nur bi de Kannibale wär, der Geck!</p>
+          </sp>
+          <pb n="23" />
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ah, très bien, — er soll eruf kumme. 
+            <stage>(Colette ab)</stage>Tu permets, n'est-ce pas? kann ne doch nit uff d'r Baß stehn lonn. D'Mamme
+            isch au noch nit do.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Ha jo, — was will i mache. 
+            <stage>(Bei Seite.)</stage>I kann 'ne doch nit glich nüßschmisse, — verlicht e-n-andersmol.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Et tu seras gentil avec lui. —</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Soviel i kann. Weisch diß famos Stroßburjerditsch wo der redd, diß wachst m'r schunn zue der Naf'
+            nüß. Diß isch au neijmodisch — un riecht so stüdiert.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Allons Jean. 
+            <stage>(Œs klopft.)</stage>Entrez!</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(gigerlhafter Dreß, weiße Flanell-Mütze):</stage>
+            <p>Bonjour Monsieur-Dame.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette :</speaker>
+            <p>Kumme Sie nurre eryn, — nemme Sie Platz dort uff zellem Faudell.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Wie geht's Inne, Herr Contre, wie steht's Befinde. Immer munter, wohl schunn e Spaziergang gemacht
+            ?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>s'geht so, merci, — un bi Inne — au? So isch recht, nemme Sie doch Platz. 
+            <stage>(Bei Seite.)</stage>Ich geh los. — 
+            <stage>(Laut)</stage>Ah sapristi, i hab minne Stock uff'm Bureau stehn gelonn, — i mueß gehn, 'ne
+            hole, — sunsch griet 'r amend Füeß, denn er isch nett. Sie excüsiere, i kumm glich widder. Adieu. 
+            <stage>(Ab.)</stage></p>
+          </sp>
+        </div>
+        <pb n="24" />
+        <div type="scene">
+          <head>5. Scene.</head>
+          <stage>Juliette, Blotzmeier.</stage>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Fraid mich sehr, gnädigi Madam, Sie so frisch ze sehn. Hoffentlich hann Sie sich vun Ihrem Sturz
+            von denne Morje erholt? Denne Schreck, es isch m'r in min ganzes Ich ning'fahre, als ich Sie stürze
+            hab sehn. Awer min Kumpliment, Sie sinn fürchterli schnell widder uff de Bein g'sinn, nur die
+            Hauptsach', ohne Shade ze nemme, diß nenn' ich e Glück, e fawelhaft's Glück.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Jo, i hab chance g'hett, i hab awer au denne Bachstein, wo mitte uff d'r Stroß geläije isch,
+            erersch g'sehn wo i schunn dran bin g'finn. M'r meint grad, so Sache sinn expreß gemacht.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Gewiß, sehr möijli. Die Lytt in d'r Umgejed sinn unverschämt genue, so ebbs ze duen, ich hab schon
+            so ähnlichs erlebt. Do wäre Stein, Scherwe, gebrocheni Flasche, Näjel uff d'Stroß geworfe, nur um uns
+            Radler ze-n-ärjere, un ze schade. Awer ich sieh Gnädigi schun widder frischi Toilette gemacht. Die
+            Hosse stehn Inne reizend. Einfach großartig.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>s'sinn Hosse, nit meh un nit wenjer. 
+            <stage>(Bei Seite.)</stage>Min Mann hätt diß sotte höre!</p>
+          </sp>
+          <pb n="25" />
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Ja, gewiß, Sie hann entschiede recht, d'Dame hann üwerhaupt immer recht. — Awer d'gnädig Madam
+            verstehn dieselbe ze trauue, oh ganz entschiede, wie kenn Anderi ! Sie sinn großartig.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Wie Sie meine.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>O doch, ich wiederhol, Frau Contre, Sie sinn entzükend als Radlerin, als Huldigerin vum edle
+            Radsport. Sie sinn e Göttin uff'm Rad.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>I mein, Sie üwertriewe awer doch e bissel mit Ihre Kumplemente. Ich bin angedohn, wie alli Andere
+            au. Do find i nix abartigs dran.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>Ja, awer Sie hann e chic, Madam, e chic, e ganz abartiger chic..... großartig!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Allez, der kummt gar nimm vun simm chic erab! — Sie sinn zue galant.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>Ich wett döuisig geje eins, daß sämmtliche Stroßburjer Radfahrerinne Sie düen beniede. Un Ihri
+            Haltung uff'm Rad — graziös, anmüthi, delicat — oh — — — —</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Min Mann hett recht! — 
+            <stage>(Laut.)</stage>Die Andere kumme awer lang nit.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>Wenn ich als so newe Inne radel, do dräje sich nit ellein d'Räder unter minne Füeß, 
+            <pb n="22" />nein, min Bluet dräijt sich mit doppelter Schnelligkeit in minne Odere, un min Herz
+            pedaliert in minnere Bruscht vor Glück un Seligkeit, so, so — großartig!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Jetzt isch awwer genue, — Herr Blotzmeier Sie fawle.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Uff Ehr, Madame, s'isch min Ernscht, min ganzer Ernscht. Ich bin kenn Babbler, diß wisse Sie jo
+            selbscht, i saa nurr was wohr isch. Oh, wie gern dät ich noch viel meh sauwe. —</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Um's Himmelswille. — 
+            <stage>(Laut.)</stage>Merci bien, Sie sauwe grad genue — un jetzt höre Sie uff mit dem G'spaß, je
+            vous en prie.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Sehn Sie, Madame Contre — 
+            <stage>(Es klopft, bei Seite.)</stage>Shade!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ah tant mieux! Entrez!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>6. Scene.</head>
+          <stage>Die Vorigen, Mme. Trett, Ursule, Contre. (Madame Trett, eine dicke Person, Ursule, eine sehr
+          magere, alte Jungser, Beide sind als Velozipedistinnen angezogen.)</stage>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ah parfait, c'est charmant, daß 'r jeht do sinn. Jett kenne m'r uffpacke, wie 's Colette angedohn
+            isch. 
+            <stage>(Ruft hinaus in die Küche.)</stage>Colette, hopp isch Sie ferti, dummelt Sie sich.</p>
+          </sp>
+          <pb n="26" />
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett:</speaker>
+            <p>Wie geht's, ma fille. — Isch wohr bisch dü g'falle? M'r sieht d'r jo gar nix an. Hesch d'r nit weh
+            gemacht.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Non, Maman, pas le moins du monde.</p>
+          </sp>
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett :</speaker>
+            <p>Grad wo i d'Gaß eryn g'fahre bin, isch s'Ursule vun d'r ander Sytt kumme, et nous voila, Wo isch
+            d'r Herr Blotzmeier?</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(hervortretend):</stage>
+            <p>Entschuldige Sie, ihr Dame, i bin schun e gewissi Zitt do.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule</speaker>
+            <stage>(geht auf ihn zu):</stage>
+            <p>Ah — ich hab Sie jo gar nit g'sehn, excusez cher Monsieur.</p>
+          </sp>
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett:</speaker>
+            <p>Un ich au nit. — Das stecke Sie au do hinte.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Ich, ich hab d' Begrüßung nit störe wölle.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Quel homme de tact! Sie sinn e galant homme.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Sehr shmeichelhaft, Mademoiselle. — 
+            <stage>(Bei Seite.)</stage>Daß die immer mit mueßl</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Ja un wie geht's, cher Monsieur, ich hab Sie jo schun lang nimm g'sehn?</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Oh, ich bitt Sie — zitter vorgescht.</p>
+          </sp>
+          <pb n="28" />
+          <sp who="#mme_trett">
+            <speaker>Mme Trett:</speaker>
+            <p>Wo isch d'r Jean, — wo steckt 'r? Isch 'r als noch nit bekehrt. Wie schön wär's jetzt, wenn 'r au
+            mit radle dät! Nit wohr ?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette :</speaker>
+            <p>Bekehrt? s'isch absolument nit mit-m ze redde. Er kummt awer doch noch mit 'm Isebahn.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Diß hätt 'r nit gebrücht!</p>
+          </sp>
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett:</speaker>
+            <p>C'est incroyable, cet homme. Hett 'r widder üwer uns losgezöije, hein ?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Na i saa dir, Mamme, diß hättsch höre sotte. I hab, diß heißt, mir hann griet, s'isch kein gueter
+            Mumpfel meh an uns gebliewe.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>D'r Herr Contre isch unbegrifflich. Er isch geje de Furtschritt. Er isch nit modern, nein gar nit,
+            ha, ha, ha, unglaublich.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Maman, hesch schun diß neij blouse gsehn, wo i m'r uff de nächste Sundaa selbscht fawrizier.</p>
+          </sp>
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett:</speaker>
+            <p>Non, ma fille.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Oh, charmant, i hab e Surah entdeckt, so hesch noch keiner g'sehn. Kumm in d'ander Stub, i zaij
+            dir's. 
+            <stage>(Beide ab.)</stage></p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Herr Blotzmeier, Sie han m'r ewe üs'm Herze g'sproche, Sie hann ganz erecht, min Brueder isch
+            altfränkisch, ich bin ganz von Ihrer Meinung, genn Sie m'r d'Hand.</p>
+          </sp>
+          <pb n="29" />
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>S'isch nit derwerth, Fräulein.- 
+            <stage>(Bei Seite.) Nein, die Zuedringlichkeit.-(Laut.)</stage>Wisse Sie, i saa nurre, wie ich's
+            denk. Verlicht bekehrt sich d'r Herr Contre noch, un huldigt derno au dem edle, großartigi Sport, dem
+            schönschte Vergnüge, dem gröschte Genuß.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>S'wurd g'fährli! 
+            <stage>(Laut.)</stage>Sie schwärme, Fräulein.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Do mueß d'Lieb üwerhand nemme! Finde Sie nit au, Herr Blotzmeier. Ich kann m'r emol gar nit
+            andersch inbilde. Un sehn Sie, minner zuekünftig Mann, ja der mueß au Velo fahre. Sehn Sie, so wie
+            Sie's könne, so wär's m'r am liebschte. So einer dät m'r am beschte g'falle.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Awer, ich bitt Sie, Mamsell ! Ich kann — — —</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>O doch, Sie könne's famos, épatant Ich glaub nit, daß noch einer hie isch, wo so eleganti Curve
+            fahrt un so g'schickt eine zwische de 
+            <pb n="30" />Wäije durichführt. Wisse Sie noch, wie Sie mi vor vierzeh Daa zwische-n-eme Sandwaue un
+            e-re Kütsch durichg'führt hann? Ah, ich hab d Gänshütt schun g'hett, so satt simmer an de Räder vun
+            denne Wäije durihg'fahre. Un wenn Sie nit do wärde g'sinn, — i hab de Kopf schun verlore g'hett —
+            weiß i nit, was bassirt wär.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Alti Retsch ! 
+            <stage>(Laut.)</stage>Oh, die alt G'schicht, s'isch nit derwerth, daß m'r dervun redd.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule</speaker>
+            <stage>(eifrig):</stage>
+            <p>Nit derwerth, par exemple, oh doch! Un wo Sie mi derno sescht am Arm g'hebbt han, do hawi mi so
+            sicher g'funde, daß i d'Aue zuegemacht hab, un hab mich ganz Inne üwerlosse, mit 'm Gedanke, daß Sie
+            mich schun sicher üs dere böse Affär zeije wäre.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>So g'fährli isch's jo nit g'sinn. 
+            <stage>(Bei Seite.)</stage>Alti Chrestier! —</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Min ganz Lewe wurr i do dran denke, der Moment wurd m'r unvergeßli sinn, un ich bin Inne ewi
+            dankbar.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>I schwitz Bluet! — 
+            <stage>(Laut.)</stage>Awer Mademoiselle, i hab schun g'saat, daß Sie sich gar ken Mueij solle genn,
+            do nurre s'kleinscht Wörtel driwer ze verliere.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Nein, nein, diß erlaub ich ne nit ze sauue, un sehn Sie, ich hab Inne noch gar nit erecht 
+            <pb n="31" />danke könne fur die Heldethat, will i noch nit erecht de Zytt hab g'hett. Awer jetzt
+            isch's mini Pflicht un möcht's nit verfehle. Ich dank ne vun ganzem Herze. Do sin minni Händ! —</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>Awer — Mademoiselle — Fräulein — ihri Händ ? Ah, Sie wölle m'r d'Händ genn. Jo guet, un so wär
+            jetzt die G'schicht erledigt.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Merci, liewer, gueter, einziger Mann. 
+            <stage>(Sie schütteln sich lange die Hände. Contre, welcher bei den letzten Worten eingetreten ist,
+            bleibt erstaunt stehen.)</stage></p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre</speaker>
+            <stage>(für sich):</stage>
+            <p>Tiens, mais — do versteh i au nix weh. 
+            <stage>(Ab.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>7. Scene.</head>
+          <stage>Ursule, Blotzmeier, Mme. Trett, Juliette, Colette.</stage>
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett</speaker>
+            <stage>(kommt mit Juliette zurück):</stage>
+            <p>Nous voilà. Eh bien, ma fille, jetz mein i awer, daß 's Zytt wär uffzepacke, sunsch isch uff
+            einmol din Mann mit d'r Isebahn vor uns dort, wenn 'r au später aß mir furtfahrt.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>C'est vrai, Maman, mit sinn gerischt, — na un ihr?</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Na, un obb! 
+            <stage>(Laut.)</stage>Bewiß, gnädigi Hüsfrau mir stehn zue Dienschte, — je ender je liewer.</p>
+          </sp>
+          <pb n="32" />
+          <sp who="#colette">
+            <speaker>Colette</speaker>
+            <stage>(kommt herein in Pluderhosen u. s. w.):</stage>
+            <p>Madame, i kann d'Partie nit mitmache.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Comment? was fallt Ihre in.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Madame, minner vorderscht pneu isch leer geloffe, un halt kein Luft meh, — i hab allewäj denne
+            Morje wo i zuem Metzjer g'fahre bin, e Nauel uffg'hebt.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ja, dü liewer Gott — was mache, mir könne jetzt nimm länger warte, — do mueß Sie jetzt halt
+            d'heime bliewe?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>s'macht nix, Madame. — 
+            <stage>(Bei Seite.)</stage>Ich hab selwer mit ere Nodel ning'stoche !</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Sinn unseri Maschine drunte im Gang?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Ja, Madam.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Allons, en route, tout le monde.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Lewesretter, genn Sie mir de Arm bis nab?</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Daß de versüürsch ! 
+            <stage>(Laut.)</stage>Mit Vergnüje.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Wenn min Mann kummt, saat Sie ihm, wurum daß Sie nit mitkann. 
+            <stage>(Alle ab bis auf Colette.)</stage></p>
+          </sp>
+        </div>
+        <pb n="33" />
+        <div type="scene">
+          <head>8. Scene.</head>
+          <stage>Colette, Contre, Alphonsel.</stage>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <stage>(hinausrufend):</stage>
+            <p>Adje, bon voyage. All Heil! S'isch Zytt, daß sie los sinn, d'r Tortino mueß alle-n-Auesblik
+            kumme.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre</speaker>
+            <stage>(von rechts herein):</stage>
+            <p>Colette, wo sinn denn minni Lytt, sinn sie furt?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Grad sinn sie do d'Thür nüs.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Bon, — tiens, sans me dire adieu? Do hett's allewäj widder emol pressiert. Wenn nur d'r Gügück die
+            partie... ja, un Sie, was macht Sie denn au derno noch do, in Ihre Hosse ?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Wo i angedohn bin g'finn, hawi g'fehn, daß min pneu e Loch hett, i kann nit mit, s'flide hätt ze
+            lang uffg'halte. D'Madam hett g'saat, daß ich's ne üsrichte soll.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre :</speaker>
+            <p>Bon, bon. — 
+            <stage>(Bei Seite.)</stage>Hätt diß nit d'r Madam au bassiere könne, — pas de chance! A propos, i hab
+            noch Zytt, min Zuck geht erscht geje Middaa furt. Ebb daß i mi reis'ferti mach, will ich noch zue
+            mimm chapelier gehn, der mueß mir e frische Bändel um de Huet mache, — i komm derno noch emol
+            heim.</p>
+          </sp>
+          <pb n="34" />
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Guet, Herr. 
+            <stage>(Contre ab.)</stage>I bin uff Guffe un uff Nodle g'sinn. 
+            <stage>(Es klopft.)</stage>Ah, jetzt kummt 'r. — Entrez!</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel</speaker>
+            <stage>(kommt durch die Küche):</stage>
+            <p>Do bin i schun widder, Mamsell Colette — i bin d'klein Stäij eruff.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Comment, dü bisch's — ja was isch denn jetzt schun widder los ?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Gar nix! — E schöner Grueß vum Herr Tortino, un es isch'm arri Leid — — —</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Hein, was isch ?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>— — — daß 'r nit kumme kann, grad hett 'r e Depesch griet, wäje-m-e neje engagement, s'sinn großi
+            course in Sicht.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Ja hätt'r nit e Sprung kumme könne!</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel :</speaker>
+            <p>Nein er hett g'saat, daß 'r kümm d'r Zytt hett an d'Isebahn ze gehn. Do hett 'r m'r noch e kleins
+            Lädel genn, wo er selbscht het welle bringe, er hett g'saat i soll's ne genn.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Merci Kind. — Ah, diß isch awer nett, e broche, e kleins Velo! — Ja d'r Tortino hett goût, er weiß
+            was schön isch un er denkt au allewyl an mi. Er isch zue artli, e g'fitzter Typ.</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel :</speaker>
+            <p>Sie han erecht, Mamsell Colette — er hett m'r sogar e halwer Marik Trinkgeld genn.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Glückspilz, kleiner. Sä, do hesch noh e halwer.</p>
+          </sp>
+          <pb n="35" />
+          <sp who="#alphonsel">
+            <speaker>Alphonsel</speaker>
+            <stage>(freudig):</stage>
+            <p>Zwei halwi macht e Ganzer, so hamm'rs in d'r Schuel gelehrt. Nit Mamsell Colette?</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Un dü bisch au e Ganzer.</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Ja, er hett m'r noch ebs g'faat, awer — — — —</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Awer? — was — erüs mit.</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Jo, nein, i tröij nit.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Isch diß so ebbs aris?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Nein, awer i schenier mi.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Voyons, Monsieur Alphonse, e so großer Bue, fascht e Mann !</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Er hett m'r e Shmutz genn un hett — — g'saat — — — —</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Alle hopp, gebabbelt.</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Jo, er hett gemeint, i soll ne Inne an simm Platz genn.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Ah, ah, epatanter Typ, d'r Tortino, — e famosi Idee. Sunsch nix — un do machsch dü so G'schäfte?
+            Allons komm her un gib m'r ne.</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel</speaker>
+            <stage>(zögernd):</stage>
+            <p>Ja macht diß nix, i hab gemeint — — —</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Ulle, i sich schunn, s'geht nit andersch. — Do hesch noch e große Nickel — here mit dem
+            Shmutz.</p>
+          </sp>
+          <pb n="36" />
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Zwanzig Pfenni! Do hann Sie ne. 
+            <stage>(Er gibt ihr zögernd einen Kuß.)</stage></p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette</speaker>
+            <stage>(weich):</stage>
+            <p>Merci lieb's Alphonsel, — dü machsch doch wenigschtens dinni Commissione so guet m'r kann. Komm
+            jetzt griesch au noh einer vun mir, hytt hesch alles im doppelte G'schirr.</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Ja Mamsell, hytt griej i alles zwei Mol. Zwei halwi Marik hawi kriejt un zwei Shmitz. E fuerichter
+            Daa, — denne schriw-i in de Kalender. Jetzt will i awer gehn, sunsch wurr i g'scholte, daß i so lang
+            furtblie — un do rauchts als.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette :</speaker>
+            <p>Wurum nit gar. Hesch Angscht, griesch denn als noch Schläij, so e großer Bue?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Jo — nein.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Jo nein, au guet, wurum denn als ?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Ja d'r Babbe meint glich widder, i bin Velo g'fahre, un er will's nit hann, — er saat als, ich
+            brech' m'r noch emol de Hals, er kann 's uewerhaupt nit verbutze.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Tiens, der isch grad wie minner Herr, — un wer weiß, ob die wo drüwer schelte nit au emol
+            fahre?</p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Afphonsel:</speaker>
+            <p>Diß isch sicher, Mamsell, do wott i fascht wette! 
+            <stage>(Es klingelt.)</stage>Schellt's bi Inne! Do geh' i los!</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>I weiß nit. 
+            <stage>(Es klingelt sehr heftig.)</stage>E Dunderschdaa! wär rißt denn do am heiterhelle Daa 
+            <pb n="37" />d'Schell erunter? I mueß emol uff de Gang, s'Fenschter nüs lueije. 
+            <stage>(Auf der Flur.)</stage>Herrjesses, herrjesses, was isch jetzt, was isch jezt! E Kütsch,
+            d'Madam, ihri Mamme, d'Mamsell Ursule, d'r Herr Blotzmeier — oh weh wie sehn die üß! 
+            <stage>(Kommt herein.)</stage></p>
+          </sp>
+          <sp who="#alphonsel">
+            <speaker>Alphonsel:</speaker>
+            <p>Was isch denn Mamsell Colette, wie sehn Sie üß, isch's nit g'hier? Ich riß üss, adje Mamsell
+            Colette, 
+            <stage>(Ab durch die Küche.)</stage></p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette</speaker>
+            <stage>(an der Thür, hinaussprechend):</stage>
+            <p>Awer Madam, awer Madam! —</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>9. Scene.</head>
+          <stage>Colette, Mme, Trett, Ursule, Juliette, Blotzmeier, e Kütscher.</stage>
+          <stage>(Juliette hinkt und wird durch Herrn Blotzmeier auf das Sopha geführt, Mme. Trett hat den Arm in
+          einer Schlinge, welche sie aus einem Plaid gemacht hat. Ursule hat eine mächtige Shramme auf der Wange,
+          sie hält dieselbe mit dem Taschentuch zu. Blotzmeier hat zerrissene Kleider, Alle sind voll Staub und
+          Schmutz.)</stage>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Mon Dieu, die Partie! oh min Fueß, min Fueß.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Madame, um's Gotteswille, was isch g'schehn ?</p>
+          </sp>
+          <pb n="38" />
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Ja mir han hitt kein Glück, mir sinn Alli g'stürzt, Alli,</p>
+          </sp>
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett:</speaker>
+            <p>Minner Arm, — er ish üssenand! Oh, uh, ah!</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Un min Bake brennt wie Fiehr! Mini Zähn lottle m'r im Müül erum. Colette, springt Sie so schnell
+            als Sie kann zuem Dokter, d'Madam hett amend de Fueß gebroche.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>Jesses nein, isch diß e G'schicht, i lauf was i kann. 
+            <stage>(Ab.)</stage></p>
+          </sp>
+          <sp who="#kutscher">
+            <speaker>Kütscher:</speaker>
+            <p>Heh, wo soll i denn die kapütene Velo anne keije, i hab' sie drunte im Gang.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Lonn Sie, — oh, mon pied, — lonn Sie nur dorte.</p>
+          </sp>
+          <sp who="#kutscher">
+            <speaker>Kütscher :</speaker>
+            <p>Jo s'isch doch nur noch e Hüffe alt's Ise. Disch ish ebbs for in's Mischtfässel. — Adje.</p>
+          </sp>
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett :</speaker>
+            <p>Warte Kütscher. — Ma fille, i geh, i fahr direkt in d'Langstrooß zue mimm masseur.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>I fahr au mit, direkt zuem Abbedeeker, un hol m'r e Hebbpflaschter, au bin i so drecket.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>S'isch nit nöthi. Geh nurr nüwwer in minn Zimmer, do findsch was de brüchsch im toilette drinne.
+            Gehn — au! — gehn — soignez-vous.</p>
+          </sp>
+          <pb n="39" />
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett :</speaker>
+            <p>Ja liebs Kind, do mueß i di jo ellein lonn.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Ach wenn Sie's erlauwe, — so wurr i bi d'r Madame Contre bliewe, bis d'r Dokter kummt.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Sie sinn e ritterlicher, liewer Mensch. — Juliette i geh nüwwer.</p>
+          </sp>
+          <sp who="#mme_trett">
+            <speaker>Mme. Trett :</speaker>
+            <p>I geh au. Ma fille, schicksch uns glich nouvelle, wie's geht, gell, wenn d'r Dokter do isch
+            g'sinn.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Oui, Maman, — s'isch allewäj nit so arri. Au!</p>
+          </sp>
+          <sp who="#mme_trett #ursule">
+            <speaker>Mme. Trett, Ursule:</speaker>
+            <p>Au revoir. 
+            <stage>(Ursule ab durch die Seite, Mme, Trett ab durch die Mitte.)</stage></p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Ellein ! — 
+            <stage>(Laut.)</stage>Gnädigi Madam, wie isch diß alles nur so schnell kumme? Saue Sie m'r doch, was
+            Sie gemacht han, han Sie dem Milichkärichel nit üswiche kenne ?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Nein, s'isch — oh — oh — nimm gange.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>I hab Sie noch warne welle. Un d'r Germania sin Sie mit Ihrem Rad d'rvun g'schosse, wie wenn Sie
+            Fleijel hätte. Sie sin g'fahre wie e-n-Engel, awer zue schnell.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>I wär jo durichkumme, awer en même temps isch uns uff minnere Sytt die Kütsch 
+            <pb n="40" />ergeje kumme, un d'rno d'r tramway, — no weiß i nimm — wie's gange-n-isch !</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>Ja, d'rno sinn Sie an's Kärichel angerennt, un mir wo dicht hinte noch kumme sinn, sinn üwer Sie
+            nüsg'flöije. Nein, so e Böije in d'r Luft, hawi noch keiner gemacht. Ich häb sicher kein Hütt meh an
+            de Kneij.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ich, Sie armer Mann — was, ja wurum hann Sie denn diß noch nit g'saat? gehn Sie doch un lonn Sie
+            sich verbinde.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>Awer ich bitt Sie. 
+            <stage>(Bei Seite.)</stage>Oh Glück, sie bedüürt mi. 
+            <stage>(Laut.)</stage>Nein, Madam, im e so e Moment kann ich Sie nit im Stich lonn, nein liewer de
+            Tod!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Was packt denne? 
+            <stage>(Laut.)</stage>Ja, ja, was wurd min Mann do d'rzue sauue, mir wäre krieje, un ich b'sundersch.
+            Herrjeh, wie if min Fueß g'schwolle.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Awer Frau Contre, Ihr Mann kann do nix dergeje saue. Wenn 'r Sie so Iiede sieht, er wurd doch nit
+            so roh sinn.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ja meine Sie — er wo's nit sehn kann, daß i — oh min Füeßel — es sticht, es sticht! Wenn i nurr
+            erersch denne Schueh üshätt. Diß wurd bös gehn.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Es sticht, Madame, es sticht — ja mir sticht's au in's Herz nin, wenn i an Ihri 
+            <pb n="41" />Schmerze denk. G'statte Sie mir verlicht, daß ich ne e bissel b'hilfli bin?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Nein, was denke Sie denn — diß schickt sich nicht.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Awer in d'r Noth, wurum denn nit? E Samariterdienscht, e Liewesdienscht. Erlauwe Sie doch.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette :</speaker>
+            <p>S'isch wohr, wäje mir, i kann's jetzt doch fascht nimm üshalte.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Ich bin üwerglückli. 
+            <stage>(Kniet nieder um ihr zu helfen.)</stage>So genn Sie mir jetzt diß krank Füeßel, — oh wie
+            klein!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Au — mache Sie jetzt kein Plän.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Hab i ne weh gedohn, — nurre vum blose anfasse? Sehn Sie, i benied Ihre Mann.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ja wurum denn?</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Gewiß, er isch ze beniede, so e schöns Frauchen ze hann. Wie kann 'r nurr so sinn, geje-n-e so
+            schön's Wywele.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Ah, ah, — wart nur ! 
+            <stage>(Laut.)</stage>I versteh Sie nit. Ze helfe Sie mir emol denne Schueh üszeje, oder stehn Sie
+            widder uff.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Sie verstehn mi nit? Wurum verbiet er Inne ze radle. Kammer im e so e göttliche G'schöpf etwas
+            abschlaa, do mueß m'r e Stein in 
+            <pb n="42" />d'r Bruscht hann, awer kein Herz. Oh, Madame — Juliette —</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Oh, diß isch jo e Deklaration. 
+            <stage>(Laut,)</stage>Höre Sie, minn Mann isch — ah non, c'est trop fort!</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>Hann Sie so weh? Arm's Kind.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Jo, jo, mache Sie jetzt emol ferti.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Nur noch ein Wort, schöni Madam, nurr e klein's Wörtel möcht i 'ne saue.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(bei Seite):</stage>
+            <p>I friej Angscht! — 
+            <stage>(Laut.)</stage>Jetzt isch genue. Kein Wort meh, od'r i ruef! —</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>10. Scene.</head>
+          <stage>Die Vorigen, Ursule, Contre, dann Colette.</stage>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(Ursule kommt herein rechts, auf der Wange klebt ihr ein großes Pflaster.)</stage>
+            <p>Oh, Ursule !</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>D'r Deifel! — Oh weh! 
+            <stage>(Steht auf.)</stage></p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Ah, mon Dieu! — D'r Herr Blotzmeier uff de Kneij vor'm Juliette. — Was soll 
+            <pb n="43" />diß heiße? — 
+            <stage>(Vorwurfsvoll.)</stage>Juliette — Juliette! -? —</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Jetzt will i mi räche. — 
+            <stage>(Laut.)</stage>Ah, Ursule, dü kommsch grad wie geruefe, — ma chère, e großi nouvelle, — je te
+            félicite!</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Hein, — wo will diß nüß?</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Quoi — was isch?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Eh bien, denk emol was e surprise, — e Surprise, wo dich angeht. D'r Herr Blotzmeier hett m'r grad
+            ewe sinni Lieb — zue dir g'ftande un hett bi mir uff de Kneij um dinni Hand ang'halte.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier:</speaker>
+            <p>Ich! —</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule :</speaker>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ich hab ihm versproche ze helfe, un hab'm g'saat, daß 'r hoffe kann.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(starr, bei Seite):</stage>
+            <p>Was, — ich! — 
+            <stage>(Laut.)</stage>Ja — — ja — -!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Tiens, Ursule, do hersch's selwer.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule</speaker>
+            <stage>(freudig):</stage>
+            <p>Ja, s'isch wohr, er saat ja. Ah, mon Dieu, isch's möjli, — diß Glück? Oh oui, i hab's gewüeßt, ich
+            hab's g'spiert, daß 'r mi gern hett.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Himmel hilf! — 
+            <stage>(Laut.)</stage>Fräulein Ursule, ich —</p>
+          </sp>
+          <pb n="44" />
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Was, Fräulein, do gitts kein Fräulein meh. 
+            <stage>(Blotzmeier will sprechen.)</stage>Oh, redd nitt, i weiß jo, was de sauwe witt, — Ich
+            acceptier, ich acceptier. Tiens, i bin ganz dinne, du lieb's, verzuckert's Männel!</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Très bien, à la bonheur. Je le savais, daß de nit nein fauwe wursch.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(leise zu Juliette):</stage>
+            <p>Frau Contre, ich will awer — —</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(ebenso, aber fest):</stage>
+            <p>Sie müehn, — diß sinn Sie mir schuldi.</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Oh, quel bonheur, in bin ganz verzwirwelt im Kopf.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier :</speaker>
+            <p>Frau Contre, ich mueß mi bi Inne bedanke, awer — — —</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette</speaker>
+            <stage>(zu ihm):</stage>
+            <p>Noch e Wort, un i saa Alles mim Mann.</p>
+          </sp>
+          <sp who="#blotzmeier">
+            <speaker>Blotzmeier</speaker>
+            <stage>(bei Seite):</stage>
+            <p>Oh weh, — oh weh! — 
+            <stage>(Laut.)</stage>Fräulein Ursule, i möcht ne doch — — —</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Was denn, Schätz'l? Oh, ich weiß schunn, was dü mir sauwe witt. Tu m'aimes, i weiß es jo schun
+            lang. Hättsh m'rs jo au selwer sauwe könne, — i hätt au glich acceptiert. Oh, was e Glück, — komm in
+            minni Ärm dü Herzkäfer, un gib m'r e Schmutz! 
+            <stage>(Sie umarmt ihn, indem er noch widerstrebt.)</stage></p>
+          </sp>
+          <pb n="45" />
+          <sp who="#contre">
+            <speaker>Contre</speaker>
+            <stage>(kommt herein, bleibt verwundert stehen):</stage>
+            <p>Was Gücksels, qu'est-ce que c'est qu'ça? — Sieh i erecht? — 
+            <stage>(Eilt auf seine Frau zu, welche immer noch auf dem Sopha sitzt.)</stage>Liebs Wywele hesch
+            arri Weh, geh zaij m'r emol diß Fueßel. Hesch doch nix gebroche, hesch allewäj nurre de Fueß
+            verrenkt? As-tu mal ?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Jean! — Wie, dü weisch schunn?</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>Mais oui, i hab's Colette do vorne in d'r Gaß angetroffe, i weiß Alles! Oh, mais, dü hesch jo noch
+            de Schue an. Attends, i helf d'r ne üßzeije. 
+            <stage>(Er thut's.)</stage>voilà, — mais, saa mol, was isch denn do loß?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Mon cher ami, je te présente deux fiancés.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre :</speaker>
+            <p>Ah bah! — nit möjli? — 
+            <stage>(Bei Seite.)</stage>Tiens, tiens, enfin — minni beschte Wünsch, i gratelier! —</p>
+          </sp>
+          <sp who="#ursule">
+            <speaker>Ursule:</speaker>
+            <p>Merci, merci. 
+            <stage>(Sie spricht mit Blotzmeier, welcher ganz verdutzt darein schaut.)</stage></p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre</speaker>
+            <stage>(zu Juliette):</stage>
+            <p>Eh bien, ma femme, was haltsch de jetzt vum Velofahre. Fahrsch später widder ohne dinne Mann?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>I weiß nit, nein. — Dü hesch allewyll erecht g'hett. E Frau isch in zue viel 
+            <pb n="46" />G'sohre üßg'setzt. I blick jetzt d'heim in minnere Menasch, bi dir.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre:</speaker>
+            <p>A la bonne heure, un ich hab widder minni klein Frau, min lieb Wywele.</p>
+          </sp>
+          <sp who="#colette">
+            <speaker>Colette:</speaker>
+            <p>D'r Herr Dokter isch im salon.</p>
+          </sp>
+          <sp who="#contre">
+            <speaker>Contre :</speaker>
+            <p>D'r Dokter, hm, — führt Sie ne glich eryn.</p>
+          </sp>
+          <stage>Der Vorhang fällt.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

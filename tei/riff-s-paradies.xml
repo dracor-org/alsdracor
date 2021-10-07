@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">s' Paradies</title>
+        <title type="sub">E luschdigs Schwänkele in aam Uffzug von Jean Riff</title>
+        <author>
+          <persName>
+            <forename>Jean</forename>
+            <surname>Riff</surname>
+          </persName>
+          <idno type="wikidata">Q96696621</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Vedisha Toory</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Andrew Briand</name>
+          <name>Hoda Chouaib</name>
+          <name>Barbara Hoff</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">als000022</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106559140</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109589b</idno>
+          <bibl type="originalSource">
+            <author>Jean Riff</author>
+            <title type="main">s' Paradies</title>
+            <title type="sub">E luschdigs Schwänkele in aam Uffzug von Jean Riff</title>
+            <publisher>Verlag von E. Finck, Alsatica-Verlag, Strasbourg</publisher>
+            <date when="1922" type="print">1922</date>
+            <date type="written" />
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="jacques">
+            <persName>Jacques</persName>
+          </person>
+          <person sex="FEMALE" xml:id="marie">
+            <persName>Marie</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="2" />
+      <castList>
+        <head>PERSONE:</head>
+        <castItem corresp="#jacques">
+          <role><persName>Jacques</persName></role>,
+          <roleDesc>valet de chambre</roleDesc>.
+        </castItem>
+        <castItem corresp="#marie">
+          <role><persName>Marie</persName></role>,
+          <roleDesc>femme de chambre</roleDesc>.
+        </castItem>
+      </castList>
+      <set>
+        <head>Dekoration:</head>
+        <p>Eine Ruhebank inmitten eines Gartens.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="3" />
+      <div type="scene">
+        <head>1. Scene.</head>
+        <stage>Jacques.</stage>
+        <stage>(Jacques, mit karrierter Hose, farbiger Weste und weißer Herzschürze bekleidet, tritt rückwärts
+        gehend von rechts auf, macht einige übertriebene Verbeugungen und spricht in spöttischem Tone:)</stage>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Jaja, Madam. — 's isch guet, Madam! — 's wurd bsorjt, Madam!</p>
+          <stage>(zum Publikum):</stage>
+          <p>Wenn unseri Madam bekumme däet was ich ere wünsch, no müeßt se emol vor alle Dinge jede Daa e Kilo
+          zünämme, bis se am e schöene Daa v'rknelle däet wie e gebrooteni Bluetwurscht. Die Hawwergais, die
+          Häriseel, die Linsespaltere und Pfennifuchsere, die — — die gifti Krott, die miserawel! — Pardon! —
+          Wenn ich mich v'rzürne wott, ze däet ich ere noch ebs ganz anderschs v'rzähle! Aw'r naan, ich will mir
+          mini Ruehj reserviere. Nit daß ich mir wäeje Dere 's Läwe süür mach! — 's falt m'r in! — So ebs daet
+          ere jo basse! — Denn uff dies geht se üs, Daa fer Daa. kann ich ebs d'rfür, daß ich numme valet de
+          chambre bin?! - kann sie ebs d'rfür, daß sie Madam isch worre?! — Worum isch's nit umgekehrt?! — Worum
+          ich sie nit valet de chambre und ich d'Madam?!-</p>
+          <stage>(Es klingelt.)</stage>
+          <p>Aha! — Sie schellt wid'r emol e Düür, unseri Madam ! — Die lebt jo nit ruehji, wenn se merkt, daß
+          Unseraans emol e bissel schnüüfe köent.</p>
+          <stage>(Es klingelt.)(wü-</stage>
+        </sp>
+        <pb n="4" />
+        <stage>tend gegen rechts)</stage>
+        <p>Jo, riß d'r e Arm erüs, alt's Rüppeyse!</p>
+        <stage>(geht gemächlich rechts ab.)</stage>
+      </div>
+      <div type="scene">
+        <head>2. Scene.</head>
+        <stage>Marie. (Jacques Stimme.)</stage>
+        <stage>(Marie mit weißer Haube und weißer Herzschürze bekleidet tritt mit einer halbwelken Rose in der
+        Hand von links auf.)</stage>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(bedauernd):</stage>
+          <p>Oh, dies schöene Rösele. Gescht noch so nätt geblüejt, und hyt schun welk! — 
+          <stage>(seufzt tief auf.)</stage>— O ja, so isch's halt emol uff d'r Welt! — So geht's mit de Rose — so
+          geht's mit de Maidle. M'r blüehjt — m'r wurd umschwärmt — m'r v'rwelkt — un wurd gemiede! 
+          <stage>(Starkes Geklirr hinter der Bühne.)</stage></p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(erschrickt):</stage>
+          <p>Uh! Do gitt's Schärwe?!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <p>
+          <stage>(hinter der Scene):</stage>E Millonezunderschtzewwerst soll d'rzwische nin bängle, aans vun unte
+          un aans vun owwe — wenn's will!!!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Aha, 'skracht in d'r Kiche, no wurd's au bal rauche! 
+          <stage>(Es klingelt.)</stage></p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Hoppla! — Was hawich nit gsaat? — 's raucht schun! 
+          <stage>(Es klingelt.)</stage></p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(hinter der Scene.:</stage>
+          <p>Jo riß d'Schell vun d'r Wand erab, alter Nißkraawe! 
+          <stage>(Kommt hastig von rechts.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>3. Scene.</head>
+        <stage>Marie.- Jacques.</stage>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Oho, Jacques, so böes gelüünt?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(wütend):</stage>
+          <p>Wenn ich nin kumm, ze riß ich ere diesmol d'Barriek vum Schäddel, daß se au emol weiß, was schelle
+          heißt! 
+          <stage>(eilt erregt nach links ab.)</stage></p>
+        </sp>
+        <pb n="5" />
+      </div>
+      <div type="scene">
+        <head>4. Scene.</head>
+        <stage>Marie.</stage>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>'s isch nit halwer eso schlimm. Wenn'r nin kummt, no isch wied'r d'Madam hinte un d'Madam vorne. —
+          Ja, d'r Jacques! — Hahaha! Er isch e Dschori! — E guetmuethiger Dschorit -E aanfältiger Dschori! — Er
+          het's grad wie die Hund, wie erscht's Herz han ze belle, wenn sie innewendi hinterem guet v'rrejelte
+          Hofdärel stehn! — Haha! — Mit so eme Mann wär guet läewe. — So aaner dhät sich zehje loon, so wie m'r
+          'ne gern hätt. — Alt genuej zum hyroothe wär 'r juschtemend, un ich glaab küm, daß ich's 'm abschlaawe
+          dhäet! — Er het e paar Fränkle uff d'r SparkaB, ich hab min Gedüech un e Bettlad — brücht m'r sunscht
+          noch vielerlei mehr fer de Anfang? — Was noch fehlt, schafft m'r sich so v'rplämpelterwies an. — E
+          Hauptbedingung isch numme: m'r mueß z'halb Zweit sin zem hyroothe, un — — — ım'r mueß enander welle. — 
+          <stage>(setzt sich auf die Bank.)</stage>— M'r mueß enander welle?! — 
+          <stage>(seufzt tief auf.)</stage>— Wie wenn ich de Jacques nit wott?! — O Gott, o Gott, o Gott! 
+          <stage>(Jacques tritt unbemerkt von links ein.)</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>5. Scene.</head>
+        <stage>Marie. — Jacques.</stage>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(seufzt):</stage>
+          <p>Ich gieb's 'm jo jede Daa dytli genüej ze v'rstehn, aw'r er merkt nix! — Er merkt nix!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wer merkt nix?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(springt mit einem erschreckten Aufschrei in die Hôhe.)</stage>
+          <p>Aw'r Jacques, wie kann m'r numme eso schliche?!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(erstaunt):</stage>
+          <p>Schliehe? — Un d'rbie saat d'Madam alle gelte zue m'r: ich däet dappe wie e Elephant?!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Die het jo ihrer Läwe noch gar kaan Elephant gsehne! — Sie renomiert halt gern mit ihre
+          astronomische Kenntnisse.</p>
+        </sp>
+        <pb n="6" />
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Aw'r numme fer mir 's Läwe süür ze mache. — Sie kann mich halt nit schmecke. — Ich sie aw'r au
+          nit!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Rej Dich doch nit uff, Jacques. — Het se 's mit mir nit 's nämli? Dhuet se mich nit au d'halb Zyt
+          ärjere un küjoniere, daß ich grüen un gääl könnt wäre vor Pläsier? — M'r mueß aw'r allewiel bedenke:
+          wenn d'r Mensch ins Alter kummt, no wurd'r wunderli. — Unseri Madam — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>isch ewwe e-n-alts Mensch!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Aw'r Jacques!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ei na, sie isch doch kaan Stück Vieh?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Geh, schäm Dich doch e bissel, Jacqes! Ich hab ewwe numme welle saawe: unseri Madam het ihri Lüüne
+          zyttwies un randswies, wie dies ewwe 's Alter eso mit sich bringt. — Wenn se aw'r d'rnoo ihri
+          "Rootschläej" uff uns los renne loßt, no loon mir se ewwe ze aam Ohreläppel nin un zem andere wied'r
+          nüs schnärre. — Schmerzlos!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(kraut sich hinter den Ohren):</stage>
+          <p>Jaja, 's isch alles räecht, un ich will unserer Madam au nix schläechts wünsche — - behüet selle m'r
+          sin — aw'r Pläsier dhäet's m'r halt mache, wenn ere emol e Elephant mit glichlinge Füeß uff de Mauue
+          hüpse däet! — — —</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachned):</stage>
+          <p>Aw'r Jacques!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Numme daß se 's inne dhäet wäre, was unter eme Elephant v'rsteht, der alt Pomad- hafe!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(sich räuspernd):</stage>
+          <p>Höer Jacques — jetz — jetz will ich — jetz will ich Dich ebs fröije.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ja? — Was denn?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Jacques, Dü wit doch ganz sicher nit diner Läwelang d'Füeß unter fremdi Lyt ihrer Disch strecke?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Naan, ganz sicher nit.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Un speziell do in dem Hüs gfallt's D'r nimmi erächt?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(setzt sich mißmutig auf die Bank):</stage>
+          <p>Naan, ganz und gar nimmi.</p>
+        </sp>
+        <pb n="7" />
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lauernd):</stage>
+          <p>Un schun lang nimmi? Gell nit?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Schun arig lang nimmi.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Maansch, — mir au nimmi.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(überrascht):</stage>
+          <p>Dir g'fallt's au nimmi? -Oho?-</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Aw'r Jacques, hesch denn noch nix gemerkt?!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Abah.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(erstaunt):</stage>
+          <p>Hesch denn iewerhaupt noch gar nie ebs gemerkt?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Kaan Krimmele.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(schmollend):</stage>
+          <p>Aw'r Jacques!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ja dü liewi Zytt, was hawich denn merke selle? — M'r macht sini Arweit de Daa iewer, loßt sich alle
+          finf Minüte vun d'r Madam anhüche und abkanzle, daß m'r üs d'r Hüt erüsfahre un sich trüri d'rnäwe
+          setze möecht; m'r plänkelt uff de Fyrowe — — un so gehn aam no die Dääj erum-</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(seufzt):</stage>
+          <p>Ja, so gehn aam d'rnoo die Dääej erum, un d'rbie wurd m'r no als älter un älter — jaja - — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>'s isch au schun e schöeni Zyt here, zyter aß Dini Konfermation gemacht hesch, gell Marie?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(seufzend):</stage>
+          <p>Dies isch's jo grad.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Was denn?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Aw'r Jacques, merk'sch denn als noch nix?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(springt auf):</stage>
+          <p>Zem Gücksel noch emol, was soll ich denn allewiel merke?!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Jacques, Dü bisch e bissel viel aanfälti.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Aanfälti?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Eijetli — nit aanfälti — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Aw'r e bissel viel dumm, hein?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lächelnd):</stage>
+          <p>Zell will ich jetz nit grad saawe, aw'r-</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Höer, Marie, jetz glaawi iewer halwer daß ich ebs merk.</p>
+        </sp>
+        <pb n="8" />
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(freudig):</stage>
+          <p>Ja?! — Was denn?!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Bscht! — Numme langsam! — Dü hesch doch noch meh uffem Herze?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(freudig):</stage>
+          <p>O ja, noch arig viel!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ei na, ze babbel numme. 
+          <stage>(lachend)</stage>Ich merk ebs! — O je, ich merk ebs! - Hahahahaha!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Jacques -kurz un guet — gieb m'r Antwort uff mini Fröije — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Uff was fer Fröije?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Jacques, löij, mir sin jetz schun e paar Jährle do bienand in dem Platz. Mir han's — ei- jetli ich
+          hab's so noochetnooch d'rzü gebroocht, daß mir per "Dü" mitnander stehn, aw'r sunscht isch's im
+          Allgemeine grad noch's nämli wie am erschte Daa, wie m'r uns kenne han lehre. — 's kummt m'r grad vor,
+          wie wenn m'r vor ere himmelhoche Müür stehn däete. — Do steht d'M üür — do stehn mir — un kaan Macht
+          stellt sich in wie die Müür umrennt — un do stehn mir Zwei ewwe no, hilflos wie zwei klaani Kinder, un
+          kumme nit wyttersch, — un kumme nit wyttersch — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(gähnend):</stage>
+          <p>Ei no bliewe m'r halt e Gottsname vor dere Müür stehn. — Weisch, ich-bin kaan Friend vum klettere,
+          bsunders wenn's hoch owenüs soll gehn. — Oho!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Aw'r Jacques, ich hab jo numme e V'rglich gstellt.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Gott sej Dank! — Ich schwitz nämli dene Wäj schun! — Aw'r höer, ich hab doch gemaant, Dü wottsch
+          mich ebs fröije?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Ja, — ei nadierli hawich Dich ebs fröije welle.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Na, ze fröij doch emol, ich bin gspannt wie e Bareplee biem Räejewetter.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(momentan etwas verwirrt):</stage>
+          <p>Jacques — Dü — Dü gehsch od'r Dü wottsch iew'r kurz od'r lang üssem Dienscht?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Isch dies au wied'r e V'rglich?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Ich bin am fröije.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ah jaso. — Na, ze fröij wyttersch.</p>
+        </sp>
+        <pb n="9" />
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Dü machsch dies Johr nimmi ganz üß in dem Platz do?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wer saat zell?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(bestimmt):</stage>
+          <p>Ich!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Hesch D'r d'Kart schlaawe loon?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Jacques, ich bin am fröije.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ah ja, zem Dunterlättel — — —</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Un wenn Dü no do furt gehsch —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wart e Moment, ich will mich zerscht setze — 
+          <stage>(setzt sich auf die Bank)</stage>So, jetz wytterscht</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Ja, un wenn Dü no do üB dem Platz gehsch, no bisch-zem letschtemol in Dim Läwe Do- mestique gsin
+          ?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wenn ich vun do furt geh — jaja, zem. letschtemol no! — No isch üsgedomestiquelt.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(freudig):</stage>
+          <p>Un mit Dim zammegsparte V'rmüije fangsch d'rnoo e Krämel an — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>In d'r Krämergass?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Un d'rnoo gründsch D'r e eijener Hüsstand?!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(aufhorchend):</stage>
+          <p>Hein?! — Was fer e Stand?!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(unbeirrt):</stage>
+          <p>Löijsch Dich no nooch eme schöene, brave, rechtschaffene Maidel um — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Hein?! — Worum jetz grad nooch eme Maidl?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Dü nimmsch e Maidel wie koche, nähje, strieke, wäsche, Strümpf stopfe un sunscht alles mache kaan —
+          — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Marickel — hahahaha — ich merk schun wied'r ebs!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Un dies Maidel hyrootsch no — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Oeh la, Schimmel! — Ja Hepplamepperle! — Ich merk's, wo's nüs will! — Ah, un Dü hesch anoch gemaant
+          ich merk nix! — 
+          <stage>(sing)</stage>"Dü hesch jo gar kaan Ahnung, wie hell d'r Schääkele isch".</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(eifrig):</stage>
+          <p>Ei na, wenn Dü no hell genuej bisch, no wäre-m-'r au enandernooch Maan un Frau un krieje enander vun
+          Daa ze Daa liewer — un d'r- 
+          <pb n="10" />noo läwe-m-'r glichli mitnand -un d'rnoo — un d'rnoo kumme die herzige klaane,
+          wuschberliche, süeße Bébé — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(ist langsam aufgestanden):</stage>
+          <p>Sunscht nix wie Knepfle! Naan, Mamsel Marie, sie kumme noch nit! — Aeh-äh — sie kumme noch nit! —
+          Iewerhaupt — nooch mienere Maanung, laaft schun wied'r viel zeviel vun dem Gerührs do erum. Jetz sogar
+          noch Negerle un Anamitle!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Aw'r Jacques!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Na, ich hab jo nix do d'rgeje. — E jeds Dhierel het sin Pläsierel, un jedem Narr gfallt sini
+          Kapp!-</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Jacques!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Was beliebt?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Gell Dü hesch die klaane, herzige Kinderle gern?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>O ja. Arig gern, aw'r numme in andere Lyt ihri! 
+          <stage>(Es klingelt.)</stage></p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(ärgerlich):</stage>
+          <p>D'Madam schellt! — Isch's jetz fer mich od'r fer Dich? 
+          <stage>(eilt gegen rechts.)</stage></p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Sie sell warte, die alt Schatüll — 
+          <stage>(eilt Marie nach und zieht sie an der Hand wieder zurück.)</stage>Numme nit glich geloffe! Mir
+          han se dennewäej schun viel ze viel v'rwöehnt. 
+          <stage>(Es klingelt.)</stage></p>
+        </sp>
+        <sp who="#jacques #marie">
+          <speaker>Beide:</speaker>
+          <stage>(eilen gegen dem Ausgang rechts, fahren mit dem rechten Zeigefinger ruckartig unter der Nase
+          durch, schlagen hierauf mit der rechten Hand auf das erhobene Knie, klatschen dann einen kräftigen
+          Schlag in die Hände und führen den Finger nochmals unter der Nase durch.)</stage>
+          <p>ffffft! — Hutzti! — Hepplamepperle! — fffft!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wenn Die maant, daß dies eso wyttersch geht mit dere Stäeje-n-uff un abrennerej, no isch se aw'r
+          diesmol schläecht orientiert. — Vor alle Dinge wurd jetz emol e Düür anne gsesse. 
+          <stage>(setzt sich auf die Bank.)</stage>Marie, Dü bisch doch au müed wie e — — - wie e
+          Dienschtmaidel?</p>
+        </sp>
+        <pb n="11" />
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Aw'r sicher! — Derf ich näwe Dich sitze?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Mientwäeje au uff de Geere.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(verschämt):</stage>
+          <p>Jo allewäej!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ei na — d'r Madam ze Leid — kumm! — —</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(wie oben):</stage>
+          <p>Naan, Jacques, es isch nit anständi.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(gekränkt):</stage>
+          <p>Ze wär ich demnooch unanständig.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Naan, Jacques, ums Himmelswille, dies hawich nit saawe welle 
+          <stage>(setzt sich ihm rasch auf den Schoß.)</stage>Wenn aw'r d'Madam kummt?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Sie kummt aw'r nit.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Od'r wenn se uns eso sieht?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Sie sell sich um ihri Angeläjeheite interessiere.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(schmeichlerisch):</stage>
+          <p>Bisch doch e seelegueter Burscht, Jacques.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(schmunzelnd):</stage>
+          <p>Ja?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(streicht ihm die Wangen):</stage>
+          <p>Bisch e liewer gueter Kerl.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(wie oben):</stage>
+          <p>Allewäej?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Wenn ich d'r saa! 
+          <stage>(verliebt)</stage>Jaeques-</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Was hesch uffem Herze?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Ich — ich hab Dich gern!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Aha, ich merk schun wied'r ebs!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Jacques, mir derfe nimmi üssenander, kummt's wies will! Mir Zwei muehn bienander bliewe, denn mir
+          sin enander schun so gewohnt, daß mir aans ohni 's ander iewerhaupt nimmi läwe könnte. Mit aam Wort:
+          mir Zwei muehn enander hyroothe, ich mueß Dini Frau wäre — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(überrascht):</stage>
+          <p>Was muesch Dü?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Dini Frau wäre!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Oho! Zeij Marie, steh e bissel uff!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(leidenschaftlich):</stage>
+          <p>Naan, ewwe hesch v'rlangt, daß ich D'r uff de Geere sitz, jetz blie ich aw'r au sitze! Die günschtig
+          Geläjeheit loß ich diesmol nimmi fahre!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>O ich Dolle!</p>
+        </sp>
+        <pb n="12" />
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(wie oben):</stage>
+          <p>Jacques, wenn Dü emol do üs dem Platz eweck gehsch, un daß mir üssenander gerisse däete wäre, d'rnoo
+          muesch hyroothe — iewerleij D'r's wie De witt — Dü muesch d'rnoo ewwe hyroothe! — Do springsch nit drum
+          erum! Un wenn Dü d'rnoo hyrootsch, d'rnoo muesch vor alle Dinge e Frau nämme wie Dich kennt, wie Dich
+          lieb het, wie Dine Charakter v'rsteht, un wie weiß, wie se mit Dir umzegehn het un wie Dü bhandelt
+          muesch wäre — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wo steht denn dies gschriewe, daß ich iewerhaupt emol hyroth?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Aanfach — Dü muesch hyroothe!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(erstaunt):</stage>
+          <p>Ich mueß?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Ja, Dü muesch.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wer saat dies?!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Ich saa's!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Zeij, Marie, steh uff!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Noch aan Moment.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(verzwiefelt):</stage>
+          <p>D'Füeß schloofe m'r in — un — un ich kriej de Datteri in d'Knej — un ich schwitz m'r e
+          pflutschnasser Buckel! — V'rdoria noch emol!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Dies lejt mir jetz Alles nix an! — Ich saa Dir's aanfach noch hundertmol: Dü muesch hyroothe! Denn
+          wenn nit hyrootsch, no hesch jo kaan Menscheseel uff dere Welt wie uff Dich löijt un wie Dich bsorjt.
+          No kriejsch kann Wäsch gewäsche, kaan Kleider gfliekt, kaan Strümpf gstopft, kaan Knopf angenähjt, un
+          kaan gueti kräftige Süppele kocht — — —</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(kleinlaut):</stage>
+          <p>Ei, ei, ei, ei, ei, ei!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lächelnd):</stage>
+          <p>Gell, an so Sache hesch noch gar nie gedenkt?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(wie oben):</stage>
+          <p>Naan.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(zärtlich):</stage>
+          <p>Ja siehsch, min liewer Bue, m'r mueß ewwe an Alles denke! 
+          <stage>(holt einen Apfel aus der Schürzentasche, und beißt kräftig hinein.)</stage></p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Was hesch denn do?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(kauend):</stage>
+          <p>E-n-Apfel!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wo hesch denn dene here?</p>
+        </sp>
+        <pb n="13" />
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(schmatzend):</stage>
+          <p>Uessem Garte. 
+          <stage>(lachend)</stage>wit au e Biß?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(kopfschüttelnd):</stage>
+          <p>Aeh-äh! — Ich merk schun wied'r ebs!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(kauend):</stage>
+          <p>Nimm doch e Biß! Geh! Schenier Dich doch nit!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(unruhig):</stage>
+          <p>Steh üff jetz!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Zerscht dhuesch emol herzhaft drin bisse.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Na, daß Ruehj hesch — here mit! — Aw'r no stehsch uff! — 
+          <stage>(beißt kräftig von dem Apfel ab.)</stage></p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Isch'r guet?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(schmatzend)</stage>
+          <p>Aw'r sicher.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Isch'r au süeß?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Aw'r sicher!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Witt noch e Biß?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ich hab jo 's Mül noch voll.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Nimm noch e klaans Bissele, geh!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Höer, Marie, so het's d'Eva zellemols im Paradies mit 'm Adam getriewe.</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Do wärdsch Dü d'r Adam?</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(lachend):Un</stage>
+          <p>Dü d'Eva! — Jetz fehlt numme noch d'Schlang. 
+          <stage>(Beide lachen kräftig.) (Es klingelt!)</stage></p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Là voilà — doch isch se jo schun!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Wahrhafti! Na, jetz wär jo so ziemli Alles bienander — numme 's Paradies fehlt noch! Im Paradies sin
+          m'r bis hyt noch nit gsin. Gell nit, Evele?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Naan jo nit. — Ehnder mittle in d'r Höll! — Aw'r mir welle jetz emol ins Paradies mitnander, Arm in
+          Arm, un unser Läwe genieße un glickli un zefridde mitnand un näwenander läwe! 
+          <stage>(springt auf und zieht Jacques mit großer Kraftanstrengung in die Höhe.)</stage>Ich läb fer
+          Dich, un Dü läbsch ger mich! Gell Jacques?!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(sich schwerfällig erhebend):</stage>
+          <p>Mini Füeß sin ganz stiff worre. Un am räechte Fueß schlooft m'r d'r groß Zeh! - Sapperlot, wie dies
+          kriwwelt! — Do bisch Dü d'Schuld dran! —</p>
+        </sp>
+        <pb n="14" />
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Mientwäeje. — Ich nimm jo gern alli Schuld uff mich. Un ich will d'r's jo au gern v'r- spreche, dab
+          ich miener Läwe eso ebs nimmi dhun will.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>hein? — Was hesch gsaat?</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Sicher! — Miner Läwe ninimi.</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Ja, so siehsch üs!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie:</speaker>
+          <p>Bisch nit böes gell nit? 
+          <stage>(küßt ihn.)</stage></p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(verblüfft):</stage>
+          <p>Aw'r Marie?! — Eva?! —</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(zärtlich):</stage>
+          <p>Nit böes sin, Adam! 
+          <stage>(küst ihn) Jacques schmatzend)</stage>: Mhmmm! — Aaaah! — Dies sell nit kriwwle! — 
+          <stage>(tritt mit dem rechten Fuß hoch in die Höhe.)</stage>Jetz schlooft m'r d'r groß Zeh gar nimmi! —
+          
+          <stage>(reekt sich rasch in die Höhe und breitet die Arme aus.)</stage>Marie, Evele, noch e Schmutz! —
+          Noch aaner! 
+          <stage>(Marie fliegt ihm an die Brust und küßt ihn.)</stage></p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(schmatzend):</stage>
+          <p>O V'rdoria noch emol! — Noch aaner!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(windet sich lachend los):</stage>
+          <p>— Naan, min liewer Adam, jetz isch's genüej! 
+          <stage>Es klingelt!)</stage></p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Siehsch — jetz het's gschellt! — Do kannsch nix mehr dran mache! Jacques 
+          <stage>(stampft zornig mit dem Fuß auf):</stage>Zell welle m'r aw'r doch emol sehne! 
+          <stage>(Es klingelt!)</stage></p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Jaja, m'r kumme, alti Schawäll! Diesmol kumme m'r alli Zwei mitnander! — Warte Sie numme, Madam,
+          diesmol selle Sie sich wundere, wenn ich anfang "höefli" zu wäre! - Uffgekündt wurd! — Uff d'r Stell! —
+          Marie, machsch mit?!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(triumphierend):</stage>
+          <p>Aw'r sicher mach ich mit!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Batsch in! — 
+          <stage>(hält ihr die rechte Hand entgegen.)</stage></p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(feierlich):</stage>
+          <p>E Mann — e Wort! 
+          <stage>(schlägt kräftigt ein.)</stage></p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Un noch emol e Schmutz!</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(lachend):</stage>
+          <p>Naan — jetz nit — später — wenn m'r emol ghyroot sin. 
+          <pb n="15" />
+          <stage>(Es klingelt andauernd heftig.)</stage></p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques:</speaker>
+          <p>Höersch — Marie — sie lytte schun —</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(schelmisch lächelnd):</stage>
+          <p>Zue unsere Hochzytt!</p>
+        </sp>
+        <sp who="#jacques">
+          <speaker>Jacques</speaker>
+          <stage>(wirbelt Marie in ausgelassener Stimmung im Kreisel herum.)</stage>
+          <p>Juuuuuuuuh! — Kumm, Marie, m'r packe unser Bimbelebaasch zamme, un d'rnoo aw'r nix aß wie nüs üs
+          dere Höll! :</p>
+        </sp>
+        <sp who="#marie">
+          <speaker>Marie</speaker>
+          <stage>(jubelnd):</stage>
+          <p>Un nin ins Paradies!</p>
+          <stage>(Beide hüpfen, eng umschlungen, jubelnd rechts ab.)</stage>
+        </sp>
+        <stage>Vorhang fällt.</stage>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Sainte Barbe</title>
+        <title type="sub">Comédie in Aam Uffzug vun Jean Riff</title>
+        <author>
+          <persName>
+            <forename>Jean</forename>
+            <surname>Riff</surname>
+          </persName>
+          <idno type="wikidata">Q96696621</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Lena Camillone</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Andrew Briand</name>
+          <name>Hoda Chouaib</name>
+          <name>Barbara Hoff</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">als000021</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106559053</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109587h</idno>
+          <bibl type="originalSource">
+            <author>Jean Riff</author>
+            <title type="main">Sainte Barbe</title>
+            <title type="sub">Comédie in Aam Uffzug vun Jean Riff</title>
+            <publisher>Imprimeur et Éditeur Imprimerie Gutemberg, J. Charles Schneider</publisher>
+            <date when="1919" type="print">1919</date>
+            <date type="written" />
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="daniel_wendling">
+            <persName>Daniel Wendling</persName>
+          </person>
+          <person sex="FEMALE" xml:id="lissel">
+            <persName>Lissel</persName>
+          </person>
+          <person sex="MALE" xml:id="schorsch_peterhansel">
+            <persName>Schorsch Peterhänsel</persName>
+          </person>
+          <person sex="FEMALE" xml:id="theres">
+            <persName>Theres</persName>
+          </person>
+          <person sex="MALE" xml:id="andrees_bottjuckel">
+            <persName>Andrees Bottjuckel</persName>
+          </person>
+          <person sex="MALE" xml:id="velde_umecker">
+            <persName>Velde Umecker</persName>
+          </person>
+          <person sex="MALE" xml:id="michel_ohlmershans">
+            <persName>Michel Ohlmershans</persName>
+          </person>
+          <person sex="MALE" xml:id="philipp_stawalter">
+            <persName>Philipp Stawalter</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="bumbie">
+            <persName>Bumbié</persName>
+            <persName type="variant">Feuerwehrkompagnie</persName>
+          </personGrp>
+          <personGrp sex="MALE" xml:id="buureburscht">
+            <persName>Büüreburscht</persName>
+          </personGrp>
+          <personGrp sex="FEMALE" xml:id="buuremaidle">
+            <persName>Büüremaidle</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="alle">
+            <persName>Alle</persName>
+          </personGrp>
+          <person sex="FEMALE" xml:id="ein_madchen">
+            <persName>Ein Mädchen</persName>
+          </person>
+          <person sex="MALE" xml:id="ein_bursche">
+            <persName>Ein Bursche</persName>
+          </person>
+          <person sex="MALE" xml:id="ein_anderer_bursche">
+            <persName>Ein anderer Bursche</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="chorus">
+            <persName>Chorus</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="spielleute">
+            <persName>die Spielleute</persName>
+          </personGrp>
+          <listRelation>
+            <relation name="parent_of" active="#daniel_wendling" passive="#lissel" />
+            <relation name="spouses" mutual="#schorsch_peterhansel #theres" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="5" />
+      <castList>
+        <head>Persone:</head>
+        <castItem corresp="#daniel_wendling">
+          <role><persName>Daniel Wendling</persName></role>,
+          <roleDesc>Wirt</roleDesc>.
+        </castItem>
+        <castItem corresp="#lissel">
+          <role><persName>Lissel</persName></role>,
+          <roleDesc>sini Doochter</roleDesc>.
+        </castItem>
+        <castItem corresp="#schorsch_peterhansel">
+          <role><persName>Schorsch Peterhänsel</persName></role>,
+          <roleDesc>Brandmeischter</roleDesc>.
+        </castItem>
+        <castItem corresp="#theres">
+          <role><persName>Theres</persName></role>,
+          <roleDesc>sini Frau</roleDesc>.
+        </castItem>
+        <castItem corresp="#andrees_bottjuckel">
+          <role><persName>Andrees Bottjuckel</persName></role>,
+          <roleDesc>Naachtwächter</roleDesc>.
+        </castItem>
+        <castItem corresp="#velde_umecker">
+          <role><persName>Velde Umecker</persName></role>,
+          <roleDesc>Korperal</roleDesc>.
+        </castItem>
+        <castItem corresp="#michel_ohlmershans">
+          <role><persName>Michel Ohlmershans</persName></role>,
+          <roleDesc>Spritzemeischter</roleDesc>.
+        </castItem>
+        <castItem corresp="#philipp_stawalter">
+          <role><persName>Philipp Stawalter</persName></role>,
+          <roleDesc>e Bumbié</roleDesc>.
+        </castItem>
+        <castItem corresp="#bumbie #spielleute #buureburscht #buuremaidle">
+        <role>
+          <persName>Bumbié, Tambourineurs un Clairons, Büüreburscht un Büüremaidle</persName>
+        </role>.</castItem>
+      </castList>
+      <set>
+        <p>Ort: E Dorf im Elsaß.</p>
+        <p>Zyt: D'r 4. Dezember 1918.</p>
+      </set>
+      <set>
+        <head>Dekorationsplan:</head>
+        <p>Geräumige Bauernschenke. zu benden Seiten hölzerne Tische und Bänke. Im Hintergrund links der
+        Bierausschank mit Trinkgläsern. Dahinter Glasschrank mit Liqueur-Flaschen und Liqueur-Gläschen. Die Wände
+        sind überreich mit Stechpalmen und Tannenreisern, Trikoloren, sowie mit einigen Bildnissen der
+        berühmtesten Persönlichhkeiten der alliierten Länder geschmückt. — Eine Türe (Mitte Hintergrund) führt
+        auf die Straße. Eine Seitentüre rechts trägt die Aufschrift: Hof, eine Seitentüre links die Aufschrift:
+        Küche und Keller.</p>
+        <p>Rechts und links vom Darsteller aus angenommen.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="7" />
+      <div type="act">
+        <div type="scene">
+          <head>1. Scene.</head>
+          <stage>Lissel — Andrees Bottjuckel.</stage>
+          <stage>(Andrees sitzt, vergnügt vor sich hinlächelnd, an einem Tisch im Vordergrund der Wirtschaft.
+          Lissel schenkt ihm lächelnd ein Schnäpschen ein).</stage>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>voilà, loon 's Uch gschmecke, Andrees 
+            <stage>(nachprüfend).</stage>Haltela, 's Glaasel isch jo noch nit göönz voll — 
+            <stage>(will einschenken.)</stage></p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(wehrt leicht ab)</stage>
+            <p>— 's räicht, Lissel, 's räicht! — Wäisch, so genäuej nimmt's Uenseräiner doch juscht nit grood am
+            e Feschtdäuej! — 
+            <stage>(steht auf und reckt sich rasch in eine strammeHaltung.)</stage>— Sainte-Barbe, Lissel,
+            d'erscht Sainte-Barbe wied'r nooch lange, bange Zytte! — Daß ich dieß noch erlawe hab derfe in mine
+            alte Daaj, daß mir ünseri Casque un Kepi wied'r hingeviri höön derfe hole</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>De Franzose höön m'r's ze v'rdanke.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Vive la France! — Lissel, ich könnt grood hyle vor lütter Fräid!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Ich kann's guet v'rstehn, Andrees.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Nee, Mäide, dies v'rstehsch Dü juschtemand lang nit so wie Uenseräiner. Do mueß m'r anno 71 d'rbie
+            sin gewahn un mueß gsahne höön, wie d'Franzose ze Strooßburri nüsgezöije sin — — — 
+            <stage>(wischt sich die Augen)</stage>— — nom de pipe! — — wenn ich droon zeruck denk', wie
+            d'Flintekolwe uffem Gelander vun d'r Wyßdurmbruck ze Krütt un Fatze gschläueje un d'Sticker 'noo ins
+            Waaser ning gschmisse sin worre, wie m'r Alli. lüt uff ghylt höön vor Harzeläid, Jammer un Elang,
+            ghylt wie d'kläine King, d'Burjerslytt un d'Saldote, un wie d'rnoo — — — o pauvre, pauvre Alsace!</p>
+          </sp>
+          <pb n="8" />
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Kalmiere-n-Uch, Andrees. D'Franzose sin jo jetz wied'r do.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Gott sej Dank, Lissel, Gott sej Dank! 
+            <stage>(setzt sich wieder).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. Scene.</head>
+          <stage>Lissel — Andrees — Daniel Wendling — Schorsch Peterhänsel.</stage>
+          <stage>(Daniel und Schorsch kommen aus der Küche, links. — Schorsch trägt
+          Brandmeisters-Uniform).</stage>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(blitzt wieder rasch in die Höhe und salutiert stramm)</stage>
+            <p>Guete-n-Owe Harr Brandmäischter!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(jovial)</stage>
+            <p>— Guete-n-Owe Andrees. — Au schun do?</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert)</stage>
+            <p>— Ja, Harr Brandmäischter.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Raacht so, Andrees, raacht so. — Setze-n-Uch numme. — Aha, un öijeri nöj Dienschtkapp höön'r äu
+            schun uff?</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert)</stage>
+            <p>— M'r sin jo jetz franzeesch, Harr Brandmäischter.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(lächelnd.)</stage>
+            <p>— Raacht so, Andrees, raacht so.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(hinter dem Bierausschank.)</stage>
+            <p>— Uff dane Momant het'r schun lang gewoort. Galte, Andrees?</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Jo wajer.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Aw'r mit ere Engelsgeduld, galte, Andrees?</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert.)</stage>
+            <p>— In de letschte Johre nimmi, Harr Brandmäischter, denn do hawi d'Stung nimmi v'rwoorte könne,
+            Harr Brandmäischter — — — —</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(drückt Andrees auf die Bank nieder.)</stage>
+            <p>— Bliewe doch emol sitze, Andrees, m'r sin jo jetz franzeesch!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Zall mäin ich doch äu. Dar prejßisch Mode mueß emol v'rschwinde.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Raacht so! — M'r het dies prejßische Kasarne-Trarifari ingfiehre muehn un het halt no so
+            gezwungener Wies mitgemaacht, aw'r jetz heert's wied'r uff! — Lissel, schenk im Andrees noch e
+            Glaasel ing.</p>
+          </sp>
+          <stage>(Andrees blitzt nochmals in die Höhe und salutiert.)</stage>
+          <pb n="9" />
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(hinter dem Bierausschank ; lachend.)</stage>
+            <p>— Aw'r Andrees!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Ich maach jo e franzeescher Salü! — Het m'r nit lang genuej druff woorte muehn?! — Siewenevierzig
+            Johr, ihr Manner, siewenevierzig Johr!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Na, no loon'm die Plasier.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Trinke doch jetz emol laar, Andrees.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert.)</stage>
+            <p>— oui, mademoiselle!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Loon m'r die Däubhäite ewack, un trinke.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Däubhäite?! — Do v'rstehn ihr Wybslytt halt nix devun.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Mientwaje! 
+            <stage>(Andrees trinkt leer, Lissel schenkt neu ein.)</stage></p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Also mit'm Asse stimmt's?! — Grümbeeresalot — — —</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>— — — isch genüej oongemaacht.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Noch e bissel meh wie numme genuej.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Jaaa, wisse-n-'r, inger ünsere Bumbié sin e poor dringer — — —</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Un wann se-n-e Appetit höön wie d'Drescher — — — — sie asse üns nit zem Löönd nüs.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Maache Uch numme ken Anlejes, Schorsch. — M'r höön äu Brootwurscht, Servila, Knackwürscht un
+            Büürekaasle genuej un nommi! — Un züdam: d'göönz letscht Wuch läije ünseri Hüehner Äijer mit zwäi
+            Dutter!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Sankt-Barwere-Äier! — Üs lüter Plasier, daß d'Franzose do sin! — Gsündhäit! — 
+            <stage>(trinkt.)</stage></p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>'s war m'r aw'r äu nit erraacht, wann's an ebs fahle daat. — Un goor hyt an mim Ebredäuej. —
+            Sainte-Barbe könne m'r jo jetz wied'r alle Johr fiere, gottsejdank, aw'r — — — e finfezwanzigjahrigs
+            Dienschtjübiläum, dies kummt numme äinmol im Lawe.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Ho zall!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Mir zähle noch uff e fuffzigjahrigs.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Ums Gottswille, Daniel, nee, nee!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert.)</stage>
+            <p>— M'r kann's nit wisse, Harr Brandmäischter.</p>
+          </sp>
+          <pb n="10" />
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(etwas geschmeichelt.)</stage>
+            <p>— Wann d'r Kopf äu wott, so lang halte 's aw'r d'Füeß nit üs. — Un züdam, d'Junge üssem Dörfel
+            wäre äu älter —</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Un welle äu emol ebs wäre in d'r Gemäin.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Ewwe drum.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>M'r welle's aw'r nit hoffe, daß Uch d'Junge iewwer de Kopf nüs woose! — Un züdam: Brandmäischter
+            kann doch nit grood Jeder spiele.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Un wann'r noch so guet franzeesch kann.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>As isch nit eso äinfach, ihr liewi Lytt! — Jaja.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Naja, so lang wie's noch geht, v'rsahn m'r ünsere Dienscht jo wyttersch. Wann's emol nimmi geht,
+            d'rnoo heere m'r vunaase uff. — Lissel schenk im Andrees noch e Glaasel ing.</p>
+          </sp>
+          <stage>(Andrees salutiert).</stage>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Trinke laar, Andrees.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(schmunzelnd.)</stage>
+            <p>— Noch emol? — 's isch jo schun lang laar.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(schaut nach.)</stage>
+            <p>— Jo warzi! — 
+            <stage>(schenkt ein.)</stage></p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Un Dü, Schorsch, trinksch jetz äu ebs?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(trocknet die Stirne.)</stage>
+            <p>— Nee, merci. hab dennewaj schun fascht zeviel gemammelt dhäime biem Branddirrakter.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Na, Ihr könne doch noch ebs v'rträueje.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>"Ebs" schun, ja, aw'r nimmi viel, bin ken junger Hottel meh, dies mueß m'r bedenke.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert.)</stage>
+            <p>— Exküse, Harr Brandmäischter, ich hab oochtezwanzig Johr meh uffem Buckel aß wie Ihr, aw'r
+            wajezam, wann's ans trinke geht, d'rnoo stell ich miene Mann so stolz wie d'r ältscht Bumbié, un
+            fröij im Däifel ebs nooch'm Alter! — Luschti laawe un saali starwe! — Gesündhäit! — 
+            <stage>(trinkt.)</stage></p>
+          </sp>
+          <sp who="#schorsch_peterhansel #daniel_wendling #lissel">
+            <speaker>Schorsch, Daniel, Lissel:</speaker>
+            <p>Gsündhäit Andrees!</p>
+          </sp>
+          <pb n="11" />
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(schaut auf seine Uhr.)</stage>
+            <p>— Jetz mueß ich aw'r maache, daß ich wied'r ze mim Offizierchorps zeruck kumm, sunsch gitt's noch
+            Stampeneje!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Wieviel fremdi Offizier sin dann kumme?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(stolz.)</stage>
+            <p>— Im Göönze: zwäijedrißig.!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert.)</stage>
+            <p>— Sackerwalt!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>As sin aw'r doch meh inggelade gewahn, het m'r d'r Umeckers Valde gsäit.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Äij jo, aw'r — — bie dane wie jischt 'num läufe zich ich nit hott erum! — V'rstehn'r?!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert.)</stage>
+            <p>— Respakt d'rvor! — Sackerwalt! — Gsündhäit! 
+            <stage>(trinkt leer.)</stage></p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Trinke-n-'r noch e Glaasel, Andrees?</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Numme nit ze blitzi, sunsch wur ich hitzi! — Hähähä!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Schenk'm numme noch ees ing, Lissel.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Jaja, d'v Andrees v'rträät's. 
+            <stage>(schenkt ein.)</stage></p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Was trinksch denn fer e Tröpfel, Andrees?</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>"Langsamer Salbschtmord."</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Kirschewasser, wie m'r 's schient?</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Grood geroote.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Aw'r Andrees, dies v'rträäsch Dü jo goor nit!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(schmunzelnd.)</stage>
+            <p>— Ich wäiß's, Daniel, ich wäiß's. — Aw'r, uff ünser Fescht anne — — — Gsündhäit, Harr
+            Brandmäischter! — 
+            <stage>(trinki rasch ein Schlückchen, und salutiert.)</stage></p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Wann's Uch numme gschmeckt, Andrees.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(wischt sich den Schnurrbart ab.)</stage>
+            <p>— Hähähähähä!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Nit daß'm 's nit gschmecke daat?! — Jojo.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Dü hattsch aw'r Trawere trinke sotte, Andrees. — Jine bisch gewohnt vun Kingsbäine oon, aw'r dene
+            do v'rträuejsch doch nit. —</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Ho zall!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Ich wäiß's! — Maach m'r numme ken Sätz!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Allewaj?! — 's Elsaß wied'r franzeesch, 's erscht Sainte-Barbe-Fescht, un owedrin noch min
+            finfezwanzigjahrig Dienschtjubiläum?! — Un do sell Trawere getrunke ware?! — allons, allons,
+            allons!</p>
+          </sp>
+          <pb n="12" />
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(salutiert etwas schwankend.)</stage>
+            <p>— Göönz mini Mäinung, Harr Brandmäischter!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(klopft ihm auf die Schulter.)</stage>
+            <p>— Andrees, mir bliewe biem Kirschewasser.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(wie oben.)</stage>
+            <p>— Un wann d'halb Gurjel druff geht, Harr Brandmäischter.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Dies kann jo guet wäre.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Jojo!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Laache nit. — Lissel, schenk ing!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Trinke doch zerscht laar!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Ah 's isch noch ebs drinne? — Öha! — Hou-rupp! 
+            <stage>(trinkt aus.)</stage>Hoppla! — 's rutscht noch! Inggschankt!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Ar het e gueter Zugg, d'r Andrees.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Dies sell mir nix sin!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Setze-n-Uch aw'r jetz nahder geje d'r Dhüer zü, Andrees.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Waje was dies?</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Aij, ich mäin numme.</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(lallend)</stage>
+            <p>— Ah zallewaj? — 's fellt m'r aw'r goor nit ing. — "Hier bin ich, un hier bläibe ich!" het d'r
+            Samegüschtel uff d'r Hohkinnisburri in's Adraßbuech geschriewe. — Un mir sin aw'r noch kürranter aß
+            wie Iir, gall Lissel?!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Hoffetli sin mir dies!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Höön m'r äu e guets Bier, Daniel?</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Zall will ich mäine!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>As isch schun wied'r zesäueje fascht elsassisch.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Wäisch, Daniel, daß ich's nit v'rgiß: m'r höön um e gueti Trinkkraft zügenumme. D'r Stawalters
+            Philipp het sich wied'r in d'Kumpenie uffnahme loon.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Jojo, do ware m'r jo wied'r ebs erlawe hint Owe!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Dies isch noch e Muschter, d'r Philipp!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>'s maacht aw'r nix. 's Bier räicht, un wann'r 's doppelt süfft vun friehjer.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>'s bliet noch iewri.</p>
+          </sp>
+          <pb n="13" />
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(schlägt mit der Faust auf den Tisch.)</stage>
+            <p>— Iewri bliewe derf nix! — Hupp! — Sackerwalt! — Hupp!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(schaut zur Mitteltür hinaus.)</stage>
+            <p>— E stockfinschteri Noocht. — Un still isch's im Dörfel!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(lallend.)</stage>
+            <p>— — Hupp! — — Woorte numme — — — as — — as kummt schun noch ööndersch! — — Hupp! — — Gsündhäit! — 
+            <stage>(trinkt).</stage></p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Jaja, 's wurd schun wied'r ebs oosetze. — 
+            <stage>(schließt die Tür.)</stage></p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Sackerwalt! Jetz mueß ich aw'r gehn! — Also, Daniel, d'r Koschtepunkt spielt ken Roll. — 's isch
+            Sainte-Barbe! — Un züdam min Ehredäuej! — Un owwedrin sin m'r franzeesch! — Diesmol derfe e poor
+            Krüttstickle druffgehn! — Numme, daß käin Mann vun d'r Kumpenie ebs ze reklemiere het! — Nit emol d'r
+            Stawalters Philipp.</p>
+          </sp>
+          <stage>(Andrees ist schwerfällig aufgestanden und torkelt nun, die Hand vor dem Mund, gegen die
+          Mitteltür.)</stage>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(entsetzt.)</stage>
+            <p>— Oh, oh, oh! — D'r Andrees — —</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Dies het m'r jetz! — Kirschewasser mueß'r süffe, dar alt Stier!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <stage>(die Tür suchend.)</stage>
+            <p>— Gsündhäit! — Hupp!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Maach'm hurtli d'Dhüer uff, Lissel! — Hopp, räij Dich!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(ängstlich)</stage>
+            <p>— Wann 'r m'r aw'r — — — ?!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>D'Dhüer uffgemaacht, e Starnesappermant nochemol ning!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Ich — — ich — — ich brüch niemes! — Hupp! Ich ich kann — 
+            <stage>(drückt rasch das Taschentuch vor den Mund, stößt rasch die Tür auf und torkelt hinaus in das
+            Dunkel der Nacht.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. Scene.</head>
+          <stage>Lissel — Daniel — Schorsch.</stage>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>D'Dhüer zü, Lissel!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Jaja. — 
+            <stage>(hält sich das Taschentuch vor die Nase und schließt rasch die Tür.)</stage>— 's fangt jo
+            schun raacht natt oon!</p>
+          </sp>
+          <pb n="14" />
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Höere, d'Schnapsflasche muehn ewack bliewe.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Hawich's nit gsäit wie's kumme wurd?! — Ich kenn mini Lytt! — Lissel, stell die Schnapsflasch
+            ewack, un schließ m'r 's Likörkeenschterle göönz zu. — 
+            <stage>(geschieht.)</stage></p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Bier derfe mini Bumbié trinke, was in se ning geht. — Numme de V'rstöönd sell sich kener
+            vrsüffe.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Jaja, 's isch waje d'r Ordnung.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Un daß ken Gleeser v'rhejt ware.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Mir isch's häuptsachli waje de fremde Harre Offizier, wie hynt Owe noch Alli do hare kumme! — Un
+            äu waje minere Fräu!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Kummt die äu?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Aw'r salbschtv'rstandli! — Do daat sich d'Theres dhäime nit hewwe loon. — D'erscht franzeesch
+            Sainte-Barbe! Un min finfezwanzigjahrigs Dienschtjübiläum! — Ah ihr mäine?!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Naja, mir sorje schun d'rfür, daß Ordnung ghalte wurd, gall Lissel?</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Aw'r sicher! — Un wann äiner od'r d'r öönder nit kunterbiere will — — — — — 
+            <stage>(spuckt in die Hände und streift die Aermel zurück).</stage></p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Na, sowyt wurd's doch hoffetli nit kumme?</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Kann m'r 's wisse?</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Isch dann's Offiziers-Aase noch nit ferti biem Branddirakter dhäime?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Sie ware jetz am Dessert sin. Uff dies hawich v'rzicht. Vum Gschlacks bin ich ken Friend. Großi
+            Mumpfle, die sin bie mir d'Häuptsach! — Also, wann d'r schwarz Kaffi getrunke isch, d'rnoo kumm ich
+            mit d'r Theres hare. — 
+            <stage>(schaut auf seine Uhr.)</stage>— Bis dert anne wurd ünseri Kumpenie äu do sin.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Ja un d'Harre Offizier?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Die kumme Alli mitnöönd hare, mit Müsik.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Ja, hingenooch wied'r, wann do d'r göönz Marikt v'rloffe-n-isch.</p>
+          </sp>
+          <pb n="15" />
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Oha! — Wann mir kumme, fangt d'r Marikt erscht raacht oon! Bedenke's doch: d'erscht franzeesch
+            Sainte-Barbe, un d'rzü min finfezwanzigjahrig Dienschtjübiläum!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. Scene.</head>
+          <stage>Lissel — Daniel — Schorsch — Theres.</stage>
+          <stage>(Theres kommt mit stark, gerötetem Gesicht zur Mitteltür herein, stellt sich breitspurig auf und
+          stemmt die Arme in die Seite.)</stage>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Ja, wie räucht's dann do hinne?!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(verblüfft.)</stage>
+            <p>— Löij do, d'Theres!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Was isch dann ze löije an mir?! — Goor nix, hoffetli! — Maach, daß jetz wied'r emol in ünser
+            Gsellschaft kummsch, e Starnesappermant nochemol ning!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(will sie tätscheln.)</stage>
+            <p>— Ja, Theres, ja.</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <stage>(verweisend.)</stage>
+            <p>— Wyt vum Gschütz gitt alti Saldote! — Un iewerhäupt, los jetz! — Marsch! — en route!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Ja, Theres, ja. — Kum, min Harzkaferle! — 
+            <stage>(will sie umarmen.)</stage></p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Loß m'r die Stierhäite ewack! — Ich säe d'r's! 
+            <stage>(Beide ab durch die Mitte).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>5. Scene.</head>
+          <stage>Daniel — Lissel.</stage>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>D'Theres könnt äu e Kumpenie kummediere.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(schaut zur Mitteltür hinaus.)</stage>
+            <p>— Aw'r finschter isch's drüsse, wie im e Sack.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>D'Strooßebeläichtung mueß wied'r inggfüehrt ware.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Jo, m'r sin warzi lang genuej im Dunkle gedappt iewwer de Kriej!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Vor lütter Sainte-Barbe denke ünseri Harre Genieköpf im Gemäinerooth an nix Gschieds meh.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Zerscht muehn m'r äu wied'r Petrol höön. 
+            <stage>(schließt die Tür.)</stage></p>
+          </sp>
+          <pb n="16" />
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Petrol? — 's Elektrisch mueß hare! — Mir könne's üns läischte! — 's Gald d'rzü höön uns
+            d'Stadtlytt gebroocht.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>6. Scene.</head>
+          <stage>Daniel — Lissel — Schorsch.</stage>
+          <stage>(Die Türe wird von außen durch Schorsch wieder rasch aufgerissen.)</stage>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(atemlos.)</stage>
+            <p>— Driewwe uff d'r Strooß — — mittle im diefschte Drack drinne — — — lejt d'r Noochtwaachter!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Oh Schrecke!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Nahme n'e mit!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Äij jo, zall schun. — Hilf aw'r z'erscht, daß m'r 'ne uff d'Bäin stelle könne.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(lachend.)</stage>
+            <p>Ich hab m'r's inggebildt, daß's eso kumme wurd.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(kopfschüttelnd.)</stage>
+            <p>— So e alt's Küehjkummet!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Allons, kumm jetzt ich mueß häim!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>7. Scene.</head>
+          <stage>Daniel — Lissel — Schorsch — Theres.</stage>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <stage>(erscheint ebenfalls unter der Tür.)</stage>
+            <p>— Ja, wurd's jetz bööl, od'r welle m'r do iewer Noocht bliewe?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Kumm doch, Daniel.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Jaja. — Sell ich e Luzarn mitnahme?</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>'s isch nit notwandi. Mir höön Alles. Numme emol erüs jetz! — 
+            <stage>(läßt eine elektrische Taschenlampe aufblitzen, schreitet den Uebrigen voran und beleuchtet
+            den Weg. — Alle, bis auf Lissel, verlassen die Gaststube. Lissel macht rasch die Tür hinter den
+            Dreien zu, und schaut gebückt zum Schlüsselloch hinaus.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>8. Scene.</head>
+          <stage>Lissel — Philipp Stawalter.</stage>
+          <stage>(Philipp, im Uniform eines Feuerwehrmannes, kommt durch die Tür rechts von der Hofseite
+          hereingeschlichen, fährt sich über die momentan vom 
+          <pb n="17" />Licht etwas geblendeten Augen, erblickt dann Lissel, schleicht rasch, und von ihr
+          unbemerkt, an sie heran, holt mit der rechten Hand hoch zum Schlage aus, zielt zweimal, und haut ihr
+          dann mit kräftigem Zug einen klatschenden Schlag auf den hinteren Körperteil.)</stage>
+          <stage>(Lissel schreit erschreckt auf und reibt sich die schmerzende Stelle).</stage>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(grinsend.)</stage>
+            <p>— Die sitzt!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Philipp! — Hesch ken gröeßeri Viehhäit könne maache?!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(grinsend.)</stage>
+            <p>— Wann d'Kutte nit im Waj warde gewahn, no hatt's besser geklatscht.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Stiermaaßi genuej d'rzü wärdsch halt allewiel noch fer ebs eso ze maache.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(grinsend.)</stage>
+            <p>— Ja, mäinsch viellicht, daß Ünseräiner durch de Kriej fiener wär worre?</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Goor Dü, Basche, drackiter!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Lissel, beläidig ünser Bumbié-Chorps nit!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Wärdsch ewack gebliewe vun ene! — Mit Dir läje se sich warzi wenni Ehr ing!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(weist grinsend seine gespreitzte Hand vor.)</stage>
+            <p>— Lissel, wo die anne batscht, do woost ken Groos meh! — 
+            <stage>(ballt die Hand zur Faust.)</stage>— Un wann se emol ererscht eso üssieht! — 
+            <stage>(macht den rechten Unterarm einigemale vorund rückwärts schnellen.)</stage>— Hoppla! — Do löij
+            emol anne! — hein?! — Wann d'r Hindeburri nit ghöert hatt, daß d'r Stawalters-Philipp gejenem zehjt,
+            ze hatt'r noch e Wiel wyttersch gemaacht. — Aw'r denewaj het'r gedenkt: "Jetz isch's Zytt, daß häime
+            gehsch!"</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(noch immer gekränkt.)</stage>
+            <p>— Prahlhans!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Was isch los?! — Gück D'r emol dies Discheck oon! — Ain Sträich mit d'r Füscht druff, un am Bodde
+            lejt's — — — grood wie ewackrasiert! — Seh ich?! — 
+            <stage>(schwingt die Faust hoch.)</stage>— Wie hoch gilt d'Wett?! — Äin Sträich!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(erschreckt.)</stage>
+            <p>— Ingersteh Dich jo nit!</p>
+          </sp>
+        </div>
+        <pb n="18" />
+        <div type="scene">
+          <head>9. Scene.</head>
+          <stage>Lissel — Philipp — Daniel.</stage>
+          <stage>(Daniel kommt durch die Mitte zurück.)</stage>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Salü Daniel!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Was maachsch dann Dü schun do?</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Ich woort uff d'Ööndere.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Wo isch d'r Noochtwaachter jetz?</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(roh auflachend.)</stage>
+            <p>— Drüsse lejt'r im Drack!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Nee ar lejt nit! — D'r Brandmäischter un d'Theres höön 'ne mit häim genumme. — Soviel Oonstand het
+            ünser Vorstand.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Was trinksch Dü, Philipp?</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(grinsend.)</stage>
+            <p>— Was 's gitt.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(schadenfroh.)</stage>
+            <p>— Ja, wartsch aw'r noch e weng, bis Alli do sin.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Ho, hol — Numme nit eso kürios, Lissel, un maach wied'r emol e öönders Gsicht. — 
+            <stage>(will Lissel tätscheln.)</stage></p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Blie m'r ewack, säe ich D'r, od'r ich kratz!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Oha! — Do isch Ordnung!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Un ze trinke gitt's erscht ebs, wann d'Kumpenie do isch.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Oha, do isch äu Ordnung!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Säe emol, wie kummt's dann, daß Dü nit mit d'r Kumpenie am Spritzehüs oongetratte bisch? — Isch
+            fer Dich e Extra-Kummando erüsgeen worre?</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Hyt isch fer uns Bumbié e Fyrdi, un sogar e doppelter. — Do kenn ich ken Dienscht.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Fyrdi hin, Fyrdi har — Dienscht od'r ken Dienscht — Kummando isch Kummando un bliet Kummando. —
+            V'rstange?! — Dies isch emol mini Mainung!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Äij jo, zall schun.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Ja, aw'r Dü muesch bie jedere Gelajehäit ebs extras maache.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Oha! — Wisse-n-Ihr iewerhäupt was "extra" isch?</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(mit einem finstern Blick.)</stage>
+            <p>— Ja, öönderi Lytt vun hinge iewerfalle un grüen un blöij häueje.</p>
+          </sp>
+          <pb n="19" />
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(roh auflachend.)</stage>
+            <p>— Nit geroote! — Aw'r do mit dare Füscht 's Eck vun dare Dischplatt ewackschmattere, in äim
+            Sträich — — — sahn'r, dies isch ebs extras!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Wo hesch dies wied'r gelehrt?</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Welle-n-r 's emol sahne? — 
+            <stage>(schwingt die Faust hoch.)</stage>— Numme äin Sträich, un 's Discheck lejt uffem Bodde. — Wie
+            hoch gilt d'Wett?</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Loß m'r die Viehhäite ewack.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(zielt mit der Faust gegen die Tischplatte.)</stage>
+            <p>— 's eilt um fünf Franke! — cing Francs pour la exécution! — hein?! — Mit äim Sträich! — Het wer
+            het!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(erbost.)</stage>
+            <p>— Loß nooch, ich säe D'r's in Guetem!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Frisch gewöijt, isch halb gewunne, wer nit setzt, kann nix bekumme! — Also: Fünf Fränkle! — Het
+            niemes Kürasch? — Wer setzt d'rgeje?</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(faßt Philipp beim Genick und schleudert ihn in eine Ecke der Gaststube.)</stage>
+            <p>— Hesch jetz Ruehj od'r nit, Gäuckelhirn, iewerzwarchs?!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Sell ich 'ne mit'm Base ze d'r Dhüer nüsfahje?</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Loß 'ne leje, dane Narr!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(erbebt sich mühsam vom Boden.)</stage>
+            <p>— Un dies Discheck mueß hyt doch noch droon gläuwe! — V'rloon Uch druff!</p>
+          </sp>
+          <stage>(Man hört aus der Ferne die Feuerwehrkompagnie, den Klängen der Clairons und Trommeln folgend,
+          allmählich näherkommen.)</stage>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(eilt freudig erregt an die Mitteltür und reißt dieselbe auf.)</stage>
+            <p>— D'Bumbié kumme! — D'Bumbié kumme!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Loß m'r die Dhüer zü! — Hesch noch nie ken Bumbié gsahne?</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(verschämt.)</stage>
+            <p>— Doch.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Na, no maach nit eso v'rruckt. — 
+            <stage>(zündet ein hinter dem Ausschank stehendes Kerzenlicht an.)</stage>— Ich geh jetz in de
+            Keeler, oonstache. — Rischt emol d'Gleeser. — 
+            <stage>(mit dem brennenden Licht ab Türe links.)</stage></p>
+          </sp>
+        </div>
+        <pb n="20" />
+        <div type="scene">
+          <head>10. Scene.</head>
+          <stage>Lissel — Philipp.</stage>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(nun etwas kleinlaut)</stage>
+            <p>— Un ich geh do nüs, wo ich ering bin kumme. Hinge nüs, un mit de Ööndere noochhare vorne ering. —
+            Lissel, gall, bisch so guet un v'rrootsch niemes nix devun, daß ich schun emol do bin gewahn. — Gall,
+            Lissel? — Löij, e jeder Mensch het sini Fahler, un ich bin äu e fahlerhafter Mensch — — — —</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Geh m'r üssem Waj, Halbmaschöjjes! — Siehsch nit, daß ich Arwäit hab?!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Juhuuuuuh! — Lissel, mit Dir döönz ich hyt Owe de-r-erschte Walzer! — 
+            <stage>(eilt zur Türe rechts, öffnet dieselbe vorsichtig, späht hinaus und schlüpft, die Tür rasch
+            hinter sich schließend, ins Freie.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>11. Scene.</head>
+          <stage>Lissel — Büüreburscht un Büüremaidle.</stage>
+          <stage>Lissel tritt hinter dem Ausschank hervor und trocknet sich die Hände mit der Schürze
+          ab.)</stage>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Danz mit's Däifels Grooßel, no rannsch äu ken Häiligi um! — 
+            <stage>(öffnet die Mitteltür weit auf. Die Pompiers-Clairons und Trommeln sind noch immer gedämpft
+            aus der Ferne zu hören.)</stage></p>
+          </sp>
+          <stage>(Einige jugendliche Bauernburschen stolpern zur Mitteltür herein und ziehen und schieben ihre
+          sich verschämt sträubenden Mädchen mit in die Gaststube.)</stage>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Halt!! — — Halt!! — Halt!! — 's derf niemes ering!</p>
+          </sp>
+          <sp who="#buureburscht">
+            <speaker>Die Burschen:</speaker>
+            <p>Oho! — Zall müeßt sin?!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>'s Wurtshüs isch hynt Owe resarviert fer d'Bumbié. — Numme wied'r nüs! — Enööndernooch! — Hopp,
+            bedenke Uch numme nit lang. — D'Harre Offizier kumme äu noch! — Numme wied'r los!</p>
+          </sp>
+          <sp who="#buuremaidle">
+            <speaker>Die Mädchen:</speaker>
+            <stage>(zu den Burschen.)</stage>
+            <p>— Kumme, mir gehn!</p>
+          </sp>
+          <sp who="#ein_bursche">
+            <speaker>Ein Bursche:</speaker>
+            <p>Het's Lissel üns ebs ze säueje?!</p>
+          </sp>
+          <sp who="#buureburscht">
+            <speaker>Die Burschen:</speaker>
+            <p>Goor nix het's üns ze säueje!</p>
+          </sp>
+          <sp who="#buuremaidle">
+            <speaker>Die Mädchen:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Un dogebliewe wurd jetz. — Grood zeläid!</p>
+          </sp>
+          <pb n="21" />
+          <sp who="#ein_bursche">
+            <speaker>Ein Bursche:</speaker>
+            <p>Mir könne äu Sainte-Barbe fiehre, so stolz wie d'Bumbié.</p>
+          </sp>
+          <sp who="#ein_anderer_bursche">
+            <speaker>Ein anderer Bursche:</speaker>
+            <p>Un wann's im hingerschte Eck vun d'r Wirtschaft isch.</p>
+          </sp>
+          <sp who="#buureburscht">
+            <speaker>Die Burschen:</speaker>
+            <p>Kumme, ihr Mäide! 
+            <stage>(Alle placieren sich rasch am hintersten Tisch der Gaststube.)</stage></p>
+          </sp>
+          <sp who="#ein_madchen">
+            <speaker>Ein Mädchen:</speaker>
+            <p>As sell üns emol Äiner do ewack jäueje, wann'r d'Kürasch d'rzü het!</p>
+          </sp>
+          <sp who="#buureburscht #buuremaidle">
+            <speaker>Die Burschen und Mädchen:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Jo wajer!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Mir lejt's nit oon. — Maache was'r welle. 
+            <stage>(Die Clairons und Trommeln werden jetzt in unmittelbarer Nähe hörbar und kommen allmählich vor
+            der Wirtschaft an.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>12. Scene.</head>
+          <stage>Vorige — Michel Ohlmershans.</stage>
+          <stage>(Michel. in Uniform eines Spritzenmeisters, auf welches Amt er sich nicht zu wenig einbildet,
+          erscheint breitspurig unter der Mitteltür und ruft mit markiger Kommandostimme auf die Straße.)</stage>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Kompagnie — halt! — entrer! — remplacer! — commencer! — arriver! — fouler à coups de piéd!</p>
+          </sp>
+          <stage>(Die Spielleute brechen ihren Marsch ab.)</stage>
+        </div>
+        <div type="scene">
+          <head>13. Scene.</head>
+          <stage>Vorige — Velde Umecker — Philipp — die Spielleute und die Feuerwehrkompagnie.</stage>
+          <stage>(Die Neuhinzukommenden, alle in entsprechender Uniformierung einer Dorffeuerwehr.)</stage>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(geschäftig)</stage>
+            <p>— Nahme Platz, ihr Harre! — Setze-n-Uch. — Un rucke e weng zamme, daß d'Harre Offizier noochhare
+            äu noch Platz finge. — Halte, halte! — Dar Platz do vorne mueß frej bliewe fer de Harr Brandmäischter
+            un d'Fräu Brandmäischtere!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <stage>(spitz)</stage>
+            <p>— Do hätt m'r aw'r äu zwäi Fauteuil anne stelle könne.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Na jetzt ware numme nit schun wied'r gifti. — Ich mueß jo äu maache, was ich ghäiße wur. —
+            Sitze-n-'r jetz bööl Alli?!</p>
+          </sp>
+          <pb n="22" />
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Jetz warde m'r Alli bienöönd, bis uff dane v'rlottelte Stawalters-Philipp.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>So?! — Ja, wo stackt dann dar Allerwaltslottel wied'r?</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <stage>(erstaunt.)</stage>
+            <p>— Wo kummsch dann Dü jetz uff eesmols haregschliche?</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(lacht roh auf und schlägt sich auf das Knie.)</stage>
+            <p>— Hahaha! — Jetz wurd's Däuej! — Höön'r mich drowwe am Spritzehüs nit gsahne?</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Biem Apall uff kene Fall</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Aw'r glich druff bin ich kumme. — Isch''s imstöönd nit so, Herr Korperal? 
+            <stage>(zwinkert Velde mit den Augen zu.)</stage></p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Grood wie m'r ewack marschiert sin, isch'r noochzeranne kumme. Zall isch wohr.</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Dü hattsch Dich bie mir ze malde ghet, v'rstange?! — Was fer Öönderi gilt, dies gilt äu fer Dich!
+            — V'rstange?!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(gelassen.)</stage>
+            <p>— Jaja. — Aw'r Dir will ich eens säueje, Michel, un's öönder äu glich: ich will hynt Owe ken
+            zwäitsmol meh so oongschnäuzt ware do hinne, sunscht schmiß ich Uch de göönze Battel wied'r vor
+            d'Füeß! — Mir sin jetz franzeesch, wann'r 's je noch nit wisse, v'rstange?!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>14. Scene.</head>
+          <stage>Vorige — Daniel.</stage>
+          <stage>(Daniel kommt mit dem brennenden Kerzenlicht von links, trocknet sich die Stirne und trägt die
+          Kerze, nachdem er sie ausgepustet hat, rasch wieder hinter den Ausschank.)</stage>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Guete-n-Owe bienöönd.</p>
+          </sp>
+          <stage>(Lebhafter Zuruf von allen Seiten.)</stage>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Jetz gitt's Arwäit, Daniel.</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(geschäftig.)</stage>
+            <p>— Jaja. — Lissel, zügegriffe, hopp, hopp!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Numme emol de Hahne uff un d'Gleeser gfillt. An mir sell's nit fahle.</p>
+          </sp>
+          <stage>(Daniel und Lissel haben von jetzt ab immer vollauf mit dem Bedienen der Gäste zu tun.)</stage>
+          <pb n="23" />
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Bier har, Lissel, Bier har!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Dü muesch halt wied'r d'r Erscht sin, wie's Mül uffrißt.</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Wursch Dich beherrsche könne, Philipp, hein?!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>'s kriejt Jeder sin Sach.</p>
+          </sp>
+          <sp who="#bumbie">
+            <speaker>D'Bumbié:</speaker>
+            <p>Bravo! — Bravo!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Wie steht's mit'm Aase?</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Drej Kiwwel voll Grümbeeresalot.</p>
+          </sp>
+          <sp who="#bumbie">
+            <speaker>D'Bumbié:</speaker>
+            <p>Bravo!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Zwäi Meter fuffzig Brootwurscht uff de Mann.</p>
+          </sp>
+          <sp who="#bumbie">
+            <speaker>D'Bumbié:</speaker>
+            <p>Bravo!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Un Schwineripple höön m'r im Salz — — —</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>E Säichkaschte voll, mit Respakt ze malde.</p>
+          </sp>
+          <sp who="#bumbie">
+            <speaker>D'Bumbié:</speaker>
+            <p>Bravo!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(sein Glas hochschwingend.)</stage>
+            <p>— Kamerade! — Gsündhäit!</p>
+          </sp>
+          <sp who="#bumbie">
+            <speaker>D'Bumbié:</speaker>
+            <p>Gsündhäit! 
+            <stage>(sie trinken.)</stage></p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Kamerade! — Sahn'r dies Discheck do? — 
+            <stage>(schwingt die Faust hoch.)</stage>— Äin Sträich vun mir, un's ringelt sich uffem Bode wie e
+            oongepickter Rajewurm! — Mit äim Sträich mueß's leje! — Ich setz fünf. Fränkle! — Wer setzt
+            d'rgeje?!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(klopft ihm auf die Schulter.)</stage>
+            <p>— Sell ich Dir noch emol Räson biebringe?! — Gall, as gedankt D'r nimmi?!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Wrinke m'r äins, ihr Manner!</p>
+          </sp>
+          <sp who="#buureburscht">
+            <speaker>Ein Bauernbursche:</speaker>
+            <p>Unseri Bumbié selle lawe!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive! — vive! — vive!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>'s erscht Glas hatte m'r äijetli uff's Wohl vun ünserem Brandmäischter laartrinke selle.</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Na, s dritt Glas wurd's äu noch dhuen.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>M'r ware doch hoffetli meh trinke as wie numme drej?!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Silence!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Silence!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Kamerade! — Fünfezwanzig Johr steht hyt ünser Brandmäischter uff siem schware Poschte. — 
+            <pb n="24" />Fünfezwanzig Johr sin sozesäueje e Stick Menschealter — — — —</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <stage>(schreit dazwischen.)</stage>
+            <p>— Was Raacht isch, mueß Raacht bliewe! — Pardon, Harr Spritzemäischter, ich mueß Dir in Dini Red
+            ning falle, aw'r — — — was Raacht isch, mueß Raacht bliewe!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <stage>(pikiert.)</stage>
+            <p>— Dies höön m'r jetz schun zwäimol gheert.</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Ich bin jo noch nit ferti — Kamerade! — Ünser Harr Brandmaischter loßt sich hynt Owe wied'r e
+            schwar's Stick Gald koschte — — —</p>
+          </sp>
+          <sp who="#bumbie">
+            <speaker>D'Bumbié:</speaker>
+            <p>Bravo! — Vive!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Ja, Velde, ich bin doch am redde.</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Soviel ich wäiß, bin ich jetz droon.</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Dies isch e ordinäri Inbüssion!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>In-sub-or-di-na-tion! säit m'r d'rzü, wann m'r latinisch babble will. Wann m'r aw'r do nit kabawel
+            genuej isch d'rzü, d'rnoo halt m'r scheen sin däub Mül un trinkt sin Bier.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Bravo!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <stage>(vor Wut schäumend.)</stage>
+            <p>— No isch's ewwe e Inbüsordination vor v'rsammelter Mannschaft! — Un geje so ebs proteschtier
+            ich!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Gsündhäit!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Ruehji, ruehji! — Fange doch nit schun so an!</p>
+          </sp>
+          <sp who="#buureburscht #buuremaidle">
+            <speaker>Die Burschen und Mädchen:</speaker>
+            <stage>(singen.)</stage>
+            <p>— Nür äinmal blüht, wenn's niemand sieht, nür äinmal im Leben die Liebe!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <stage>(wütend.)</stage>
+            <p>— Ja, wo bliet dann do noch d'Majorität?!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Jetz mäinsch allewaj d'Äu-to-ri-tät? — hein?!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(dreht sich auf dem Absatz herum.)</stage>
+            <p>— Do mueß jo e Gückelhahn laache! — Lissel, räich Bier eriewwer!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Äij trinke doch, d'r Hahne wurd jo goor nimmi zügedrahjt.</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Die Mädchen:</speaker>
+            <p>Gsündhäit!</p>
+          </sp>
+          <pb n="25" />
+          <sp who="#buureburscht">
+            <speaker>Die Burschen:</speaker>
+            <p>Alle Gebott santé!</p>
+          </sp>
+          <sp who="#bumbie">
+            <speaker>D'Bumbié:</speaker>
+            <p>Gsündhäit!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Kamerade!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Silence!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Mir fiere hyt Sainte-Barbe un zeglich 's Jübiläum vun ünserem Harr Brandmäischter.</p>
+          </sp>
+          <sp who="#velde_umecker #daniel_wendling #buuremaidle #buureburscht #lissel #spielleute #bumbie">
+            <speaker>Alle:</speaker>
+            <stage>(außer Michel)</stage>
+            <p>— Bravo!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Kamerade! Mir sin v'rgnüejt bienöönd, mir, ja. — Aw'r — — — wo sin ünseri Harre Offizier?! —
+            Hinne?! — 
+            <stage>(Beistimmendes Gemurmel.)</stage></p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Velde! — Was sin dies fer Redesarte?! — Dies isch e indischi Süption, daß D's wäisch!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <stage>(lachend.)</stage>
+            <p>— Jetz wäiß ich's. — 
+            <stage>(Gelächter allseits.)</stage></p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Ruehji!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>'s will jo niemes ken Heendel.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>M'r daats aw'r bööl mäine.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Lissel, ich hab Durscht.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <p>Äij trink.</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Ich fröij noch emol: wo sin ünseri Harre Offizier?!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Velde, jetz nimm ich Dir's Wort!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>E Drack kannsch Dü mir nahme, v'rstange?!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>M'r sin jetz nit im Dienscht!</p>
+          </sp>
+          <sp who="#bumbie">
+            <speaker>D'Bumbié:</speaker>
+            <p>'s isch Sainte-Barbe!</p>
+          </sp>
+          <sp who="#buureburscht #buuremaidle">
+            <speaker>Die Burschen und Mädchen:</speaker>
+            <stage>(singen.)</stage>
+            <p>— Schön isch die Jü-ügend, sie kommt nicht mehr!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>D'Glycerin mueß hoch ghalte ware!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Un d'Disziplin ewefalls!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Jetz loon doch emol die ewige Stupfereje ewack!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>D'r Michel stupft jo in äim Stick furt. 
+            <stage>(Gelächter allseits.)</stage></p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Silence! — Ünser Harr Brandmäischter sell lawe!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive! — — vive! — vive!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Na, het noch Kener d'Kürasch?! — 
+            <stage>(schwingt die Faust hoch.)</stage>— Mit äim Sträich! — Hoppla! -Wer setzt d'rgeje?!</p>
+          </sp>
+          <pb n="26" />
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(warnend.)</stage>
+            <p>— Philipp?!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(mit einem scheuen Seitenblick auf den ihn finster anschauenden Daniel.)</stage>
+            <p>— Ah jaso! — 
+            <stage>(kraut sich hinter den Ohren.)</stage></p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Wann noochhare ünseri Offizier kumme, Michel, no will ich hoffe, daß Dü mine Standpunkt
+            v'rtrittsch — — —</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Bisch jetz bööl emol still?!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Noch lang nit!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Velde, ich loß Dich abfüehre!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Fer mich hesch Dü ken Abfüehrmittel!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Wenn's jetz ken Ruehj gitt, no bloos ich d'Lampe üs! — E Starnsapeprmant nochemol!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <stage>(klopft ihm lächelnd auf die Schulter.)</stage>
+            <p>— So wyt geht d'Narrhäit noch nit bie Dir, Daniel. —</p>
+          </sp>
+          <sp who="#buureburscht #buuremaidle">
+            <speaker>Die Burschen und Mädchen:</speaker>
+            <stage>(singend.)</stage>
+            <p>— O Süsanne, wie isch das Leben doch so schön! — O Süsanna, wie isch das Leben schön!</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(haut Michel, welcher sie in die Wange kneifen will, auf die Finger.)</stage>
+            <p>— Michel, dies könne-n-'r dhäime bie Öijere Fräu maache! — Aw'r mich loon'r in Ruehj! — Ich säe's
+            Uch!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>D'r Michel rannt aw'r iewerall an hynt Owe.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Ar isch aw'r doch ken Ranntier?! 
+            <stage>(Gelächter allseits.)</stage></p>
+          </sp>
+          <sp who="#buureburscht #buuremaidle">
+            <speaker>Die Burschen und Mädchen:</speaker>
+            <stage>(singen.) — Röslein, Röslein, Röslein rot! Röslein auf der Heiden!</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>15. Scene.</head>
+          <stage type="character">Vorige — Schorsch — Theres.</stage>
+          <stage>(Schorsch und. Theres treten durch die Mitte ein. Schorsch hat ein erhitztes Gesicht und einen
+          etwas stieren Blick. Das Képpi hat er nach hintenüber geschoben. Die Haare hängen ihm wirr über die
+          Stirne, Haltung und Gang sind etwas unsicher. Theres schaut auch schon etwas "verklärt" um
+          sich.)</stage>
+          <sp who="#chorus">
+            <speaker>Chorus:</speaker>
+            <stage>(wiederholend.)</stage>
+            <p>— Röslein, Röslein, Röslein rot! Röslein auf der Heide !</p>
+          </sp>
+          <pb n="27" />
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>à la bonheur! — Do geht's jo schun raacht luschdi zü!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Kamerade! — Ünser Harr Brandmäischter un d'Fräu Brandmäischtere selle lawe!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive! — vive! — vive!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Nahme do vorne an dam Disch Platz, Harr Brandmäischter.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(pustend.)</stage>
+            <p>— Deraschiere Uch numme nit. Numme luschti druff los.</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Dies isch äu mini Mäinung. — Harr Brandmäischter, betraachte die Füscht, un betraachte dies
+            Discheck. — Äin Sträich vun mir vun owwera — — — — —</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(verwarnend.)</stage>
+            <p>— Philipp?!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Warm isch's do hinne, Theres, grießerli warm.</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Hawich D'r's nit allewiel gsäit, Dü sellsch nit zeviel trinke? — Un no dar Kanztistriewelwyn, dar
+            hatt ewack sotte bliewe.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Na heer, Dü hesch Dich doch äu drum oongenumme.</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Ich?! — Bisch nit gschiedt?! — Äin Glaasel hawi getrunke.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Wieviel?</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Na, viellicht äu zwäi, aw'r höchschtens drej.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Ja, ohni d'r Rascht!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Mientwaje.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(pustend.)</stage>
+            <p>— Ich kriej bööl ken Luft meh.</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Maach de Kräueje uff un d'Knepf am Frack. 
+            <stage>(geschieht.)</stage></p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Michel, entweder säesch jetzt was ze säueje isch, od'r ich fang oon. — Aw'r no wurd ken Blatt
+            vor's Mül genumme.</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Sej zefridde, Velde, ich träe's schun vor.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(pustend.)</stage>
+            <p>— Theres, ich v'rstick bööl.</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Als noch? — Lissel, maach irjes uff un loß frischi Luft ering. — 
+            <stage>(Lissel öffnet ein Fenster.)</stage></p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Trinke ihr Harrschafte äu Bier?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(pustend.)</stage>
+            <p>— Vorläufi noch goor nix.</p>
+          </sp>
+          <pb n="28" />
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>'s isch'm nit göönz — — —</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Aha, ich v'rsteh.</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Hochv'rehrter Harr Brandmäischter un Jübilar!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Aha! — Andli!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Hochv'rehrti Fräu Brandmäischtere un Jübilarin! — Liewi Kamerade! — As isch hyt e großer Däuej fer
+            üns Alli zamme —</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>D'Offizier! — D'Offizier!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Un dorum selle ünseri Harre Offizier, un vor allem ünserer Harr Jübilar lawe! — vive!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <stage>(außer Velde, Schorsch und Theres.)</stage>
+            <p>— Vive! vive! — vive!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <stage>(knirschend.)</stage>
+            <p>— Na wart numme!</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(kläglich.)</stage>
+            <p>— Theres, mir wurd's schlaacht! Ich mueß an d'Luft!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Zerscht muesch noch e Red halte. — 's isch Dini Pflicht.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>Ich kann nit.</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Riß Dich zamme.</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <p>'s geht nit.</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Wursch Dich doch nit blamiere welle?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(seufzend.)</stage>
+            <p>— Na, ich will's prowiere. — Kamerade! — Was wohr isch, kann m'r säueje. — Fünfezwanzig Johr sin
+            ken Kläinigkäit — — un — — un — — ich kann Jedem säueje — daß — — daß — — ihr Manner, nahme m'r's nit
+            iewel — — as — — as — as wurd m'r unpaßli!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Gall, mit Dim Kanztistriewelwyn jetz?</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(besorgt.)</stage>
+            <p>— Steht's schlimm, Harr Brandmäischter?</p>
+          </sp>
+          <sp who="#schorsch_peterhansel">
+            <speaker>Schorsch:</speaker>
+            <stage>(abwehrend.)</stage>
+            <p>— Loon mich nüs — — loon mich nüs. — 
+            <stage>(taumelt zur Tür rechts hinaus in den Hof).</stage></p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Wann'r halt Bier getrunke hatt, wie Ünseräiner — — —</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <p>Fräu Brandmäischtere, wette-n-Ihr mit m'r, daß ich mit d'r Füscht do dies Discheck abschläe? Mit
+            äim Sträich!</p>
+          </sp>
+          <pb n="29" />
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>E-n-Auejesblick, Philipp. — 
+            <stage>(klopft mit dem Hausschlüssel auf den Tisch.)</stage></p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Silence! — D'Fräu Brandmäischtere het's Wort!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Ihr Manner! — Vun jehar hawich mich fer ünseri Fäierwehr intressiert, un um alli
+            BumbiéAngelajehäite oongenumme.</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive! — vive!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <stage>(schlägt sich auf die Brust.)</stage>
+            <p>— Fünfezwanzig Johr stehn mir uff ünserem Poschte.</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive! — vive!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <stage>(trocknet sich nervös die Stirne.)</stage>
+            <p>— Mit Stolz un Fräid, trotz Gift un Näid, höön mir ünser Amt gewissehaft bekläidt.</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive! vive!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>War het ünseri Kumpenie üniformiert un ingexerziert?! — 
+            <stage>(schlägt sich auf die Brust.)</stage>— Mir!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>War het Zug, Ordnung un Disziplin in ünseri Kumpenie ning gebroocht?! — 
+            <stage>(schlägt sich auf die Brust.)</stage>— Mir!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Wer het biem letschte Kräisfeuerwehrfescht de schenschte Brandangriff üsgfüehrt? — 
+            <stage>(schlägt sich auf die Brust.)</stage>— Mir!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive! — vive!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <stage>(trocknet sich nervös die Stirn.)</stage>
+            <p>— Un war het bie d'r Parad mit d'r beschte, gröschte un vornahmschte Spritz kunkeriere kenne? — 
+            <stage>(schlägt sich auf die Brust.)</stage>— Mir!</p>
+          </sp>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <p>Vive! — vive! — vive!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <p>Un d'Harre Offizier vun ünserer Kumpenie —</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <stage>(dazwischen schreiend.)</stage>
+            <p>— Ja?! — Wo sin se, ünseri Harre Offizier?! — Wo sin se?!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Velde, jetz isch's awr genuej! — Bie dr nachschte V'rsammlung stell ich de Anträuej — —</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <stage>(beschwichtigend.)</stage>
+            <p>— Stille, stille, stille!</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>In d'r nachschte V'rsammlung haltsch Dü Din Mül, v'rstange?!</p>
+          </sp>
+          <pb n="30" />
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>Bliewe doch ruehji jetz.</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Bild D'r numme nit ze viel ing uff Dine Spritzemäischter! — Fräu Brandmäischtere, ich hätt jetz
+            gare emol Ööntwort uff die Fröij, wo ünseri Harre Offizier sin?!</p>
+          </sp>
+          <sp who="#theres">
+            <speaker>Theres:</speaker>
+            <stage>(trocknet sich nervös die Stirn.)</stage>
+            <p>— Sie kumme noch — — — sie kumme — — un d'Müsik kummt äu noch — — Alli, Alli kumme se! — — —
+            Harrjesses — — dar Kanztistriewelwyn — — — ooooh! — — — jetz wurd's mir wajer äu noch unpaßli! — — —
+            ooooh! — — oooh! ooooooh !</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>Lissel:</speaker>
+            <stage>(springt rasch hinzu.)</stage>
+            <p>— kumme, Fräu Brandmäischtere, ich geh mit Uch. — 
+            <stage>(geleitet die Schwankende zur Tür rechts hinaus in den Hof.)</stage></p>
+          </sp>
+          <stage>(Ein dröhnender Krach, Gläserklirren, begleitet von einem Aufschrei Lissels, einem derben Fluch
+          Daniels und: dem schallenden Gelächter der Bumbié, Burschen und Mädchen. Philipp hat im Triumph mit der
+          Faust das Tischeck abgeschlagen.)</stage>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(weist seine Faust vor.)</stage>
+            <p>— Aw'r die isch noch göönz!</p>
+          </sp>
+          <sp who="#daniel_wendling">
+            <speaker>Daniel:</speaker>
+            <p>D'Rachnung zahlsch, un wann se noch so gsalze wurd!</p>
+          </sp>
+          <sp who="#philipp_stawalter">
+            <speaker>Philipp:</speaker>
+            <stage>(stolz)</stage>
+            <p>— Mir zahle se! — Numme ken Angscht!</p>
+          </sp>
+          <stage>(Von der Dorfstraße her ertönt näherkommende, etwas zweifelhaft harmonierende Musik.)</stage>
+          <sp who="#alle">
+            <speaker>Alle:</speaker>
+            <stage>(freudig)</stage>
+            <p>— D'Offizier kumme! — D'Offizier kumme!</p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <stage>(zu Velde.)</stage>
+            <p>— Aha jetz?! — Bisch jetz zefridde?! — 
+            <stage>(zu den Uebrigen.)</stage>— Attention! — Garde à vous! — In zwäi Glidder oontratte! —
+            Ehrespalier! — 
+            <stage>(wird von den Bumbiés flink und ordnungsgemäß ausgeführt, sodaß gegen der Mitteltür zu eine
+            Gasse gebildet ist. — Die Musik ist inzwischen vor der Wirtschaft angelangt.)</stage></p>
+          </sp>
+          <sp who="#michel_ohlmershans">
+            <speaker>Michel:</speaker>
+            <p>Compagnie! — Attention! — 
+            <stage>(öffnet rasch die Mitteltür, eilt wieder zurück an seinen Platz und 
+            <pb n="31" />salutiert. — Die Musik bricht mit einem schaudervollen Mißakkord ab. — Alle schauen mit
+            berechtigter Spannung nach der geöffneten Tür.)</stage></p>
+          </sp>
+          <stage>(Schorsch und Theres, beide kreidebleich, kommen von rechts. — Lissel folgt ihnen lachend auf
+          dem Fuße nach.)</stage>
+        </div>
+        <div type="scene">
+          <head>16. Scene.</head>
+          <stage>Vorige — Andrees.</stage>
+          <stage>(Nach erwartungsvoller, gespannter Pause erscheint Andrees grinsend unter der
+          Mitteltür.)</stage>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Hähähä — — — ihr Manner — — hähähä — — — ihr — — — hupp — — — ihr selle, exküsiere — — — hähähä —
+            — — hupp — — — ünseri Harrer Offizier — — — —</p>
+          </sp>
+          <sp who="#velde_umecker">
+            <speaker>Velde:</speaker>
+            <p>Oha?! — Was isch mit ünsere Harre Offizier?! — — — — Kumme se?!</p>
+          </sp>
+          <sp who="#andrees_bottjuckel">
+            <speaker>Andrees:</speaker>
+            <p>Nee — — — — sie könne nit kumme — — — hähähä — — — sie sin — — — sie sin Alli voll wie d'Affe! — —
+            — hupp! — — hähähä!</p>
+          </sp>
+          <stage>(Alle, bis auf Velde, welcher die Pose eines Triumphators einnimmt, knicken, wie vom Schlag
+          gerührt, auf die Bänke nieder. Andrees lehnt sich vornüber, mit schlaff niederhängenden Armen, gegen
+          den Türpfosten.)</stage>
+          <stage>Vorhang.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

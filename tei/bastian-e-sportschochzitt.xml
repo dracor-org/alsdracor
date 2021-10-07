@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">E Sportschochzitt</title>
+        <title type="sub">E Farce in aam Akt</title>
+        <author>
+          <persName>
+            <forename>Ferdinand</forename>
+            <surname>Bastian</surname>
+          </persName>
+          <idno type="wikidata">Q13099282</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Audrey Li-Thiao-Te</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Andrew Briand</name>
+          <name>Hoda Chouaib</name>
+          <name>Barbara Hoff</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">als000010</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106594175</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k91097112</idno>
+          <bibl type="originalSource">
+            <author>Ferdinand Bastian</author>
+            <title type="main">E Sportschochzitt</title>
+            <title type="sub">E Farce in aam Akt</title>
+            <publisher>Edition de théatre et de musique L. Jaggi-Reiss, Gundershoffen (Bas-Rhin)</publisher>
+            <date when="1937" type="print">1937</date>
+            <date type="written" />
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="camille">
+            <persName>Camille</persName>
+          </person>
+          <person sex="FEMALE" xml:id="hortense">
+            <persName>Hortense</persName>
+          </person>
+          <person sex="MALE" xml:id="conrad">
+            <persName>Conrad</persName>
+          </person>
+          <person sex="FEMALE" xml:id="caroline">
+            <persName>Caroline</persName>
+          </person>
+          <person sex="FEMALE" xml:id="grossmame">
+            <persName>Grossmame</persName>
+          </person>
+          <person sex="MALE" xml:id="octavie">
+            <persName>Octavie</persName>
+          </person>
+          <person sex="MALE" xml:id="gaston">
+            <persName>Gaston</persName>
+          </person>
+          <person sex="MALE" xml:id="president_vum_fuessballe_club_etoile">
+            <persName>Président vum Fuessballe-Club «&#160;Etoile&#160;»</persName>
+          </person>
+          <person sex="MALE" xml:id="president_vun_d_r_societe_de_gymnastique_vivace">
+            <persName>Président vun d'r Société de Gymnastique «&#160;Vivace&#160;»</persName>
+          </person>
+          <person sex="MALE" xml:id="president_vum_athlete_club_bojon">
+            <persName>Président vum Athlete-Club «&#160;Bojon&#160;»</persName>
+          </person>
+          <person sex="MALE" xml:id="president_vum_velo_club_blitz">
+            <persName>Président vum Velo-Club «&#160;Blitz&#160;»</persName>
+          </person>
+          <person sex="MALE" xml:id="president_vum_automobil_club_tour_du_monde">
+            <persName>Président vum Automobil-Club «&#160;Tour du monde&#160;»</persName>
+          </person>
+          <listRelation>
+            <relation name="spouses" mutual="#camille #hortense" />
+            <relation name="parent_of" active="#caroline #conrad" passive="#hortense" />
+            <relation name="parent_of" active="#grossmame" passive="#conrad" />
+            <relation name="siblings" mutual="#caroline #octavie" />
+            <relation name="friends" mutual="#camille #gaston" />
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="2" />
+      <div type="dedication">
+        <p>In d'r 
+        <lb />Société de Gymnastique D'Obernai 
+        <lb />in aller Friendschaft 
+        <lb />gewidmet 
+        <lb />vum auteur</p>
+      </div>
+      <pb n="3" />
+      <castList>
+        <head>Persone:</head>
+        <castItem corresp="#camille">
+          <role><persName>Camille</persName></role>,
+          <roleDesc>e Sportsmensch</roleDesc>
+        </castItem>
+        <castItem corresp="#hortense">
+          <role><persName>Hortense</persName></role>,
+          <roleDesc>sini Hochzittere</roleDesc>
+        </castItem>
+        <castGroup>
+          <castItem corresp="#conrad">
+            <role><persName>Conrad</persName>
+            </role>
+          </castItem>
+          <castItem corresp="#caroline">
+            <role>
+              <persName>Caroline</persName>
+            </role>
+          </castItem>
+          <roleDesc>Eltere vun Hortense</roleDesc>
+        </castGroup>
+        <castItem corresp="#grossmame">
+        <role>
+          <persName>Grossmame</persName></role>,
+            <roleDesc>Mame vun Conrad</roleDesc>
+          </castItem>
+        <castItem corresp="#octavie">
+          <role><persName>Octavie</persName></role>,
+          <roleDesc>Schwester vun Caroline</roleDesc>
+        </castItem>
+        <castItem corresp="#gaston">
+          <role><persName>Gaston</persName></role>,
+          <roleDesc>Aviateur, Friend vun Camille</roleDesc>
+        </castItem>
+        <castItem corresp="#president_vum_fuessballe_club_etoile">
+          <role>
+            <persName>Président vum Fuessballe-Club «&#160;Etoile&#160;»</persName>
+          </role>
+        </castItem>
+        <castItem corresp="#president_vun_d_r_societe_de_gymnastique_vivace">
+          <role>
+            <persName>Président vun d'r Société de Gymnastique «&#160;Vivace&#160;»</persName>
+          </role>
+        </castItem>
+        <castItem corresp="#president_vum_athlete_club_bojon">
+          <role>
+            <persName>Président vum Athlete-Club «&#160;Bojon&#160;»</persName>
+          </role>
+        </castItem>
+        <castItem corresp="#president_vum_velo_club_blitz">
+          <role>
+            <persName>Président vum Velo-Club «&#160;Blitz&#160;»</persName>
+          </role>
+        </castItem>
+        <castItem corresp="#president_vum_automobil_club_tour_du_monde">
+          <role>
+            <persName>Président vum Automobil-Club «&#160;Tour du monde&#160;»</persName>
+          </role>
+        </castItem>
+        <castItem corresp="#e_paar_musikante_odder_sanger_wo_e_standel_bringe_(eventuell_grammophonplatt)">
+        <role>
+          <persName>E paar Müsikante odder Sänger wo e Ständel bringe (eventuell Grammophonplatt)</persName>
+        </role>.</castItem>
+      </castList>
+      <set>
+        <p>
+          <emph rend="bold">Diss Stüeck isch nur for Herre-Rolle gedenkt.</emph>
+        </p>
+        <p>Ufftritt: rechts und links vum Spieler.</p>
+        <p>Scène: Wohnung vum Babbe Conrad. An d'r Hinterwand zwei Fenschter mit Umhängle, d'rzwische e Kanebe,
+        drüewer Dafle un Porträt, rechts un links vom Kanebe e Stuehl, Sittewand rechts e gedeckt's Tischel mit
+        Bluemwase, drüewer zwai Florete mit Mask, links e Fodell, d'rnäwe e Bluemeständer. Rechts un links
+        Sittetüere, hinte e Tüer.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="4" />
+      <div type="act">
+        <div type="scene">
+          <head>1. Ufftritt.</head>
+          <stage>Hortense im wisse Hochzittsstaat, sitzt uff-em Kanebe un grient.</stage>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Mon Dieu wie bin ich unglüecklich. 
+            <stage>(Geht evor.)</stage>Ken Mensch wo aane tröscht. Gott wie min Hochzittsnastüechel tropft. 
+            <stage>(Grient lütt. Ringt 's Nastüechel üss).</stage>Träne, nix wie Träne.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. Ufftritt.</head>
+          <stage>Octavie e bissel altmodisch angedohn, mit 'me Reiseköfferle, vun hinte.</stage>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Bonjour Hortense, glüecklichi Hochzittere! Loss dich umarme. Ja, was muess ich sehne? Dü
+            griensch?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Bonjour Tante Octavie. 
+            <stage>(Fallt e're um de Hals.)</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Was isch denn basiert?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>D'r Camille isch noch nit do.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Diner Hochzitter? Ah, nit möjlich! Kumm setz dich. 
+            <stage>(Holt zwai Stüehl, sitze näwenand.)</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>In e're Halbstund solle mer uff d' Mairie, derno in d'Kirich. Ich verzwiefel noch.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Na, ja, er wurd schun kumme. Tröscht dich. Viellicht isch-em e Hosseknopf abgschprunge, odder er
+            het d'Krawatt verlajt, odder....</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>So ebbs soll am eso e Daa nit vorkumme.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Biem e Junggsell isch alles möjlich.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>O, ich sitz wie uff-em e Kohlefyr. 
+            <stage>(Rutscht hin un her.)</stage>Bedenk, tante, wenn'r nit käm. Die Blamasch. Ich gäng
+            direkt...</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>In's Wasser?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Naan, in's Kloschter. Tante Octavie, hirot nit, hirot nit. Betracht mich in mim grenzelose
+            Ku-kummer. Näm dir e lawendigs Exempel an mir.</p>
+          </sp>
+          <pb n="5" />
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(sifzt)</stage>
+            <p>In die Verläjeheit wurr ich nie kumme.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Jo mach Sache. Dü bisch jo erscht in de vierzig, odder?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Was waisch denn dü vom Läwe. Ach Gott. 
+            <stage>(Sifzt schwer.)</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Werum sifzsch denn eso?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Hab ich gsifzt? Hortensele, ich hab mir gschwore nie ze hirote. E Mann bringt aam nix wie Sorje un
+            Unglüeck. 
+            <stage>(Holt üss-em Köfferle e Stricket, setzt sich, geht d'rno hin un her, strickt
+            nervös.)</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Awer Tante, wie reddsch denn dü?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Bsunders e Mann wo Sport triebt. 
+            <stage>(Bliebt vor Hortense stehn)</stage>Ich warn dich vor so 'me Mann. 
+            <stage>(Hin un her.)</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(steht uff, geht näwe Octavie her.)</stage>
+            <p>Tante, er het mir awer versproche, dass'r üss alle Societäte...</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Bscht! Verspreche duehn sie alli, awer nix halte. Dü nadierlich mit dine zwanzig Johr, dü luejsch
+            d'Männerwelt noch mit unschuldige Paradiesaue aan.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Statt aane ze tröschte, machsch aam 's Herz noch schwerer. O ich armer Tropf. 
+            <stage>(Grient, setzt sich).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Düürsch mich, Kind, awer ich bin uffrichtig. So e Mann het jo nie ken Zitt for sini Frau, d'r
+            Sport isch ihm alles, alles! So e Mann isch nie d'haame, un am End vum Johr het'r e Korb voll
+            Cotisatione ze zahle, wo d'Frau nix d'rvun het.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Awer d'r Sport isch doch ebbs gesunds.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Ebbs gsunds? Mach mich nit lache.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Doch, doch. Sitter dass d'r Camille zue uns kummt, isch bie uns alles gsund.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Ah, do bin ich awer gschbannt.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Im Babbe siner Fettbüch hett-em Maläschte gemacht. D'r Camille het gsaat: Babbe mache Sie
+            Gymnastique, ich lehr Sie. Sie wäre sehn, Sie greje e Taille wie e Weschbel; d'Mame het allewiel weh
+            in de Baan g'hett. D'r Camille het sie Velo fahre lehre. Un 's Weh isch eweck. D'Grossmame, wo dato
+            siewezig Johr alt isch, die isch allegelte an Kritzbuckelschmerze im Bett geläje. D'r Camille het
+            e're gerote mit yserige 
+            <pb n="6" />Hantle un an de Ring ze schaffe. Jetzt geht sie kerzegrad, un isch ganz buschberlig.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Also demnooch het's diner Camille fertig gebrocht, d'ganz Familli mit-em Sportsgaischt ze
+            vergifte. Naan, so ebbs. Ja un was het'r denn dich gelehrt?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Tennis.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(Schrei)</stage>
+            <p>Jesses! Arms Kind. 
+            <stage>(Setzt sich, grient in de Strumpf).</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Um's Gottswille! Tante! Tante!</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Tennis! Tennis! Diss isch din Unglüeck. Mit Tennis het's bie mir angfange, mit Tennis het's
+            uffg'hört.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Tante, ich versteh dich nit. Kumm doch zue dir. Soll ich e Glas Wasser hole?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Merci, ich hab mini Ohnmacht nabgschluckt. 
+            <stage>(Geht an e Fenschter, macht's uff).</stage>Oh! Was muess ich sehn? D'r Schwöjer hängt im Garte
+            am Reck! O, jetzt macht'r Büchwelle. Conrad! Conrad, dü verdräjsch dir jo d'r Blinddarm. Conrad!
+            Halt! Jetzt macht'r d'r Rieseschwung. Der brecht sich noch's Gnick. Ich kann's nim sehn. 
+            <stage>(Zeruck, setzt sich, strickt).</stage></p>
+          </sp>
+          <stage>(Es poltert hinter dr Scène).</stage>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Was poltert denn so?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Nix, d'Grossmame schafft im Näwetszimmer mit de Hantle.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Naan, so ebbs verruckts.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Saa, Tante, werum soll Tennis e Unglüeck sin?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Kind, ich bin uffrichtig. Wie ich so alt bin gsin wie dü, hab ich au e Hochzitter g'hett. Gaston
+            het'r g'haisse. Gaston!</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Ah! Verzehl, verzehl!</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Ja, un er het mir versproche, dass wenn mer g'hirot sin, bie alle Sportsveraan Demission ze
+            gänn.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Diss het miner Camille au versproche.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Glaub nix. Bref, am Daa vor d'r Hochzitt isch'r nooch London gereist, for dort e Tennismatch
+            mitzemache. E Depesch het'r gschickt: Weltmaischter worre 
+            <stage>(Grient).</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>O — o! Isch'r nim kumme?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Un so wurd's dir au gehn.</p>
+          </sp>
+          <pb n="7" />
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(springt uff).</stage>
+            <p>Tante, saa diss nim, sunscht verriss ich min Hochzittskleid in döüsig Fetze.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Verriss-es. Besser eso, als Sportsfrau ze sin.</p>
+            <p>
+              <stage>(Es klebbert wie Glasscherwe).</stage>
+            </p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Jesses! 
+            <stage>(Springt uff, luejt in's Zimmer links).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Was isch denn?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(zeruck)</stage>
+            <p>d'Grossmame schafft an de Ring. Sie het e Hochstand gemacht, un isch an de Lüster getrette.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>An de Lüster? Püh, do hinne wurd's mer schwüel, ich muess frischi Luft schöpfe. 
+            <stage>(Hinte ab).</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(steht uff)</stage>
+            <p>Camille, Camille, kumm, erlös mich, loss mich nit sitze.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE</speaker>
+            <stage>(uffgerejt mit e're Depesch eryn)</stage>
+            <p>Ho-ho-hortense, e De-depesch. 
+            <stage>(Hebbt sie nüss, fallt uff e Stuehl).</stage>Da, mach dü sie uff.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>E Depesch? E de-de 
+            <stage>(fallt uff's Kanabe).</stage>Ich kann nit, ich rieder. Tante les, mach sie uff.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>E Unglüecksdepesch? Arms Kind.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. Ufftritt.</head>
+          <stage>Conrad im Majot, wisse Hosse un Schueh, vun hinte, fixiert Hortense un Octavie.</stage>
+          <sp who="#conrad">
+            <speaker>CONRAD:</speaker>
+            <p>Was isch denn? 
+            <stage>(schüettelt Hortense)</stage>he Hortense! 
+            <stage>(Schüettelt Octavie)</stage>Octavie, was isch denn mit euch?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Zwai Jumpfere han zwai Ohnmachte.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD:</speaker>
+            <p>Plän dummi. Was hesch denn in d'r Hand? Ah, e Depesch. 
+            <stage>(Risst sie uff, lest.)</stage>Je viens par Avion avec mon ami Gaston. Paris. Camille. Er kummt
+            per Avion. So e Deifelskerl.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(springt uff)</stage>
+            <p>Per Avion? Babbe, per Avion?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(uff)</stage>
+            <p>Wer isch der ami Gaston? Wer?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Er kummt, er kummt. Babbe werf dich in de Staat. Gott, miner Camille kummt. 
+            <stage>(Packt Conrad, danzt mit-em erum).</stage></p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD:</speaker>
+            <p>Hortense, ich glaab dü bisch maschugge worre.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(hebbt Conrad)</stage>
+            <p>Saa, wer isch der Gaston? Redd!</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD:</speaker>
+            <p>Was waiss denn ich. 
+            <stage>(Ab Sittetüer rechts).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Hortense, kennsch dü 'ne, denne Gaston?</p>
+          </sp>
+          <pb n="8" />
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Ich kenn numme miner Camille. Mach doch nit so nervös.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Gaston! Amend, wer waiss. So het'r g'haisse, der wo mich Tennis gelehrt het.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Liebs Dandel, ich bin so glüecklich. Er kummt, er kummt, er isch schun do. Ich kenn siner Schritt.
+            
+            <stage>(Lauft mit üssgschtreckte Aerm an d'Hintertüer).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. Ufftritt.</head>
+          <stage>Caroline im Velosportskleid mit Hosse, hinteri Tüer.</stage>
+          <sp who="#caroline">
+            <speaker>CAROLINE:</speaker>
+            <p>Bonjour, bonjour.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(losst d'Aerm sinke)</stage>
+            <p>Oh, d'Madam. 
+            <stage>(Setzt sich betrüebt).</stage></p>
+          </sp>
+          <sp who="#caroline">
+            <speaker>CAROLINE:</speaker>
+            <p>Ja, soll ich's nit sin? Luej do 's Octavie.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Bonjour Schweschter. 
+            <stage>(Verschmutze sich.)</stage>Dü siehsch jo üss wie e Mann.</p>
+          </sp>
+          <sp who="#caroline">
+            <speaker>CAROLINE:</speaker>
+            <p>Bisch denn als noch so altfränkisch? So altjumpferlich?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Mame, d'r Camille kummt.</p>
+          </sp>
+          <sp who="#caroline">
+            <speaker>CAROLINE:</speaker>
+            <p>Was hab ich gsaat: d'r Camille het e Wort.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Jaja, Mamele, geh, dueh dich aan, dummel dich.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Gott, wenn 'rs wär. Min Herz klopft wie e Drumm.</p>
+          </sp>
+          <sp who="#caroline">
+            <speaker>CAROLINE:</speaker>
+            <p>Was babbelsch? Hesch dü Gschäfte mit-em Camille?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Caroline, wenn dü widder e Frau bisch, redd ich mit dir.</p>
+          </sp>
+          <sp who="#caroline">
+            <speaker>CAROLINE:</speaker>
+            <p>Versteh ken Wort. 
+            <stage>(Ab Sittetüer links).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>5. Ufftritt.</head>
+          <stage>Hortense, Octavie, d'r President vum Fuessballe-Club« Etoile » im Sportkostüm, het e Balle
+          unterm Arm, hinteri Tüer.</stage>
+          <stage>(Es klopft).</stage>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Entrez!</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <stage>(Reverenz)</stage>
+            <p>Hochverehrts Hochzittspaar — pardon, wo isch d'r Camille?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Er wurd im Moment do sin.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Pardon, ich bin starik bresiert. Im Name vum Füessballe-Club «Etoile» wüensch ich Ihne, un im
+            verdiente membre Camille viel Glüeck zuem hittige Fraidedaa, un 
+            <pb n="9" />
+            <lg>
+              <l>Zuem verehrungsvolle Zaiche</l>
+              <l>Dueh ich denne Balle üewerreiche,</l>
+              <l>Möcht er bringe Glüeck un Säje,</l>
+              <l>D'Haam, un alle Fuessballwäje.</l>
+            </lg></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Merci, Monsieur le Président. Ich wurr denne Balle im Camille an's Herz drücke. 
+            <stage>(Lajt'ne uffs Kanebe).</stage></p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Un d'r Camille au. 
+            <stage>(Reverenz)</stage>Bin starik bressiert. 
+            <stage>(An d'r Tüer)</stage>Hipp-hipp-Hurra! 
+            <stage>(Ab).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Siehsch, alli sin bressiert.</p>
+            <stage>(Es klopft).</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>6. Ufftritt.</head>
+          <stage>Président vun d'r Gymnastique« Vivace » im Kostüm, Medaill an, bringt e Dafel un e
+          Clairon.</stage>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Entrez!</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <stage>(Salütiert)</stage>
+            <p>Mesdames! Im Uffdraa vun d'r Société de Gymnastique « Vivace », hab ich die Ehr als Président im
+            junge Paar — wo isch denn 's ander Teil vum Paar? — herzliche Glüeckwüensch zu üewerbringe. 's Comité
+            het bschlosse d'r lieb Hors-concours Camille als membre d'honneur ze ernenne, un d'membres vun d'r
+            Societät han im Camille als chef vun d'r Claironsektion diss Clairon gschtift. 's Comité hofft, dass
+            Sie, ihri Kinder un Kindeskinder membre actif wäre. 
+            <lg>
+              <l>Denn d'Gymnastik macht starki Glidder,</l>
+              <l>Un Nerve grad wie Stacheldroht,</l>
+              <l>Vor d'Gymnasiens förcht sich's Gewitter,</l>
+              <l>In viele Fäll sogar d'r Tod.</l>
+            </lg></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Merci vielmols Monsieur le Président. Ich wurr alles im Camille üssrichte. 
+            <stage>(Lajt beidi Sache uff's Kanebe).</stage></p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Exküsiere Sie liewi Hochzittere, ich hab noch schnell e Concours ze organisiere. 
+            <stage>(Salütiert, schnell ab).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Der isch au bressiert. M'r maant alli han 's Laufe. Naan, so e Theater. 
+            <stage>(Holt 's Clairon un betracht's).</stage>Wo blost mer denn nyn?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Gib her, ich will dir's zaje. 
+            <stage>(Setzt aan).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Hortense dü wursch doch nit!</p>
+          </sp>
+          <pb n="10" />
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Was mich d'r Camille gelehrt het! 
+            <stage>(Blost e Marsch).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(schlaat d'Hände zamme, hebbt d'Ohre zue)</stage>
+            <p>Hör uff!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>7. Ufftritt.</head>
+          <stage>Grossmame vun links im robe de chambre, Schlofkäbbel mit Bendel uff, macht im Takt
+          Hantelexercice. Glich druff, Conrad in de Unterhosse, Frack aan, vun rechts.</stage>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(Ditt uff d'Grossmame, bekummt Lachkrämpf, danzt im Ringelerum, macht d'Exercice
+            nooch).</stage>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD:</speaker>
+            <p>Was isch denn diss for e Grambol?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(setzt ab)</stage>
+            <p>Herrjeses! Babbe, dü hesch jo dini Hosse vergesse.</p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD:</speaker>
+            <p>Was d'Hosse? 
+            <stage>(Luejt an sich nab)</stage>E Nundebibb! So isch's, wenn mer sich dummelt. 
+            <stage>(Schnell ab).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Grossmame hör uff! 
+            <stage>(Lacht)</stage>In dem Hüss isch alles letz.</p>
+          </sp>
+          <sp who="#grossmame">
+            <speaker>GROSSMAME:</speaker>
+            <p>Mit Müsik isch's viel besser gange. 
+            <stage>(Losst e Hantel falle, krischt).</stage>Au, miner gross Zeh 
+            <stage>(Hüpst uff aam Baan links ab).</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Un d'r Camille isch als noch nit do. 
+            <stage>(Lajt 's Clairon uff's Kanebe).</stage></p>
+            <stage>(Es klopft).</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>8. Ufftritt.</head>
+          <stage>Président vum Velo-Club, im Veloskostüm mit 'me Velo.</stage>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Gschbannt bin ich, wer jetzt kummt.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Entrez!</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Bonjour. 
+            <stage>(Reverenz)</stage>Mesdames, hm, wo isch d'r Camille?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Er bambelt noch in d'r Luft.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Was, er bambelt? Enfin, Gschbass uff d'Sitt. In aller Anerkennung vum Camille sine Mérites am
+            Velo-Club « Blitz », hab ich die gross Ehr, Ihne Mademoiselle Hortense zuem küenftige Ehestandsglüeck
+            ze gratüliere, un im Name vum Club, im ehrewerte membre Camille e Velo ze üewerreiche, mit dem
+            Wunsch, dass er mit dem Velo in's Glüeck nynstrample, un im Club e trej's Mitglied bliewe möcht.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Merci vielmols im Name vum — o ich bin ganz gerüehrt.</p>
+          </sp>
+          <pb n="11" />
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Mer kann's verstehn. Ja, ich muess gehn, ich bin bressiert. 
+            <stage>(Handschmutz)</stage>Au revoir Mesdames. (ab).</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Haha, der isch au bressiert. Awer wenn's eso wittersch geht, no kannsch e Sportsgschäft
+            anfange.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Es isch doch schön, so g'eehrt ze wäre, gell, tante.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>'s kummt druff aan.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Gell dü bisch niedisch uff mich?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Ich? Merci. In wieviel Societäte isch denn diner Allerwelts-Camille?</p>
+            <stage>(Es klopft).</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>9. Ufftritt.</head>
+          <stage>Président vum Athlete-Club, buschiger Schnützer, wissi Hosse, Goggel uff, Frack mit viele
+          Medaill, bringt zwai Schwergewicht (üss Babbedeckel).</stage>
+          <stage>(Es klopft).</stage>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Es het schun widder geklopft: Entrez!</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Entrez s'il vous plait.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Tüer uff wenn's beliebt.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>'s wurd doch kener mit 'me Haiwaaue kumme.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(macht uff)</stage>
+            <p>Entrez!</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>E Bojongrüess vum Athlete-Club. 
+            <stage>(Stellt d'Gewichter vor an d'Scène, grüesst)</stage>Voilà.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Monsieur, was soll denn diss bedidde?</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Zwai Schwergewicht for unser Schwergewichsstemmer Camille, zuem ewige Andenke als Hochzittsgschenk
+            vum Athlete-Club « Bojon ». Mamsell Hochzittere, wenn Sie emol Dischbetat han mit-em Camille, saaue
+            Sie nix, stemme Sie die zwai Gewichtle, un Ihrer Röüjes isch verschwunde. Kraft üewerwind alles,
+            Kraft macht rich an Körper un Seel, Kraft isch Läwe, Kraft üewerwind alles, sogar e Frau.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Vergesse Sie nit unsri Zung, wo au e Kraft isch, un 's guete Koche.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Bravo tante. Hahaha!</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRÉSIDENT:</speaker>
+            <p>Lache Sie nit, Mamsel Hochzittere. Ich bin au g'hirot, hab sechs Kinder, alli gsund, alli stemme.
+            Ich wüensch Ihne 's nämlich.</p>
+          </sp>
+          <pb n="12" />
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>O, diss isch e bissel viel.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT :</speaker>
+            <p>Wie Sie wôlle. Awer mir laischte ebbs. Union fait la force. Ha, diss will ich maane. Un do bin ich
+            stolz druff.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Mir gratüliere.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Un au zue denne viele Medaill, wo Ihri Bruscht ziere.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Medaille? Die sin ehrlich verdient. Füenf Rettungsmedaill, un d'andere hab ich mir bie
+            internationale Wettkämpf g'holt.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Finde Sie nit, dass die viele Medaill gfährlich schwer sin?</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Kraft isch Läwe. Kraft üewerwind alles. 
+            <stage>(Geht stolz ab, kummt glich widder mit zwei Fischgerte un e 're Filosch)</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Tante, wie der stolz abgange isch, der Kraftmensch, sogar ohne Bojongrüess.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Der Bojon-Président gfallt mer. Kraft! Kraft!</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Fraid mich, dass ich Ihne gfall. Un wie ich au Président vum Angelsportsverein « Hechtekrähn »
+            bin, so schenk ich dem junge Paar, zwai Gerte un e Filosch, im Gedanke, dass d'r Camille un Sie, au
+            Membre vun unserem Angelveraan wäre.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Hahaha, es wurd als besser.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Stimmt! Es wurd am besser in d'r freie Natür, statt d'haam in d'r Stubb ze sitze, un
+            melancholische Gedanke noochzehenke; 's Fische isch e grenzeloses Vergnieje, es kalmiert Nerve, mer
+            üebt sich in d'r Geduld, wenn mer stundelang uff's Zäpfel glüürt. E Biss, e Ruck un e Bräse, e
+            Berschi, e Hecht, odder e Nas zawelt am Aengele. D'r Angelsport macht Fraid, bsunder s' halb zwait.
+            Un wenn d'Fischbüechs garniert isch, geht's haamezues mit e're Bachet in Glüeck un Aanigkeit. Sie
+            köenne rüehig 's Kinderkitschel als mitnämme, denn...</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Exküsiere Sie, mir muehn uns rüeschte for uff d'Mairie.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>O, ich hab Zitt. Was gibt's denn ze esse?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Ich waiss-es nit!</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Sie wiss-es nit? Diss isch letz. Wo isch denn 's Hochzitts-Esse?</p>
+          </sp>
+          <pb n="13" />
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Ich glaab im Restaurant zuem « Wüetige Schimmel ».</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Was? Viel Vergnieje. Na, Adie mit e'me Muskelgruess. 
+            <stage>(Druckt Hortense d'Hand).</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Merci vielmols for.... o — o! 
+            <stage>(Schlenkert schmerzhaft d'Hand, stellt d'Gerte an's Kanebe).</stage></p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <stage>(druckt Octavie d'Hand)</stage>
+            <p>Viel Vergnieje Mamsell.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Merci! O Jesses! D'r Aanzig wo nit bressiert isch. O Jesses! 
+            <stage>(Ringelt sich vor Schmerze).</stage></p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>« Im wüetige Schimmel ». Yhihi! 
+            <stage>(Ab).</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>O mini Hand füenkelt wie Fyr. Merci for so e Kraft.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(blosst uff d'Hand)</stage>
+            <p>Denne Président vergesst mer so schnell nit.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Minsex.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Es isch doch schad um denne Mann.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Schad? Wieso.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Wenn'r je 's Unglüeck het in's Wasser ze falle kummt'r nim in d'Höh, wäje sine schwere
+            Rettungsmedaille.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Es zwirwelt mer alles im Kopf herum. Ich sieh fascht nix vor Schmerze. 
+            <stage>(Horcht)</stage>D'r Camille kummt! 
+            <stage>(Lauft an d'Tüer, risst sie uff, un umarmt d'r Président vum
+            Automobil-Club)</stage>Camille!!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>10. Ufftritt.</head>
+          <stage>President vum Automobil-Club, im Frack, dunkli Hosse, Cylinder, Händschi, schwarzer Bart,
+          hinteri Tüer, mit 'me Strüss).</stage>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>So haiss ich, chère Mademoiselle.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(Geht verschrocke hinterschi)</stage>
+            <p>Mon Dieu, ich, ich kenn Sie jo gar nit. Gott muess ich mich schämme. 
+            <stage>(Bedeckt 's Gsicht).</stage></p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Gar nit notwendig Demoiselle. 
+            <stage>(Stellt sich vor).</stage>Président de l'Automobile-Club « Tour du monde ». 
+            <stage>(Verneigt sich au geje Octavie).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(Knixt)</stage>
+            <p>Monsieur.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <p>Notre cher membre Camille a choisi une charmante Demoiselle. Mes félicitations de tout mon coeur. 
+            <stage>(Gibt e're d'r Strüss.)</stage>Je suis heureux de vous offrir au nom du Club, une Automobile
+            comme cadeau de fiançailles. E Zwaisitzer, Mademoiselle, marque Renault. Drüsse steht der Waaue. Per-
+            
+            <pb n="14" />mettez que je vous embrasse. 
+            <stage>(Gibt e're zwai Schmüetz)</stage>Et encore une fois mes meilleurs souhaits de bonheur.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Merci mille fois Monsieur le Président. Merci.</p>
+          </sp>
+          <sp who="#president_vum_fuessballe_club_etoile">
+            <speaker>PRESIDENT:</speaker>
+            <stage>(verneigt sich dief vor Hortense, derno vor Octavie mit Handschmutz ab).</stage>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(macht e Knix, grossi Paus.)</stage>
+            <p>Was saasch jetzt?</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Ich find ken Wort meh.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>E weritawels Auto als Hochzittsgschenk!? Voilà, diss loss ich mir jetzt gfalle. Nowel, was nowel
+            heisst. Nowler als die Schwergewichter do, un Fischgerte.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(stolz)</stage>
+            <p>Gott was e Glüeck, so e Mann ze bekumme, wo So angsehne isch. Wo'r nume bliebt. O ich verzwazzel
+            noch, ich fahr noch zue d'r Hütt nüss.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Masch diss jo nitt, sunscht kummsch nimi nyn. E Moment, ich bin waier wunderfitzig uff denne
+            Zwaisitzer. 
+            <stage>(Hinte ab.)</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>D'r Camille wurd Aue mache. Awer froh bin ich, dass miner Hochzitter ken so Bart het, wo aam im
+            Gsicht erum grawelt. 
+            <stage>(Riebt sich d'Backe).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(eryn mit e're moderne Kinderkütsch).</stage>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(Schrei, fallt uff d'r Sessel).</stage>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Was saasch zue dem Zwaisitzer. Haha! 
+            <stage>(Stell d'Kütsch vor Tüer rechts).</stage></p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>O-o-o-o, so aane ze fobbe. Diss isch zeviel.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Hortense, dü hesch e Chance wie selte. Haha!</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Chance saasch dü?</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>E chance, dass nit schun e Bubbel in d'r Kutsch lejt.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Tante, verschon mich, es isch zeviel uff anmol.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Ja, awer wenn mer's recht bedenkt — was nutzt dich e Kinderkütsch? Diner Zueküenftig isch jo nie
+            d'haam!</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(hebbt d'Ohre zue)</stage>
+            <p>Ich lauf noch furt, dü ungattig tante, dass dü bisch.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(schmeichelt)</stage>
+            <p>Bisch jetzt bös? Waisch was d'r Athlete-Président gsaat het? Wenn mer e Röüjes het, soll mer
+            stemme. Kumm, helf, die Dinger muehn do eweck. Allez Hortense, hebb dich, Ho-hupp!</p>
+          </sp>
+          <pb n="15" />
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Ho-hupp!</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Nachemol ho-hupp. Es geht nit.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>11. Ufftritt.</head>
+          <stage>Camille im Fuessballesportskostüm, grossi wissi Kravatt. Frack mit 'me wisse Strüessel,
+          Cylinder, wissi Händschi. Gaston als Aviateur kostümiert, bliewe an d'r Hintertüer stehn.</stage>
+          <sp who="#camille #gaston">
+            <speaker>GASTON un CAMILLE:</speaker>
+            <p>Ho-hupp!!!</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Camille! Gottseidank! 
+            <stage>(Fliehje sich in d'Aerm).</stage></p>
+          </sp>
+          <sp who="#gaston">
+            <speaker>GASTON:</speaker>
+            <stage>(salütiert stumm).</stage>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(fixiert d'r Gaston, geht um 'ne rum)</stage>
+            <p>Höre Sie, Monsieur, Sie kumme mir so bekannt vor. Ah, sin Sie nit der Herr wo mich zellemols
+            Tennis gelehrt het? 
+            <stage>(Lajt d'Händ uff d'Bruscht)</stage>Bisch dü nit — Gaston! Miner Gaston! Hesch mich noch
+            gern?</p>
+          </sp>
+          <sp who="#gaston">
+            <speaker>GASTON:</speaker>
+            <p>Octavie, ich bin in d'r ganze Welt erumgflöüje, un jetzt fliehj ich in dini Aerm — uff ewig! 
+            <stage>(Umarmung).</stage></p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Gaston, d'r Himmel hängt voll Bassgeje.</p>
+          </sp>
+          <sp who="#camille">
+            <speaker>CAMILLE:</speaker>
+            <p>Exküsier Hortense, ich hab noch schnell e Mätschel in Paris gemacht, un 30.000 Fränkle
+            erüssgfuessballert. 
+            <stage>(Luejt erum).</stage>Hortense, luej dort, die zwai schiene sich ze kenne.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Jetzt schlaat's drizeh.</p>
+          </sp>
+          <sp who="#gaston">
+            <speaker>GASTON:</speaker>
+            <p>Mes amis — mini Hochzittere.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Mir gehn mit uff d' Mairie, un fliehje in de Himmel; dummle Euch, es bressiert.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <p>Camille, luej, was mir for schöeni Gschenker bekumme han.</p>
+          </sp>
+          <sp who="#camille">
+            <speaker>CAMILLE:</speaker>
+            <p>Ahaa! — Awer vun allem bisch dü's schöenscht Hochzittsgschenk.</p>
+          </sp>
+          <sp who="#hortense">
+            <speaker>HORTENSE:</speaker>
+            <stage>(lauft nooch rechts)</stage>
+            <p>Babbe, d' Camille isch do.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <stage>(lauft nooch links)</stage>
+            <p>Caroline, Grand'mère, er isch kumme, sie sin kumme!</p>
+          </sp>
+        </div>
+        <pb n="16" />
+        <div type="scene">
+          <head>11. Uftritt.</head>
+          <stage>Conrad vun Rechts, fallt mit-em Owerkörper in d'Kütsch, vun links Caroline. Lockekopf, graziösi
+          Figür im helle Staat, Grossmame altmodisch angedohn. Schaal um, e Dätschhuet mit Bendel uf.</stage>
+          <sp who="#caroline">
+            <speaker>CAROLINE:</speaker>
+            <p>Bonjour Camille. Herrje, wie bisch denn dü gemuschtert?</p>
+          </sp>
+          <sp who="#camille">
+            <speaker>CAMILLE:</speaker>
+            <p>Schwejermame, es bressiert 
+            <stage>(Umarmung).</stage></p>
+          </sp>
+          <sp who="#grossmame">
+            <speaker>GROSSMAME:</speaker>
+            <p>Eweck do. Bonjour Hochzitter. 
+            <stage>(Schlüdert Caroline uff d'Sitt, Umarmung.)</stage></p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD:</speaker>
+            <p>Eweck Mame, Salü Camille. 
+            <stage>(Risst d'Grossmame weck, Umarmung).</stage>Alles gsund, Taille wie e Lyonerwurscht.</p>
+          </sp>
+          <sp who="#octavie">
+            <speaker>OCTAVIE:</speaker>
+            <p>Liewi Familli, do stell ich Euch miner fiancé Gaston vor. Umarme uns.</p>
+          </sp>
+          <sp who="#caroline">
+            <speaker>CAROLINE:</speaker>
+            <p>D'r Gaston, dini alt Flamm? Gratülier. 
+            <stage>(Umarmt Gaston).</stage></p>
+          </sp>
+          <sp who="#conrad">
+            <speaker>CONRAD:</speaker>
+            <p>Wenn e alti Schier brennt, isch sie nim ze löesche. Gratülier.</p>
+          </sp>
+          <sp who="#grossmame">
+            <speaker>GROSSMAME:</speaker>
+            <stage>(het d'Schwergewicht gsehne, stemmt beidi)</stage>
+            <p>Zwaihundert Kilo! Sport gibt Kraft!</p>
+            <stage>(Vun drüsse hört mer Müsik odder G'sang. Camille füehrt Hortense, Gaston, Octavie, Conrad,
+            Caroline. Ab. Wie d'Grossmame sieht, dass sie ellaan isch, stellt sie schnell d'Gewichter ab, macht e
+            Handstand odder schlaat e Burzelbaam.)</stage>
+            <p>
+              <stage>Rideau.</stage>
+            </p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
