@@ -85,7 +85,7 @@
           <person sex="MALE" xml:id="kutscher">
             <persName>Kütscher</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="spouses" mutual="#contre #juliette" />
             <relation name="parent_of" active="#mme_trett" passive="#juliette" />
             <relation name="siblings" mutual="#ursule #contre" />

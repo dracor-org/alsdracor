@@ -75,7 +75,7 @@
           <person sex="MALE" xml:id="otto_mobil">
             <persName>Otto Mobil</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="friends" mutual="#jean #victor" />
             <relation name="friends" mutual="#jean #schakob" />
             <relation name="associated_with" active="#jean" passive="#j_meyer" />

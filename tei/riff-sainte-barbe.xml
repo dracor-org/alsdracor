@@ -112,7 +112,7 @@
           <personGrp sex="UNKNOWN" xml:id="spielleute">
             <persName>die Spielleute</persName>
           </personGrp>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="parent_of" active="#daniel_wendling" passive="#lissel" />
             <relation name="spouses" mutual="#schorsch_peterhansel #theres" />
           </listRelation>

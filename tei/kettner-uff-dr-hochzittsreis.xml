@@ -78,7 +78,7 @@
           <personGrp sex="UNKNOWN" xml:id="alle">
             <persName>Alle</persName>
           </personGrp>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="spouses" mutual="#felix_kachele #julie" />
             <relation name="spouses" mutual="#alfons_lieblich #emma" />
           </listRelation>

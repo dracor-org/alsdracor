@@ -87,7 +87,7 @@
           <person sex="MALE" xml:id="arweiter_2">
             <persName>2. Arweiter</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="related_with" mutual="#georges_frosch #michel" />
             <relation name="associated_with" mutual="#georges_frosch #michel" />
             <relation name="related_with" mutual="#georges_frosch #robert" />

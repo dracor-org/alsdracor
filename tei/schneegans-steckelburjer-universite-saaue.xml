@@ -78,7 +78,7 @@
           <person sex="MALE" xml:id="ein_herr_vom_comite">
             <persName>Ein Herr vom Comité</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="spouses" mutual="#eugene_mathis #sophie_mathis" />
             <relation name="related_with" active="#dr_schaufler" passive="#eugene_mathis" />
           </listRelation>

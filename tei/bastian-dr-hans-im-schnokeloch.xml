@@ -127,7 +127,7 @@
           <person sex="MALE" xml:id="knabe">
             <persName>Knabe</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="related_with" active="#angenes" passive="#hans" />
             <relation name="related_with" active="#lehn" passive="#hans" />
             <relation name="parent_of" active="#lojel" passive="#urschel" />

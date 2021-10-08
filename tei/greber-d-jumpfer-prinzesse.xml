@@ -98,7 +98,7 @@
           <person sex="MALE" xml:id="ein_dienstmann">
             <persName>Ein Dienstmann</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="spouses" mutual="#jakob_schmelzer #emelie_schmelzer" />
             <relation name="parent_of" active="#jakob_schmelzer #emelie_schmelzer" passive="#jeanne" />
             <relation name="parent_of" active="#jeanne-louise_schwindt" passive="#juliette" />

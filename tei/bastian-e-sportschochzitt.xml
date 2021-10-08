@@ -96,7 +96,7 @@
           <person sex="MALE" xml:id="president_vum_automobil_club_tour_du_monde">
             <persName>Président vum Automobil-Club «&#160;Tour du monde&#160;»</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="spouses" mutual="#camille #hortense" />
             <relation name="parent_of" active="#caroline #conrad" passive="#hortense" />
             <relation name="parent_of" active="#grossmame" passive="#conrad" />

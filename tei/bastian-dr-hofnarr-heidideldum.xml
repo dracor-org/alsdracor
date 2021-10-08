@@ -152,7 +152,7 @@
             <persName>Zwei Page, Mickeymies, hochi Staatsbeamti, Diener un Dienere biem Maharadscha, e
             Drache</persName>
           </personGrp>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="spouses" mutual="#kinj_gourmand #kinigin_dificile" />
             <relation name="parent_of" active="#kinj_gourmand #kinigin_dificile" passive="#prinzess_yoyotte" />
             <relation name="associated_with" active="#baronesse_langue_de_chat" passive="#kinigin_dificile" />

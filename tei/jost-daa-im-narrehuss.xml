@@ -97,7 +97,7 @@
                <person sex="MALE" xml:id="narr">
                   <persName>Narr</persName>
                </person>
-               <listRelation>
+               <listRelation type="personal">
                   <relation name="parent_of" active="#brummer" passive="#oktavie"/>
                </listRelation>
             </listPerson>

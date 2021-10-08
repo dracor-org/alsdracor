@@ -93,7 +93,7 @@
           <personGrp sex="MALE" xml:id="die_andern">
             <persName>Die Andern</persName>
           </personGrp>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="associated_with" active="#frisch" passive="#linsenspalter" />
             <relation name="associated_with" active="#frei" passive="#linsenspalter" />
             <relation name="associated_with" active="#frohlich" passive="#linsenspalter" />

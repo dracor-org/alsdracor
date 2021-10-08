@@ -83,7 +83,7 @@
           <person sex="MALE" xml:id="linser">
             <persName>Linser</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="associated_with" active="#eddes #addes" passive="#drohtspitz" />
             <relation name="parent_of" active="#schakob" passive="#schakobel" />
           </listRelation>

@@ -83,7 +83,7 @@
           <personGrp sex="UNKNOWN" xml:id="alle">
             <persName>Alle</persName>
           </personGrp>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="spouses" mutual="#knuppe #urschel" />
             <relation name="associated_with" active="#charlot" passive="#knuppe" />
           </listRelation>

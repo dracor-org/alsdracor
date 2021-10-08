@@ -185,7 +185,7 @@
           <personGrp sex="UNKNOWN" xml:id="alle">
             <name>Alle</name>
           </personGrp>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="parent_of" active="#dr_herr_maire" passive="#grethl #marie" />
             <relation name="friends" mutual="#jerry #seppel" />
             <relation name="associated_with" active="#franz" passive="#dr_herr_maire" />

@@ -76,7 +76,7 @@
           <person sex="FEMALE" xml:id="marie">
             <persName>Marie</persName>
           </person>
-          <listRelation>
+          <listRelation type="personal">
             <relation name="spouses" mutual="#jules_kleitz #germaine" />
             <relation name="parent_of" active="#henriette_fleischmann" passive="#germaine" />
             <relation name="friends" mutual="#jules_kleitz #dokter_robert_schmitt" />
