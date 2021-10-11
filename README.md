@@ -1,9 +1,8 @@
 # AlsDraCor
-The **Als**atian **Dra**ma **Cor**pus is an endeavour of
-[Laboratoire LiLPa](https://lilpa.unistra.fr/) at University of Strasbourg.
-We slowly start building a corpus of TEI-encoded plays in Alsatian dialect.
+The **Als**atian **Dra**ma **Cor**pus is a growing corpus of TEI-encoded plays
+in [Alsatian dialect](https://en.wikipedia.org/wiki/Alsatian_dialect).
+It is based on the corpus being built by the MeThAL project
+([Towards a Macroanalysis of Theater in Alsatian](https://methal.pages.unistra.fr/en.html)),
+hosted at [Laboratoire LiLPa](https://lilpa.unistra.fr/) (University of Strasbourg).
 
-To start off, we encoded a decisive play in Alsatian theatre history, Johann
-Georg Daniel Arnold's "Der Pfingstmontag" ("Le Lundi de Pentecôte"), published
-in 1816, and Gustave Stoskopf's "In's Ropfer's Apothek" ("At Ropfer's Pharmacy"),
-published in 1907.
+The corpus can be explored on the corresponding DraCor page: https://dracor.org/als
