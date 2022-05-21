@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -52,7 +52,7 @@
             <title type="sub">E luschdigs Schwänkele in aam Uffzug von Jean Riff</title>
             <publisher>Verlag von E. Finck, Alsatica-Verlag, Strasbourg</publisher>
             <date when="1922" type="print">1922</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -78,7 +78,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="2" />
+      <pb n="2"/>
       <castList>
         <head>PERSONE:</head>
         <castItem corresp="#jacques">
@@ -96,7 +96,7 @@
       </set>
     </front>
     <body>
-      <pb n="3" />
+      <pb n="3"/>
       <div type="scene">
         <head>1. Scene.</head>
         <stage>Jacques.</stage>
@@ -119,7 +119,7 @@
           Unseraans emol e bissel schnüüfe köent.</p>
           <stage>(Es klingelt.)(wü-</stage>
         </sp>
-        <pb n="4" />
+        <pb n="4"/>
         <stage>tend gegen rechts)</stage>
         <p>Jo, riß d'r e Arm erüs, alt's Rüppeyse!</p>
         <stage>(geht gemächlich rechts ab.)</stage>
@@ -135,7 +135,8 @@
           <p>Oh, dies schöene Rösele. Gescht noch so nätt geblüejt, und hyt schun welk! — 
           <stage>(seufzt tief auf.)</stage>— O ja, so isch's halt emol uff d'r Welt! — So geht's mit de Rose — so
           geht's mit de Maidle. M'r blüehjt — m'r wurd umschwärmt — m'r v'rwelkt — un wurd gemiede! 
-          <stage>(Starkes Geklirr hinter der Bühne.)</stage></p>
+          <stage>(Starkes Geklirr hinter der Bühne.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
@@ -145,26 +146,29 @@
         <sp who="#jacques">
           <speaker>Jacques</speaker>
           <p>
-          <stage>(hinter der Scene):</stage>E Millonezunderschtzewwerst soll d'rzwische nin bängle, aans vun unte
+            <stage>(hinter der Scene):</stage>E Millonezunderschtzewwerst soll d'rzwische nin bängle, aans vun unte
           un aans vun owwe — wenn's will!!!</p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(lachend):</stage>
           <p>Aha, 'skracht in d'r Kiche, no wurd's au bal rauche! 
-          <stage>(Es klingelt.)</stage></p>
+          <stage>(Es klingelt.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(lachend):</stage>
           <p>Hoppla! — Was hawich nit gsaat? — 's raucht schun! 
-          <stage>(Es klingelt.)</stage></p>
+          <stage>(Es klingelt.)</stage>
+          </p>
         </sp>
         <sp who="#jacques">
           <speaker>Jacques</speaker>
           <stage>(hinter der Scene.:</stage>
           <p>Jo riß d'Schell vun d'r Wand erab, alter Nißkraawe! 
-          <stage>(Kommt hastig von rechts.)</stage></p>
+          <stage>(Kommt hastig von rechts.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -180,9 +184,10 @@
           <stage>(wütend):</stage>
           <p>Wenn ich nin kumm, ze riß ich ere diesmol d'Barriek vum Schäddel, daß se au emol weiß, was schelle
           heißt! 
-          <stage>(eilt erregt nach links ab.)</stage></p>
+          <stage>(eilt erregt nach links ab.)</stage>
+          </p>
         </sp>
-        <pb n="5" />
+        <pb n="5"/>
       </div>
       <div type="scene">
         <head>4. Scene.</head>
@@ -200,7 +205,8 @@
           Hauptbedingung isch numme: m'r mueß z'halb Zweit sin zem hyroothe, un — — — ım'r mueß enander welle. — 
           <stage>(setzt sich auf die Bank.)</stage>— M'r mueß enander welle?! — 
           <stage>(seufzt tief auf.)</stage>— Wie wenn ich de Jacques nit wott?! — O Gott, o Gott, o Gott! 
-          <stage>(Jacques tritt unbemerkt von links ein.)</stage></p>
+          <stage>(Jacques tritt unbemerkt von links ein.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -231,7 +237,7 @@
           <p>Die het jo ihrer Läwe noch gar kaan Elephant gsehne! — Sie renomiert halt gern mit ihre
           astronomische Kenntnisse.</p>
         </sp>
-        <pb n="6" />
+        <pb n="6"/>
         <sp who="#jacques">
           <speaker>Jacques:</speaker>
           <p>Aw'r numme fer mir 's Läwe süür ze mache. — Sie kann mich halt nit schmecke. — Ich sie aw'r au
@@ -304,7 +310,7 @@
           <stage>(setzt sich mißmutig auf die Bank):</stage>
           <p>Naan, ganz und gar nimmi.</p>
         </sp>
-        <pb n="7" />
+        <pb n="7"/>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(lauernd):</stage>
@@ -403,7 +409,7 @@
           <speaker>Jacques:</speaker>
           <p>Höer, Marie, jetz glaawi iewer halwer daß ich ebs merk.</p>
         </sp>
-        <pb n="8" />
+        <pb n="8"/>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(freudig):</stage>
@@ -480,7 +486,7 @@
           <speaker>Jacques:</speaker>
           <p>Ah jaso. — Na, ze fröij wyttersch.</p>
         </sp>
-        <pb n="9" />
+        <pb n="9"/>
         <sp who="#marie">
           <speaker>Marie:</speaker>
           <p>Dü machsch dies Johr nimmi ganz üß in dem Platz do?</p>
@@ -575,7 +581,7 @@
           <stage>(eifrig):</stage>
           <p>Ei na, wenn Dü no hell genuej bisch, no wäre-m-'r au enandernooch Maan un Frau un krieje enander vun
           Daa ze Daa liewer — un d'r- 
-          <pb n="10" />noo läwe-m-'r glichli mitnand -un d'rnoo — un d'rnoo kumme die herzige klaane,
+          <pb n="10"/>noo läwe-m-'r glichli mitnand -un d'rnoo — un d'rnoo kumme die herzige klaane,
           wuschberliche, süeße Bébé — — —</p>
         </sp>
         <sp who="#jacques">
@@ -609,20 +615,23 @@
         <sp who="#jacques">
           <speaker>Jacques:</speaker>
           <p>O ja. Arig gern, aw'r numme in andere Lyt ihri! 
-          <stage>(Es klingelt.)</stage></p>
+          <stage>(Es klingelt.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(ärgerlich):</stage>
           <p>D'Madam schellt! — Isch's jetz fer mich od'r fer Dich? 
-          <stage>(eilt gegen rechts.)</stage></p>
+          <stage>(eilt gegen rechts.)</stage>
+          </p>
         </sp>
         <sp who="#jacques">
           <speaker>Jacques:</speaker>
           <p>Sie sell warte, die alt Schatüll — 
           <stage>(eilt Marie nach und zieht sie an der Hand wieder zurück.)</stage>Numme nit glich geloffe! Mir
           han se dennewäej schun viel ze viel v'rwöehnt. 
-          <stage>(Es klingelt.)</stage></p>
+          <stage>(Es klingelt.)</stage>
+          </p>
         </sp>
         <sp who="#jacques #marie">
           <speaker>Beide:</speaker>
@@ -638,7 +647,7 @@
           <stage>(setzt sich auf die Bank.)</stage>Marie, Dü bisch doch au müed wie e — — - wie e
           Dienschtmaidel?</p>
         </sp>
-        <pb n="11" />
+        <pb n="11"/>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(lachend):</stage>
@@ -750,7 +759,7 @@
           <speaker>Jacques:</speaker>
           <p>O ich Dolle!</p>
         </sp>
-        <pb n="12" />
+        <pb n="12"/>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(wie oben):</stage>
@@ -825,7 +834,8 @@
           <speaker>Marie</speaker>
           <stage>(zärtlich):</stage>
           <p>Ja siehsch, min liewer Bue, m'r mueß ewwe an Alles denke! 
-          <stage>(holt einen Apfel aus der Schürzentasche, und beißt kräftig hinein.)</stage></p>
+          <stage>(holt einen Apfel aus der Schürzentasche, und beißt kräftig hinein.)</stage>
+          </p>
         </sp>
         <sp who="#jacques">
           <speaker>Jacques:</speaker>
@@ -840,7 +850,7 @@
           <speaker>Jacques:</speaker>
           <p>Wo hesch denn dene here?</p>
         </sp>
-        <pb n="13" />
+        <pb n="13"/>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(schmatzend):</stage>
@@ -869,7 +879,8 @@
         <sp who="#jacques">
           <speaker>Jacques:</speaker>
           <p>Na, daß Ruehj hesch — here mit! — Aw'r no stehsch uff! — 
-          <stage>(beißt kräftig von dem Apfel ab.)</stage></p>
+          <stage>(beißt kräftig von dem Apfel ab.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
@@ -913,7 +924,8 @@
           <speaker>Jacques</speaker>
           <stage>(lachend):Un</stage>
           <p>Dü d'Eva! — Jetz fehlt numme noch d'Schlang. 
-          <stage>(Beide lachen kräftig.) (Es klingelt!)</stage></p>
+          <stage>(Beide lachen kräftig.) (Es klingelt!)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
@@ -938,7 +950,7 @@
           <p>Mini Füeß sin ganz stiff worre. Un am räechte Fueß schlooft m'r d'r groß Zeh! - Sapperlot, wie dies
           kriwwelt! — Do bisch Dü d'Schuld dran! —</p>
         </sp>
-        <pb n="14" />
+        <pb n="14"/>
         <sp who="#marie">
           <speaker>Marie:</speaker>
           <p>Mientwäeje. — Ich nimm jo gern alli Schuld uff mich. Un ich will d'r's jo au gern v'r- spreche, dab
@@ -959,7 +971,8 @@
         <sp who="#marie">
           <speaker>Marie:</speaker>
           <p>Bisch nit böes gell nit? 
-          <stage>(küßt ihn.)</stage></p>
+          <stage>(küßt ihn.)</stage>
+          </p>
         </sp>
         <sp who="#jacques">
           <speaker>Jacques</speaker>
@@ -975,7 +988,8 @@
           
           <stage>(reekt sich rasch in die Höhe und breitet die Arme aus.)</stage>Marie, Evele, noch e Schmutz! —
           Noch aaner! 
-          <stage>(Marie fliegt ihm an die Brust und küßt ihn.)</stage></p>
+          <stage>(Marie fliegt ihm an die Brust und küßt ihn.)</stage>
+          </p>
         </sp>
         <sp who="#jacques">
           <speaker>Jacques</speaker>
@@ -986,14 +1000,16 @@
           <speaker>Marie</speaker>
           <stage>(windet sich lachend los):</stage>
           <p>— Naan, min liewer Adam, jetz isch's genüej! 
-          <stage>Es klingelt!)</stage></p>
+          <stage>Es klingelt!)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(lachend):</stage>
           <p>Siehsch — jetz het's gschellt! — Do kannsch nix mehr dran mache! Jacques 
           <stage>(stampft zornig mit dem Fuß auf):</stage>Zell welle m'r aw'r doch emol sehne! 
-          <stage>(Es klingelt!)</stage></p>
+          <stage>(Es klingelt!)</stage>
+          </p>
         </sp>
         <sp who="#jacques">
           <speaker>Jacques:</speaker>
@@ -1009,13 +1025,15 @@
         <sp who="#jacques">
           <speaker>Jacques:</speaker>
           <p>Batsch in! — 
-          <stage>(hält ihr die rechte Hand entgegen.)</stage></p>
+          <stage>(hält ihr die rechte Hand entgegen.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(feierlich):</stage>
           <p>E Mann — e Wort! 
-          <stage>(schlägt kräftigt ein.)</stage></p>
+          <stage>(schlägt kräftigt ein.)</stage>
+          </p>
         </sp>
         <sp who="#jacques">
           <speaker>Jacques:</speaker>
@@ -1025,8 +1043,9 @@
           <speaker>Marie</speaker>
           <stage>(lachend):</stage>
           <p>Naan — jetz nit — später — wenn m'r emol ghyroot sin. 
-          <pb n="15" />
-          <stage>(Es klingelt andauernd heftig.)</stage></p>
+          <pb n="15"/>
+            <stage>(Es klingelt andauernd heftig.)</stage>
+          </p>
         </sp>
         <sp who="#jacques">
           <speaker>Jacques:</speaker>

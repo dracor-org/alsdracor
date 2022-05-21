@@ -186,9 +186,9 @@
             <name>Alle</name>
           </personGrp>
           <listRelation type="personal">
-            <relation name="parent_of" active="#dr_herr_maire" passive="#grethl #marie" />
-            <relation name="friends" mutual="#jerry #seppel" />
-            <relation name="associated_with" active="#franz" passive="#dr_herr_maire" />
+            <relation name="parent_of" active="#dr_herr_maire" passive="#grethl #marie"/>
+            <relation name="friends" mutual="#jerry #seppel"/>
+            <relation name="associated_with" active="#franz" passive="#dr_herr_maire"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -208,8 +208,7 @@
           <role><persName>D'r Herr Maire</persName></role>.
         </castItem>
         <castItem corresp="#dr_freundlich">
-        <role>
-          <persName>Dr. Freundlich</persName></role>,
+          <role><persName>Dr. Freundlich</persName></role>,
           <roleDesc>Privatgelehrter</roleDesc>.
         </castItem>
         <castItem corresp="#seppel">
@@ -233,29 +232,19 @@
         </castItem>
         <castGroup>
           <castItem corresp="#morte_velte">
-            <role>
-              <persName>Morte Velte</persName>
-            </role>
-          </castItem>          
+            <role><persName>Morte Velte</persName></role>
+          </castItem>
           <castItem corresp="#schiere_hans">
-            <role>
-              <persName>Schiere Hans</persName>
-            </role>
+            <role><persName>Schiere Hans</persName></role>
           </castItem>
           <castItem corresp="#dirrebirels_dicker">
-            <role>
-              <persName>Dirrebirels Dicker</persName>
-            </role>
+            <role><persName>Dirrebirels Dicker</persName></role>
           </castItem>
           <castItem corresp="#giltbur">
-            <role>
-              <persName>Giltbür</persName>
-            </role>
+            <role><persName>Giltbür</persName></role>
           </castItem>
           <castItem corresp="#nejbierel">
-            <role>
-              <persName>Nejbierel</persName>
-            </role>
+            <role><persName>Nejbierel</persName></role>
           </castItem>
           <roleDesc>Gemeinderatsmitglieder.</roleDesc>
         </castGroup>
@@ -263,16 +252,14 @@
           <role><persName>Ein Velocipedist</persName></role>.
         </castItem>
         <castItem corresp="#doni">
-        <role>
-          <persName>Doni</persName></role>,
+          <role><persName>Doni</persName></role>,
           <roleDesc>ein als Kellner funktionierender Bauernbursche</roleDesc>.
         </castItem>
         <castItem corresp="#ein_lump">
           <role><persName>Ein Lump</persName></role>.
         </castItem>
         <castItem corresp="#dorfpolizist">
-        <role>
-          <persName>Dorfpolizist</persName></role>.
+          <role><persName>Dorfpolizist</persName></role>.
         </castItem>
         <castItem corresp="#briefbote">
           <role><persName>Briefbote</persName></role>.
@@ -282,23 +269,18 @@
         </castItem>
         <castGroup>
           <castItem corresp="#marie">
-            <role>
-              <persName>Marie</persName>
-            </role>
+            <role><persName>Marie</persName></role>
           </castItem>
           <castItem corresp="#grethl">
-            <role>
-              <persName>Grethl</persName>
-            </role>
+            <role><persName>Grethl</persName></role>
           </castItem>
           <roleDesc>Tochter des Herrn Maire</roleDesc>
-        </castGroup>        
+        </castGroup>
         <castItem corresp="#velocipedistin">
           <role><persName>Velocipedistin</persName></role>.
         </castItem>
         <castItem corresp="#franz">
-        <role>
-          <persName>Fränz</persName></role>,
+          <role><persName>Fränz</persName></role>,
           <roleDesc>alte Magd beim Herrn Maire</roleDesc>.
         </castItem>
         <castItem corresp="#bauern_bauernburschen_bauernmachen">
@@ -313,7 +295,7 @@
       </set>
     </front>
     <body>
-      <pb n="5" />
+      <pb n="5"/>
       <div type="act">
         <head>Erster Aufzug.</head>
         <stage>Bauernstube des Maires.</stage>
@@ -346,8 +328,9 @@
             <speaker>Grethl.</speaker>
             <p>Jo, un was ne ganz üsser Rand und Band gebrocht hett, diss isch, dass d'r Schulzebür vun Ziwelse
             de Kronen- 
-            <pb n="6" />Ordre IV. Class krejt hett, un er hett ne noch nit 
-            <stage>(Man hört hinter der Bühne zankende Stimmen.)</stage></p>
+            <pb n="6"/>Ordre IV. Class krejt hett, un er hett ne noch nit 
+            <stage>(Man hört hinter der Bühne zankende Stimmen.)</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie.</speaker>
@@ -381,7 +364,8 @@
             Visite säuje? Die wäre mäne, sie sin anstatt bim Herr Maire, bie Lumpevolik, bie Korbmacher, bie
             Kesselflicker ingelade! E Massti ohne Suppepastetle un Marikknöpfle, ob diss gepermetteert isch! —
             Ebb diss schun än Mensch erlebt hett. 
-            <pb n="7" /></p>
+            <pb n="7"/>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie.</speaker>
@@ -419,7 +403,7 @@
             <p>Fröüje täte?! — Fröüje täte!! — Än for allemol ich will nemmi kummedeert sin. Bin ich d'r Herr
             Maire od'r isch sie d'r Herr Maire ? — Ich habs satt, sie muess zuem Hüs nüs !</p>
           </sp>
-          <pb n="8" />
+          <pb n="8"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Wie viel Mol han'r jetzt diss schun g'säit. Zett'r dass mir's gedenkt, ze han'r ere alle acht Daj
@@ -458,7 +442,7 @@
             <p>Allewäj, z'erscht muess i ne doch sahn ? M'r kann doch nit mir nix dir nix säuje, dass m'r e
             Mensche hieroth, wie m'r von Hütt un Hoor nit kennt, un wie m'r noch nie g'sahn hett !</p>
           </sp>
-          <pb n="9" />
+          <pb n="9"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Hör jetzt än Mensch die iwerzwärig Redesart an; m'r kann e Mensche nit hierothe, wie m'r noch nit
@@ -495,7 +479,7 @@
             <speaker>Grethl.</speaker>
             <p>Diss wär m'r nit guet genue. E Simpel will i äu nit zuem Mann !</p>
           </sp>
-          <pb n="10" />
+          <pb n="10"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Was ?! Do isch's zu mine Zytte-n-andersch gewahn. Dini Mueter sali het sich nit so lang bedenkt,
@@ -529,7 +513,7 @@
             <speaker>Maire.</speaker>
             <p>S'kummt als besser, jetzt hör mir än Mensch die King an, hett m'r sin Däuj-des-Lewes schun e so
             ebs g'sehn. Ah, 
-            <pb n="11" />ich soll mich nit wundere ?!- Diss will i d'r g'säit han, der Stadtherr, wie s'Malheur
+            <pb n="11"/>ich soll mich nit wundere ?!- Diss will i d'r g'säit han, der Stadtherr, wie s'Malheur
             hett, emol do in min Hüs ze kumme, for um dini Hand anzehalte: guet Nacht dem ! — Die Doppelflint,
             wie ich gelade in d'r Kammer stehn hab, um Ratte mit ze scheesse, die hol i un schees ne mit iwer e
             Hüffe! Ah dü witt e Stadtherr ? Diss sin vun denne Plän, wie dü mitgebrocht hesch üs d'r Pension. Ich
@@ -541,7 +525,8 @@
             <stage>(setzt sich in den grossen Lehnstuhl).</stage>Diss wär noch e scheeni Ordnung, wenn m'r
             Töchter hett, un die wotte hierothe so mir nix dir nix e-n-anderer as ne d'r Vater erüsg'suecht hett.            
             <stage>(Es klopft an).</stage>Entrez ! 
-            <stage>(Der Briefbote tritt herein).</stage></p>
+            <stage>(Der Briefbote tritt herein).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -566,9 +551,10 @@
             <stage>(streckt beide Hände aus, um den Brief in Empfang au nehmen, betrachtet ihn, zu gleicher Zeit
             steckt der Briefbote Marie heimlich eine Ansichtspostkarte zu, sie drückt ihm ein Geldstück in die
             Hand. Der Maire freudig erregt 
-            <pb n="12" />seinen beiden Töchtern den Brief zeigend)</stage>Hochwohlgeboren ! Sehn 'r,
+            <pb n="12"/>seinen beiden Töchtern den Brief zeigend)</stage>Hochwohlgeboren ! Sehn 'r,
             Hochwohlgeboren steht drowe ! — Hochwohlgeboren !... Was muess jetzt do drinne stehn ? 
-            <stage>(Betrachtet den Brief, ohne ihn aufzumachen).</stage></p>
+            <stage>(Betrachtet den Brief, ohne ihn aufzumachen).</stage>
+            </p>
           </sp>
           <sp who="#briefbote">
             <speaker>Briefbote.</speaker>
@@ -604,7 +590,7 @@
             höfli de Huet ab vor'm Herr Gendarm 
             <stage>(sehr wichtig thuend)</stage>hab in fünfezwanzig Johr kenn Kaiserasse verfahlt, hab allewyl
             for de Kandidat vun d'r Regeerung g'schafft, hab zwei Aktie genumme in 
-            <pb n="13" />d'r Zuckerfawrik vun Erstän, d'r Commissär üs'm Cantonort hett m'r s'letscht g'säit:
+            <pb n="13"/>d'r Zuckerfawrik vun Erstän, d'r Commissär üs'm Cantonort hett m'r s'letscht g'säit:
             "Sie sind mein Mann", un ihri Dürichläuft hett m'r uff d'r letschte Veehprämierung ejehandig d'Hand
             gedrickt, ohne dass i ne drum gebette hab !... Bedenke e so e Hand in minere Hand... Eb diss d'r
             Schulzebüür äu alles säuje könnt ?! —</p>
@@ -637,7 +623,8 @@
             <speaker>Maire</speaker>
             <stage>(den Brief betrachtend).</stage>
             <p>Jetzt ben-i doch wunderfitzi, was in dem Breef steht. 
-            <stage>(Erbricht ihn langsam und liest).</stage></p>
+            <stage>(Erbricht ihn langsam und liest).</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
@@ -648,7 +635,7 @@
             <speaker>Maire.</speaker>
             <p>Ah!</p>
           </sp>
-          <pb n="14" />
+          <pb n="14"/>
           <sp who="#grethl #marie">
             <speaker>Marie, Grethl.</speaker>
             <p>Was isch Vater ?</p>
@@ -675,7 +662,7 @@
             in meinem Äuftrage in einer wichtigen persönlichen Angelegenheit sprechen.</p>
             <p>Hochachtungsvoll</p>
             <p>
-            <stage>(Den Brief von sich haltend und verklärt lächelnd seine Töchter anschauend)</stage>. D'r
+              <stage>(Den Brief von sich haltend und verklärt lächelnd seine Töchter anschauend)</stage>. D'r
             Kreisdirakter ! — Hein ? Hochachtungsvoll schriebt 'r ! — Hochachtungsvoll !... Ach, do steht noch
             ebs 
             <stage>(umdrehend)</stage>Nachschrift: Ihrem Wunsche gemäss, habe ich an höchster Stelle äuf ihre
@@ -686,7 +673,7 @@
             Schilderung gemacht haben. 
             <stage>(Brummt vor sich hin)</stage>Ä häh! — Auch hoffe ich, dass man an höchster Stelle geneigt sein
             wird, ihre Magd Fränz in Anerkennung ihrer langjährigen Dienste mit dem Verdienstkreuze zu belohnen 
-            <pb n="15" />und zu ehren. 
+            <pb n="15"/>und zu ehren. 
             <stage>(Kratzt sich hinterm Ohr)</stage>. Hm, belohnen und zu ehren... Hm, wenn diss d'r
             Kreisdirakter gewisst hätt mit de Suppepastetle und mit de Marikknöpfle, ze tät 'r nit halwer e so
             schriewe. — 
@@ -723,7 +710,7 @@
             <speaker>Marie.</speaker>
             <p>Do thät i m'r jetzt de Kopf nit driwwer verbreche.</p>
           </sp>
-          <pb n="16" />
+          <pb n="16"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Dü hesch recht, un wie g'säit, ich hab mir nix ze reproscheere un nix ze reskeere! Wen-i bedenk
@@ -754,10 +741,11 @@
             S'embetiert mi genue, s'isch fuxi, die G'schicht mit de Marikknöpfle leijt m'r als noch uff'm
             Mäuje... Awer was mache ?.... Un dass wenn i häm kumm, d'r Napoleom un min Numero eweck isch, nitt
             dass 's vergasse wurd ! 
-            <stage>(ab, Marie und Grethl hängen die Bilder ab).</stage></p>
+            <stage>(ab, Marie und Grethl hängen die Bilder ab).</stage>
+            </p>
           </sp>
         </div>
-        <pb n="17" />
+        <pb n="17"/>
         <div type="scene">
           <head>5. AUFTRITT.</head>
           <stage>Die Vorigen ohne den Maire.</stage>
@@ -794,7 +782,7 @@
             bin, hawi nix meh vum g'sehn un nix meh vum g'höert. Wer weiss, wie der steckt. — Du reste, d'r Herr
             Dr. Freundlich g'fallt m'r sowit ganz guet, un s'isch äu e gueti Partie.</p>
           </sp>
-          <pb n="18" />
+          <pb n="18"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Was isch'r numme? — Ich kann die fremdländische Namme nee recht b'halte.</p>
@@ -802,7 +790,8 @@
           <sp who="#marie">
             <speaker>Marie.</speaker>
             <p>Dr. der Philosophie 
-            <stage>(beide zu einer Türe links ab mit ihren Bildern).</stage></p>
+            <stage>(beide zu einer Türe links ab mit ihren Bildern).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -834,7 +823,7 @@
             notieren... Also, das hier sind die Räume, in denen meine liebe Marie, meine künftige Lebensgefährtin
             ihre süsse Jugend verträumt hat. Ein glücklicher Zufall hat sie mir auf dem Bauernfeste der
             Landesausstellung entgegengeführt. Hier ist sie in stiller be 
-            <pb n="19" />scheidener Beschaulichkeit aufgewachsen, inmitten einfacher Bauersleute, schlecht und
+            <pb n="19"/>scheidener Beschaulichkeit aufgewachsen, inmitten einfacher Bauersleute, schlecht und
             recht, unberührt von dem vergiftenden Odem der Großstadt! Dies alles sind Gefühle, die mich
             bewältigen, so sehr, so erhaben und von solchem poetischen Duft, dass es mich mit elementarer Gewalt
             dazu treibt ein Gedicht darüber für die "Erwinia" zu verfassen ! — Hier mag ihr keusches Gemüt die
@@ -857,7 +846,8 @@
             <p>Guten Tag Fräulein Marie, guten Tag Fräulein Gretchen ! Sie gestatten doch, dass ich sie so nenne
             ?! — Ich nehme mir die Freiheit, Fräulein Marie, ihnen hier diesen Strauss duftender Blumen als
             Zeichen tiefster Verehrung zu überreichen 
-            <stage>(giebt ihr den Strauss).</stage></p>
+            <stage>(giebt ihr den Strauss).</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie.</speaker>
@@ -868,7 +858,7 @@
             <stage>(fortfahrend).</stage>
             <p>Und hier einen andern Strauss, gewunden von einem unserer grössten deutschen Dichter. 
             <stage>(Marie will die Tafel mit dem Diplom bei Seite legen).</stage>Bitte sehr... Aber, bin ich 
-            <pb n="20" />indiskret, wenn ich Sie frage, was dieser herrliche Goldrahmen fasst ? — Ist es ein
+            <pb n="20"/>indiskret, wenn ich Sie frage, was dieser herrliche Goldrahmen fasst ? — Ist es ein
             schöner Sinnspruch oder ein süsses Gedicht, mit dem Sie zu meiner Ankunft ihr Heim zu schmücken
             gedachten.</p>
           </sp>
@@ -877,7 +867,8 @@
             <stage>(verlegen).</stage>
             <p>Nit grad, s'isch e Diplom, wie m'r for e fette-n-Ochse uff d'r letschte Veeprähmeerung kreijt han.
             
-            <stage>(Sie hängt die Tafel auf.)</stage></p>
+            <stage>(Sie hängt die Tafel auf.)</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -889,7 +880,8 @@
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Nit gerothe, s'isch s'Bild vum Cousin Schorsch als Gardekürasseer. 
-            <stage>(Sie hängt es auf).</stage></p>
+            <stage>(Sie hängt es auf).</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -910,7 +902,7 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Bitte sehr, sprechen Sie doch lieber elsässisch, Sie wissen doch, dass ich an einem elsässischen
             Dialektlexikon 
-            <pb n="21" />arbeite, und bereiten mir daher eine besondere Freude, wenn Sie elsässisch
+            <pb n="21"/>arbeite, und bereiten mir daher eine besondere Freude, wenn Sie elsässisch
             sprechen...</p>
           </sp>
           <sp who="#grethl">
@@ -964,7 +956,7 @@
             <speaker>Grethl.</speaker>
             <p>Totscheesse will er de erste Stadtherr, wie's riskeere sott, um d'Hand vum Marie anzehalte !</p>
           </sp>
-          <pb n="22" />
+          <pb n="22"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Totschiessen, sagten Sie ? Das ist ja wenig einladend, da bleibt mir ja nichts anderes übrig, als
@@ -1008,11 +1000,12 @@
             <stage>(zum Fenster hinausschauend).</stage>
             <p>Jesses Maria, do kummt d'r Vater schun d'r Hoft ering !</p>
           </sp>
-          <pb n="23" />
+          <pb n="23"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Fatale Situation! Wirklich fatale Situation! 
-            <stage>(alle zeigen grosse Unruhe).</stage></p>
+            <stage>(alle zeigen grosse Unruhe).</stage>
+            </p>
           </sp>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
@@ -1034,7 +1027,8 @@
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Ei, wirklich fatale Situation! Was tun? Was tun ? — 
-            <stage>(Sie laufen alle im Zimmer auf und ab, die Türe geht auf, herein tritt der Maire).</stage></p>
+            <stage>(Sie laufen alle im Zimmer auf und ab, die Türe geht auf, herein tritt der Maire).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1043,7 +1037,8 @@
           <sp who="#grethl #marie">
             <speaker>Grethl und Marie.</speaker>
             <p>Jesses Maria ! 
-            <stage>(Springen auf den Vater zu).</stage></p>
+            <stage>(Springen auf den Vater zu).</stage>
+            </p>
           </sp>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
@@ -1057,17 +1052,19 @@
             <speaker>Maire.</speaker>
             <p>Ich hab m'r's halwer vermuet, nooch dem, was m'r d'Fränz g'säit hett.</p>
           </sp>
-          <pb n="24" />
+          <pb n="24"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Gerechter Himmel! 
             <stage>(Der Maire zieht schnell seinen Hut ab, putzt sich mit der Hand die Kleider und verbeugt sich
-            tief).</stage></p>
+            tief).</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Buschur im Herre! Buschur! 
-            <stage>(Abermalige Verbeugung).</stage></p>
+            <stage>(Abermalige Verbeugung).</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich</speaker>
@@ -1076,7 +1073,8 @@
             so gut es geht. 
             <stage>(Verbeugt sich, der Maire verbeugt sich abermals, nach den verschiedenen Verbeugungen putzt
             der Maire die Hand an den Hosen ab und streckt sie Herrn Dr. Freundlich entgegen, sie schütteln sich
-            kräftig die Hand).</stage></p>
+            kräftig die Hand).</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
@@ -1104,13 +1102,14 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Ah! Richtig! Richtig! Ich soll Sie grüssen, vielmals grüssen !</p>
           </sp>
-          <pb n="25" />
+          <pb n="25"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Dies freut mich üngemeyn, üngemeyn, üngemeyn ! 
             <stage>(Zu Marie und Grethl).</stage>Alle Marie und Grethl, was schlampere-n-er so erum ? Täte-n-er
             dem Herre e Stühl anne stelle ! 
-            <stage>(Beide bringen einen Stuhl).</stage></p>
+            <stage>(Beide bringen einen Stuhl).</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -1148,7 +1147,7 @@
             <speaker>Grethl.</speaker>
             <p>Wäje dem wurd sich der Herr doch fors Dialekt interesseere könne !</p>
           </sp>
-          <pb n="26" />
+          <pb n="26"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Ei, natürlich, ich interessiere mich so nebenbei für den Dialekt, ohne dabei die Viehzucht aus dem
@@ -1185,7 +1184,8 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Wissen Sie, ich studiere nämlich deshalb so eingehend den Dialekt, weil ich in meinen Musestunden
             an einem Dialektlexikon arbeite. Sie gestatten, dass ich mir etwas notiere ! 
-            <stage>(Schreibt auf).</stage></p>
+            <stage>(Schreibt auf).</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
@@ -1193,7 +1193,7 @@
             <stage>(Für sich ganz perplex.)</stage>Soll diss am End die persönli Angelejeheit sin ? Lex—Lexikon
             hett 'r g'säit, diss isch allewäj ebs for's Veeh !</p>
           </sp>
-          <pb n="27" />
+          <pb n="27"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Sie wissen doch, was ein Lexikon ist ?</p>
@@ -1238,7 +1238,7 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Sie haben wohl noch meistens französische hier ? —</p>
           </sp>
-          <pb n="28" />
+          <pb n="28"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(sehr devot).</stage>
@@ -1286,7 +1286,7 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Ah, ja richtig, ganz richtig, sehr richtig, was war's nur schnell ?</p>
           </sp>
-          <pb n="29" />
+          <pb n="29"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>De Herre han halt e so veel im Kopf, dass ne d'Gedanke manchmol üsfalle !</p>
@@ -1337,7 +1337,7 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Als Bürgermeister haben Sie sich wohl schon recht verdient gemacht ?</p>
           </sp>
-          <pb n="30" />
+          <pb n="30"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(bescheiden).</stage>
@@ -1381,7 +1381,7 @@
             <speaker>Grethl.</speaker>
             <p>Er isch verlicht express d'rwaje here kumme.</p>
           </sp>
-          <pb n="31" />
+          <pb n="31"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>In der Tat! Richtig! — Das bin ich! —</p>
@@ -1420,17 +1420,19 @@
             Alle hopp, sottsch schun widd'r do sin! Un dü, Marie, hol Gläser in d'r Kiche un d'Fränz sell e
             Kuejllupf eringbringe, eine, wie veel Meertriewel drinne sin! — 
             <stage>(Zu Dr. Freundlich).</stage>Wisse-n'r m'r welle-n-e Mumpfel ebs asse un äns trinke. 
-            <stage>(Marie, Grethl ab).</stage></p>
+            <stage>(Marie, Grethl ab).</stage>
+            </p>
           </sp>
         </div>
-        <pb n="32" />
+        <pb n="32"/>
         <div type="scene">
           <head>10. AUFTRITT.</head>
           <stage>Die Vorigen ohne Marie und Grethl.</stage>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>"Mumpfel"? Das ist ein sehr gutes Wort, das muss ich mir notieren 
-            <stage>(notiert es).</stage></p>
+            <stage>(notiert es).</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
@@ -1471,14 +1473,15 @@
             <p>Sie sind wirklich zu liebenswürdig! — 
             <stage>(Für sich)</stage>. Tolle Geschichte !</p>
           </sp>
-          <pb n="33" />
+          <pb n="33"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>M'r sin hytt unter uns, m'r han fascht neemes gelade-n-uff de Massti. — Wisse-n-r im Maire vun
             Dingelse siner Sohn, sell hytt kumme, unter uns g'säit, er kummt waje minere ältschte Tochter. Er
             isch e bissl änfälti, Ihr muehn i awer nit dran stosse; er isch rich, hirnwuehti rich... 
             <stage>(Zur Türe hinaus).</stage>Grethl, Marie, Fränz, alle Hopp! Hopp! 
-            <stage>(Fränz erscheint mit dem Kuglopf, Marie mit Gläsern, Grethl mit dem Wein).</stage></p>
+            <stage>(Fränz erscheint mit dem Kuglopf, Marie mit Gläsern, Grethl mit dem Wein).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1504,7 +1507,8 @@
             s'Veeh ze-n-inspekteere, s'isch so-e-n-Art Veehinspakter. Schicke s'Klänmädel zuem Schuelmeischter,
             er sell g'schwind kumme, un de Morte-Velte, de Schierhans, de Dirrebireels Dicker mitbringe. Tummel
             di! 
-            <stage>(Fränz ab, mit dem Kopfe nickend).</stage></p>
+            <stage>(Fränz ab, mit dem Kopfe nickend).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1514,7 +1518,7 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Wohl eine Verwandte ?</p>
           </sp>
-          <pb n="34" />
+          <pb n="34"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Diss nit — s'isch d'Fränz, wisse-n-r ? Schun noht an vierzig Johr isch se bie üns. Wie m'r Ihr
@@ -1527,7 +1531,8 @@
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Prosit ! — Prosit meine Damen 
-            <stage>(Marie und Grethel zutrinkend).</stage></p>
+            <stage>(Marie und Grethel zutrinkend).</stage>
+            </p>
           </sp>
           <sp who="#grethl #marie">
             <speaker>Marie, Grethl.</speaker>
@@ -1550,7 +1555,7 @@
             tät, dass ere no s'Kriz an d'r Nas durich rutscht. 
             <stage>(Wieder anstossend)</stage>. G'sundheit, es sell i wohl tuen bis in de grosse Zeh !</p>
           </sp>
-          <pb n="35" />
+          <pb n="35"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Das muss ich mir notieren.</p>
@@ -1598,11 +1603,12 @@
             <speaker>Jerry.</speaker>
             <p>Geh doch dü !</p>
           </sp>
-          <pb n="36" />
+          <pb n="36"/>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>For was hawi di mitgenumme ? — Jesses was e Corvée ! 
-            <stage>(Jerry geht vor.)</stage></p>
+            <stage>(Jerry geht vor.)</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
@@ -1650,7 +1656,7 @@
             <speaker>Seppl.</speaker>
             <p>Ja, worum schriebt 'r mich no uff ?</p>
           </sp>
-          <pb n="37" />
+          <pb n="37"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Diss verstehn ihr nit... Herr Miller, do im Seppl sim Vater sini Stallunge muehn 'r emol sahn, do
@@ -1702,7 +1708,7 @@
             <stage>(für sich).</stage>
             <p>Arm's Grethl !</p>
           </sp>
-          <pb n="38" />
+          <pb n="38"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(fortfahrend).</stage>
@@ -1737,7 +1743,8 @@
             <speaker>Grethl</speaker>
             <stage>(gibt dem Seppl zuerst die Hand).</stage>
             <p>Wie gehts? 
-            <stage>(Marie gibt zuerst Jerry die Hand, nachher Seppl).</stage></p>
+            <stage>(Marie gibt zuerst Jerry die Hand, nachher Seppl).</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
@@ -1753,13 +1760,14 @@
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>A la bonne heure ! 
-            <stage>(reibt sich die Hände).</stage></p>
+            <stage>(reibt sich die Hände).</stage>
+            </p>
           </sp>
           <sp who="#jerry">
             <speaker>Jerry.</speaker>
             <p>Wenn i mi nit trumpeer, ze han m'r mitnander getanzt uff'm Dingsstedter Massti ? —</p>
           </sp>
-          <pb n="39" />
+          <pb n="39"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Richti, sie sin der Tänzer, wie so famos walze kann.</p>
@@ -1818,10 +1826,11 @@
             <speaker>Grethl</speaker>
             <stage>(für sich).</stage>
             <p>Nee, so e Dolle! 
-            <stage>(Fränz bringt zwei Gläser).</stage></p>
+            <stage>(Fränz bringt zwei Gläser).</stage>
+            </p>
           </sp>
         </div>
-        <pb n="40" />
+        <pb n="40"/>
         <div type="scene">
           <head>14. AUFTRITT.</head>
           <stage>Fränz, die Vorigen.</stage>
@@ -1868,10 +1877,11 @@
             <stage>(mürrisch).</stage>
             <p>Merci! — 
             <stage>(Abgehend für sich).</stage>Isch diss e Dolle. Denne derf 's Grethl nit han. 
-            <stage>(Fränz ab).</stage></p>
+            <stage>(Fränz ab).</stage>
+            </p>
           </sp>
         </div>
-        <pb n="41" />
+        <pb n="41"/>
         <div type="scene">
           <head>15. AUFTRITT.</head>
           <stage>Die Vorigen ohne Fränz.</stage>
@@ -1896,7 +1906,8 @@
           <sp who="#jerry">
             <speaker>Seppl, Jerry.</speaker>
             <p>M'r sin nit ze mued. 
-            <stage>(Setzen sich im selben Augenblick, der Maire schenkt ein).</stage></p>
+            <stage>(Setzen sich im selben Augenblick, der Maire schenkt ein).</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
@@ -1917,18 +1928,20 @@
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>Aenschdäels wär's guet, wenn's räje tät, dass d' Mies im Feld versüffe thäte. 
-            <stage>(Bohrt sämtliche Rosinen aus dem Kuglupf).</stage></p>
+            <stage>(Bohrt sämtliche Rosinen aus dem Kuglupf).</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(anstossend).</stage>
             <p>G'sundheit !</p>
           </sp>
-          <pb n="42" />
+          <pb n="42"/>
           <sp who="#alle">
             <speaker>Alle.</speaker>
             <p>G'sundheit' 
-            <stage>(Seppel bohrt auf's neue Rosinen heraus).</stage></p>
+            <stage>(Seppel bohrt auf's neue Rosinen heraus).</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
@@ -1938,12 +1951,14 @@
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>Halte, do isch noch än'r ! 
-            <stage>(Es klopft an).</stage></p>
+            <stage>(Es klopft an).</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Wer Deifels kummt jetzt? — Allewäj d'r Schuelmeischter ! 
-            <stage>(Geht zur Tür und macht auf).</stage></p>
+            <stage>(Geht zur Tür und macht auf).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1958,7 +1973,8 @@
             <speaker>Dr. Freundlich</speaker>
             <stage>(für sich).</stage>
             <p>Gerechter Gott, s'wird immer toller ! 
-            <stage>(Verneigt sich).</stage></p>
+            <stage>(Verneigt sich).</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
@@ -1981,7 +1997,7 @@
             <stage>(fortfahrend).</stage>
             <p>Diss isch d'r Giltbür: Wenn 'r i verlicht noch erinnere, er hett denne scheene Immestock gewunne
             uff d'r Imme- 
-            <pb n="43" />ässtellung vor'm Johr. Do, diss isch d'r Nejbierel, der hett e Versuech gemacht mit
+            <pb n="43"/>ässtellung vor'm Johr. Do, diss isch d'r Nejbierel, der hett e Versuech gemacht mit
             italiener Huehner, sin 'm awer alli am Pipser verreckt.</p>
           </sp>
           <sp who="#seppel">
@@ -2030,7 +2046,7 @@
             <speaker>Dirrebierel.</speaker>
             <p>Od'r, min Hopfestick mit Drohtarlage. S'isch grad vorm Dorf !</p>
           </sp>
-          <pb n="44" />
+          <pb n="44"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Kurzum, was m'r nit alles denne morje sahn könne, löüje m'r denne Nochmihddaö... Zuem Bpsl,
@@ -2081,7 +2097,7 @@
             <speaker>Alle.</speaker>
             <p>Jo, gehn m'r!</p>
           </sp>
-          <pb n="45" />
+          <pb n="45"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(macht die Tür auf).</stage>
@@ -2120,7 +2136,8 @@
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Bitte sehr, meine Herren ! 
-            <stage>(Deutet den anderen auf die Türe).</stage></p>
+            <stage>(Deutet den anderen auf die Türe).</stage>
+            </p>
           </sp>
           <sp who="#alle">
             <speaker>Alle.</speaker>
@@ -2134,12 +2151,13 @@
             <speaker>Morte Velte.</speaker>
             <p>Alle, Herr Inspakter, mache doch s'Veeh nit !</p>
           </sp>
-          <pb n="46" />
+          <pb n="46"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>In Gottesnamen! 
             <stage>(Dr. Freundlich geht willenlos hinaus, alle verbeugen sich und folgen nach mit Ausnahme von
-            Jerry, Marie und Grethl).</stage></p>
+            Jerry, Marie und Grethl).</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie.</speaker>
@@ -2148,7 +2166,7 @@
           <stage>Der Vorhang fällt.</stage>
         </div>
       </div>
-      <pb n="47" />
+      <pb n="47"/>
       <div type="act">
         <head>Zweiter Aufzug.</head>
         <stage>Eine Gartenwirtschaft, daran stösst ein Tanzsaal. Im Vordergrund links ein Tisch reserviert, an
@@ -2182,9 +2200,10 @@
             <speaker>Ein Anderer.</speaker>
             <p>Wenn m'r lang d'rvun trinkt wurd m'r alt. 
             <stage>Ein Orgelis geht über die Bühne mit einer Orgel, die möglichst wenig Lärm macht, man wirft ihm
-            Geldstücke in den Hut.</stage></p>
+            Geldstücke in den Hut.</stage>
+            </p>
           </sp>
-          <pb n="48" />
+          <pb n="48"/>
           <sp who="#bauernbursche">
             <speaker>Ein Bauernbursche</speaker>
             <stage>(mit einem Krug und mit Tellern).</stage>
@@ -2203,7 +2222,8 @@
             <speaker>Ein Besitzer eines Messtistandes.</speaker>
             <p>Wer nimmt noch e Billet, wer will die fette, scheene Ente gewinne ? 
             <stage>(zeigt zwei Enten),</stage>Wer nix reskeert, kann nix gewinne, 10 Pfenni s'Nümero ! 
-            <stage>Man nimmt ihm Billette ab).</stage></p>
+            <stage>Man nimmt ihm Billette ab).</stage>
+            </p>
           </sp>
           <sp who="#aelterer_bauer">
             <speaker>Aelterer Bauer</speaker>
@@ -2229,7 +2249,7 @@
             <speaker>Ein Anderer.</speaker>
             <p>Lutz, dü singsch jo, dass d'Hüehner in d'r Noochberschaft verrecke müehn.</p>
           </sp>
-          <pb n="49" />
+          <pb n="49"/>
           <sp who="#ein_lump">
             <speaker>Ein Lump</speaker>
             <stage>(schon sehr angetrunken zum servierenden Bauernburschen).</stage>
@@ -2244,7 +2264,8 @@
             <p>O misère! Ich leigs nit, s'isch doch trüri, wenn m'r so verdurschte muess. 
             <stage>(Einige Gäste reichen ihm zu trinken, er leert die Gläser).</stage>S'isch doch trüri, wenn m'r
             so verdurschte muess. 
-            <stage>(Trinkt wieder).</stage></p>
+            <stage>(Trinkt wieder).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2273,9 +2294,10 @@
             <speaker>Marie.</speaker>
             <p>Un d'rno ..... ich weiss gar nit... ich gläub, m'r passe doch nit recht zamme ; scheeni Breef kann
             'r schriewe un netti Gedichtle, diss isch wohr, awer er het e so ebs ung'schickts an sich... 
-            <stage>(Setzen sich an den Tisch, der reserviert ist.)</stage></p>
+            <stage>(Setzen sich an den Tisch, der reserviert ist.)</stage>
+            </p>
           </sp>
-          <pb n="50" />
+          <pb n="50"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Ich gläub, wenn jetzt der Schwarz käm, wie dir als früehjer im Kopf g'steckt isch, wie de noch in
@@ -2320,7 +2342,7 @@
             <stage>(lachend).</stage>
             <p>Ihr sin äu zue difficil !</p>
           </sp>
-          <pb n="51" />
+          <pb n="51"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Ihr brüche-n-äu noch ze ütze !</p>
@@ -2370,14 +2392,16 @@
             <speaker>Seppl.</speaker>
             <p>Diss isch nit alles! Bim Quetschelandrees isch 'r d'rno uf d'Zähn vum e Räche getrette, so dass 'm
             d'r Steel d'Brill uff d'r Nas verschläuje hett... Er sieht kenn Bröesel meh... 
-            <stage>(Lacht).</stage></p>
+            <stage>(Lacht).</stage>
+            </p>
           </sp>
-          <pb n="52" />
+          <pb n="52"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Diss isch jetzt ambetant! 
             <stage>(Marie und Grethl zeigen durch ihr stummes Spiel, wie sehr sie dies unangenehm
-            berührt).</stage></p>
+            berührt).</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl</speaker>
@@ -2420,7 +2444,7 @@
             <stage>(Tanzmusik ertönt, Alles springt auf von den Sitzen).</stage>Ich muess allewaj doch emol äner
             mit-ere tönze ?</p>
           </sp>
-          <pb n="53" />
+          <pb n="53"/>
           <sp who="#jerry">
             <speaker>Jerry.</speaker>
             <p>Jo, es kann nix schade.</p>
@@ -2434,12 +2458,14 @@
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Merci fir's Compliment...! 
-            <stage>(Beide ab in den Tanzsaal).</stage></p>
+            <stage>(Beide ab in den Tanzsaal).</stage>
+            </p>
           </sp>
           <sp who="#jerry">
             <speaker>Jerry.</speaker>
             <p>Mamwsell Marie ? 
-            <stage>(Engagiert sie, Alle ab).</stage></p>
+            <stage>(Engagiert sie, Alle ab).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2467,7 +2493,7 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Sehr richtig! Sehr richtig ! Er wurde in Memphis verehrt.</p>
           </sp>
-          <pb n="54" />
+          <pb n="54"/>
           <sp who="#lehrer">
             <speaker>Lehrer.</speaker>
             <p>Nicht wahr, er musste schwarz sein mit weissen Flecken.</p>
@@ -2508,7 +2534,8 @@
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Die Geschichte der Seuchen ist sehr alt... 
-            <stage>(Wischt sich den Schweiss von der Stirne).</stage></p>
+            <stage>(Wischt sich den Schweiss von der Stirne).</stage>
+            </p>
           </sp>
           <sp who="#lehrer">
             <speaker>Lehrer.</speaker>
@@ -2518,7 +2545,7 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Richtig, Sehr richtig, Herr Lehrer !</p>
           </sp>
-          <pb n="55" />
+          <pb n="55"/>
           <sp who="#lehrer">
             <speaker>Lehrer.</speaker>
             <p>Von den Seuchen, die dem Menschen sehr nachteilig waren, sind zu bemerken: der Schwarze Tod, der
@@ -2568,7 +2595,7 @@
             ich hätt e kläns Anleijes an denne Herre ... ich leigs nit, ich hab g'höert, er isch vun d'r
             Kreisdiraktion.</p>
           </sp>
-          <pb n="56" />
+          <pb n="56"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Mache, dass 'r furt kumme, ihr sin jo voll wie e Bumm ! —</p>
@@ -2620,12 +2647,13 @@
             <speaker>Lump.</speaker>
             <p>Ho, hie braconneert alles: D'r Schuelmeischter, d'r Adjund, d'r Maire un sogar d'r Pfarrer.</p>
           </sp>
-          <pb n="57" />
+          <pb n="57"/>
           <sp who="#alle">
             <speaker>Alle</speaker>
             <stage>(empört).</stage>
             <p>Werfe denne Gascht nüs! 
-            <stage>(Die Bauern packen den Lump und werfen ihn hinaus).</stage></p>
+            <stage>(Die Bauern packen den Lump und werfen ihn hinaus).</stage>
+            </p>
           </sp>
           <sp who="#ein_lump">
             <speaker>Lump.</speaker>
@@ -2656,7 +2684,8 @@
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Allerdings ! 
-            <stage>(Seufzt und wischt sich den Schweiss von der Stirne).</stage></p>
+            <stage>(Seufzt und wischt sich den Schweiss von der Stirne).</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl</speaker>
@@ -2670,7 +2699,7 @@
             alles ! Mänsch, dass i for min Pläseer in 20-30 Stallunge herum gekrattelt bin? 
             <stage>(Für sich)</stage>. Wenn m'r de Orde han will, muess m'r sich manches g'falle lon. 
             <stage>(Pfiffig).</stage>M'r han 
-            <pb n="58" />ebbe 3—4 mol d'r Adjund angetroffe, der verknellt for Wueth ! —</p>
+            <pb n="58"/>ebbe 3—4 mol d'r Adjund angetroffe, der verknellt for Wueth ! —</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
@@ -2708,7 +2737,8 @@
           <sp who="#alle">
             <speaker>Alle.</speaker>
             <p>Adjes en attata! 
-            <stage>(Wischen sich die Hände an den Hosen ab und geben Dr. Freundlich die Hand).</stage></p>
+            <stage>(Wischen sich die Hände an den Hosen ab und geben Dr. Freundlich die Hand).</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -2719,7 +2749,7 @@
             <stage>(abgehend).</stage>
             <p>Gelehrter Herr !</p>
           </sp>
-          <pb n="59" />
+          <pb n="59"/>
           <sp who="#schiere_hans">
             <speaker>Schierehans.</speaker>
             <p>E finer Herr !</p>
@@ -2740,7 +2770,8 @@
           <sp who="#nejbierel">
             <speaker>Nejbierel.</speaker>
             <p>So sotte-se-n-alli sin, mit dem kann m'r doch redde ! 
-            <stage>(Ab).</stage></p>
+            <stage>(Ab).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2756,7 +2787,8 @@
             <speaker>Marie</speaker>
             <stage>(zu Grethl).</stage>
             <p>S'kummt als besser ! — 
-            <stage>(Setzen sich an den Tisch, Jerry, Seppl, Dr. Freundlich item).</stage></p>
+            <stage>(Setzen sich an den Tisch, Jerry, Seppl, Dr. Freundlich item).</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -2767,7 +2799,7 @@
             <p>Diss han m'r leider noch nit, awer ich wur's Anlejes vum Herre Inspakter im Gemäneroth
             vorbringe.</p>
           </sp>
-          <pb n="60" />
+          <pb n="60"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Gut denn, so bringen Sie mir ein Viertelchen Wein !</p>
@@ -2776,7 +2808,8 @@
             <speaker>Maire.</speaker>
             <p>Nee, nix do, do wurd nix drüs! Warte Se, ich will selwer ferri zuem Wirth e Fläschl Stöpferle
             hole. 
-            <stage>(Ab).</stage></p>
+            <stage>(Ab).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2786,20 +2819,23 @@
             <speaker>Besitzer eines Messtistandes.</speaker>
             <p>Wer nimmt noch e Billet ? S'letscht Billet ? — "Die letzten sind die Besten, wer nichts reskiert,
             kann nichts gewinnen !" Zehn Pfenni s'Billet ! 
-            <stage>(Jerry nimmt das Billet, Besitzer des Messtistandes verschwindet im Hintergrund).</stage></p>
+            <stage>(Jerry nimmt das Billet, Besitzer des Messtistandes verschwindet im Hintergrund).</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl</speaker>
             <stage>(zu Dr. Freundlich).</stage>
             <p>Also, gelte, ihr lehre uff Kreisdirakter ? 
-            <stage>(Dr. Freundlich verneigt sich).</stage></p>
+            <stage>(Dr. Freundlich verneigt sich).</stage>
+            </p>
             <p>Isch diss noch schwerer wie Gendarm? — Mir gängts nit in de Kopf ning Kreisdirakter ze wäre. Miner
             Vater saöt allewyl, wenn de kenn Simpel gewahn wärsch, ze hättsch stüdeert...</p>
           </sp>
           <sp who="#besitzer_eines_messtistandes">
             <speaker>Besitzer eines Messtistandes.</speaker>
             <p>Nümero fünfefuffzig hett gewunne ! Wer hett's, Nümero fünfefuffzig ? 
-            <stage>(Alle schauen).</stage></p>
+            <stage>(Alle schauen).</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie.</speaker>
@@ -2808,7 +2844,8 @@
           <sp who="#jerry">
             <speaker>Jerry.</speaker>
             <p>Do isch's Nümero fünfefuffzig! 
-            <stage>(Alle schauen).</stage></p>
+            <stage>(Alle schauen).</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie.</speaker>
@@ -2817,9 +2854,10 @@
           <sp who="#jerry">
             <speaker>Jerry</speaker>
             <p>Do isch's Nümero fünfefuffzig ! 
-            <stage>(Bekommt die beiden Enten).</stage></p>
+            <stage>(Bekommt die beiden Enten).</stage>
+            </p>
           </sp>
-          <pb n="61" />
+          <pb n="61"/>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>Jerry, dü hesch meh Glick as Verstand. Diss gitt e guets Fricot !</p>
@@ -2827,7 +2865,8 @@
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Fricot! Das muss ich mir notiren. 
-            <stage>(Die Musik ertönt, alles engagirt zum Tanze).</stage></p>
+            <stage>(Die Musik ertönt, alles engagirt zum Tanze).</stage>
+            </p>
           </sp>
           <sp who="#jerry">
             <speaker>Jerry</speaker>
@@ -2839,7 +2878,8 @@
             <p>Sie entschuldigen Fräulein Marie, den Tanz kenne ich nicht, ich werde den nächsten mit ihnen
             versuchen ... Ich bin übrigens ein sehr schlecther Tänzer, obschon ich eine einbändige Abhandlung
             über das Tanzen geschrieben habe ... 
-            <stage>(Marie wird von einem andern engagirt. Alle ab).</stage></p>
+            <stage>(Marie wird von einem andern engagirt. Alle ab).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2858,18 +2898,20 @@
             <speaker>Seppl.</speaker>
             <p>E heilig, e heilig, diss hätt i fascht vergesse ! 
             <stage>(Macht die Bewegung, als wolle er zum Tanzsaal).</stage>Ei, ei, ei, un 
-            <pb n="62" />do mini Ente 
+            <pb n="62"/>do mini Ente 
             <stage>(macht die Bewegung des Umarmens),</stage>so kann i doch nit tanze ! 
             <stage>(Auf den Philologen schauend, der immer noch schreibt).</stage>Herr Inspakter, wenn Sie so
             guet sin möechte, un m'r e grosse G'falle thuen welle, ze hewe Se m'r e-n-Aeueblick do im Jerry sini
             Ente. Ich muess mit dere Köche tanze, es geht nit andersch, wisse-n-'r, sie isch friehjer bie is Mäud
             gewahn. 
-            <stage>(Dr. Freundlich macht die Geste, als wage er die Tiere nicht anzufassen).</stage></p>
+            <stage>(Dr. Freundlich macht die Geste, als wage er die Tiere nicht anzufassen).</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>Sie brüche kenn Angst ze han, sie bisse nit ! 
-            <stage>(Reicht sie dem Philologen, der sie willenlos nimmt. Seppl ab.)</stage></p>
+            <stage>(Reicht sie dem Philologen, der sie willenlos nimmt. Seppl ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2893,8 +2935,9 @@
             auf den Rücken).</stage>
             <p>Herr Inspakter, do hawich e Tröpfel, vun dem wurd e Toder wid'r lawandi. 
             <stage>(Aus dem Saale heraus ertônt die 
-            <pb n="63" />Musik, ein moderner Gassenhauer wird gesungen, etwa: Komm Carline, komm Carline,
-            komm !)</stage></p>
+            <pb n="63"/>Musik, ein moderner Gassenhauer wird gesungen, etwa: Komm Carline, komm Carline,
+            komm !)</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -2916,7 +2959,8 @@
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Zue veel Ehr! zue veel Ehr! Ei mini Rhümatisse ! 
-            <stage>(Dr Freundlich ab, Maire sich umschauend.)</stage></p>
+            <stage>(Dr Freundlich ab, Maire sich umschauend.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2935,11 +2979,12 @@
             <speaker>Doni.</speaker>
             <p>Recht gäre, Herr Maire, 's wurd doch nit ze lang düre ?....</p>
           </sp>
-          <pb n="64" />
+          <pb n="64"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>E Moment! 
-            <stage>(Gibt ihm die Enten, ab.)</stage></p>
+            <stage>(Gibt ihm die Enten, ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -2949,13 +2994,15 @@
             <speaker>Doni.</speaker>
             <p>Mit dem verdammte Lumpeveeh kann ich mini Lytt nit emol serveere, awer ich hab doch im Maire nit
             refüseere könne ! 
-            <stage>(Hinter der Bühne hört man klopfen.)</stage></p>
+            <stage>(Hinter der Bühne hört man klopfen.)</stage>
+            </p>
           </sp>
           <sp who="#eine_stimme_II_14">
             <speaker>Eine Stimme.</speaker>
             <p>Alle hopp, wurd's ball, un die zwei Schöpple ? — M'r verdurscht jo in dere Bütik! Wirtschaft !
             Heh, Wirtschaft! 
-            <stage>(Erneutes Klopfen.)</stage></p>
+            <stage>(Erneutes Klopfen.)</stage>
+            </p>
           </sp>
           <sp who="#doni">
             <speaker>Doni.</speaker>
@@ -2978,7 +3025,7 @@
             <speaker>Doni.</speaker>
             <p>Hä ?</p>
           </sp>
-          <pb n="65" />
+          <pb n="65"/>
           <sp who="#ein_velocipedist">
             <speaker>Velocipedist.</speaker>
             <p>Je dis: mon pneu qui est crevé, ne pourriez-vous pas nous soigner une voiture pour nous conduire à
@@ -2987,7 +3034,8 @@
           <sp who="#doni">
             <speaker>Doni.</speaker>
             <p>Hä? 
-            <stage>(Mit stärkerer Betonung.)</stage></p>
+            <stage>(Mit stärkerer Betonung.)</stage>
+            </p>
           </sp>
           <sp who="#ein_velocipedist">
             <speaker>Velocipedist.</speaker>
@@ -3020,10 +3068,11 @@
             <speaker>Doni.</speaker>
             <p>Zwei Schöpple ? Im Aeueblick ! Nur for e Moment ! 
             <stage>(Drückt dem Velocipedisten die zwei Enten in die Hand, der sie ganz sprachlos nimmt; Doni eilt
-            davon.)</stage></p>
+            davon.)</stage>
+            </p>
           </sp>
         </div>
-        <pb n="66" />
+        <pb n="66"/>
         <div type="scene">
           <head>16. AUFTRITT.</head>
           <stage>Velocipedist und Velocipedistin allein.</stage>
@@ -3043,7 +3092,8 @@
           <sp who="#velocipedistin">
             <speaker>Velocipedistin.</speaker>
             <p>Il faut que je fasse un instantané. 
-            <stage>(Nimmt einen photographischen Apparat von ihrem Velo.)</stage></p>
+            <stage>(Nimmt einen photographischen Apparat von ihrem Velo.)</stage>
+            </p>
           </sp>
           <sp who="#ein_velocipedist">
             <speaker>Velocipedist.</speaker>
@@ -3070,7 +3120,7 @@
             <stage>(Pfiffig auf den Velocipedisten losgehend.)</stage>Alterle! Fsst! 
             <stage>(Ihm pfeifend.)</stage>Do mini Ente here !</p>
           </sp>
-          <pb n="67" />
+          <pb n="67"/>
           <sp who="#ein_velocipedist">
             <speaker>Velocipedist.</speaker>
             <p>Qu'est-ce qu'il radote ?</p>
@@ -3098,7 +3148,8 @@
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>Ah, ihr wichse d'Ente nit erüs ? Worte-n-ich ruef de Jerry, no gitt's Schmeer. 
-            <stage>(Ab.)</stage></p>
+            <stage>(Ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3115,7 +3166,7 @@
             <p>Wirklich ein grossartiges Volkslied! Die Ursprünglichkeit, die in diesen Worten liegt "Komm
             Carline", so packend, so packend !</p>
           </sp>
-          <pb n="68" />
+          <pb n="68"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(sehr devot).</stage>
@@ -3126,7 +3177,8 @@
             <speaker>Dr. Freundlich</speaker>
             <stage>(den Velocipedisten mit den Enten erblickend).</stage>
             <p>Ah, mein verehrter Herr, Sie waren zu liebenswürdig, mir die Enten zu halten. 
-            <stage>(Will sie nehmen.)</stage></p>
+            <stage>(Will sie nehmen.)</stage>
+            </p>
           </sp>
           <sp who="#ein_velocipedist">
             <speaker>Velocipedist</speaker>
@@ -3158,10 +3210,11 @@
             <speaker>Velocipedist.</speaker>
             <p>Mais il y a de quoi devenir fou! 
             <stage>(Der Garçon kommt mit den zwei Gläsern, zu gleicher Zeit entleert sich der Tanzsaal. Jerry,
-            Grethl und Seppl treten zu der Gruppe.)</stage></p>
+            Grethl und Seppl treten zu der Gruppe.)</stage>
+            </p>
           </sp>
         </div>
-        <pb n="69" />
+        <pb n="69"/>
         <div type="scene">
           <head>19. AUFTRITT.</head>
           <stage>Die Vorigen, Doni, Jerry, Seppl, Marie, Grethl, Bauernburschen, Bauernmädchen.</stage>
@@ -3192,7 +3245,8 @@
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Hier, Ihre zwei Enten ! 
-            <stage>(Seppl nimmt sie in Empfang )</stage></p>
+            <stage>(Seppl nimmt sie in Empfang )</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl</speaker>
@@ -3202,7 +3256,8 @@
           <sp who="#ein_velocipedist">
             <speaker>Velocipedist.</speaker>
             <p>Tordant cette affaire, mais oui ce sont les canards de tout le monde! 
-            <stage>(Jerry sagt dem Seppl etwas geheimnisvoll in das Ohr.)</stage></p>
+            <stage>(Jerry sagt dem Seppl etwas geheimnisvoll in das Ohr.)</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl</speaker>
@@ -3213,11 +3268,12 @@
             <speaker>Velocipedist.</speaker>
             <p>Heh, garçon, vous nous soignerez la voiture! Sie b'sorje-n-uns d'Fuehr !</p>
           </sp>
-          <pb n="70" />
+          <pb n="70"/>
           <sp who="#doni">
             <speaker>Garçon.</speaker>
             <p>Oui Messier ! 
-            <stage>(Ab; der Herr Maire schenkt Dr. Freundlich ein.)</stage></p>
+            <stage>(Ab; der Herr Maire schenkt Dr. Freundlich ein.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3232,7 +3288,8 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Das muss ich mir unbedingt notieren. 
             <stage>(Schreibt auf, während der folgenden Scene bis zu der Musik ist der Philologe mit Aufschreiben
-            beschäftigt und zieht fortwährend den Maire zu Rate.)</stage></p>
+            beschäftigt und zieht fortwährend den Maire zu Rate.)</stage>
+            </p>
           </sp>
           <sp who="#velocipedistin">
             <speaker>Velocipedistin</speaker>
@@ -3253,13 +3310,14 @@
             <speaker>Velocipedistin.</speaker>
             <p>Voilà mon frère! 
             <stage>(Verbeugt sich sehr steif und zeremoniell, die anwesenden Bauern unterdrücken mühsam ihr
-            Kichern.)</stage></p>
+            Kichern.)</stage>
+            </p>
           </sp>
           <sp who="#ein_velocipedist">
             <speaker>Velocipedist.</speaker>
             <p>Je suis le fils du riche commerçant Brauère.</p>
           </sp>
-          <pb n="71" />
+          <pb n="71"/>
           <sp who="#eine_stimme_II_20">
             <speaker>Eine Stimme.</speaker>
             <p>Wie die gemuschtert sin !</p>
@@ -3305,10 +3363,11 @@
           <sp who="#doni">
             <speaker>Doni.</speaker>
             <p>D'r Nochbersbüür spannt sine Leiterwäuje-n-an, er schickt Ordre, wenn'r ferti isch. 
-            <stage>(Die Musik ertönt, Doni spricht mit dem Maire, der mit ihm fort geht nach links.)</stage></p>
+            <stage>(Die Musik ertönt, Doni spricht mit dem Maire, der mit ihm fort geht nach links.)</stage>
+            </p>
           </sp>
         </div>
-        <pb n="72" />
+        <pb n="72"/>
         <div type="scene">
           <head>21. AUFTRITT.</head>
           <p>Die Vorigen ohne den Maire und Doni.</p>
@@ -3321,7 +3380,8 @@
             <speaker>Dr. Freundlich</speaker>
             <stage>(erscheint).</stage>
             <p>Holdes Fräulein, Sie gestatten ? 
-            <stage>(Engagiert Marie.)</stage></p>
+            <stage>(Engagiert Marie.)</stage>
+            </p>
           </sp>
           <sp who="#ein_velocipedist">
             <speaker>Velocipedist</speaker>
@@ -3333,7 +3393,8 @@
             <stage>(engagiert die Velocipedistin mit Malice).</stage>
             <p>Mamsell, welle m'r einer trette mitnander ?... 
             <stage>(Die drei Paare in derselben Reihenfolge ab in den Tanzsaal. Alles kichert und
-            lacht.)</stage></p>
+            lacht.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3347,10 +3408,11 @@
             Scheereschliffer, wie Händel hett mit 'm Bolizejgard ? Do will i mi awer üs'm Staub mache, ich will
             nit Zejie sin. 
             <stage>(Ab, es erscheint Herr Pfeffer, ein Velocipedist, der mit dem Dorfpolizisten streitet. Herr
-            Pfeffer ist einfach angezogen, der Dorfpolizist eine groteske Figur.)</stage></p>
+            Pfeffer ist einfach angezogen, der Dorfpolizist eine groteske Figur.)</stage>
+            </p>
           </sp>
         </div>
-        <pb n="73" />
+        <pb n="73"/>
         <div type="scene">
           <head>23. AUFTRITT.</head>
           <stage>Herr Pfeffer, ein Velocipedist, der Dorfpolizist.</stage>
@@ -3388,8 +3450,9 @@
             Diss wurde ne sicher interesseere ! — 
             <stage>(Der Bühne zu.)</stage>Herr Inspakter ! Herr Inspakter ! Wo isch d'r Herr Inspakter ? — Der
             tanzt 
-            <pb n="74" />allewäy. 
-            <stage>(Will gerade zum Tanzsaal, erblickt die Anwesenden.)</stage></p>
+            <pb n="74"/>allewäy. 
+            <stage>(Will gerade zum Tanzsaal, erblickt die Anwesenden.)</stage>
+            </p>
           </sp>
           <sp who="#dorfpolizist">
             <speaker>Polizist</speaker>
@@ -3427,10 +3490,11 @@
             <stage>(Rufend.)</stage>Herr Inspakter! Wo isch d'r Herr Inspakter? 
             <stage>(Polizist zieht ein altes Carnet heraus und stellt die Personalien fest und schreibt. Marie
             und Dr. Freundlich sind zu gleicher Zeit aus dem Tanzsaale getreten, Maire sie erblickend, eilt auf
-            sie zu.)</stage></p>
+            sie zu.)</stage>
+            </p>
           </sp>
         </div>
-        <pb n="75" />
+        <pb n="75"/>
         <div type="scene">
           <head>25. AUFTRITT.</head>
           <stage>Die Vorigen, Marie und Dr. Freundlich.</stage>
@@ -3478,7 +3542,7 @@
             <stage>(sichtlich betroffen und sehr verlegen).</stage>
             <p>Sie hier ?</p>
           </sp>
-          <pb n="76" />
+          <pb n="76"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <p>Non-de-dije ! Die kenne sich ! Do hawi e scheeni Veehheit gemacht. — Ei mini Rheumatisse ! 
@@ -3487,13 +3551,15 @@
           <sp who="#pfeffer">
             <speaker>Pfeffer</speaker>
             <p>De Herr Dr. Freundlich welle Se saaue ! Un Wie ! — 
-            <stage>(Dr. Freundlich sehr verlegen.)</stage></p>
+            <stage>(Dr. Freundlich sehr verlegen.)</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Miller heisst doch der Herr ? — 
             <stage>(Pfeffer verblüfft den Maire und den Dr. anschauend, der nach einer Ausrede sucht und Herrn
-            Pfeffer erblickt.)</stage></p>
+            Pfeffer erblickt.)</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich</speaker>
@@ -3507,7 +3573,8 @@
             <speaker>Pfeffer</speaker>
             <p>Ah ? ... Oui, oui, oui ! En effet ! Richtig, ich habe ja davon sprechen hören. Ich gratuliere
             Ihnen noch nachträglich ! 
-            <stage>(Schütteln sich die Hände.)</stage></p>
+            <stage>(Schütteln sich die Hände.)</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
@@ -3524,9 +3591,10 @@
             <stage>(Pfeffer vorstellend).</stage>
             <p>Sie erlauben, dass ich Ihnen Herrn Pfeffer vorstelle..? Der Herr Bürgermeister, seine Tochter,
             Fräulein Marie. 
-            <stage>(Beide angenehm überrascht.)</stage></p>
+            <stage>(Beide angenehm überrascht.)</stage>
+            </p>
           </sp>
-          <pb n="77" />
+          <pb n="77"/>
           <sp who="#marie">
             <speaker>Marie</speaker>
             <stage>(für sich).</stage>
@@ -3570,7 +3638,7 @@
             <stage>(für sich).</stage>
             <p>Alle Wetter! Lächerlich! Einfach lächerlich ! —</p>
           </sp>
-          <pb n="78" />
+          <pb n="78"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Wie mäne Se? —</p>
@@ -3593,7 +3661,8 @@
             Grossmueder. E famosi Brill, di könne-n-'r hytt noch guet brüche... Grad hett m'r nämli d'r Wirt
             g'säit, s'wär 'm zü anständi, wenn 'r e-n-Aeueblick sini Stallung löuje wotte, er hett e Kalwe, wie
             for zwei Johre d'r Pris bekumme hett ; er wär nejgeerig, eb Se se noch kenne. 
-            <stage>(Pfeffer hört ganz erstaunt zu.)</stage></p>
+            <stage>(Pfeffer hört ganz erstaunt zu.)</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -3612,9 +3681,10 @@
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>M'r könne nit andersch... Gueter Burjer... stimmt guet... 
-            <stage>(Nimmt Dr. Freundlich am Arm.)</stage></p>
+            <stage>(Nimmt Dr. Freundlich am Arm.)</stage>
+            </p>
           </sp>
-          <pb n="79" />
+          <pb n="79"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Nehmen Sie sich unterdessen meiner Dame an.</p>
@@ -3622,7 +3692,8 @@
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Un sej artli mit dem Herre. 
-            <stage>(Beide ab.)</stage></p>
+            <stage>(Beide ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3664,7 +3735,7 @@
             <speaker>Marie.</speaker>
             <p>Un do dran erinnere Sie sich noch ? — Do müehn Sie awer e guets Gedächtnis han! —</p>
           </sp>
-          <pb n="80" />
+          <pb n="80"/>
           <sp who="#pfeffer">
             <speaker>Pfeffer</speaker>
             <stage>(mit Wärme).</stage>
@@ -3706,7 +3777,7 @@
             <stage>(scherzend)</stage>
             <p>Diss hawich gar nit gedenkt, dass ich so schweri Sache uff mim Gewisse hab ! —</p>
           </sp>
-          <pb n="81" />
+          <pb n="81"/>
           <sp who="#pfeffer">
             <speaker>Pfeffer.</speaker>
             <p>Ich erinner mich noch so guet, wie ich Sie s'erscht Mol g'sehn hab. Do han sie noch e kurzes brüns
@@ -3751,7 +3822,7 @@
             <p>Jo, in minere Verwunderung hawich ganz de Kopf verlore un hab nemmi uff s'Trottoir acht gän, hab e
             Fehltritt gemacht.....</p>
           </sp>
-          <pb n="82" />
+          <pb n="82"/>
           <sp who="#marie">
             <speaker>Marie</speaker>
             <stage>(lachend eingehend).</stage>
@@ -3802,7 +3873,7 @@
             <stage>(überlegt sich, macht sich von seinen Händen frei).</stage>
             <p>Ich saö's ne e-n-ander Mol... Do kumme d'andre vum Tanzplatz !</p>
           </sp>
-          <pb n="83" />
+          <pb n="83"/>
           <sp who="#pfeffer">
             <speaker>Pfeffer</speaker>
             <stage>(für sich).</stage>
@@ -3812,7 +3883,8 @@
             <speaker>Marie</speaker>
             <stage>(für sich)</stage>
             <p>Wie artig, dass 'r isch ! -- 
-            <stage>(Der Tanzsaal entleert sich voran Jerry mit der Velocipedistin, dann die andern).</stage></p>
+            <stage>(Der Tanzsaal entleert sich voran Jerry mit der Velocipedistin, dann die andern).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3833,23 +3905,26 @@
             nous sommes en famille avec ces paysans... qui sont d'un bête! 
             <stage>(Velocipedistin umarmt Marie, welche auf sie zueilt, macht eine sehr korrekte Verbeugung vor
             Grethl, Velocipedist ebenfalls macht eine sehr korrekte Reverenz vor sämtlichen
-            Bekannten).</stage></p>
+            Bekannten).</stage>
+            </p>
           </sp>
           <sp who="#jerry">
             <speaker>Jerry.</speaker>
             <p>Adjes binand! kumme guet häm! 
             <stage>(Velocipedist im Abgehen grüsst sehr korrekt Herrn Pfeffer, der ihn auf dieselbe Weise grüsst;
             ab unter dem allgemeinen Gekicher der Anwesenden ; Marie macht Herrn Pfeffer mit Jerry und Grethl
-            bekannt).</stage></p>
+            bekannt).</stage>
+            </p>
           </sp>
-          <pb n="84" />
+          <pb n="84"/>
           <sp who="#seppel">
             <speaker>Seppl</speaker>
             <stage>(der erschienen ist mit seinen Enten).</stage>
             <p>M'r mänt, s'isch e Hanswurscht ! Der bild sich ebs ing! M'r mänt, s'Meischters Mobs üs 'm Reed
             isch siner Pfetter! 
             <stage>(Der Herr Maire kommt zurück mit Dr. Freundlich, dem Lehrer und den
-            Gemeinderatsmitgliedern).</stage></p>
+            Gemeinderatsmitgliedern).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3883,7 +3958,7 @@
             <speaker>Seppl.</speaker>
             <p>Jo, wenn m'r äu noch nit asste, wenn m'r numme schun am Tisch sasste.</p>
           </sp>
-          <pb n="85" />
+          <pb n="85"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Muss ich mir doch notieren !</p>
@@ -3910,7 +3985,8 @@
             <p>Soit! Un mercie vielmol! 
             <stage>(Alle ab, voraus der Maire, ihm hinten nach Dr. Freundlich und Marie sowie Herr Pfeffer,
             nachher Lehrer und die Gemeinderatsmitglieder, nachher Grethl und Jerry, Seppl allein hinterdrein mit
-            den Enten).</stage></p>
+            den Enten).</stage>
+            </p>
           </sp>
           <sp who="#die_bauern_burschen_und_madchen">
             <speaker>Die Bauern, Burschen und Mädchen.</speaker>
@@ -3923,7 +3999,7 @@
             !</p>
           </sp>
         </div>
-        <pb n="86" />
+        <pb n="86"/>
         <div type="scene">
           <head>29. AUFTRITT.</head>
           <stage>Der Lump kommt herbeigeschlichen und trinkt den übrig gebliebenen Wein des Maires. Der Polizist
@@ -3933,7 +4009,8 @@
             <p>Was macht er da? — 
             <stage>(Sieht, dass noch etwas in der Flasche ist).</stage>Diese Flasche werde ich mit Beschlag
             belegen als Corpüs Delixir. 
-            <stage>(Lump ab).</stage></p>
+            <stage>(Lump ab).</stage>
+            </p>
           </sp>
           <sp who="#muller">
             <speaker>Assessor Müller.</speaker>
@@ -3947,7 +4024,8 @@
             <speaker>Doni</speaker>
             <stage>(den Kopf verlierend).</stage>
             <p>Ja, ja! Warte Sie, ich ruef d'r Wirth. 
-            <stage>(Ab).</stage></p>
+            <stage>(Ab).</stage>
+            </p>
           </sp>
           <sp who="#muller">
             <speaker>Assessor Müller.</speaker>
@@ -3960,7 +4038,8 @@
             <speaker>Polizist</speaker>
             <stage>(für sich).</stage>
             <p>Der isch ziemli grob, diss schient ebs fin's ze sin. 
-            <stage>(Zieht seine Mütze ab).</stage></p>
+            <stage>(Zieht seine Mütze ab).</stage>
+            </p>
           </sp>
           <sp who="#muller">
             <speaker>Assessor Müller.</speaker>
@@ -3970,7 +4049,7 @@
             <speaker>Polizist.</speaker>
             <p>Der Bürgermeister, der ist den ganzen Nachmittag hier gewesen, ünd....</p>
           </sp>
-          <pb n="87" />
+          <pb n="87"/>
           <sp who="#muller">
             <speaker>Assessor Müller.</speaker>
             <p>Na ja, das kann mir doch nichts nützen, machen Sie keine lange Geschichten, wo er wohnt, möchte
@@ -3995,7 +4074,7 @@
           <stage>(Schluss des zweiten Aufzuges).</stage>
         </div>
       </div>
-      <pb n="88" />
+      <pb n="88"/>
       <div type="act">
         <head>Dritter Aufzug.</head>
         <stage>Zimmer wie im ersten Aufzug.</stage>
@@ -4006,7 +4085,8 @@
             <speaker>Fränz.</speaker>
             <p>Ich diss e-n-Uffzug mit dem Inspakter ! M'r höert nix meh wie Herr Inspakter hinge un Herr
             Inspakter vorne. 
-            <stage>(Maire tritt herein, reibt sich die Hände, für sich).</stage></p>
+            <stage>(Maire tritt herein, reibt sich die Hände, für sich).</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
@@ -4025,7 +4105,7 @@
             im andere siner Sohn isch do vun de Soldate un hett de Feldwewel und sini Fräu mitgebrocht uff de
             Massti</p>
           </sp>
-          <pb n="89" />
+          <pb n="89"/>
           <sp who="#franz">
             <speaker>Fränz.</speaker>
             <p>Diss hätte se-n'äu ehnder säuje könne !</p>
@@ -4062,7 +4142,7 @@
             <p>Nix versteht 'r! Hett 'r nit denne Morje, wie 'r 'm denne fette-n-Ochse gezäjt han, g'fröujt, wie
             viel Mellich, dass 'r gitt ? Isch diss gepermettiert ?</p>
           </sp>
-          <pb n="90" />
+          <pb n="90"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Jetzt kenn Wort meh, um so veel kann m'r sich trumpeere ! — Un tummle-n-i, sie wäre grad kumme. —
@@ -4101,7 +4181,7 @@
             <stage>(Es klopft).</stage>Entrez! — Do kumme se-n-allewaj. —</p>
           </sp>
         </div>
-        <pb n="91" />
+        <pb n="91"/>
         <div type="scene">
           <head>2. AUFTRITT.</head>
           <stage>Dr. Freundlich, Herr Pfeffer und Marie treten ein. Die Vorigen, hinterdrein der Lehrer und die
@@ -4145,7 +4225,7 @@
             <speaker>Morte Velte.</speaker>
             <p>Isch's möejli ? —</p>
           </sp>
-          <pb n="92" />
+          <pb n="92"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(fortfahrend).</stage>
@@ -4155,7 +4235,8 @@
           <sp who="#morte_velte">
             <speaker>Morte Velte.</speaker>
             <p>Diss trifft sich awer jetzt famos! 
-            <stage>(Alle zeigen, wie erfreut sie sind, Dr. Freundlich tut desgleichen.)</stage></p>
+            <stage>(Alle zeigen, wie erfreut sie sind, Dr. Freundlich tut desgleichen.)</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -4183,14 +4264,15 @@
             <p>Ich tues nit andersch, Ihr sin als e so geneert. Mit denne Schuehj loss ich ejch nit e so in
             d'Stadt fahre, was tät denn ejer Unkel vun mir denke, wenn 'r diss sehn tät...? Fränz, Hans, Velte,
             alle helfe im Herr Inspakter d'Schuehj üszeje un gän 'm de Socke, wie hinger 'm Offe stehn ! 
-            <stage>(Fränz und die vier Bauern machen sich über Dr. Freundlich her.)</stage></p>
+            <stage>(Fränz und die vier Bauern machen sich über Dr. Freundlich her.)</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich</speaker>
             <stage>(wischt sich den Schweiss von der Stirn).</stage>
             <p>Ich bin halb tot!</p>
           </sp>
-          <pb n="93" />
+          <pb n="93"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(zu Pfeffer).</stage>
@@ -4225,7 +4307,8 @@
             <speaker>Maire</speaker>
             <stage>(vertraulich zu Herrn Pfeffer).</stage>
             <p>Sehn 'r, wie m'r als Maire geplöujt isch, nit emol am Sundi hett m'r sini Rüehj. 
-            <stage>(Alle ab.)</stage></p>
+            <stage>(Alle ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4238,7 +4321,7 @@
             g'sin, ich loss ne kenn Ruehj meh! — Sehn se, ich hab ne jo alles gebicht, wie verliebt dass ich in
             Sie g'sin bin, un wie ich an Sie gedenkt hab.....</p>
           </sp>
-          <pb n="94" />
+          <pb n="94"/>
           <sp who="#marie">
             <speaker>Marie.</speaker>
             <p>Ich kann nit... Es geht nit...</p>
@@ -4284,9 +4367,10 @@
           <sp who="#pfeffer">
             <speaker>Pfeffer.</speaker>
             <p>Angélique dü bisch e-n Engel! 
-            <stage>(Küsst sie.)</stage></p>
+            <stage>(Küsst sie.)</stage>
+            </p>
           </sp>
-          <pb n="95" />
+          <pb n="95"/>
           <sp who="#marie">
             <speaker>Marie.</speaker>
             <p>Awer, wenn's eemes sehn tät !</p>
@@ -4311,12 +4395,14 @@
           <sp who="#pfeffer">
             <speaker>Pfeffer.</speaker>
             <p>Guet denn, ze will i ne halt diss Krächerle wid'r zeruck gän. 
-            <stage>(Küsst sie.)</stage></p>
+            <stage>(Küsst sie.)</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie.</speaker>
             <p>Sie Schlimmer ! 
-            <stage>(Küsst ihn wieder. )</stage></p>
+            <stage>(Küsst ihn wieder. )</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4335,14 +4421,15 @@
             <p>Ah?! 
             <stage>(Spottend.)</stage>Un wie isch denn d'r Herr inspakter ?</p>
           </sp>
-          <pb n="96" />
+          <pb n="96"/>
           <sp who="#marie">
             <speaker>Marie</speaker>
             <stage>(seufzt für sich).</stage>
             <p>Wenn 'r numme schun abg'scheewelt wär ! 
             <stage>(Zu Jerry.)</stage>Er isch mit 'm Vater un mit de-n-andre nüs in d'Stallunge, kumme Sie, Herr
             Pfeffer, m'r gehn se ruefe. 
-            <stage>(Ab)</stage></p>
+            <stage>(Ab)</stage>
+            </p>
           </sp>
           <sp who="#jerry">
             <speaker>Jerry</speaker>
@@ -4377,14 +4464,15 @@
             <speaker>Seppl.</speaker>
             <p>Hä, diss sin anderi Burscht wie mir ! Wie mänsch, s'wär äu ball Zytt an üns M-M ze mache ! 
             <stage>(Spitzt den Mund zum Küssen und macht mit den zwei Armen mit den Enten die Bewegung des
-            Umarmens.)</stage></p>
+            Umarmens.)</stage>
+            </p>
           </sp>
           <sp who="#grethl">
             <speaker>Grethl</speaker>
             <stage>(abwehrend).</stage>
             <p>Der Pfohl kämt m'r grad recht !</p>
           </sp>
-          <pb n="97" />
+          <pb n="97"/>
           <sp who="#jerry">
             <speaker>Jerry</speaker>
             <stage>(zu Seppl).</stage>
@@ -4422,7 +4510,8 @@
             g'hierot ! 
             <stage>(Grethl, welche bisher etwas seitwärts sich zu schaffen machte, kommt zurück, stellt sich
             neben Jerry und schaut ihn verliebt an, Seppl schlüpft mit dem Kopf von hinten zwischen die
-            zwei.)</stage></p>
+            zwei.)</stage>
+            </p>
           </sp>
           <sp who="#grethl">
             <speaker>Grethl</speaker>
@@ -4438,7 +4527,7 @@
             <speaker>Grethl.</speaker>
             <p>Ich bin gar nit e so presseert !</p>
           </sp>
-          <pb n="98" />
+          <pb n="98"/>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>Awer ich bin presseert, ich bin presseert, ich halts nemmi üs, ich hab mi schun drej Wuche druff
@@ -4446,7 +4535,8 @@
             <stage>(Stürmisch auf sie zu, in beiden Händen die Enten.)</stage>Allez hopp! Grethl, un in veerzeh
             Daö wurd g'hieroth, dass dü's weisch, ich bin presseert ! 
             <stage>(Grethl weicht zurück, schliesslich erreicht er sie, will sie umarmen, sie gibt ihm eine
-            Ohrfeige.)</stage></p>
+            Ohrfeige.)</stage>
+            </p>
           </sp>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
@@ -4459,7 +4549,8 @@
             häut, wie wurd's erscht kumme, wenn i e mol g'hierot bin! — 
             <stage>(Zu Jerry.)</stage>Isch diss alles, was dü ferti gebroocht hesch ? Diss isch d'r Dank d'rfor,
             dass i de ganze Nochmiddäo die Ente spazeere geträuje hab, jetzt loss i se ze leid läufe. 
-            <stage>(Geht zur Türe hinaus und erscheint sofort ohne die Enten.)</stage></p>
+            <stage>(Geht zur Türe hinaus und erscheint sofort ohne die Enten.)</stage>
+            </p>
           </sp>
           <sp who="#jerry">
             <speaker>Jerry</speaker>
@@ -4485,12 +4576,13 @@
             <speaker>Jerry.</speaker>
             <p>Ganz sicher, loss mi numme mache. Gibsch m'r d'Vollmacht ?</p>
           </sp>
-          <pb n="99" />
+          <pb n="99"/>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>Ja, ich gib d'r d'Vollmacht. 
             <stage>(Reibt sich die Hände )</stage>Jetzt bin i doch nejgeerig, was der ferti bringt. 
-            <stage>(Ab.)</stage></p>
+            <stage>(Ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4523,7 +4615,8 @@
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Un dü min Mann! 
-            <stage>(Küssen sich, Seppl macht die Türe auf und guckt zu der Spalte herein.)</stage></p>
+            <stage>(Küssen sich, Seppl macht die Türe auf und guckt zu der Spalte herein.)</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl</speaker>
@@ -4536,8 +4629,9 @@
             <p>Der dumm Dolle, isch an d'r Tür un gickelt! 
             <stage>(Laut, als hätte er den Seppl nicht gesehen.)</stage>So, Grethl, jetzt versprichsch m'r, dass
             de wid'r guet mit 'm bisch, un jetzt gibsch 
-            <pb n="100" />m'r noch e Schmutz for ne. 
-            <stage>(Umarmen sich, Seppl gibt Zeichen grosser Zufriedenheit, reibt sich die Hände.)</stage></p>
+            <pb n="100"/>m'r noch e Schmutz for ne. 
+            <stage>(Umarmen sich, Seppl gibt Zeichen grosser Zufriedenheit, reibt sich die Hände.)</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
@@ -4565,7 +4659,8 @@
           <sp who="#jerry">
             <speaker>Jerry.</speaker>
             <p>Dü sellsch awer die Schmitz äu han, wie se m'r for dich gän hett. 
-            <stage>(Küsst ihn, Seppl freut sich ungemein.)</stage></p>
+            <stage>(Küsst ihn, Seppl freut sich ungemein.)</stage>
+            </p>
           </sp>
           <sp who="#grethl">
             <speaker>Grethl</speaker>
@@ -4573,7 +4668,8 @@
             <p>De, gib 'm noch äne, noch äne etc. 
             <stage>(Jerry küsst hierauf wiederholt Seppl, der sich sehr freut und ganz blöd dasteht, während
             dieser Szene geht die Türe auf, Maire und Dr. Freundlich bleiben im Türrahmen stehen und schauen
-            dieser Szene zu.)</stage></p>
+            dieser Szene zu.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4582,9 +4678,10 @@
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>D'r Deihenker! Was mache denn ihr do? 
-            <stage>(Jerry, Seppl und Grethl sich erschreckt umdrehend.)</stage></p>
+            <stage>(Jerry, Seppl und Grethl sich erschreckt umdrehend.)</stage>
+            </p>
           </sp>
-          <pb n="101" />
+          <pb n="101"/>
           <sp who="#jerry">
             <speaker>Jerry.</speaker>
             <p>Ah?! 
@@ -4637,7 +4734,7 @@
             <p>Ah, ich bin mit 'm Herr Inspakter un denne Herre nuff m de Düweschlaö gekrattelt 
             <stage>(heimlich)</stage>, er hett's nit andersch geton.</p>
           </sp>
-          <pb n="102" />
+          <pb n="102"/>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
             <p>Ja, wir hätten beinahe Hals und Bein gebrochen !</p>
@@ -4663,7 +4760,8 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Ich sage, ein unvergesslicher Tag! — Könnten Sie mir aber nicht einen Augenblick eine Bürste
             geben, wie ich sehe, bin ich ganz voller Spinnweben. 
-            <stage>(Maire langt eine Bürste, die Marie bürstet ihn.)</stage></p>
+            <stage>(Maire langt eine Bürste, die Marie bürstet ihn.)</stage>
+            </p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
@@ -4677,7 +4775,8 @@
           <sp who="#alle">
             <speaker>Alle.</speaker>
             <p>Ei, ei, ei! 
-            <stage>(Beschauen den Riss.)</stage></p>
+            <stage>(Beschauen den Riss.)</stage>
+            </p>
           </sp>
           <sp who="#lehrer">
             <speaker>Lehrer.</speaker>
@@ -4688,7 +4787,7 @@
             <stage>(für sich).</stage>
             <p>Der Teufel! —</p>
           </sp>
-          <pb n="103" />
+          <pb n="103"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Was isch jetzt do ze mache ? — Ei, ei, ei, ei! So kenne-n-'r doch nit in d'Stadt zerick ! —
@@ -4699,12 +4798,14 @@
             <speaker>Dr. Freundlich.</speaker>
             <p>Wenn es möglich wäre ! 
             <stage>(Sie ziehen ihm sehr dienstfertig den Rock aus, Grethl mit ab, Maire zieht seine Jacke
-            aus.)</stage></p>
+            aus.)</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>En attata, tuen 'r mine Mutze-n-an. — 
-            <stage>(Ziehen ihm den Rock an)</stage></p>
+            <stage>(Ziehen ihm den Rock an)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4722,13 +4823,15 @@
             <speaker>Dr. Freundlich</speaker>
             <stage>(für sich).</stage>
             <p>So, endlich, endlich werde ich meine Ruhe bekommen ! 
-            <stage>(Fränz ab.)</stage></p>
+            <stage>(Fränz ab.)</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Un ihr junge Lytt sitze uff die Sytt... 
             <stage>(dieselben setzen sich.)</stage>Un ihr; ihr Herre... 
-            <stage>(es klopft an).</stage></p>
+            <stage>(es klopft an).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4737,9 +4840,10 @@
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>D'r Deihenker, wer kummt jetzt ?! — Entrez! 
-            <stage>(Herein tritt der Dorfpolizist und Regierungsassessor Müller.)</stage></p>
+            <stage>(Herein tritt der Dorfpolizist und Regierungsassessor Müller.)</stage>
+            </p>
           </sp>
-          <pb n="104" />
+          <pb n="104"/>
           <sp who="#dorfpolizist">
             <speaker>Polizist</speaker>
             <stage>(versucht deutsch zu sprechen).</stage>
@@ -4753,7 +4857,8 @@
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Ah? Ah, de isch der Herr, wie Sie nooch m fröuje. 
-            <stage>(Dr. Freundlich fährt entsetzt zusammen.)</stage></p>
+            <stage>(Dr. Freundlich fährt entsetzt zusammen.)</stage>
+            </p>
           </sp>
           <sp who="#muller">
             <speaker>Müller.</speaker>
@@ -4769,13 +4874,15 @@
             <speaker>Müller.</speaker>
             <p>Ei, natürlich, mein Onkel hat Ihnen ja meinen Besuch angezeigt! 
             <stage>(Dr. Freundlich, Marie, Grethel verraten Zeichen grosser Unruhe, die andern schauen nach dem
-            neuen Gaste.)</stage></p>
+            neuen Gaste.)</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Ja, diss hett 'r, diss hett 'r! 
             <stage>(Lacht, die andern lachen mit.)</stage>Also, Sie sind d'r Herr Miller ? 
-            <stage>(Ungläubig fragend.)</stage></p>
+            <stage>(Ungläubig fragend.)</stage>
+            </p>
           </sp>
           <sp who="#muller">
             <speaker>Müller</speaker>
@@ -4791,9 +4898,10 @@
             <speaker>Maire.</speaker>
             <p>Was do dabei ischt ? — Diss könne-n-'r äm säuje wie Hafte-n-an de Hosse hett un d'Schüeh mit Witte
             gebunge hett. — Wisse Sie, was Sie sin? — Sie sin e farceur ! 
-            <stage>(Lacht ; Lehrer, Morte Velte etc. lachen ebenfalls.)</stage></p>
+            <stage>(Lacht ; Lehrer, Morte Velte etc. lachen ebenfalls.)</stage>
+            </p>
           </sp>
-          <pb n="105" />
+          <pb n="105"/>
           <sp who="#muller">
             <speaker>Müller</speaker>
             <stage>(scherzend).</stage>
@@ -4811,7 +4919,8 @@
             Verlegenheit gewahr, so dass sein Gesicht nach und nach den Ausdruck des Erstaunens und der
             Verblüffung annimmt, die andern verfolgen dieselbe Mimik.)</stage>Ja, was Deifels ?! 
             <stage>(Sehr langsam aussprechend.)</stage>Wie gemahnt mich diss ! ? — Sie sin doch d'r Herr Miller? 
-            <stage>(Zu Dr. Freundlich, der vergebens nach einer Antwort sucht.)</stage></p>
+            <stage>(Zu Dr. Freundlich, der vergebens nach einer Antwort sucht.)</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich</speaker>
@@ -4819,7 +4928,8 @@
             <p>So sprechen Sie doch, ich bitte Sie um alles in der Welt... 
             <stage>(Marie sucht nach Worten, sagt aber nichts.)</stage>Nun denn : Nein, ich bin Herr Müller
             nicht! Mein Name.. ..... 
-            <stage>(man unterbricht ihn).</stage></p>
+            <stage>(man unterbricht ihn).</stage>
+            </p>
           </sp>
           <sp who="#alle">
             <speaker>Alle.</speaker>
@@ -4837,7 +4947,7 @@
             <speaker>Marie.</speaker>
             <p>Vater !</p>
           </sp>
-          <pb n="106" />
+          <pb n="106"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Awer Vater!</p>
@@ -4885,7 +4995,7 @@
             <speaker>Polizist.</speaker>
             <p>Ich gläube, es ist ein Spion, er hat alles äufgeschrieben, soll ich ihn verhaften ?</p>
           </sp>
-          <pb n="107" />
+          <pb n="107"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>Ja, verhafte-ne, setze-ne in's Spritzehüs, un do denne Velocipedist, denne süüfere Patron, äu
@@ -4929,9 +5039,10 @@
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
             <p>So könnt e Jeder kumme! Arreteere ne, awer zerscht zeje-n-'m mine Mutze-n-üs. 
-            <stage>(Die Bauern machen sich über ihn her und ziehen ihm gewaltsam den Rock aus.)</stage></p>
+            <stage>(Die Bauern machen sich über ihn her und ziehen ihm gewaltsam den Rock aus.)</stage>
+            </p>
           </sp>
-          <pb n="108" />
+          <pb n="108"/>
           <sp who="#marie">
             <speaker>Marie.</speaker>
             <p>Awer Vater !</p>
@@ -4955,7 +5066,8 @@
           <sp who="#franz">
             <speaker>Fränz.</speaker>
             <p>So hett's muehn kumme! 
-            <stage>(Fränz ab.)</stage></p>
+            <stage>(Fränz ab.)</stage>
+            </p>
           </sp>
           <sp who="#muller">
             <speaker>Müller.</speaker>
@@ -4977,7 +5089,8 @@
           <sp who="#pfeffer">
             <speaker>Pfeffer.</speaker>
             <p>Herr Maire, diss isch jo d'r Professer Dr. Freundlich üs d'r Stadt! 
-            <stage>(Müller sehr überrascht.)</stage></p>
+            <stage>(Müller sehr überrascht.)</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
@@ -4987,11 +5100,12 @@
             <speaker>Polizist.</speaker>
             <p>Im Namen des Gesetzes verhafte ich Sie !</p>
           </sp>
-          <pb n="109" />
+          <pb n="109"/>
           <sp who="#muller">
             <speaker>Müller.</speaker>
             <p>Bitte sehr! 
-            <stage>(Macht die andern auf die Seite treten.)</stage></p>
+            <stage>(Macht die andern auf die Seite treten.)</stage>
+            </p>
           </sp>
           <sp who="#dr_freundlich">
             <speaker>Dr. Freundlich.</speaker>
@@ -5002,7 +5116,8 @@
             <p>Ach, Sie sind's, mein lieber Herr Dr. Freundlich ! Alle Wetter, was ist denn das für eine tolle
             Geschichte ? 
             <stage>(Alle fahren erstaunt zurück, der Maire kratzt sich hinter den Ohren, Polizist ganz verblüfft
-            schaut einen nach dem andern an.)</stage></p>
+            schaut einen nach dem andern an.)</stage>
+            </p>
           </sp>
           <sp who="#alle">
             <speaker>Alle.</speaker>
@@ -5021,7 +5136,8 @@
             <speaker>Maire</speaker>
             <stage>(für sich).</stage>
             <p>Ich gläub, ich hab e Veehheit gemacht, e grossi Veehkeit! 
-            <stage>(Kratzt sich.)</stage></p>
+            <stage>(Kratzt sich.)</stage>
+            </p>
           </sp>
           <sp who="#dorfpolizist">
             <speaker>Polizist.</speaker>
@@ -5034,19 +5150,21 @@
             habe. Hut ab, das ist ein gelehrtes Haus, der arbeitet an einem berühmten Werk über die allemanischen
             Sprachen.</p>
           </sp>
-          <pb n="110" />
+          <pb n="110"/>
           <sp who="#dr_herr_maire">
             <speaker>Maire</speaker>
             <stage>(krampfhaft lachend).</stage>
             <p>Ah! Ah! — Fräit mi, fräit mi... Ich hab g'sahn, dass ebs i-n-m steckt ! — Ich muess säuje...
             s'isch zuem Lache ..... wenn m'r's bedenkt...! Sie han sich do e famoser G'spass erläubt, e ganz
             famoser. 
-            <stage>(Devot lachend.)</stage></p>
+            <stage>(Devot lachend.)</stage>
+            </p>
           </sp>
           <sp who="#alle">
             <speaker>Alle.</speaker>
             <p>S'isch wohr, e ganz famoser G'spass! 
-            <stage>(Krampfhaft lachend.)</stage></p>
+            <stage>(Krampfhaft lachend.)</stage>
+            </p>
           </sp>
           <sp who="#dr_herr_maire">
             <speaker>Maire.</speaker>
@@ -5082,7 +5200,7 @@
             <p>Kenn Chance !</p>
           </sp>
         </div>
-        <pb n="111" />
+        <pb n="111"/>
         <div type="scene">
           <head>11. AUFTRITT.</head>
           <stage>Die Vorigen, ohne den Polizisten, nachher Fränz.</stage>
@@ -5095,7 +5213,8 @@
           <sp who="#muller">
             <speaker>Müller.</speaker>
             <p>Aber beruhigen Sie sich, Herr Bürgermeister. 
-            <stage>(Fränz bringt den Rock des Dr. Freundlich.)</stage></p>
+            <stage>(Fränz bringt den Rock des Dr. Freundlich.)</stage>
+            </p>
           </sp>
           <sp who="#franz">
             <speaker>Fränz.</speaker>
@@ -5115,7 +5234,8 @@
             <speaker>Maire</speaker>
             <stage>(höflich).</stage>
             <p>Wenn m'r im Herr Professer helfe könne de Rock antuen. 
-            <stage>(Alle beeilen sich ihm zu helfen.)</stage></p>
+            <stage>(Alle beeilen sich ihm zu helfen.)</stage>
+            </p>
           </sp>
           <sp who="#morte_velte">
             <speaker>Morte Velte.</speaker>
@@ -5125,7 +5245,7 @@
             <speaker>Lehrer.</speaker>
             <p>Sie erlauben, Herr Professor ?</p>
           </sp>
-          <pb n="112" />
+          <pb n="112"/>
           <sp who="#muller">
             <speaker>Müller.</speaker>
             <p>Und nun, Herr Doktor, müssen Sie uns die Geschichte aufklären.</p>
@@ -5139,7 +5259,8 @@
             <p>Allez, Marie, Grethl, Fränz, könnte-n-'r dem Herre vun d'r Kreisdiraktion nit d'r Lehnstuehl
             anoffereere ? Er han äu gar kenn Anstand ! 
             <stage>(Alle beeilen sich den grossen Lehnstuhl zu bringen, auf dem Herr Dr. Freundlich bisher
-            sass.)</stage></p>
+            sass.)</stage>
+            </p>
           </sp>
           <sp who="#muller">
             <speaker>Müller.</speaker>
@@ -5173,7 +5294,7 @@
             <speaker>Marie.</speaker>
             <p>Ei wäisch... Dü hesch jo allewyl g'säit, ich derf kenn Herr hierothe üs d'r Stadt, un er isch
             kumme wäje mir, um 
-            <pb n="113" />um mini Hand anzehalte... 
+            <pb n="113"/>um mini Hand anzehalte... 
             <stage>(Schnell einsetzend.)</stage>Muesch dich awer nit verzirne Vater, ich hab mi wid'r andersch
             bedenkt... Ich bin Reüjes worre.</p>
           </sp>
@@ -5216,7 +5337,7 @@
             <speaker>Maire.</speaker>
             <p>Oho ? Surprise iwer surprise ! Grethl, wenn ich awer han will, dass de ne nimmsch ?</p>
           </sp>
-          <pb n="114" />
+          <pb n="114"/>
           <sp who="#grethl">
             <speaker>Grethl.</speaker>
             <p>Un ich will ne nit, un ich will ne nit 
@@ -5261,7 +5382,7 @@
             <speaker>Seppl.</speaker>
             <p>Excüseh, fufzeh sin's !</p>
           </sp>
-          <pb n="115" />
+          <pb n="115"/>
           <sp who="#marie">
             <speaker>Marie.</speaker>
             <p>Hab äu nix d'rgeje !</p>
@@ -5269,7 +5390,8 @@
           <sp who="#seppel">
             <speaker>Seppl.</speaker>
             <p>Dü bisch gewalti verschlackt! Gall wenn i so Velohösle an hätt, wie d'r Stadtherr do... 
-            <stage>(deutet auf Herrn Pfeffer).</stage></p>
+            <stage>(deutet auf Herrn Pfeffer).</stage>
+            </p>
           </sp>
           <sp who="#jerry">
             <speaker>Jerry.</speaker>
@@ -5302,7 +5424,7 @@
             <p>Ach, die Hauptsache vergesse ich ja, ich gratuliere Ihnen zu Ihrem 25jährigen Jubiläum als
             Bürgermeister und zu Ihrer Ernennung zum Ritter des Kronenordens IV. Klasse.</p>
           </sp>
-          <pb n="116" />
+          <pb n="116"/>
           <sp who="#alle">
             <speaker>Alle.</speaker>
             <p>D'r Orde! M'r sin sauweert ! —</p>
@@ -5316,7 +5438,8 @@
             Herr Regierungsa ...., ich weiss — nit wie! Sie sin-e-n-Engel! 
             <stage>(Fällt ihm um den Hals, sich umdrehend.)</stage>Un ihr, ihr King könne hierote, wenne dass 'r
             welle! 
-            <stage>(Die betreffenden Paare fallen sich um den Hals.)</stage></p>
+            <stage>(Die betreffenden Paare fallen sich um den Hals.)</stage>
+            </p>
           </sp>
           <sp who="#seppel">
             <speaker>Seppl.</speaker>

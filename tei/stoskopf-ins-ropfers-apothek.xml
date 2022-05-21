@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -133,34 +133,49 @@
       <pb n="3"/>
       <castList>
         <head>Personen.</head>
-        <castItem corresp="#ropfer"><role>Antoine Ropfer</role>,
+        <castItem corresp="#ropfer">
+          <role>Antoine Ropfer</role>,
           <roleDesc>Apotheker</roleDesc>.</castItem>
-        <castItem corresp="#emilie"><role>Emilie</role>, <roleDesc>dessen
+        <castItem corresp="#emilie">
+          <role>Emilie</role>, <roleDesc>dessen
           Frau</roleDesc>.</castItem>
-        <castItem corresp="#jeanne"><role>Jeanne</role>, <roleDesc>deren
+        <castItem corresp="#jeanne">
+          <role>Jeanne</role>, <roleDesc>deren
           Tochter</roleDesc>.</castItem>
-        <castItem corresp="#anatol"><role>Anatol</role>, <roleDesc>Onkel der
+        <castItem corresp="#anatol">
+          <role>Anatol</role>, <roleDesc>Onkel der
           Vorigen</roleDesc>.</castItem>
-        <castItem corresp="#jules"><role>Jules Salber</role>, <roleDesc>Commis b.
+        <castItem corresp="#jules">
+          <role>Jules Salber</role>, <roleDesc>Commis b.
           Ropfer</roleDesc>.</castItem>
-        <castItem corresp="#albert"><role>Albert Reißer</role>, <roleDesc>junger
+        <castItem corresp="#albert">
+          <role>Albert Reißer</role>, <roleDesc>junger
           Arzt</roleDesc>.</castItem>
-        <castItem corresp="#schmidt"><role>Madame Susanne Schmidt</role>.</castItem>
-        <castItem corresp="#susanne"><role>Susanne</role>, <roleDesc>deren
+        <castItem corresp="#schmidt">
+          <role>Madame Susanne Schmidt</role>.</castItem>
+        <castItem corresp="#susanne">
+          <role>Susanne</role>, <roleDesc>deren
           Tochter</roleDesc>.</castItem>
-        <castItem corresp="#general"><role>Schampetiß Schneider (gen. Général)</role>,
+        <castItem corresp="#general">
+          <role>Schampetiß Schneider (gen. Général)</role>,
             <roleDesc>Factotum bei Ropfer</roleDesc>.</castItem>
-        <castItem corresp="#ammej"><role>Ammej</role>, <roleDesc>Wäscherin, dessen
+        <castItem corresp="#ammej">
+          <role>Ammej</role>, <roleDesc>Wäscherin, dessen
           Frau</roleDesc>.</castItem>
-        <castItem corresp="#jean"><role>Jean</role>, <roleDesc>Zimmerkellner (im Hotel Zum stolzen
+        <castItem corresp="#jean">
+          <role>Jean</role>, <roleDesc>Zimmerkellner (im Hotel Zum stolzen
             Hahn in Baden-Baden)</roleDesc>.</castItem>
-        <castItem corresp="#marie"><role>Marie</role>, <roleDesc>Magd (im Hotel Zum stolzen Hahn in
+        <castItem corresp="#marie">
+          <role>Marie</role>, <roleDesc>Magd (im Hotel Zum stolzen Hahn in
             Baden-Baden)</roleDesc>.</castItem>
-        <castItem corresp="#wanda"><role>Wanda Stern</role>, <roleDesc>eine
+        <castItem corresp="#wanda">
+          <role>Wanda Stern</role>, <roleDesc>eine
             Schauspielerin</roleDesc>.</castItem>
-        <castItem corresp="#piefke"><role>Piefke</role>, <roleDesc>ein fremder
+        <castItem corresp="#piefke">
+          <role>Piefke</role>, <roleDesc>ein fremder
           Herr</roleDesc>.</castItem>
-        <castItem corresp="#chrischtenatz"><role>D’r Chrischtenatz</role>, <roleDesc>ein
+        <castItem corresp="#chrischtenatz">
+          <role>D’r Chrischtenatz</role>, <roleDesc>ein
             Bauer</roleDesc>.</castItem>
       </castList>
       <set>
@@ -187,7 +202,8 @@
         </sp>
         <sp who="#chrischtenatz">
           <speaker>Chrischtenatz:</speaker>
-          <p>Jo, Herr Ropfer, „merci“ Herr Ropfer. <stage>(ab)</stage></p>
+          <p>Jo, Herr Ropfer, „merci“ Herr Ropfer. <stage>(ab)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -198,7 +214,8 @@
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>„Oui, patron“. <stage>(Nimmt die beiden Rezepte und geht ab nach rechts in das
-              Laboratorium.)</stage></p>
+              Laboratorium.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
@@ -237,13 +254,15 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
-          <p><stage>(zu Ammej):</stage> Ammej! Lauft Sie g’schwind ins Ochsewirths un saat Sie im
+          <p>
+            <stage>(zu Ammej):</stage> Ammej! Lauft Sie g’schwind ins Ochsewirths un saat Sie im
             Schampetiss, er soll so schnell ass möjlich heimkumme.</p>
         </sp>
         <sp who="#ammej">
           <speaker>Ammej:</speaker>
           <p>Ja, Herr, ich läuf, awer z’erscht muesch hesch! Wenn’r noch dort isch! <stage>(Schnell
-              ab.)</stage></p>
+              ab.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -265,7 +284,8 @@
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
-          <p>„Oui maman!“ <stage>(Ab)</stage></p>
+          <p>„Oui maman!“ <stage>(Ab)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -286,7 +306,8 @@
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
           <p>Ei na, ’s isch au wohr! <stage>(Nach der Türe schauend)</stage> „Mon Dieu“ D’r Unkel
-            Anatol kummt! <stage>(Anatol ist durch das Schaufenster sichtbar.)</stage></p>
+            Anatol kummt! <stage>(Anatol ist durch das Schaufenster sichtbar.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -335,7 +356,8 @@
           <speaker>Anatol:</speaker>
           <p>So, un jetzt welle m’r ’s uns emol zerscht recht bequem mache <stage>(geht auf den
               Tisch zu, auf den er seine Reisetasche gestellt hat. Er bemerkt eine Medizinflasche,
-              die auf dem Tische steht, entkorkt sie und versucht davon.)</stage></p>
+              die auf dem Tische steht, entkorkt sie und versucht davon.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -347,7 +369,8 @@
         <stage/>
         <sp who="#anatol">
           <speaker>Anatol:</speaker>
-          <p>E zue e gueti Medizin! <stage>(Setzt die Flasche wieder an.)</stage></p>
+          <p>E zue e gueti Medizin! <stage>(Setzt die Flasche wieder an.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -357,7 +380,8 @@
         <sp who="#anatol">
           <speaker>Anatol:</speaker>
           <p>E zue e gueti Medizin! <stage>(Setzt sich und kramt aus seiner Reisetasche ein grosses
-              Paar Pantoffeln heraus.)</stage></p>
+              Paar Pantoffeln heraus.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -377,7 +401,8 @@
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
           <p>„Mon Dieu!“ Mit dere-n-Affär vergiss ich jo ganz mini Köffer! Schicksch de Schampetiss
-            un d’Ammej glich nuff, wenn se kumme. <stage>(Ab nach links.)</stage></p>
+            un d’Ammej glich nuff, wenn se kumme. <stage>(Ab nach links.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -408,13 +433,15 @@
               <stage>(Sich an den Kopf schlagend)</stage> Halt, ich hab e-n-Idee. Gescht isch m’r
             zueffällig e Zittung vun zwei Johr here in d’Händ g’falle, wie ’s drinne steht, dass ’s
             newe-n-ihm ge- brennt het! Verlicht fallt’r druff erin. <stage>(Ab nach
-            links.)</stage></p>
+            links.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
           <stage>(Typus des alten französischen Soldaten, durch die Mitte herein):</stage>
           <p>Löuj do, der alt täub Hafe-n-isch äu wieder hiesig. -— Salut, alti Pflüm! <stage>(Gibt
-              Anatol die Hand.)</stage></p>
+              Anatol die Hand.)</stage>
+          </p>
         </sp>
         <sp who="#anatol">
           <speaker>Anatol:</speaker>
@@ -526,7 +553,8 @@
           <speaker>Anatol:</speaker>
           <p>Zue artig, zue artig! Ich wurr awer au an Ejch denke. <stage>(Geht der Türe links
               zu.)</stage> Do denne Reissack, vo alli mini „souvenir“ dran henke, denne hawich extra
-            for Ejch üsbedunge in mim Teschtament. <stage>(Ab nach links.)</stage></p>
+            for Ejch üsbedunge in mim Teschtament. <stage>(Ab nach links.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -584,11 +612,13 @@
           <speaker>Madame Ropfer:</speaker>
           <p>Ah! — „C’est juste.“ Grad fallt’s m’r in, ich hab sie in minere „toilette“
             ing’schlosse. — „Dépéchons-nous!“ — <stage>(Der Türe links zu)</stage> Schampetiss,
-            traauwe-n=Ihr d’rwielsclht s klein Gepäck erab. <stage>(Ab mit Jeanne.)</stage></p>
+            traauwe-n=Ihr d’rwielsclht s klein Gepäck erab. <stage>(Ab mit Jeanne.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss:</speaker>
-          <p>Ja, Madam! <stage>(Madame Ropfer und Jeanne nach.)</stage></p>
+          <p>Ja, Madam! <stage>(Madame Ropfer und Jeanne nach.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -598,7 +628,8 @@
         <sp who="#jules">
           <speaker>Jules</speaker>
           <stage>(von links):</stage>
-          <p>Die zwei Arzneje sin ferti. <stage>(Stellt sie auf das Comptoir.)</stage></p>
+          <p>Die zwei Arzneje sin ferti. <stage>(Stellt sie auf das Comptoir.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -615,7 +646,8 @@
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
-          <p>„Oui, papa.“ <stage>(Ab)</stage></p>
+          <p>„Oui, papa.“ <stage>(Ab)</stage>
+          </p>
         </sp>
         <pb n="13"/>
         <sp who="#ropfer">
@@ -633,7 +665,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>„Oui, patron!“ <stage>(Ropfer ab. Jules schickt sich an zu schreiben.)</stage></p>
+          <p>„Oui, patron!“ <stage>(Ropfer ab. Jules schickt sich an zu schreiben.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
@@ -738,7 +771,8 @@
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
-          <p><stage>(betroffen):</stage> Ja, worum denn nit?!</p>
+          <p>
+            <stage>(betroffen):</stage> Ja, worum denn nit?!</p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -874,7 +908,8 @@
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
-          <p><stage>(betroffen):</stage> Wieso? Hett sie dich schun gern?!</p>
+          <p>
+            <stage>(betroffen):</stage> Wieso? Hett sie dich schun gern?!</p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -1006,9 +1041,11 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
-          <p><stage>(begrüsst Albert):</stage> Diss isch schoen, dass Sie so schnell kumme sin. Ich
+          <p>
+            <stage>(begrüsst Albert):</stage> Diss isch schoen, dass Sie so schnell kumme sin. Ich
             möcht ’ne nämlich mini nejscht Spezialität zeije, wie ich erfunde hab. Do,
-            d’Gebrauchsanweisung. <stage>(Gibt ihm ein gedrucktes Formular.)</stage></p>
+            d’Gebrauchsanweisung. <stage>(Gibt ihm ein gedrucktes Formular.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -1018,7 +1055,8 @@
           <speaker>Ropfer</speaker>
           <stage>(zu Albert):</stage>
           <p>Welle Sie’s nit au versueche, Herr Dokter? <stage>(Bietet Albert ein Fläschchen, das er
-              aus der Tasche zieht, an.)</stage></p>
+              aus der Tasche zieht, an.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
@@ -1057,7 +1095,8 @@
         </sp>
         <sp who="#ammej">
           <speaker>Ammej:</speaker>
-          <p>Ze mach, dass de nuff kummsch! <stage>(Droht mit der Faust.)</stage></p>
+          <p>Ze mach, dass de nuff kummsch! <stage>(Droht mit der Faust.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
@@ -1072,7 +1111,8 @@
         <sp who="#general">
           <speaker>Schampetiss:</speaker>
           <p>Jo, im Herre. <stage>(Er geht nach links der Türe zu, Ammej gibt ihm noch einen
-              Rippenstoss und folgt ihm; beide brummend ab.)</stage></p>
+              Rippenstoss und folgt ihm; beide brummend ab.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
@@ -1155,7 +1195,8 @@
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
-          <p><stage>(wie oben):</stage> Doch! Doch!</p>
+          <p>
+            <stage>(wie oben):</stage> Doch! Doch!</p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -1205,7 +1246,8 @@
           <speaker>Jules</speaker>
           <stage>(von links):</stage>
           <p>„Me voilà, patron“, ich hab sie gezählt, es sin grad fuffzig, wie ich bienand hab.
-              <stage>(Gibt sie Ropfer.)</stage></p>
+              <stage>(Gibt sie Ropfer.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -1215,7 +1257,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
-          <p><stage>(betroffen):</stage> Ich? — Nein, nein, „au contraire“, ’s isch e „cliente“, wie
+          <p>
+            <stage>(betroffen):</stage> Ich? — Nein, nein, „au contraire“, ’s isch e „cliente“, wie
             uns in mim alte Platz e B’stellung gemacht hett. ―</p>
         </sp>
         <sp who="#ropfer">
@@ -1226,7 +1269,8 @@
             g’schwind minere Frau saauwe, Die hett an so Sache e leids Freid, <stage>(Ab- gehend für
               sich)</stage> Ich muess nüss, um mich vun minere-n-Emotion ze-n-erhole, Der Namme, der
             Namme! Susanne Schmidt! Sott am End gar!? O nee, ’s isch sicher e Zuefall!
-              <stage>(Ab.)</stage></p>
+              <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -1239,7 +1283,8 @@
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>Ich au, es isch nix drowe, wie e grosser Fettflecke. <stage>(Zeigt ihm die
-              Karte.)</stage></p>
+              Karte.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
@@ -1388,7 +1433,8 @@
         </sp>
         <sp who="#general">
           <speaker>Schampetiss:</speaker>
-          <p>„Votre serviteur!“ <stage>(Ab.)</stage></p>
+          <p>„Votre serviteur!“ <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
@@ -1412,7 +1458,8 @@
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Diss isch jetz emol e famoser „hasard“, diss will ich awer emol glich minere Frau
-            saaue. <stage>(Ab.)</stage></p>
+            saaue. <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -1478,7 +1525,8 @@
           <p>Zue artig, ich hab Sie drum bitte welle. <stage>(Gibt Albert die Pakete.)</stage> Die
             Dame muehn uff d’r Minüt erunter kumme. <stage>(Nimmt das Rezept.)</stage> Do heisst
             sich’s tummle. <stage>(In der kommenden Szene bleibt der Arzt mit den Paketen stehen,
-              Ropfer und Jules stossen eifrig im Mörser ein Pulver.)</stage></p>
+              Ropfer und Jules stossen eifrig im Mörser ein Pulver.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -1603,7 +1651,8 @@
         <sp who="#chrischtenatz">
           <speaker>D’r Chrischtennatz:</speaker>
           <p>Diss will i meine. Un merci au. Ich wur die Sach ’s nächst Mol in Richtigkeit bringe.
-            Adje bienand. <stage>(Ab.)</stage></p>
+            Adje bienand. <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -1621,7 +1670,8 @@
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>Doch, doch, es pressiert, es pressiert „meme“ arri! <stage>(Madame Ropfer durch die Tür
-              links.)</stage></p>
+              links.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
@@ -1650,7 +1700,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Oui, maman. <stage>(Madame Ropfer ist inzwischen eingetreten. Albert verneigt sich.
-              Madame Ropfer erwidert den Gruss.)</stage></p>
+              Madame Ropfer erwidert den Gruss.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -1760,7 +1811,8 @@
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
-          <p><stage>(freudig):</stage> Ah! — Grad noch vor’m verreise?! ―</p>
+          <p>
+            <stage>(freudig):</stage> Ah! — Grad noch vor’m verreise?! ―</p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -1768,7 +1820,8 @@
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
-          <p><stage>(freudig):</stage> Mit ’m Herr Dokter!? ―</p>
+          <p>
+            <stage>(freudig):</stage> Mit ’m Herr Dokter!? ―</p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -1780,7 +1833,8 @@
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
-          <p><stage>(enttäuscht):</stage> Ah! ―</p>
+          <p>
+            <stage>(enttäuscht):</stage> Ah! ―</p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
@@ -1790,7 +1844,8 @@
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
           <p>„Embrassez-vous! Et dépéchez-vous“, for dass m’r an de Zug kumme. <stage>(Jules umarmt
-              Jeanne‚ die ihn willenlos gewähren lässt.)</stage></p>
+              Jeanne‚ die ihn willenlos gewähren lässt.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
@@ -1805,7 +1860,8 @@
           <speaker>Ropfer:</speaker>
           <p>Jeanne, diner Hochzitter un ich könne leider nit mit an de Isebahn, mir han noch
             wichtigi und pressierti Rezepter ze mache, Awer d’r Herr Dokter isch so artig und traat
-            Ejch ’s Gepäck. <stage>(Albert verneigt sich.)</stage></p>
+            Ejch ’s Gepäck. <stage>(Albert verneigt sich.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -1838,7 +1894,8 @@
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
           <p>„Mon Dieu!“ Hoffentlich isch sin Hüs nit au mitverbrennt! <stage>(Auch die übrigen
-              Anwesenden zeigen Teilnahme.)</stage></p>
+              Anwesenden zeigen Teilnahme.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -1869,7 +1926,8 @@
           <stage>(schüttelt ihm noch die Hand):</stage>
           <p>„Au revoir“, un merci au for dini guete Troschtwort, merci viel mol. <stage>(Alle ab,
               Anatol hinten drein. Jules und Ropfer ergreifen wieder den Mörser und stossen kräftig
-              zu.)</stage></p>
+              zu.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -1978,14 +2036,16 @@
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
-          <p><stage>(singend):</stage> „Elle est faite, la casquette, la casquette, elle est faite
+          <p>
+            <stage>(singend):</stage> „Elle est faite, la casquette, la casquette, elle est faite
             avec du poil de chameau.“</p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>„Chameau toi-même!“ Eim e so e Stoss ze liefere! Jetzt awer nüs, zuem Hüs nüs, als nix
             wie nüs! <stage>(Packt ihn auf einer Seite, Jules auf der anderen.)</stage> Nüs! Un
-            kumme mir nimmi in’s Hüs erin! <stage>(Sie werfen ihn zur Türe hinaus.)</stage></p>
+            kumme mir nimmi in’s Hüs erin! <stage>(Sie werfen ihn zur Türe hinaus.)</stage>
+          </p>
         </sp>
         <sp who="#ammej">
           <speaker>Ammej</speaker>
@@ -1999,7 +2059,8 @@
         <sp who="#ammej">
           <speaker>Ammej:</speaker>
           <p>Na, der soll ebs erlewe! <stage>(Eilt Schampetiss mit geschwungenem Besen
-              nach.)</stage> Wart numme! Dich will ich schun treffe! — <stage>(Ab.)</stage></p>
+              nach.)</stage> Wart numme! Dich will ich schun treffe! — <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -2083,7 +2144,8 @@
         </sp>
         <sp who="#handwerker1 #handwerker2">
           <speaker>Alle:</speaker>
-          <p>Buschur‚ Herr Ropfer! „Au revoir“‚ Herr Ropfer. <stage>(Die Handwerker ab.)</stage></p>
+          <p>Buschur‚ Herr Ropfer! „Au revoir“‚ Herr Ropfer. <stage>(Die Handwerker ab.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -2139,8 +2201,7 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
-          <p>Oh, Ihr Ross Gottes am Palmsundaa! Ich Ejch gschriwwe? — Simpel dauwer! Han Ihr <pb
-              n="37"/> Ejch denn nit saaue muehn, dass diss eini vun denne Karte isch, wie ’r in de
+          <p>Oh, Ihr Ross Gottes am Palmsundaa! Ich Ejch gschriwwe? — Simpel dauwer! Han Ihr <pb n="37"/> Ejch denn nit saaue muehn, dass diss eini vun denne Karte isch, wie ’r in de
             Kaschte geworfe han? ― Diss isch e Kart, wie ich Ejch vor zwei Johre g’schriwwe hab, wie
             ich Ejch nüsg’schmisse hab g’hett! — Oh, hätt ich Ejch numme nimmi genumme
             zellemols!</p>
@@ -2212,7 +2273,8 @@
           <speaker>Anatol:</speaker>
           <p>Die arm Tante Aline! — Ich hab’ z’erscht gemeint, die Tante Aline isch schun noch emol
             g’storwe vor drej Johr, awer ’s macht nix, es macht eim doch allewyl widder Müehj.
-              <stage>(Wischt sich die Tränen ab.)</stage></p>
+              <stage>(Wischt sich die Tränen ab.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -2223,7 +2285,8 @@
           <speaker>Anatol:</speaker>
           <p>So, diss frait mich. D’ Hauptsach isch, dass sie nit hett liede müehn. <stage>(Setzt
               sich hin, öffnet seine Reisetasche und zieht seine grossen Pantoffeln an, wie im
-              ersten Aufzuge.)</stage></p>
+              ersten Aufzuge.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -2245,7 +2308,8 @@
             hesch, es hett nit g’stimmt mit’m Brenne. E merkwürdigi Zittung, wie Sache drinne stehn,
             wo nit wohr sinn, oder wie d’ Nouvelle zwei Johr noch de-n-andere bringt. ―
               <stage>(Steht auf, sieht sich im Zimmer um und nimmt von dem Stilleben auf dem Tisch
-              einen Apfel und beisst daran herunter.)</stage></p>
+              einen Apfel und beisst daran herunter.)</stage>
+          </p>
         </sp>
         <pb n="39"/>
         <sp who="#ropfer">
@@ -2268,13 +2332,15 @@
           <stage>(von links in Hemdärmeln):</stage>
           <p>Do, d’r Schampetiss soll m’r denne Knopf an de Anglees nähje. Es schickt sich, dass eim
             kenn Knopf am Anglees fehlt, wenn m’r zue d’r Licht vun ere Tante geht. <stage>(Ropfer
-              nimmt ihm den Rock ab. Anatol wieder ab nach links.)</stage></p>
+              nimmt ihm den Rock ab. Anatol wieder ab nach links.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>„Bon!“ Jetzt wurr ich am End gar noch selwer denne Knopf annähje müehn! <stage>(Wirft
               den Rock auf einen Stuhl)</stage> ’s isch m’r weiss Gift alles verleid! <stage>(Ab
-              durch die Türe links.)</stage></p>
+              durch die Türe links.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -2282,11 +2348,13 @@
           <p>Leb ich in ere Angscht, leb ich in ere Angscht. Wenn d’ Susanne mini Kart bekumme hett’
             mit minere-n-Adress drowe, ze bin ich verlore. <stage>(Susanne und Madame Schmidt durch
               die Mitte herein. Susanne ist eine hübsche Erscheinung. Beide sind elegant angezogen.
-              Jules, entsetzt, stösst bei deren Auftritt einen Schrei aus.)</stage></p>
+              Jules, entsetzt, stösst bei deren Auftritt einen Schrei aus.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt</speaker>
-          <p><stage>(heftig):</stage> „Ah! le voilà!“</p>
+          <p>
+            <stage>(heftig):</stage> „Ah! le voilà!“</p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
@@ -2380,7 +2448,8 @@
           <p>Diss wär noch schoener, wenn ’r nit mit inverstande wär! <stage>(Sie geht aufgeregt im
               Zimmer auf und ab. Plötzlich bleibt ihr Blick <pb n="41"/> auf einem an der Wand links
               hängenden Frauenbildnis haften. Sie stösst einen Schrei aus und verrät grosse
-              Aufregung.)</stage></p>
+              Aufregung.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -2448,7 +2517,8 @@
           <speaker>Madame Schmidt:</speaker>
           <p>Ich wich nit vun do, biss diss „mystère“ vun dem Portrait uffgeklärt isch. <stage>(Sie
               legt das Portrait auf den Tisch. Abgehend)</stage> „Mon Dieu“, wenn ich gar Nouvelle
-            vun mim Antoine erfahre thät! „Je tremble d’émotion!“ — <stage>(Ab.)</stage></p>
+            vun mim Antoine erfahre thät! „Je tremble d’émotion!“ — <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -2476,7 +2546,8 @@
           <p>’s Papier isch m’r üsgange ... awer gescht hawich m’r widder kauft, un morje hawich d’r
             e grosse, e lange, e nette Brief schriewe welle ... <stage>(Man hört Ropfer vor der
               Mitteltür schimpfen. Jules entsetzt für sich):</stage> Jesses, d’r „patron“!
-              <stage>(Er verrät grosse Bestürzung.)</stage></p>
+              <stage>(Er verrät grosse Bestürzung.)</stage>
+          </p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
@@ -2489,7 +2560,8 @@
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
-          <p>Ja, awer worum denn? <stage>(Jules drängt sie in die Kabine.)</stage></p>
+          <p>Ja, awer worum denn? <stage>(Jules drängt sie in die Kabine.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -2513,7 +2585,8 @@
           <speaker>Jules</speaker>
           <stage>(vor Entsetzen zitternd):</stage>
           <p>Nix‚ „patron“‚ sicher nix‚ ’s isch for mich. <stage>(Schlüpft eilig in die
-              Telephonkabine.)</stage> Sie exküsiere! <stage>(Ab.)</stage></p>
+              Telephonkabine.)</stage> Sie exküsiere! <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -2532,12 +2605,14 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
-          <p><stage>(sich umdrehend und beinahe in Ohnmacht fallend)</stage> „Mon Dieu!... su ... su
+          <p>
+            <stage>(sich umdrehend und beinahe in Ohnmacht fallend)</stage> „Mon Dieu!... su ... su
             ... Susanne, bisch dü’s oder isch’s din Geischt?!</p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
-          <p>„Antoine! Mon cher Antoine!“ Ja, ich bin’s! <stage>(Umarmt ihn stürmisch.)</stage></p>
+          <p>„Antoine! Mon cher Antoine!“ Ja, ich bin’s! <stage>(Umarmt ihn stürmisch.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -2591,7 +2666,8 @@
           <p>Ich kann’s als noch nit fasse. O dü min liewer Antoine! <stage>(Umarmt Ropfer, der
               alles mit sich geschehen lässt. Er steht so, dass er mit dem Fuss die Türe der
               Telephonkabine zuhalten kann.)</stage> So, Antoine, un jetzt welle m’r e bissel ge-
-            muethlich zamme sitze. <stage>(Will ihn von seinem Platz fortziehen.)</stage></p>
+            muethlich zamme sitze. <stage>(Will ihn von seinem Platz fortziehen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -2602,7 +2678,8 @@
           <speaker>Madame Schmidt</speaker>
           <stage>(zärtlich):</stage>
           <p>Wenn ich’s awer han will, dass dü züe mir sitzsch! — Ze kumm doch. <stage>(Sie zieht
-              ihn zu sich auf den Divan.)</stage></p>
+              ihn zu sich auf den Divan.)</stage>
+          </p>
         </sp>
         <pb n="45"/>
         <sp who="#ropfer">
@@ -2649,7 +2726,8 @@
             „même“ in letschter Zitt so manichsmol for mich g’saat: Wenn ich numme wuesst, wo mini
             Susanne isch, jetzt wär ich im schöenschte-n-Alter for ze hierothe ... <stage>(Für
               sich)</stage> „Mon Dieu, quelle aventure!“ <stage>(Er schaut sehr unruhig nach dem
-              Telephon.)</stage></p>
+              Telephon.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -2709,7 +2787,8 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
-          <p><stage>(spurlos):</stage> So? — E To ... Tochter?! — Mir zwei han e Tochter?! —
+          <p>
+            <stage>(spurlos):</stage> So? — E To ... Tochter?! — Mir zwei han e Tochter?! —
               <stage>(Für sich)</stage> E schöeni B’scherung!</p>
         </sp>
         <sp who="#schmidt">
@@ -2748,7 +2827,8 @@
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
-          <p>„Enchantée!“ <stage>(Verneigt sich.)</stage></p>
+          <p>„Enchantée!“ <stage>(Verneigt sich.)</stage>
+          </p>
         </sp>
         <sp who="#anatol">
           <speaker>Anatol:</speaker>
@@ -2802,14 +2882,16 @@
           <speaker>Anatol</speaker>
           <stage>(öffnet die Türe links und läd mit einer Handbewegung Madame Schmidt ein,
             vorzugehen. Ropfer drängt Madame Schmidt hinein):</stage>
-          <p>E zue e trüriger Fall! <stage>(Geht Madame Schmidt nach.)</stage></p>
+          <p>E zue e trüriger Fall! <stage>(Geht Madame Schmidt nach.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
           <stage>(nimmt ein Fläschchen aus der Tasche):</stage>
           <p>Vorsichtshalwer will ich im Unkel Anatol diss Fläschel Schlofelexier ninstelle. Nit
             dass ’r üs d’r Schuel babbelt. Trinke wurd ’r ’s schun, diss weiss ich! <stage>(Ab nach
-              links.)</stage></p>
+              links.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -2820,17 +2902,20 @@
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
           <stage>(tritt von links auf und spricht in das Zimmer hinein):</stage>
-          <p>Ich kum grad widder. <stage>(Er schliesst die Türe ab.)</stage></p>
+          <p>Ich kum grad widder. <stage>(Er schliesst die Türe ab.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>Jesses, d’r „patron“! <stage>(Er schliesst die Kabine ab.)</stage></p>
+          <p>Jesses, d’r „patron“! <stage>(Er schliesst die Kabine ab.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
           <stage>(tritt durch die Mitte auf):</stage>
           <p>„Bonjour“ biesamme! <stage>(Jules und Ropfer drehen sich zusammen um und sind
-              unangenehm überrascht.)</stage></p>
+              unangenehm überrascht.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -2875,7 +2960,8 @@
             Jeanne uff Bade-Bade g’fahre. <stage>(Es klopft links und rechts. Ropfer und Jules
               suchen durch starkes Husten die Aufmerksamkeit Alberts abzulenken. In der kommenden
               Szene, sind Ropfer und Jules sehr zerstreut und schauen beständig, der eine auf die
-              Türe links, der andere auf die Türe rechts.)</stage></p>
+              Türe links, der andere auf die Türe rechts.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
@@ -2884,7 +2970,8 @@
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>„Vous plaisantez!“ — E Dokter im e-n-Apotheker ebs verschriewe! <stage>(Lacht
-              gezwungen, Jules stimmt mit ein.)</stage></p>
+              gezwungen, Jules stimmt mit ein.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
@@ -2964,7 +3051,8 @@
           <p>Sie sin vun unserer Meinung, sie gän uns also recht? — Oh merci vielmol, Herr Ropfer!
             Merci! <stage>(Schüttelt ihm kräftig die Hände. Zu Jules)</stage> Un dü Jules? Was
             saasch dü d’rzue? Gibsch dü uns au recht? — <stage>(Es klopft links und
-            rechts.)</stage></p>
+            rechts.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -2976,7 +3064,8 @@
           <speaker>Ropfer</speaker>
           <stage>(sehr laut):</stage>
           <p>Natierlich han Sie recht, selbstverständlich han Sie recht ... <stage>(Es klopft
-              stärker links und rechts.)</stage></p>
+              stärker links und rechts.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
@@ -2984,7 +3073,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
-          <p><stage>(hustend):</stage> Ich hab nix g’höert. ―</p>
+          <p>
+            <stage>(hustend):</stage> Ich hab nix g’höert. ―</p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -3000,7 +3090,8 @@
           <speaker>Ropfer</speaker>
           <stage>(für sich):</stage>
           <p>Himmelgalee, isch min Commis taub! „Heureusement!“ <stage>(Es klopft erneut sehr stark,
-              zuerst links, dann rechts.)</stage></p>
+              zuerst links, dann rechts.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
@@ -3020,7 +3111,8 @@
           <speaker>Jules</speaker>
           <stage>(ihn unter dem Arm haltend krampfhaft lachend):</stage>
           <p>Diss isch jetzt guet! Diss isch jetzt guet, im Telephon klopft m’r doch nit, im
-            Telephon telephoniert m’r! <stage>(Ropfer lacht mit.)</stage></p>
+            Telephon telephoniert m’r! <stage>(Ropfer lacht mit.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
@@ -3054,7 +3146,8 @@
           <speaker>Albert</speaker>
           <stage>(will sich mit Gewalt los machen):</stage>
           <p>Ich muess sehn. <stage>(Ropfer und Jules lassen ihn nicht frei, drehen ihn um und
-              führen ihn zur Mitteltüre.)</stage></p>
+              führen ihn zur Mitteltüre.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -3076,7 +3169,8 @@
         <sp who="#albert">
           <speaker>Albert:</speaker>
           <p>Zue merikwuerdig! zue merikwuerdig! <stage>(Er wird zur Türe hinausgedrängt. Alle drei
-              durch die Mitteltüre ab.)</stage></p>
+              durch die Mitteltüre ab.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
@@ -3086,7 +3180,8 @@
             koschte! Dem will ich zeije, dass sich d’r Schampetiss Schneider nit alles g’falle
             losst! — ,Patron! Patron!“ <stage>(Ab durch die Mitte. In demselben Augenblick treten
               Ropfer und Jules von links und rechts auf und zwar so, dass sie sich zuerst den Rücken
-              zuwenden.)</stage></p>
+              zuwenden.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -3095,7 +3190,8 @@
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>Durichgebrennt! <stage>(Beide drehen sich um und sind verblüfft, sich zu
-              sehen.)</stage></p>
+              sehen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -3115,12 +3211,14 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
-          <p>„Tiens“, do hawich ’s jo im Sack. <stage>(Lach.)</stage></p>
+          <p>„Tiens“, do hawich ’s jo im Sack. <stage>(Lach.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>„Tiens“, ich jo au. <stage>(Beide lachen krampfhaft. Es klopft, keiner von beiden
-              reagiert.)</stage></p>
+              reagiert.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -3139,7 +3237,8 @@
           <speaker>Jules</speaker>
           <stage>(abgehend):</stage>
           <p>Nee, so taub ze sin! <stage>(Beide fassen einander unter die Arme und gehen durch die
-              Mitte ab.)</stage></p>
+              Mitte ab.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
@@ -3166,7 +3265,8 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
-          <p><stage>(Schampetiss erblickend):</stage> Der hett grad noch g’fehlt. <stage>(Zu
+          <p>
+            <stage>(Schampetiss erblickend):</stage> Der hett grad noch g’fehlt. <stage>(Zu
               Schampetiss)</stage> Was welle=n-Ihr do in dere Maskerad ?!</p>
         </sp>
         <sp who="#general">
@@ -3213,7 +3313,8 @@
           <speaker>Schampetiss</speaker>
           <stage>(flüchtet vor ihr):</stage>
           <p>„Sauve qui peut, <pb n="54"/> la bataille est perdue!“ <stage>(Ab durch die Mitte. Es
-              klopft links und rechts.)</stage></p>
+              klopft links und rechts.)</stage>
+          </p>
         </sp>
         <sp who="#ammej">
           <speaker>Ammej:</speaker>
@@ -3229,7 +3330,8 @@
           <speaker>Jules</speaker>
           <stage>(für sich):</stage>
           <p>Sapristi! Un d’ Susanne im Telephon! — <stage>(Ropfer ergreift Ammej links, Jules
-              rechts unter dem Arm.)</stage></p>
+              rechts unter dem Arm.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -3246,27 +3348,31 @@
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Ja gewiss, awer z’erscht an d’ frisch Luft ... <stage>(Ropfer und Jules mit Ammej durch
-              die Mitte ab.)</stage></p>
+              die Mitte ab.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
           <stage>(von vorn links hereintretend):</stage>
           <p>„Décidément“ sie sin nierix meh zu finde! E Gottsnamme denn, ich weiss jo, was ich
             wisse will, ze reis ich ab, ohne „au revoir“ ze saaue. <stage>(Durch die Mitte
-              ab.)</stage></p>
+              ab.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
           <stage>(schnell von rechts):</stage>
           <p>Gott sej Dank, d’Ammej losst ’ne nit los, Jetzt g’schwind erüs mit ere.
               <stage>(Schliesst die Telephonkabine auf. Ropfer wie vorher von links)</stage>
-            Nundedje, d’r „patron“! <stage>(Versteckt sich schnell im Kasten.)</stage></p>
+            Nundedje, d’r „patron“! <stage>(Versteckt sich schnell im Kasten.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Abg’streift, jetzt schnell erüs mit ere. <stage>(Schliesst die Türe hinten links auf,
               schlüpft schnell hinein und streckt sofort den Kopf wieder heraus. Jules streckt in
-              demselben Augenblick den Kopf aus der Telephonkabine.)</stage></p>
+              demselben Augenblick den Kopf aus der Telephonkabine.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -3278,7 +3384,8 @@
           <speaker>Ropfer</speaker>
           <stage>(für sich):</stage>
           <p>Nundedje! Als d’r Commis! ― <stage>(Zu Jules)</stage> Was mache Sie denn im Telephon?
-              <stage>(Man hört Susanne energisch schimpfen.)</stage></p>
+              <stage>(Man hört Susanne energisch schimpfen.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -3286,11 +3393,13 @@
         </sp>
         <sp who="#susanne">
           <speaker>Susanne</speaker>
-          <p><stage>(im Telephon):</stage> „Voyons“, ze loss mich doch endlich emol erüs!</p>
+          <p>
+            <stage>(im Telephon):</stage> „Voyons“, ze loss mich doch endlich emol erüs!</p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt</speaker>
-          <p><stage>(hinter Ropfer):</stage> „Voyons, Antoine!“ Ze mach doch endlich uff!</p>
+          <p>
+            <stage>(hinter Ropfer):</stage> „Voyons, Antoine!“ Ze mach doch endlich uff!</p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne</speaker>
@@ -3393,7 +3502,8 @@
         </sp>
         <sp who="#susanne">
           <speaker>Susanne</speaker>
-          <p><stage>(Ropfer umarmend):</stage> „Papa, cher papa!“</p>
+          <p>
+            <stage>(Ropfer umarmend):</stage> „Papa, cher papa!“</p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -3431,7 +3541,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
-          <p><stage>(Ropfer umarmend):</stage> Verroth mich nit!</p>
+          <p>
+            <stage>(Ropfer umarmend):</stage> Verroth mich nit!</p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -3459,7 +3570,8 @@
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
-          <p><stage>(freudig):</stage> O, diss wurd schöen wärel!</p>
+          <p>
+            <stage>(freudig):</stage> O, diss wurd schöen wärel!</p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
@@ -3538,7 +3650,8 @@
           <speaker>Madame Schmidt:</speaker>
           <p>Guet, inverstande, wenn m’r Ejch e Fraid d’rmit mache könne, ze bliewe m’r natierlich
             do. Vor allem will ich awer glich ins Hotel gehn un saaue, dass m’r d’ Köffer do here
-            schickt. „A tout à l’heure!“ <stage>(Ab.)</stage></p>
+            schickt. „A tout à l’heure!“ <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
@@ -3550,7 +3663,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>Recht gern. <stage>(Jules und Susanne ab durch die Mitte.)</stage></p>
+          <p>Recht gern. <stage>(Jules und Susanne ab durch die Mitte.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -3577,7 +3691,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
-          <p><stage>(lesend):</stage> Deine Karte von schwerer Erkrankung Tante Amelie erhalten,
+          <p>
+            <stage>(lesend):</stage> Deine Karte von schwerer Erkrankung Tante Amelie erhalten,
             komme mit nächstem Zug zurück. <stage>(Lässt sich ebenfalls auf einen Stuhl
               fallen.)</stage> „Mon Dieu, quelle tuile! Quelle tuile!“</p>
         </sp>
@@ -3609,14 +3724,17 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>„Oui, patron“. <stage>(Beide von links ab.)</stage></p>
+          <p>„Oui, patron“. <stage>(Beide von links ab.)</stage>
+          </p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne</speaker>
-          <p><stage>(die Mitteltür öffnend. Zwei Männer bringen einen grossen Koffer
+          <p>
+            <stage>(die Mitteltür öffnend. Zwei Männer bringen einen grossen Koffer
               herein.)</stage> So, stelle Sie denne Kuffer vorläufig do anne. <stage>(Der Koffer
               wird hinten rechts der Türe gestellt.)</stage> Un merci au. <stage>(Die beiden Männer
-              treten wieder durch die Mitte ab.)</stage></p>
+              treten wieder durch die Mitte ab.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -3708,7 +3826,8 @@
             minere Mamme, wie ich do im Medaillon hab. Kurz, es hett sich erüs- gstellt, dass der
             würdig „général“ miner Babbe isch. — „Babbe!“ hawich zuem g’saat. — „Ma chère fille!“
             .hett ’r m’r zuer Antwort gän, hett sini Aerm üsg’streckt, un mit Thräne in de-n-Aue han
-            m’r uns embrassiert. <stage>(Wischt sich eine Träne ab.)</stage></p>
+            m’r uns embrassiert. <stage>(Wischt sich eine Träne ab.)</stage>
+          </p>
         </sp>
         <pb n="61"/>
         <sp who="#ropfer">
@@ -3797,7 +3916,8 @@
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Ja, ze flichte, so schnell wie möjlich ze flichte. — <stage>(Ropfer und Jules eilen der
-              Türe zu.)</stage></p>
+              Türe zu.)</stage>
+          </p>
         </sp>
         <pb n="62"/>
         <sp who="#schmidt">
@@ -3829,13 +3949,15 @@
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
-          <p>„Grand-papa!“ <stage>(Umarmt Schampetiss.)</stage></p>
+          <p>„Grand-papa!“ <stage>(Umarmt Schampetiss.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
           <p>Un do stell ich dir de Hochzitter vun minere Dochter vor. <stage>(Jules verneigt
               sich.)</stage> „Embrassez votre grand-père.“ <stage>(Schampetiss streckct die Arme aus
-              und umarmt Jules.)</stage></p>
+              und umarmt Jules.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss:</speaker>
@@ -3848,7 +3970,8 @@
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
           <p>Un do stell ich d’r mine Hochzitter, de Moler Antoine Müller vor ...
-              <stage>(Schampetiss ist sprachlos.)</stage></p>
+              <stage>(Schampetiss ist sprachlos.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -3886,7 +4009,8 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
-          <p>„Oui, filons!“ <stage>(Der Türe zu.)</stage></p>
+          <p>„Oui, filons!“ <stage>(Der Türe zu.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -3927,7 +4051,8 @@
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>„Avec plaisir, „patron ... Monsieur“ ... <stage>(zu den Damen)</stage> „Mesdames“, wenn
-            Sie m’r folje welle ... <stage>(Mit den Damen ab durch die Mitte.)</stage></p>
+            Sie m’r folje welle ... <stage>(Mit den Damen ab durch die Mitte.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -4075,7 +4200,8 @@
           <speaker>Schampetiss:</speaker>
           <p>So, Geld hätte m’r jetzt, numme-n-eins fehlt noch, e-n-anständigi Klift.. . „Tiens“, do
             lejt glauwich eini, wie besser isch wie mini, <stage>(Nimmt den Rock, den Anatol zu
-              Anfang herausgelegt hat. Schickt sich an, seinen Rock auszuziehen.)</stage></p>
+              Anfang herausgelegt hat. Schickt sich an, seinen Rock auszuziehen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -4113,11 +4239,13 @@
           <speaker>Ammej:</speaker>
           <p>Ich: kumm, ich kumm! <stage>(Tritt auf in einem Winterpelzmantel und Winterhut. Ab und
               zu hält sie den Mantel so, dass man drunter ihre alten Kleider und das Schuhwerk
-              sieht.)</stage></p>
+              sieht.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
-          <p><stage>(vorstellend, theatralisch):</stage> „Madame la générale!“</p>
+          <p>
+            <stage>(vorstellend, theatralisch):</stage> „Madame la générale!“</p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -4137,7 +4265,8 @@
           <speaker>Madame Schmidt</speaker>
           <stage>(stellt Jules vor):</stage>
           <p>Do d’r Hochzitter vun minere Dochter: „Monsieur Jules, embrassez madame la générale!“
-              <stage>(Drängt Jules in die Arme von Ammej.)</stage></p>
+              <stage>(Drängt Jules in die Arme von Ammej.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -4150,7 +4279,8 @@
         <sp who="#general">
           <speaker>Schampetiss:</speaker>
           <p>Dü brüchsch dich nit ze scheniere! <stage>(Madame Schmidt und Susanne drängen Ropfer in
-              die Arme Ammejs.)</stage></p>
+              die Arme Ammejs.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
@@ -4174,12 +4304,14 @@
         </sp>
         <sp who="#ammej #general #jules #ropfer #schmidt #susanne">
           <speaker>Alle:</speaker>
-          <p>„Filons!“ <stage>(Ropfer und Jules fassen nach dem kleinen Gepäck.)</stage></p>
+          <p>„Filons!“ <stage>(Ropfer und Jules fassen nach dem kleinen Gepäck.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
           <stage>(den grossen Koffer anfassend zu Ammej):</stage>
-          <p>Fass an, Alti! — <stage>(Ammej fasst den Koffer auf der anderen Seite an.)</stage></p>
+          <p>Fass an, Alti! — <stage>(Ammej fasst den Koffer auf der anderen Seite an.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -4204,7 +4336,8 @@
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Warte, de-n,Unkel Anatol muess ich unbedingt uffwecke. <stage>(Ab durch die hintere
-              Türe links.)</stage></p>
+              Türe links.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -4214,7 +4347,8 @@
           <speaker>Schampetiss</speaker>
           <stage>(stimmt das Lied an):</stage>
           <p>„As-tu vu la casquette, la casquette, as-tu vu la casquette du père Bucheaud!“
-              <stage>(Sie machen eine Runde durch das Zimmer.)</stage></p>
+              <stage>(Sie machen eine Runde durch das Zimmer.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -4229,20 +4363,23 @@
             g’schwind nooch. <stage>(Er nimmt den Gehrock, der auf dem Stuhl <pb n="68"/> liegt und
               mustert ihn.)</stage> D’r Knopf isch angenäjt, E zueverlässiger Burscht d’r
             Schampetiss! Ah, de Kranz derf ich nit vergesse. <stage>(Ab mit dem Rock nach
-              links.)</stage></p>
+              links.)</stage>
+          </p>
         </sp>
         <sp who="#piefke">
           <speaker>Piefke</speaker>
           <stage>(durch die Mitte herein, er ist völlig kahl, sehr aufgeregt):</stage>
           <p>Donnerwetter! Niemand da? Wo ist der unverschämte Kerl?! — <stage>(Deutet auf eine
-              Postkarte, die er in der Hand hält.)</stage></p>
+              Postkarte, die er in der Hand hält.)</stage>
+          </p>
         </sp>
         <sp who="#anatol">
           <speaker>Anatol</speaker>
           <stage>(von links. In einer Hand die Reisetasche und den grossen Regenschirm, in der
             anderen den Immortellenkranz. Die Aermel des Rockes sind ihm viel zu kurz):</stage>
           <p>D’ Hauptsach isch, dass ich die Licht nit verfehl. <stage>(Er will der Türe
-              zu.)</stage></p>
+              zu.)</stage>
+          </p>
         </sp>
         <sp who="#piefke">
           <speaker>Piefke</speaker>
@@ -4262,7 +4399,8 @@
           <speaker>Anatol:</speaker>
           <p>Nee, so ebs! <stage>(Wütend)</stage> Eim-n-Ohrfeij ze gän‚ wenn m’r zue ere Licht will!
             — Zeije, halte Sie m’r e-n-Auesblick denne Kranz, un die „valise“! <stage>(Hält Piefke
-              die Handtasche und den Kranz hin, dieser nimmt dieselben verwundert ab.)</stage></p>
+              die Handtasche und den Kranz hin, dieser nimmt dieselben verwundert ab.)</stage>
+          </p>
         </sp>
         <sp who="#piefke">
           <speaker>Piefke:</speaker>
@@ -4273,7 +4411,8 @@
           <stage>(haut Piefke ebenfalls eine links und rechts herunter, nimmt dann schnell dem
             sprachlos dastehenden Piefke Kranz und Reisetasche wieder ab):</stage>
           <p>So, hoffentlich kumm ich noch recht zue d’r Licht, <stage>(Schnell ab durch die
-              Mitte,)</stage></p>
+              Mitte,)</stage>
+          </p>
         </sp>
         <sp who="#piefke">
           <speaker>Piefke:</speaker>
@@ -4293,7 +4432,8 @@
           <speaker>Marie:</speaker>
           <p>So, wenn die Herrschafften eintreten wollen. <stage>(Schampetiss und Ammej treten
               gravitätisch ein, hinterdrein Madame Schmidt und Susanne und zum Schluss, ganz
-              geknickt, Ropfer und Jules.)</stage></p>
+              geknickt, Ropfer und Jules.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss:</speaker>
@@ -4326,7 +4466,8 @@
         <pb n="70"/>
         <sp who="#marie">
           <speaker>Marie:</speaker>
-          <p>Zu dienen! <stage>(Ab durch die Mitte.)</stage></p>
+          <p>Zu dienen! <stage>(Ab durch die Mitte.)</stage>
+          </p>
         </sp>
         <sp who="#ammej">
           <speaker>Ammej</speaker>
@@ -4335,7 +4476,8 @@
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
-          <p><stage>(mit gedämpfter Stimme):</stage> Halt ’s Mül, dumms Lueder! Je meh ass m’r de
+          <p>
+            <stage>(mit gedämpfter Stimme):</stage> Halt ’s Mül, dumms Lueder! Je meh ass m’r de
             Difficile spiele, for deschto vornehmeri Lytt halt m’r uns.</p>
         </sp>
         <sp who="#marie">
@@ -4379,7 +4521,9 @@
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
-          <p><stage>(zu Ammej):</stage> Kumm, Alti! <stage>(Beide folgen Marie.)</stage></p>
+          <p>
+            <stage>(zu Ammej):</stage> Kumm, Alti! <stage>(Beide folgen Marie.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -4393,7 +4537,8 @@
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
-          <p>„Oh, Quelle belle chambre! <stage>(Ab in das Zimmer.)</stage></p>
+          <p>„Oh, Quelle belle chambre! <stage>(Ab in das Zimmer.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean:</speaker>
@@ -4403,11 +4548,13 @@
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
           <p>und wenn Sie dann so gut sein wollen, den Schrank dort vor die andere Türe zu rücken.
-            Man ist ruhiger. <stage>(Sie deutet auf den Schrank links.)</stage></p>
+            Man ist ruhiger. <stage>(Sie deutet auf den Schrank links.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean:</speaker>
-          <p>Aufzuwarten, gnä Frau! <stage>(Rückt den Schrank vor die Türe links.)</stage></p>
+          <p>Aufzuwarten, gnä Frau! <stage>(Rückt den Schrank vor die Türe links.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -4417,11 +4564,13 @@
           <speaker>Jean:</speaker>
           <p>Aufzuwarten, gnä Herr, für Sie haben wir ein reizendes Zimmer vis-à-vis. Reizendes
             Zimmer! <stage>(Zu Jules)</stage> Wenn ich bitten darf. <stage>(Beide durch die Mitte
-              ab)</stage></p>
+              ab)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt</speaker>
-          <p><stage>(Ropfer umarmend):</stage> Oh, wie bin ich glüecklich! D’r Brütstand isch doch
+          <p>
+            <stage>(Ropfer umarmend):</stage> Oh, wie bin ich glüecklich! D’r Brütstand isch doch
             d’r schoenscht Stand! <stage>(Zu Ropfer, der wie geistesabwesend ist)</stage> Awer
             Antoine, was hesch denn? Dü hörsch gar nit, was ich saa.</p>
         </sp>
@@ -4448,7 +4597,8 @@
           <speaker>Madame Schmidt:</speaker>
           <p>Doch, doch. Helt m’r, Susanne. <stage>(Madame Schmidt und Susanne öffnen den
               Koffer.)</stage> Die Kleider verkripple jo sunsch. <stage>(Susanne und Madame Schmidt
-              hängen die Kleider in die beiden Schränke. Beide müssen stark niesen.)</stage></p>
+              hängen die Kleider in die beiden Schränke. Beide müssen stark niesen.)</stage>
+          </p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
@@ -4457,7 +4607,8 @@
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
           <p>D’ Aue gän eim ganz Wasser. Schun biem Inpacke han m’r so niesse muehn. <stage>(Alle
-              drei niesen.)</stage></p>
+              drei niesen.)</stage>
+          </p>
         </sp>
         <pb n="72"/>
         <sp who="#ropfer">
@@ -4477,13 +4628,15 @@
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
-          <p>„A tout à l’heure!“ <stage>(Madame Schmidt und Susanne ab nach links.)</stage></p>
+          <p>„A tout à l’heure!“ <stage>(Madame Schmidt und Susanne ab nach links.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
           <stage>(ironisch):</stage>
           <p>„Ce sera charmant!“ — E schoeni B’scheerung „Mon Dieu, quelle aventure! Quelle
-            aventure! <stage>(Lässt sich verzweifelt auf einen Stuhl fallen.)</stage></p>
+            aventure! <stage>(Lässt sich verzweifelt auf einen Stuhl fallen.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -4523,7 +4676,8 @@
           <stage>(geht zur Tür rechts zu Jules):</stage>
           <p>Warte, verlicht isch jetzt d’r Moment. <stage>(Er klopft an die <pb n="73"/>
               Türe.)</stage> „Chérie“, derf m’r nin kumme. <stage>(Er dreht am Türgriff. Madame
-              Schmidt und Susanne schreien laut auf.)</stage></p>
+              Schmidt und Susanne schreien laut auf.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt</speaker>
@@ -4532,7 +4686,8 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
-          <p><stage>(freudig):</stage> Gott sej Dank, sie sin grad im Hemd!</p>
+          <p>
+            <stage>(freudig):</stage> Gott sej Dank, sie sin grad im Hemd!</p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -4557,7 +4712,8 @@
           <speaker>Jules:</speaker>
           <p>Keiwe Pfeffer! <stage>(Da die Kleider nicht in den Koffer hineingehen, stampft Ropfer
               sie mit den Füssen hinein. Er klappt den Koffer zu, so dass noch ein Kleidungsstück
-              eingeklemmt und sichtbar ist. Beide niesen.)</stage></p>
+              eingeklemmt und sichtbar ist. Beide niesen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -4574,7 +4730,8 @@
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
-          <p>Verzeihung! <stage>(Sie niest.)</stage></p>
+          <p>Verzeihung! <stage>(Sie niest.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -4594,7 +4751,8 @@
         <sp who="#marie">
           <speaker>Marie:</speaker>
           <p>Verzeihung! Wollen die Herrschaften schon wieder abreisen? <stage>(Deutet auf den
-              Koffer.)</stage></p>
+              Koffer.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -4607,7 +4765,8 @@
         <sp who="#marie">
           <speaker>Marie:</speaker>
           <p>Aber bitte, das will ich besorgen lassen. <stage>(Will den Koffer
-            ergreifen.)</stage></p>
+            ergreifen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -4620,7 +4779,8 @@
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
-          <p>So? — Na ja, dann ’pfehl mich! <stage>(Ab.)</stage></p>
+          <p>So? — Na ja, dann ’pfehl mich! <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -4632,22 +4792,26 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>„Filons!“ <stage>(Beide auf die Türe zu.)</stage></p>
+          <p>„Filons!“ <stage>(Beide auf die Türe zu.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(öffnet die Mitteltüre):</stage>
           <p>Wenn ich bitten darf, gnädige Frau ... <stage>(Madame Ropfer tritt durch die Mitteltüre
-              herein.)</stage></p>
+              herein.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
-          <p>’pfehl mich. <stage>(Ab.)</stage></p>
+          <p>’pfehl mich. <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
           <stage>(beim Anblick von Ropfer und Jules):</stage>
-          <p>Ah! <stage>(Ropfer und Jules lassen vor Schreck das Gepäck fallen.)</stage></p>
+          <p>Ah! <stage>(Ropfer und Jules lassen vor Schreck das Gepäck fallen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -4666,7 +4830,8 @@
           <speaker>Ropfer</speaker>
           <stage>(sich fassend):</stage>
           <p>„Bonjour, chère femme, quelle heureuse surprise! Heureusement, te voilà.“
-              <stage>(Albert sucht sich möglichst zu drücken.)</stage></p>
+              <stage>(Albert sucht sich möglichst zu drücken.)</stage>
+          </p>
         </sp>
         <pb n="75"/>
         <sp who="#emilie">
@@ -4691,7 +4856,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>Ja, ich will nit derangiere. <stage>(Wendet sich zum Gehen.)</stage></p>
+          <p>Ja, ich will nit derangiere. <stage>(Wendet sich zum Gehen.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -4753,7 +4919,8 @@
           <speaker>Ropfer:</speaker>
           <p>So, un jetzt, liebs Wiewele, wie die Situation geklärt isch, „suffisamment“ geklärt
             isch, ze welle m’r uns widder reisfertig mache. „Au revoir, ma chère femme. Au revoir!“
-              <stage>(Packt den Koffer und will fort.)</stage></p>
+              <stage>(Packt den Koffer und will fort.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -4775,7 +4942,8 @@
             Stund vor Abfahrt vum e Zug an d’ Bahn. Im letschte Moment holt ’r sich noch e Cigaar am
             „buffet de la gare", un crac, wie ’r erüskummt, zen-isch ’m d’r Zug an d’r Nas verbej
             g’fahre. E Bewies, dass m’r nie fruehj genue an de-n-Isebahn kann. <stage>(Packt wieder
-              den Koffer.)</stage></p>
+              den Koffer.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -4811,7 +4979,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>„Mais avec plaisir!“ <stage>(Verneigt sich und verschwindet blitzschnell.)</stage></p>
+          <p>„Mais avec plaisir!“ <stage>(Verneigt sich und verschwindet blitzschnell.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -4840,7 +5009,8 @@
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>„Tiens, tiens“, uff d’r Promenad, do will ich doch glich gehn, for’s uffzesueche.
-              <stage>(Packt den Koffer und will fort.)</stage></p>
+              <stage>(Packt den Koffer und will fort.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
@@ -4859,7 +5029,8 @@
           <p>Nix do, dü bliebsch. Zerscht packe m’r jetzt emol dine Kuffer <pb n="78"/> do üs.
               <stage>(Sie ergreift den Handkoffer und erblickt ein Kleidungsstück, das
               heraushängt.)</stage> Ei, du barmherziger Himmel! Un so hesch dü dini Reis gemacht?! —
-            Diss soll m’r jetzt nix sin. <stage>(Sie öffnet den Koffer.)</stage></p>
+            Diss soll m’r jetzt nix sin. <stage>(Sie öffnet den Koffer.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -4867,15 +5038,18 @@
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
-          <p><stage>(beim Anblick der Kleider):</stage> Ei dü grosser Alledaa! Nein, so ebs, wie die
+          <p>
+            <stage>(beim Anblick der Kleider):</stage> Ei dü grosser Alledaa! Nein, so ebs, wie die
             Kleider verpackt sin! <stage>(Sie nimmt zuerst ein Kleidungsstück heraus und hängt es in
-              den Kasten rechts. Sie muss stark niesen.)</stage></p>
+              den Kasten rechts. Sie muss stark niesen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>G’sundheit, Wiewele. <stage>(Während Madame Ropfer das Kleidungsstück in den Schrank
               hängt, wirft Ropfer eifrig eine Anzahl der übrigen Kleidungsstücke, die sich noch im
-              Koffer befinden, vor den Schrank links.)</stage></p>
+              Koffer befinden, vor den Schrank links.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
@@ -4948,7 +5122,8 @@
         <sp who="#marie">
           <speaker>Marie:</speaker>
           <p>Zu dienen, gnä Frau! Schliesst die Türe auf.) Wenn die gnä Frau eintreten wollen.
-              <stage>(Beide ab nach links.)</stage></p>
+              <stage>(Beide ab nach links.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -4965,7 +5140,8 @@
           <speaker>Ropfer</speaker>
           <stage>(weinerlich):</stage>
           <p>Jo, was m’r unter de jetzige-n-Umstände ellein heisse kann. <stage>(Deutet mit dem
-              Daumen auf die Zimmer links und rechts.)</stage></p>
+              Daumen auf die Zimmer links und rechts.)</stage>
+          </p>
         </sp>
         <pb n="80"/>
         <sp who="#jules">
@@ -4992,7 +5168,8 @@
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
-          <p><stage>(willenlos):</stage> Ich verloss mich ganz uff Sie.</p>
+          <p>
+            <stage>(willenlos):</stage> Ich verloss mich ganz uff Sie.</p>
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
@@ -5002,7 +5179,8 @@
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Halte Sie, z’erscht welle m’r denne Kaschte vorrucke, nit dass mini Frau driwer kummt.
-              <stage>(Beide rücken hastig den Schrank links vor.)</stage></p>
+              <stage>(Beide rücken hastig den Schrank links vor.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -5010,7 +5188,8 @@
               behilflich.)</stage> Steht Ejch ganz famos! Nit ze-n-erkenne! <stage>(Ropfer hilft
               Jules beim Anziehen. Beide stehen in tadelloser Kleidung als weibliche Vertreter der
               Heilsarmee da. Sie betrachten sich links und rechts im Spiegelschrank und schauen sich
-              dann verdutzt an.)</stage></p>
+              dann verdutzt an.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -5019,7 +5198,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>So, un jetzt los! <stage>(Es klopft stark links und rechts.)</stage></p>
+          <p>So, un jetzt los! <stage>(Es klopft stark links und rechts.)</stage>
+          </p>
         </sp>
         <sp who="#jules #ropfer">
           <speaker>Ropfer und Jules</speaker>
@@ -5027,7 +5207,8 @@
         </sp>
         <sp who="#emilie #schmidt">
           <speaker>Madame Ropfer und Madame Schmidt</speaker>
-          <p><stage>(von links)</stage>, <stage>(von rechts):</stage> Ze mach doch uff! M’r sin
+          <p>
+            <stage>(von links)</stage>, <stage>(von rechts):</stage> Ze mach doch uff! M’r sin
             ferti, mach uff!</p>
         </sp>
         <pb n="81"/>
@@ -5035,12 +5216,14 @@
           <speaker>Ropfer und Jules:</speaker>
           <p>M’r sin verlore! „Fichus!“ <stage>(Es klingelt stark. Erneutes Klopfen links und
               rechts, Ropfer und Jules eilen zuerst unschlüssig und verwirrt hin und
-            her.)</stage></p>
+            her.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>Schnell los! <stage>(Ergreift Ropfer am Arm und eilt mit ihm der Mitteltüre zu. Es
-              klopft stark an der Mitteltüre.)</stage></p>
+              klopft stark an der Mitteltüre.)</stage>
+          </p>
         </sp>
         <sp who="#jules #ropfer">
           <speaker>Ropfer und Jules</speaker>
@@ -5052,13 +5235,16 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules</speaker>
-          <p><stage>(enttäuscht):</stage> D’r Schlüssel isch üssewendi! <stage>(Es klopft an allen
-              drei Türen.)</stage></p>
+          <p>
+            <stage>(enttäuscht):</stage> D’r Schlüssel isch üssewendi! <stage>(Es klopft an allen
+              drei Türen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Verratzt! Fütti! Kapores! Was mache?! <stage>(Jules und Ropfer eilen wie wahnsinnig im
-              Zimmer umher.)</stage></p>
+              Zimmer umher.)</stage>
+          </p>
         </sp>
         <sp who="#jules #ropfer">
           <speaker>Ropfer und Jules</speaker>
@@ -5069,7 +5255,8 @@
           <stage>(die Schränke erblickend, wie erleichtert):</stage>
           <p>„Patron“, schnell in die Käschte! <stage>(Er stürzt sich auf den Schrank rechts, Ropfer
               aut den Schrank links. Beide verschwinden mit grosser Schnelligkeit, Sie strecken noch
-              einmal schnell den Kopf heraus und müssen stark niesen.)</stage></p>
+              einmal schnell den Kopf heraus und müssen stark niesen.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -5078,7 +5265,8 @@
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>Nundedjes Pfeffer! <stage>(Ropfer und Jules ziehen schnell die Köpfe zurück. Jean und
-              Marie treten auf durch die Mitteltüre.)</stage></p>
+              Marie treten auf durch die Mitteltüre.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean:</speaker>
@@ -5088,7 +5276,8 @@
           <speaker>Marie:</speaker>
           <p>Zu dienen! <stage>(Jean und Marie stürzen sich, der eine auf den Schrank rechts, die
               andere auf den Schrank links. Sie versuchen‚ die Schränke vom Fleck zu
-              bringen.)</stage></p>
+              bringen.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean</speaker>
@@ -5120,7 +5309,8 @@
           <p>Aufzuwarten, gnä Frau! <stage>(Jean und Marie machen eine erneute Anstrengung. Die
               Schränke werden gleichzeitig weggerückt, so dass beide Türen frei werden. Madame
               Schmidt und Susanne kommen von rechts, Madame Ropfer von links, Beide Parteien sind
-              sichtlich überrascht .)</stage></p>
+              sichtlich überrascht .)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
@@ -5128,7 +5318,8 @@
         </sp>
         <sp who="#jean">
           <speaker>Jean:</speaker>
-          <p>Aufzuwarten! <stage>(Marie und Jean unter Verbeugung ab.)</stage></p>
+          <p>Aufzuwarten! <stage>(Marie und Jean unter Verbeugung ab.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -5166,14 +5357,14 @@
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
-          <p>So, diss isch awer nett, do kann m’r Ihne jo herzlich gratüliere, un Ihne au, <pb
-              n="83"/> „Mademoiselle“. <stage>(Händeschütteln.)</stage> „Sincères félicitations.“ —
+          <p>So, diss isch awer nett, do kann m’r Ihne jo herzlich gratüliere, un Ihne au, <pb n="83"/> „Mademoiselle“. <stage>(Händeschütteln.)</stage> „Sincères félicitations.“ —
             Mini Dochter isch üwrigens au so guet wie verlobt.</p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt</speaker>
           <p>„Quel heureux hasard.“ Erlauwe Sie, dass m’r Ihne au herzlich gratüliere.
-              <stage>(Händeschutteln .)</stage></p>
+              <stage>(Händeschutteln .)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -5194,7 +5385,8 @@
           <speaker>Madame Ropfer:</speaker>
           <p>„Non, après vous. <stage>(Ropfer durch die Mitte ab. Madame Schmidt und Susanne nach.
               Beide Schränke öffnen sich. Ropfer und Jules müssen zuerst stark niesen, dann schauen
-              sie sich ganz verdutzt an.)</stage></p>
+              sie sich ganz verdutzt an.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -5232,18 +5424,21 @@
           <speaker>Ropfer:</speaker>
           <p>Es geht nit, ich bin wäschnass g’schwitzt. lch tät m’r de Tod hole. <stage>(Reibt sich
               den Schweiss von der Stirne. Es klopft an der Mitteltüre.)</stage> „Zut!“
-              <stage>(Ropfer und Jules verschwinden mit grosser Schnelligkeit.)</stage></p>
+              <stage>(Ropfer und Jules verschwinden mit grosser Schnelligkeit.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <stage>(durch die Mitte herein):</stage>
           <p>„Maman! Maman! Tiens", niemes do? Wo muess numme d’ Mamme sin? <stage>(Sie wendet sich
-              der Türe links zu.)</stage></p>
+              der Türe links zu.)</stage>
+          </p>
         </sp>
         <sp who="#albert">
           <speaker>Albert</speaker>
           <stage>(durch die Mitte eintretend):</stage>
-          <p>„Bonjour, mademoiselle Jeanne! <stage>(Reicht Jeanne freudig die Hände.)</stage></p>
+          <p>„Bonjour, mademoiselle Jeanne! <stage>(Reicht Jeanne freudig die Hände.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
@@ -5290,7 +5485,8 @@
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
-          <p><stage>(mit Wärme):</stage> Ewig wurr ich dem glüeckliche „hasard“ dankbar sin, dass
+          <p>
+            <stage>(mit Wärme):</stage> Ewig wurr ich dem glüeckliche „hasard“ dankbar sin, dass
             Sie mit uns uff Bade-Bade g’fahre sin.</p>
         </sp>
         <sp who="#albert">
@@ -5338,11 +5534,13 @@
           <p>„Enfin seuls!“ <stage>(Küsst Albert wieder. Die hintere Türe öffnet sich und im
               Türrahmen erscheint der Onkel Anatol mit Handkoffer und Immortellenkranz. Ropfer und
               Jules ziehen schnell den Kopf zurück und schliessen die beiden
-            Schranktüren.)</stage></p>
+            Schranktüren.)</stage>
+          </p>
         </sp>
         <sp who="#anatol">
           <speaker>Anatol:</speaker>
-          <p><stage>(hustend):</stage> Hm! Hm!</p>
+          <p>
+            <stage>(hustend):</stage> Hm! Hm!</p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
@@ -5361,7 +5559,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <p>„Bonjour“ Unkel. <stage>(Laut)</stage> M’r welle gehn d’ Mamme preveniere, dass dü do
-            bisch. Kumm Albert. <stage>(Albert und Jeanne ab.)</stage></p>
+            bisch. Kumm Albert. <stage>(Albert und Jeanne ab.)</stage>
+          </p>
         </sp>
         <sp who="#anatol">
           <speaker>Anatol:</speaker>
@@ -5375,7 +5574,8 @@
             worre sin, ich muess noch arig gewachse sin zitt’re Zitt here. — <stage>(Betrachtet den
               Reisekoffer Antoines.)</stage> „Tiens“, do schient schun iemes ze loschiere, gehn m’r
             ins Zimmer newetsan. <stage>(Ab nach links. Madame Ropfer, Madame Schmidt und Susanne
-              treten durch die Mitte auf.)</stage></p>
+              treten durch die Mitte auf.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -5384,13 +5584,15 @@
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
           <p>Wo muehn sie numme sin? Verlicht sin sie derwielscht uff unseri Zimmer gange.
-              <stage>(Sie gehen den Türen links und rechts zu.)</stage></p>
+              <stage>(Sie gehen den Türen links und rechts zu.)</stage>
+          </p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
           <p>Was hett diss ze beditte?! <stage>(In demselben Augenblick, in dem Madame Schmidt und
               Madame Ropfer die Türen links und rechts öffnen wollen, hört man in beiden Schränken
-              stark niesen.)</stage></p>
+              stark niesen.)</stage>
+          </p>
         </sp>
         <sp who="#emilie #schmidt">
           <speaker>Madame Schmidt und Madame Ropfer</speaker>
@@ -5407,7 +5609,8 @@
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
           <p>M’r hätt grad könne meine, es kummt üs denne zwei Wandschränk. <stage>(Man hört wieder
-              niesen.)</stage></p>
+              niesen.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -5428,7 +5631,8 @@
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
           <p>„J’ai peur.“ <stage>(Beide Damen öffnen die Schränke und stossen einen furchtbaren
-              Schrei aus.)</stage></p>
+              Schrei aus.)</stage>
+          </p>
         </sp>
         <pb n="87"/>
         <sp who="#susanne">
@@ -5443,7 +5647,8 @@
         <sp who="#schmidt">
           <speaker>Madame Schmidt</speaker>
           <stage>(desgleichen):</stage>
-          <p>Wer sin Sie?! <stage>(Ropfer und Jules müssen zuerst stark niesen.)</stage></p>
+          <p>Wer sin Sie?! <stage>(Ropfer und Jules müssen zuerst stark niesen.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -5480,7 +5685,8 @@
           <speaker>Madame Schmidt:</speaker>
           <p>So ebs erlebt m’r au nit alle Daa! <stage>(Jules und Ropfer springen aus den Schränken.
               Sie halten einen „Kriegsruf“ in der Hand, und zwar so, dass sie ihr Gesicht möglichst
-              verdecken.)</stage></p>
+              verdecken.)</stage>
+          </p>
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
@@ -5545,7 +5751,8 @@
         </sp>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>„Thank you very much! Good morning! <stage>(Wendet sich der Türe zu.)</stage></p>
+          <p>„Thank you very much! Good morning! <stage>(Wendet sich der Türe zu.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer</speaker>
@@ -5560,7 +5767,8 @@
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Halleluja, Amen! <stage>(Ropfer und Jules wollen eben zur Türe hinaus. Von draussen
-              hört man stark schreien.)</stage></p>
+              hört man stark schreien.)</stage>
+          </p>
         </sp>
         <sp who="#wanda">
           <speaker>Wanda Stern</speaker>
@@ -5586,7 +5794,8 @@
             Gott! Die Herrschaften werden mich wohl kennen, ich bin Wanda Stern und soll, wie Sie
             wohl wissen, heute abend in der Operette „Die Josephine von der Heilsarmee“ auftreten,
             und nun sind mir meine beiden Kostüme gestohlen worden! <stage>(Grosses Erstaunen der
-              Anwesenden.)</stage></p>
+              Anwesenden.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -5602,7 +5811,8 @@
             deutend):</stage>
           <p>
             <pb n="89"/> Madame, do sin die Dieb! <stage>(Ropfer und Jules stehen wie zwei begossene
-              Pudel da.)</stage></p>
+              Pudel da.)</stage>
+          </p>
         </sp>
         <sp who="#wanda">
           <speaker>Wanda Stern:</speaker>
@@ -5614,7 +5824,8 @@
           <speaker>Madame Ropfer:</speaker>
           <p>„Eh bien, merci!“ Uns ellein ze lon mit dene zwei Dieb! <stage>(Sie reisst die Türe
               auf, Madame Schmidt und Susanne stürzen ebenfalls der Türe zu. Alle drei schreien
-              zusammen aus Leibeskräften.)</stage></p>
+              zusammen aus Leibeskräften.)</stage>
+          </p>
         </sp>
         <sp who="#emilie #schmidt #susanne">
           <speaker>Madame Ropfer, Madame Schmidt und Susanne:</speaker>
@@ -5730,13 +5941,15 @@
         <stage>(Ropfer und Jules werden unsanft angefasst.)</stage>
         <sp who="#jules">
           <speaker>Jules:</speaker>
-          <p>Patron! Jetzt oder nie! <stage>(Zieht ein Fläschchen aus der Westentasche.)</stage></p>
+          <p>Patron! Jetzt oder nie! <stage>(Zieht ein Fläschchen aus der Westentasche.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
           <p>Richtig! Jetzt oder nie! <stage>(Zieht ebenfalls ein Fläschchen hervor, beide setzen es
               an den Mund, fallen auf die beiden Fauteuils, die vor dem Tisch stehen und schlafen
-              sofort ein.)</stage></p>
+              sofort ein.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt</speaker>
@@ -5769,7 +5982,8 @@
           <speaker>Madame Schmidt</speaker>
           <stage>(schüttelt ihn auf der anderen Seite):</stage>
           <p>Ah, so hesch dü mich ang’schmiert?! Ah so raucht’s mit dinere Lieb?! <stage>(Als
-              Antwort erfolgt ein starkes Schnarchen.)</stage></p>
+              Antwort erfolgt ein starkes Schnarchen.)</stage>
+          </p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne</speaker>
@@ -5856,11 +6070,13 @@
         <sp who="#jean">
           <speaker>Jean:</speaker>
           <p>Aufzuwarten. Die wollen wir schon wach bringen. <stage>(Macht die Geste des
-              Durchhauens.)</stage></p>
+              Durchhauens.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
-          <p>Zu dienen! <stage>(Macht ebenfalls die Geste des Durchhauens.)</stage></p>
+          <p>Zu dienen! <stage>(Macht ebenfalls die Geste des Durchhauens.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -5874,7 +6090,8 @@
           <speaker>Susanne:</speaker>
           <p>Bravo! <stage>(Klatscht in die Hände):</stage> Diss isch recht so! <stage>(Susanne und
               Marie richten Jules, Madame Ropfer, Madame Schmidt und Jean richten Ropfer auf. Die
-              Schlafenden lassen alles willenlos mit sich geschehen.)</stage></p>
+              Schlafenden lassen alles willenlos mit sich geschehen.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
@@ -5891,7 +6108,8 @@
         <sp who="#marie">
           <speaker>Marie:</speaker>
           <p>Zu dienen! <stage>(Marie und Jean schlagen kräftig zu. Ropfer und Jules schnarchen
-              ruhig weiter.)</stage></p>
+              ruhig weiter.)</stage>
+          </p>
         </sp>
         <stage>(Madame, Ropfer, Madame Schmidt und Susanne zeigen grosse Freude.)</stage>
         <sp who="#emilie">
@@ -5921,7 +6139,8 @@
         </sp>
         <sp who="#jean">
           <speaker>Jean</speaker>
-          <p><stage>(atemlos):</stage> Aufzuwarten, ich kann nicht mehr!</p>
+          <p>
+            <stage>(atemlos):</stage> Aufzuwarten, ich kann nicht mehr!</p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
@@ -5930,19 +6149,23 @@
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
-          <p>Here, mir nit! <stage>(Nimmt Jean den Klopfer ab.)</stage></p>
+          <p>Here, mir nit! <stage>(Nimmt Jean den Klopfer ab.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
-          <p>Un mir au nit! <stage>(Ninmt Marie den Klopfer ab.)</stage></p>
+          <p>Un mir au nit! <stage>(Ninmt Marie den Klopfer ab.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean:</speaker>
-          <p>Aufzuwarten! <stage>(Hält Ropfer fest.)</stage></p>
+          <p>Aufzuwarten! <stage>(Hält Ropfer fest.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
-          <p>Zu dienen! <stage>(Hält zusammen mit Susanne Jules fest.)</stage></p>
+          <p>Zu dienen! <stage>(Hält zusammen mit Susanne Jules fest.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
@@ -5974,17 +6197,20 @@
         </sp>
         <sp who="#jean">
           <speaker>Jean:</speaker>
-          <p>Aufzuwarten! <stage>(Ab.)</stage></p>
+          <p>Aufzuwarten! <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
-          <p>Zu dienen! <stage>(Ab.)</stage></p>
+          <p>Zu dienen! <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
           <p>Zehje m’r ’ne glich d’Hüet un d’ Parrüecke-n-ab, for dass ’s schneller geht.
               <stage>(Man zieht den Schlafenden die Hüte und die Per<pb n="94"/>rücken ab. Marie und
-              Jean durch die Mitte herein mit Eiskübeln.)</stage></p>
+              Jean durch die Mitte herein mit Eiskübeln.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
@@ -5993,7 +6219,8 @@
         <sp who="#jean">
           <speaker>Jean:</speaker>
           <p>Aufzuwarten! Ein Kübel! <stage>(Man nimmt ihnen die Kübel ab und setzt sie Jules und
-              Ropfer auf.)</stage></p>
+              Ropfer auf.)</stage>
+          </p>
         </sp>
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
@@ -6002,19 +6229,23 @@
         </sp>
         <sp who="#jean">
           <speaker>Jean:</speaker>
-          <p>Aufzuwarten! <stage>(Ab.)</stage></p>
+          <p>Aufzuwarten! <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#marie">
           <speaker>Marie:</speaker>
-          <p>Zu dienen! <stage>(Ab.)</stage></p>
+          <p>Zu dienen! <stage>(Ab.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
-          <p>Ebs wurd doch helfe! <stage>(Jeanne und Albert durch die Mitte herein.)</stage></p>
+          <p>Ebs wurd doch helfe! <stage>(Jeanne und Albert durch die Mitte herein.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
-          <p><stage>(freudig):</stage> „Maman, ah te voilä!“ D’r Herr Dokter un ich han dich
+          <p>
+            <stage>(freudig):</stage> „Maman, ah te voilä!“ D’r Herr Dokter un ich han dich
             uewerall g’suecht.</p>
         </sp>
         <sp who="#emilie">
@@ -6040,7 +6271,8 @@
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
-          <p><stage>(besorgt):</stage> „Mon Dieu!“ Es wurd ’ne doch nix thuen, wenn sie so lang nit
+          <p>
+            <stage>(besorgt):</stage> „Mon Dieu!“ Es wurd ’ne doch nix thuen, wenn sie so lang nit
             uffwache?</p>
         </sp>
         <sp who="#albert">
@@ -6064,7 +6296,8 @@
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
-          <p><stage>(weinerlich):</stage> Es wurd uns doch kenn so e Unglüeck passiere!</p>
+          <p>
+            <stage>(weinerlich):</stage> Es wurd uns doch kenn so e Unglüeck passiere!</p>
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
@@ -6093,7 +6326,8 @@
           <stage>(der erneut den Puls gefühlt hat):</stage>
           <p>D’r Puls wurd immer schwächer. Wenn m’r diss Gejemittel nit durich e Wunder uff der
             Stell bekumme, zu müehn m’r uns uff’s Schlimmscht g’fasst mache. <stage>(Alle vier Damen
-              brechen in ein schreckliches Geheul aus.)</stage></p>
+              brechen in ein schreckliches Geheul aus.)</stage>
+          </p>
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
@@ -6146,7 +6380,8 @@
         </sp>
         <sp who="#albert">
           <speaker>Albert:</speaker>
-          <p>Es steht leider nit in mine Kräfte. <stage>(Erneutes gemeinsames Weinen.)</stage></p>
+          <p>Es steht leider nit in mine Kräfte. <stage>(Erneutes gemeinsames Weinen.)</stage>
+          </p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
@@ -6156,7 +6391,8 @@
         <sp who="#schmidt">
           <speaker>Madame Schmidt:</speaker>
           <p>Ja, versueche m’r ’s. Gehn m’r g’schwind „Eau de Cologne“ hole. <stage>(Beide ab nach
-              rechts.)</stage></p>
+              rechts.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss</speaker>
@@ -6198,7 +6434,8 @@
           <p>Do d’r „patron“ un d’r „commis“ han vun ihrem Schlofelixier getrunke; Ihr ellein wisse,
               <pb n="97"/> wo ’s Gejemittel ze hole-n-isch. Hole ’s uns, verschaffe ’s uns uff dr
             Stell, sunscht isch alles verlore! <stage>(Erneutes Weinen von Madame Ropfer und
-              Jeanne.)</stage></p>
+              Jeanne.)</stage>
+          </p>
         </sp>
         <sp who="#general">
           <speaker>Schampetiss:</speaker>
@@ -6215,7 +6452,8 @@
           <p>Ich hab diss Mittel schun mit Erfolg bie minere-n- Alte-n-angewendt! — <stage>(Gibt
               Albert das Fläschchen.)</stage> Do, Dokter, Sie brüche ’s denne zwei Patiente
             numme-n-unter d’ Nas ze hewe. <stage>(Albert nimmt hastig das Fläschchen und hält es den
-              Schlafenden unter die Nase.)</stage></p>
+              Schlafenden unter die Nase.)</stage>
+          </p>
         </sp>
         <sp who="#anatol">
           <speaker>Anatol</speaker>
@@ -6225,7 +6463,8 @@
             „Tiens“, diss schiene ba- dischi Pompiersmüsiker ze sin. Wie ’s schient, ze-n-ich d’
             Tante Aline biem e Kriejerverein g’sin. Es fraid mich, dass se-n-e schoeni Licht
             bekummt. — Ich will doch gehn, mini Schueh anthuen. <stage>(Ab nach links. Ropfer und
-              Jules wachen langsam auf. Man nimmt ihnen die Champagnerkübel vom Kopf.)</stage></p>
+              Jules wachen langsam auf. Man nimmt ihnen die Champagnerkübel vom Kopf.)</stage>
+          </p>
         </sp>
         <sp who="#albert #emilie #jeanne">
           <speaker>Madame Ropfer, Jeanne und Albert:</speaker>
@@ -6255,7 +6494,8 @@
         <sp who="#emilie">
           <speaker>Madame Ropfer</speaker>
           <stage>(ihren Mann abküssend):</stage>
-          <p>Oh, dü min liebs, guets Männel! <stage>(Ropfer ist ganz perplex.)</stage></p>
+          <p>Oh, dü min liebs, guets Männel! <stage>(Ropfer ist ganz perplex.)</stage>
+          </p>
         </sp>
         <sp who="#susanne">
           <speaker>Susanne:</speaker>
@@ -6289,7 +6529,8 @@
         <sp who="#jules">
           <speaker>Jules:</speaker>
           <p>Ich au. <stage>(Beide setzen sich gleichzeitig und schnellen, einen Schrei ausstossend,
-              blitzschnell empor.)</stage></p>
+              blitzschnell empor.)</stage>
+          </p>
         </sp>
         <sp who="#emilie #schmidt #susanne">
           <speaker>Madame Schmidt, Madame Ropfer und Susanne:</speaker>
@@ -6323,7 +6564,8 @@
         </sp>
         <sp who="#emilie">
           <speaker>Madame Ropfer:</speaker>
-          <p>Ei natierlich! <stage>(Die andern stimmen bei.)</stage></p>
+          <p>Ei natierlich! <stage>(Die andern stimmen bei.)</stage>
+          </p>
         </sp>
         <sp who="#ropfer">
           <speaker>Ropfer:</speaker>
@@ -6358,7 +6600,8 @@
           <speaker>Anatol</speaker>
           <stage>(von links mit dem Regenschirm und dem Immortellenkranz):</stage>
           <p>Halt! — Als ältschts „membre“ vun d’r Famili schickt sich’s, dass ich vor geh!
-              <stage>(Er geht dem Zug voran.)</stage></p>
+              <stage>(Er geht dem Zug voran.)</stage>
+          </p>
         </sp>
         <stage>(Der Vorhang fällt langsam.)</stage>
       </div>

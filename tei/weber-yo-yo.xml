@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -53,7 +53,7 @@
             <title type="sub">E Geduldspiel in einem Akt</title>
             <publisher>Imprimerie de la Bourse, Strasbourg</publisher>
             <date when="1932" type="print">1932</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -77,10 +77,10 @@
             <persName>Marie</persName>
           </person>
           <listRelation type="personal">
-            <relation name="spouses" mutual="#jules_kleitz #germaine" />
-            <relation name="parent_of" active="#henriette_fleischmann" passive="#germaine" />
-            <relation name="friends" mutual="#jules_kleitz #dokter_robert_schmitt" />
-            <relation name="associated_with" active="#marie" passive="#jules_kleitz #germaine" />
+            <relation name="spouses" mutual="#jules_kleitz #germaine"/>
+            <relation name="parent_of" active="#henriette_fleischmann" passive="#germaine"/>
+            <relation name="friends" mutual="#jules_kleitz #dokter_robert_schmitt"/>
+            <relation name="associated_with" active="#marie" passive="#jules_kleitz #germaine"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -94,7 +94,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="3" />
+      <pb n="3"/>
       <castList>
         <head>Persone:</head>
         <castItem corresp="#jules_kleitz">
@@ -127,7 +127,7 @@
         <p>Die Bühne stellt ein gediegenes Wohnzimmer vor mit einem runden Tisch in der Mitte, Stühle, Fauteuils
         und Canapé, Blumen und Bilder. Hinten sowie rechts eine Türe. Bei der Türe rechts steht ein Paravent.</p>
       </set>
-      <pb n="4" />
+      <pb n="4"/>
       <div type="front">
         <head>Personeb'schriewung:</head>
         <p corresp="#jules_kleitz">Jules: junger Mann von anfangs 30. Schöne Kleider. Liebt seine Frau. Steht
@@ -142,14 +142,14 @@
       </div>
     </front>
     <body>
-      <pb n="5" />
+      <pb n="5"/>
       <div type="scene">
         <head>1. Scen.</head>
         <stage type="character">Jules</stage>
         <sp who="#jules_kleitz">
           <speaker>Jules</speaker>
           <p>
-          <stage>(sitzt auf dem Canapé und liest eine Zeitung — liest laut):</stage>«&#160;Prinz Yo-Yo! Wie eine
+            <stage>(sitzt auf dem Canapé und liest eine Zeitung — liest laut):</stage>« Prinz Yo-Yo! Wie eine
           Epidemie hast du die neue und die alte Welt angefallen ! Yo-Yo ist Trumpf !</p>
           <stage>(steht auf und wirft die Zeitung weg).</stage>
           <p>Nit ellein die nej und d'alt Welt het diss verruckte Ding üwerfalle, nein, au in mini ménage het
@@ -158,8 +158,9 @@
           uffsteht, am Middaa wärenem Esse, de ganze Middaa, ja viellicht noch sogar z'Nacht-s im Bett. Un do
           solle eim nit d'Nerfe durichgehn ? s'Galee hab ich in minere Wohnung un dis alles numme, will mini lieb
           
-          <pb n="6" />un herzensgüet Schwejermamme Yo-Yo spiele will.&#160;» 
-          <stage>(Es klopft.)</stage></p>
+          <pb n="6"/>un herzensgüet Schwejermamme Yo-Yo spiele will. » 
+          <stage>(Es klopft.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -167,21 +168,22 @@
         <stage type="character">Jules un Marie.</stage>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Entrez!&#160;»</p>
+          <p>« Entrez! »</p>
         </sp>
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(kommt hinten herein):</stage>
-          <p>«&#160;De Herr Dokter Schmitt isch do un will mit Ihne redde.&#160;»</p>
+          <p>« De Herr Dokter Schmitt isch do un will mit Ihne redde. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Er soll glich do eriin kumme.&#160;»</p>
+          <p>« Er soll glich do eriin kumme. »</p>
         </sp>
         <sp who="#marie">
           <speaker>Marie :</speaker>
-          <p>«&#160;Güet Mösjö.&#160;» 
-          <stage>(hinten ab)</stage></p>
+          <p>« Güet Mösjö. » 
+          <stage>(hinten ab)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -190,20 +192,20 @@
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert</speaker>
           <p>
-          <stage>(kommt hinten herein — Hut in der Hand):</stage>«&#160;Sälüt Jules! Was isch denn passiert ?
+            <stage>(kommt hinten herein — Hut in der Hand):</stage>« Sälüt Jules! Was isch denn passiert ?
           »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Roby, düe bisch mini letscht Hoffnung, düe müesch mir helfe.&#160;»</p>
+          <p>« Roby, düe bisch mini letscht Hoffnung, düe müesch mir helfe. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Wo fehlt's denn ? Bisch krank ? »</p>
+          <p>« Wo fehlt's denn ? Bisch krank ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Krank ? Aba.&#160;»</p>
+          <p>« Krank ? Aba. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
@@ -211,8 +213,9 @@
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Setz dich emol.&#160;» 
-          <stage>(Geht an die Türen und horcht).</stage></p>
+          <p>« Setz dich emol. » 
+          <stage>(Geht an die Türen und horcht).</stage>
+          </p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert</speaker>
@@ -225,21 +228,21 @@
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Was denn ? »</p>
+          <p>« Was denn ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ei diss neuje verruckte Spiel ? »</p>
+          <p>« Ei diss neuje verruckte Spiel ? »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ich weiss nit was düe meinsch, ich möcht numme gern wisse, werum düe mich rüefe hesch
-          lonn.&#160;»</p>
+          <p>« Ich weiss nit was düe meinsch, ich möcht numme gern wisse, werum düe mich rüefe hesch
+          lonn. »</p>
         </sp>
-        <pb n="7" />
+        <pb n="7"/>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Güet, ich will dir's saawe. Roby, liewer Frind, ich bin arich unglücklich.&#160;»</p>
+          <p>« Güet, ich will dir's saawe. Roby, liewer Frind, ich bin arich unglücklich. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
@@ -247,20 +250,20 @@
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Mini Schwejeres spielt Yo--Yo!&#160;»</p>
+          <p>« Mini Schwejeres spielt Yo--Yo! »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Sie spielt Yo-Yo ? Ja un weje dem losch düe mich hole ? »</p>
+          <p>« Sie spielt Yo-Yo ? Ja un weje dem losch düe mich hole ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ja findsch düe, dass diss nix isch, wenn eim jemand de ganze Daa in d'r ménage Yo-Yo spielt ?
+          <p>« Ja findsch düe, dass diss nix isch, wenn eim jemand de ganze Daa in d'r ménage Yo-Yo spielt ?
           »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Yo-Yo ? Was isch denn diss eigentlich ? »</p>
+          <p>« Yo-Yo ? Was isch denn diss eigentlich ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
@@ -268,38 +271,38 @@
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>« Nein, ich weiss es nit.&#160;»</p>
+          <p>« Nein, ich weiss es nit. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;D'ganz Welt spielt doch Yo-Yo! Alli Kini un Kaiser, alli Kinostar, alli Köche, alli Kinder,
-          alli Kindermaidle un au mini Schwejermamme spielt Yo-Yo!&#160;»</p>
+          <p>« D'ganz Welt spielt doch Yo-Yo! Alli Kini un Kaiser, alli Kinostar, alli Köche, alli Kinder,
+          alli Kindermaidle un au mini Schwejermamme spielt Yo-Yo! »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Awer jetzt weiss ich's jo als noch nit.&#160;»</p>
+          <p>« Awer jetzt weiss ich's jo als noch nit. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Alli Zytunge schriewe devun un d'Illustrierte bringe Bilder. Yo-Yo isch Trumpf. Yo-Yo isch e
-          Epidemie.&#160;»</p>
+          <p>« Alli Zytunge schriewe devun un d'Illustrierte bringe Bilder. Yo-Yo isch Trumpf. Yo-Yo isch e
+          Epidemie. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;E Eipidemie ? ? Ja no isch's jo e Krankheit ! »</p>
+          <p>« E Eipidemie ? ? Ja no isch's jo e Krankheit ! »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>« Zäll nit, awer die wo züelüeje kenne krank devun wäre. Es isch e Spiel.&#160;»</p>
+          <p>« Zäll nit, awer die wo züelüeje kenne krank devun wäre. Es isch e Spiel. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;E Spiel? Wurd's getrette od'r g'stosse ? Isch's e Balle od'r e Art Domino. Od'r setzt m'r
-          sich druff un fahrt furt mit ?&#160;»</p>
+          <p>« E Spiel? Wurd's getrette od'r g'stosse ? Isch's e Balle od'r e Art Domino. Od'r setzt m'r
+          sich druff un fahrt furt mit ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;M'r merigt, dass noch nit verhyrot bisch.&#160;»</p>
+          <p>« M'r merigt, dass noch nit verhyrot bisch. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
@@ -307,28 +310,28 @@
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Wenn düe e Schwejeres hättsch, wo au de ganze Daa Yo-Yo spiele dät, no wischt düe's au was es
-          isch.&#160;»</p>
+          <p>« Wenn düe e Schwejeres hättsch, wo au de ganze Daa Yo-Yo spiele dät, no wischt düe's au was es
+          isch. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ja no saa mir's doch jetzt emol was es isch. »</p>
+          <p>« Ja no saa mir's doch jetzt emol was es isch. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
           <stage>(holt aus einer Tasche ein Yo-Yo)</stage>
-          <p>«&#160;So do isch jetzt emol e Yo-Yo&#160;» 
+          <p>« So do isch jetzt emol e Yo-Yo » 
           <stage>(holt noch 
-          <pb n="8" />einige Yo-Yo aus seinen Taschen).</stage>« Do isch noch eins, un do noch eins, un do noch
-          eins.&#160;»</p>
+          <pb n="8"/>einige Yo-Yo aus seinen Taschen).</stage>« Do isch noch eins, un do noch eins, un do noch
+          eins. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Düe hesch jo alli Säck voll!&#160;»</p>
+          <p>« Düe hesch jo alli Säck voll! »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Die hab ich alli minere Schwejeres eweggeputzt, will ich gedänkt hab, sie spielt no nimi. Ja
+          <p>« Die hab ich alli minere Schwejeres eweggeputzt, will ich gedänkt hab, sie spielt no nimi. Ja
           do, sie het sich no immer e anders kauft ».</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
@@ -337,42 +340,42 @@
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>« Diss sin sogar e paar Yo-Yo!&#160;»</p>
+          <p>« Diss sin sogar e paar Yo-Yo! »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Un mit so eme Ding spielt dini belle-mère ? »</p>
+          <p>« Un mit so eme Ding spielt dini belle-mère ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Sie nit ellein, au mini Frau fangt so langsam aan un s'Dienschtmaidel hett au schun eins
-          g'schenkt bekumme.&#160;»</p>
+          <p>« Sie nit ellein, au mini Frau fangt so langsam aan un s'Dienschtmaidel hett au schun eins
+          g'schenkt bekumme. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ja wie geht denn diss Ding eigentlich ? »</p>
+          <p>« Ja wie geht denn diss Ding eigentlich ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules</speaker>
-          <stage>(steckt alle Yo-Yo schnell ein)&#160;:</stage>
-          <p>«&#160;Nan, dir zeij ich diss nit.</p>
+          <stage>(steckt alle Yo-Yo schnell ein) :</stage>
+          <p>« Nan, dir zeij ich diss nit.</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ja un werum denn nit ?&#160;»</p>
+          <p>« Ja un werum denn nit ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Am End spielsch düe mir no au.&#160;»</p>
+          <p>« Am End spielsch düe mir no au. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Diss isch doch sicher ebs harmloses.&#160;»</p>
+          <p>« Diss isch doch sicher ebs harmloses. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
           <p>« Ebs harmloses ? Eh bien merci. 3 Vase, e Suppeschüssel un 2 Spiejel un sogar min Radio sin
-          dodurich kapütt gange.&#160;»</p>
+          dodurich kapütt gange. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
@@ -385,65 +388,65 @@
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ja isch denn diss Spiel so arich kumpliziert ? »</p>
+          <p>« Ja isch denn diss Spiel so arich kumpliziert ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ewe nit, awer sie schickt sich so arich daub debie.&#160;»</p>
+          <p>« Ewe nit, awer sie schickt sich so arich daub debie. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>« Jules, zeij mir doch emol so e Yo-Yo.&#160;»</p>
+          <p>« Jules, zeij mir doch emol so e Yo-Yo. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
           <p>« Nix ze mache. Es isch e Schnürele dran un mit dem macht m'rs danze. Siehsch eso 
-          <stage>(zeigt es).</stage>Als uff un nab hüpst diss Yo-Yo.&#160;»</p>
+          <stage>(zeigt es).</stage>Als uff un nab hüpst diss Yo-Yo. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ja un weje dem hesch düe mich rüefe lonn ? »</p>
+          <p>« Ja un weje dem hesch düe mich rüefe lonn ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ja, denn düe müesch mir helfe mini Schwejeres küriere. Sie müess uffhöre mit 
-          <pb n="9" />dem Spiel. Am liebschte wär mir's jo wenn sie wieder ganz heime züe sich gehn
-          dät.&#160;»</p>
+          <p>« Ja, denn düe müesch mir helfe mini Schwejeres küriere. Sie müess uffhöre mit 
+          <pb n="9"/>dem Spiel. Am liebschte wär mir's jo wenn sie wieder ganz heime züe sich gehn
+          dät. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Na, na, Jules.&#160;»</p>
+          <p>« Na, na, Jules. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ich hab jo noch nie ebs degeje g'het, wenn sie kumme isch. Was awer züe viel isch, isch ewe
-          züe viel. 's letscht Johr, wo mir doch küm g'hyrot sin g'sin, het sie 14 Daa bliewe wöelle.&#160;»</p>
+          <p>« Ich hab jo noch nie ebs degeje g'het, wenn sie kumme isch. Was awer züe viel isch, isch ewe
+          züe viel. 's letscht Johr, wo mir doch küm g'hyrot sin g'sin, het sie 14 Daa bliewe wöelle. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ja un?&#160;»</p>
+          <p>« Ja un? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>« No sin nummme 14 Wuche drüss worre. Düe weisch's jo noch, gäll.&#160;»</p>
+          <p>« No sin nummme 14 Wuche drüss worre. Düe weisch's jo noch, gäll. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ja. Allerdings isch diss jo e bissel arich viel g'sinn.&#160;»</p>
+          <p>« Ja. Allerdings isch diss jo e bissel arich viel g'sinn. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
           <p>« Güet. Ich hab nix g'saat g'het, will ich gern de Friedde im Hüss hab. Diss Johr isch sie jetzt
           awer au schun wieder fascht 10 Wuche do. Ja un diss nit ellein, sie kummediert hyt schun s'ganze
-          Hüss.&#160;»</p>
+          Hüss. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Jo allewej.&#160;»</p>
+          <p>« Jo allewej. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ich kann dir e Liedel singe Roby. Ich derf nimmi ellein furt, will sie's nit will han, mir
+          <p>« Ich kann dir e Liedel singe Roby. Ich derf nimmi ellein furt, will sie's nit will han, mir
           müen alli esse was ihre schmeckt, mini Frau het sie geje mich uffg'stupft, sie macht was sie einfach
           will, turnt sogar un spielt jetzt zitter 3 Wuche de ganze liewe lange Daa Yo-Yo. Ah no noch ebs. Sie
           het mini Frau üwerredd sich e nejs Kleid mache zu lonn, wo Yo-Yo heisst. Was saasch düe jetzt do dezüe
@@ -451,61 +454,61 @@
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Armer Jules, ja bisch denn düe mit dinnere belle-mère g'hyrot ? »</p>
+          <p>« Armer Jules, ja bisch denn düe mit dinnere belle-mère g'hyrot ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>Diss hab ich jo au schun hundert Mol g'saat.&#160;»</p>
+          <p>Diss hab ich jo au schun hundert Mol g'saat. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Na also, redd doch emol e anständigs Wort mit ihre.&#160;»</p>
+          <p>« Na also, redd doch emol e anständigs Wort mit ihre. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ich hab schun alles prowiert — im Güete un im Böse — s'nutzt awer alles nix. Sie isch by ihre
+          <p>« Ich hab schun alles prowiert — im Güete un im Böse — s'nutzt awer alles nix. Sie isch by ihre
           Doochter het sie mir emol frech in's G'sicht niin g'saat. Robert, was ich dir saa, wenn düe je emol
           hyrotsch, no gib vor alle Dinge uff dini zükünftig Schwe- 
-          <pb n="10" />jeres acht. Wenn die Hoor uff de Zähn het, no hyrot ihri Doochter liewer nit.</p>
+          <pb n="10"/>jeres acht. Wenn die Hoor uff de Zähn het, no hyrot ihri Doochter liewer nit.</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;'s Bescht wurd sin, m'r hyrot e Waiselmaidel.&#160;»</p>
+          <p>« 's Bescht wurd sin, m'r hyrot e Waiselmaidel. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
           <p>« Awer füer d'Redd nit ze vergesse,dü müesch mir helfe Roby, düe bisch Dokter, düe weisch ganz
-          sicher ebs wo zejt, wo m'r mit d'Schwejeres züm Hüss nüss kriejt.&#160;»</p>
+          sicher ebs wo zejt, wo m'r mit d'Schwejeres züm Hüss nüss kriejt. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ebs wo zejt meinsch düe ? »</p>
+          <p>« Ebs wo zejt meinsch düe ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ja. Gall düe weisch schun ebs ? »</p>
+          <p>« Ja. Gall düe weisch schun ebs ? »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Ebs wo arich güet zejt isch e Karteblaa.&#160;»</p>
+          <p>« Ebs wo arich güet zejt isch e Karteblaa. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules</speaker>
-          <stage>(verwundert)&#160;:</stage>
-          <p>«&#160;E Karteblaa ? Ja was soll ich denn mit dem ? »</p>
+          <stage>(verwundert) :</stage>
+          <p>« E Karteblaa ? Ja was soll ich denn mit dem ? »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert</speaker>
-          <stage>(lachend)&#160;:</stage>
-          <p>«&#160;Dü hesch mir doch ebs verlangt wo zejt ? »</p>
+          <stage>(lachend) :</stage>
+          <p>« Dü hesch mir doch ebs verlangt wo zejt ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;So isch diss nit gemeint g'sin. Düe weisch ganz güet was ich mein.</p>
+          <p>« So isch diss nit gemeint g'sin. Düe weisch ganz güet was ich mein.</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>« Ja uff so Sache hab ich nit stüdiert.&#160;»</p>
+          <p>« Ja uff so Sache hab ich nit stüdiert. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
@@ -514,19 +517,19 @@
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Het dich dini Frau gern ? »</p>
+          <p>« Het dich dini Frau gern ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>« Wie kannsch düe numme fröje, züem Fresse het sie mich gern.&#160;»</p>
+          <p>« Wie kannsch düe numme fröje, züem Fresse het sie mich gern. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Un düe sie au ? »</p>
+          <p>« Un düe sie au ? »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>« Nadierlich.&#160;»</p>
+          <p>« Nadierlich. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
@@ -535,20 +538,20 @@
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
           <p>« Wie Hund un Katz, un numme dorum, will sie immer ihre Dickkopf durich setze will un au kann. Ich
-          glaub sie kann üwerhaupt kan Mann liede.&#160;»</p>
+          glaub sie kann üwerhaupt kan Mann liede. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;No isch die Sach ganz einfach.&#160;»</p>
+          <p>« No isch die Sach ganz einfach. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Diss meinsch numme düe.&#160;»</p>
+          <p>« Diss meinsch numme düe. »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Einfach. Düe müesch emol dinnere Frau Gelejeheit gänn, dass sie sieht, wie ihri Maman üwer
-          dich denkt.&#160;»</p>
+          <p>« Einfach. Düe müesch emol dinnere Frau Gelejeheit gänn, dass sie sieht, wie ihri Maman üwer
+          dich denkt. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
@@ -556,33 +559,35 @@
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>« Ebs einfachers wie diss gibt's j nit.&#160;»</p>
+          <p>« Ebs einfachers wie diss gibt's j nit. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Nit?&#160;»</p>
+          <p>« Nit? »</p>
         </sp>
-        <pb n="11" />
+        <pb n="11"/>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
           <p>« Düe stellsch dich emol füer e Viertel Stündel füer verruckt — ich kumm dezüe un mach de
-          Rescht.&#160;»</p>
+          Rescht. »</p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Dini Roll isch nit schwer, awer wie soll ich denne Verruckte markiere ? »</p>
+          <p>« Dini Roll isch nit schwer, awer wie soll ich denne Verruckte markiere ? »</p>
         </sp>
         <sp who="#dokter_robert_schmitt">
           <speaker>Robert :</speaker>
-          <p>«&#160;Düe spielsch ewe au e Düür Yo-Yo, lachsch un singsch viellicht noch dezüe. Die Sitüation
-          müesch düe üssnutze wie sie sich grad dir presentiert.&#160;» 
-          <stage>(Man hört draussen sprechen.)</stage></p>
+          <p>« Düe spielsch ewe au e Düür Yo-Yo, lachsch un singsch viellicht noch dezüe. Die Sitüation
+          müesch düe üssnutze wie sie sich grad dir presentiert. » 
+          <stage>(Man hört draussen sprechen.)</stage>
+          </p>
         </sp>
         <sp who="#jules_kleitz">
           <speaker>Jules :</speaker>
-          <p>«&#160;Ich glaub es kummt jemand ! Roby, schnell, versteckel dich. Geh doch do hinter de Paravent,
-          es derf dich do niemes sähn.&#160;» Robert 
-          <stage>(geht schnell hinter den Paravent).</stage></p>
+          <p>« Ich glaub es kummt jemand ! Roby, schnell, versteckel dich. Geh doch do hinter de Paravent,
+          es derf dich do niemes sähn. » Robert 
+          <stage>(geht schnell hinter den Paravent).</stage>
+          </p>
         </sp>
         <div type="scene">
           <head>4 Scen.</head>
@@ -591,7 +596,7 @@
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(für sich):</stage>
-            <p>«&#160;Es spielt au Yo-Yo!&#160;»</p>
+            <p>« Es spielt au Yo-Yo! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
@@ -599,7 +604,7 @@
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
-            <stage>(lieb)&#160;:</stage>
+            <stage>(lieb) :</stage>
             <p>« Nein Liewi. Wie düe awer schun so güet Yo-Yo spiele kannsch ? »</p>
           </sp>
           <sp who="#germaine">
@@ -607,29 +612,29 @@
             <stage>(ist schon wieder an der Türe):</stage>
             <p>« D'Maman turnt ganz sicher. 
             <stage>(Kommt wieder zurück).</stage>Weisch Julot, diss neje Kleid geht mir wunderbar. Ich kumm grad
-            vun de erschte Anprob.&#160;»</p>
+            vun de erschte Anprob. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Was isch diss füer e nejs Kleid ? »</p>
+            <p>« Was isch diss füer e nejs Kleid ? »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germarne :</speaker>
             <p>« Ei s'Modell YO-YO! D'Maman wurd sicher e Plaisir dran han, gar wo sie mir g'saat het, dass ich's
-            nämme soll. Un dir wurd's au sicher g'falle.&#160;»</p>
+            nämme soll. Un dir wurd's au sicher g'falle. »</p>
           </sp>
-          <pb n="12" />
+          <pb n="12"/>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Miiiir ? »</p>
+            <p>« Miiiir ? »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Nädierlich dir au.&#160;»</p>
+            <p>« Nädierlich dir au. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ich glaub nit, dass es mir g'falle wurd.&#160;»</p>
+            <p>« Ich glaub nit, dass es mir g'falle wurd. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
@@ -641,16 +646,16 @@
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Ja?&#160;»</p>
+            <p>« Ja? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
             <p>« Will ich ewe genüej hab, wenn dinni Maman do hinne alles kummediert. Ich hab's satt noch ihre
-            Pfiff ze danze.&#160;»</p>
+            Pfiff ze danze. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Awer d'Maman meint's jo numme güet mit uns.&#160;»</p>
+            <p>« Awer d'Maman meint's jo numme güet mit uns. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
@@ -663,21 +668,21 @@
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Saa Germaine, könne mir zwei do hinne noch mache wie mir wölle, zitter dass dinni Mamman by
+            <p>« Saa Germaine, könne mir zwei do hinne noch mache wie mir wölle, zitter dass dinni Mamman by
             uns isch ? Han mir zwei viellicht eini Minüd im Daa, wo mir saawe könne, sie isch unser ? »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine</speaker>
-            <stage>(weint)&#160;:</stage>
-            <p>Düe kannsch einfach minni Maman nit liede !&#160;»</p>
+            <stage>(weint) :</stage>
+            <p>Düe kannsch einfach minni Maman nit liede ! »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Vun dem isch jetzt nit d'Redd.&#160;»</p>
+            <p>« Vun dem isch jetzt nit d'Redd. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Doch, doch.&#160;»</p>
+            <p>« Doch, doch. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
@@ -686,75 +691,77 @@
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Sie het ewe so e Charakter.&#160;»</p>
+            <p>« Sie het ewe so e Charakter. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ah so, sie het e so e Charakter .&#160;»</p>
+            <p>« Ah so, sie het e so e Charakter . »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Ja, sie isch au immer mit'm Papa so g'sinn, wo er noch geläbt het.&#160;»</p>
+            <p>« Ja, sie isch au immer mit'm Papa so g'sinn, wo er noch geläbt het. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
             <p>« Un wohrschint's vorhere au mit dene andere zwei Männer, wo sie vor dim Papa uff de Gottsacker
-            gebrocht het !&#160;»</p>
+            gebrocht het ! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine</speaker>
-            <stage>(tritt mit dem Fuss auf den Boden)&#160;:</stage>
-            <p>«&#160;Jules, düe beleidigsch minni Maman !&#160;»</p>
+            <stage>(tritt mit dem Fuss auf den Boden) :</stage>
+            <p>« Jules, düe beleidigsch minni Maman ! »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ich ? »</p>
+            <p>« Ich ? »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Ja düe !&#160;» 
-            <stage>(Geht schnell hinten ab).</stage></p>
+            <p>« Ja düe ! » 
+            <stage>(Geht schnell hinten ab).</stage>
+            </p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Hopplaa, do hammer's jo schun wieder. Hesch g'hört Roby ?&#160;»</p>
+            <p>« Hopplaa, do hammer's jo schun wieder. Hesch g'hört Roby ? »</p>
           </sp>
         </div>
-        <pb n="13" />
+        <pb n="13"/>
         <div type="scene">
           <head>5. Scen.</head>
           <stage type="character">Jules un Robert</stage>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert</speaker>
-            <stage>(kommt hinter dem Paravent hervor)&#160;:</stage>
-            <p>«&#160;Ja Jules.&#160;» 
-            <stage>(lacht).</stage></p>
+            <stage>(kommt hinter dem Paravent hervor) :</stage>
+            <p>« Ja Jules. » 
+            <stage>(lacht).</stage>
+            </p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Düe lachsch ? »</p>
+            <p>« Düe lachsch ? »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Düe hesch ewe malchance g'het mit dinnere Schwejermamme. Was! un au schun 3 Männer het sie
+            <p>« Düe hesch ewe malchance g'het mit dinnere Schwejermamme. Was! un au schun 3 Männer het sie
             g'het ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ja denk emol. Ich bin viellicht ihr viert's Opfer.&#160;»</p>
+            <p>« Ja denk emol. Ich bin viellicht ihr viert's Opfer. »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Do kann numme e Gewaltkür helfe.&#160;»</p>
+            <p>« Do kann numme e Gewaltkür helfe. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Diss isch s'richtige Wort. Ich will jetzt emol die Schwejeres mit Gewalt
-            küriere.&#160;»</p>
+            <p>« Diss isch s'richtige Wort. Ich will jetzt emol die Schwejeres mit Gewalt
+            küriere. »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;No will ich awer schnell verschwinde, denn ich will uff keine Fall Zeje sinn. »</p>
+            <p>« No will ich awer schnell verschwinde, denn ich will uff keine Fall Zeje sinn. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
@@ -762,20 +769,20 @@
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Wie lang witt düe die Komedie triewe ? »</p>
+            <p>« Wie lang witt düe die Komedie triewe ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Meinsch langt e halb Stund ? »</p>
+            <p>« Meinsch langt e halb Stund ? »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>« Uewerüss.&#160;»</p>
+            <p>« Uewerüss. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
             <p>« Güet, ze fange mir glich aan, denn weisch es wurd nit lang düüre ze steht sie schun
-            do.&#160;»</p>
+            do. »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
@@ -783,16 +790,17 @@
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Kumm geh grad durich de Garde, un druck mir de Dümme.&#160;»</p>
+            <p>« Kumm geh grad durich de Garde, un druck mir de Dümme. »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Do hesch düe erecht. Allez salüt.&#160;» 
-            <stage>(geht rechts ab).</stage></p>
+            <p>« Do hesch düe erecht. Allez salüt. » 
+            <stage>(geht rechts ab).</stage>
+            </p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Salüt Robes!&#160;»</p>
+            <p>« Salüt Robes! »</p>
           </sp>
         </div>
         <div type="scene">
@@ -800,32 +808,32 @@
           <stage type="character">Jules</stage>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ja, wie fang ich jetzt diss Theäterle aan ? Halt, ich glaub, ich setz mich am beschte nuff
+            <p>« Ja, wie fang ich jetzt diss Theäterle aan ? Halt, ich glaub, ich setz mich am beschte nuff
             uff de Tisch. Do kummt sie nit so schnell züe mir 
             <stage>(stellt einen Stuhl auf den Tisch, setzt sich auf diesen Stuhl und beginnt Yo-Yo zu
             spielen)</stage>Yo-Yo! Ja, jo, jo! So jetzt fehlt numme noch..... aha, ich glaub es kummt
-            jemand.&#160;»</p>
+            jemand. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
-            <stage>(draussen)&#160;:</stage>
-            <p>« Ja, wo steckt er denn ?&#160;»</p>
+            <stage>(draussen) :</stage>
+            <p>« Ja, wo steckt er denn ? »</p>
           </sp>
         </div>
-        <pb n="14" />
+        <pb n="14"/>
         <div type="scene">
           <head>7. Scen.</head>
           <stage type="character">Jules un Henriette</stage>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
             <stage>(kommt hinten herein — spielt während der ganzen Scene Yo-Yo):</stage>
-            <p>«&#160;Wo isch denn minner Herr Schwejersohn, wo so Sache üwer mich saat ? 
+            <p>« Wo isch denn minner Herr Schwejersohn, wo so Sache üwer mich saat ? 
             <stage>(sieht J. auf dem Tisch).</stage>Ja was sinn denn diss anfangs füer Maniere ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(spielt auch während der ganzen Scene, d.h. bis Robert wieder kommt Yo-Yo):</stage>
-            <p>« Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
@@ -833,60 +841,63 @@
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>« Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Herr Kleitz, sie brüche nit mit Gewalt die Möwel kapütt ze mache, wo ich minere Doochter
+            <p>« Herr Kleitz, sie brüche nit mit Gewalt die Möwel kapütt ze mache, wo ich minere Doochter
             kauft hab, wo sie Sie g'hyrot het, verstehn Sie mich ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
-            <stage>(lacht)&#160;:</stage>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <stage>(lacht) :</stage>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Ja sinn Sie denn gebickt ? Mösjö Kleitz, mache Sie, dass Sie sofort do vun dem Stüehl un
-            dem Tisch erunter kumme, sunscht hol ich Sie eijehändig erunter, sie Daadieb !!&#160;»</p>
+            <p>« Ja sinn Sie denn gebickt ? Mösjö Kleitz, mache Sie, dass Sie sofort do vun dem Stüehl un
+            dem Tisch erunter kumme, sunscht hol ich Sie eijehändig erunter, sie Daadieb !! »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>« Do hört doch alles uff ! So e Frechheit.&#160;» 
-            <stage>(Geht nahe an den Tisch heran).</stage></p>
+            <p>« Do hört doch alles uff ! So e Frechheit. » 
+            <stage>(Geht nahe an den Tisch heran).</stage>
+            </p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
             <p>« Yo-Yo ! 
             <stage>(macht das Yo-Yo Henriette direckt vor der Nase herum tanzen).</stage>
-            <stage>(Lacht)</stage>«&#160;Yo-Yo!&#160;»</p>
+              <stage>(Lacht)</stage>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
-            <stage>(brüllt)&#160;:</stage>
-            <p>«&#160;Herr... Kleitz !!!&#160;» 
-            <stage>(reisst das Yo-Yo Jules aus der Hand und geht vom Tisch weg).</stage></p>
+            <stage>(brüllt) :</stage>
+            <p>« Herr... Kleitz !!! » 
+            <stage>(reisst das Yo-Yo Jules aus der Hand und geht vom Tisch weg).</stage>
+            </p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ooooh!!&#160;» 
+            <p>« Ooooh!! » 
             <stage>(holt ein anderes Yo-Yo aus der Tasche und spielt weiter)</stage>: « Yo-Yo, isch wieder doooo
             ! Bravoooo ! 
-            <stage>(lacht)</stage></p>
+            <stage>(lacht)</stage>
+            </p>
           </sp>
-          <pb n="15" />
+          <pb n="15"/>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
             <stage>(sieht nun, dass Jules wieder ein Yo-Yo hat):</stage>
-            <p>«&#160;Ja was isch denn diss? ? »</p>
+            <p>« Ja was isch denn diss? ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
@@ -894,40 +905,40 @@
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
-            <stage>(für sich)&#160;:</stage>
-            <p>« Es schinnt ze zeje !&#160;»</p>
+            <stage>(für sich) :</stage>
+            <p>« Es schinnt ze zeje ! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Marie! ..... Marie ! ! 
+            <p>« Marie! ..... Marie ! ! 
             <stage>(bleibt an der Türe stehen).</stage>Marie ! ! »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
-            <stage>(draussen)&#160;:</stage>
-            <p>« Ja Madame Fleischmann.&#160;»</p>
+            <stage>(draussen) :</stage>
+            <p>« Ja Madame Fleischmann. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>« Hole sie emol schnell minni Doochter do here.&#160;»</p>
+            <p>« Hole sie emol schnell minni Doochter do here. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>«&#160;Ja Madame Fleischmann.&#160;»</p>
+            <p>« Ja Madame Fleischmann. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
-            <stage>(kommt wieder nach vorn)&#160;:</stage>
+            <stage>(kommt wieder nach vorn) :</stage>
             <p>« Un diss will e Mann sinn ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
             <stage>(geht wieder nach hinten):</stage>
-            <p>«&#160;Wo bliet numme s'Germaine ? »</p>
+            <p>« Wo bliet numme s'Germaine ? »</p>
           </sp>
         </div>
         <div type="scene">
@@ -936,153 +947,153 @@
           <sp who="#germaine">
             <speaker>Germaine</speaker>
             <stage>(kommt aufgeregt hinten herein — ohne Hut — hat ein Taschentuch in der Hand — sie hat
-            geweint)&#160;:</stage>
+            geweint) :</stage>
             <p>Was soll denn sin Maman ? »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
-            <stage>(zeigt auf Jules)&#160;:</stage>
-            <p>«&#160;Do luej emol ! »</p>
+            <stage>(zeigt auf Jules) :</stage>
+            <p>« Do luej emol ! »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
-            <stage>(spielt immer weiter)&#160;:</stage>
+            <stage>(spielt immer weiter) :</stage>
             <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Ja was isch denn diss ? »</p>
+            <p>« Ja was isch denn diss ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>« Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Dim Mann isch e Rädel im Kopf luck worre. »</p>
+            <p>« Dim Mann isch e Rädel im Kopf luck worre. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine</speaker>
-            <stage>(am Tisch)&#160;:</stage>
-            <p>« Ja Jules, was machsch denn do ?&#160;»</p>
+            <stage>(am Tisch) :</stage>
+            <p>« Ja Jules, was machsch denn do ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Jules, Jules !&#160;»</p>
+            <p>« Jules, Jules ! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Loss düe ne numme, er wurd schun wieder züe sich kumme.&#160;»</p>
+            <p>« Loss düe ne numme, er wurd schun wieder züe sich kumme. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
-            <stage>(lacht ganz laut)&#160;:</stage>
-            <p>« Yo-Yo!!&#160;»</p>
+            <stage>(lacht ganz laut) :</stage>
+            <p>« Yo-Yo!! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine</speaker>
-            <stage>(bittend)&#160;:</stage>
-            <p>«&#160;Jules was hesch düe denn um de Gotteswille ? »</p>
+            <stage>(bittend) :</stage>
+            <p>« Jules was hesch düe denn um de Gotteswille ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(lacht und singt — holt aus seiner Tasche ein weiteres Yo-Yo und spielt nun mit
             beiden).</stage>
           </sp>
-          <pb n="16" />
+          <pb n="16"/>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
             <p>« Ja was isch denn diss ? Die Yo-Yo sin jo alli mine. Do het sie also d'Katz doch nit verschleift,
             wie's immer g'heisse het. Miner Schwejersohn vergrifft sich also au noch an mim Eijetum ! Es kummt jo
-            immer scheener do hinne ! !&#160;».</p>
+            immer scheener do hinne ! ! ».</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(steht nun auf den Stuhl und spielt weiter):</stage>
-            <p>: « Yo-Yo!&#160;»</p>
+            <p>: « Yo-Yo! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Maman, Maman er fallt ganz sicher noch erunter. Mir müen ne erunterhole.&#160;»</p>
+            <p>« Maman, Maman er fallt ganz sicher noch erunter. Mir müen ne erunterhole. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Los düe numme, wenn sich sini Nerve berüehigt han, no kummt er schun ellein erunter. »</p>
+            <p>« Los düe numme, wenn sich sini Nerve berüehigt han, no kummt er schun ellein erunter. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Jules, min liewer Jules, kumm düe doch do erunter.&#160;»</p>
+            <p>« Jules, min liewer Jules, kumm düe doch do erunter. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Ja was isch denn diss mit dir Germaine ? Schämmsch düe dich nit so by'm e Mann anzehalte,
-            wo nit wert isch, dass m'r numme e Finger wäje ihm rührt !&#160;»</p>
+            <p>« Ja was isch denn diss mit dir Germaine ? Schämmsch düe dich nit so by'm e Mann anzehalte,
+            wo nit wert isch, dass m'r numme e Finger wäje ihm rührt ! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Awer Maman !&#160;»</p>
+            <p>« Awer Maman ! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Blie stille! Er isch e Nixnutz, e Füllenzer. E Mann wie sinere lieb Schwejermame ihri Sache
-            nimmt isch züe allem fähig.&#160;»</p>
+            <p>« Blie stille! Er isch e Nixnutz, e Füllenzer. E Mann wie sinere lieb Schwejermame ihri Sache
+            nimmt isch züe allem fähig. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>« Ich bin sicher er markiert numme.&#160;»</p>
+            <p>« Ich bin sicher er markiert numme. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Un wenn's awer nit wohr wär Maman ? Wenn er awer krank wär ?&#160;»</p>
+            <p>« Un wenn's awer nit wohr wär Maman ? Wenn er awer krank wär ? »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Krank ? » 
-            <stage>(lacht).</stage>« Der un krank ?&#160;»</p>
+            <p>« Krank ? » 
+            <stage>(lacht).</stage>« Der un krank ? »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;So ebs het er doch noch nie gemacht.&#160;»</p>
+            <p>« So ebs het er doch noch nie gemacht. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Do isch e kalti Dusch d'allerbescht Medizin füer ihne 
+            <p>« Do isch e kalti Dusch d'allerbescht Medizin füer ihne 
             <stage>(geht an die Türe — öffnet und ruft hinaus)</stage>Marie,bringe sie emol sofort e Eimer ganz
             kalts Wasser. ».</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>« Yo-Yo.&#160;»</p>
+            <p>« Yo-Yo. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Was witt düe denn mache, Maman ?&#160;»</p>
+            <p>« Was witt düe denn mache, Maman ? »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;De Kopf will ich ihm in kalts Wasse dunke, dass er wieder züe sich kummt.&#160;»</p>
+            <p>« De Kopf will ich ihm in kalts Wasse dunke, dass er wieder züe sich kummt. »</p>
           </sp>
-          <pb n="17" />
+          <pb n="17"/>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(für sich):</stage>
-            <p>« Zersch müesch hesch ! Yo-Yo!&#160;»</p>
+            <p>« Zersch müesch hesch ! Yo-Yo! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Nein Maman, so ebs lied ich nit.&#160;»</p>
+            <p>« Nein Maman, so ebs lied ich nit. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
@@ -1100,7 +1111,7 @@
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
         </div>
         <div type="scene">
@@ -1108,72 +1119,73 @@
           <stage type="character">D'Vorige un Marie.</stage>
           <sp who="#marie">
             <speaker>Marie</speaker>
-            <stage>(kommt mit einem Eimer hinten herein)&#160;:</stage>
+            <stage>(kommt mit einem Eimer hinten herein) :</stage>
             <p>So Madame Fleischmann ! 
-            <stage>(sieht Jules)</stage>: Oh Jesses, d'r Herr!!&#160;»</p>
+            <stage>(sieht Jules)</stage>: Oh Jesses, d'r Herr!! »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>«&#160;Er isch doch vorhere noch by sich g'sin ! »</p>
+            <p>« Er isch doch vorhere noch by sich g'sin ! »</p>
           </sp>
-          <pb n="18" />
+          <pb n="18"/>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Marie, hole sie sofort e Dokter.&#160;»</p>
+            <p>« Marie, hole sie sofort e Dokter. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>« Diss het noch Zytt.&#160;»</p>
+            <p>« Diss het noch Zytt. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>« Ja der Herr Dokter Schmitt isch jo schun bym Herr g'sin.&#160;»</p>
+            <p>« Ja der Herr Dokter Schmitt isch jo schun bym Herr g'sin. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;De Herr Dokter Schmitt ? »</p>
+            <p>« De Herr Dokter Schmitt ? »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>«&#160;Ja Madame.&#160;»</p>
+            <p>« Ja Madame. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Sott er am End g'spiert han, dass er krank isch ? »</p>
+            <p>« Sott er am End g'spiert han, dass er krank isch ? »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Plän vun Paris. Marie hälfe sie mir de Herr do runter hole.&#160;»</p>
+            <p>« Plän vun Paris. Marie hälfe sie mir de Herr do runter hole. »</p>
             <stage>(Es klingelt.)</stage>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Wer isch jetzt diss ? »</p>
+            <p>« Wer isch jetzt diss ? »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Marie lüeje sie schnell, un lonn sie niemes do eriin.&#160;»</p>
+            <p>« Marie lüeje sie schnell, un lonn sie niemes do eriin. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>«&#160;Güet Madame.&#160;»</p>
+            <p>« Güet Madame. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Madame Fleischmann heiss ich.&#160;»</p>
+            <p>« Madame Fleischmann heiss ich. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>« Ja Madame Fleischmann.&#160;» 
-            <stage>(hinten ab).</stage></p>
+            <p>« Ja Madame Fleischmann. » 
+            <stage>(hinten ab).</stage>
+            </p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
         </div>
         <div type="scene">
@@ -1182,16 +1194,16 @@
           <sp who="#germaine">
             <speaker>Germaine</speaker>
             <p>
-            <stage>(am Tisch:)</stage>«&#160;Jules, liewer Jules. Was hesch dü denn? Kumm doch do
-            erunter.&#160;»</p>
+              <stage>(am Tisch:)</stage>« Jules, liewer Jules. Was hesch dü denn? Kumm doch do
+            erunter. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Ich hol ne no schun erunter. Warte sie numme, sie min liewer Schwejersohn. »</p>
+            <p>« Ich hol ne no schun erunter. Warte sie numme, sie min liewer Schwejersohn. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine</speaker>
@@ -1199,12 +1211,12 @@
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Ich glaub düe hielsch au noch! So einer wie der bekummsch düe immer noch. Ich süech dir
-            emol sälwer einer, wenns e so witt isch.&#160;»</p>
+            <p>« Ich glaub düe hielsch au noch! So einer wie der bekummsch düe immer noch. Ich süech dir
+            emol sälwer einer, wenns e so witt isch. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Yo-Yo!&#160;»</p>
+            <p>« Yo-Yo! »</p>
           </sp>
         </div>
         <div type="scene">
@@ -1216,16 +1228,16 @@
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Wer isch's denn ? »</p>
+            <p>« Wer isch's denn ? »</p>
           </sp>
-          <pb n="19" />
+          <pb n="19"/>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>«&#160;Ei der Herr Dokter Schmitt isch noch emol kumme.&#160;»</p>
+            <p>« Ei der Herr Dokter Schmitt isch noch emol kumme. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Er soll glich eriinkumme. »</p>
+            <p>« Er soll glich eriinkumme. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
@@ -1233,20 +1245,21 @@
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Marie gehn sie.&#160;»</p>
+            <p>« Marie gehn sie. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>« Güet Madame.&#160;» 
-            <stage>(geht hinten ab).</stage></p>
+            <p>« Güet Madame. » 
+            <stage>(geht hinten ab).</stage>
+            </p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Düe wursch dinner läbdes Daa nit g'schejt.&#160;»</p>
+            <p>« Düe wursch dinner läbdes Daa nit g'schejt. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>« Yo-Yo !&#160;»</p>
+            <p>« Yo-Yo ! »</p>
           </sp>
         </div>
         <div type="scene">
@@ -1258,20 +1271,20 @@
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>« Bonjour Mesdames.&#160;»</p>
+            <p>« Bonjour Mesdames. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Güet, dass sie kumme sinn Herr Dokter. Minner Mann... o Gott!&#160;»</p>
+            <p>« Güet, dass sie kumme sinn Herr Dokter. Minner Mann... o Gott! »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>« Yo-Yo !&#160;»</p>
+            <p>« Yo-Yo ! »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Ich hab's doch vorhin schun gedenkt, wo ich do bin g'sinn. Ich bin dorum au noch emol
-            kumme.&#160;»</p>
+            <p>« Ich hab's doch vorhin schun gedenkt, wo ich do bin g'sinn. Ich bin dorum au noch emol
+            kumme. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
@@ -1279,17 +1292,18 @@
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Sicher e schlimmer Fall, Madame Kleitz.&#160;»</p>
+            <p>« Sicher e schlimmer Fall, Madame Kleitz. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;O Gott!&#160;» 
-            <stage>(setzt sich weinend auf das Canapé).</stage></p>
+            <p>« O Gott! » 
+            <stage>(setzt sich weinend auf das Canapé).</stage>
+            </p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert</speaker>
-            <stage>(geht an den Tisch)&#160;:</stage>
-            <p>« Jules... Jules! Zeij hör emol. Ich hab dich ebs fröje wölle.&#160;»</p>
+            <stage>(geht an den Tisch) :</stage>
+            <p>« Jules... Jules! Zeij hör emol. Ich hab dich ebs fröje wölle. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
@@ -1297,28 +1311,28 @@
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Kumm doch emol do erunter.&#160;»</p>
+            <p>« Kumm doch emol do erunter. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
             <p>« Ja ich kumm glich. Yo-Yo ! 
-            <stage>(geht vom Tisch herunter)</stage>Yo-Yo!&#160;»</p>
+            <stage>(geht vom Tisch herunter)</stage>Yo-Yo! »</p>
           </sp>
-          <pb n="20" />
+          <pb n="20"/>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert</speaker>
-            <stage>(zu Henriette)&#160;:</stage>
-            <p>«&#160;Mir müen arich vorsichtig mit ihm sinn.&#160;»</p>
+            <stage>(zu Henriette) :</stage>
+            <p>« Mir müen arich vorsichtig mit ihm sinn. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine</speaker>
             <stage>(steht auf):</stage>
-            <p>« Nadierlich.&#160;»</p>
+            <p>« Nadierlich. »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert</speaker>
             <stage>(führt Jules an das Canapé — macht ihn sitzen):</stage>
-            <p>«&#160;Bringe sie mir doch schnell e kalts Tüch füer um de Kopf.&#160;»</p>
+            <p>« Bringe sie mir doch schnell e kalts Tüch füer um de Kopf. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
@@ -1326,16 +1340,16 @@
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert</speaker>
-            <stage>(fühlt in der Zwischenzeit den Puls von Jules)&#160;:</stage>
-            <p>«&#160;De Puls isch ganz normal.&#160;»</p>
+            <stage>(fühlt in der Zwischenzeit den Puls von Jules) :</stage>
+            <p>« De Puls isch ganz normal. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Isch's denn schlimm, Herr Dokter?&#160;»</p>
+            <p>« Isch's denn schlimm, Herr Dokter? »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Ich kann noch nix saawe.&#160;»</p>
+            <p>« Ich kann noch nix saawe. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
@@ -1349,7 +1363,7 @@
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
             <stage>(zu Marie):</stage>
-            <p>Sie könne jetzt gehn.&#160;»</p>
+            <p>Sie könne jetzt gehn. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
@@ -1358,25 +1372,25 @@
           <sp who="#germaine">
             <speaker>Germaine</speaker>
             <stage>(geht zu Robert):</stage>
-            <p>«&#160;Was meine Sie, Herr Dokter ? »</p>
+            <p>« Was meine Sie, Herr Dokter ? »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
             <stage>(zu Robert):</stage>
-            <p>«&#160;Wurd er nimmi güet ? »</p>
+            <p>« Wurd er nimmi güet ? »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>« Unter Umstände kann der Züstand lang anhalte.&#160;»</p>
+            <p>« Unter Umstände kann der Züstand lang anhalte. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;No müesch düe dich ewe scheide lonn. Düe kannsch nit din ganze Läwe bym e Narr
-            sinn.&#160;»</p>
+            <p>« No müesch düe dich ewe scheide lonn. Düe kannsch nit din ganze Läwe bym e Narr
+            sinn. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Awer Maman !&#160;»</p>
+            <p>« Awer Maman ! »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
@@ -1384,33 +1398,34 @@
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Ja manichmol.&#160;»</p>
+            <p>« Ja manichmol. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
             <p>« Wie kannsch düe numme so dumm babble. Ich hab mich mit ihm als uffreje müen. Er isch ewe krank.
-            Wenn ich nit immer nochgänn hät, ze wär jo nie in dem Hüss Friede g'sinn.&#160;»</p>
+            Wenn ich nit immer nochgänn hät, ze wär jo nie in dem Hüss Friede g'sinn. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine</speaker>
-            <stage>(geht zu Jules — betrachtet ihn — geht wieder zu Robert)&#160;:</stage>
-            <p>« Er schlooft jetzt.&#160;»</p>
+            <stage>(geht zu Jules — betrachtet ihn — geht wieder zu Robert) :</stage>
+            <p>« Er schlooft jetzt. »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Um so besser. Ich mach ihne jetzt folgender Vorschlaa. Ich hab doch noch e 
-            <pb n="21" />Commission un geh no glich bym'e Spezialischt füer Nerve durich. Ich bring ne glich mit.
+            <p>« Um so besser. Ich mach ihne jetzt folgender Vorschlaa. Ich hab doch noch e 
+            <pb n="21"/>Commission un geh no glich bym'e Spezialischt füer Nerve durich. Ich bring ne glich mit.
             Sott sich de Züstand nit bal bessere no mien mir ne in d'Nerveklinik mache. Ich will uff alli Fäll au
-            s'Auto b'stelle.&#160;»</p>
+            s'Auto b'stelle. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Zäll wurd üwerhaupt s'beschte sinn.&#160;»</p>
+            <p>« Zäll wurd üwerhaupt s'beschte sinn. »</p>
           </sp>
           <sp who="#dokter_robert_schmitt">
             <speaker>Robert :</speaker>
-            <p>«&#160;Also ich bin bal wieder do.&#160;» 
-            <stage>(geht hinten ab).</stage></p>
+            <p>« Also ich bin bal wieder do. » 
+            <stage>(geht hinten ab).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1418,26 +1433,27 @@
           <stage type="character">Jules, Germaine un Henriette</stage>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;So hesch düe müen niinfalle ! Hesch e Mann un doch keiner. S'bescht wär, wenn er bal sterwe
-            dät.&#160;»</p>
+            <p>« So hesch düe müen niinfalle ! Hesch e Mann un doch keiner. S'bescht wär, wenn er bal sterwe
+            dät. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Wie kannsch düe numme so redde, Maman.&#160;»</p>
+            <p>« Wie kannsch düe numme so redde, Maman. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Ja, was witt düe denn mit-eme Mann wo narrisch isch ? »</p>
+            <p>« Ja, was witt düe denn mit-eme Mann wo narrisch isch ? »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Viellicht wurd er doch wieder guet.&#160;»</p>
+            <p>« Viellicht wurd er doch wieder guet. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;So Kranki wäre nie wieder ganz guet. 
-            <stage>(geht nach hinten)</stage>Ich hab weijer diss Johr kein scheeni Ferie by dir.&#160;» 
-            <stage>(hinten ab).</stage></p>
+            <p>« So Kranki wäre nie wieder ganz guet. 
+            <stage>(geht nach hinten)</stage>Ich hab weijer diss Johr kein scheeni Ferie by dir. » 
+            <stage>(hinten ab).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1445,10 +1461,10 @@
           <stage type="character">Jules un Germaine</stage>
           <sp who="#germaine">
             <speaker>Germaine</speaker>
-            <stage>(geht zu Jules — setzt sich neben ihn)&#160;:</stage>
+            <stage>(geht zu Jules — setzt sich neben ihn) :</stage>
             <p>« Jules min liewer Jules! Un ich hab vorhin au noch wäje de Maman mit dir so dischpetiert ! Was
             isch doch e Mensch ? Eini Minüd isch m-r g'sund un lacht un glich druff kann m'r schwer krank sinn.
-            Wie wurd die Krankheit üssgehn.&#160;»</p>
+            Wie wurd die Krankheit üssgehn. »</p>
             <stage>(nimmt Jules in ihre Arme).</stage>
           </sp>
           <sp who="#jules_kleitz">
@@ -1459,18 +1475,20 @@
             <speaker>Germaine :</speaker>
             <p>Un ich hab dich doch so arich gern g'het. 
             <stage>(küsst Jules)</stage>Min liewer Jules ! 
-            <stage>(küsst Jules).</stage></p>
+            <stage>(küsst Jules).</stage>
+            </p>
           </sp>
-          <pb n="22" />
+          <pb n="22"/>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(küsst Germaine).</stage>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Er het mir e Schmutz gänn. Isch am End die Krankheit doch nit so schimm wie de Dokter meint
+            <p>« Er het mir e Schmutz gänn. Isch am End die Krankheit doch nit so schimm wie de Dokter meint
             ? Jules! 
-            <stage>(küsst Jules wieder auf den Mund).&#160;»</stage></p>
+            <stage>(küsst Jules wieder auf den Mund). »</stage>
+            </p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
@@ -1478,12 +1496,12 @@
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Jetzt schun wieder.&#160;»</p>
+            <p>« Jetzt schun wieder. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(öffnet die Augen — stöhnt — schaut nun Germaine an):</stage>
-            <p>«&#160;Germaine ! »</p>
+            <p>« Germaine ! »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
@@ -1491,40 +1509,41 @@
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ja.&#160;» 
-            <stage>(macht das Tuch vom Kopfe weg).</stage></p>
+            <p>« Ja. » 
+            <stage>(macht das Tuch vom Kopfe weg).</stage>
+            </p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Loss, Jules, loss.&#160;»</p>
+            <p>« Loss, Jules, loss. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>« Werum denn ?&#160;»</p>
+            <p>« Werum denn ? »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;loss diss Tuech Jules.&#160;»</p>
+            <p>« loss diss Tuech Jules. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ich brüch's jetzt nimmi.&#160;»</p>
+            <p>« Ich brüch's jetzt nimmi. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Doch Jules, min liewer Jules.&#160;»</p>
+            <p>« Doch Jules, min liewer Jules. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Min liebs Germaine, min herzigs Kind.&#160;»</p>
+            <p>« Min liebs Germaine, min herzigs Kind. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>« Was denn ?&#160;»</p>
+            <p>« Was denn ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Mir zwei han uns doch gern ? »</p>
+            <p>« Mir zwei han uns doch gern ? »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine. :</speaker>
@@ -1532,15 +1551,15 @@
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;No soll dinni Mamman widder heime gehn.&#160;»</p>
+            <p>« No soll dinni Mamman widder heime gehn. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Awer Jules.&#160;»</p>
+            <p>« Awer Jules. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
-            <stage>(sitzt aufrecht)&#160;:</stage>
+            <stage>(sitzt aufrecht) :</stage>
             <p>« Ja Germaine, es isch besser, wenn sie widder geht. Düe wursch doch jetzt au iinsehn wie mich
             dinni Maman liede kann. Hesch düe nit g'hört, was sie alles üwer mich g'saat het ? »</p>
           </sp>
@@ -1551,9 +1570,9 @@
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
             <p>« Nein Liebs. Die Komedie hab ich ewe numme g'spielt füer dir emol ze zeije, wie dinni Maman vun
-            mir denkt.&#160;»</p>
+            mir denkt. »</p>
           </sp>
-          <pb n="23" />
+          <pb n="23"/>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
             <p>« Meinsch, wenn sie alles merigt ? »</p>
@@ -1561,8 +1580,9 @@
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
             <p>« Jetzt, wo ich weiss, dass düe endlich fescht züe mir haltsch, hab ich kein Angscht meh. Los düe
-            sie numme kumme ! Ich saa ihre no schun emol mini Meinung.&#160;» 
-            <stage>(Beide küssen sich lange.)</stage></p>
+            sie numme kumme ! Ich saa ihre no schun emol mini Meinung. » 
+            <stage>(Beide küssen sich lange.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1571,62 +1591,62 @@
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
             <stage>(von hinten — hat Hut auf — ist fertig zum Ausgehen — sieht wie sich Germaine und Jules so
-            lange küssen — erstaunt)&#160;:</stage>
+            lange küssen — erstaunt) :</stage>
             <p>Ja was isch denn mit euch zwei do los ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(steht auf):</stage>
-            <p>«&#160;Sie wölle furt Schwejermame ? »</p>
+            <p>« Sie wölle furt Schwejermame ? »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Ich will mit inne no in d'Nerveklinik fahre, wenn de Dokter mit-m Auto kummt.&#160;»</p>
+            <p>« Ich will mit inne no in d'Nerveklinik fahre, wenn de Dokter mit-m Auto kummt. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Zäll wurd nit notwendig sin, denn ich bin jo gar nit krank.&#160;»</p>
+            <p>« Zäll wurd nit notwendig sin, denn ich bin jo gar nit krank. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
             <p>« Germaine, hab ich dir nit g'saat, er spielt Theater ! Schämme Sie sich, Mösjö Kleitz. Eine eso
-            aanzelüeje.&#160;»</p>
+            aanzelüeje. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Werum denn, Madame Fleischmann ?&#160;»</p>
+            <p>« Werum denn, Madame Fleischmann ? »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
             <p>« Düe losch dich scheide Germaine. De Dokter isch dir Zeje, dass er krank isch. So simeliere kann
-            kein Mensch.&#160;»</p>
+            kein Mensch. »</p>
           </sp>
           <sp who="#germaine">
             <speaker>Germaine :</speaker>
-            <p>«&#160;Nein Maman, diss niemols, ich hab de Jules viel ze gern un er mich jo au.&#160;»</p>
+            <p>« Nein Maman, diss niemols, ich hab de Jules viel ze gern un er mich jo au. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Mit dem Dokter als Zeje han sie kein Chance, liewi Schwejermamme. Er isch minner Frind un
-            het alles gewüsst. Sie könne hyt noch lang warte, bis er mit'm Auto kummt.&#160;»</p>
+            <p>« Mit dem Dokter als Zeje han sie kein Chance, liewi Schwejermamme. Er isch minner Frind un
+            het alles gewüsst. Sie könne hyt noch lang warte, bis er mit'm Auto kummt. »</p>
           </sp>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette :</speaker>
-            <p>«&#160;Die ganz Affaire glicht jo ihne emol widder, Mösjö Kleitz.&#160;»</p>
+            <p>« Die ganz Affaire glicht jo ihne emol widder, Mösjö Kleitz. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules</speaker>
             <stage>(geht an die Türe — öffnet — ruft):</stage>
-            <p>«&#160;Marie.&#160;»</p>
+            <p>« Marie. »</p>
           </sp>
-          <pb n="24" />
+          <pb n="24"/>
           <sp who="#henriette_fleischmann">
             <speaker>Henriette</speaker>
-            <p>«&#160;Ja was soll's denn jetzt noch gänn ?&#160;»</p>
+            <p>« Ja was soll's denn jetzt noch gänn ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ein Moment, chère Madame Fleischmann.&#160;»</p>
+            <p>« Ein Moment, chère Madame Fleischmann. »</p>
           </sp>
         </div>
         <div type="scene">
@@ -1634,39 +1654,39 @@
           <stage type="character">D'Vorige un Marie</stage>
           <sp who="#marie">
             <speaker>Marie</speaker>
-            <stage>(kommt hinten herein)&#160;:</stage>
+            <stage>(kommt hinten herein) :</stage>
             <p>« Was beliebt Mösjö ? Sinn sie nimmi krank ? »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>« Nit g'sinn un wur's hoffentlich au nie wäre.&#160;»</p>
+            <p>« Nit g'sinn un wur's hoffentlich au nie wäre. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>«&#160;Gott sej Dank.&#160;»</p>
+            <p>« Gott sej Dank. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Also Marie, sie packe jetzt sofort alli Köffer vun de Madame Fleischmann. Sie will bis in
-            10 Minüde verreise.&#160;»</p>
+            <p>« Also Marie, sie packe jetzt sofort alli Köffer vun de Madame Fleischmann. Sie will bis in
+            10 Minüde verreise. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie :</speaker>
-            <p>«&#160;Mitem gröschte Vergnüeje. In fünef Minüde bin ich schun ferti.&#160;»</p>
+            <p>« Mitem gröschte Vergnüeje. In fünef Minüde bin ich schun ferti. »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
             <p>« Je schneller, je liewer. 
-            <stage>(holt aus seiner Tasche einige Yo-Yo).</stage>Un die do packe sie au mit ihn.&#160;»</p>
+            <stage>(holt aus seiner Tasche einige Yo-Yo).</stage>Un die do packe sie au mit ihn. »</p>
           </sp>
           <sp who="#marie">
             <speaker>Marie</speaker>
-            <stage>(nimmt die Yo-Yo)&#160;:</stage>
-            <p>« Diss sinn jo alles Yo-Yo!&#160;»</p>
+            <stage>(nimmt die Yo-Yo) :</stage>
+            <p>« Diss sinn jo alles Yo-Yo! »</p>
           </sp>
           <sp who="#jules_kleitz">
             <speaker>Jules :</speaker>
-            <p>«&#160;Ja, ja. Diss sinn de chère Madame Fleischmann ihri Yo-Yo!!&#160;»</p>
+            <p>« Ja, ja. Diss sinn de chère Madame Fleischmann ihri Yo-Yo!! »</p>
           </sp>
           <stage>Schluss.</stage>
         </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -54,7 +54,7 @@
             Deckenzeichnung von C. Spindler.</title>
             <publisher>Schlesier &amp; Schweikhardt</publisher>
             <date when="1899" type="print">1899</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -99,10 +99,10 @@
             <persName>Ein Dienstmann</persName>
           </person>
           <listRelation type="personal">
-            <relation name="spouses" mutual="#jakob_schmelzer #emelie_schmelzer" />
-            <relation name="parent_of" active="#jakob_schmelzer #emelie_schmelzer" passive="#jeanne" />
-            <relation name="parent_of" active="#jeanne-louise_schwindt" passive="#juliette" />
-            <relation name="parent_of" active="#frau_sutter" passive="#celestine" />
+            <relation name="spouses" mutual="#jakob_schmelzer #emelie_schmelzer"/>
+            <relation name="parent_of" active="#jakob_schmelzer #emelie_schmelzer" passive="#jeanne"/>
+            <relation name="parent_of" active="#jeanne-louise_schwindt" passive="#juliette"/>
+            <relation name="parent_of" active="#frau_sutter" passive="#celestine"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -119,10 +119,10 @@
       <pb n="7"/>
       <div type="front">
         <p>Der 
-        <lb />"Litterarischen Tafelrunde"
-        <lb />freundschaftlich 
-        <lb />gewidmet. 
-        <lb />Der Verfasser.</p>
+        <lb/>"Litterarischen Tafelrunde"
+        <lb/>freundschaftlich 
+        <lb/>gewidmet. 
+        <lb/>Der Verfasser.</p>
       </div>
       <castList>
         <head>Personen.</head>
@@ -130,8 +130,7 @@
           <role><persName>Jakob Schmelzer</persName></role>.
 	    </castItem>
         <castItem corresp="#emelie_schmelzer">
-        <role>
-          <persName>Emelie Schmelzer</persName></role>,
+          <role><persName>Emelie Schmelzer</persName></role>,
           <roleDesc>seine Frau</roleDesc>.
         </castItem>
         <castItem corresp="#jeanne">
@@ -142,8 +141,7 @@
           <role><persName>Jeanne-Louise Schwindt</persName></role>.
         </castItem>
         <castItem corresp="#juliette">
-        <role>
-          <persName>Juliette</persName></role>,
+          <role><persName>Juliette</persName></role>,
           <roleDesc>ihre Tochter</roleDesc>.
         </castItem>
         <castItem corresp="#albert_sanger">
@@ -182,7 +180,7 @@
       </set>
     </front>
     <body>
-      <pb n="9" />
+      <pb n="9"/>
       <div type="act">
         <head>Erster Aufzug.</head>
         <stage>Scenerie: Die Wohnstube bei Schmelzers. Gemütlich, aber nicht reich ausgestattet. Rechts zwei
@@ -219,7 +217,7 @@
           <p>E großer Fierdaa. — Weisch: "aufgefahren gen Himmel, sitzet zur rechten Hand Gottes des allmächtigen
           Vaters, von dannen er kommen wird zu richten — — zu richten die Lawendigen und die Toten".</p>
         </sp>
-        <pb n="10" />
+        <pb n="10"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer :</speaker>
           <p>Un d'r hochwürdig Herr Bischof isch drüwwe un dhuet in de-n-Erschkommnikante d' Firmung genn.</p>
@@ -250,7 +248,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Denk nit dran, 's isch emol nit andersch 
-          <stage>(setzt sich an den Tisch und strickt).</stage></p>
+          <stage>(setzt sich an den Tisch und strickt).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
@@ -271,7 +270,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Un d'rno h mm'r jo unser Jeanne — — Es weiß, was es sine Eldere schuldi isch.</p>
         </sp>
-        <pb n="11" />
+        <pb n="11"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer</speaker>
           <stage>(der Gesang hat neu begonnen):</stage>
@@ -336,7 +335,7 @@
           <speaker>Schmelzer:</speaker>
           <p>Nammesdaa! — Nammesdaa!</p>
         </sp>
-        <pb n="12" />
+        <pb n="12"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Weiß Gott ja. Vergiß i miner Nammesdaa.</p>
@@ -367,7 +366,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Ich denk's emol. Wenn's nit uffg'halte wurd. 
-          <stage>(Pause)</stage></p>
+          <stage>(Pause)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer :</speaker>
@@ -401,7 +401,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Au noch.</p>
         </sp>
-        <pb n="13" />
+        <pb n="13"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Rüscht als emol d'Karte for e kleins Piketel.</p>
@@ -460,7 +460,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Eb er's au möcht! E kuriosi Fröuj.- — Un wenn nit, um so besser. Vo wurd's au nit so wit kumme . ...
           es derf nit so wit 
-          <pb n="14" />kumme. Wäje dem wär's m'r am liebschte, 'r dhädd in sinere Schlossersbüdik bliewe, wo'r
+          <pb n="14"/>kumme. Wäje dem wär's m'r am liebschte, 'r dhädd in sinere Schlossersbüdik bliewe, wo'r
           anne ghört.</p>
         </sp>
         <sp who="#jakob_schmelzer">
@@ -485,7 +485,7 @@
           <p>Mach doch de Deifel nit schwärzer als 'r isch. Geje's letscht isch's uns ganz guet gange, bis uff
           min bissel Krankheit.</p>
         </sp>
-        <pb n="15" />
+        <pb n="15"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Zell schun. — Awer d'erschte Zitte! Schrecklich! Schrecklich! — — Dü e-n-armer Coiffeurgsell , ich
@@ -528,7 +528,7 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Als Frau vum e Schlossergsell ? Dis wärd e Stückel for unsri liewi Frindschaft. 
-          <pb n="16" />- — Was han sie gspöttelt un d'Achsle gezuckt, daß m'r an unser Kind alles gewendt han,
+          <pb n="16"/>- — Was han sie gspöttelt un d'Achsle gezuckt, daß m'r an unser Kind alles gewendt han,
           was in unsre Kräfte gstande-n-isch. Un jetz solle sie Recht bhalte? Niemols in d'r Welt, saa ich. Unwas
           ich m'r verheiße hab, dis halt ich au, un do kann bassire was will. Es düürt verlicht nimm lang, daß de
           mich verstehsch.</p>
@@ -551,7 +551,8 @@
           <stage>(eine robuste Person, gegen Ende der Vierziger, konmunes Gesicht mit Sommersprossen. Etwas
           rötliches Haar ; in der Thür):</stage>
           <p>Isch's Juliette nit do? 
-          <stage>(hinter ihr Célestine, 15 Jahre alt, im Erstkommunikantenschmuck).</stage></p>
+          <stage>(hinter ihr Célestine, 15 Jahre alt, im Erstkommunikantenschmuck).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
@@ -578,7 +579,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Geh au zuem Herr Schmelzer. Loß di mol betrachte vum.</p>
         </sp>
-        <pb n="17" />
+        <pb n="17"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer</speaker>
           <stage>(ihr die Backen streichend):</stage>
@@ -653,7 +654,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Lüwis! Redd doch nit so wuescht! — An so 'me Daa!</p>
         </sp>
-        <pb n="18" />
+        <pb n="18"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>'s isch min Ernscht. Mit dem kann's meh verdiene als mit Bette un Kirichelaufe.</p>
@@ -670,7 +671,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Geh jetz widder schön 
-          <stage>(setzt seine Brille auf und schickt sich an, die Zeitung zu lesen).</stage></p>
+          <stage>(setzt seine Brille auf und schickt sich an, die Zeitung zu lesen).</stage>
+          </p>
         </sp>
         <sp who="#celestine">
           <speaker>Célestine:</speaker>
@@ -688,7 +690,8 @@
         <sp who="#jakob_schmelzer #emelie_schmelzer">
           <speaker>Schmelzer und Frau:</speaker>
           <p>Adieu Kind. 
-          <stage>(Célestine giebt beiden die Hand, dann ab.)</stage></p>
+          <stage>(Célestine giebt beiden die Hand, dann ab.)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
@@ -701,7 +704,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer :</speaker>
           <p>Bon! 
-          <stage>(stopft sich die Pfeife und raucht.)</stage></p>
+          <stage>(stopft sich die Pfeife und raucht.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -712,7 +716,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Dis isch for morje. D'Societät vun mim Mann fiert e Gaartefescht. Er isch au ingelade.</p>
         </sp>
-        <pb n="19" />
+        <pb n="19"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>For so e Feschtlichkeit find ich's noch e bissel frühj. Jetz, d'Däj sin jo wirklich schun arig heiß.
@@ -766,7 +770,7 @@
           <speaker>Schmelzer:</speaker>
           <p>De gibbsch nit genue Achtung uff dini Kinder. Wie m'r sie zeijt, so het m'r sie.</p>
         </sp>
-        <pb n="20" />
+        <pb n="20"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Ja, um's Himmels heilige Wille, ihr wäre mir doch ken Reprosche mache!</p>
@@ -806,7 +810,7 @@
           Baron spiele un mit Goldstückle nur so um sich schmisse. Jede-n-Owe im Bierhüs, am dreije odder viere
           heim, ich will gar nit saaue wie.</p>
         </sp>
-        <pb n="21" />
+        <pb n="21"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Kann ich ebbs drfor? — — Buewe in dem Alter kann m'r nimm hewwe. Do isch m'r einfach ferdi.</p>
@@ -850,7 +854,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Jetz blie nur ruewi. 's isch jo guet gemeint gsin.</p>
         </sp>
-        <pb n="22" />
+        <pb n="22"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt</speaker>
           <stage>(sich die Thränen trocknend) :</stage>
@@ -887,12 +891,14 @@
           <p>Alti Schnakklere! 
           <stage>(laut)</stage>Ich geh e bissel in de Hofft uff de Bank sitze. 
           <stage>(steht auf)</stage>Adieu bisamme. 
-          <stage>(humpelt nach der Thür)</stage></p>
+          <stage>(humpelt nach der Thür)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Awer nur in d'Sunn, hett d'r Dokter gsaat. 
-          <stage>(Schmelzer ab)</stage></p>
+          <stage>(Schmelzer ab)</stage>
+          </p>
         </sp>
         <stage>(Pause.)</stage>
         <sp who="#jeanne-louise_schwindt">
@@ -903,7 +909,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>M'r sin au e bissel selbscht dran schuld. M'r bilde's uns wenigschtens in.</p>
         </sp>
-        <pb n="23" />
+        <pb n="23"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Was will i denn noch gschwind fröuje. — Gell, 's Jeanne isch Hochzittere?</p>
@@ -913,7 +919,8 @@
           <stage>(erschrickt);</stage>
           <p>Hochzittere! 
           <stage>(die folgende Unterhaltung wird schnell und zum großen Teil in halblautem Tone
-          geführt)</stage></p>
+          geführt)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -951,7 +958,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>O Gott, babbel doch nit so lütt. 's wurd m'r ganz schwindlig. — Also 's soll wirklich wohr sin?</p>
         </sp>
-        <pb n="24" />
+        <pb n="24"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>M'r saat's üwerall! — Ja, isch'r denn noch nit do gsin?</p>
@@ -996,13 +1003,14 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Ich kann's gar nit glauwe. 's wär jo zue viel Glück! 
-          <stage>(die Augen gehen ihr über)</stage></p>
+          <stage>(die Augen gehen ihr über)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Nur isch'r noch e bissel arig jung for e Hochzitter.</p>
         </sp>
-        <pb n="25" />
+        <pb n="25"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Meinsch? Er wurd doch schun einezwanzig Johr han.</p>
@@ -1055,7 +1063,7 @@
           <speaker>Frau Schwindt:</speaker>
           <p>Siehsch, so geht's allewyl. — Chance mueß m'r han uff dere gebuckelte Welt, — — 
           <stage>4</stage>
-          <pb n="26" />Odder meins nit, d'r jung Steinfeld hätt nit au 's Juliette genumme, wenn's d'r Zuefall so
+            <pb n="26"/>Odder meins nit, d'r jung Steinfeld hätt nit au 's Juliette genumme, wenn's d'r Zuefall so
           gewöllt hätt?</p>
         </sp>
         <sp who="#jakob_schmelzer">
@@ -1084,7 +1092,8 @@
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Ich blie nit lang, Madam Schmelzer. 
-          <stage>(Pause)</stage></p>
+          <stage>(Pause)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -1104,7 +1113,8 @@
           <stage>(ärgerlich):</stage>
           <p>In d'r Dischschüblad. 
           <stage>(leise zu Frau Schwindt)</stage>Kumm, m'r gehn, Was brüche m'r eß do embetiere ze lon. 
-          <stage>(beide nach links ab)</stage></p>
+          <stage>(beide nach links ab)</stage>
+          </p>
         </sp>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
@@ -1114,8 +1124,8 @@
           <speaker>Schmelzer</speaker>
           <stage>(sucht in der Schublade):</stage>
           <p>Dis will nix heiße. Sie mueß als e bissel beffze, sunsch isch 's ere nit guet. 
-          <pb n="27" />
-          <stage>(zieht die Karten heraus)</stage>Do hawi sie endlich. Wer suecht, der findt. — — Sooh, Sitze Sie
+          <pb n="27"/>
+            <stage>(zieht die Karten heraus)</stage>Do hawi sie endlich. Wer suecht, der findt. — — Sooh, Sitze Sie
           do here. 
           <stage>(mischt)</stage>Un jetz gemietlich . . . ganz gemietlich.</p>
         </sp>
@@ -1160,7 +1170,7 @@
           <p>Ich bin denne Morje im Hochamt gsin un kumm grad üs d'r Veschper. Wenn Sie mir's nit glauwe,
           d'Mamsell Jeanne wurd's ne bstä- tige. Sie isch nit do?</p>
         </sp>
-        <pb n="28" />
+        <pb n="28"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>'s mueß jede-n-Auesblick kumme. 's isch noch e bissel im Pfarrhüs.</p>
@@ -1213,7 +1223,7 @@
           <speaker>Schmelzer:</speaker>
           <p>Was isch denn los? M'r kennt Sie jo gar nit widder.</p>
         </sp>
-        <pb n="29" />
+        <pb n="29"/>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Ach, Herr Schmelzer . . . wenn ich mich selbscht nur noch kenne dhädd! Ich bin schun kein Mensch
@@ -1244,7 +1254,7 @@
           ingetroffe-n-isch. Wie hoch un heilig ich eijer Jeanne halt, was es mir isch, dodrüs hawi jo
           niemole-n-e Hehl gemacht. Was es m'r awer wäre soll, dis hawi jo selbscht nit emol ze traime gewöujt. E
           ganz Johr hawi's nabgedruckt un for mich gebhalte . . . rüwi hawi 
-          <pb n="30" />d' Zitt abwarte wölle un g'hofft, es wurd sich alles so langsam vun selbscht mache. Mit
+          <pb n="30"/>d' Zitt abwarte wölle un g'hofft, es wurd sich alles so langsam vun selbscht mache. Mit
           dem Warte gehts awer nur so lang wie's geht; denn es gitt Fäll wo m'r nimm warte derf, Herr Schmelzer.
           Denn wenn ich m'r bedenk, min Glück, wo ich druff hoff, könnt m'r in Stücker gehn, wil e-n-Andrer mir
           zevorkummt, in dem 's Jeanne verlicht als Liebschti grad genue isch, ..... dino packt's mich, drno
@@ -1270,7 +1280,7 @@
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Sehn Sie, dis isch's au, was ich m'r am Daa's fuffzig, hundertmol vorbreddi. Ich hab 
-          <pb n="31" />jo au alli Mittel angewendt, for m'r mini Gedanke-n-üs 'm Kopf ze triewe. 's nutzt awer
+          <pb n="31"/>jo au alli Mittel angewendt, for m'r mini Gedanke-n-üs 'm Kopf ze triewe. 's nutzt awer
           nix... ich wur's nit los ..... ich wur's nit los ..... es verfoljt mich uff Schritt und Tritt, un's
           vergehn ken zeh Minüte, ze het's mich widder am Kraaue. — — Un ewwe drum hawi m'r hit de Kürasch
           genumme for mich mit 'ne ehrlich üszebabble, Herr Schmelzer; denn wenn ich weiß, was ich ze hoffe hab
@@ -1301,7 +1311,7 @@
           weje-n-em Jeanne gefröujt han — — d'r Hooke steckt ganz wo andersch. Es isch hittzedaas e bekannti
           Sach, daß zuem Ehstand e bissel meh gehört wie Lieb un guete Wille — — hittzedaas. E Position müeß d'r
           Mann han, 
-          <pb n="32" />for d'Familli un was drum un dran hängt, ohne Sorje durichzebringe. D'r Kampf ums däjli
+          <pb n="32"/>for d'Familli un was drum un dran hängt, ohne Sorje durichzebringe. D'r Kampf ums däjli
           Brod isch nit licht. 's wurd alles dhierer un's Geld wurd rarer. Wirkli sin Sie awer nur e einfacher
           Schlossergsell — — dis isch m'r e bissel gar ze weni for min liebs Kind. — Un minere Frau 's nämli.</p>
         </sp>
@@ -1327,7 +1337,7 @@
           isch noch e Kind, es denkt noch nit an so Dings. — Jetz warte Sie nur, bis daß Sie selbscht emol
           Meischter sin un Iri Gselle han. Nit wil ich de Gsellestand nit hoch halt oder verlicht gar schrägs
           anluej. Bin jo selbscht Gsell gsin un hab mich zum Meischter in d'Höh geschafft. 's 
-          <pb n="33" />isch nur dis, e Hüshaltung koscht Geld .... m'r mueß au wittersch denke . . . un was Sie
+          <pb n="33"/>isch nur dis, e Hüshaltung koscht Geld .... m'r mueß au wittersch denke . . . un was Sie
           verdiene, dis reicht nit drfor, noch lang nit. 's Jeanne het's allewyl guet ghet. Wenn ich awer denke
           mueßt, 's wär nit guet uffghebt, 's Gewisse dhädd mich jo ken Stund schloofe lon.</p>
         </sp>
@@ -1354,17 +1364,19 @@
           gsehn. Min Coiffeursalon isch verkauft, ich kann nit üs Zinse lewe. Schriewe mueß ich noch gehn, daß
           ich e bissel ebbs verdien. — — Mais c'est égal. Wer's Jeanne kriejt, kann stolz sin. 
           <stage>(Man hört Jeanne draußen singen)</stage>Ecoutez, do kummt's grad. E Stimm wie e Nachtigall. 
-          <stage>(Albert tritt ein wenig zurück.)</stage></p>
+          <stage>(Albert tritt ein wenig zurück.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>
-          <stage>(17 Jahre alt; bildhübsche, schlanke Erscheinung; einfach aber ge-</stage>
-          <stage>5</stage>
-          <pb n="34" />
-          <stage>schmackvoll gekleidet ; sie trägt ein Gebetbuch und einen Sonnenschirm Unbefangen und
+            <stage>(17 Jahre alt; bildhübsche, schlanke Erscheinung; einfach aber ge-</stage>
+            <stage>5</stage>
+            <pb n="34"/>
+            <stage>schmackvoll gekleidet ; sie trägt ein Gebetbuch und einen Sonnenschirm Unbefangen und
           fröhlich)</stage>Bonjour Babbe! 
-          <stage>(eilt auf ihn zu, umhalst ihn und giebt ihm einen Kuß).</stage></p>
+          <stage>(eilt auf ihn zu, umhalst ihn und giebt ihm einen Kuß).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
@@ -1438,7 +1450,7 @@
           <speaker>Schmelzer:</speaker>
           <p>In minere Stub. Bi d'r Mamme.</p>
         </sp>
-        <pb n="35" />
+        <pb n="35"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Ich kumm no glich. 
@@ -1448,7 +1460,8 @@
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Au revoir, Mamsell Jeanne 
-          <stage>(Jeanne ab nach rechts).</stage></p>
+          <stage>(Jeanne ab nach rechts).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer :</speaker>
@@ -1498,7 +1511,7 @@
           <speaker>Schmelzer:</speaker>
           <p>Min Ernscht. Wenn ich ebbs saa, ze gelt's au.</p>
         </sp>
-        <pb n="36" />
+        <pb n="36"/>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Un . . . 's Jeanne?</p>
@@ -1565,7 +1578,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Allewyl din weichs Herz. Wie e Stückel Wachs. 's isch nit ze glauwe.</p>
         </sp>
-        <pb n="37" />
+        <pb n="37"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Voyons, mach m'r de Gaul nit scheij.</p>
@@ -1593,7 +1606,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Ich hab genue jetz. Leije will ich e bissel. — D'r Kopf isch m'r ganz dumm 
-          <stage>(geht brummelnd nach links ab)</stage></p>
+          <stage>(geht brummelnd nach links ab)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -1637,7 +1651,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>E Trumpf?</p>
         </sp>
-        <pb n="38" />
+        <pb n="38"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Bisch dü awer einfältig.</p>
@@ -1719,7 +1733,7 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>De hesch so ebbs Verklärts im Gsicht, so ebbs Iwwernadierlichs, grad wie e 
-          <pb n="39" />..... wie e . . . wie soll i denn gschwind saa ..... wie e Hochzittere.</p>
+          <pb n="39"/>..... wie e . . . wie soll i denn gschwind saa ..... wie e Hochzittere.</p>
         </sp>
         <spGrp>
           <stage>gleichzeitig</stage>
@@ -1766,7 +1780,8 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Ahja! 's isch bi Gott wohr. Ich kumm morje-n-au e Sprung, wenn's d'r paßt. 
-          <stage>(sie tritt ans Fenster)</stage></p>
+          <stage>(sie tritt ans Fenster)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
@@ -1787,7 +1802,7 @@
           <stage>(eilt ans andere Fenster, wendet sich aber sofort ab und tritt erregt in die Mitte des
           Zimmers)</stage>
         </sp>
-        <pb n="40" />
+        <pb n="40"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Kannsch sehn?</p>
@@ -1826,7 +1841,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Wurum hesch denn din schön Kleid nit angebhalte, Jeanne? Ich bin au gar nit en toilette. 
-          <stage>(zupft sich zurecht)</stage></p>
+          <stage>(zupft sich zurecht)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -1844,7 +1860,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Jeanne, de bisch doch anderthalwe Johr in d'r französche Schwyz gsin . . . 
-          <stage>(es klopft)</stage></p>
+          <stage>(es klopft)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -1856,9 +1873,10 @@
           Ausdruck im Gesicht, bleibt an der Thüre stehen):</stage>
           <p>Bonsoir, mesdames. 
           <stage>(sieht Jeanne)</stage>Bonsoir, mademoiselle Schmelzer. 
-          <stage>(Pause)</stage></p>
+          <stage>(Pause)</stage>
+          </p>
         </sp>
-        <pb n="41" />
+        <pb n="41"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Mößjö Steinfeld, wenn ich mich nit trumpier.</p>
@@ -1875,7 +1893,8 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Verlicht will d'r jung Herr Platz nemme, — Jeanne, lang doch emol de Fodell, es sitzt sich so guet
           drinne. 
-          <stage>(Jeanne bleibt regungslos stehen.)</stage></p>
+          <stage>(Jeanne bleibt regungslos stehen.)</stage>
+          </p>
         </sp>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
@@ -1885,7 +1904,8 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>'s isch halt nit herrschäftli bi uns. Awer proper isch doch, un 's steckt viel Arweit drinne, Herr
           Steinfeld. 
-          <stage>(Pause)</stage></p>
+          <stage>(Pause)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -1924,14 +1944,16 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Wurum denn nit, Herr Steinfeld 
-          <stage>(nimmt Frau Schmelzer am Arm).</stage></p>
+          <stage>(nimmt Frau Schmelzer am Arm).</stage>
+          </p>
         </sp>
-        <pb n="42" />
+        <pb n="42"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer</speaker>
           <stage>(im Abgehen leise zu Frau Schwindt) :</stage>
           <p>Im Jeanne sini Stubb. D'r Babbe schlooft 
-          <stage>(beide rechts ab).</stage></p>
+          <stage>(beide rechts ab).</stage>
+          </p>
         </sp>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz</speaker>
@@ -1964,7 +1986,8 @@
           <speaker>Fritz:</speaker>
           <p>Ob ebbs passiert isch! Mon dieu! mon dieu! 
           <stage>(er setzt sich auf einen Stuhl am großen Tisch und verbirgt seinen Kopf in beiden
-          Händen).</stage></p>
+          Händen).</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
@@ -1987,7 +2010,7 @@
           Kirich ... rueft mich min Babbe ... in sin cabinet particulier. — — Het'm jetz ebber gschriwwe . . .
           oder het'r's selbscht gemerkt . . . n'importe ..... er fröujt mich, eb's wobr isch)... daß ich d'r
           d'Hiroth versproche hab. — — Kannsch d'r denke . . . wie ich do gstande bin... 
-          <pb n="43" />was antworte? Guet, saa ich mir ..... wo 's jetz doch emol verrothe-n-isch . . . jetz
+          <pb n="43"/>was antworte? Guet, saa ich mir ..... wo 's jetz doch emol verrothe-n-isch . . . jetz
           soll's au e-n-End han mit dere Heimlichdhuenereij . . . schun weje dir un dim Namme — — affın, ich faß
           m'r e Herz . . . un saa alles grad erüs . . . wie's d'Wohrheit isch.</p>
         </sp>
@@ -2015,7 +2038,7 @@
           wie sie m'r finalement zuegemueth han, ich soll dich mit e paar hundert Franke uff's alte Ise schmisse
           . . . do hawi mich nimm könne hewwe . .. c'etait trop fort ..... do isch d'r heilig Zorn üwer mich
           kumme un ..... nein! nein! erspar m'r, 's detail 
-          <pb n="44" />ze verzähle . . . es wurd genue sin, wenn ich d'r saa, ich kann min Lebdesdaa nimm ins
+          <pb n="44"/>ze verzähle . . . es wurd genue sin, wenn ich d'r saa, ich kann min Lebdesdaa nimm ins
           Elderehüs zeruck.</p>
         </sp>
         <sp who="#jeanne">
@@ -2086,7 +2109,7 @@
           <speaker>Fritz:</speaker>
           <p>Wenn de's erfahrsch, wo ich anne geh, ze wursch's begriffe.</p>
         </sp>
-        <pb n="45" />
+        <pb n="45"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Wo gehsch anne? 
@@ -2139,7 +2162,7 @@
           <p>Es kummt e Zitt, do wursch m'r's danke, daß ich furt bin vun d'r. Glaub m'r's, es kummt eini. De
           wursch insehn, daß dis 's Bescht isch gsin. — — Un wil's denn emol sin mueß: leb wohl!</p>
         </sp>
-        <pb n="46" />
+        <pb n="46"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Fritz! Fritz! — — Un ich soll dich nie wiedersehn! — — Dis kann din Ernscht nit sin . . . de
@@ -2186,14 +2209,15 @@
           Jetz verrooth mi nit . . . un wenn sie dich fröuje, wo ich anne geh, saa nurre, ich wär krank, arig
           krank dis bin ich au — — ich müßt uff Madeire wäje minere Gsundheit . . . odder sunsch ebbs, was d'r
           grad inkummt. — Leb wohl, leb wohl! 
-          <stage>(küßt sie und eilt von dannen).</stage></p>
+          <stage>(küßt sie und eilt von dannen).</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <stage>(bricht in dem Fauteuil zusammen und fängt an laut zu weinen, sich die Hände vor's Gesicht
           haltend).</stage>
         </sp>
-        <pb n="47" />
+        <pb n="47"/>
         <stage>(Frau Schwindt und Frau Schmelzer von rechts.)</stage>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -2202,12 +2226,14 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Um's Himmelswille, was isch denn los? Isch e-n-Unglück gschehn ? 
-          <stage>(Pause)</stage></p>
+          <stage>(Pause)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Wurum sitzsch denn do wie e Hüffe-n-Elend? derf's unsereins nit wisse ? 
-          <stage>(Pause)</stage></p>
+          <stage>(Pause)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
@@ -2216,7 +2242,8 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Isch'r widder furt ? 
-          <stage>(Jeanne nickt zu)</stage></p>
+          <stage>(Jeanne nickt zu)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
@@ -2266,11 +2293,12 @@
           <speaker>Jeanne:</speaker>
           <p>— — Noch Madeire.</p>
         </sp>
-        <pb n="48" />
+        <pb n="48"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>E reschpektawli Reis. 'r kummt awer doch widder. 
-          <stage>(Jeanne verneint)</stage></p>
+          <stage>(Jeanne verneint)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
@@ -2319,7 +2347,8 @@
           <speaker>Jeanne</speaker>
           <stage>(erregt):</stage>
           <p>Pfui! awer so ebbs ! 
-          <stage>(läuft nach rechts ab.)</stage></p>
+          <stage>(läuft nach rechts ab.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -2333,7 +2362,7 @@
           Nimmerwiddersehn. — — Dis arm Kind! — — Ich mueß sitze. Ich mein grad, d'r Schlaa trefft mich, so weh
           isch 's m'r.</p>
         </sp>
-        <pb n="49" />
+        <pb n="49"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Wer het sich dis erwardt! — — Die Gschicht isch awer au ze viel Hals üwer Kopf gange.</p>
@@ -2370,7 +2399,7 @@
           — So isch's, un ken Dippele-n-andersch.</p>
         </sp>
         <stage>7</stage>
-        <pb n="50" />
+        <pb n="50"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Wahrhafti, Lüwis, dis kann so sin.</p>
@@ -2406,7 +2435,7 @@
           <speaker>Frau Schmelzer :</speaker>
           <p>Seij still, nit wittersch!</p>
         </sp>
-        <pb n="51" />
+        <pb n="51"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt :</speaker>
           <p>Dis isch joh e schöni Paschtet. Dis heißt m'r Diplomatie.</p>
@@ -2453,7 +2482,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Verzeij m'r Lüwis, wenn ich d'r je weh gemacht hab. — 's Jeanne kann jo nix drfor.</p>
         </sp>
-        <pb n="52" />
+        <pb n="52"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Juschtement. Dis het kenn Sach. — — Helfe soll ich also: — — Im . . . weisch halt . . . ich dhues jo
@@ -2479,7 +2508,7 @@
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
-          <p>Als Ehremann — —&#160;?</p>
+          <p>Als Ehremann — — ?</p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -2492,13 +2521,15 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Un wenn's jetz awer doch schun so witt kumme wär? — — Ze redd doch. 
-          <stage>(Pause)</stage></p>
+          <stage>(Pause)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer</speaker>
           <stage>(tonlos):</stage>
           <p>Ich halt — — de junge Steinfeld — — for e-n-Ehremann. 
-          <stage>(Pause)</stage></p>
+          <stage>(Pause)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -2512,7 +2543,7 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt :</speaker>
           <p>Wenn's denn noch nit so wit kumme-n-isch . . . isch's denn so üsgschlosse, daß 
-          <pb n="53" />noch ebbs passirt? — — Es mueß halt ebbs passire.</p>
+          <pb n="53"/>noch ebbs passirt? — — Es mueß halt ebbs passire.</p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer</speaker>
@@ -2545,7 +2576,7 @@
           <speaker>Frau Schwindt:</speaker>
           <p>Ja — -, wie molsch d'r denn dis üs? Im Jeanne ebbs saaue drvun ? Do dhädde nur freijli hell dostehn.
           — O jeh Gott, nein! Dis mueß nadierlich ganz unter uns zwei bliewe. 
-          <pb n="54" />Nit emol din Mann derf ebbs erfahre drvun. Dis isch d'Hauptsach.</p>
+          <pb n="54"/>Nit emol din Mann derf ebbs erfahre drvun. Dis isch d'Hauptsach.</p>
         </sp>
         <stage>(Große Pause.)</stage>
         <sp who="#jakob_schmelzer">
@@ -2575,7 +2606,8 @@
           <speaker>Frau Schwindt:</speaker>
           <p>Eh ben, ze will i gehn. Schad nur for die zwei, sie wärde glükli worre mit'nand. Schad au for dis
           viel Geld, wo'r an's Jeanne ghenkt han. — — Jetz ..... nix for unguet. A demain 
-          <stage>(geht bis zur Thür).</stage></p>
+          <stage>(geht bis zur Thür).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
@@ -2599,7 +2631,7 @@
           <stage>(tonlos):</stage>
           <p>M'r könnt sich's . . . jo emol ... üwerlaje ...</p>
         </sp>
-        <pb n="55" />
+        <pb n="55"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt</speaker>
           <stage>(tritt an Frau Schmelzer dicht heran):</stage>
@@ -2652,7 +2684,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Bedenk doch sini Gsundheit! Sie dhädde m'r ne jo halwer doot heime bringe.</p>
         </sp>
-        <pb n="56" />
+        <pb n="56"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Wurum nit gar. Mit dinere üwertriwwene-n-Ängschlichkeit. Dis wurd'm groß ebbs mache, wenn'r dreij
@@ -2694,7 +2726,7 @@
           in de Sack", saa i, hawi gsaat, um richtig, wie 'r drno suecht, findt'r au min Zehmarikstückel. Daß im
           e solide Gschäft so ebbs vorkumme kann!</p>
         </sp>
-        <pb n="57" />
+        <pb n="57"/>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <stage>(ruhig):</stage>
@@ -2736,12 +2768,14 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Halte Sie. — Dis isch for Sie 
-          <stage>(giebt ihm ein Trinkgeld. Dienstmann ab).</stage></p>
+          <stage>(giebt ihm ein Trinkgeld. Dienstmann ab).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Was schriebt'r ? 
-          <stage>(Jeanne reicht den Brief und sinkt schluchzend auf einen Stuhl nieder).</stage></p>
+          <stage>(Jeanne reicht den Brief und sinkt schluchzend auf einen Stuhl nieder).</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -2749,7 +2783,7 @@
           Frédéric." — — Morje-n-Owe kummt'r here. — — O wie ungschickt isch awer dis! Jetzi hawi eich ins
           Theater ingelade, d'Billets leije schun dheim. Un diner Mann will doch uffs Gaartefescht. — — 's Jeanne
           kann nadierlich unter denne-n-Umständ 
-          <pb n="58" />nit mit eß gehn. — Was isch do ze mache ? Ich schick drno 's Juliette, daß 's Jeanne nit
+          <pb n="58"/>nit mit eß gehn. — Was isch do ze mache ? Ich schick drno 's Juliette, daß 's Jeanne nit
           ellein isch.</p>
         </sp>
         <sp who="#jakob_schmelzer">
@@ -2758,7 +2792,7 @@
         </sp>
         <stage>(Der Vorhang fällt.)</stage>
       </div>
-      <pb n="59" />
+      <pb n="59"/>
       <div type="act">
         <head>Zweiter Aufzug.</head>
         <stage>Dieselbe Scenerie wie im ersten Aufzug. Nur das linke Fenster steht offen. An dem runden Tische
@@ -2785,7 +2819,7 @@
           <stage>(mit vollen Munde):</stage>
           <p>Kann sin. Bi uns verlohnt sich's nit. Mir trinke nit viel Kaffee dheim. Min Mann isch schun am
           sechse an d'r Arweit um ich steh ererscht am siwwene uff; un 
-          <pb n="60" />Nomiddas am viere preferier ich e Schöppel Bier mit eme Stückel Schwyzerkäs. — Vous savez,
+          <pb n="60"/>Nomiddas am viere preferier ich e Schöppel Bier mit eme Stückel Schwyzerkäs. — Vous savez,
           d'r Kaffee macht m'r ze viel Hitze in de Kopf.</p>
         </sp>
         <sp who="#frau_sutter">
@@ -2818,7 +2852,8 @@
           <speaker>Juliette</speaker>
           <stage>(steht auf und serviert):</stage>
           <p>Madam Sütter, noch e kleins Tässele ? 
-          <stage>(schenkt ein).</stage></p>
+          <stage>(schenkt ein).</stage>
+          </p>
         </sp>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter:</speaker>
@@ -2827,13 +2862,14 @@
         <sp who="#juliette">
           <speaker>Juliette:</speaker>
           <p>Do isch Zucker, do isch Milich. Un Sie Madam Thomas ? 
-          <stage>(schenkt ein).</stage></p>
+          <stage>(schenkt ein).</stage>
+          </p>
         </sp>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
           <p>Halt!! — — Er geht m'r ze viel uff d'Nerve. Ich mueß schun e ganz roter Kopf han.</p>
         </sp>
-        <pb n="61" />
+        <pb n="61"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Do sin noch Eklär. Verlicht e Stückel Köjelhupf odder Ziwwelkueche ?</p>
@@ -2885,7 +2921,7 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt :</speaker>
           <p>'s isch doch trürig, so e Lewe als Junggsell. — Nit vun Ine ze redde, Frau Sütter: 
-          <pb n="62" />do sin jetz awer doch sicher so un so viel Litt, wo's nit erwarte könne, bis daß'r emol
+          <pb n="62"/>do sin jetz awer doch sicher so un so viel Litt, wo's nit erwarte könne, bis daß'r emol
           abkratzt.</p>
         </sp>
         <sp who="#frau_thomas">
@@ -2940,14 +2976,15 @@
           <speaker>Frau Sutter:</speaker>
           <p>Un e Mann im Hüs, dis macht erscht de Hafe koche. Ich bin jo schun lang Wittfrau, fascht so lang wie
           Sie, Frau Schwindt. Un doch mueß 
-          <pb n="63" />ich Daa for Daa an mine Mann seeli denke. Ich — bin awer au gewiß, er het mich noch nit
+          <pb n="63"/>ich Daa for Daa an mine Mann seeli denke. Ich — bin awer au gewiß, er het mich noch nit
           vergesse, denn noch 's letscht isch 'r mir erschiene im Traum, mit eme Linduech üwer'm Buckel un e
           Gsicht wie d'r Dood.</p>
         </sp>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
           <p>Nadierlicherwis, wenn 'r schun nien Johr doot isch, kann'r nimmi gsund erüslueje. 
-          <stage>(Jeanne kommt zurück)</stage></p>
+          <stage>(Jeanne kommt zurück)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -2973,7 +3010,7 @@
           Bleij gegosse het. Wie het sie denn noch gschwind gheiße . . . . richtig ja... 's Marie Kellermann
           isch's gsin. Also die Mamsell het —</p>
         </sp>
-        <pb n="64" />
+        <pb n="64"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer</speaker>
           <stage>(von der Promenade zurückkehrend):</stage>
@@ -3002,7 +3039,8 @@
           <sp who="#emelie_schmelzer #frau_sutter #frau_thomas #jeanne #jeanne-louise_schwindt #juliette">
             <speaker>Frau Thomas, Frau Sutter, Herr Schmelzer, Jeanne :</speaker>
             <p>Awer nein, Herr Schmelzer! 
-            <stage>(bezw. Schwöujer, Unkel u.)</stage></p>
+            <stage>(bezw. Schwöujer, Unkel u.)</stage>
+            </p>
           </sp>
           <sp who="#jeanne-louise_schwindt">
             <speaker>Frau Schwindt :</speaker>
@@ -3033,7 +3071,8 @@
         <sp who="#juliette">
           <speaker>Juliette:</speaker>
           <p>Vun ere Mamsell, wo in d'r Andreesenacht Bleij gegosse het. 
-          <stage>(Die Andern lachen)</stage></p>
+          <stage>(Die Andern lachen)</stage>
+          </p>
         </sp>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter</speaker>
@@ -3048,7 +3087,7 @@
           <speaker>Frau Sutter:</speaker>
           <p>Nein, nein, dis isch e Gschicht nur for Wibslitt.</p>
         </sp>
-        <pb n="65" />
+        <pb n="65"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Poh, wenn's mich nix angeht . . . i bin nit wunderfitzi. — — Wie ich awer sieh, han'r ferdi mit'm
@@ -3061,7 +3100,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Weiß schun. 
-          <stage>(Durch die hintere Thüre ab.)</stage></p>
+          <stage>(Durch die hintere Thüre ab.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -3075,12 +3115,14 @@
           schallü 
           <stage>(setzt sich rechts neben Frau Schmelzer, die andern rücken).</stage>Jetz, chère moitié, rüm e
           bissel ab, d'Glässer uff de Disch un Dellerle, daß' gemietli wurd 
-          <stage>(Frau Schmelzer steht auf).</stage></p>
+          <stage>(Frau Schmelzer steht auf).</stage>
+          </p>
         </sp>
         <sp who="#juliette">
           <speaker>Juliette :</speaker>
           <p>Wart, ich helf d'r 
-          <stage>(steht auf und hilft).</stage></p>
+          <stage>(steht auf und hilft).</stage>
+          </p>
         </sp>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter</speaker>
@@ -3092,7 +3134,7 @@
           <p>Ja, dato gspier ich mich gsund wie nur emol — — wie nur emol. — — Denke Sie, ich geh jo denne Owe
           uffs Gaardefescht in d'r grüne Wart. Dis wurd e surprise genn!</p>
         </sp>
-        <pb n="66" />
+        <pb n="66"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>So so, dü gehsch uffs Gaardefescht.</p>
@@ -3119,7 +3161,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Ich nemm e dicker Pardessü mit, no kann m'r mix bassiere. — Um achte geht's schun los 
-          <stage>(sieht auf die Uhr).</stage></p>
+          <stage>(sieht auf die Uhr).</stage>
+          </p>
         </sp>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter:</speaker>
@@ -3140,7 +3183,7 @@
           <stage>(Sie setzen sich alle bis auf Frau Schmelzer, welche schneidet, Jeanne kommt mit 2 Flaschen
           Rotwein zurück.)</stage>Ah do bisch. D'r Tire-Bouchon hängt am Brett.</p>
         </sp>
-        <pb n="67" />
+        <pb n="67"/>
         <sp who="#juliette">
           <speaker>Juliette</speaker>
           <stage>(zu Jeanne):</stage>
@@ -3150,7 +3193,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Un jetz ingschenkt. 
-          <stage>(Zuliette schenkt ein.)</stage></p>
+          <stage>(Zuliette schenkt ein.)</stage>
+          </p>
         </sp>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
@@ -3175,7 +3219,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Un dis Bouquet! Ah! 
-          <stage>(schnalzt mit der Zunge.)</stage></p>
+          <stage>(schnalzt mit der Zunge.)</stage>
+          </p>
         </sp>
         <sp who="#juliette">
           <speaker>Juliette</speaker>
@@ -3242,7 +3287,8 @@
         <sp who="#emelie_schmelzer #frau_sutter #frau_thomas #jeanne #jeanne-louise_schwindt #juliette">
           <speaker>Die Andern:</speaker>
           <p>Gsundheit! 
-          <stage>(Stoßen an und trinken.)</stage></p>
+          <stage>(Stoßen an und trinken.)</stage>
+          </p>
         </sp>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter:</speaker>
@@ -3260,11 +3306,12 @@
           <speaker>Frau Sutter:</speaker>
           <p>Nein, nein, ich mueß gehn, do helft nix.</p>
         </sp>
-        <pb n="68" />
+        <pb n="68"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Do, nemmt Sie noch e Stückel Tart mit for's Célestinel. 
-          <stage>(Wickelt ihr ein Stück ein.)</stage></p>
+          <stage>(Wickelt ihr ein Stück ein.)</stage>
+          </p>
         </sp>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas</speaker>
@@ -3284,7 +3331,8 @@
           <p>So e guets Tröpfel derf m'r nit stehn lon 
           <stage>(sie trinkt ihr Glas aus).</stage>Merci vielmols, Madam Schmelzer. Au revoir. 
           <stage>(Gegenseitige Verabschiedung und Gruß- bestellung; Frau Schmelzer, Frau Schwindt und Juliette
-          begleiten die beiden andern vor die Thür, wo sie noch eine Weile hörbar sind.)</stage></p>
+          begleiten die beiden andern vor die Thür, wo sie noch eine Weile hörbar sind.)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
@@ -3294,7 +3342,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Ich weiß nit, Babbe. Ich denk emol. Ich will gehn lueje 
-          <stage>(nach links ab).</stage></p>
+          <stage>(nach links ab).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
@@ -3308,13 +3357,14 @@
           <p>Brennts denn? Dhue dich nur an. 
           <stage>(Jeanne kommt von links)</stage>Ich hab d'r alles parat uff's Bett gelaijt. Kumm, ich zaij
           d'r's, sunsch findsch jo doch nix 
-          <stage>(beide nach links ab).</stage></p>
+          <stage>(beide nach links ab).</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>M'r han au nimm ze viel Zitt. 's Theater fangt am halwer acht an.</p>
         </sp>
-        <pb n="69" />
+        <pb n="69"/>
         <sp who="#juliette">
           <speaker>Juliette:</speaker>
           <p>Jüschtement, wenn d'r Herr Steinfeld kummt.</p>
@@ -3322,7 +3372,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Ich mein grad, ich mueß sterwe 
-          <stage>(sie setzt sich und weint still vor sich hin).</stage></p>
+          <stage>(sie setzt sich und weint still vor sich hin).</stage>
+          </p>
         </sp>
         <sp who="#juliette">
           <speaker>Juliette:</speaker>
@@ -3340,12 +3391,14 @@
           <speaker>Frau Schwindt</speaker>
           <stage>(schenkt ihr ein und reicht ihr das Glas):</stage>
           <p>Do trink emol, dis gitt andri Gedanke ins Latäddel. 
-          <stage>(Jeanne trinkt.)</stage></p>
+          <stage>(Jeanne trinkt.)</stage>
+          </p>
         </sp>
         <sp who="#juliette">
           <speaker>Juliette:</speaker>
           <p>Üsgedrunke! Siehsch, ich trink mit d'r. Uff d'Gesundheit vun dim Fritz. 
-          <stage>(Jeanne trinkt aus.)</stage></p>
+          <stage>(Jeanne trinkt aus.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
@@ -3358,7 +3411,8 @@
         <sp who="#juliette">
           <speaker>Juliette:</speaker>
           <p>Jetz trickel gschwind dini Aue, daß m'r nit sieht, daß de gegrine hesch 
-          <stage>(sie hilft ihr die Augen trocknen; Frau Schwindt streicht ihr die Haare über's Ohr).</stage></p>
+          <stage>(sie hilft ihr die Augen trocknen; Frau Schwindt streicht ihr die Haare über's Ohr).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer</speaker>
@@ -3383,9 +3437,10 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>For mich isch's meh wie genue 
-          <stage>(sie weint wieder).</stage></p>
+          <stage>(sie weint wieder).</stage>
+          </p>
         </sp>
-        <pb n="70" />
+        <pb n="70"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Jetz luej einer dis Kind. De machsch d'r chagrin for nix un widder nix.</p>
@@ -3416,17 +3471,20 @@
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Heb ne in kalts Wasser, awer grin m'r nit, de weisch, ich kann dis nit sehn 
-          <stage>(nach links).</stage></p>
+          <stage>(nach links).</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Säh, trink noch emol, dis macht starki Nerve. 
-          <stage>(Jeanne verneint.)</stage></p>
+          <stage>(Jeanne verneint.)</stage>
+          </p>
         </sp>
         <sp who="#juliette">
           <speaker>Juliette:</speaker>
           <p>Ze trink doch! 
-          <stage>(Jeanne nippt ein wenig.)</stage></p>
+          <stage>(Jeanne nippt ein wenig.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -3435,7 +3493,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Weiß Gott ja. — Ich bitt dich Kind, nemm dich doch zamme, 's isch jo nimm zuem Anlueje. 
-          <stage>(Es klopft an.)</stage></p>
+          <stage>(Es klopft an.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
@@ -3446,14 +3505,15 @@
           <speaker>Frau Schwindt:</speaker>
           <p>Geh doch, 's isch noch viel ze frühj. 
           <stage>(Es klopft nochmals.)</stage>Entrez ! 
-          <stage>(Sie geht an die Thüre und öffnet.)</stage></p>
+          <stage>(Sie geht an die Thüre und öffnet.)</stage>
+          </p>
         </sp>
         <sp who="#herr_wurster">
           <speaker>Wurster</speaker>
           <stage>(die behäbige Gestalt; rote Backen; im schwarzen Gehrock mit Cylinder):</stage>
           <p>Bonsoir. Do isch jo fascht d'ganz Frindschaft binander.</p>
         </sp>
-        <pb n="71" />
+        <pb n="71"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer :</speaker>
           <p>Sitze Sie e bissel. 
@@ -3509,13 +3569,15 @@
         <sp who="#jakob_schmelzer">
           <speaker>Scchmelzer:</speaker>
           <p>Ich schnüüf, daß i nit verstick 
-          <stage>(sie lachen).</stage></p>
+          <stage>(sie lachen).</stage>
+          </p>
         </sp>
-        <pb n="72" />
+        <pb n="72"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Jeanne, de Bardessü. 
-          <stage>(Jeanne holt ihn.)</stage></p>
+          <stage>(Jeanne holt ihn.)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer</speaker>
@@ -3532,7 +3594,8 @@
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
           <p>Bonsoir bisamme 
-          <stage>(beide ab).</stage></p>
+          <stage>(beide ab).</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -3555,7 +3618,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Es mueß jo sin. E Gottsnamme, ich hol min Duech 
-          <stage>(ab nach links).</stage></p>
+          <stage>(ab nach links).</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt</speaker>
@@ -3576,8 +3640,8 @@
           <speaker>Frau Schwindt:</speaker>
           <p>Ich denk am zwölf Uhr 
           <stage>(zwinkernd).</stage>
-          <stage>10</stage>
-          <pb n="73" />Ehnder wurd's Theater nit üs sin. So steht's emol uff'm Zettel, 's sin jo zwei Stücker.
+            <stage>10</stage>
+            <pb n="73"/>Ehnder wurd's Theater nit üs sin. So steht's emol uff'm Zettel, 's sin jo zwei Stücker.
           Villicht packe m'r au noch e Schöppel. D'r Scharl isch jo bi eß. Uff jede Fall hol ich dich ab.</p>
         </sp>
         <sp who="#juliette">
@@ -3598,7 +3662,8 @@
           <p>Adje liebs Kind. — — Loß dich .. . noch emol betrachte, eb daß . . . . ich furt geh . . . dü weisch
           jo . . . dini Mamme loßt di nit gern ellein . . . grad hit nit . . . awer .. . 's isch jo wäje dir . .
           . es mueß jo sin. 
-          <stage>(Sie küßt sie verschiedentlich auf beide Wangen)</stage></p>
+          <stage>(Sie küßt sie verschiedentlich auf beide Wangen)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -3614,7 +3679,8 @@
           <speaker>Frau Schwindt :</speaker>
           <p>Bonsoir, ihr zwei Mamselle. Amesiere-n-eich guet. 
           <stage>(Frau Schmelzer reißt sich los und folgt Frau Schwindt. Beide durch die hintere Thüre
-          ab.)</stage></p>
+          ab.)</stage>
+          </p>
         </sp>
         <sp who="#juliette">
           <speaker>Juliette:</speaker>
@@ -3629,7 +3695,7 @@
           <p>Dis isch nit d'r Win. Bisch jo ganz bleich im Gsicht. Trink emol widder. Wart, ich mach d'r d'ander
           Budell uff. Roti Bäckle muesch kreije wie Herzkirsche, wenn 'r kummt.</p>
         </sp>
-        <pb n="74" />
+        <pb n="74"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Daß m'r noch weh wurd.</p>
@@ -3672,7 +3738,7 @@
           er mir au; m'r drucke-n-eß d' Händ, er denkt an nix, ich noch wenijer, höchstes daß i mich fuchs, daß
           ich zellemols so dumm bin gsin, mir chagrin ze mache.</p>
         </sp>
-        <pb n="75" />
+        <pb n="75"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Was isch dis for e Gschicht?</p>
@@ -3707,7 +3773,7 @@
           <p>'s isch am Sylweschter-Owe gsin. D'r Schosseff isch mit sine Kamerade ins Bierhüs gange, un d'r
           Scharel, zellemols noch e Bue, het schun gschloofe. Nur d'Mamme-n-un ich sin noch uff de Bein gsin. Mir
           mache-n-uns e Grogg mit Änedsbrödle drzue. Uff einmol klopft's. Wer 
-          <pb n="76" />ich's? Min Herzallerliebschter, un fröujt noch'm Schorsch. Leischte Sie uns e bissel
+          <pb n="76"/>ich's? Min Herzallerliebschter, un fröujt noch'm Schorsch. Leischte Sie uns e bissel
           Societät, saat d'Mamme. Er loßt sich's nit zweimol saaue un bliet. Dis düürt e Wil, do mueß d'Mamme
           furt zue ere Kimbettere. — — (Große Pause.) Un so hawi ne kenne lehre. Noch e Monet bin i mit'm gange
           un drno adieu Bardie! Langwilig isch'r worre, aller charme isch wie eweckgebloose gsin. Un drwäje
@@ -3736,7 +3802,7 @@
           <speaker>Juliette:</speaker>
           <p>Wieso?</p>
         </sp>
-        <pb n="77" />
+        <pb n="77"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Ich möcht wisse, wo dü die Moral here hesch, wo dü do vorbringsch.</p>
@@ -3792,7 +3858,7 @@
           anrührt, krische sie wie ebbs Böses . . . awer um's Gottswille nit hinter de Rideau lueje, um's
           Gottswille nit!</p>
         </sp>
-        <pb n="78" />
+        <pb n="78"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Ken Wort meh odder...</p>
@@ -3835,13 +3901,14 @@
           <speaker>Juliette</speaker>
           <stage>(gleichgiltig):</stage>
           <p>'s isch nit nothwendig. Bonsoir, Jumpfer Prinzesse. Geruejsami Nacht. 
-          <stage>(Geht trällernd ab; ihre Tritte verhallen langsam.)</stage></p>
+          <stage>(Geht trällernd ab; ihre Tritte verhallen langsam.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <stage>(steht einen Augenblick mit wogender Brust und sucht Fassung zu gewinnen. Sie eilt dann
           zornerfüllt auf die Thüre, durch welche Juliette 
-          <pb n="79" />das Zimmer verlassen hat, verschließt und verriegelt sie)</stage>
+          <pb n="79"/>das Zimmer verlassen hat, verschließt und verriegelt sie)</stage>
           <p>So ! 
           <stage>(Sie eilt an den Tisch, schüttet sich ihr Glas voll Rotwein und stürzt es hastig
           hinunter)</stage>Gottlob, daß sie furt isch. — — Luft mueß i han, Luft; m'r verstickt fascht 
@@ -3864,7 +3931,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Ja, Fritz, m'r sin ganz ellein. 
-          <stage>(Fritz will Jeanne an sich drücken, sie wehrt ihn ab.)</stage></p>
+          <stage>(Fritz will Jeanne an sich drücken, sie wehrt ihn ab.)</stage>
+          </p>
         </sp>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
@@ -3887,7 +3955,7 @@
           <speaker>Fritz:</speaker>
           <p>Ich hab mim Kamerad 's Wort genn; zeh Minüte vor halwer Zwölf mueß ich am Zugg sin.</p>
         </sp>
-        <pb n="80" />
+        <pb n="80"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Sicher! Do isch gar nix ze mache?</p>
@@ -3915,7 +3983,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Wursch sehn, kenn halbs Johr halt ich's üs. 
-          <stage>(Lehnt sich an ihn und weint.)</stage></p>
+          <stage>(Lehnt sich an ihn und weint.)</stage>
+          </p>
         </sp>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
@@ -3932,7 +4001,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Doch Fritz, wenn dü so witt. Ich versprich dr's. Was dhue ich nit for dich! 
-          <stage>(Pause.)</stage></p>
+          <stage>(Pause.)</stage>
+          </p>
         </sp>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
@@ -3962,7 +4032,7 @@
           <p>Prowier emol denne, 'r isch guet. Un do hesch au e Stückel Kueche.</p>
         </sp>
         <stage>11</stage>
-        <pb n="81" />
+        <pb n="81"/>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
           <p>Uff dini Gsundheit, Jeanne 
@@ -4045,7 +4115,7 @@
           <speaker>Jeanne:</speaker>
           <p>Ah der? Nein.</p>
         </sp>
-        <pb n="82" />
+        <pb n="82"/>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz :</speaker>
           <p>Gescht het'r mich in's Hüs gehn sehn. Der het mich betracht!</p>
@@ -4112,7 +4182,7 @@
           <speaker>Jeanne:</speaker>
           <p>Siehsch, Fritz, ich hab mini Eldere so gern, wie e Kind nur kann. Ich bin ne jo au so unendli viel
           schuldi. Sie han ihr Hab un Guet an mich gewendt, sie han oft faschte müen wäje mir. 
-          <pb n="83" />Ich weiß au, daß ihri Aue Daa un Nacht uff un üwer m'r rühje . .. un wenn ich nit
+          <pb n="83"/>Ich weiß au, daß ihri Aue Daa un Nacht uff un üwer m'r rühje . .. un wenn ich nit
           glücklich bin, sin sie's au nit... Un trotz all'dem dhädd ich wit mit d'r furtgzehn, wenn de mich
           mitnemme wottsch, ich dhädd alles im Stich lon, for bi d'r ze sin. — 's wär villicht d'r Dood vun mine
           liewe Eldere, un doch könnt ich nit andersch dhuen, üs Lieb zue dir, Fritz. Un do fröujsch mich noch,
@@ -4161,7 +4231,7 @@
           <speaker>Fritz:</speaker>
           <p>Was hesch m'r versproche! — — Gib m'r noch e bissele Win.</p>
         </sp>
-        <pb n="84" />
+        <pb n="84"/>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <stage>(schenkt ihm ein):</stage>
@@ -4174,7 +4244,8 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Merci, Fritz 
-          <stage>(sie trinken).</stage></p>
+          <stage>(sie trinken).</stage>
+          </p>
         </sp>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
@@ -4242,7 +4313,7 @@
           <stage>(zur zurückkehrenden Jeanne):</stage>
           <p>Dü hesch m'r ebbs gerüscht ?</p>
         </sp>
-        <pb n="85" />
+        <pb n="85"/>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <stage>(ein Päckchen tragend):</stage>
@@ -4309,7 +4380,7 @@
           <stage>(küßt ihn) :</stage>
           <p>Üßer dir, Fritz. Dü bisch jo min Ein un Alles.</p>
         </sp>
-        <pb n="86" />
+        <pb n="86"/>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
           <p>Jetz saa doch, was isch's ?</p>
@@ -4374,13 +4445,14 @@
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Wil dü furtgehsch vum'r. Ich hab dis wahrhafti nit verdient, wahrhafti nit. 
-          <stage>(Sie fällt ihm an die Brust und schluchzt.</stage></p>
+          <stage>(Sie fällt ihm an die Brust und schluchzt.</stage>
+          </p>
         </sp>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
           <p>Kalmier dich doch.</p>
         </sp>
-        <pb n="87" />
+        <pb n="87"/>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <stage>(macht sich los von ihm und schaut ihn einige Augenblicke mit großen Augen an):</stage>
@@ -4408,12 +4480,14 @@
           <stage>(Wieder lustiger.)</stage>Loß mich e bissel zue d'r sitze; so, so isch guet. 
           <stage>(Sie setzt sich ihm auf den Schooß und schlingt den rechten Arm um sein Haupt.)</stage>O dü min
           liewer, einziger, gueter Fritz! 
-          <stage>(Die Abendröte spiegelt sich allmählich im Zimmer wieder.)</stage></p>
+          <stage>(Die Abendröte spiegelt sich allmählich im Zimmer wieder.)</stage>
+          </p>
         </sp>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
           <p>Min liebs Jeanne! 
-          <stage>(Er küßt sie wiederholt leidenschaftlich.)</stage></p>
+          <stage>(Er küßt sie wiederholt leidenschaftlich.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
@@ -4453,7 +4527,7 @@
           <speaker>Jeanne:</speaker>
           <p>Gell, ich redd dumm. Ich weiß.</p>
         </sp>
-        <pb n="88" />
+        <pb n="88"/>
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
           <p>Babbel nur. Ich hör dich gern eso.</p>
@@ -4522,7 +4596,8 @@
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
           <p>Ich hebb dich fescht, de wursch nit falle. 
-          <stage>(Die Glocken fangen an zu läuten).</stage></p>
+          <stage>(Die Glocken fangen an zu läuten).</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
@@ -4542,7 +4617,7 @@
           <p>Was denn for eini?</p>
         </sp>
         <stage>12</stage>
-        <pb n="89" />
+        <pb n="89"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>De lachsch mich sicher üs.</p>
@@ -4558,7 +4633,8 @@
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
           <p>Ei ze fang doch glich an! 
-          <stage>(Küßt sie).</stage></p>
+          <stage>(Küßt sie).</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
@@ -4567,7 +4643,8 @@
         <sp who="#fritz_steinfeld">
           <speaker>Fritz:</speaker>
           <p>Liebs Jeanne! 
-          <stage>(Küßt sie lang und leidenschaftlich),</stage></p>
+          <stage>(Küßt sie lang und leidenschaftlich),</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
@@ -4637,11 +4714,12 @@
           still)</stage>
           <p>Jeanne! Jeanne! 
           <stage>(steht einen Augenblick noch unschlüssig, dann folgt er ihr nach rechts. Die Thür fällt
-          schallend ins Schloß.</stage></p>
+          schallend ins Schloß.</stage>
+          </p>
         </sp>
         <stage>Die Glocken läuten fort; man hört die Orgel und zweistimmigen Mädchengesang. Der Vorhang fällt
         langsam, während Geläute und Gesang allmählich verhallen).</stage>
-        <pb n="90" />
+        <pb n="90"/>
       </div>
       <div type="act">
         <head>Zwischenakt.</head>
@@ -4667,13 +4745,15 @@
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
           <p>Do steht jo schun 
-          <stage>(zündet die Kerze an).</stage></p>
+          <stage>(zündet die Kerze an).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer</speaker>
           <stage>(jetzt sich mit einem Seufzer):</stage>
           <p>Gottlob! — — Mini Bein, au, mini Bein. Es geht nimmi ..... es geht nimmi. 
-          <stage>(Er träumt vor sich hin und nickt allmählich ein.)</stage></p>
+          <stage>(Er träumt vor sich hin und nickt allmählich ein.)</stage>
+          </p>
         </sp>
         <sp who="#albert_sanger">
           <speaker>Albert</speaker>
@@ -4694,7 +4774,7 @@
           — — Ich hätt ne nit wittersch gebroocht. Un erscht d'Stäij gar nit nuff. — So e schwerer Mann wie'r
           isch.</p>
         </sp>
-        <pb n="91" />
+        <pb n="91"/>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Hoffentlich schadt's 'm nix.</p>
@@ -4746,7 +4826,7 @@
           <p>Ja ja, d'alte Knoche sin stiff worre, stiff un lahm. — Awer 's Herz isch noch jung ... wie mit
           zwanzig Johr. — Hab hit viel an Sie gedenkt . . . . Herr Albert. — — Hab au mit eme guete Frind geredt
           wäje Ine ... mit eme liewe, guete Frind. Do dhädde Sie e Platz be- 
-          <pb n="92" />kumme! ... Wo Sie sich ball e schöns Stückel Geld nff d'Sitt könnte laije. — — Awer
+          <pb n="92"/>kumme! ... Wo Sie sich ball e schöns Stückel Geld nff d'Sitt könnte laije. — — Awer
           stille! — — Stille, saa ich. — — Vous comprenez, stille! — — Nur nit, daß mini Litt ebbs erfahre drvun!
           — Dis mache mir zwei mitnander üs... mir zwei ellein.</p>
         </sp>
@@ -4774,7 +4854,8 @@
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
           <p>Un drbi s' équilibre verlore het, hahaha! 
-          <stage>(sie lachen).</stage></p>
+          <stage>(sie lachen).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
@@ -4800,12 +4881,13 @@
           <speaker>Wurster :</speaker>
           <p>Lon dis Ding gehn, het'r als gsaat.</p>
         </sp>
-        <pb n="93" />
+        <pb n="93"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer</speaker>
           <stage>(nachäffend):</stage>
           <p>Lon dis Ding gehn! lon dis Ding gehn 
-          <stage>(sie lachen sich ordentlich aus).</stage></p>
+          <stage>(sie lachen sich ordentlich aus).</stage>
+          </p>
         </sp>
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
@@ -4831,7 +4913,8 @@
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
           <p>Alleh hopp, kumm 
-          <stage>(packt ihn am Arme).</stage></p>
+          <stage>(packt ihn am Arme).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
@@ -4869,9 +4952,10 @@
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>'s isch 's bescht. 
-          <stage>(Wurster nach links ab)</stage></p>
+          <stage>(Wurster nach links ab)</stage>
+          </p>
         </sp>
-        <pb n="94" />
+        <pb n="94"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>Herr Albert !</p>
@@ -4933,7 +5017,7 @@
           awer gottlob, nit umesunsch . . ..... es gitt noch gueti Mensche. ..... ..... aflin, ich verzähl's ne
           morje üsfiehrlich, Herr Schmelzer.</p>
         </sp>
-        <pb n="95" />
+        <pb n="95"/>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer:</speaker>
           <p>So wit simmer also schun, — — Soso! — — Was will i jetz gschwind saa. . . 's bescht wär... Sie gehn
@@ -4951,7 +5035,8 @@
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Ze will i gehn. — — A demain, Herr Schmelzer, à demain ! 
-          <stage>(ab)</stage></p>
+          <stage>(ab)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer</speaker>
@@ -4987,7 +5072,7 @@
           Wursch sehn . . . unsri Dhür kummt au emol . . . schneller als m'r denke. — — L'homme propose et Dieu
           dispose. — — Ja... liewer Frind . . . ich mein als . . . ich mueß ball sterwe.</p>
         </sp>
-        <pb n="96" />
+        <pb n="96"/>
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
           <p>Redd doch ken so Blech.</p>
@@ -5045,9 +5130,10 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Lüj do, do sin sie schun widder, die zwei — awer brav. Wurum han'r nit d'Lamp angezunde ? 
-          <stage>(sie macht die Lampe an, die auf der Kommode steht).</stage></p>
+          <stage>(sie macht die Lampe an, die auf der Kommode steht).</stage>
+          </p>
         </sp>
-        <pb n="97" />
+        <pb n="97"/>
         <sp who="#emelie_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Bonsoir . . . 
@@ -5077,7 +5163,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Bonne nuit, un merci bien. 's Dhürel isch noch offe. 
-          <stage>(Wurster ab; Frau Schwindt leuchtet ihm.)</stage></p>
+          <stage>(Wurster ab; Frau Schwindt leuchtet ihm.)</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Schmelzer</speaker>
@@ -5132,7 +5219,7 @@
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Ganz vollgstopft. Ich weiß awer nit, was die for e französch redde. Alles so 
-          <pb n="98" />gschwind, un so inenander, m'r versteht fascht nix wie Bonschur un Bonsoir . . . . awer
+          <pb n="98"/>gschwind, un so inenander, m'r versteht fascht nix wie Bonschur un Bonsoir . . . . awer
           groß- artig isch's doch gsin, gell Emelie.</p>
         </sp>
         <sp who="#jakob_schmelzer">
@@ -5181,7 +5268,8 @@
           <speaker>Schmelzer:</speaker>
           <p>Ich will nit, ich kann ellein 
           <stage>(humpelt nach links).</stage>Guet Nacht bisamme 
-          <stage>(links ab).</stage></p>
+          <stage>(links ab).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer</speaker>
@@ -5204,7 +5292,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>E Portefeuille?</p>
         </sp>
-        <pb n="99" />
+        <pb n="99"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt</speaker>
           <stage>(hat geöffnet) :</stage>
@@ -5222,7 +5310,8 @@
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Allmächtiger Gott im Himmel, Lüwis! ... Was hammer gemacht! was hammer gemacht! 
-          <stage>(sie schlägt die Hände vor's Gesicht.)</stage></p>
+          <stage>(sie schlägt die Hände vor's Gesicht.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
@@ -5264,14 +5353,15 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Was isch . . . Jeanne?</p>
         </sp>
-        <pb n="100" />
+        <pb n="100"/>
         <sp who="#jeanne">
           <speaker>Jeanne</speaker>
           <stage>(ihre Brust wogt, sie kämpft mit sich):</stage>
           <p>Mamme.... 
           <stage>(gesteigert)</stage>Mamme . . . 
           <stage>(sie will reden; sobald sie Frau Schwindt gewahrt, verschließt sie krampfhaft den
-          Mund).</stage></p>
+          Mund).</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt</speaker>
@@ -5284,11 +5374,12 @@
           <p>Mamme! 
           <stage>(sie eilt auf sie zu, kniet sich vor sie nieder und verbirgt ihren Kopf in ihrem Schoße und
           schluchzt)</stage>O min liebs, guets Mammele! 
-          <stage>(Frau Schwindt wendet sich zum Gehen.)</stage></p>
+          <stage>(Frau Schwindt wendet sich zum Gehen.)</stage>
+          </p>
         </sp>
         <stage>(Der Vorhang fällt rasch.)</stage>
       </div>
-      <pb n="101" />
+      <pb n="101"/>
       <div type="act">
         <head>Dritter Aufzug.</head>
         <stage>Dasselbe Zimmer wie in den vorigen Aufzügen. In der Stube ist ziemliche Unordnung. Auf dem Tische
@@ -5337,7 +5428,7 @@
           <speaker>Wurster:</speaker>
           <p>Sie dhuen e guets Werik, Frau Sütter.</p>
         </sp>
-        <pb n="102" />
+        <pb n="102"/>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter:</speaker>
           <p>Wenn ich nit als dis denke dhädd! — Jetz betrachte Sie doch emol, wie widder Brief, Ühre,
@@ -5379,11 +5470,12 @@
           <p>Un wenn sie drnoh fröujt, ze saaue Sie e Gottsnamme, ich hab die Sache-n-eweckgemacht. — Wenn nur
           emol e bissel Zitt erum isch.</p>
         </sp>
-        <pb n="103" />
+        <pb n="103"/>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter:</speaker>
           <p>Do sin noch Brief 
-          <stage>(reicht sie).</stage></p>
+          <stage>(reicht sie).</stage>
+          </p>
         </sp>
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
@@ -5429,7 +5521,7 @@
           <p>Dis kann m'r jetz nit eso saaue. Ja, wenn m'r alles im Vorüs wisse dhädd! Sie het'm wölle Pläsier
           mache, dis isch alles.</p>
         </sp>
-        <pb n="104" />
+        <pb n="104"/>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter:</speaker>
           <p>Ja, awer die Reprosche, wo sie sich macht drwäje.</p>
@@ -5502,7 +5594,7 @@
           <speaker>Frau Sutter:</speaker>
           <p>Parfaitement. — Wie m'r saat! Er soll sich 's Jeanne in de Kopf gsetzt han. — 
           <stage>14</stage>
-          <pb n="105" />- Ich glaub awer, es het nit emol ebbs gewüßt drvun. — Jetz — -, was do im Einzelne
+            <pb n="105"/>- Ich glaub awer, es het nit emol ebbs gewüßt drvun. — Jetz — -, was do im Einzelne
           arriwirt isch . . . m'r babbelt jo viel, wenn d'r Daa lang isch . . . . einer will's halt besser wisse
           wie d'r ander . . . . un vum Jeanne erfahrt m'r schun gar nix... . affın, sicher isch, daß d'r jung
           Steinfeld im Raasch sich an sim Babbe vergriffe het.</p>
@@ -5546,7 +5638,7 @@
           <speaker>Wurster:</speaker>
           <p>Un zellemols isch's schun längst fianciert gsin.</p>
         </sp>
-        <pb n="106" />
+        <pb n="106"/>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter:</speaker>
           <p>Zellemols doch noch nit. Ich weiß genau, wie dis gange-n-isch. Im Babbe Schmelzer siner höchscht
@@ -5596,7 +5688,7 @@
           <speaker>Frau Sutter:</speaker>
           <p>Sie halt awer noch ebbs uff d'Repütation vun d'r Familli.</p>
         </sp>
-        <pb n="107" />
+        <pb n="107"/>
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
           <p>Ja, die! Un ihri Kinder!</p>
@@ -5646,7 +5738,7 @@
           Wie ich furt gereist bin, hawi hundert sechs-e-n-achtzig Pfund ghet, un hit hawi hundert
           nin-e-n-achtzig.</p>
         </sp>
-        <pb n="108" />
+        <pb n="108"/>
         <sp who="#herr_wurster">
           <speaker>Wurster:</speaker>
           <p>Wenn m'r halt drbi guet eßt un trinkt — —</p>
@@ -5659,7 +5751,8 @@
           <speaker>Wurster :</speaker>
           <p>Affin, Sie lueje gsund erüs, was wölle Sie meh. — Jetz mueß i awer gehn. Sie wäre doch noch uff
           d'Madam Schmelzer warte wölle. Ich hab noch Gschäfte. 
-          <stage>(ab)</stage></p>
+          <stage>(ab)</stage>
+          </p>
         </sp>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
@@ -5700,7 +5793,7 @@
           <p>So wie ich bin. Wie ich do geh un steh. Noch nit emol dheim bin i gsin. — 's isch m'r zue arig gsin,
           daß ich nit zuem Doote-n-Amt hab könne-n-eruff kumme. Vous savez, e Kür soll m'r nit interrompiere, un
           wäje dem bin ich au glich 
-          <pb n="109" />here gsprunge, for mich ze-n-exküsiere. — Was macht denn d'Schmelzere? Sie het viel müen
+          <pb n="109"/>here gsprunge, for mich ze-n-exküsiere. — Was macht denn d'Schmelzere? Sie het viel müen
           durichmache.</p>
         </sp>
         <sp who="#frau_sutter">
@@ -5723,7 +5816,7 @@
           <speaker>Frau Sutter:</speaker>
           <p>E Zitt lang het sie gar nix meh esse wölle. M'r het's ere müen mit Gewalt uffzwinge, daß sie nur e
           Kleinigkeit genumme het. 
-          <pb n="110" />Un jetzt wo's e kleins bissele besser geht, fangt's Jeanne au noch an.</p>
+          <pb n="110"/>Un jetzt wo's e kleins bissele besser geht, fangt's Jeanne au noch an.</p>
         </sp>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
@@ -5779,7 +5872,7 @@
           <speaker>Jeanne:</speaker>
           <p>M'r sin noch e bissel spaziere gange an de kleine Rhin.</p>
         </sp>
-        <pb n="111" />
+        <pb n="111"/>
         <sp who="#celestine">
           <speaker>Célestine:</speaker>
           <p>. . . un sin fascht e Stund. am Wasser gsesse, gelte Sie, Mamsell Jeanne ?</p>
@@ -5831,7 +5924,8 @@
         <sp who="#celestine">
           <speaker>Célestine:</speaker>
           <p>Gern Mamsell Jeanne 
-          <stage>(beide nach rechts ab),</stage></p>
+          <stage>(beide nach rechts ab),</stage>
+          </p>
         </sp>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
@@ -5845,7 +5939,7 @@
           <speaker>Frau Thomas:</speaker>
           <p>Mais je vous en prie. — 's Jeanne ? Un jetz? Macht Sie doch ken Gspaß. Mit wem denn ?</p>
         </sp>
-        <pb n="112" />
+        <pb n="112"/>
         <sp who="#frau_sutter">
           <speaker>Frau Sutter:</speaker>
           <p>Ei mit'm Herr Albert. Un in e paar Daa soll schun Hochzitt sin.</p>
@@ -5903,7 +5997,7 @@
           <p>Poh... ich wur nit recht klüg üs dere Gschicht. — 's isch halt im Babbe Schmelzer siner höchscht
           Wunsch gsin . . ..</p>
         </sp>
-        <pb n="113" />
+        <pb n="113"/>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
           <p>Un jetz soll schun Hochzitt gemacht wäre ?</p>
@@ -5949,7 +6043,7 @@
           weiß Gott, was es do triebt. Zuem zweite isch d'r Schosseff, wo Soldat isch gsin, vum Militär eweck,
           ich weiß nit wäje was, un soll nächschtens schüschiert wäre. E paar Johr Dhurn wurd's schun genn,
           affin, 
-          <pb n="114" />e drecketi Gschicht. Un d'r Scharel, wo sie noch ihri einzig Hoffnung druff gfetzt het,
+          <pb n="114"/>e drecketi Gschicht. Un d'r Scharel, wo sie noch ihri einzig Hoffnung druff gfetzt het,
           der isch noch ärjer als wie die zwei ältschte mitnander. Wie gsaat, die arm Frau Schwindt het mit ihre
           Kinder d'gröschte Malschance, wo's gitt, un wil sie jetz emol d'Schweschter vun d'r Madam Schmelzer
           isch, ze fericht die — vermueth ich mir -, daß d'r Albert mit dere Sippschaft nix will ze dhuen han; un
@@ -5986,7 +6080,7 @@
           <p>Nein, Frau Thomas. Licht isch d'r Dood nit gsin, wo'r het ghet. 's isch'm ari schwer gfalle, for
           Abschied ze nemme.</p>
         </sp>
-        <pb n="115" />
+        <pb n="115"/>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
           <p>D'r arm Herr Schmelzer!</p>
@@ -6036,7 +6130,7 @@
           <speaker>Frau Sutter:</speaker>
           <p>Jeder Troscht isch finalement schwach, wil's halt nur e Troscht isch.</p>
         </sp>
-        <pb n="116" />
+        <pb n="116"/>
         <sp who="#frau_thomas">
           <speaker>Frau Thomas:</speaker>
           <p>Je vous laisse. In eim vun de nächschte Däj kumm ich emol lueje, was, ihr Mache 
@@ -6072,7 +6166,8 @@
           <stage>(gereizt):</stage>
           <p>Ze wur ich mit'm Jeanne sueche, bis daß ich sie find. — 's isch jo noch 's letscht, was ich hab vum!
           
-          <stage>(nach links ab)</stage></p>
+          <stage>(nach links ab)</stage>
+          </p>
         </sp>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
@@ -6103,7 +6198,7 @@
           <speaker>Albert:</speaker>
           <p>Mini Privatsache genn Nieme nix an. Un ich lid nit, daß sich ebber drin meliert.</p>
         </sp>
-        <pb n="117" />
+        <pb n="117"/>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Dis isch alles schön un guet gsaat. Un ich wär d'Letscht, wo d'Nas in Saches ninsteckt, wo mich nix
@@ -6143,19 +6238,21 @@
           <speaker>Frau Schwindt:</speaker>
           <p>Wenn sie ihre Ropf uffsetzt, setze Sie ihre doch au uff. 's Jeanne wurd schun zefridde sin. — Do
           heißt's e bissel Energie zeije. 
-          <pb n="118" />Wenn's ne awer ganz egal isch, was m'r üwer Sie un Ihri Frau babbelt . . ..</p>
+          <pb n="118"/>Wenn's ne awer ganz egal isch, was m'r üwer Sie un Ihri Frau babbelt . . ..</p>
         </sp>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Bhüt eß Gott . . . . so isch's jetz au nit grad. 
-          <stage>(Frau Schmelzer von links; hat den Hut; abgelegt.)</stage></p>
+          <stage>(Frau Schmelzer von links; hat den Hut; abgelegt.)</stage>
+          </p>
         </sp>
         <sp who="#jeanne-louise_schwindt">
           <speaker>Frau Schwindt:</speaker>
           <p>Achtung, do kummt sie. 
           <stage>(Leise zu Frau Sutter)</stage>Ich geh gschwind; nit daß sie meint, ich will ihre Plan
           konterkarriere 
-          <stage>(ab).</stage></p>
+          <stage>(ab).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
@@ -6205,7 +6302,7 @@
           <stage>(wie elektrisiert):</stage>
           <p>Nüsschiewle!!?</p>
         </sp>
-        <pb n="119" />
+        <pb n="119"/>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Ja, Mamme, ich denk emol, 's isch besser eso.</p>
@@ -6241,10 +6338,11 @@
           <stage>(betreten):</stage>
           <p>Awer ich bitt Eich, Mamme, so isch's jo nit gemeint gsin . . . Wenn Ihr druff bstehn .....
           nadierlich, ze bliebs bim Alte . . . . min Wort druff . . . . do ham'r mini Hand . . . . 
-          <pb n="120" />
-          <stage>(Frau Schmelzer ergreift sie hastig)</stage>was ich versprich, dis halt ich. — Ich kumm noch
+          <pb n="120"/>
+            <stage>(Frau Schmelzer ergreift sie hastig)</stage>was ich versprich, dis halt ich. — Ich kumm noch
           denne Owe here, no wölle m'r alles in Ordnung bringe 
-          <stage>(ab).</stage></p>
+          <stage>(ab).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
@@ -6288,12 +6386,14 @@
           <speaker>Frau Sutter</speaker>
           <stage>(für sich):</stage>
           <p>Wenn sie nur nit de Verstand verliert, Jetz versteh ich sie schun gar nimmi. 
-          <stage>(Kopfschüttelnd ab).</stage></p>
+          <stage>(Kopfschüttelnd ab).</stage>
+          </p>
         </sp>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Sie will uns verderwe ! Sie wurd's au ferdi bringe 
-          <stage>(nach links ab).</stage></p>
+          <stage>(nach links ab).</stage>
+          </p>
         </sp>
         <stage>Célestine und Jeanne von rechts.</stage>
         <sp who="#celestine">
@@ -6301,7 +6401,7 @@
           <p>Ja, 's isch m'r arig leid, Mamsell Jeanne, daß i nab mueß. Sie wisse awer doch, wie
           d'Mamme-n-isch.</p>
         </sp>
-        <pb n="121" />
+        <pb n="121"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Geh nur, Kind — — geh nur — — oder blie noch e-n-Auesblick, ich möcht dich noch ebbs fröuje.</p>
@@ -6361,7 +6461,7 @@
           genn. 
           <stage>(Célestine wischt sich die Augen)</stage>Was hesch?</p>
         </sp>
-        <pb n="122" />
+        <pb n="122"/>
         <sp who="#celestine">
           <speaker>Célestine:</speaker>
           <p>So ebbs dhued m'r weh.</p>
@@ -6437,7 +6537,7 @@
           <speaker>Jeanne:</speaker>
           <p>Kann m'r denn au lieje, ohne daß m'r ebbs saat?</p>
         </sp>
-        <pb n="123" />
+        <pb n="123"/>
         <sp who="#celestine">
           <speaker>Célestine:</speaker>
           <p>Awer sicher, Mamsell Jeanne. Wenn m'r ebbs saaue soll, un m'r saat's nit.</p>
@@ -6508,7 +6608,7 @@
           <speaker>Célestine:</speaker>
           <p>Er het gsaat: "Durch das heutige Sakrament, welches euch von dem über euch gesetzten Bischof
           gespendet worden ist, sollt ihr gewappnet sein gegen die Gefahren des Lebens. Muthig 
-          <pb n="124" />sollt ihr eintreten für euren Glauben, das ist für den Glauben an den dreieinigen Gott
+          <pb n="124"/>sollt ihr eintreten für euren Glauben, das ist für den Glauben an den dreieinigen Gott
           und seine heilige Kirche. Ihr sollt aber heute auch gestählt sein zum Handeln und Wandeln in der
           Achtung vor euch selbst, indem ihr nie vergeßt, daß ihr geschaffen seid nach dem Bilde des himmlischen
           Vaters. Wer die Achtung vor sich selbst verlieren muß, verliert auch nur zu leicht den Glauben an Gott.
@@ -6552,7 +6652,7 @@
           <p>Nein . . . . awer ich bin froh, daß de kummsch . . . ich hab' d'r ebbs ze saaue, was dich un mich
           angeht.</p>
         </sp>
-        <pb n="125" />
+        <pb n="125"/>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Dini Stimm riedert jo ganz. Was hesch?</p>
@@ -6587,7 +6687,7 @@
           <speaker>Jeanne:</speaker>
           <p>Ich weiß nit, Albert.</p>
         </sp>
-        <pb n="126" />
+        <pb n="126"/>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Glaub m'r, Jeanne, es wurd d'r gfalle. Was ich d'r an de-n-Aue kann ansehn, wur ich d'r dhuen. Nit e
@@ -6645,7 +6745,7 @@
           <speaker>Albert:</speaker>
           <p>Un wurum dis ?</p>
         </sp>
-        <pb n="127" />
+        <pb n="127"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Ich bin nit ehrli gsin mit d'r. E Löuje hawi uff'm Gewisse, un wenn der ans Daaueslicht kummt . . .
@@ -6701,7 +6801,7 @@
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Nein, Jeanne, der steht nit zwische-n-uns. Dis reddsch dü dir in, awer 's isch nit eso. — 
-          <pb n="128" />Ken Wort wur i meh vum. redde ... dis versprich ich d'r un schwör d'r's ... un's wurd
+          <pb n="128"/>Ken Wort wur i meh vum. redde ... dis versprich ich d'r un schwör d'r's ... un's wurd
           nimm lang düüre, ze denksch nimm an ne. Meinsch nit au eso, Jeanne? — — Jeanne, redd doch e Wort, ich
           bitt dich. — — Wäje dere Dummheit — — 's isch doch nur eini — — derfsch din Glück nit vun d'r stoße . .
           . un ich wur dich glüklich mache, ich gspier, daß i's kann.</p>
@@ -6734,7 +6834,7 @@
           uffg'opfert hab?</p>
         </sp>
         <stage>17</stage>
-        <pb n="129" />
+        <pb n="129"/>
         <sp who="#albert_sanger">
           <speaker>Albert:</speaker>
           <p>Jeanne! — — Jeanne!! — — All mächtiger Gott! 
@@ -6772,7 +6872,7 @@
           voll Baßgeije . . . . schaff m'r d'Händ bluetig un wurj druff los, daß ich fascht e Narr wurr. — Aha,
           jetz versteh ich au, wurum daß es mit d'r Hochzitt so gepressirt het. Die Sach isch fin ingfädelt.
           Reschpekt drfor, dis isch e Meischterstück! Jetz natürlich bin ich guet genue, for üs 
-          <pb n="130" />dem Emberras erüszehelfe... jetz soll i mine Namme here genn, daß die Schand nit an's
+          <pb n="130"/>dem Emberras erüszehelfe... jetz soll i mine Namme here genn, daß die Schand nit an's
           Daaueslicht kummt....</p>
         </sp>
         <sp who="#jeanne">
@@ -6793,7 +6893,7 @@
           Finger wäre sie uff dich ditte, un d'r gröscht Dheil wurd sich schadefroh in d'Füscht lache, daß
           d'Mamsell Jeanne au nit besser isch, wie sie selbscht.</p>
         </sp>
-        <pb n="131" />
+        <pb n="131"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Dis wäre sie nit! Glaub m'r's, dis wäre sie nit!</p>
@@ -6834,7 +6934,7 @@
           mich ellein durchs Lewe schleppe. — Was bassiert isch . . . Jeanne, alles will ich vergesse. Din Kind
           soll min Kind sin. Es soll m'r so lieb sin, wie's liebschte vun mine ayene Kinder.</p>
         </sp>
-        <pb n="132" />
+        <pb n="132"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Armer Albert!</p>
@@ -6900,7 +7000,7 @@
           <speaker>Albert:</speaker>
           <p>Dis kann ich nit...</p>
         </sp>
-        <pb n="133" />
+        <pb n="133"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Dü düürsch mich, liewer Frind. Es mueß awer sin.</p>
@@ -6909,14 +7009,16 @@
           <speaker>Albert:</speaker>
           <p>Ze will ich gehn! Gott steh m'r bie!... Ich geh! 
           <stage>(sich an der Thüre nochmals umwendend)</stage>Jeanne! Jeanne! 
-          <stage>(verzweifelt ab).</stage></p>
+          <stage>(verzweifelt ab).</stage>
+          </p>
         </sp>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>So! — — Jetz kann i nimm zeruck, 's müeß sin, jetz awer gschwind. 
           <stage>(Die Dämmerung ist mittlerweile hereingebrochen. Jeanne sucht Papier und Feder, setzt sich an
           den Tisch).</stage>Armi Mamme! — — Arms Mammele ! daß ich d'r dis andhuen mueß! 
-          <stage>(Sie schreibt hastig, indem sie fortwährend schluchzt.)</stage></p>
+          <stage>(Sie schreibt hastig, indem sie fortwährend schluchzt.)</stage>
+          </p>
         </sp>
         <stage>Frau Schmelzer, von Jeanne unbeachtet, tritt ein, und folgt mit staunendem Entsetzen den
         Handlungen Jeanne's. Nachdem diese mit Schreiben fertig ist, läuft sie nach hinten, bindet sich eiligst
@@ -6957,7 +7059,7 @@
           <stage>(eilt hastig an den Tisch).</stage>Un jetz zaij, was hesch do so gschwind gschriwwe? 
           <stage>(Jeanne will den Zettel nehmen, Frau Schmelzer ist schneller wie sie)</stage>Do isch'r. Un jetz
           zünd d'Lamp an, daß ich ne lese 
-          <pb n="134" />kann. 
+          <pb n="134"/>kann. 
           <stage>(Jeanne rührt sich nicht.)</stage>Zünd d'Lamp an, saa ich d'r. Ich will d'r ins Gsicht lueje.
           Allons! Zitter wenn foljsch nimm ? 
           <stage>(Jeanne gehorcht zögernd.)</stage>Stell sie uff de Disch. — So, jetz here mit! 
@@ -7013,7 +7115,7 @@
           <p>Grad dis haw ich. Man do kumme, was will, eins hawi m'r wölle bewahre: de Reschpekt vor m'r
           selbscht.</p>
         </sp>
-        <pb n="135" />
+        <pb n="135"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Explizier dich . . . . ich versteh dich nit....</p>
@@ -7069,7 +7171,7 @@
           <speaker>Jeanne:</speaker>
           <p>Dü bisch Schuld dran!</p>
         </sp>
-        <pb n="136" />
+        <pb n="136"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Hör, Kind, in e paar Wort kann i d'r dis jo nit üslaije — — denn dis isch jo so schrecklich, daß ich
@@ -7087,7 +7189,7 @@
           wurum, wil ihri ayene Kinder schlecht sin, verderwe un ze Grund gehn. Die faßt sich de-n-Entschluß, die
           verzwyfelt 
           <stage>18</stage>
-          <pb n="137" />Sitüation, wo d'Mamme drinne steckt, üszenutze. Sin mini Kinder nix nutz, ze soll au dini
+            <pb n="137"/>Sitüation, wo d'Mamme drinne steckt, üszenutze. Sin mini Kinder nix nutz, ze soll au dini
           verderwe, saat sie sich, un molt d'r Mamme e Plan üs, wo sicher zuem Verderwe führe mueß. D'Mamme in
           ihrer Blindheit versteht's nit; sie geht druff in, grad so wie eini, wo am Versüffe-n-isch, nooch'm
           fierige Ise grifft, wenn m'r's 're reicht. Un so wurd d'r Plan üsgfiehrt. Un d'r Satan in Menschegstalt
@@ -7135,7 +7237,7 @@
           <speaker>Frau Schmelzer:</speaker>
           <p>Alles wäje dir un dim Glück, Jeanne.</p>
         </sp>
-        <pb n="138" />
+        <pb n="138"/>
         <sp who="#jeanne">
           <speaker>Jeanne:</speaker>
           <p>Mamme, was ich dich bedüür ! Daß dü dis — — hesch traaue könne . . . . schrecklich !</p>
@@ -7175,7 +7277,7 @@
           verkomme un hilflos an mini Dhür klopft, verlosse vun ihre Kinder, wo verdorwe un gstorwe sin, wer weiß
           wo — — ze loß ich sie stehn wie e Hund . . . un wenn sie d'r Schlaa trefft uff minere Schwell, ich kenn
           sie nit, sterwe loß 
-          <pb n="139" />ich sie wie e gemeini Bettlere, verrecke wie e grindigs Stück Vieh, wo m'r im Stall ken
+          <pb n="139"/>ich sie wie e gemeini Bettlere, verrecke wie e grindigs Stück Vieh, wo m'r im Stall ken
           Platz meh gunnt. — Es gitt noch e gerechter Gott im Himmel. Do glauwi noch dran. — D'r Daa vun der
           Vergeltung bliet nit üs; un drno soll sie's am ayene Lib gspiere, was for e Leid sie m'r angedohn
           het.</p>
@@ -7199,7 +7301,7 @@
           traaue, denn ich hab au min Dheil dran. Ich mueß bi dir bliewe, daß m'r eß gejesittig tröschte, for nit
           ze verzwyfle. Dis isch mini Pflicht, un wenn de m'r bistehsch, wur ich sie au erfülle könne.</p>
         </sp>
-        <pb n="140" />
+        <pb n="140"/>
         <sp who="#jakob_schmelzer">
           <speaker>Frau Schmelzer:</speaker>
           <p>Ja, Jeanne, helfe wur ich d'r, was in mine Kräfte steht. Un dü wursch mich tröschte.</p>
@@ -7230,7 +7332,7 @@
           <p>Nix, liebs Kind, gar nix.</p>
         </sp>
         <stage>Ende.</stage>
-        <pb n="141" />
+        <pb n="141"/>
       </div>
     </body>
   </text>

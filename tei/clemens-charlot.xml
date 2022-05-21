@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -54,7 +54,7 @@
             (Nur Herrenrollen)</title>
             <publisher>Société Alsacienne d'Edition (Alsatia) S. A.</publisher>
             <date when="1920" type="print">1920</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -84,8 +84,8 @@
             <persName>Alle</persName>
           </personGrp>
           <listRelation type="personal">
-            <relation name="spouses" mutual="#knuppe #urschel" />
-            <relation name="associated_with" active="#charlot" passive="#knuppe" />
+            <relation name="spouses" mutual="#knuppe #urschel"/>
+            <relation name="associated_with" active="#charlot" passive="#knuppe"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -99,9 +99,9 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="3" />
+      <pb n="3"/>
       <castList>
-        <head>PERSONEN&#160;:</head>
+        <head>PERSONEN :</head>
         <castItem corresp="#knuppe">
           <role><persName>Knüppe</persName></role>,
           <roleDesc>Schuemacher</roleDesc>.
@@ -123,13 +123,9 @@
           <roleDesc>Müsikant</roleDesc>.
         </castItem>
         <castItem corresp="#e_kaminfajer">
-        <role>
-          <persName>E Kaminfäjer</persName>
-        </role>.</castItem>
+          <role><persName>E Kaminfäjer</persName></role>.</castItem>
         <castItem corresp="#friend_vum_knuppe">
-        <role>
-          <persName>Friend vum Knüppe</persName>
-        </role>.</castItem>
+          <role><persName>Friend vum Knüppe</persName></role>.</castItem>
       </castList>
       <set>
         <p>Ort der Handlung: Arbeitsstube des Knüppe.</p>
@@ -146,7 +142,7 @@
         <p>Rechts und links vom Spieler.</p>
         <p>Dauer der Aufführung: 50 Minuten.</p>
       </set>
-      <pb n="4" />
+      <pb n="4"/>
       <div type="front">
         <head>Personenbeschreibung:</head>
         <p corresp="#knuppe">Knüppe: 45 Jahre, grosse Glatze, trägt blaue Brille. Erst in Begräbniskleidung und
@@ -173,7 +169,7 @@
       </div>
     </front>
     <body>
-      <pb n="5" />
+      <pb n="5"/>
       <div type="scene">
         <head>1. Auftritt.</head>
         <stage>Charlot.</stage>
@@ -203,9 +199,10 @@
           meinsch dert verwitsch ich dich nitt dü Drächspatzel — wart ich nämm d'Leiter vum Elektricien, no griej
           ich dich. 
           <stage>(stellt die Doppelleiter vor die Mitteltür, so dass man, 
-          <pb n="6" />unten durch gehen kann).</stage>So jetzt wurr ich dich glich hann. 
+          <pb n="6"/>unten durch gehen kann).</stage>So jetzt wurr ich dich glich hann. 
           <stage>(geht die Leiter hinauf und will den Maikäfer fangen, überdem kommt der Meister herein, durch d.
-          M., der Porzellanteller fällt Knüppe auf den Cylinder.)</stage></p>
+          M., der Porzellanteller fällt Knüppe auf den Cylinder.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -224,7 +221,8 @@
           der Elektrisch noch nit ferti? 
           <stage>(geht herunter, Charlot hinauf)</stage>Ja, jetz isch-r widder drowe. Bisch dü e Mensch oder e
           Geischt? Redd oder ich schiess! 
-          <stage>(zielt mit dem Schirm).</stage></p>
+          <stage>(zielt mit dem Schirm).</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -248,7 +246,8 @@
           <speaker>Charlot:</speaker>
           <p>Meischter ich kumm, laje numme de Rieme ewäck, ich wär doch kumme — Meischter ich berej's vom Grunde
           meines Herzens. 
-          <stage>(kummt ängstlich herunter).</stage></p>
+          <stage>(kummt ängstlich herunter).</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -256,9 +255,10 @@
           Maikäfer, allwill ich mit dr Licht geh, statt ass de Schueh ferti machsch. Do kumm häre! 
           <stage>(Knüppe stellt sich breitspurig hin)</stage>Do de Kopf zwische d'Fües! 
           <stage>(Charlot kommt auf Händen und Füssen laufend, steckt den Kopf Knüppe zwischen die Beine — Knüppe
-          versohlt ihm das Hinterteil mit dem Riemen.)</stage></p>
+          versohlt ihm das Hinterteil mit dem Riemen.)</stage>
+          </p>
         </sp>
-        <pb n="7" />
+        <pb n="7"/>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
           <stage>(schreit)</stage>
@@ -275,7 +275,8 @@
           <speaker>Charlot:</speaker>
           <p>Naan, naan Meischter, es brücht nimmi ze rauche. 
           <stage>(stellt die Leiter weg, holt in der Küche, r. Tür, Schaufel und Handbesen, fegt die Scherben
-          zusammen, alles mit komischen Gesten).</stage></p>
+          zusammen, alles mit komischen Gesten).</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -295,7 +296,8 @@
           <speaker>Charlot:</speaker>
           <stage>(schmeisst die Scherben zum Fenster hinaus und ruft dann)</stage>
           <p>"Achtung, es kumme Stüecker!" 
-          <stage>(Man hört Lastique draussen schreien "Mille des gratteaus, miner chapeau!)</stage></p>
+          <stage>(Man hört Lastique draussen schreien "Mille des gratteaus, miner chapeau!)</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -306,7 +308,7 @@
           <p>Ich hab d'Schärwe nüssgschmisse.</p>
         </sp>
       </div>
-      <pb n="8" />
+      <pb n="8"/>
       <div type="scene">
         <head>3. Auftritt.</head>
         <stage>Charlot, Knüppe, Lastique, Schmätterle.</stage>
@@ -321,19 +323,22 @@
           <speaker>Knüppe:</speaker>
           <p>Calmiere sie sich, Monsieur Lastique, do dr Charlot isch's gsinn, er hett e verhejter Däller
           nüssgschmisse, s'isch zuem verknelle. 
-          <stage>(nimmt den Riemen).</stage></p>
+          <stage>(nimmt den Riemen).</stage>
+          </p>
         </sp>
         <sp who="#lastique">
           <speaker>Lastique:</speaker>
           <p>Oh dü Wackesbum, ich bring dich um, dü Lüsgarçon! 
           <stage>(sucht das Taschenmesser)</stage>Ich schnied dir ab e oreille mit mini couton de poche! 
-          <stage>(Beide gehen Charlot nach, welcher gegen die Mitteltür läuft).</stage></p>
+          <stage>(Beide gehen Charlot nach, welcher gegen die Mitteltür läuft).</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
           <p>Charlot, jetzt heist's Päch kauft. 
           <stage>(rennt unter der Tür mit Schmätterle zusammen, welcher hinfällt, Charlot ab. Lastique und Knüppe
-          heben ihn auf.)</stage></p>
+          heben ihn auf.)</stage>
+          </p>
         </sp>
         <sp who="#schmatterle">
           <speaker>Schmätterle:</speaker>
@@ -356,7 +361,7 @@
           <p>Ah, quelle chance, mir kenne macke kumme les spectres. Oh, ich schun bekumme ganzi Hütt vun die
           Gans.</p>
         </sp>
-        <pb n="9" />
+        <pb n="9"/>
         <sp who="#schmatterle">
           <speaker>Schmätterle:</speaker>
           <p>Was e Pläsier, Knüppe, sie sinn e Kaib, e Kaib, lonn jetz diss Buech hole, ich komponier ejch au e
@@ -390,7 +395,8 @@
           fuer e Effekt mache duet, wenn ich denne Owe in dr Sitzung saue wur: "Geischt vum Quätschel, mir zwinge
           dich, ze erschiene, un d'Düer geht uff 
           <stage>(alle drei stehen eng beisammen links und schauen auf die Tür l.)</stage>un erin kummt — — — - 
-          <stage>(Charlot kommt v. r. herein).</stage></p>
+          <stage>(Charlot kommt v. r. herein).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -413,7 +419,7 @@
           <speaker>Schmätterle:</speaker>
           <p>Mich hesch mache anekeje — wart ich will dr de Marsch blose.</p>
         </sp>
-        <pb n="10" />
+        <pb n="10"/>
         <sp who="#lastique">
           <speaker>Lastique:</speaker>
           <p>Wo isch miner coutau de poche — wart, dü Buewespitzel.</p>
@@ -423,7 +429,8 @@
           <stage>(frech)</stage>
           <p>Wie ihr mich anrüere, ze saa ich's dr Meischtere, ass ihr Spiritüs welle mache do hinne, un
           Geischterles welle spücke, ich hab alles ghöert an dr Düer. 
-          <stage>(Alle drei sind ganz niedergeschlagen).</stage></p>
+          <stage>(Alle drei sind ganz niedergeschlagen).</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -434,7 +441,8 @@
           <speaker>Lastique:</speaker>
           <p>Charlot, silence, nix saue in Madame. Dü bisch au e garçon brav, kenn Lüsgarçon — do hesch Drinkgeld
           fuer Chocolat. 
-          <stage>(gibt ihm Geld).</stage></p>
+          <stage>(gibt ihm Geld).</stage>
+          </p>
         </sp>
         <sp who="#schmatterle">
           <speaker>Schmätterle:</speaker>
@@ -473,7 +481,7 @@
           <speaker>Charlot:</speaker>
           <p>Meischter, mache s'Müll uff, ich gück.</p>
         </sp>
-        <pb n="11" />
+        <pb n="11"/>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
           <p>Halt's Müll, wenn d'reddsch. — S'isch e Name, grad wie e Name, enfin, wie e Deil e Name hann, sisch
@@ -536,7 +544,8 @@
           <p>Naan — naan, ich wurr e Narr, ich hänk mich uff, wänn ich diss Wort nitt find — 
           <stage>(bleibt plötzlich stehen).</stage>Stille — psst — ich habs fascht — ganz ruehj — 
           <stage>(brüllt)</stage>Charlot, hämmer nitt! — Ganz stille, jetz kumm i druff. 
-          <stage>(Charlot und Lastique stehen vor ihm und staunen ihn gespannt an).</stage></p>
+          <stage>(Charlot und Lastique stehen vor ihm und staunen ihn gespannt an).</stage>
+          </p>
         </sp>
         <sp who="#lastique">
           <speaker>Lastique:</speaker>
@@ -546,7 +555,7 @@
           <speaker>Knüppe:</speaker>
           <p>Ssst! Er heisst — -?</p>
         </sp>
-        <pb n="12" />
+        <pb n="12"/>
         <sp who="#schmatterle">
           <speaker>Schmätterle:</speaker>
           <stage>(fängt an zu singen ganz feierlich)</stage>
@@ -611,9 +620,10 @@
           <speaker>Knüppe:</speaker>
           <p>Es mues drinne sinn — es isch doch e Wort un do sinn alli Wöerter drinne unter Küh mues-es stehn 
           <stage>(liest)</stage>Kuranzen, Kur 
-          <stage>(liest heimlich weiter).</stage></p>
+          <stage>(liest heimlich weiter).</stage>
+          </p>
         </sp>
-        <pb n="13" />
+        <pb n="13"/>
         <sp who="#schmatterle">
           <speaker>Schmätterle:</speaker>
           <p>Am End wisse Sie's nimmi rächt. — Heisst-r villicht Stier oder Ochs, oder Kühschtall, Kühfues,
@@ -624,7 +634,8 @@
           <stage>"(trostlos)</stage>
           <p>Unter Ka steht's nitt, — jetz stehn mr do. — Ich Dolle, ich Pfohl, ich Pläbbs, ich Mops — e Härzwuet
           bekumm i — ebs eso ze vergässe! — Hewe mich, i wur massig. 
-          <stage>(nimmt das Buch und wirft es fort, trifft Charlot an den Fuss).</stage></p>
+          <stage>(nimmt das Buch und wirft es fort, trifft Charlot an den Fuss).</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -671,17 +682,18 @@
           <p>Jetz glich diss Buech gholt biem Monsieur Millichsupp. — Awer z'erscht mues ich noch e Versel singe
           üewer mini Vergässlichkeit. — Schmätterle, s'Instrument erüss un dr Lauterbacher gspielt 
           <stage>(es geschieht, Knüppe singt.)</stage>
-          <lg>
-            <l>"Jetz hann mir diss Wort, wie so lang ich hab gsuecht,</l>
-            <l>"Millichsupp" heisst jo der Mann.</l>
-            <l>Es stammt vun der Küh, doch bin ich e Ochs,</l>
-            <l>Dass i so ebs vergässe nur kann."</l>
-          </lg>
-          <stage>(Den Refrain spielt Schmätterle weiter, Knüppe und Lastique tanzen komisch, Charlot klopft den
-          Takt dazu).</stage></p>
+            <lg>
+              <l>"Jetz hann mir diss Wort, wie so lang ich hab gsuecht,</l>
+              <l>"Millichsupp" heisst jo der Mann.</l>
+              <l>Es stammt vun der Küh, doch bin ich e Ochs,</l>
+              <l>Dass i so ebs vergässe nur kann."</l>
+            </lg>
+            <stage>(Den Refrain spielt Schmätterle weiter, Knüppe und Lastique tanzen komisch, Charlot klopft den
+          Takt dazu).</stage>
+          </p>
         </sp>
       </div>
-      <pb n="14" />
+      <pb n="14"/>
       <div type="scene">
         <head>5. Auftritt.</head>
         <stage>Knüppe, Schmätterle, Lastique, Charlot, Urschel.</stage>
@@ -728,9 +740,10 @@
           <stage>(schlägt mit dem Teppichklopfer fest auf den Tisch.)</stage>
           <p>Stille, alter Knüppelüj! 
           <stage>(Knüppe fällt vor Schreck in einen Stuhl, Charlot fällt vom Schemel auf den Boden, die beiden
-          anderen verduften durch d. M.)</stage></p>
+          anderen verduften durch d. M.)</stage>
+          </p>
         </sp>
-        <pb n="15" />
+        <pb n="15"/>
       </div>
       <div type="scene">
         <head>6. Auftritt.</head>
@@ -743,7 +756,8 @@
         <sp who="#urschel">
           <speaker>Urschel:</speaker>
           <p>Witte ufstehn, oder soll ich dr helfe, — kännsch die Bewegung? 
-          <stage>(fuchtelt mit dem Teppichklopfer).</stage></p>
+          <stage>(fuchtelt mit dem Teppichklopfer).</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -793,7 +807,8 @@
           <speaker>Urschel:</speaker>
           <stage>(schlägt mit dem Teppichklopfer auf den Tisch).</stage>
           <p>Stille, wenn ich redd! 
-          <stage>(Knüppe fällt in den Stuhl, Charlot wieder auf den Boden).</stage></p>
+          <stage>(Knüppe fällt in den Stuhl, Charlot wieder auf den Boden).</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -807,14 +822,16 @@
           kenn Wöerter meh! Ich mach dir Spiritüssitzunge, bis d'ganz Menage abbrännt, drum saa ich dir
           Knüppelüj, wänn ich die zwei noch emol in minere Hüshaltung antriff, no brüchsch nitt ze saue
           Gott-strof-mi — denn no 
-          <stage>(holt mit dem Teppichklopfer zum Schlag aus).</stage></p>
+          <stage>(holt mit dem Teppichklopfer zum Schlag aus).</stage>
+          </p>
         </sp>
-        <pb n="16" />
+        <pb n="16"/>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
           <stage>(f. s.)</stage>
           <p>Jetz schlaat's in! 
-          <stage>(hält sich fest am Schemel).</stage></p>
+          <stage>(hält sich fest am Schemel).</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -848,14 +865,16 @@
           <p>Diss isch kenn anderer, wie dr Charlot gsinn, wart, Bürschtel! — gäll er isch schun durich d'Latte?
           Was mich der Bue verzüernt. Awer natirli, wenn dr Meischter nix isch, was soll no dr Lehrbüe erscht
           sinn. Oh, der Wackes, der isch au e Nauel an mim Dotebaum. 
-          <stage>(hebt die Büchse auf).</stage></p>
+          <stage>(hebt die Büchse auf).</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
           <stage>(f. s.)</stage>
           <p>Ich mues mache, ass ich furt kumm, s'Buech hole. 
           <stage>(laut)</stage>Frau, ich tra die Schueh furt zum Herr Dokter Schlänzer, do gitt's s'Geld glich. 
-          <stage>(Wickelt die Schuhe in ein schwarzes Tuch.)</stage></p>
+          <stage>(Wickelt die Schuhe in ein schwarzes Tuch.)</stage>
+          </p>
         </sp>
         <sp who="#urschel">
           <speaker>Ursehel:</speaker>
@@ -864,12 +883,14 @@
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
           <p>Jaja, Urschel, uf dr Centime bekummsch's Adjeh! 
-          <stage>(a. M.).</stage></p>
+          <stage>(a. M.).</stage>
+          </p>
         </sp>
         <sp who="#urschel">
           <speaker>Urschel:</speaker>
           <p>Ich will gehn, d'Millich hole un Schnupfdüwack, ich mues e Bries hann. 
-          <stage>(a. r.).</stage></p>
+          <stage>(a. r.).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -880,7 +901,7 @@
           <stage>(streckt den Kopf durch d. M.)</stage>
           <p>D'Luft isch widder süfer. D'Meischtere geht furt Millich hole. Ich bin zitter in dr Küeche gsinn un
           hab Dampf- 
-          <pb n="17" />nüdle gstücht im Küechekänschterle un hab d'Katz nin gsperrt, no meint mr d'Katz hett se
+          <pb n="17"/>nüdle gstücht im Küechekänschterle un hab d'Katz nin gsperrt, no meint mr d'Katz hett se
           gfrässe. Höhöhöhö! Ich hab Kohldampf, zitter dene Middaa isch schun lang 
           <stage>(nimmt eine Dampfnudel aus dem Sack und isst)</stage>Aah, sinn die fein — Mensch — Maier! Die
           schmecke im Charlot. So Schuehpächeslehrbue isch halt kaan Läwe, bin ich froh, wenn i üssgelehrt hab.
@@ -902,10 +923,11 @@
           und raucht weiter. Plötzlich dasselbe Spiel wie vorher, verzieht das Gesicht schmerzhaft, greift an den
           Leib, schüttelt den Kopf, lacht und raucht weiter. Er ist ganz entzückt, plötzlich greift er mit beiden
           Händen an den Leib, verzieht das Gesicht, zieht die Beine schmerzhaft in die Höhe, wirft die Cigarette
-          fort, hält sich den Leib und läuft durch d. M. a.)</stage></p>
+          fort, hält sich den Leib und läuft durch d. M. a.)</stage>
+          </p>
         </sp>
       </div>
-      <pb n="18" />
+      <pb n="18"/>
       <div type="scene">
         <head>8. Auftritt.</head>
         <stage>Urschel.</stage>
@@ -919,7 +941,8 @@
           denn dr Knüppe wurd au glich kumme un no mues er mr dr Charlot so versohle, awer doppelsohle, ass-r
           nimi sitze un nimi leje kann, der Erzmalefixmilldebibbnundebuckels — oh ich weiss kenn Name meh füer
           dene — — — Dejfel! 
-          <stage>(a. r.)</stage></p>
+          <stage>(a. r.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -939,24 +962,25 @@
           <stage>(verneigt die Puppe gegen das Publikum)</stage>Es kommt zum Vortrag "Charlot "Eins" un Charlot
           "Zwei"! 
           <stage>(singt):</stage>
-          <lg>
-            <head>1.</head>
-            <l>"Ich bin dr Charlot Nummero Eins. Zwiwele ...</l>
-            <l>Diss isch dr Charlot Nummero Zwei. Zwiwele ...</l>
-            <l>Ob Charlot Eins oder Charlot Zwei, Zwiwele . . .</l>
-            <l>Sinn mir doch nur Einerlei. Refrain.</l>
-          </lg>
-          <pb n="19" />
-          <lg>
-            <head>2.</head>
-            <l>Charlot Zwei isch nur e Bubb, Zwiwele...</l>
-            <l>Er isst kein Fleisch un au keine Supp, Zwiwele...</l>
-            <l>Doch kann er danze hochmodern. Zwiwele . . .</l>
-            <l>Drum haw ich ihne au so gern. Refrain.</l>
-          </lg>
-          <stage>(Melodie: Ich bin der Doktor Eisenbart.)</stage>
-          <stage>(Den Refrain spielt die Musik zweimal. Charlot tanzt mit seiner Puppe komisch auf der Bühne
-          herum, dann hört man draussen die Meisterin aufschreien und eine Katze miauen.)</stage></p>
+            <lg>
+              <head>1.</head>
+              <l>"Ich bin dr Charlot Nummero Eins. Zwiwele ...</l>
+              <l>Diss isch dr Charlot Nummero Zwei. Zwiwele ...</l>
+              <l>Ob Charlot Eins oder Charlot Zwei, Zwiwele . . .</l>
+              <l>Sinn mir doch nur Einerlei. Refrain.</l>
+            </lg>
+            <pb n="19"/>
+            <lg>
+              <head>2.</head>
+              <l>Charlot Zwei isch nur e Bubb, Zwiwele...</l>
+              <l>Er isst kein Fleisch un au keine Supp, Zwiwele...</l>
+              <l>Doch kann er danze hochmodern. Zwiwele . . .</l>
+              <l>Drum haw ich ihne au so gern. Refrain.</l>
+            </lg>
+            <stage>(Melodie: Ich bin der Doktor Eisenbart.)</stage>
+            <stage>(Den Refrain spielt die Musik zweimal. Charlot tanzt mit seiner Puppe komisch auf der Bühne
+          herum, dann hört man draussen die Meisterin aufschreien und eine Katze miauen.)</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -985,7 +1009,7 @@
           <speaker>Charlot:</speaker>
           <p>Ähä!</p>
         </sp>
-        <pb n="20" />
+        <pb n="20"/>
         <sp who="#urschel">
           <speaker>Urschel:</speaker>
           <p>Wer redd denn do? 
@@ -1049,7 +1073,8 @@
           <p>Jerum, jerum — dü bisch awer au so e ungarschticher Bue, mr muess dir jo als Schläj gänn. Kumm ich
           will dr Luft mache, mach de Hut erunter — 
           <stage>(will den Hut abnehmen, der ganze Kopf geht aber mit. Der Kopf ist eine sog.
-          Dirlipse.)</stage></p>
+          Dirlipse.)</stage>
+          </p>
         </sp>
         <sp who="#urschel">
           <speaker>Urschel:</speaker>
@@ -1058,7 +1083,7 @@
           <stage>(ruft)</stage>Knüppelüj, Knüppe — oh ich kann nimm — Lüj !!</p>
         </sp>
       </div>
-      <pb n="21" />
+      <pb n="21"/>
       <div type="scene">
         <head>11. Auftritt.</head>
         <stage>Urschel, Charlot, Knüppe.</stage>
@@ -1129,14 +1154,15 @@
           <speaker>Urschel:</speaker>
           <p>Was hesch widder ze brummle, dü alter Pfohl. Naan was macht der Mann mich redde, ich muess mich
           verzüerne! 
-          <stage>(wirft die Puppe nach Knüppe.)</stage></p>
+          <stage>(wirft die Puppe nach Knüppe.)</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
           <stage>(f. s.)</stage>
           <p>Armer Charlottel !</p>
         </sp>
-        <pb n="22" />
+        <pb n="22"/>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
           <stage>(wirft die Puppe 1. hinaus)</stage>
@@ -1168,7 +1194,8 @@
           <p>S'isch rächt Knüppelüj. — Ich hab doch viel mit-ere ze redde mit dr Mamselle Bergall üewer dene Fall
           vun dr Hochzitt vum Gluckser Salome un no weiss i noch ebs vun dr Madame Kräjer ihrem Mann, na ich geh
           jetz. 
-          <stage>(a. r.)</stage></p>
+          <stage>(a. r.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1183,10 +1210,11 @@
           gsaat, wenn mr's genau mache wie's im Buech steht. Ich will au im Lastique un Schmätterle ruefe no
           fange mr glich an. 
           <stage>(im Abgehen)</stage>Es isch doch so e wunderbar's Emfinde mit Geister in Berührung zu kumme. 
-          <stage>(a. d. d. M.)</stage></p>
+          <stage>(a. d. d. M.)</stage>
+          </p>
         </sp>
       </div>
-      <pb n="23" />
+      <pb n="23"/>
       <div type="scene">
         <head>13. Auftritt.</head>
         <stage>Charlot.</stage>
@@ -1202,7 +1230,8 @@
           <stage>(sucht in den Taschen)</stage>E Messer — e Lädel — ah, do isch Juckpulver drinne, diss haw ich
           bim Drogischt kauft. Was kennt mr do mit anstelle? — Ich höer se kumme. Ich geh widder unter de Disch,
           ich wurr die Sach schun schmisse — ich dr "Charlot, der König des Kino!" Mensch — Maier! 
-          <stage>(setzt sich wieder unter den Tisch, r.)</stage></p>
+          <stage>(setzt sich wieder unter den Tisch, r.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1212,7 +1241,8 @@
           <speaker>Knüppe:</speaker>
           <stage>(d. d. M. mit Lastique und Schmätterle)</stage>
           <p>Kumme numme erin, mini Frau isch furt, s'isch nieme do hinne, wie mir drej. 
-          <stage>(hat das Buch in der Hand.)</stage></p>
+          <stage>(hat das Buch in der Hand.)</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -1237,7 +1267,7 @@
           <speaker>Knüppe:</speaker>
           <p>Ruehj ihr Friend! Meine ihr ich dät do e Sitzung abhalte wänn's nitt ganz ghier wär! Mini Frau isch
           bi dr Nähjere un kummt vor zwei Stund 
-          <pb n="24" />nitt. Nieme wurd uns jetz stöere wenn mir mit de Geischter redde welle — Friend, ich hab's
+          <pb n="24"/>nitt. Nieme wurd uns jetz stöere wenn mir mit de Geischter redde welle — Friend, ich hab's
           Buech — s'Buech wie uns Gewalt in d'Hand gitt d'Geischter ze banne un se unserm Wille ze unterwerfe. 
           <stage>(liest im Buch)</stage>"Der Spiritismus" vun Professor Giggax. Do steht jetz: Zue-re Sitzung un
           Geischterbeschwörung mues mr e Tisch mit-eme schwarze Tuech bedecke. Do isch eins 
@@ -1271,7 +1301,8 @@
         <sp who="#lastique">
           <speaker>Lastique:</speaker>
           <p>Nix Schwäwes — do ich hab e Briquet. 
-          <stage>(nimmt sein Feuerzeug heraus).</stage></p>
+          <stage>(nimmt sein Feuerzeug heraus).</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -1280,7 +1311,8 @@
         <sp who="#lastique">
           <speaker>Lastique:</speaker>
           <p>Do isch jo e Fiermackser e Mécanique de feu. 
-          <stage>(zündet die Kerzen an.)</stage></p>
+          <stage>(zündet die Kerzen an.)</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -1291,7 +1323,7 @@
           <stage>(Sie nehmen am Tische Platz)</stage>— Kenn Kopfbedeckung derfe mr uffhann — so — Jetz sitze ganz
           stille un kenn Wort redde wie nitt notwendi isch.</p>
         </sp>
-        <pb n="25" />
+        <pb n="25"/>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
           <stage>(laut)</stage>
@@ -1353,15 +1385,16 @@
           <stage>(liest im Buch)</stage>D'Händ krizwies uewer d'Bruscht gelajt — munke drejmol mit-em Kopf. 
           <stage>(alle drei tun es).</stage>So — jetz wittersch — mr müen d'Stirn uff de Disch laje un drejmol e
           Gsetzel saue wie do steht — warte ich läs-es vor: 
-          <pb n="26" />
-          <lg>
-            <l>"Gälrüewesaft un Wiedegrund,</l>
-            <l>Düdelsack, e Stück vum Hund,</l>
-            <l>Fleddermüs un Mondeschien,</l>
-            <l>Drejmol drej isch ungrad nien.</l>
-            <l>Güeter Geischt kumm un erschien !"</l>
-          </lg>So laje de Kopf, diss heist d'Stirn uff's Dischplatt un saue diss drej mol. 
-          <stage>(Alle drei tun es.)</stage></p>
+          <pb n="26"/>
+            <lg>
+              <l>"Gälrüewesaft un Wiedegrund,</l>
+              <l>Düdelsack, e Stück vum Hund,</l>
+              <l>Fleddermüs un Mondeschien,</l>
+              <l>Drejmol drej isch ungrad nien.</l>
+              <l>Güeter Geischt kumm un erschien !"</l>
+            </lg>So laje de Kopf, diss heist d'Stirn uff's Dischplatt un saue diss drej mol. 
+          <stage>(Alle drei tun es.)</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -1374,7 +1407,8 @@
           <stage>(Sie sagen den Spruch langsam mit tiefer Stimme her, während dessen kommt Charlot vor, geht
           hinter sie und streut jedem Juckpulver auf die Glatze, dann geht er wieder in sein Versteck, indem er
           vergnügt lacht. — Bei dem dritten Mal hersagen kommt einer nach dem andern mit dem Arm in die Höhe und
-          kratzt sich mit dem Zeigefinger auf der Glatze.)</stage></p>
+          kratzt sich mit dem Zeigefinger auf der Glatze.)</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -1414,7 +1448,7 @@
           <speaker>Schmätterle:</speaker>
           <p>E Moment — ich will zerscht noch emol kratze.</p>
         </sp>
-        <pb n="27" />
+        <pb n="27"/>
         <sp who="#lastique">
           <speaker>Lastique:</speaker>
           <p>O mini pauvre tête, ich sott kratze mit e Bürschtwurzel.</p>
@@ -1445,7 +1479,8 @@
           <speaker>Kaminfeger:</speaker>
           <p>Ich? Ich bin dr Kaminfäjer — morje früehj am acht wurd's Kamin gebutzt. Guet Nacht! 
           <stage>(f. s.)</stage>Ich glaub, die hann e Fummel. 
-          <stage>(ab d. d. M.)</stage></p>
+          <stage>(ab d. d. M.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1470,23 +1505,24 @@
           <p>Jetz kenn Plän gemacht. Ihr brüche doch kenn Ängschte ze hann, e Geischt macht doch eim nix. — Ihr
           sinn doch Männer. — Der Kaminfäjer hett jetzt alles verdorwe, jetz müen mr noch emol die Bschwöerung
           mache, mr derfe uns d'Muehj nitt verdriese lonn. — Awer jetz will i Düer bschliese, 
-          <pb n="28" />diss hann mr vergesse. Alle ze mache d'Händ widder in d'Höeh, d'Aue geje de Himmel, ich
+          <pb n="28"/>diss hann mr vergesse. Alle ze mache d'Händ widder in d'Höeh, d'Aue geje de Himmel, ich
           will dr Geischt vun unserm Friend noch emol bschwöere, ich gspier's in mir, es glückt uns hitt Owe! 
           <stage>(sagt den Spruch wieder her):</stage>
-          <lg>
-            <l>"Gälrüewesaft un Wiedegrund,</l>
-            <l>Düdelsack, e Stück vum Hund,</l>
-            <l>Fleddermüs un Mondeschien,</l>
-            <l>Drejmol drej isch ungrad nien.</l>
-            <l>Güeter Geischt kumm un erschien !"</l>
-          </lg>Dü Geischt, wo schwebt do in dr Luft, wie zittert, ringelt sich do nuff, Geischt vum Quätschel —
+            <lg>
+              <l>"Gälrüewesaft un Wiedegrund,</l>
+              <l>Düdelsack, e Stück vum Hund,</l>
+              <l>Fleddermüs un Mondeschien,</l>
+              <l>Drejmol drej isch ungrad nien.</l>
+              <l>Güeter Geischt kumm un erschien !"</l>
+            </lg>Dü Geischt, wo schwebt do in dr Luft, wie zittert, ringelt sich do nuff, Geischt vum Quätschel —
           bisch dü do hinne?</p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
           <stage>(laut)</stage>
           <p>Ähä! 
-          <stage>(Alle drei fahren zusammen).</stage></p>
+          <stage>(Alle drei fahren zusammen).</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>
@@ -1509,7 +1545,8 @@
           <speaker>Charlot:</speaker>
           <stage>(f. s.)</stage>
           <p>Wart, ejch due ich spücke, 
-          <stage>(klopft drei Mal an den Tisch, unter welchem er sitzt)</stage></p>
+          <stage>(klopft drei Mal an den Tisch, unter welchem er sitzt)</stage>
+          </p>
         </sp>
         <sp who="#lastique">
           <speaker>Lastique:</speaker>
@@ -1520,21 +1557,21 @@
           <stage>(entzückt)</stage>
           <p>Er hett e Zeiche gänn, er will erschinne. 
           <stage>(liest im Buch — die beiden andern halten die Arme in die Höhe).</stage>
-          <lg>
-            <l>"Geischterfüerscht,</l>
-            <l>Entechrischt,</l>
-            <l>Häxebäse,</l>
-            <l>Seelewäse,</l>
-            <l>Gspänschterheer,</l>
-            <l>Do muesch her,</l>
-            <l>Geischt, bisch do hinne?</l>
-            <l>Ze due erschinne!"</l>
-          </lg>
-          <stage>(mit lauter Stimme)</stage>Ze due erschinne!! 
+            <lg>
+              <l>"Geischterfüerscht,</l>
+              <l>Entechrischt,</l>
+              <l>Häxebäse,</l>
+              <l>Seelewäse,</l>
+              <l>Gspänschterheer,</l>
+              <l>Do muesch her,</l>
+              <l>Geischt, bisch do hinne?</l>
+              <l>Ze due erschinne!"</l>
+            </lg>
+            <stage>(mit lauter Stimme)</stage>Ze due erschinne!! 
           <stage>(alle drei rufen)</stage>Ze due erschinne!</p>
         </sp>
       </div>
-      <pb n="29" />
+      <pb n="29"/>
       <div type="scene">
         <head>17. Auftritt.</head>
         <stage>Charlot, Knüppe, Lastique, Schmätterle, Urschel.</stage>
@@ -1546,7 +1583,8 @@
         <sp who="#urschel #schmatterle #lastique">
           <speaker>Alle drej:</speaker>
           <p>O jeeh! 
-          <stage>(können vor Schreck nicht aufstehen.)</stage></p>
+          <stage>(können vor Schreck nicht aufstehen.)</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -1572,7 +1610,8 @@
           Löjebittel. Un hinter mim Rüecke wurd in minere Menage so Hanswurschteldings gemacht? Awer so isch's,
           wenn mr ze guet isch — du Knüppelüj, verdiensch gar kenn so Frau, wie ich eini bin — dü, dü bisch noch
           e Nauel an mim Dotebaum. 
-          <stage>(Holt den Teppichklopfer).</stage></p>
+          <stage>(Holt den Teppichklopfer).</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
@@ -1585,14 +1624,15 @@
           <stage>(will auf sie los hauen, Schmätterle und Lastique springen auf. Charlot kommt in dem Moment
           unter dem Tisch hervor, der Tisch fällt um. Er hat die weisse Tischdecke um sich, über den Kopf
           geschlagen, hält die Decke mit den übereinander geschlagenen Armen fest, geht einige Schritte gegen d.
-          M., die andern ziehen sich ganz r. hinüber und schreien: E Gspänscht, e Gspänscht!)</stage></p>
+          M., die andern ziehen sich ganz r. hinüber und schreien: E Gspänscht, e Gspänscht!)</stage>
+          </p>
         </sp>
         <sp who="#charlot">
           <speaker>Charlot:</speaker>
           <stage>(mit hohler Stimme)</stage>
           <p>Halt! Im Namme vun de Geischter! Jetz bin ich do Meischter!</p>
         </sp>
-        <pb n="30" />
+        <pb n="30"/>
         <sp who="#knuppe #lastique #schmatterle #urschel">
           <speaker>Alle:</speaker>
           <stage>(knien r. nieder, vor Angst fangen sie an zu sagen)</stage>
@@ -1683,7 +1723,7 @@
           <p>Noch ebs! Verspreche-n-ihr, jede Wuch drejmol un alle Sunndaa einmol Dampfnüdle ze mache un de
           Charlot so lang ässe ze lonn, wie er Luscht hett?</p>
         </sp>
-        <pb n="31" />
+        <pb n="31"/>
         <sp who="#urschel">
           <speaker>Urschel:</speaker>
           <p>Ich schwöer's mit zwei Händ. Er soll ässe, bis er nimi kann un noch zwei meh.</p>
@@ -1702,7 +1742,8 @@
           <p>So — un wenn ihr nitt halte, was ihr gschwore 
           <stage>(mit drohender Stimme)</stage>"Wehe, wehe, wehe!!!" 
           <stage>(Knüppe, Urschel, Schmätterle, Lastique vor Angst zitternd, halten die Hände bittend in die
-          Höhe.)</stage></p>
+          Höhe.)</stage>
+          </p>
         </sp>
         <sp who="#knuppe">
           <speaker>Knüppe:</speaker>

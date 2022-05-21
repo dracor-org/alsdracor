@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -52,7 +52,7 @@
             <title type="sub">odder: E foljieschwäri Hüssuechung. E Schwank in 1 Uffzug</title>
             <publisher>F. X. Le Roux &amp; Cie, Strasbourg</publisher>
             <date when="1928" type="print">1928</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -88,10 +88,10 @@
             <persName>2. Arweiter</persName>
           </person>
           <listRelation type="personal">
-            <relation name="related_with" mutual="#georges_frosch #michel" />
-            <relation name="associated_with" mutual="#georges_frosch #michel" />
-            <relation name="related_with" mutual="#georges_frosch #robert" />
-            <relation name="related_with" mutual="#michel #robert" />
+            <relation name="related_with" mutual="#georges_frosch #michel"/>
+            <relation name="associated_with" mutual="#georges_frosch #michel"/>
+            <relation name="related_with" mutual="#georges_frosch #robert"/>
+            <relation name="related_with" mutual="#michel #robert"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -105,7 +105,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="3" />
+      <pb n="3"/>
       <castList>
         <head>Personen:</head>
         <castItem corresp="#georges_frosch">
@@ -126,29 +126,23 @@
         </castItem>
         <castGroup>
           <castItem corresp="#hebbne">
-            <role>
-              <persName>Hebbne</persName>
-            </role>
+            <role><persName>Hebbne</persName></role>
           </castItem>
           <castItem corresp="#schnappne">
-            <role>
-              <persName>Schnappne</persName>
-            </role>
+            <role><persName>Schnappne</persName></role>
           </castItem>
           <roleDesc>Schutzlitt in Üniform odder Polizej-Inspekter in Zivil (d'r bettr. Text kann lycht entspr.
           abg'ändert wäre)</roleDesc>
         </castGroup>
         <castItem corresp="#e_gauner">
-        <role>
-          <persName>E Gauner</persName>
-        </role>.</castItem>
+          <role><persName>E Gauner</persName></role>.</castItem>
       </castList>
       <set>
         <p>ORT: Wohnstubb by Frosch's. ― ZYTT : Gejewart.</p>
         <p>ZYTT : Gejewart.</p>
         <p>SPIELZYTT : Circa 30 Minüte.</p>
       </set>
-      <pb n="4" />
+      <pb n="4"/>
       <set>
         <head>Dekorationsplan</head>
         <p>Wohnstube bei Frosch.</p>
@@ -165,7 +159,7 @@
       </set>
     </front>
     <body>
-      <pb n="5" />
+      <pb n="5"/>
       <div type="act">
         <div type="scene">
           <head>1. Scène.</head>
@@ -185,7 +179,7 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(stellt mit'm Michel de Kuffer an d' Wand rächts vor e beliewig's Meewelstick)&#160;:</stage>
+            <stage>(stellt mit'm Michel de Kuffer an d' Wand rächts vor e beliewig's Meewelstick) :</stage>
             <p>Enfin, hätte mir'ne so wytt! Ich schwitz wajer wie e Daadieb, wo in're Arweit züegückt !</p>
           </sp>
           <sp who="#michel">
@@ -214,7 +208,7 @@
             <speaker>MICHEL :</speaker>
             <p>'s muess awer partout sinn, Schorsch. Als syne Unkel isch diss au dyni Sach... ich habb myn Deil
             gemacht. Ich habb myne Frynd Burjer extra dohere b'stellt, 
-            <pb n="6" />fur'ne mit dir unn mit'm Robert bekannt ze mache. By dere Affär will'r no nadierlich au
+            <pb n="6"/>fur'ne mit dir unn mit'm Robert bekannt ze mache. By dere Affär will'r no nadierlich au
             wisse, wie d' g'schäftliche Conditione fur e Hyroot zwische'm Robert unn synere Dochter sinn.</p>
           </sp>
           <sp who="#georges_frosch">
@@ -259,7 +253,7 @@
             Portefeuille drüss nemmt ; beidi redde im Lauf vun d'r nächschte Scène arich vorsichlig unn im
             Abstand vum Pardessü bis zue d'r Dier links.)</stage>
           </sp>
-          <pb n="7" />
+          <pb n="7"/>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Hesch ebbs g'funde, Schorsch ?</p>
@@ -322,7 +316,7 @@
             <stage>(läst) :</stage>
             <p>« Lieber Robert! Im schönen Italien sitze ich am Meeresgestade und gedenke Dein. Ich bin entzückt.
             Du musst die stolze, blaue Adria unbedingt auch einmal kennen lernen. Sie bezaubert Dich und lässt
-            Dich nicht mehr frei! Dein Freund Louis!&#160;» — Was, « Adria »? Diss wurd allewäj so e
+            Dich nicht mehr frei! Dein Freund Louis! » — Was, « Adria »? Diss wurd allewäj so e
             italienisch's Menschel sinn !</p>
           </sp>
           <sp who="#michel">
@@ -334,7 +328,7 @@
             <speaker>GEORGES :</speaker>
             <p>Viellycht süfft s'e viel unn isch no als « blöj », wie m'r saat?</p>
           </sp>
-          <pb n="8" />
+          <pb n="8"/>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Ich glabb ehnder, ass die grien isch, denn schunscht wär s'e nitt so frech unn dhät eine nimmi los
@@ -401,7 +395,7 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES :</speaker>
-            <p>Ach was, « Moral » — «&#160;lieb hann » ! G'schäftsmann, Kaufmann muess m'r sinn, wenn m'r sich e
+            <p>Ach was, « Moral » — « lieb hann » ! G'schäftsmann, Kaufmann muess m'r sinn, wenn m'r sich e
             solid's Glick sichere will !</p>
           </sp>
           <sp who="#michel">
@@ -409,7 +403,7 @@
             <p>Ja, denn die Partie, wo mir dir üssg'suecht hann, isch e Kapital vun jährlich 100 000 Franke Zinse
             !</p>
           </sp>
-          <pb n="9" />
+          <pb n="9"/>
           <sp who="#georges_frosch">
             <speaker>GEORGES :</speaker>
             <p>Unn beidi G'schäfter dhäte no in ein Famili kumme unn blyewe !</p>
@@ -426,7 +420,7 @@
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(meh fur sich)&#160;:</stage>
+            <stage>(meh fur sich) :</stage>
             <p>By so're ginschtige Partie wott ich myni Frau iwerhaupt am liebschte gar nie sähn !</p>
           </sp>
           <sp who="#robert">
@@ -437,12 +431,14 @@
             <speaker>GEORGES :</speaker>
             <p>So? Diss welle mir sähn ! Ich bin dyner Unkel, unn dü hesch ze mache, was ich will ! Iwerleij
             dir's bis denne Middaa ! 
-            <stage>(Wietig rächts ab).</stage></p>
+            <stage>(Wietig rächts ab).</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Unn ich bin au dyner Unkel, unn dü hesch au ze mache, was ich will! 
-            <stage>(Wietig links ab.)</stage></p>
+            <stage>(Wietig links ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -459,7 +455,7 @@
             Unn jetzt g'schwind in d' Stadt ; viellycht sieh ich diss härzig Maidel hytt widder uff d'r Promenad!
             
             <stage>(Langt nooch'm Pardessü.)</stage>Ah, ebb 
-            <pb n="10" />ass ich's vergesse d'hue : mir kummt's als so vor, wie wenn mir ebber myni Kleider
+            <pb n="10"/>ass ich's vergesse d'hue : mir kummt's als so vor, wie wenn mir ebber myni Kleider
             üssmüse dhät — 's isch allewyli alles am lätze Platz ! Diss Mool haw ich awer e Zeiche gemacht, unn
             wenn ich mich nitt drumpier — 
             <stage>(luejt's Portefeuille nooch)</stage>— ei, nadierlich !, 's isch so ! 's isch ebber an mym
@@ -472,16 +468,17 @@
             emool e Begriff devun mache, wie 's isch, wenn m'r allewyll in d'r Angscht läwe muess, ass eim syni
             privatschte Saches üssg'spioniert wäre! Babier, e'n Enveloppe unn e Fillfedder haw ich jo by mir —
             also los unn e heilsams Briefel g'schriwe. 
-            <stage>(Setzt sich unn schryebt)</stage>: «&#160;An die Herren Gebrüder Frosch ! Ein wohlmeinender
+            <stage>(Setzt sich unn schryebt)</stage>: « An die Herren Gebrüder Frosch ! Ein wohlmeinender
             Freund macht Sie darauf aufmerksam, dass Sie in politischer Beziehung verdächtigt worden sind und
             dass daher eine polizeiliche Haussuchung bei Ihnen zu erwarten steht. Treffen Sie Ihre Massnahmen. »
             So, Schluss — Punkt! Ja, myni liewi Unkel, wenn ihr mir nitt myni Ruehj lonn, ze loss ich ejch ejri
             au nitt ! Am beschte leij ich diss Schryewes do unter die Zyttunge unn Brief, wo denne Morje kumme
             unn noch nitt uffgemacht sinn worre. Briefele, Briefele, bring mir jo bonne chance ! 
-            <stage>(Iwermietig ab nooch hinte, noochdem er Huet unn Pardessü angezöje hett.)</stage></p>
+            <stage>(Iwermietig ab nooch hinte, noochdem er Huet unn Pardessü angezöje hett.)</stage>
+            </p>
           </sp>
         </div>
-        <pb n="11" />
+        <pb n="11"/>
         <div type="scene">
           <head>4. Scène.</head>
           <stage>Georges unn Michel.</stage>
@@ -524,8 +521,8 @@
           </sp>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
-            <p>Waje dem denk ich au alle Daa bym Uffstehn : «&#160;Was ich bin und was ich habe, dank' ich dir,
-            mein Vaterland!&#160;»</p>
+            <p>Waje dem denk ich au alle Daa bym Uffstehn : « Was ich bin und was ich habe, dank' ich dir,
+            mein Vaterland! »</p>
             <stage>(D'r Georges hett iwer dem G'spräch e paar Brief uffgemacht, kurz nyn geluejt unn s'e uff de
             Disch zeruckgeleijt; er hett jetzt de Brief vum Robert in d'r Hand unn läst.)</stage>
           </sp>
@@ -533,20 +530,21 @@
             <speaker>GEORGES</speaker>
             <stage>(fahrt vergelschtert in d' Heeche unn losst de Brief falle):</stage>
             <p>Gott steh m'r by! Diss iwerläw ich nitt! 
-            <stage>(Fallt in de Stuehl zeruck.)</stage></p>
+            <stage>(Fallt in de Stuehl zeruck.)</stage>
+            </p>
           </sp>
-          <pb n="12" />
+          <pb n="12"/>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Schorsch, was gitts? Was hesch de denn? 
             <stage>(Er hebbt de Brief uff, läst unn sinkt au verschrocke in de Stuehl.)</stage>So ebbs isch jo
             nitt mejlich ! Draim ich denn ? Nein, 's isch Wohret! 
             <stage>(Läst) :</stage>« Treumeinender Freund — in politischer Beziehung verdächtigt —
-            Haussuchung!&#160;» Schorsch ! Brueder, ich stärb am lawendige Lyeb!</p>
+            Haussuchung! » Schorsch ! Brueder, ich stärb am lawendige Lyeb!</p>
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(kummt zue sich)&#160;:</stage>
+            <stage>(kummt zue sich) :</stage>
             <p>Ich bin wie vor's Hirn g'schlaawe! Mir unn politisch verdächtig?</p>
           </sp>
           <sp who="#michel">
@@ -592,7 +590,7 @@
             <p>Ich? Nix nadierlich! Awer wie lycht hett ebber glauwe kenne, ich wär mit dem Krakeeler syne
             Reddesarte ynverstande, will ich nix erwidert habb...</p>
           </sp>
-          <pb n="13" />
+          <pb n="13"/>
           <sp who="#georges_frosch">
             <speaker>GEORGES :</speaker>
             <p>...oder dü wärdsch gar e Bekannter vun'm, un hett dich no by d'r Bolizej angezejt! Do sieht m'r
@@ -623,13 +621,14 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES :</speaker>
-            <p>Michel, saa diss nitt! D'r Rebespierre, par exemple, hett emool g'saat: «&#160;Gänn mir drej
+            <p>Michel, saa diss nitt! D'r Rebespierre, par exemple, hett emool g'saat: « Gänn mir drej
             x-beliewigi Werter, wo e Mensch g'schriewe hett, unn ich bring'ne uff's Schafott! »</p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Herrjeh, diss isch jo allerhand ! Do heisst's allerdings vorg'sorjt ! 
-            <stage>(Macht d' Dischschüblad uff unn langt Brief erüss.)</stage></p>
+            <stage>(Macht d' Dischschüblad uff unn langt Brief erüss.)</stage>
+            </p>
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES :</speaker>
@@ -651,18 +650,19 @@
             <speaker>GEORGES :</speaker>
             <p>Um's Gott's Will! Diss sinn d' g'fährlichschte ! Die sinn's jo, wo in de Kinder 's Schryewe
             bybringe, so ass s'e no, wenn s'e gross sinn, Brandartikel geje d' Re- 
-            <pb n="14" />jierung schryewe kenne! Ich bitt dich, ich bitt dich, verryss denne Brief unn werf'ne
+            <pb n="14"/>jierung schryewe kenne! Ich bitt dich, ich bitt dich, verryss denne Brief unn werf'ne
             dort in de Babierkorb mitzamt denne Zyttunge do! Nochher verbrenne mir alles, was uns g'fährlich
             kennt wäre.</p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Dü hesch, ma foi, rächt, Georges! 
-            <stage>(Werft de Brief unn d' Zyttunge etc., wo uff'm Disch leje, in de Babierkorb.)</stage></p>
+            <stage>(Werft de Brief unn d' Zyttunge etc., wo uff'm Disch leje, in de Babierkorb.)</stage>
+            </p>
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(langt e Photographie-Album, wo ierigs lejt)&#160;:</stage>
+            <stage>(langt e Photographie-Album, wo ierigs lejt) :</stage>
             <p>Im Photographie-Album miehn mir nadierlich au noochlueje! Wer isch denn diss? Wie isch denn diss
             Bild do nyngeroote, Michel ?</p>
           </sp>
@@ -694,7 +694,8 @@
             <p>Was ? Harmlos? Bedenk, d'r Hindeburj isch jo au üss Pose! Nein, so ebbs! Diss Photographie-Album
             do isch jo 's reinscht Verbrecher-Album ! 's bescht wurd sinn, ich wärf's ganz furt ! Do kennt eim jo
             sogar e Photographie vum ewige Judd oder vum Adam unn Eva g'fährlich wäre ! 
-            <stage>(Er wärft's Album in de Babierkorb.)</stage></p>
+            <stage>(Er wärft's Album in de Babierkorb.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
@@ -706,18 +707,20 @@
             <p>...dyn Nasdiechel bluetig gemacht! Allmächtiger, als furt mit 
             <stage>(nemmťs unn werft's zue de andere Sache).</stage>Bluet! Was kamm'r sich nitt alles deby denke
             ! 
-            <pb n="15" />'s Schrecklichschte losst sich do gar nitt üssmoole! — Awer was sieh ich denn do! Unseri
+            <pb n="15"/>'s Schrecklichschte losst sich do gar nitt üssmoole! — Awer was sieh ich denn do! Unseri
             Dischdeck isch jo knallrot !</p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Richtig, diss isch e revolütionäri Farb ! Also als ab ins Krematorium mit dere Deck ! 
-            <stage>(Werft sie zue de andere Sache.)</stage></p>
+            <stage>(Werft sie zue de andere Sache.)</stage>
+            </p>
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES :</speaker>
             <p>Unn die Wandühr do müess au verschwinde! 's isch jo e Schwarzwälderühr ! 
-            <stage>(Wie vorig.)</stage></p>
+            <stage>(Wie vorig.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
@@ -727,9 +730,10 @@
             <speaker>GEORGES :</speaker>
             <p>Was steht denn unte? 
             <stage>(Läst) :</stage>« Dem wackern Kegelschieber Georges Frosch vom Kegelklub « Alleweil gut
-            Holz&#160;» !&#160;» Grosser Gott, diss isch jo myn weritawels Doodesurdeil! Ab mit uff
+            Holz » ! » Grosser Gott, diss isch jo myn weritawels Doodesurdeil! Ab mit uff
             Nimmerwiddersähn ! 
-            <stage>(Wie vorig.)</stage></p>
+            <stage>(Wie vorig.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
@@ -758,20 +762,23 @@
             <speaker>MICHEL :</speaker>
             <p>M'r kennt denke, mir wotte im rächte Moment revolütionäri Fähne drüss mache! Die miehn verschwinde
             ! 
-            <stage>(Wie vorig.)</stage></p>
+            <stage>(Wie vorig.)</stage>
+            </p>
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(langt üss'm Sack e Daschemesser)&#160;:</stage>
+            <stage>(langt üss'm Sack e Daschemesser) :</stage>
             <p>Diss Sackmesser do will ich uff alli Fäll au verschmerze. 
             <stage>(Wie vorig.) 
-            <pb n="16" /></stage></p>
+            <pb n="16"/>
+              </stage>
+            </p>
             <stage>(D'Stubb muess jetzt e leerer, armseliger Yndruck mache unn nurmme noch mit de nackete Wänd
             unn e paar Meewel do stehn.)</stage>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(luejt sich erum)&#160;:</stage>
+            <stage>(luejt sich erum) :</stage>
             <p>Jetzt simm'r nooch minere Ansicht politisch züverlässig !</p>
           </sp>
           <sp who="#georges_frosch">
@@ -780,7 +787,8 @@
             ich jetzt in d'r Kiche, un dü packsch d'andere Sache z'samme uınn wärfsch s'e in de Kanal ! No kann
             vun mir üss d' Bolizej hüssüeche, so lang ass s'e Luscht hett! 
             <stage>(Er nemmt de Babierkorb mit de Brief, Zyttunge, Nasdiechel unn Album drinne; d'r Michel
-            wickelt in d' Dischdeck die zwei Dafle, d' Vorhäng, d' Ühr, d' Figür unn's Messer.)</stage></p>
+            wickelt in d' Dischdeck die zwei Dafle, d' Vorhäng, d' Ühr, d' Figür unn's Messer.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
@@ -791,7 +799,8 @@
             <speaker>GEORGES :</speaker>
             <p>Ei, dü muesch's halt schlöj anfange, Michel. Dü bisch doch schunscht nitt grad uff de Kopf
             g'falle! 
-            <stage>(Ab noch rächts mit syne Sache.)</stage></p>
+            <stage>(Ab noch rächts mit syne Sache.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -803,21 +812,22 @@
             kumm'r grad vor wie einer, wo e Verbreche begehn will! Halt, do kummt mir e Gedanke vum Schiller üss
             d'r Krütenau: Ich verkleid mich, unn zwar zej ich d' Kleider vun unsere Hüsshältere an, no kennt mich
             kein Mensch ! Ich sieh no grad dryn wie e Frau, wo uff's Versatzhüs geht! 
-            <stage>(Er nemmt syne Pack unn geht mit links ab.)</stage></p>
+            <stage>(Er nemmt syne Pack unn geht mit links ab.)</stage>
+            </p>
           </sp>
         </div>
-        <pb n="17" />
+        <pb n="17"/>
         <div type="scene">
           <head>6. Scène.</head>
           <stage>Robert.</stage>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
-            <stage>(vun hinte ; ohne Huet unn Mantel)&#160;:</stage>
+            <stage>(vun hinte ; ohne Huet unn Mantel) :</stage>
             <p>Ich bin iwerglicklich — ich habb's Yvonne uff d'r Promenad g'sähn ! Wie sieht's awer denn do üss?
             Wie wenn, d' Raiwer do hinne gewiet unn geplindert hätte ! Oder wie e Wald im Dezember! Was soll diss
             bedytte? — Ah, mir geht e Licht uff! 
             <stage>(Lacht.)</stage>Do isch gewiss myner Brief dran d' Schuld! Die zwei alte Herre sinn ihr Läwe
-            nimmi sicher unn hann «&#160;alle Spuren verwischt », wie's als in de Detektiv-Romane heisst ! Na, d'
+            nimmi sicher unn hann « alle Spuren verwischt », wie's als in de Detektiv-Romane heisst ! Na, d'
             Hauptsach isch, wenn se mir in Zuekunft myni Ruehj lonn! 
             <stage>('s klopft.)</stage>'s hett geklopft! Wer kann diss sinn ? Entrez!</p>
           </sp>
@@ -832,7 +842,7 @@
           </sp>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Dü liewer Strohsack, dem syni Dochter soll ich jo hyroote ! i</p>
           </sp>
           <sp who="#burjer">
@@ -842,7 +852,7 @@
           </sp>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Jetzt odder nie! Ich will dem Monsieur Burjer e Denkzettel gänn, ass'r sich hiete wurd, mir syni
             Dochter anzevertröje ! 
             <stage>(Lütt)</stage>: Sie drumpiere sich, Monsieur Burjer ! Myn Name isch... isch, ja, isch Meier
@@ -853,7 +863,7 @@
             <p>Diss ändert's Bild! 
             <stage>(Fur sich)</stage>: Do hinne sieht's nitt grad arich nooch Millione üss ! Awer durch fremdi
             Lytt erfahrt m'r als am beschte, wie's um anderi b'stellt 
-            <pb n="18" />isch ! 
+            <pb n="18"/>isch ! 
             <stage>(Lütt):</stage>Awer Sie kenne doch gewiss de Monsieur Robert ?</p>
           </sp>
           <sp who="#robert">
@@ -865,7 +875,8 @@
             <p>Im Gejedeil, Sie dhäte mir e grosse G'falle mache, wenn Sie mich iwer syni Perseenlichkeit e
             bissel uffkläre dhäte. 's steht nämlich fur mich ebbs uff'm Spiel, wo myne Geldsack angeht, unn waje
             dem soll's mir nitt uff döjsig Fränkle ankumme, wenn Sie mich e bissel renseigniere wolte. 
-            <stage>(Er gitt'm Geld.)</stage></p>
+            <stage>(Er gitt'm Geld.)</stage>
+            </p>
           </sp>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
@@ -900,14 +911,14 @@
           </sp>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Endlich haw ich 'ne so wytt! 
             <stage>(Lütt)</stage>: Do wär ihri Dochter scheen ang'schmiert, ! Er isch jo schun g'hyroot — ganz
             heimlich — niemes weiss ebbs devun. Sie kenne sich also vorstelle, welle Wäj ass no Ihr Geld nemme
             dhät! Numme waje dem will'r jo Ihri Dochter hyroote! Unn was syni zwei Unkel angeht, ze sinn s'e
             ärmer als wie arm.</p>
           </sp>
-          <pb n="19" />
+          <pb n="19"/>
           <sp who="#burjer">
             <speaker>BURJER :</speaker>
             <p>Junger Mann, Sie hann mir e grosser Dienscht geleischt, wo mit döjsig Franke niti ze dyer bezahlt
@@ -915,7 +926,7 @@
           </sp>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Gott sej Dank !</p>
           </sp>
           <sp who="#burjer">
@@ -934,7 +945,8 @@
             <speaker>BURJER :</speaker>
             <p>Schad ! Na, 's gitt jo noch genue anderi, bravi, jungi Männer ! Also noch emool vielmools merci
             unn au revoir ! 
-            <stage>(Ab noch hinte.)</stage></p>
+            <stage>(Ab noch hinte.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -945,7 +957,8 @@
             <p>Allons, au revoir, Monsieur Burjer ! 
             <stage>(Ellein)</stage>: So, diss haw ich guet gemacht! Dem liewe Monsieur Burjer haw ich's grindlich
             vertriwe, uff mich als Dochtermann ze speküliere! 
-            <stage>(Links ab.)</stage></p>
+            <stage>(Links ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -953,7 +966,7 @@
           <stage>Burjer.</stage>
           <sp who="#burjer">
             <speaker>BURJER</speaker>
-            <stage>(vun hinte)&#160;:</stage>
+            <stage>(vun hinte) :</stage>
             <p>Ich habb m'r's iwerleijt ! Ich will mit denne zwei Gebrieder Frosch doch noch e'n-ernscht's Wort
             redde, nitt ass s'e meine, ass s'e e Dummer vor sich hann, wo froh miesst sinn, ass ihre Neveu myni
             Dochter iwerhaupt nemmt ! Die zwei speküliere grad so uff myn Geld unn uff myn guet's G'schäft wie
@@ -961,7 +974,7 @@
             ass ihr G'schäft nitt so glänzend floriert, wie's als heisse dhuet !</p>
           </sp>
         </div>
-        <pb n="20" />
+        <pb n="20"/>
         <div type="scene">
           <head>10. Scène.</head>
           <stage>Wie vorig. Georges (vun rächts).</stage>
@@ -975,7 +988,7 @@
           </sp>
           <sp who="#burjer">
             <speaker>BURJER</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Diss isch gewiss d'r Brueder vum Michel Frosch, wo ich schun perseenlich kenn! Na, dem kann ich's
             jo au stecke! 
             <stage>(Lütt)</stage>: Sinn Sie d'r Monsieur Georges Frosch ?</p>
@@ -991,7 +1004,7 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Nadierlich vun d'r Police unn waje d'r Hüssuechung ! 
             <stage>(Lütt)</stage>: Leider nitt, Monsieur !</p>
           </sp>
@@ -1019,7 +1032,7 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Die sinn, Gottlob, verbrennt unn im Kanal!</p>
           </sp>
           <sp who="#burjer">
@@ -1031,15 +1044,16 @@
             <speaker>GEORGES :</speaker>
             <p>Diss kenne numme beesi Lytt behaupt hann !</p>
           </sp>
-          <pb n="21" />
+          <pb n="21"/>
           <sp who="#burjer">
             <speaker>BURJER :</speaker>
             <p>Meine Sie? M'r brücht numme ze sähn, wie's by ejch drynsieht! 
-            <stage>(Er zeijt uff d' leere Wänd unn Fenschter.)</stage></p>
+            <stage>(Er zeijt uff d' leere Wänd unn Fenschter.)</stage>
+            </p>
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(vergelschtert fur sich)&#160;:</stage>
+            <stage>(vergelschtert fur sich) :</stage>
             <p>Er weiss, ma foi, schun, ass mir do Dings verschwinde hann mache! Mir sinn verlore! Halt, e Idee! 
             <stage>(Lütt):</stage>Monsieur, mir sinn halt armi Lytt!</p>
           </sp>
@@ -1050,7 +1064,7 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Millione, au diss noch ! Jetzt solle mir au noch Landesverräter sinn ! 
             <stage>('s klopft.)</stage>Wer kann diss sinn ? Entrez !</p>
           </sp>
@@ -1065,7 +1079,7 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(vergelschtert)&#160;:</stage>
+            <stage>(vergelschtert) :</stage>
             <p>Allmächtiger, jetzt wurr ich arretiert ! 
             <stage>(Lütt)</stage>: Der... der bin ich!</p>
           </sp>
@@ -1075,7 +1089,7 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Der Unglicklich bin ich! Ich schmeck schun 's Bluet vun d'r Guillotine !</p>
           </sp>
           <sp who="#burjer">
@@ -1089,7 +1103,7 @@
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Gott sej Dank ! Mich kann'r nitt meine!</p>
           </sp>
           <sp who="#schnappne">
@@ -1100,9 +1114,10 @@
           <sp who="#georges_frosch">
             <speaker>GEORGES :</speaker>
             <p>Nitt e Zipfel vun'm, was 'ne Ihre Kolleg do gewiss au b'stätige wurd kenne ! 
-            <stage>(Er zeijt uff de Burjer.)</stage></p>
+            <stage>(Er zeijt uff de Burjer.)</stage>
+            </p>
           </sp>
-          <pb n="22" />
+          <pb n="22"/>
           <sp who="#burjer">
             <speaker>BURJER</speaker>
             <stage>(zuem Georges):</stage>
@@ -1141,9 +1156,10 @@
           </sp>
           <sp who="#schnappne">
             <speaker>SCHNAPPNE</speaker>
-            <stage>(stossť ne nooch d'r Dier hinte)&#160;:</stage>
+            <stage>(stossť ne nooch d'r Dier hinte) :</stage>
             <p>Wer Sie sinn, diss stellt sich schun uff d'r Polizej erüss! Also vorwärts unn nimm gemückst ! 
-            <stage>(Alli zwei ab nooch hinte.)</stage></p>
+            <stage>(Alli zwei ab nooch hinte.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1153,7 +1169,8 @@
             <speaker>GEORGES :</speaker>
             <p>Diss wär noch emool guet abgeloffe! Ich soll kein Angscht üssg'stande hann! Wie der sich
             uffg'fiehrt hett! Ich habb als gemeint, er wär vun d'r Polizej! E ganz raffinierter Gauner, diss! 
-            <stage>(Ab nooch rächts.)</stage></p>
+            <stage>(Ab nooch rächts.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1164,7 +1181,7 @@
             <stage>(macht vorsichtig d' Dier uff, luejt eryn unn kummt no ins Zimmer):</stage>
             <p>Verdeckel, diss Mool isch's brenzlich fur mich g'sinn! Um e Härel hätte mich d' Blejele g'schnappt
             ! Awer ich habb noch emool chance 
-            <pb n="23" />g'hett. So, unn jetzt will ich emool sähn, ob ich dohinne e guete Fang kann mache! Ich
+            <pb n="23"/>g'hett. So, unn jetzt will ich emool sähn, ob ich dohinne e guete Fang kann mache! Ich
             brüch Geld! Hm, do sieht's jo meh als wie pauvre üss ! Awer au gar nix, wo sich rentiert, mitgenumme
             ze wäre ! 
             <stage>(Horicht.)</stage>Habb ich rächt g'heert ! Ja, 's kummt ebber ! Do heisst's sich verdufte!
@@ -1197,15 +1214,15 @@
           <stage>Wie vorig. Hebbne (vun hinte).</stage>
           <sp who="#hebbne">
             <speaker>HEBBNE</speaker>
-            <stage>(mit'm Pack vum Michel ; fur sich)&#160;:</stage>
+            <stage>(mit'm Pack vum Michel ; fur sich) :</stage>
             <p>Denne Dieb muess ich schnappe ! Ah, do isch'r jo! 
             <stage>(Lütt)</stage>: Haw ich dich jetzt, Birschtel! Meinsch, ich habb nitt g'spanne, 
-            <pb n="24" />wie de do ryn gewitscht bisch? Ja, d'r Schutzmann Hebbne isch e schlöjer Kadett! Dü
+            <pb n="24"/>wie de do ryn gewitscht bisch? Ja, d'r Schutzmann Hebbne isch e schlöjer Kadett! Dü
             bisch uns schun signalisiert worre, ass de dich in're Wyewerkutt erumtryebsch !</p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Allmächtiger! Kein Zwyefel, mir wäre schun iwerwacht ! 
             <stage>(Lütt):</stage>Herr Schutzmann, 's handelt sich jo numme um e ganz harmloser Jüx... ich...
             habb uff de bal masqué gewellt !</p>
@@ -1213,11 +1230,12 @@
           <sp who="#hebbne">
             <speaker>HEBBNE :</speaker>
             <p>So? Jetzt im Jüli unn mit dem Dings do ? 
-            <stage>(Zeijt de Pack.)</stage></p>
+            <stage>(Zeijt de Pack.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Jetzt simm'r verlore — perdü ! Er hett jo unser Doodesurteil uff d'r Strooss uffg'hebbt ! Jetzt
             hälft numme noch frech's Leigle ! 
             <stage>(Lütt)</stage>: Die Sache sinn nitt myne!</p>
@@ -1226,11 +1244,12 @@
             <speaker>HEBBNE :</speaker>
             <p>Diss kenne m'r ! Mir kummt's awer als so vor, wie wenn s'e do hinne fähle dhäte, denn do sieht's
             jo üss, wie finf Minütte nooch Erschaffung vun d'r Welt! Mir welle mool sähn ! 
-            <stage>(Er macht de Pack uff.)</stage></p>
+            <stage>(Er macht de Pack uff.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Mir sinn verratzt ! Er weiss alles !</p>
           </sp>
           <sp who="#hebbne">
@@ -1247,7 +1266,8 @@
           <sp who="#hebbne">
             <speaker>HEBBNE :</speaker>
             <p>Unn dü hesch e Sunnestich ! E Schwarzwälderühr isch diss, unn die fählt do! 
-            <stage>(Er hängt s'e an de friehjer Platz.)</stage></p>
+            <stage>(Er hängt s'e an de friehjer Platz.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
@@ -1272,7 +1292,7 @@
             <stage>(Er stellt d' Figür an de alt Platz.)</stage>M'r sieht's jo noch am Staub, ass die Figür do
             g'stande isch !</p>
           </sp>
-          <pb n="25" />
+          <pb n="25"/>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
             <stage>(fur sich):</stage>
@@ -1291,16 +1311,17 @@
             <speaker>HEBBNE :</speaker>
             <p>Unn dü bisch de Präsident vun de Gauner ! De Louis quatorze de Fuffzeht isch diss, unn der wurd do
             uffg'hängt ! 
-            <stage>(Wie vorig.)</stage></p>
+            <stage>(Wie vorig.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Am liebschte mecht ich mich denäwe hänge!</p>
           </sp>
           <sp who="#hebbne">
             <speaker>HEBBNE</speaker>
-            <stage>(zejt d' Dafel mit d'r Frejheitsstatüt)&#160;:</stage>
+            <stage>(zejt d' Dafel mit d'r Frejheitsstatüt) :</stage>
             <p>Unn was isch diss ?</p>
           </sp>
           <sp who="#michel">
@@ -1313,7 +1334,8 @@
             Die fählt do... 
             <stage>(zeijt uff d' Wand)...</stage>an d'r Wand... 
             <stage>(fur sich)</stage>...unn noch an viele andere Plätz ! 
-            <stage>(Er hängt's Bild uff).</stage></p>
+            <stage>(Er hängt's Bild uff).</stage>
+            </p>
           </sp>
           <sp who="#hebbne">
             <speaker>HEBBNE</speaker>
@@ -1322,12 +1344,12 @@
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Oder de Doodesschyn !</p>
           </sp>
           <sp who="#hebbne">
             <speaker>HEBBNE</speaker>
-            <stage>(zeijt d' rote Umhängle un d' rot Dischdeck)&#160;:</stage>
+            <stage>(zeijt d' rote Umhängle un d' rot Dischdeck) :</stage>
             <p>Unn was isch diss, Männel ?</p>
           </sp>
           <sp who="#michel">
@@ -1338,7 +1360,8 @@
             <speaker>HEBBNE :</speaker>
             <p>Unn dü bekummsch au glych e paar uff de Huet, wenn dü mich fur daub angücksch ! Die rote Umhängle
             fähle do unn die rot Dischdeck do! 
-            <stage>(Er macht beid's an de Platz.)</stage></p>
+            <stage>(Er macht beid's an de Platz.)</stage>
+            </p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
@@ -1350,12 +1373,13 @@
             <p>So, jetzt sieht alles widder üss, wie's friehjer isch g'sinn ! Diss langt... diss isch Bewyes
             genue !</p>
           </sp>
-          <pb n="26" />
+          <pb n="26"/>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Na, in Gott's Namme, ich gibb zue, ass die Sache myne sinn! Ich ergibb mich mit Herz unn mit Hand
             fur's Vaterland! 
-            <stage>(Streckt!'m d' Händ zuem Kettle anne.)</stage></p>
+            <stage>(Streckt!'m d' Händ zuem Kettle anne.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1372,7 +1396,7 @@
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(trürig)&#160;:</stage>
+            <stage>(trürig) :</stage>
             <p>Ja, liewer Burjer, ich bin's!</p>
           </sp>
           <sp who="#burjer">
@@ -1381,9 +1405,10 @@
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(noch trüriger)&#160;:</stage>
+            <stage>(noch trüriger) :</stage>
             <p>Ei, wyll ich politisch verdächtig bin ! Siehsch's denn nitt ? 
-            <stage>(Er zeijt uff d' Dafle, d' Dischdeck etc.)</stage></p>
+            <stage>(Er zeijt uff d' Dafle, d' Dischdeck etc.)</stage>
+            </p>
           </sp>
           <sp who="#hebbne">
             <speaker>HEBBNE</speaker>
@@ -1401,7 +1426,7 @@
           <stage>Wie vorig. Georges unn Schnappne (vun hinte).</stage>
           <sp who="#schnappne">
             <speaker>SCHNAPPNE</speaker>
-            <stage>(iwer'm Erynkumme)&#160;:</stage>
+            <stage>(iwer'm Erynkumme) :</stage>
             <p>Also, Monsieur Frosch, wie g'saat, 's isch leider e Versähn g'sinn ! Der Monsieur isch
             daadsächlich de Monsieur Burjer unn kein Gauner g'sinn !</p>
           </sp>
@@ -1412,13 +1437,14 @@
             <stage>(Luejt sich im Zimmer um; verschrocke zue sich unn zeijt uff d' Wänd)</stage>: Allmächtiger,
             do hänge jo widder unseri sämtlichi Doodesurdeiler! 
             <stage>(Er sieht de 
-            <pb n="27" />Michel)</stage>: Michel ! Bisch's odder bisch's nitt ! Wie bisch denn dü gemutzt?</p>
+            <pb n="27"/>Michel)</stage>: Michel ! Bisch's odder bisch's nitt ! Wie bisch denn dü gemutzt?</p>
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(zeijt uff de Schnappne)&#160;:</stage>
+            <stage>(zeijt uff de Schnappne) :</stage>
             <p>Hann s'e dich au schun arretiert? Na, ich bin au so wytt! 
-            <stage>(Er zeijt uff de Hebbne.)</stage></p>
+            <stage>(Er zeijt uff de Hebbne.)</stage>
+            </p>
           </sp>
           <sp who="#schnappne">
             <speaker>SCHNAPPNE :</speaker>
@@ -1479,7 +1505,7 @@
             Velkerbundsversammlung? 
             <stage>(Kratzt sich hinter de Ohre)</stage>: Ich ahn beesi Zytte!</p>
           </sp>
-          <pb n="28" />
+          <pb n="28"/>
           <sp who="#michel">
             <speaker>MICHEL :</speaker>
             <p>Was? Der soll's sinn ?</p>
@@ -1495,7 +1521,7 @@
           </sp>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Do bin ich scheen ryngerasselt !</p>
           </sp>
           <sp who="#georges_frosch">
@@ -1526,13 +1552,13 @@
           </sp>
           <sp who="#michel">
             <speaker>MICHEL</speaker>
-            <stage>(wie d'r Georges vorher)&#160;:</stage>
+            <stage>(wie d'r Georges vorher) :</stage>
             <p>Zej, Robert, kumm emool e bissel here! Wer hett uns denn mit dere Denunziation an d'r Nas
             erumg'fiehrt ?</p>
           </sp>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
-            <stage>(fur sich)&#160;:</stage>
+            <stage>(fur sich) :</stage>
             <p>Ein Unglick kummt nie ellein ! 
             <stage>(Lütt)</stage>: Diss isch myni Wenigkeit g'sinn, Unkel !</p>
           </sp>
@@ -1559,11 +1585,12 @@
             <speaker>ROBERT :</speaker>
             <p>Nemme mich mit ; stroofe mich, so hart ass ihr welle, awer mache mich nitt hyroote !</p>
           </sp>
-          <pb n="29" />
+          <pb n="29"/>
           <sp who="#burjer">
             <speaker>BURJER :</speaker>
             <p>Kein Angscht, jeune homme, so e Maidel wie myni Dochter wär fur Sie doch viel ze schad ! 
-            <stage>(Er langt e Photographie üss'm Sack unn hebbt s'e im Robert vor d'Aue.)</stage></p>
+            <stage>(Er langt e Photographie üss'm Sack unn hebbt s'e im Robert vor d'Aue.)</stage>
+            </p>
           </sp>
           <sp who="#robert">
             <speaker>ROBERT</speaker>
@@ -1596,13 +1623,14 @@
           </sp>
           <sp who="#hebbne">
             <speaker>HEBBNE</speaker>
-            <stage>(geriehrt, hyllt)&#160;:</stage>
+            <stage>(geriehrt, hyllt) :</stage>
             <p>Ich begnadig'ne! 
-            <stage>(Losst 'ne los.)</stage></p>
+            <stage>(Losst 'ne los.)</stage>
+            </p>
           </sp>
           <sp who="#schnappne">
             <speaker>SCHNAPPNE</speaker>
-            <stage>(grad so)&#160;:</stage>
+            <stage>(grad so) :</stage>
             <p>Unn ich enthaft'ne !</p>
           </sp>
           <sp who="#burjer">
@@ -1631,7 +1659,7 @@
             <p>Awer die döjsig Franke, wo dü mir abgelüst hesch, zej ich an d'r Mitgift ab!</p>
           </sp>
         </div>
-        <pb n="30" />
+        <pb n="30"/>
         <div type="scene">
           <head>19. Scène.</head>
           <stage>Wie vorig. 2 Arweiter (vun hinte).</stage>
@@ -1645,10 +1673,11 @@
           </sp>
           <sp who="#arweiter_2">
             <speaker>2. Arweiter</speaker>
-            <stage>(zuem 1. Arweiter)&#160;:</stage>
+            <stage>(zuem 1. Arweiter) :</stage>
             <p>Hopp, Kamerad, pack'ne ! 
             <stage>(Sie nemme de Kuffer jeder am e Griff, lipfe'ne in d' Heche unn gehn mit nooch hinte ab. D'r
-            Gauner blyet nadierlich, wyll d'r Kuffer kein Bodde hett, uff'm Fuesbodde sitze.)</stage></p>
+            Gauner blyet nadierlich, wyll d'r Kuffer kein Bodde hett, uff'm Fuesbodde sitze.)</stage>
+            </p>
           </sp>
           <sp who="#e_gauner">
             <speaker>GAUNER</speaker>
@@ -1657,14 +1686,15 @@
           </sp>
           <sp who="#schnappne">
             <speaker>SCHNAPPNE</speaker>
-            <stage>(stirzt sich uff'ne)&#160;:</stage>
+            <stage>(stirzt sich uff'ne) :</stage>
             <p>Was Dejfels, was isch denn nitt diss! Diss isch jo der Gauner, wo mir schun lang sueche !</p>
           </sp>
           <sp who="#hebbne">
             <speaker>HEBBNE</speaker>
-            <stage>(grad so)&#160;:</stage>
+            <stage>(grad so) :</stage>
             <p>Denne hätte m'r ! 
-            <stage>(Sie kettle'ne.)</stage></p>
+            <stage>(Sie kettle'ne.)</stage>
+            </p>
           </sp>
           <sp who="#georges_frosch">
             <speaker>GEORGES :</speaker>

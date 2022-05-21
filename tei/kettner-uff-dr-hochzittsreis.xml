@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -52,7 +52,7 @@
             <title type="sub">Luschtspiel in 1 Akt im els. Dialekt</title>
             <publisher>Theater- und Musik-Verlag, Rouffach, Iprimerie Keller-Immelé</publisher>
             <date when="1924" type="print">1924</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -79,8 +79,8 @@
             <persName>Alle</persName>
           </personGrp>
           <listRelation type="personal">
-            <relation name="spouses" mutual="#felix_kachele #julie" />
-            <relation name="spouses" mutual="#alfons_lieblich #emma" />
+            <relation name="spouses" mutual="#felix_kachele #julie"/>
+            <relation name="spouses" mutual="#alfons_lieblich #emma"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -94,7 +94,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="2" />
+      <pb n="2"/>
       <castList>
         <head>Personen:</head>
         <castItem corresp="#felix_kachele">
@@ -154,12 +154,12 @@
       <div type="front">
         <p>Text und Melodie des Liedes: «Wenn lieblig s'Owerglöckel tönt» von Joseph Graff.</p>
         <p>Zu beziehen durch: 
-        <lb />IMPRIMERIE KELLER-IMMELÉ, ROUFFACH 
-        <lb />Theater- und MusikVerlag</p>
+        <lb/>IMPRIMERIE KELLER-IMMELÉ, ROUFFACH 
+        <lb/>Theater- und MusikVerlag</p>
       </div>
     </front>
     <body>
-      <pb n="3" />
+      <pb n="3"/>
       <div type="scene">
         <head>1. Auftritt.</head>
         <sp who="#dominik">
@@ -178,7 +178,8 @@
           drinne sinn 
           <stage>(steht auf, besieht das Zimmer)</stage>Alles in schöenschter Ordnung. Blüeme uff'em Tisch, diss
           macht e gueter Indruck, do gitt's Trinkgälder. Jetz will ich noch niwwer un zäll Zimmer abschliesse 
-          <stage>(geht nach links ab).</stage></p>
+          <stage>(geht nach links ab).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -209,14 +210,15 @@
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <p>Dran dänke? Hättsch dü dran gedänkt. O Wiewer wenn ihr halt alt wäre. 
-          <stage>(Zieht den Frack aus, Hut ab).</stage></p>
+          <stage>(Zieht den Frack aus, Hut ab).</stage>
+          </p>
         </sp>
         <sp who="#julie">
           <speaker>Jülie:</speaker>
           <stage>(setzt sich auf Kanapee, sie hat in der Zeit Hut und Mantel ausgezogen und an den Kleiderhaken
           gehängt)</stage>
           <p>
-          <pb n="4" />Jo, natirli jetz wur ich alt. 
+            <pb n="4"/>Jo, natirli jetz wur ich alt. 
           <stage>(weinend)</stage>Ich hätt mir unsere silwerne Hochzittsdaa doch schöner vorgstellt. —
           D'Kinjelemoor isch-em hitt liewer ass d'Frau.</p>
         </sp>
@@ -224,7 +226,8 @@
           <speaker>Felix:</speaker>
           <stage>(stülpt die Hemdärmel auf)</stage>
           <p>Do isch frisch Wasser, do wello m'r glich emol e Bad nämme — — ah, isch diss e Genuss. 
-          <stage>(Wäscht die Hände).</stage></p>
+          <stage>(Wäscht die Hände).</stage>
+          </p>
         </sp>
         <sp who="#julie">
           <speaker>Jülie:</speaker>
@@ -237,7 +240,8 @@
           <p>Jo, jo Alti!!, jetz sej stille, .. hiel nitt Mamme s'isch nitt so böes gemeint, ich bin jetz emol
           eso: — — 
           <stage>(brüllt)</stage>Ich bin jo widder guet, verdeckel noch emol! 
-          <stage>(Trocknet die Hände ab).</stage></p>
+          <stage>(Trocknet die Hände ab).</stage>
+          </p>
         </sp>
         <sp who="#julie">
           <speaker>Jülie:</speaker>
@@ -269,7 +273,8 @@
           <p>Do haw ich jetz gar nitt dran gedänkt, ass mr hitt uff dr Hochzittsreiss sinn, mit dere Moor do. —
           Na kumm here Mamme. 
           <stage>(Zieht sie an sich und küsst sie)</stage>Mini liewi gueti alti Schülli. 
-          <stage>(Sie sitzen auf dem Kanapee).</stage></p>
+          <stage>(Sie sitzen auf dem Kanapee).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -295,7 +300,8 @@
           <speaker>Felix:</speaker>
           <p>Jaja. 
           <stage>(Singt)</stage>Lang, lang ist's her, ... 
-          <stage>(Küsst Jülie).</stage></p>
+          <stage>(Küsst Jülie).</stage>
+          </p>
         </sp>
         <sp who="#dominik">
           <speaker>Dominik:</speaker>
@@ -313,12 +319,13 @@
           <speaker>Jülie:</speaker>
           <p>Awer Felix, schäm di doch.</p>
         </sp>
-        <pb n="5" />
+        <pb n="5"/>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <stage>(lachend)</stage>
           <p>Na schriewe mr: «mit sinere liewe Frau» ... Da... 
-          <stage>(Gibt Dominik den Block).</stage></p>
+          <stage>(Gibt Dominik den Block).</stage>
+          </p>
         </sp>
         <sp who="#dominik">
           <speaker>Dominik:</speaker>
@@ -344,7 +351,8 @@
           <stage>(anzüglich)</stage>
           <p>C'est ça, im kalte Jäger wäre nr guet bsorit, wande ejch nurre an mich. Hann-er schun gsahne,
           frischi Blueme haw ich in s'Zimmet gstellt, diss isch natt, galle? 
-          <stage>(Fält die Hand hin).</stage></p>
+          <stage>(Fält die Hand hin).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
@@ -389,7 +397,8 @@
         <sp who="#julie">
           <speaker>Jülie:</speaker>
           <p>Diss bringsch noch ferti. Awer jetz rot emol was ich do hab. 
-          <stage>(Nimmt ein Päckchen aus der Handtasche).</stage></p>
+          <stage>(Nimmt ein Päckchen aus der Handtasche).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
@@ -398,7 +407,8 @@
         <sp who="#julie">
           <speaker>Jülie:</speaker>
           <p>Oh dü, ... nein din Strissel als Hochzitter, diss müen mir doch trawe hitt. 
-          <stage>(Steckt es ihm an).</stage></p>
+          <stage>(Steckt es ihm an).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
@@ -419,15 +429,17 @@
           <stage>(ernst)</stage>
           <p>Stille sollsch sinn, sunsch geh ich heim zue mine Kinder. 
           <stage>(weinend)</stage>Eim so de Hochzittsdaa ze verderwe. 
-          <stage>(Geht ans Kanapee).</stage></p>
+          <stage>(Geht ans Kanapee).</stage>
+          </p>
         </sp>
-        <pb n="6" />
+        <pb n="6"/>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <stage>(tröstend)</stage>
           <p>Verstehsch denn kenn Gspass. Sej zefridde. 
           <stage>(Küsst sie)</stage>Bisch doch mini lieb, guet, alt Schülli. 
-          <stage>(Es klopft).</stage></p>
+          <stage>(Es klopft).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -441,7 +453,8 @@
           <stage>(Öffnet die Flaschen und stellt sie auf den Tisch, für sich)</stage>Die selle nitt schmüse die
           zwei alte Drachheetle, hoffentli wichst er jetz ebs erüss. 
           <stage>(Laut)</stage>Do isch ingschankt, lonns ejch gschmecke. 
-          <stage>(hält die Hand hin).</stage></p>
+          <stage>(hält die Hand hin).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
@@ -473,7 +486,8 @@
           <p>Hahaha, der isch schun uffgepumpt. Un e Durscht haw ich. 
           <stage>(Geht an den Tisch trinkt sein Glas schnell leer, schenkt sich wieder ein, nimmt die Gläser und
           geht ans Kanapee)</stage>Gsundheit silwerichi Hochzittere! 
-          <stage>(Sie trinken).</stage></p>
+          <stage>(Sie trinken).</stage>
+          </p>
         </sp>
         <sp who="#julie">
           <speaker>Jülie:</speaker>
@@ -511,20 +525,23 @@
           <stage>(für sich)</stage>
           <p>Ich mues alle bezitte erin kumme. 
           <stage>(laut)</stage>Do haw ich dr Bougie. 
-          <stage>(Geht ins Schlafzimmer links).</stage></p>
+          <stage>(Geht ins Schlafzimmer links).</stage>
+          </p>
         </sp>
-        <pb n="7" />
+        <pb n="7"/>
         <sp who="#julie">
           <speaker>Jülie:</speaker>
           <p>Un weisch noch wie no dr Hüssknächt isch kumme un hett gfröjt: «Wenn welle die Herrschaft geweckt
           sinn»? Weisch noch was de gsaat hesch? 
-          <stage>(Stösst ihn schelmisch an).</stage></p>
+          <stage>(Stösst ihn schelmisch an).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <stage>(lacht)</stage>
           <p>Ich hab gsaat: «Zuem Zmiddaesse». 
-          <stage>(lachen).</stage></p>
+          <stage>(lachen).</stage>
+          </p>
         </sp>
         <sp who="#dominik">
           <speaker>Dominik:</speaker>
@@ -539,7 +556,8 @@
         <sp who="#dominik">
           <speaker>Dominik:</speaker>
           <p>E guet's Bett hann'r, ächti Sprungfederematraz, 
-          <stage>(hält die Hand hin).</stage></p>
+          <stage>(hält die Hand hin).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
@@ -585,7 +603,8 @@
           <speaker>Felix:</speaker>
           <stage>(zieht sich an)</stage>
           <p>Kumm Manne. 
-          <stage>(Nimmt sie am Arm, geht mit ihr Mitte ab, singt).</stage></p>
+          <stage>(Nimmt sie am Arm, geht mit ihr Mitte ab, singt).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -625,7 +644,7 @@
           <stage>(richt)</stage>
           <p>Aah, diss kühlt.</p>
         </sp>
-        <pb n="8" />
+        <pb n="8"/>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
           <p>Isch's dir jetz besser min Miesele?</p>
@@ -634,7 +653,8 @@
           <speaker>Emma:</speaker>
           <stage>(selig)</stage>
           <p>Ja. — 
-          <stage>(Will die Handschuhe ausziehen).</stage></p>
+          <stage>(Will die Handschuhe ausziehen).</stage>
+          </p>
         </sp>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
@@ -678,7 +698,8 @@
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
           <p>Oh wie guet diss macht! — Emma derf ich dir jetz dr erschte Schmutz gänn? 
-          <stage>(Setzt klopft, sie hören es nicht).</stage></p>
+          <stage>(Setzt klopft, sie hören es nicht).</stage>
+          </p>
         </sp>
         <sp who="#emma">
           <speaker>Emma:</speaker>
@@ -697,7 +718,8 @@
           <speaker>Dominik:</speaker>
           <stage>(d. d. Mitte)</stage>
           <p>Was Schinders, was mache denn die? 
-          <stage>(hustet).</stage></p>
+          <stage>(hustet).</stage>
+          </p>
         </sp>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
@@ -736,7 +758,8 @@
           <p>Diss isch e Hochzittsparel, do gitts Trinkgelder. 
           <stage>(laut)</stage>Bliewe Sie numme do, ich, dr Dominik rangier die Sach schun, mit mir muess mr
           redde. 
-          <stage>(hält die Hand hin).</stage></p>
+          <stage>(hält die Hand hin).</stage>
+          </p>
         </sp>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
@@ -747,7 +770,7 @@
           <speaker>Dominik:</speaker>
           <p>Ich zehl druff ass Sie mirs nitt vergasse. Ich will jetz dere däuwe Gans e Hüffe Söjerej mache, ass
           se dem 
-          <pb n="9" />alte Gitzkräue diss Zimmer gänn hett. 
+          <pb n="9"/>alte Gitzkräue diss Zimmer gänn hett. 
           <stage>(abgehend, Mitte)</stage>Do gitts Tringalder.</p>
         </sp>
       </div>
@@ -779,7 +802,8 @@
           <speaker>Alfons:</speaker>
           <p>Vo Herze gern Emmäjele. — 
           <stage>(sucht nervös)</stage>Wo haw ich ne denn nurre anegsteckt. — 
-          <stage>(findet ihn im Giletsäckel).</stage></p>
+          <stage>(findet ihn im Giletsäckel).</stage>
+          </p>
         </sp>
         <sp who="#emma">
           <speaker>Emma:</speaker>
@@ -842,7 +866,8 @@
           <speaker>Dominik:</speaker>
           <p>Eijo dann, nurre eins, awer ihr hann Platz, ass isch zwäischläfrich .... un e ächti
           Sprungfedermatraz. 
-          <stage>(hält die Hand hin).</stage></p>
+          <stage>(hält die Hand hin).</stage>
+          </p>
         </sp>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
@@ -852,7 +877,8 @@
         <sp who="#dominik">
           <speaker>Dominik:</speaker>
           <p>Ah, ass ich d'Redd nitt vergiss.... Wann welle nr morje früehj geweckt sinn? 
-          <stage>(beide stehen ratlos da).</stage></p>
+          <stage>(beide stehen ratlos da).</stage>
+          </p>
         </sp>
         <sp who="#emma">
           <speaker>Emma:</speaker>
@@ -862,7 +888,7 @@
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
           <p>Ich, ..ich.. na ja .. ich due ne klingle .. 
-          <pb n="10" />stelle Sie noch diss Gepäck ins Zimmer.</p>
+          <pb n="10"/>stelle Sie noch diss Gepäck ins Zimmer.</p>
         </sp>
         <sp who="#dominik">
           <speaker>Dominik:</speaker>
@@ -896,13 +922,13 @@
           <speaker>Alfons:</speaker>
           <p>Ja so stimmungsvoll. 
           <stage>(umfasst sie und declamiert :</stage>
-          <lg>
-            <l>«Goldich fahrt dr Sunnewaue,</l>
-            <l>D'Vöjele duen guet Nacht sich saue.</l>
-            <l>Am Himmel wissi Schäfle stehn</l>
-            <l>Un d'Natür will schlofe gehn».</l>
-          </lg>
-          <stage>(zärtlich)</stage>Welle mir au schlofe gehn?</p>
+            <lg>
+              <l>«Goldich fahrt dr Sunnewaue,</l>
+              <l>D'Vöjele duen guet Nacht sich saue.</l>
+              <l>Am Himmel wissi Schäfle stehn</l>
+              <l>Un d'Natür will schlofe gehn».</l>
+            </lg>
+            <stage>(zärtlich)</stage>Welle mir au schlofe gehn?</p>
         </sp>
         <sp who="#emma">
           <speaker>Emma:</speaker>
@@ -918,19 +944,21 @@
           <stage>(entzückt)</stage>
           <p>Ach jetz möcht ich so unter Blueme leje un in e Zauberschlof versinke un träume, ..... ewig traime. 
           <stage>(Die Abendglocke läutet, Emma singt):</stage>
-          <lg>
-            <l>«Wenn lieblig s'Oweglöckel tönt</l>
-            <l>Im küehle Owewind,»</l>
-            <l>Do isch's so heimlig, so schön,</l>
-            <l>|:Daheim bie Frau un Kind :|.</l>
-            <l>Alfons, gib mir jetz e Schmutz.</l>
-          </lg></p>
+            <lg>
+              <l>«Wenn lieblig s'Oweglöckel tönt</l>
+              <l>Im küehle Owewind,»</l>
+              <l>Do isch's so heimlig, so schön,</l>
+              <l>|:Daheim bie Frau un Kind :|.</l>
+              <l>Alfons, gib mir jetz e Schmutz.</l>
+            </lg>
+          </p>
         </sp>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
           <stage>(glücklich)</stage>
           <p>Der erscht. 
-          <stage>(will sie küssen, Felix und Jülie kommen. d. d. Mitte).</stage></p>
+          <stage>(will sie küssen, Felix und Jülie kommen. d. d. Mitte).</stage>
+          </p>
         </sp>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
@@ -973,7 +1001,7 @@
           <p>Diss isch jetz awer dumm. Ich hab doch telephonisch e Zimmer bstellt un no hett uns s'Maidel diss
           Zimmer gänn.</p>
         </sp>
-        <pb n="11" />
+        <pb n="11"/>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <p>Jetz wurd's hell.. Ich hab e Depesch gschickt un bin no direkt in in diss Zimmer. — — Dü Mamme, do
@@ -1048,7 +1076,8 @@
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <p>Dito, dito mit Sänft. 
-          <stage>(Gegenseitige Gratulation).</stage></p>
+          <stage>(Gegenseitige Gratulation).</stage>
+          </p>
         </sp>
         <sp who="#julie">
           <speaker>Jülie:</speaker>
@@ -1070,7 +1099,8 @@
           <speaker>Felix:</speaker>
           <p>Poo, es kummt uff zwei nitt an: 
           <stage>(singt)</stage>«Schön ist die Jugend sie kommt nicht mehr». 
-          <stage>(Setzt klopft).</stage></p>
+          <stage>(Setzt klopft).</stage>
+          </p>
         </sp>
         <sp who="#alfons_lieblich #emma #felix_kachele #julie">
           <speaker>Alle:</speaker>
@@ -1090,7 +1120,7 @@
           <speaker>Dominik:</speaker>
           <p>Nix ze Isidor ... Dominik häiss ich als noch verstande?</p>
         </sp>
-        <pb n="12" />
+        <pb n="12"/>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <p>Mintwäje au Dominik, .. also mir sinn einig.</p>
@@ -1133,7 +1163,8 @@
           <stage>(brüllt)</stage>
           <p>Dominik häiss i! 
           <stage>(abgehend)</stage>Dräkender Möbe .... un kenn Centime Trinkgald. 
-          <stage>(ab Mitte).</stage></p>
+          <stage>(ab Mitte).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1164,12 +1195,14 @@
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
           <p>Ich lauf Herzele. 
-          <stage>(ab nach links).</stage></p>
+          <stage>(ab nach links).</stage>
+          </p>
         </sp>
         <sp who="#julie">
           <speaker>Jülie:</speaker>
           <p>Ich will doch au lueje ob unser Gepäck alles bsorit isch un was füer e Zimmer ass m'r hann. 
-          <stage>(ab Mitte).</stage></p>
+          <stage>(ab Mitte).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1179,7 +1212,8 @@
           <speaker>Felix:</speaker>
           <p>Allons Madame Lieblich, mr grient doch nitt wenn mr uff dr Hochzittsreis isch, do isch mr luschti,
           stosse mr an un trinke, diss gitt Stimmung. Gsundheit! 
-          <stage>(sie trinken).</stage></p>
+          <stage>(sie trinken).</stage>
+          </p>
         </sp>
         <sp who="#emma">
           <speaker>Emma:</speaker>
@@ -1208,7 +1242,7 @@
           <speaker>Felix:</speaker>
           <p>Joo, diss glauwi jetz doch nitt, er isch doch jetz Ihr Mann.</p>
         </sp>
-        <pb n="13" />
+        <pb n="13"/>
         <sp who="#emma">
           <speaker>Emma:</speaker>
           <p>Ei jeds Mol wenn ich-em e Schmutz hab welle gan isch ebber kumme.</p>
@@ -1240,7 +1274,8 @@
           <speaker>Felix:</speaker>
           <p>Vun Härze gärn, worum soll ich denn im e so e liewe, junge Frauele kenn Gfalle mache. Trinke mr noch
           e mol no will ich's ne saue. Uff Ihr Wohl! 
-          <stage>(trinken).</stage></p>
+          <stage>(trinken).</stage>
+          </p>
         </sp>
         <sp who="#emma">
           <speaker>Emma:</speaker>
@@ -1283,7 +1318,7 @@
           Diss schmekt angebrännt ..... un ze viel Salz isch au dran. 
           <stage>(trinkt aus dem Glas)</stage>Pfui Dejfel schmeckt diss. — Jetz redd Sie ebbs.</p>
         </sp>
-        <pb n="14" />
+        <pb n="14"/>
         <sp who="#emma">
           <speaker>Emma:</speaker>
           <stage>(mitspielend)</stage>
@@ -1348,7 +1383,8 @@
           <stage>(vorkommend)</stage>
           <p>Da... jerum jetz haw ich e ...! Na, es macht nix, es isch üss mit uns zwei, dü hesch mir d'Ehe
           gebroche in de Aerm vum e andere Mann. Pfui! 
-          <stage>(weint in das Hemd).</stage></p>
+          <stage>(weint in das Hemd).</stage>
+          </p>
         </sp>
         <sp who="#emma">
           <speaker>Emma:</speaker>
@@ -1372,7 +1408,8 @@
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <p>E Millione Rasiermesser, ich e Kinjelebock? Diss isch ze starik, diss sollsch mir büese! 
-          <stage>(will auf Alfons los. Die Frauen halten die Männer zurück. Grosser Tumult).</stage></p>
+          <stage>(will auf Alfons los. Die Frauen halten die Männer zurück. Grosser Tumult).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1383,7 +1420,7 @@
           <stage>(d. d. Mitte)</stage>
           <p>Was isch denn diss für e Krambol? 
           <stage>(steht zwischen die beiden Paare)</stage>Do wurd nitt ghän- 
-          <pb n="15" />delt, ihr sinn do nitt in dr Franzesch Kammer, ihr sinn do im Kalte Jager. Ihr sinn m'r
+          <pb n="15"/>delt, ihr sinn do nitt in dr Franzesch Kammer, ihr sinn do im Kalte Jager. Ihr sinn m'r
           noch e Pratik, zerscht trinke nr mitnand un no verhaue nr enander.</p>
         </sp>
         <sp who="#alfons_lieblich">
@@ -1399,7 +1436,8 @@
           <stage>(frech)</stage>
           <p>Jo mache ass'r los kumme. 
           <stage>(im Abgehen f. s.)</stage>Sie gänn jo doch kenn Trinkgelder. 
-          <stage>(ab Mitte).</stage></p>
+          <stage>(ab Mitte).</stage>
+          </p>
         </sp>
         <sp who="#emma">
           <speaker>Emma:</speaker>
@@ -1431,13 +1469,15 @@
           <stage>(geht auf Alfons zu nimmt ihn um den Hals, zärtlich)</stage>
           <p>Alfons, Männel, sej doch widder guet zue dim Fraule, .. ich gib dir au e Schmutz, de erschte. — —
           Vun dim Emmäjele wie dich so gern hett. 
-          <stage>(küsst ihn).</stage></p>
+          <stage>(küsst ihn).</stage>
+          </p>
         </sp>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
           <stage>(wird ganz glücklich)</stage>
           <p>Ich kann nimi böes sinn. Min goldichs, herzichs, zuckerichs Emmäjele. 
-          <stage>(Umarmung).</stage></p>
+          <stage>(Umarmung).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
@@ -1480,7 +1520,8 @@
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
           <p>Ah drumm han ihr mir als d'Hand eso aneghebt. 
-          <stage>(Gelächter) Do hann'r 10 Franke (gibt ihm Geld).</stage></p>
+          <stage>(Gelächter) Do hann'r 10 Franke (gibt ihm Geld).</stage>
+          </p>
         </sp>
         <sp who="#alfons_lieblich">
           <speaker>Alfons:</speaker>
@@ -1491,9 +1532,10 @@
           <speaker>Dominik:</speaker>
           <stage>(äusserst freundlich)</stage>
           <p>Merci ihr Herrschafte, ich habs jo gewüesst, ass ihr nitt so sinn. Wann'r ebs brüche, 
-          <pb n="16" />saue's nurre im Dominik ich wäiss alles un bsori alle. 
+          <pb n="16"/>saue's nurre im Dominik ich wäiss alles un bsori alle. 
           <stage>(im Abgehen)</stage>20 Fränkle, ass sinn doch anstandigi Litt. 
-          <stage>(ab Mitte. Alfons und Emma stehen ganz weltvergessen vorn am Tisch).</stage></p>
+          <stage>(ab Mitte. Alfons und Emma stehen ganz weltvergessen vorn am Tisch).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
@@ -1501,13 +1543,15 @@
           <p>Ich glaub mir kenne abkumme. 
           <stage>(laut)</stage>Ja kumm Mamme mr welle gehn, ass die Litt ins Bett kumme. Alle guet Nacht
           biesamme! 
-          <stage>(Die Frauen umarmen sich, Felix will auch Emma umarmen).</stage></p>
+          <stage>(Die Frauen umarmen sich, Felix will auch Emma umarmen).</stage>
+          </p>
         </sp>
         <sp who="#julie">
           <speaker>Jülie:</speaker>
           <stage>(hält ihn zurück)</stage>
           <p>Helaba Alterle, es wurd nimi browiert. Komm jetz. 
-          <stage>(sie gehen bis an die Mitteltür, Felix dreht sich herum).</stage></p>
+          <stage>(sie gehen bis an die Mitteltür, Felix dreht sich herum).</stage>
+          </p>
         </sp>
         <sp who="#felix_kachele">
           <speaker>Felix:</speaker>
@@ -1523,7 +1567,8 @@
           <speaker>Felix:</speaker>
           <stage>(im Abgehen)</stage>
           <p>Wenn nurre der Lüsangel de Kinjelestall züe macht! 
-          <stage>— ENDE —</stage></p>
+          <stage>— ENDE —</stage>
+          </p>
         </sp>
       </div>
     </body>

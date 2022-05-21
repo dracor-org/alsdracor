@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -51,7 +51,7 @@
             <title type="sub">Schwank in aam Akt</title>
             <publisher>Édition de théâtre et de musique L. Jaggi-Reiss Gundershoffen (Bas-Rhin)</publisher>
             <date when="1937" type="print">1937</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -84,8 +84,8 @@
             <persName>Linser</persName>
           </person>
           <listRelation type="personal">
-            <relation name="associated_with" active="#eddes #addes" passive="#drohtspitz" />
-            <relation name="parent_of" active="#schakob" passive="#schakobel" />
+            <relation name="associated_with" active="#eddes #addes" passive="#drohtspitz"/>
+            <relation name="parent_of" active="#schakob" passive="#schakobel"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -107,21 +107,17 @@
         </castItem>
         <castGroup>
           <castItem corresp="#eddes">
-            <role><persName>Eddes</persName>
-            </role>
+            <role><persName>Eddes</persName></role>
           </castItem>
           <castItem corresp="#addes">
-            <role>
-              <persName>Addes</persName>
-            </role>
+            <role><persName>Addes</persName></role>
           </castItem>
           <roleDesc>Lehrbuewe biem Drohtspitz</roleDesc>
         </castGroup>
         <castItem corresp="#schakob">
-        <role>
-          <persName>Schakob</persName></role>,
+          <role><persName>Schakob</persName></role>,
             <roleDesc>e Büur</roleDesc>
-          </castItem>
+        </castItem>
         <castItem corresp="#schakobel">
           <role><persName>Schaköbel</persName></role>,
           <roleDesc>siner Bue</roleDesc>
@@ -154,7 +150,7 @@
       </set>
     </front>
     <body>
-      <pb n="3" />
+      <pb n="3"/>
       <div type="act">
         <div type="scene">
           <head>1. UFFTRITT</head>
@@ -220,7 +216,7 @@
             <speaker>ADDES:</speaker>
             <p>Wenn'r nume sini Alt zerscht verspiele dät, diss alt Rabbyse. Zaj loss mich au e bissel fümme.</p>
           </sp>
-          <pb n="4" />
+          <pb n="4"/>
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
             <p>Wart noch e Schluck — dä. Dü, Addes, gescht bin ich uff-em Messti gsin un hab gedanzt wie e Lumpe
@@ -228,7 +224,8 @@
             nit gschlüdert han, e Dielewelter nochemol. Un wie der Walzer gschbielt isch worre: « O Susanna, wie
             bist du doch so schön », waisch so mit, so ebbs for 's Herz, mit Schwung 
             <stage>(will's vormachen)</stage>ah, au! 
-            <stage>(Hält sich die Seiten.)</stage></p>
+            <stage>(Hält sich die Seiten.)</stage>
+            </p>
           </sp>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
@@ -263,7 +260,8 @@
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>Worum? — Pfüi isch der bout räs. 
-            <stage>(Wirft die Zigarette fort.)</stage></p>
+            <stage>(Wirft die Zigarette fort.)</stage>
+            </p>
           </sp>
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
@@ -271,7 +269,7 @@
             vun dere Jumpfer aani an de Backe, dass mir d' Scharnierle krache. Aa so, saa ich: Dü cheval de
             carosse, un hab e're e feschti in 's Gnick g'schlawe. No hättsch awer sotte sehne 
             <stage>(markierend)</stage>Sechs Händ gschbier ich am Hals, es räjt Füschte- 
-            <pb n="5" />paschtete, Tritt, Tüer uff — üewer d' Stross gflöüje saa ich dir, mit-em. Kopf zwische
+            <pb n="5"/>paschtete, Tritt, Tüer uff — üewer d' Stross gflöüje saa ich dir, mit-em. Kopf zwische
             zwai Gartelatte nyngfahre, isch eins gsin, un als uff mich los gebengelt; ich hab e Fackelzugg im
             Schwarzwald gsehne. — O mini Ribbe, un, un — der do hinte duet mer so weh. Mim Lebdesdaa geh ich uff
             kene Danz meh.</p>
@@ -301,7 +299,8 @@
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
             <p>Wenn dü jetz nochemol lachsch, werf ich dir e Portion Bodin an de Deide. 
-            <stage>(Steht auf.)</stage></p>
+            <stage>(Steht auf.)</stage>
+            </p>
           </sp>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
@@ -315,7 +314,8 @@
             <speaker>ADDES</speaker>
             <stage>(steht auf):</stage>
             <p>Kumm here, kumm, box, caune, chauson. 
-            <stage>(Packt ihn.)</stage></p>
+            <stage>(Packt ihn.)</stage>
+            </p>
           </sp>
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
@@ -333,7 +333,8 @@
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>Bscht! Es kummt ebber. 
-            <stage>(Beide arbeiten schnell weiter.)</stage></p>
+            <stage>(Beide arbeiten schnell weiter.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -360,7 +361,7 @@
             <speaker>EDDES:</speaker>
             <p>Brüche mir e Maischter wenn mir gsund sin?</p>
           </sp>
-          <pb n="6" />
+          <pb n="6"/>
           <sp who="#schakob">
             <speaker>SCHAKOB:</speaker>
             <p>Do hab ech miner Bueä. D' Miaädder isch om Zischdi schun dogewänn. Er will pardü
@@ -428,7 +429,8 @@
             <speaker>EDDES:</speaker>
             <p>Ich garantier Euch d'rfor, er wurd guet. — Noch ebbs. Sehn'r, so e Ding wie ich aan hab, muehn'r
             im Schaköbel kaufe. Wisse n'r, es isch wäje de Kräjenaue. 
-            <stage>(Stiehlt Aepfel aus dem Korb.)</stage></p>
+            <stage>(Stiehlt Aepfel aus dem Korb.)</stage>
+            </p>
           </sp>
           <sp who="#schakobel">
             <speaker>SCHAKOEBEL:</speaker>
@@ -441,7 +443,8 @@
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>Ha, Aepfel. 
-            <stage>(Stibitzt ebenfalls.)</stage></p>
+            <stage>(Stibitzt ebenfalls.)</stage>
+            </p>
           </sp>
           <sp who="#schakobel">
             <speaker>SCHAKOEBEL:</speaker>
@@ -464,7 +467,7 @@
             <speaker>EDDES:</speaker>
             <p>Leider nit min Liewer. Prix fixe!</p>
           </sp>
-          <pb n="7" />
+          <pb n="7"/>
           <sp who="#schakob">
             <speaker>SCHAKOB:</speaker>
             <p>Ech mään d'r Schaköbel bringt's ellään ferdig mit sim Sitzlädder. Ja, ech will jetz gehn. Sei
@@ -478,7 +481,8 @@
           <sp who="#schakob">
             <speaker>SCHAKOB:</speaker>
             <p>Jo dänn. Adje Schaköbel. Adje Ihr Harre. 
-            <stage>(Mitteltüre ab.)</stage></p>
+            <stage>(Mitteltüre ab.)</stage>
+            </p>
           </sp>
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
@@ -516,7 +520,8 @@
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>Nix ze mache. 
-            <stage>(Beisst hinein.)</stage></p>
+            <stage>(Beisst hinein.)</stage>
+            </p>
           </sp>
           <sp who="#schakobel">
             <speaker>SCHAKOEBEL:</speaker>
@@ -525,7 +530,8 @@
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
             <p>Na wart, dich box ich zamme, das dir Höre un Sehn vergeht. 
-            <stage>(Schlüpft mit den Händen in ein Paar alte Schuhe.)</stage></p>
+            <stage>(Schlüpft mit den Händen in ein Paar alte Schuhe.)</stage>
+            </p>
           </sp>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
@@ -549,11 +555,12 @@
             <speaker>SCHAKOEBEL:</speaker>
             <p>Nänä, so Sache kann ech nit sähne.</p>
           </sp>
-          <pb n="8" />
+          <pb n="8"/>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>Kumm numme her dü Grossmüül, dich will ich kinnlade. 
-            <stage>(Beide beginnen einen kurzen Boxkampf.)</stage></p>
+            <stage>(Beide beginnen einen kurzen Boxkampf.)</stage>
+            </p>
           </sp>
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
@@ -571,7 +578,8 @@
             <speaker>EDDES:</speaker>
             <p>Un die saftig Renette schlucksch. Bing! 
             <stage>(Es klopft heftig.) (Beide springen hastig an die Arbeit und pfeifen: « Guter Mond du gehst so
-            stille ».)</stage></p>
+            stille ».)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -580,7 +588,8 @@
           <sp who="#mirliton">
             <speaker>MIRLITON:</speaker>
             <p>Bonjour Messieurs, 
-            <stage>(Kleine Pause.)</stage></p>
+            <stage>(Kleine Pause.)</stage>
+            </p>
           </sp>
           <sp who="#schakobel">
             <speaker>SCHAKOEBEL:</speaker>
@@ -626,7 +635,8 @@
           <sp who="#schakobel">
             <speaker>SCHAKOEBEL:</speaker>
             <p>Eju dann. 
-            <stage>(Hält den Fuss hoch.)</stage></p>
+            <stage>(Hält den Fuss hoch.)</stage>
+            </p>
           </sp>
           <sp who="#mirliton">
             <speaker>MIRLITON:</speaker>
@@ -636,7 +646,7 @@
             <speaker>EDDES:</speaker>
             <p>Dü maansch glab hebsch e 'n Ochs am Hinterfüess, dü Dollweck.</p>
           </sp>
-          <pb n="9" />
+          <pb n="9"/>
           <sp who="#mirliton">
             <speaker>MIRLITON:</speaker>
             <p>Hihihi, hühü. Er kritzelt mich.</p>
@@ -669,7 +679,8 @@
           <sp who="#mirliton">
             <speaker>MIRLITON:</speaker>
             <p>Bonjour. 
-            <stage>(Mitteltüre ab.)</stage></p>
+            <stage>(Mitteltüre ab.)</stage>
+            </p>
           </sp>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
@@ -714,7 +725,7 @@
             <speaker>EDDES:</speaker>
             <p>So e Rejementsdirmel! Wart dü wursch noch dressiert.</p>
           </sp>
-          <pb n="10" />
+          <pb n="10"/>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>D'r Deifel het alles wölle wäre nume nit Lehrbue.</p>
@@ -781,7 +792,7 @@
             <speaker>ADDES:</speaker>
             <p>Was nit angebunde isch.</p>
           </sp>
-          <pb n="11" />
+          <pb n="11"/>
           <sp who="#dorel">
             <speaker>DOREL:</speaker>
             <p>Halt din daub Müül. Treff ich die zwei Wiebszimmer im Magmod aan, un wie sie mich sehne, stelle
@@ -811,7 +822,8 @@
           <sp who="#dorel">
             <speaker>DOREL:</speaker>
             <p>Was die Schnaike sich ynbilde. In e're Viertelstund bin ich widder do. Salü! 
-            <stage>(Mitteltüre ab.)</stage></p>
+            <stage>(Mitteltüre ab.)</stage>
+            </p>
           </sp>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
@@ -868,7 +880,7 @@
             <speaker>EDDES:</speaker>
             <p>Minsex, denne hett's.</p>
           </sp>
-          <pb n="12" />
+          <pb n="12"/>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ:</speaker>
             <p>Wenn ich saa, es wurd nimi gschafft, wurd nimmi gschafft. 
@@ -923,7 +935,8 @@
             <p>Ah dü bisch d'r Schaköbel! — Na, kannsch dich vun dim Vadder widder hole lonn. Saasch bisch do
             gsin. Es wurd nimi gschuehschtert bie mir. Diss isch guet for armi Peches. Furt mit dem Pechstuehl,
             furt mit-em Knibbe, Klopfstaan, Rieme. Alles nüss, nüss. 
-            <stage>(Wirft alles durcheinander.)</stage></p>
+            <stage>(Wirft alles durcheinander.)</stage>
+            </p>
           </sp>
           <sp who="#schakobel">
             <speaker>SCHAKOEBEL:</speaker>
@@ -950,9 +963,10 @@
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>Ja Maischler — ä Herr Millionär. 
-            <stage>(Ab links.)</stage></p>
+            <stage>(Ab links.)</stage>
+            </p>
           </sp>
-          <pb n="13" />
+          <pb n="13"/>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ:</speaker>
             <p>Voilà. Diss isch 's richtig Wort.</p>
@@ -1034,9 +1048,10 @@
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
             <p>Merci, Herr. Könnte Sie mir sunscht noch so e bissel, Sie wisse jo wie ich's maan. 
-            <stage>(Mimik vom Geldzählen.)</stage></p>
+            <stage>(Mimik vom Geldzählen.)</stage>
+            </p>
           </sp>
-          <pb n="14" />
+          <pb n="14"/>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ:</speaker>
             <p>Aha, dü winksch mit-em Holzschläjel. Na, es kummt mer minsex uff e paar Döusig nit aan.</p>
@@ -1120,13 +1135,14 @@
             <p>Dü, dü schnüüfsch dass d' nit verschticksch. Awer halt! Ich schaff mer e Vierspänner aan, mit
             Arawerhengscht, odder englisch Vollbluet, un derno kannsch Kütscher bie mir wäre.</p>
           </sp>
-          <pb n="15" />
+          <pb n="15"/>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>Bravo! Diss dät mer basse. 
             <stage>(Holt einen Stuhl, setzt sich in Reitsitz, schnalzt.)</stage>Allez! Allez César, allez! EDDES 
             <stage>(macht Addes nach):</stage>Allez Coquette, allez Favorit. 
-            <stage>(Sie reiten um Drohtspitz herum.)</stage></p>
+            <stage>(Sie reiten um Drohtspitz herum.)</stage>
+            </p>
           </sp>
           <sp who="#schakobel">
             <speaker>SCHAKOEBEL</speaker>
@@ -1194,7 +1210,8 @@
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
             <p>Wurd üssgericht. 
-            <stage>(Pfeifend ab.)</stage></p>
+            <stage>(Pfeifend ab.)</stage>
+            </p>
           </sp>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ:</speaker>
@@ -1208,7 +1225,7 @@
             <speaker>DROHTSPITZ:</speaker>
             <p>Halt, Adolph! Z'erscht gehsch in de Keller, an de Gänsstall, nämsch d'r Knibbe mit un murigsch
             alli Gäns ab. Schaköbel, dü helfsch-em. D' Madam Drohtspitz hett's 
-            <pb n="16" />nimi notwendig Gäns ze stopfe, diss isch guet for Proletarier.</p>
+            <pb n="16"/>nimi notwendig Gäns ze stopfe, diss isch guet for Proletarier.</p>
           </sp>
           <sp who="#addes">
             <speaker>ADDES:</speaker>
@@ -1221,7 +1238,8 @@
           <sp who="#addes">
             <speaker>ADDES:</speaker>
             <p>Ha, ich frai mich jetz schun druff. Herr Dorl, vergesse Sie Ihri Redd nit. Schaköbel, kumm. 
-            <stage>(Beide Mitteltüre ab.)</stage></p>
+            <stage>(Beide Mitteltüre ab.)</stage>
+            </p>
           </sp>
           <sp who="#dorel">
             <speaker>DOREL:</speaker>
@@ -1280,7 +1298,7 @@
             <speaker>DOREL:</speaker>
             <p>A so raucht's! Ihr wölle mich nimi kenne? Ja wer hett denn Euch eueri Büdik frisch gedabeziert?
             Wer het 
-            <pb n="17" />denn eueri Wendelmatratze nej üewerzöüje un euere Flohzirik üssgeraichert? — Wer, fröüj
+            <pb n="17"/>denn eueri Wendelmatratze nej üewerzöüje un euere Flohzirik üssgeraichert? — Wer, fröüj
             ich? Ich hab's gemacht, ich! Un noch umesunscht, ja! Ihr kumme mer gschliche wie gedrabbt, ihr
             Pecheschores.</p>
           </sp>
@@ -1295,12 +1313,14 @@
             <speaker>DOREL:</speaker>
             <p>Ich geh vun ase, Herr Millionär. D'r Dorel bliebt d'r Dorel, un d'r Dorel pfifft uff d' Mamsell
             Drohtspitz. Ihr denke noch an denne arme Bäbbkessel, wo richer isch, als ihr allizamme. 
-            <stage>(Ab.)</stage></p>
+            <stage>(Ab.)</stage>
+            </p>
           </sp>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ:</speaker>
             <p>Armer Windbittel, düürsch mich. 
-            <stage>(Man hôrt weitlos Gänsegeschrei.)</stage></p>
+            <stage>(Man hôrt weitlos Gänsegeschrei.)</stage>
+            </p>
           </sp>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ:</speaker>
@@ -1335,7 +1355,7 @@
             Hofphotograph wäre. Uewerhaupt hab ich noch nie e Schuehmacher mit 'me Cylinder un Glacéhändschi
             uff-em Pechstuehl sitze sehn.</p>
           </sp>
-          <pb n="18" />
+          <pb n="18"/>
           <sp who="#addes">
             <speaker>ADDES</speaker>
             <stage>(von draussen):</stage>
@@ -1399,7 +1419,8 @@
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ:</speaker>
             <p>Maischter!? Do hesch links. 
-            <stage>(Gibt ihm eine Ohrfeige.)</stage></p>
+            <stage>(Gibt ihm eine Ohrfeige.)</stage>
+            </p>
           </sp>
           <sp who="#eddes">
             <speaker>EDDES:</speaker>
@@ -1433,7 +1454,7 @@
             <speaker>ADDES:</speaker>
             <p>Maane Sie mich?</p>
           </sp>
-          <pb n="19" />
+          <pb n="19"/>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ:</speaker>
             <p>Herrschaft düürt dis e Ewigkeit. Aa — Herr Linser, han Sie au die neje Strahle mitgebrocht?</p>
@@ -1449,7 +1470,8 @@
           <sp who="#linser">
             <speaker>LINSER:</speaker>
             <p>Jetz uffgebasst. Silence! 
-            <stage>(Schlüpft unter das Tuch.)</stage></p>
+            <stage>(Schlüpft unter das Tuch.)</stage>
+            </p>
           </sp>
           <sp who="#eddes">
             <speaker>EDDES</speaker>
@@ -1505,25 +1527,28 @@
             <p>Dass Sie nix gewunne han? Do steht's in der Zittung. E Druckfehler het sich yngschliche. 
             <stage>(Ueberreicht Drohtspitz eine Zeitung.)</stage>Voilà, Monsieur. Gewunne het nit 128.697, awer
             128,698. Aans ze weny! 
-            <stage>(Stellt den Zeigefinger.)</stage></p>
+            <stage>(Stellt den Zeigefinger.)</stage>
+            </p>
           </sp>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ</speaker>
             <stage>(stiert auf die Zeitung, lässt sie fallen):</stage>
             <p>Nix gewunne! Nix ge... Jesses, jetz, jetz... 
-            <stage>(Alle stürzen vor Schrecken zu Boden.)</stage></p>
+            <stage>(Alle stürzen vor Schrecken zu Boden.)</stage>
+            </p>
           </sp>
           <sp who="#linser">
             <speaker>LINSER:</speaker>
             <p>Oho, die ganz Gsellschaft isch jo verschwunde. Do soll doch glich 
             <stage>(unter dem Tuch hervor.)</stage>Do hett's e Erdbewe gänn.</p>
           </sp>
-          <pb n="20" />
+          <pb n="20"/>
           <sp who="#drohtspitz">
             <speaker>DROHTSPITZ</speaker>
             <stage>(jammernd):</stage>
             <p>O mini drei Milliiönle! 
-            <stage>(Setzt sich auf.)</stage></p>
+            <stage>(Setzt sich auf.)</stage>
+            </p>
           </sp>
           <sp who="#eddes">
             <speaker>EDDES:</speaker>

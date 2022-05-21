@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -47,7 +47,7 @@
             Hawenau.</title>
             <publisher>Edition de théâtre et de musique L. Jaggi-Reiss, Gundershoffen (Bas-Rhin)</publisher>
             <date type="print" when="1937">1937</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -74,7 +74,7 @@
             <persName>Schakob</persName>
           </person>
           <listRelation type="personal">
-            <relation name="parent_of" active="#madame_schweberle" passive="#oscar" />
+            <relation name="parent_of" active="#madame_schweberle" passive="#oscar"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -85,37 +85,25 @@
       <castList>
         <head>Personen.</head>
         <castItem corresp="#madame_schweberle">
-          <role>
-            <persName>Madame Schweberle</persName>
-          </role>
+          <role><persName>Madame Schweberle</persName></role>
         </castItem>
         <castItem corresp="#oscar">
-        <role>
-          <persName>Oscar</persName>
-        </role>, 
+          <role><persName>Oscar</persName></role>, 
         <roleDesc>ihr Sohn, Kaufmann, 28 Johr</roleDesc>.</castItem>
         <castItem corresp="#madame_lewermann">
-        <role>
-          <persName>Madame Lewermann</persName>
-        </role>, 
+          <role><persName>Madame Lewermann</persName></role>, 
         <roleDesc>veuve, 38 Johr</roleDesc>.</castItem>
         <castItem corresp="#suzanne">
-        <role>
-          <persName>Suzanne</persName>
-        </role>, 
+          <role><persName>Suzanne</persName></role>, 
         <roleDesc>ihri Nièce, 20 Johr</roleDesc>.</castItem>
         <castItem corresp="#jean_brey">
-        <role>
-          <persName>Jean Brey</persName>
-        </role>, 
+          <role><persName>Jean Brey</persName></role>, 
         <roleDesc>Kaufmann, 38 Johr</roleDesc>.</castItem>
         <castItem corresp="#schakob">
-        <role>
-          <persName>Schakob</persName>
-        </role>, 
+          <role><persName>Schakob</persName></role>, 
         <roleDesc>Garçon vum Land</roleDesc>.</castItem>
       </castList>
-      <set />
+      <set/>
       <div type="front" xml:lang="ger">
         <head>Inhaltsangabe.</head>
         <p>Der Urtext stammt aus der Feder der bekannten Dichterin des « Stadtnarr », der erst vor kurzem durch
@@ -147,11 +135,11 @@
           <speaker>OSCAR:</speaker>
           <p>Nur noch en Auesblick, Mamme. D’r letscht « Reim » zue mimm Gedicht kummt m’r nit in. 
           <stage>(Deklamiert)</stage>
-          <lg>
-            <l>In dem himmlischen Gefilde</l>
-            <l>Schwebet Luna hoch und hehr;</l>
-            <l>Königin der Sterngebilde….</l>
-          </lg>Weisch dü nix, wie zue « hehr » passt?</p>
+            <lg>
+              <l>In dem himmlischen Gefilde</l>
+              <l>Schwebet Luna hoch und hehr;</l>
+              <l>Königin der Sterngebilde….</l>
+            </lg>Weisch dü nix, wie zue « hehr » passt?</p>
         </sp>
         <sp who="#madame_schweberle">
           <speaker>Mme SCHWEBERLE:</speaker>
@@ -171,7 +159,8 @@
           <p>Lina, nee awer Mamme, ich red doch vun d’r Luna, dies isch jo d’r Mond. 
           <stage>(Zue Schakob, der in d’r Dier erschiene isch):</stage> Zaij, Schakob, bring m’r e schwarzer
           Kaffee uf dene Schrecke. 
-          <stage>(Schakob ab.)</stage></p>
+          <stage>(Schakob ab.)</stage>
+          </p>
         </sp>
         <sp who="#madame_schweberle">
           <speaker>Mme SCHWEBERLE:</speaker>
@@ -188,7 +177,7 @@
           <speaker>Mme SCHWEBERLE:</speaker>
           <p>D’ Suzanne isch e verständigs Maidel, un grad will’s ken so hochi Gedanke im Kopf het wie dü, täts
           am allerbeschte zue d’r passe. Lüej, Oscar, bim Suzanne
-          <pb n="6" />wärsch dü guet uffg'hebt. Es het Vermöje, es wär e Frau for ’s G’schäft, es versteht d’
+          <pb n="6"/>wärsch dü guet uffg'hebt. Es het Vermöje, es wär e Frau for ’s G’schäft, es versteht d’
           Hüshaltung….</p>
         </sp>
         <sp who="#oscar">
@@ -239,7 +228,7 @@
           <speaker>Mme SCHWEBERLE:</speaker>
           <p>Ei, leuj do, so e kurzes Mitaaschläfel han Sie g'halte. Mme Lewermann?</p>
         </sp>
-        <pb n="7" />
+        <pb n="7"/>
         <sp who="#madame_lewermann">
           <speaker>Mme LEWERMANN</speaker>
           <stage>(gähnt):</stage>
@@ -297,7 +286,7 @@
           <speaker>Mme LEWERMANN:</speaker>
           <p>Welle Sie mich am End beleidige?</p>
         </sp>
-        <pb n="8" />
+        <pb n="8"/>
         <sp who="#madame_schweberle">
           <speaker>Mme SCHWEBERLE:</speaker>
           <p>Ne, ne, Mme Lewermann, ich wott numme nit, dass Sie sich lächerlich mache.</p>
@@ -391,7 +380,7 @@
           <speaker>Mme LEWERMANN:</speaker>
           <p>Diss will ich gern tuen, awer ob ich ebs üssricht?</p>
         </sp>
-        <pb n="9" />
+        <pb n="9"/>
         <sp who="#madame_schweberle">
           <speaker>Mme SCHWEBERLE:</speaker>
           <p>Seie Sie stille, do kummt er grad. Sie kenne glich mit’m rede, Ich geh einschtwiele nuf in mini
@@ -420,11 +409,12 @@
           <stage>(Denkt wieder noch, d’rno freidig):</stage> Es isch gange. 
           <stage>(Deklamiert)</stage>:
           <lg>
-            <l>In dem himmlischen Gefilde</l>
-            <l>Schwebet Luna hoch und hehr;</l>
-            <l>Königin der Sterngebilde</l>
-            <l>Thront sie über’m Wolkenmeer.</l>
-          </lg></p>
+              <l>In dem himmlischen Gefilde</l>
+              <l>Schwebet Luna hoch und hehr;</l>
+              <l>Königin der Sterngebilde</l>
+              <l>Thront sie über’m Wolkenmeer.</l>
+            </lg>
+          </p>
         </sp>
         <sp who="#madame_lewermann">
           <speaker>Mme LEWERMANN:</speaker>
@@ -471,7 +461,7 @@
           <stage>(geht nehder zue ihre):</stage>
           <p>Wenn ich doch denne Schwan finde könnt, Mme Lewermann.</p>
         </sp>
-        <pb n="10" />
+        <pb n="10"/>
         <sp who="#madame_lewermann">
           <speaker>Mme LEWERMANN</speaker>
           <stage>(ganz nod bie em):</stage>
@@ -489,7 +479,8 @@
           <speaker>SCHAKOB</speaker>
           <stage>(der immer nehder kumme ’n isch, dicht vor alle zwei):</stage>
           <p>Herr! 
-          <stage>(Sie fahre üsenander.)</stage></p>
+          <stage>(Sie fahre üsenander.)</stage>
+          </p>
         </sp>
         <sp who="#oscar">
           <speaker>OSCAR</speaker>
@@ -573,7 +564,7 @@
           <speaker>Mme LEWERMANN:</speaker>
           <p>Ja, es git Litt, die gackere liewer als dass sie singe.</p>
         </sp>
-        <pb n="11" />
+        <pb n="11"/>
       </div>
       <div type="scene">
         <head>SZENE 4</head>
@@ -646,7 +637,7 @@
           <p>Gottlob nee. Es g’fallt m’r ganz guet do unte. Su lang as ich guete Apetit hab un d’ ganz Nacht
           schloof, bin ich zefridde.</p>
         </sp>
-        <pb n="12" />
+        <pb n="12"/>
         <sp who="#oscar">
           <speaker>OSCAR:</speaker>
           <p>Awer Suzanne? M’r han doch nit nur e Körper, m’r han doch au noch e Geischt un e Gemuet. M’r kann
@@ -711,7 +702,7 @@
           <stage>(Lüijt noch hinte.)</stage> Wer kummt denn do? Herrjeh, wenn m’r de Essel nennt, ze kummt er
           gerennt. Do isch de Brey.</p>
         </sp>
-        <pb n="13" />
+        <pb n="13"/>
       </div>
       <div type="scene">
         <head>SZENE 5</head>
@@ -776,10 +767,10 @@
         <sp who="#jean_brey">
           <speaker>BREY:</speaker>
           <p>
-          <foreign xml:lang="fre">Tenez, Mademoiselle Suzanne</foreign>, versteckle m’r uns. nit. Sie wisse, dass ich en
+            <foreign xml:lang="fre">Tenez, Mademoiselle Suzanne</foreign>, versteckle m’r uns. nit. Sie wisse, dass ich en
           Au uff Sie geworfe hab?</p>
         </sp>
-        <pb n="14" />
+        <pb n="14"/>
         <sp who="#suzanne">
           <speaker>SUZANNE:</speaker>
           <p>Ah.</p>
@@ -845,7 +836,7 @@
           schpier ich ererscht dass ich e nasses Hemb hab 
           <stage>(ab)</stage>.</p>
         </sp>
-        <pb n="15" />
+        <pb n="15"/>
         <sp who="#suzanne">
           <speaker>SUZANNE:</speaker>
           <p>Stehn Sie doch uff, was mache Sie denn jetz wider for e Lewesdaa?</p>
@@ -923,8 +914,9 @@
           <p>Jetz muess ich m’r en anderi Frau sueche. D’ Suzanne isch ang’steckt wore vum Oscar sinere
           Dichteritis; brrr, wenn ich dies au noch bekumme tät. Nee, ich muess m’r e g’sundi Frau sueche, eini wo
           fescht uf em
-          <pb n="16" />Bode steht. Su e Kerl wie ich word schun en anderi finde. 
-          <stage>(Madame Lewermann kummt üss em Hüss.)</stage></p>
+          <pb n="16"/>Bode steht. Su e Kerl wie ich word schun en anderi finde. 
+          <stage>(Madame Lewermann kummt üss em Hüss.)</stage>
+          </p>
         </sp>
         <sp who="#jean_brey">
           <speaker>BREY</speaker>
@@ -1000,10 +992,10 @@
         <sp who="#jean_brey">
           <speaker>BREY:</speaker>
           <p>
-          <foreign xml:lang="fre">A vos ordres, Madame</foreign>
-          <stage>(gibt' ere de Vortritt.)</stage>
-          <foreign xml:lang="fre">Passez, beauté</foreign>
-          <stage>(ab in ’s Freie)</stage>.</p>
+            <foreign xml:lang="fre">A vos ordres, Madame</foreign>
+            <stage>(gibt' ere de Vortritt.)</stage>
+            <foreign xml:lang="fre">Passez, beauté</foreign>
+            <stage>(ab in ’s Freie)</stage>.</p>
         </sp>
       </div>
       <div type="scene">
@@ -1014,7 +1006,7 @@
           <stage>(allein):</stage>
           <p>Jetz losst er de Kaffee stehn, un het doch ewe 3 Franke defuer bezahlt. Dies heiss ich sündhaft. 
           <stage>(Trinkt e Schluck, luejt d’rno dene zwei noch.)</stage> Die spiele 
-          <pb n="17" />nit Fangedissels, die zwei. Ar het e Bichel un Sie wackelt. Jetz packt er sie gar, un jetz
+          <pb n="17"/>nit Fangedissels, die zwei. Ar het e Bichel un Sie wackelt. Jetz packt er sie gar, un jetz
           gibt er ere e Schmutz. Ha, ha.</p>
         </sp>
         <sp who="#madame_schweberle">
@@ -1108,7 +1100,7 @@
           <p>Sie fröjt noch was los esch. Het m’r minner Sohn verfuehrt un im Suzanne abspenschtig gemacht un
           stellt sich noch unschuldig d’rbie.</p>
         </sp>
-        <pb n="18" />
+        <pb n="18"/>
         <sp who="#madame_lewermann">
           <speaker>Mme LEWERMANN:</speaker>
           <p>Ich weiss nit was Sie wölle.</p>
@@ -1167,7 +1159,7 @@
           <p>Ach, ich bin vun alle Himmel herunterg’falle. Grad ewe haw ich noch gemeint ich hab endlich im
           Suzanne min Ideal g'funde — awer es het mich hart uf de Bode zeruckgstosse.</p>
         </sp>
-        <pb n="19" />
+        <pb n="19"/>
         <sp who="#madame_lewermann">
           <speaker>Mme LEWERMANN:</speaker>
           <p>D' Suzanne Ihr Ideal? Höre Sie, dies isch awer doch zuem Lache. ’s Suzanne kann for kenne Mensche e
@@ -1235,7 +1227,7 @@
           <stage>(kummt schnell noch vorne):</stage>
           <p>Ach, Oscar; wie schön dü jetz redsch, wie poetisch.</p>
         </sp>
-        <pb n="20" />
+        <pb n="20"/>
         <sp who="#oscar">
           <speaker>OSCAR:</speaker>
           <p>Suzanne, hesch mich denn e kleins bissele lieb?</p>
@@ -1267,7 +1259,7 @@
         <sp who="#madame_schweberle">
           <speaker>Mme SCHWEBERLE:</speaker>
           <p>
-          <foreign xml:lang="fre">Toutes mes félicitations</foreign>; ich wuensch eich Glueck vun ganzem Herze. 
+            <foreign xml:lang="fre">Toutes mes félicitations</foreign>; ich wuensch eich Glueck vun ganzem Herze. 
           <stage>(Zue Schakob)</stage> Un Ihr, do hinte, kumme emol here.</p>
         </sp>
         <sp who="#schakob">

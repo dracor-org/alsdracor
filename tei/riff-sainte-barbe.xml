@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -52,7 +52,7 @@
             <title type="sub">Comédie in Aam Uffzug vun Jean Riff</title>
             <publisher>Imprimeur et Éditeur Imprimerie Gutemberg, J. Charles Schneider</publisher>
             <date when="1919" type="print">1919</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -113,8 +113,8 @@
             <persName>die Spielleute</persName>
           </personGrp>
           <listRelation type="personal">
-            <relation name="parent_of" active="#daniel_wendling" passive="#lissel" />
-            <relation name="spouses" mutual="#schorsch_peterhansel #theres" />
+            <relation name="parent_of" active="#daniel_wendling" passive="#lissel"/>
+            <relation name="spouses" mutual="#schorsch_peterhansel #theres"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -128,7 +128,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="5" />
+      <pb n="5"/>
       <castList>
         <head>Persone:</head>
         <castItem corresp="#daniel_wendling">
@@ -164,9 +164,7 @@
           <roleDesc>e Bumbié</roleDesc>.
         </castItem>
         <castItem corresp="#bumbie #spielleute #buureburscht #buuremaidle">
-        <role>
-          <persName>Bumbié, Tambourineurs un Clairons, Büüreburscht un Büüremaidle</persName>
-        </role>.</castItem>
+          <role><persName>Bumbié, Tambourineurs un Clairons, Büüreburscht un Büüremaidle</persName></role>.</castItem>
       </castList>
       <set>
         <p>Ort: E Dorf im Elsaß.</p>
@@ -184,7 +182,7 @@
       </set>
     </front>
     <body>
-      <pb n="7" />
+      <pb n="7"/>
       <div type="act">
         <div type="scene">
           <head>1. Scene.</head>
@@ -195,7 +193,8 @@
             <speaker>Lissel:</speaker>
             <p>voilà, loon 's Uch gschmecke, Andrees 
             <stage>(nachprüfend).</stage>Haltela, 's Glaasel isch jo noch nit göönz voll — 
-            <stage>(will einschenken.)</stage></p>
+            <stage>(will einschenken.)</stage>
+            </p>
           </sp>
           <sp who="#andrees_bottjuckel">
             <speaker>Andrees:</speaker>
@@ -227,7 +226,7 @@
             Waaser ning gschmisse sin worre, wie m'r Alli. lüt uff ghylt höön vor Harzeläid, Jammer un Elang,
             ghylt wie d'kläine King, d'Burjerslytt un d'Saldote, un wie d'rnoo — — — o pauvre, pauvre Alsace!</p>
           </sp>
-          <pb n="8" />
+          <pb n="8"/>
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
             <p>Kalmiere-n-Uch, Andrees. D'Franzose sin jo jetz wied'r do.</p>
@@ -235,7 +234,8 @@
           <sp who="#andrees_bottjuckel">
             <speaker>Andrees:</speaker>
             <p>Gott sej Dank, Lissel, Gott sej Dank! 
-            <stage>(setzt sich wieder).</stage></p>
+            <stage>(setzt sich wieder).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -308,7 +308,7 @@
             Glaasel ing.</p>
           </sp>
           <stage>(Andrees blitzt nochmals in die Höhe und salutiert.)</stage>
-          <pb n="9" />
+          <pb n="9"/>
           <sp who="#daniel_wendling">
             <speaker>Daniel:</speaker>
             <stage>(hinter dem Bierausschank ; lachend.)</stage>
@@ -343,7 +343,8 @@
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
             <p>Mientwaje! 
-            <stage>(Andrees trinkt leer, Lissel schenkt neu ein.)</stage></p>
+            <stage>(Andrees trinkt leer, Lissel schenkt neu ein.)</stage>
+            </p>
           </sp>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
@@ -374,7 +375,8 @@
           <sp who="#andrees_bottjuckel">
             <speaker>Andrees:</speaker>
             <p>Sankt-Barwere-Äier! — Üs lüter Plasier, daß d'Franzose do sin! — Gsündhäit! — 
-            <stage>(trinkt.)</stage></p>
+            <stage>(trinkt.)</stage>
+            </p>
           </sp>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
@@ -399,7 +401,7 @@
             <stage>(salutiert.)</stage>
             <p>— M'r kann's nit wisse, Harr Brandmäischter.</p>
           </sp>
-          <pb n="10" />
+          <pb n="10"/>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
             <stage>(etwas geschmeichelt.)</stage>
@@ -446,7 +448,8 @@
             <speaker>Lissel:</speaker>
             <stage>(schaut nach.)</stage>
             <p>— Jo warzi! — 
-            <stage>(schenkt ein.)</stage></p>
+            <stage>(schenkt ein.)</stage>
+            </p>
           </sp>
           <sp who="#daniel_wendling">
             <speaker>Daniel:</speaker>
@@ -471,13 +474,14 @@
             <p>— Exküse, Harr Brandmäischter, ich hab oochtezwanzig Johr meh uffem Buckel aß wie Ihr, aw'r
             wajezam, wann's ans trinke geht, d'rnoo stell ich miene Mann so stolz wie d'r ältscht Bumbié, un
             fröij im Däifel ebs nooch'm Alter! — Luschti laawe un saali starwe! — Gesündhäit! — 
-            <stage>(trinkt.)</stage></p>
+            <stage>(trinkt.)</stage>
+            </p>
           </sp>
           <sp who="#schorsch_peterhansel #daniel_wendling #lissel">
             <speaker>Schorsch, Daniel, Lissel:</speaker>
             <p>Gsündhäit Andrees!</p>
           </sp>
-          <pb n="11" />
+          <pb n="11"/>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
             <stage>(schaut auf seine Uhr.)</stage>
@@ -511,7 +515,8 @@
             <speaker>Andrees:</speaker>
             <stage>(salutiert.)</stage>
             <p>— Respakt d'rvor! — Sackerwalt! — Gsündhäit! 
-            <stage>(trinkt leer.)</stage></p>
+            <stage>(trinkt leer.)</stage>
+            </p>
           </sp>
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
@@ -528,7 +533,8 @@
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
             <p>Jaja, d'v Andrees v'rträät's. 
-            <stage>(schenkt ein.)</stage></p>
+            <stage>(schenkt ein.)</stage>
+            </p>
           </sp>
           <sp who="#daniel_wendling">
             <speaker>Daniel:</speaker>
@@ -555,7 +561,8 @@
             <stage>(schmunzelnd.)</stage>
             <p>— Ich wäiß's, Daniel, ich wäiß's. — Aw'r, uff ünser Fescht anne — — — Gsündhäit, Harr
             Brandmäischter! — 
-            <stage>(trinki rasch ein Schlückchen, und salutiert.)</stage></p>
+            <stage>(trinki rasch ein Schlückchen, und salutiert.)</stage>
+            </p>
           </sp>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
@@ -589,7 +596,7 @@
             finfezwanzigjahrig Dienschtjubiläum?! — Un do sell Trawere getrunke ware?! — allons, allons,
             allons!</p>
           </sp>
-          <pb n="12" />
+          <pb n="12"/>
           <sp who="#andrees_bottjuckel">
             <speaker>Andrees:</speaker>
             <stage>(salutiert etwas schwankend.)</stage>
@@ -695,7 +702,7 @@
             <speaker>Lissel:</speaker>
             <p>'s bliet noch iewri.</p>
           </sp>
-          <pb n="13" />
+          <pb n="13"/>
           <sp who="#andrees_bottjuckel">
             <speaker>Andrees:</speaker>
             <stage>(schlägt mit der Faust auf den Tisch.)</stage>
@@ -710,12 +717,14 @@
             <speaker>Andrees:</speaker>
             <stage>(lallend.)</stage>
             <p>— — Hupp! — — Woorte numme — — — as — — as kummt schun noch ööndersch! — — Hupp! — — Gsündhäit! — 
-            <stage>(trinkt).</stage></p>
+            <stage>(trinkt).</stage>
+            </p>
           </sp>
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
             <p>Jaja, 's wurd schun wied'r ebs oosetze. — 
-            <stage>(schließt die Tür.)</stage></p>
+            <stage>(schließt die Tür.)</stage>
+            </p>
           </sp>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
@@ -757,7 +766,8 @@
             <speaker>Andrees:</speaker>
             <p>Ich — — ich — — ich brüch niemes! — Hupp! Ich ich kann — 
             <stage>(drückt rasch das Taschentuch vor den Mund, stößt rasch die Tür auf und torkelt hinaus in das
-            Dunkel der Nacht.)</stage></p>
+            Dunkel der Nacht.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -773,7 +783,7 @@
             <stage>(hält sich das Taschentuch vor die Nase und schließt rasch die Tür.)</stage>— 's fangt jo
             schun raacht natt oon!</p>
           </sp>
-          <pb n="14" />
+          <pb n="14"/>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
             <p>Höere, d'Schnapsflasche muehn ewack bliewe.</p>
@@ -782,7 +792,8 @@
             <speaker>Daniel:</speaker>
             <p>Hawich's nit gsäit wie's kumme wurd?! — Ich kenn mini Lytt! — Lissel, stell die Schnapsflasch
             ewack, un schließ m'r 's Likörkeenschterle göönz zu. — 
-            <stage>(geschieht.)</stage></p>
+            <stage>(geschieht.)</stage>
+            </p>
           </sp>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
@@ -818,7 +829,8 @@
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
             <p>Aw'r sicher! — Un wann äiner od'r d'r öönder nit kunterbiere will — — — — — 
-            <stage>(spuckt in die Hände und streift die Aermel zurück).</stage></p>
+            <stage>(spuckt in die Hände und streift die Aermel zurück).</stage>
+            </p>
           </sp>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
@@ -852,7 +864,7 @@
             <speaker>Lissel:</speaker>
             <p>Ja, hingenooch wied'r, wann do d'r göönz Marikt v'rloffe-n-isch.</p>
           </sp>
-          <pb n="15" />
+          <pb n="15"/>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
             <p>Oha! — Wann mir kumme, fangt d'r Marikt erscht raacht oon! Bedenke's doch: d'erscht franzeesch
@@ -891,12 +903,14 @@
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
             <p>Ja, Theres, ja. — Kum, min Harzkaferle! — 
-            <stage>(will sie umarmen.)</stage></p>
+            <stage>(will sie umarmen.)</stage>
+            </p>
           </sp>
           <sp who="#theres">
             <speaker>Theres:</speaker>
             <p>Loß m'r die Stierhäite ewack! — Ich säe d'r's! 
-            <stage>(Beide ab durch die Mitte).</stage></p>
+            <stage>(Beide ab durch die Mitte).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -926,9 +940,10 @@
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
             <p>Zerscht muehn m'r äu wied'r Petrol höön. 
-            <stage>(schließt die Tür.)</stage></p>
+            <stage>(schließt die Tür.)</stage>
+            </p>
           </sp>
-          <pb n="16" />
+          <pb n="16"/>
           <sp who="#daniel_wendling">
             <speaker>Daniel:</speaker>
             <p>Petrol? — 's Elektrisch mueß hare! — Mir könne's üns läischte! — 's Gald d'rzü höön uns
@@ -992,7 +1007,8 @@
             <p>'s isch nit notwandi. Mir höön Alles. Numme emol erüs jetz! — 
             <stage>(läßt eine elektrische Taschenlampe aufblitzen, schreitet den Uebrigen voran und beleuchtet
             den Weg. — Alle, bis auf Lissel, verlassen die Gaststube. Lissel macht rasch die Tür hinter den
-            Dreien zu, und schaut gebückt zum Schlüsselloch hinaus.)</stage></p>
+            Dreien zu, und schaut gebückt zum Schlüsselloch hinaus.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1000,7 +1016,7 @@
           <stage>Lissel — Philipp Stawalter.</stage>
           <stage>(Philipp, im Uniform eines Feuerwehrmannes, kommt durch die Tür rechts von der Hofseite
           hereingeschlichen, fährt sich über die momentan vom 
-          <pb n="17" />Licht etwas geblendeten Augen, erblickt dann Lissel, schleicht rasch, und von ihr
+          <pb n="17"/>Licht etwas geblendeten Augen, erblickt dann Lissel, schleicht rasch, und von ihr
           unbemerkt, an sie heran, holt mit der rechten Hand hoch zum Schlage aus, zielt zweimal, und haut ihr
           dann mit kräftigem Zug einen klatschenden Schlag auf den hinteren Körperteil.)</stage>
           <stage>(Lissel schreit erschreckt auf und reibt sich die schmerzende Stelle).</stage>
@@ -1066,7 +1082,7 @@
             <p>— Ingersteh Dich jo nit!</p>
           </sp>
         </div>
-        <pb n="18" />
+        <pb n="18"/>
         <div type="scene">
           <head>9. Scene.</head>
           <stage>Lissel — Philipp — Daniel.</stage>
@@ -1114,7 +1130,8 @@
           <sp who="#philipp_stawalter">
             <speaker>Philipp:</speaker>
             <p>Ho, hol — Numme nit eso kürios, Lissel, un maach wied'r emol e öönders Gsicht. — 
-            <stage>(will Lissel tätscheln.)</stage></p>
+            <stage>(will Lissel tätscheln.)</stage>
+            </p>
           </sp>
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
@@ -1163,7 +1180,7 @@
             <stage>(mit einem finstern Blick.)</stage>
             <p>— Ja, öönderi Lytt vun hinge iewerfalle un grüen un blöij häueje.</p>
           </sp>
-          <pb n="19" />
+          <pb n="19"/>
           <sp who="#philipp_stawalter">
             <speaker>Philipp:</speaker>
             <stage>(roh auflachend.)</stage>
@@ -1239,10 +1256,11 @@
             <p>Na, no maach nit eso v'rruckt. — 
             <stage>(zündet ein hinter dem Ausschank stehendes Kerzenlicht an.)</stage>— Ich geh jetz in de
             Keeler, oonstache. — Rischt emol d'Gleeser. — 
-            <stage>(mit dem brennenden Licht ab Türe links.)</stage></p>
+            <stage>(mit dem brennenden Licht ab Türe links.)</stage>
+            </p>
           </sp>
         </div>
-        <pb n="20" />
+        <pb n="20"/>
         <div type="scene">
           <head>10. Scene.</head>
           <stage>Lissel — Philipp.</stage>
@@ -1261,7 +1279,8 @@
             <speaker>Philipp:</speaker>
             <p>Juhuuuuuh! — Lissel, mit Dir döönz ich hyt Owe de-r-erschte Walzer! — 
             <stage>(eilt zur Türe rechts, öffnet dieselbe vorsichtig, späht hinaus und schlüpft, die Tür rasch
-            hinter sich schließend, ins Freie.)</stage></p>
+            hinter sich schließend, ins Freie.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1273,7 +1292,8 @@
             <speaker>Lissel:</speaker>
             <p>Danz mit's Däifels Grooßel, no rannsch äu ken Häiligi um! — 
             <stage>(öffnet die Mitteltür weit auf. Die Pompiers-Clairons und Trommeln sind noch immer gedämpft
-            aus der Ferne zu hören.)</stage></p>
+            aus der Ferne zu hören.)</stage>
+            </p>
           </sp>
           <stage>(Einige jugendliche Bauernburschen stolpern zur Mitteltür herein und ziehen und schieben ihre
           sich verschämt sträubenden Mädchen mit in die Gaststube.)</stage>
@@ -1308,7 +1328,7 @@
             <stage>(lachend.)</stage>
             <p>— Un dogebliewe wurd jetz. — Grood zeläid!</p>
           </sp>
-          <pb n="21" />
+          <pb n="21"/>
           <sp who="#ein_bursche">
             <speaker>Ein Bursche:</speaker>
             <p>Mir könne äu Sainte-Barbe fiehre, so stolz wie d'Bumbié.</p>
@@ -1320,7 +1340,8 @@
           <sp who="#buureburscht">
             <speaker>Die Burschen:</speaker>
             <p>Kumme, ihr Mäide! 
-            <stage>(Alle placieren sich rasch am hintersten Tisch der Gaststube.)</stage></p>
+            <stage>(Alle placieren sich rasch am hintersten Tisch der Gaststube.)</stage>
+            </p>
           </sp>
           <sp who="#ein_madchen">
             <speaker>Ein Mädchen:</speaker>
@@ -1335,7 +1356,8 @@
             <speaker>Lissel:</speaker>
             <p>Mir lejt's nit oon. — Maache was'r welle. 
             <stage>(Die Clairons und Trommeln werden jetzt in unmittelbarer Nähe hörbar und kommen allmählich vor
-            der Wirtschaft an.)</stage></p>
+            der Wirtschaft an.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1370,7 +1392,7 @@
             <p>Na jetzt ware numme nit schun wied'r gifti. — Ich mueß jo äu maache, was ich ghäiße wur. —
             Sitze-n-'r jetz bööl Alli?!</p>
           </sp>
-          <pb n="22" />
+          <pb n="22"/>
           <sp who="#michel_ohlmershans">
             <speaker>Michel:</speaker>
             <p>Jetz warde m'r Alli bienöönd, bis uff dane v'rlottelte Stawalters-Philipp.</p>
@@ -1396,7 +1418,8 @@
           <sp who="#philipp_stawalter">
             <speaker>Philipp:</speaker>
             <p>Aw'r glich druff bin ich kumme. — Isch''s imstöönd nit so, Herr Korperal? 
-            <stage>(zwinkert Velde mit den Augen zu.)</stage></p>
+            <stage>(zwinkert Velde mit den Augen zu.)</stage>
+            </p>
           </sp>
           <sp who="#velde_umecker">
             <speaker>Velde:</speaker>
@@ -1439,7 +1462,7 @@
             <p>Numme emol de Hahne uff un d'Gleeser gfillt. An mir sell's nit fahle.</p>
           </sp>
           <stage>(Daniel und Lissel haben von jetzt ab immer vollauf mit dem Bedienen der Gäste zu tun.)</stage>
-          <pb n="23" />
+          <pb n="23"/>
           <sp who="#philipp_stawalter">
             <speaker>Philipp:</speaker>
             <p>Bier har, Lissel, Bier har!</p>
@@ -1500,7 +1523,8 @@
           <sp who="#bumbie">
             <speaker>D'Bumbié:</speaker>
             <p>Gsündhäit! 
-            <stage>(sie trinken.)</stage></p>
+            <stage>(sie trinken.)</stage>
+            </p>
           </sp>
           <sp who="#philipp_stawalter">
             <speaker>Philipp:</speaker>
@@ -1549,7 +1573,7 @@
           <sp who="#michel_ohlmershans">
             <speaker>Michel:</speaker>
             <p>Kamerade! — Fünfezwanzig Johr steht hyt ünser Brandmäischter uff siem schware Poschte. — 
-            <pb n="24" />Fünfezwanzig Johr sin sozesäueje e Stick Menschealter — — — —</p>
+            <pb n="24"/>Fünfezwanzig Johr sin sozesäueje e Stick Menschealter — — — —</p>
           </sp>
           <sp who="#velde_umecker">
             <speaker>Velde:</speaker>
@@ -1633,7 +1657,7 @@
             <speaker>Die Mädchen:</speaker>
             <p>Gsündhäit!</p>
           </sp>
-          <pb n="25" />
+          <pb n="25"/>
           <sp who="#buureburscht">
             <speaker>Die Burschen:</speaker>
             <p>Alle Gebott santé!</p>
@@ -1663,7 +1687,8 @@
             <speaker>Velde:</speaker>
             <p>Kamerade! Mir sin v'rgnüejt bienöönd, mir, ja. — Aw'r — — — wo sin ünseri Harre Offizier?! —
             Hinne?! — 
-            <stage>(Beistimmendes Gemurmel.)</stage></p>
+            <stage>(Beistimmendes Gemurmel.)</stage>
+            </p>
           </sp>
           <sp who="#michel_ohlmershans">
             <speaker>Michel:</speaker>
@@ -1673,7 +1698,8 @@
             <speaker>Velde:</speaker>
             <stage>(lachend.)</stage>
             <p>— Jetz wäiß ich's. — 
-            <stage>(Gelächter allseits.)</stage></p>
+            <stage>(Gelächter allseits.)</stage>
+            </p>
           </sp>
           <sp who="#daniel_wendling">
             <speaker>Daniel:</speaker>
@@ -1735,7 +1761,8 @@
           <sp who="#velde_umecker">
             <speaker>Velde:</speaker>
             <p>D'r Michel stupft jo in äim Stick furt. 
-            <stage>(Gelächter allseits.)</stage></p>
+            <stage>(Gelächter allseits.)</stage>
+            </p>
           </sp>
           <sp who="#michel_ohlmershans">
             <speaker>Michel:</speaker>
@@ -1750,7 +1777,7 @@
             <p>Na, het noch Kener d'Kürasch?! — 
             <stage>(schwingt die Faust hoch.)</stage>— Mit äim Sträich! — Hoppla! -Wer setzt d'rgeje?!</p>
           </sp>
-          <pb n="26" />
+          <pb n="26"/>
           <sp who="#lissel">
             <speaker>Lissel:</speaker>
             <stage>(warnend.)</stage>
@@ -1760,7 +1787,8 @@
             <speaker>Philipp:</speaker>
             <stage>(mit einem scheuen Seitenblick auf den ihn finster anschauenden Daniel.)</stage>
             <p>— Ah jaso! — 
-            <stage>(kraut sich hinter den Ohren.)</stage></p>
+            <stage>(kraut sich hinter den Ohren.)</stage>
+            </p>
           </sp>
           <sp who="#velde_umecker">
             <speaker>Velde:</speaker>
@@ -1810,7 +1838,8 @@
           <sp who="#philipp_stawalter">
             <speaker>Philipp:</speaker>
             <p>Ar isch aw'r doch ken Ranntier?! 
-            <stage>(Gelächter allseits.)</stage></p>
+            <stage>(Gelächter allseits.)</stage>
+            </p>
           </sp>
           <sp who="#buureburscht #buuremaidle">
             <speaker>Die Burschen und Mädchen:</speaker>
@@ -1829,7 +1858,7 @@
             <stage>(wiederholend.)</stage>
             <p>— Röslein, Röslein, Röslein rot! Röslein auf der Heide !</p>
           </sp>
-          <pb n="27" />
+          <pb n="27"/>
           <sp who="#schorsch_peterhansel">
             <speaker>Schorsch:</speaker>
             <p>à la bonheur! — Do geht's jo schun raacht luschdi zü!</p>
@@ -1902,7 +1931,8 @@
           <sp who="#theres">
             <speaker>Theres:</speaker>
             <p>Maach de Kräueje uff un d'Knepf am Frack. 
-            <stage>(geschieht.)</stage></p>
+            <stage>(geschieht.)</stage>
+            </p>
           </sp>
           <sp who="#velde_umecker">
             <speaker>Velde:</speaker>
@@ -1921,7 +1951,8 @@
           <sp who="#theres">
             <speaker>Theres:</speaker>
             <p>Als noch? — Lissel, maach irjes uff un loß frischi Luft ering. — 
-            <stage>(Lissel öffnet ein Fenster.)</stage></p>
+            <stage>(Lissel öffnet ein Fenster.)</stage>
+            </p>
           </sp>
           <sp who="#daniel_wendling">
             <speaker>Daniel:</speaker>
@@ -1932,7 +1963,7 @@
             <stage>(pustend.)</stage>
             <p>— Vorläufi noch goor nix.</p>
           </sp>
-          <pb n="28" />
+          <pb n="28"/>
           <sp who="#theres">
             <speaker>Theres:</speaker>
             <p>'s isch'm nit göönz — — —</p>
@@ -2017,7 +2048,8 @@
             <speaker>Schorsch:</speaker>
             <stage>(abwehrend.)</stage>
             <p>— Loon mich nüs — — loon mich nüs. — 
-            <stage>(taumelt zur Tür rechts hinaus in den Hof).</stage></p>
+            <stage>(taumelt zur Tür rechts hinaus in den Hof).</stage>
+            </p>
           </sp>
           <sp who="#velde_umecker">
             <speaker>Velde:</speaker>
@@ -2028,11 +2060,12 @@
             <p>Fräu Brandmäischtere, wette-n-Ihr mit m'r, daß ich mit d'r Füscht do dies Discheck abschläe? Mit
             äim Sträich!</p>
           </sp>
-          <pb n="29" />
+          <pb n="29"/>
           <sp who="#theres">
             <speaker>Theres:</speaker>
             <p>E-n-Auejesblick, Philipp. — 
-            <stage>(klopft mit dem Hausschlüssel auf den Tisch.)</stage></p>
+            <stage>(klopft mit dem Hausschlüssel auf den Tisch.)</stage>
+            </p>
           </sp>
           <sp who="#michel_ohlmershans">
             <speaker>Michel:</speaker>
@@ -2124,7 +2157,7 @@
             <speaker>Velde:</speaker>
             <p>In d'r nachschte V'rsammlung haltsch Dü Din Mül, v'rstange?!</p>
           </sp>
-          <pb n="30" />
+          <pb n="30"/>
           <sp who="#daniel_wendling">
             <speaker>Daniel:</speaker>
             <p>Bliewe doch ruehji jetz.</p>
@@ -2145,7 +2178,8 @@
             <speaker>Lissel:</speaker>
             <stage>(springt rasch hinzu.)</stage>
             <p>— kumme, Fräu Brandmäischtere, ich geh mit Uch. — 
-            <stage>(geleitet die Schwankende zur Tür rechts hinaus in den Hof.)</stage></p>
+            <stage>(geleitet die Schwankende zur Tür rechts hinaus in den Hof.)</stage>
+            </p>
           </sp>
           <stage>(Ein dröhnender Krach, Gläserklirren, begleitet von einem Aufschrei Lissels, einem derben Fluch
           Daniels und: dem schallenden Gelächter der Bumbié, Burschen und Mädchen. Philipp hat im Triumph mit der
@@ -2177,14 +2211,16 @@
             <stage>(zu den Uebrigen.)</stage>— Attention! — Garde à vous! — In zwäi Glidder oontratte! —
             Ehrespalier! — 
             <stage>(wird von den Bumbiés flink und ordnungsgemäß ausgeführt, sodaß gegen der Mitteltür zu eine
-            Gasse gebildet ist. — Die Musik ist inzwischen vor der Wirtschaft angelangt.)</stage></p>
+            Gasse gebildet ist. — Die Musik ist inzwischen vor der Wirtschaft angelangt.)</stage>
+            </p>
           </sp>
           <sp who="#michel_ohlmershans">
             <speaker>Michel:</speaker>
             <p>Compagnie! — Attention! — 
             <stage>(öffnet rasch die Mitteltür, eilt wieder zurück an seinen Platz und 
-            <pb n="31" />salutiert. — Die Musik bricht mit einem schaudervollen Mißakkord ab. — Alle schauen mit
-            berechtigter Spannung nach der geöffneten Tür.)</stage></p>
+            <pb n="31"/>salutiert. — Die Musik bricht mit einem schaudervollen Mißakkord ab. — Alle schauen mit
+            berechtigter Spannung nach der geöffneten Tür.)</stage>
+            </p>
           </sp>
           <stage>(Schorsch und Theres, beide kreidebleich, kommen von rechts. — Lissel folgt ihnen lachend auf
           dem Fuße nach.)</stage>

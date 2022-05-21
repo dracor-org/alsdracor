@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -52,7 +52,7 @@
             <title type="sub">Dramatisches Sittenbild in einem Aufzuge in Straßburger Mundart</title>
             <publisher>Schlesier &amp; Schweikhardt</publisher>
             <date when="1896" type="print">1896</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -88,9 +88,9 @@
             <persName>Eine Frau</persName>
           </person>
           <listRelation type="personal">
-            <relation name="spouses" mutual="#marie_engel #joseph_engel" />
-            <relation name="parent_of" active="#marie_engel #joseph_engel" passive="#berthe #lucie" />
-            <relation name="siblings" mutual="#berthe #lucie" />
+            <relation name="spouses" mutual="#marie_engel #joseph_engel"/>
+            <relation name="parent_of" active="#marie_engel #joseph_engel" passive="#berthe #lucie"/>
+            <relation name="siblings" mutual="#berthe #lucie"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -104,7 +104,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="5" />
+      <pb n="5"/>
       <div type="preface">
         <head>Vorwort.</head>
         <p>Für den dramatischen Dichter ist es hart, wenn er schon vor und während mühevoller, anstrengender
@@ -121,7 +121,7 @@
         gegenwärtigen Gestalt als Dialektdichtung — eine Aufführung nicht werde erleben können. Theaterstücke in
         Straßburger Mundart können leider nur in Dilettantenkreisen gepflegt werden, und wenn man erstere auf
         einer wirklichen Bühne darstellen will, so ist man stets auf die Mitwirkung von
-        <pb n="6" />Dilettanten angewiesen. Diese aber können bekanntlich nur Possen und Lustspiele zu einer
+        <pb n="6"/>Dilettanten angewiesen. Diese aber können bekanntlich nur Possen und Lustspiele zu einer
         einigermaßen tadelfreien Darstellung bringen; Ausnahmen hiervon zählen zu den größten Seltenheiten.
         Ferner wird sich wohl kaum eine Dilettantin finden lassen, welche gewillt wäre, die Titelrolle
         gegenwärtigen Stückes zu spielen — und zwar aus sehr begreiflihen Gründen. Endlich stellt m. E. das Stück
@@ -139,7 +139,7 @@
         <p>Straßburg, im Oktober 1896.</p>
         <p>Julius Greber.</p>
       </div>
-      <pb n="7" />
+      <pb n="7"/>
       <castList>
         <head>Personen:</head>
         <castItem corresp="#joseph_engel">
@@ -196,7 +196,7 @@
       </set>
     </front>
     <body>
-      <pb n="9" />
+      <pb n="9"/>
       <div type="scene">
         <head>1. Scene.</head>
         <stage>Mutter, Berthe, nachher der Vater.</stage>
@@ -231,7 +231,7 @@
           g'hört. Es het nit e jeds die Lehr, wo dü hesch. — Wie stehts mit dine-n-Uffgawe, hesch sie schun
           gemacht?</p>
         </sp>
-        <pb n="10" />
+        <pb n="10"/>
         <sp who="#berthe">
           <speaker>Berthe :</speaker>
           <p>Ich hab sie gemacht, awer 's Lucie müeß mich emol de Katechisme üwwerhöre, ob ich ne au güet kann.
@@ -276,15 +276,16 @@
         <sp who="#joseph_engel">
           <speaker>Vater</speaker>
           <stage>(Trinkergesicht; farbiges Hemd, verschlissene Sammthose, Gurt, abgetragener Rock und hohe Mütze;
-          angetrunken, rennt an Berthe an)&#160;:</stage>
+          angetrunken, rennt an Berthe an) :</stage>
           <p>Mach, daß de m'r üs de Füeß gehsch, Krott, elendi! Sunsch gitts Schmier! Sacré matin noch emol!</p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Seij mit dem Kind doch nit so grob. 's het d'r jo nix gemacht.
           <stage>(Zu Berthe.)</stage>Geh e bissel uff
-          <pb n="11" />d'Gaß Kind. Din Babbe isch awer au gar ze wüscht mit d'r.
-          <stage>(Berthe rechts ab.)</stage></p>
+          <pb n="11"/>d'Gaß Kind. Din Babbe isch awer au gar ze wüscht mit d'r.
+          <stage>(Berthe rechts ab.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -342,7 +343,7 @@
           <p>Wenn dü ebbs schaffe dhäddsch , könnt m'r d'r au ebbs Ordentlichs rischte züem z'Nachtesse. Wenn m'r
           awer de ganze Daa in de Bierläde-n-erumkheijt....</p>
         </sp>
-        <pb n="12" />
+        <pb n="12"/>
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
           <p>Ich schaffe! For denne Hungerslohn, wo m'r kreijt? — — Do kennsch dü mich awer schlecht, wenn de
@@ -380,7 +381,7 @@
           <p>Ums Gottswille, brüel nit eso, denk doch e bissel an denne sterweskranke Mann, wo do howe
           leijt....</p>
         </sp>
-        <pb n="13" />
+        <pb n="13"/>
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
           <p>Sterweskrank ? M'r müen alli emol sterwe. In minere Wohnung derf ich mache was i will. Weje dem hawi
@@ -415,7 +416,7 @@
           d'aye Doochter müeß dich vun ihrem Verdienscht entreteniere — — un dü schämsch dich nit, sin Geld
           anzenemme.</p>
         </sp>
-        <pb n="14" />
+        <pb n="14"/>
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
           <p>Redd' m'r doch ken so Gstuß doher. Wenn's Lucie nur e bissel meh üs sich mache dhädd, es könnt grad
@@ -433,7 +434,8 @@
           for's mit dine Kamerade ze verklebbere. Ja drüsse bisch schenerös un großarti, do machsch, wie wenn
           di's d'heime hüffeswis leije hättsch . . . wenn sie's nur wüßte . . . wenn sie's nur sehne dhädde . . .
           was dü . . .
-          <stage>(sie kann vor Husten nicht weiter reden).</stage></p>
+          <stage>(sie kann vor Husten nicht weiter reden).</stage>
+          </p>
         </sp>
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
@@ -449,7 +451,7 @@
           <speaker>Vater :</speaker>
           <p>Noch e Wort, un i schmiß d'r ebbs an de Kopf, grad was i find!</p>
         </sp>
-        <pb n="15" />
+        <pb n="15"/>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Prowiers nurre! ich wur mich vor dir scheniere, dü Schandfleck dü!</p>
@@ -495,7 +497,8 @@
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Ich hab keins.
-          <stage>(Zieht das Portemonnaie heraus, das sie krampfhaft festhält.)</stage></p>
+          <stage>(Zieht das Portemonnaie heraus, das sie krampfhaft festhält.)</stage>
+          </p>
         </sp>
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
@@ -520,7 +523,8 @@
           <p>Jetz will ich doch emol sehn, ob ich ken Geld bekumm! Gisch's here oder nit?
           <stage>(Er geht auf Marie los, ringt mit ihr; während des Ringens):</stage>Ich bekumms schun! ich
           bekumms schun!
-          <pb n="16" /></p>
+          <pb n="16"/>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter</speaker>
@@ -528,7 +532,8 @@
           <p>Nein, ich gibbs nit! Nein, ich gibbs nit!
           <stage>(Engel entreißt ihr schließlich das Portemonnaie, Marie bekommt einen starken Hustenanfall. Er
           nimmt alles heraus und wirft das leere Portemonnaie auf den Tisch, dann schnell nach rechts
-          ab.)</stage></p>
+          ab.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -557,7 +562,7 @@
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter</speaker>
-          <stage>(sich die Thränen auswischend)&#160;:</stage>
+          <stage>(sich die Thränen auswischend) :</stage>
           <p>Er het m'r all min Geld genumme, wo ich noch hab ghet, un drno isch 'r los. — 's nemmt mich Wunder,
           daß d'ne nit getroffe hesch.</p>
         </sp>
@@ -575,10 +580,11 @@
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Bim Herr Harter. Gescht sin m'r im Cirque gsin, drno hammer 's Souper im Restaurant genumme
-          <pb n="17" />- — un drno simmer heim gange. Was der Mann ingericht isch, großarti! Alles mit Debbi
+          <pb n="17"/>- — un drno simmer heim gange. Was der Mann ingericht isch, großarti! Alles mit Debbi
           belajt, Plüschmöwel, Doofle, elektrischs Licht — wenn m'r nur am e Knopf dreijht, isch alles hell wie
           am Daa — einfach großarti !
-          <stage>(Legt Mantille, Hut und Schleier ab.)</stage></p>
+          <stage>(Legt Mantille, Hut und Schleier ab.)</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
@@ -619,7 +625,7 @@
           Champagner üs em Keller gholt — — un no hammer noch e Gänslewwerpaschtet mit enand verwichst.</p>
         </sp>
         <stage>2</stage>
-        <pb n="18" />
+        <pb n="18"/>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Was dü nit saasch! — — Do fallt m'r grad in, 's het e Herr noch d'r gfröujt.</p>
@@ -666,7 +672,7 @@
         </sp>
         <sp who="#berthe">
           <speaker>Berthe</speaker>
-          <stage>(von rechts)&#160;:</stage>
+          <stage>(von rechts) :</stage>
           <p>Lucie, liebs Lucie!
           <stage>(Springt auf Lucie zu, welche sie herzhaft küßt.)</stage>Ich hab schun lang gewart uff dich.</p>
         </sp>
@@ -685,10 +691,11 @@
         <sp who="#berthe">
           <speaker>Berthe :</speaker>
           <p>Bring ebbs güets mit, Mamme, ich hab jo arig Hunger.
-          <stage>(Mutter rechts ab.)</stage></p>
+          <stage>(Mutter rechts ab.)</stage>
+          </p>
         </sp>
       </div>
-      <pb n="19" />
+      <pb n="19"/>
       <div type="scene">
         <head>4. Scene.</head>
         <stage>Lucie, Berthe.</stage>
@@ -748,7 +755,7 @@
           <speaker>Lucie :</speaker>
           <p>"Welche Religion hat Christus eingesetzt?"</p>
         </sp>
-        <pb n="20" />
+        <pb n="20"/>
         <sp who="#berthe">
           <speaker>Berthe :</speaker>
           <p>"Christus hat die christkatholische Religion eingesetzt".</p>
@@ -811,7 +818,7 @@
           <speaker>Lucie :</speaker>
           <p>Ich hab e Visit gemacht bim Josephine, un hab de Hüsschlissel vergesse ghet.</p>
         </sp>
-        <pb n="21" />
+        <pb n="21"/>
         <sp who="#berthe">
           <speaker>Berthe :</speaker>
           <p>Awer nein, Lucie, dü liejsch. Un m'r derf nit lieje, het d'Schweschter gsaat. Ja, m'r derf nit!</p>
@@ -844,7 +851,8 @@
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Jetz blie emol stille, liebs Bibbele.
-          <stage>(Gibt ihr einen Kuß)</stage></p>
+          <stage>(Gibt ihr einen Kuß)</stage>
+          </p>
         </sp>
         <sp who="#berthe">
           <speaker>Berthe :</speaker>
@@ -899,7 +907,7 @@
           <speaker>Berthe :</speaker>
           <p>Jetz sieh ich widder ebbs Neijs an d'r.</p>
         </sp>
-        <pb n="22" />
+        <pb n="22"/>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Was denn?</p>
@@ -975,13 +983,14 @@
           <speaker>Berthe :</speaker>
           <p>Nein. — — Ja doch. Het d'r d'Mamme schun verzählt vun bem Herr . . .
           <stage>(Lucie winkt bejahend.)</stage>
-          <pb n="23" />Un noch ebbs. Denk, gescht isch e Gardeboliß do gsin und het e paar mol noch d'r
+            <pb n="23"/>Un noch ebbs. Denk, gescht isch e Gardeboliß do gsin und het e paar mol noch d'r
           gfröujt.</p>
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>E Gardeboliß?
-          <stage>(Erschrickt; läßt Berthe vom Schoße gleiten und steht schnell auf.)</stage></p>
+          <stage>(Erschrickt; läßt Berthe vom Schoße gleiten und steht schnell auf.)</stage>
+          </p>
         </sp>
         <sp who="#berthe">
           <speaker>Berthe</speaker>
@@ -1028,7 +1037,8 @@
         <sp who="#berthe">
           <speaker>Berthe :</speaker>
           <p>Ja, 's isch güet, ich blie do.
-          <stage>(Lucie nach hinten ab.)</stage></p>
+          <stage>(Lucie nach hinten ab.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1043,7 +1053,7 @@
           <speaker>Bajolewski</speaker>
           <stage>(feine Reisekleidung, grauer Hut. Schwarzer Schnurrbart, goldener Zwicker. Tritt sehr gewandt
           auf, har feine Manieren und spricht
-          <pb n="24" />zuweilen mit etwas ausländischem Accent):</stage>
+          <pb n="24"/>zuweilen mit etwas ausländischem Accent):</stage>
           <p>Sieh da! Da ist ja wieder die Kleine. Guten Tag. Gieb mir mal 'ne Patschhand! So ist's recht. Ist
           deine Schwester jetzt zu Hause?</p>
         </sp>
@@ -1088,7 +1098,7 @@
           <stage>(für sie)</stage>Das nennt man Vorsicht.</p>
         </sp>
       </div>
-      <pb n="25" />
+      <pb n="25"/>
       <div type="scene">
         <head>6. Scene.</head>
         <stage>Die Vorigen, Lucie.</stage>
@@ -1104,7 +1114,7 @@
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
-          <p>Oh — —&#160;! wurum denn?</p>
+          <p>Oh — — ! wurum denn?</p>
         </sp>
         <sp who="#leon_bajolewski">
           <speaker>Bajolewski :</speaker>
@@ -1145,7 +1155,7 @@
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
-          <p>So — —&#160;! No müen Sie au mit 'm Schiff fahre — —&#160;?</p>
+          <p>So — — ! No müen Sie au mit 'm Schiff fahre — — ?</p>
         </sp>
         <sp who="#leon_bajolewski">
           <speaker>Bajolewski :</speaker>
@@ -1155,7 +1165,7 @@
           <speaker>Lucie :</speaker>
           <p>Huija!</p>
         </sp>
-        <pb n="26" />
+        <pb n="26"/>
         <sp who="#leon_bajolewski">
           <speaker>Bajolewski :</speaker>
           <p>Ist nicht so schlimm, Frl. Lucie. Das ist eine hochinteressante Reise, da sieht man was von der
@@ -1169,7 +1179,8 @@
         <sp who="#leon_bajolewski">
           <speaker>Bajolewski :</speaker>
           <p>Scherz bei Seite! Warum soll das nicht möglich — — —
-          <stage>(er bemerkt Berthe und hält inne).</stage></p>
+          <stage>(er bemerkt Berthe und hält inne).</stage>
+          </p>
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
@@ -1208,7 +1219,7 @@
           den Cafetier gut kenne — ein charmanter Mann, ich sehe ihn fast täglich, wenn ich drüben bin — — so hat
           mich derselbe gebeten, ihm, wenn möglich und wenn sich die Gelegenheit bietet, ein paar ordentliche
           Kräfte
-          <pb n="27" />aus Deutschland herüberzubringen. — — Die Reisekosten trägt natürlich das Geschäft.</p>
+          <pb n="27"/>aus Deutschland herüberzubringen. — — Die Reisekosten trägt natürlich das Geschäft.</p>
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
@@ -1248,7 +1259,8 @@
           <p>Können Sie reinen Mund behalten, Frl. Lucie?
           <stage>(sie nickt).</stage>Ich habe schon vier Mädchen aus Straßburg engagiert, die heute mit mir
           fortreisen. Aber — — — !
-          <stage>(er legt den Finger auf den Mund).</stage></p>
+          <stage>(er legt den Finger auf den Mund).</stage>
+          </p>
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
@@ -1259,7 +1271,7 @@
           <p>'s ist wegen der Eltern. — — Die würden die Mädchen nicht fortlassen. Die haben ja kein Verständnis
           dafür, wo das Glück zu finden ist.</p>
         </sp>
-        <pb n="28" />
+        <pb n="28"/>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>No dürft m'r's also nit emol saaue, wo anne daß m'r geht?</p>
@@ -1270,7 +1282,7 @@
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
-          <p>Ah so — —&#160;! 's isch jo wohr — —&#160;! Wer geht denn alles mit?</p>
+          <p>Ah so — — ! 's isch jo wohr — — ! Wer geht denn alles mit?</p>
         </sp>
         <sp who="#leon_bajolewski">
           <speaker>Bajolewski :</speaker>
@@ -1292,13 +1304,15 @@
         <sp who="#leon_bajolewski">
           <speaker>Bajolewski :</speaker>
           <p>Auf mein Wort. Hier habe ich den Kontrakt.
-          <stage>(Er zieht ein Papier heraus.)</stage></p>
+          <stage>(Er zieht ein Papier heraus.)</stage>
+          </p>
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Wahrhaftig! — — Halte Sie — — ich glaub, mini Mamme kummt — — dis isch ihri Stimm — — kumme Sie
           gschwind in mini Stubb! Do könne m'r wittersch babble.
-          <stage>(Beide nach hinten ab.)</stage></p>
+          <stage>(Beide nach hinten ab.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1312,13 +1326,14 @@
           <speaker>Stelzer :</speaker>
           <p>Merci, dank d'r Noochfröuj, Frau Engel, awer 's geht arig schlecht. 's wurd nimmi lang düüre no .. .
           .
-          <stage>(sie wischt sich die Augen).</stage></p>
+          <stage>(sie wischt sich die Augen).</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Isch 'r noch nit züe sich kumme?</p>
         </sp>
-        <pb n="29" />
+        <pb n="29"/>
         <sp who="#frau_stelzer">
           <speaker>Stelzer :</speaker>
           <p>Bis jetz noch nit.</p>
@@ -1353,7 +1368,8 @@
           <p>Ja, so e güeter, solider Mann, wo nie krank isch gsin. Un müeß jetz so elend ums Lewe kumme! Ich
           glaub, ich verwinds nit, for ne ze verliere. Un m'r sin so arig güet gsin mit enander! O Gott, ich
           könnt grad sterwe vor Kriz un Elend!
-          <stage>(sie weint).</stage></p>
+          <stage>(sie weint).</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
@@ -1364,9 +1380,10 @@
           <speaker>Stelzer :</speaker>
           <p>Der solid Mann! Un het niemols getrunke! D'r brävscht Mann vun d'r Welt! Wenn ich nurre schun uff'm
           Göttsacker leije dhädd!
-          <stage>(Weint weiter.)</stage></p>
+          <stage>(Weint weiter.)</stage>
+          </p>
         </sp>
-        <pb n="30" />
+        <pb n="30"/>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Was kann jetz dis Gejomers un Gelametiers groß helfe! Sie wurd sich schun drin finde.</p>
@@ -1413,7 +1430,7 @@
           hab sie vun aller Schlechtigkeit eweck ghalte. Awer Sie! Sie sott sich schämme! Sie wurd schun sehn,
           wie wit daß Sie dodrmit kummt.</p>
         </sp>
-        <pb n="31" />
+        <pb n="31"/>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Ich kann mini Doochter nit hüete wie e kleins Kind. Wenn eins so alt isch, wurd's vun selbscht am
@@ -1447,7 +1464,8 @@
         <sp who="#frau_stelzer">
           <speaker>Stelzer :</speaker>
           <p>D'r Herr l'abbé!
-          <stage>(Das Gespräch bricht plötzlich ab, die Frauen bleiben wie versteinert stehen.)</stage></p>
+          <stage>(Das Gespräch bricht plötzlich ab, die Frauen bleiben wie versteinert stehen.)</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter</speaker>
@@ -1468,16 +1486,18 @@
           <stage>(Er blickt auf und nickt langsam Frau Engel zu, die er erkennt ; zu Frau Stelzer)</stage>Sie
           haben mich rufen lassen.</p>
         </sp>
-        <pb n="32" />
+        <pb n="32"/>
         <sp who="#frau_stelzer">
           <speaker>Stelzer :</speaker>
           <p>Ja denke Sie, Herr l'abbé, min Mann leijt im Sterwe!
-          <stage>(Sie fängt wieder an zu weinen.)</stage></p>
+          <stage>(Sie fängt wieder an zu weinen.)</stage>
+          </p>
         </sp>
         <sp who="#abbe_mulberg">
           <speaker>Mülberg :</speaker>
           <p>Dann wollen wir eilen, damit wir nicht zu spät kommen.
-          <stage>(Beide rechts ab.)</stage></p>
+          <stage>(Beide rechts ab.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1524,7 +1544,7 @@
           <p>Also Schatz, gelt ja! Stehn Sie ihrem Glücke nicht im Wege! Und wenn Sie irgend etwas haben, dann
           wenden Sie sich ruhig an mich. — — —
           <stage>(Schäkernd.)</stage>Bin ich Ihnen nicht auch etwas wert ?
-          <pb n="33" />- — Es wäre ja nicht ausgeschlossen, daß wir beide drüben . . . Wir würden wohl gar nicht
+          <pb n="33"/>- — Es wäre ja nicht ausgeschlossen, daß wir beide drüben . . . Wir würden wohl gar nicht
           so übel zu einander passen . . .</p>
         </sp>
         <sp who="#lucie">
@@ -1571,7 +1591,7 @@
           <p>Lucie, was, du witt furtreise von uns! Gell dü gehsch nit vun uns furt! Du müesch bi uns bliewe,
           sunsch bin i d'r ganz bös. — — Un lüej, ich
           <stage>3</stage>
-          <pb n="34" />hab dich so ari gern!
+            <pb n="34"/>hab dich so ari gern!
           <stage>(Sie macht, wie wenn sie Lucie zurückhalten wollte zur Thür hinauszugehn. Lucie küßt sie
           mehrmals ; Berthe weinerlich)</stage>Nit furt gehn, Lucie, nit furt gehn, Lucie!</p>
         </sp>
@@ -1584,7 +1604,8 @@
           alles arriwiere kann — — nein! ich kanns nit üwwer mich bringe, ich kanns nit, Herr Dokt'r !!
           <stage>(zu Berthe)</stage>Brüchsch ken Angscht ze hann, liewer Herzkäfer, 's Lucie geht nit furt vun
           d'r, 's bliet by d'r.
-          <stage>(Sie herzt das Kind mit größter Leidenschaft.)</stage></p>
+          <stage>(Sie herzt das Kind mit größter Leidenschaft.)</stage>
+          </p>
         </sp>
         <sp who="#leon_bajolewski">
           <speaker>Bajolewski</speaker>
@@ -1595,7 +1616,8 @@
           <speaker>Mutter</speaker>
           <stage>(eilt von links auf Berthe zu):</stage>
           <p>Berthe, do hesch dü nix ze schaffe! Mach daß de nüs kummsch!
-          <stage>(Mit Berthe rechts ab.)</stage></p>
+          <stage>(Mit Berthe rechts ab.)</stage>
+          </p>
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
@@ -1609,7 +1631,7 @@
           noch anders überlegen. Sie waren ja so gut wie einverstanden — — das sind doch keine Gründe, die
           einleuchten können — — Ich will Ihnen was sagen: in einer halben Stunde werde ich eine Frau mit einer
           Droschke hierher schicken. Beharren Sie auf
-          <pb n="35" />ihrer ablehnenden Antwort, dann . . . können Sie der Frau die hundert Mark zurückgeben.
+          <pb n="35"/>ihrer ablehnenden Antwort, dann . . . können Sie der Frau die hundert Mark zurückgeben.
           Sagen Sie aber — wie ich bestimmt hoffe — zu, dann vertrauen Sie sich einfach dieser Person an, sie
           weiß über alles Bescheid. — Und nun adieu, Frl. Lucie. Ich muß fort; es ist die höchste Zeit. Ich sage
           es Ihnen zum letzten Mal: stehen Sie ihrem Glük nicht im Wege! Adieu, Frl. Lucie!</p>
@@ -1655,7 +1677,7 @@
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Güete-n-Owe, Herr l'abbé. Sie derangiere uns ganz un gar nit. Im Gejedheil, m'r sin
-          <pb n="36" />enchantirt vun Ihrer Visit. 's isch e großi Ehr for uns, Herr l'abbe, daß Sie au emol . .
+          <pb n="36"/>enchantirt vun Ihrer Visit. 's isch e großi Ehr for uns, Herr l'abbe, daß Sie au emol . .
           . .</p>
         </sp>
         <sp who="#abbe_mulberg">
@@ -1690,10 +1712,11 @@
           <speaker>Mutter :</speaker>
           <p>'s isch schad, daß es Berthel noch nit do isch, es dhädd sich freie for im Herr l'abbé bonjour ze
           saaue. 's isch drüsse uff der Gaß bi de Kamerädle. — — 's wurd awer glich kumme. Ich geh, Herr l'abbé.
-          <stage>(Links ab.)</stage></p>
+          <stage>(Links ab.)</stage>
+          </p>
         </sp>
       </div>
-      <pb n="37" />
+      <pb n="37"/>
       <div type="scene">
         <head>11. Scene.</head>
         <stage>Lucie, Mülberg.</stage>
@@ -1713,7 +1736,8 @@
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Nein, Herr l'abbé, ganz un gar nit. — —
-          <stage>(Pause.)</stage></p>
+          <stage>(Pause.)</stage>
+          </p>
         </sp>
         <sp who="#abbe_mulberg">
           <speaker>Mülberg :</speaker>
@@ -1741,7 +1765,7 @@
           Tisch des Herrn geführt und Sie seiner Zeit unter die Marienkinder aufgenommen. Ich frage Sie: sind Sie
           ein Marienkind geblieben?</p>
         </sp>
-        <pb n="38" />
+        <pb n="38"/>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Ich weiß nit, wie Sie mich dis fröuje könne. Wenn ich mich nit trumpier, bin ich doch bis
@@ -1780,7 +1804,7 @@
           welle — — es wurd viel gebabbelt , wenn d'r Daa lang isch. Un ich weiß au, wer Ine dis gsaat het. Dis
           isch sicher 's Lüwis gsin
           <stage>(Mülberg macht eine abwehrende Bewegung).</stage>Mit dem bin i schun lang bös. Es
-          <pb n="39" />soll sich an sinere Nas hewe. — Awer nein! Isch dis nit awer! — Vum Lüwis könnt ich ne
+          <pb n="39"/>soll sich an sinere Nas hewe. — Awer nein! Isch dis nit awer! — Vum Lüwis könnt ich ne
           Saches verzähle, Herr l'abbé — — awer ich dhüe's nit, lüeje Sie, ich dhüe's nit, 's isch m'r ze dumm un
           ze — — gemein. Isch's nit 's Lüwis gsin?</p>
         </sp>
@@ -1827,7 +1851,7 @@
           <p>Nichts. — — Gar nichts. —
           <stage>(Pause.)</stage>Kamen Sie nicht in letzter Zeit öfters zur Frühmesse?</p>
         </sp>
-        <pb n="40" />
+        <pb n="40"/>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Doch, Herr l'abbé.</p>
@@ -1868,7 +1892,7 @@
           Gatte ist — -, ist sündhaft, wäre aber schließlich nicht so schlimm . . . . . Wenn Sie aber nicht einem
           allein angehören, wenn Sie sogar Ihre sündigen Dienste . . . . .</p>
         </sp>
-        <pb n="41" />
+        <pb n="41"/>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Güet also, Herr l'abbé, wo Sie's doch wisse — — was soll ich's laigle? Ja, — — 's isch wohr — — ich
@@ -1886,7 +1910,7 @@
           m'r nit im Hunger un Elend umkumme — -, un Geld, Herr l'abbé, kann m'r nit üs em Elleböuje schüttle,
           dis wisse Sie so güet wie ich. Wo soll ichs also hereschaffe ?</p>
         </sp>
-        <pb n="42" />
+        <pb n="42"/>
         <sp who="#abbe_mulberg">
           <speaker>Mülberg :</speaker>
           <p>. . . Sie hätten wohl auch mildthätige Hände genug gefunden — — es giebt Vereine — —</p>
@@ -1931,7 +1955,7 @@
           ihre Entschuldigung. Oder empfanden Sie irgendwelche Reue, wenn Sie morgens aus dem Arm Ihres Buhlen
           zur Kirche eilten? War das ein wirkliches Gebet? Oder war es nicht vielmehr Selbstbetrug, indem Sie
           sich
-          <pb n="43" />einbildeten, mit einem Kniefall sei das Geschehene wieder gut gemacht, mit einem Kniefall,
+          <pb n="43"/>einbildeten, mit einem Kniefall sei das Geschehene wieder gut gemacht, mit einem Kniefall,
           bei welchem Sie an die Fortsetzung Ihrer Sünde dachten? Das ist nicht Frömmigkeit, das ist
           Gewissensbetäubung. Wer nicht die Lust zu solcher Unlauterkeit in sich fühlt, den wird keine Macht der
           Erde dazu bringen können. Jeder Muskel, jeder Nerv und jeder Blutstropfen wird sich dagegen empören.
@@ -1956,7 +1980,7 @@
           sollten
           <stage>(Lucie schauderts),</stage>dann wären Sie für die Menschheit und für diese Welt verloren.</p>
         </sp>
-        <pb n="44" />
+        <pb n="44"/>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>O Gott! O Gott! Die Schand dädd ich nit üewwerlewe!</p>
@@ -1989,7 +2013,7 @@
           <stage>(wirft sich mit einem lauten Aufschrei auf die Kniee und will ihren Kopf im Schoße Mülbergs
           verbergen).</stage>
         </sp>
-        <pb n="45" />
+        <pb n="45"/>
         <sp who="#abbe_mulberg">
           <speaker>Mülberg</speaker>
           <stage>(sie sanft abwehrend):</stage>
@@ -2017,7 +2041,7 @@
           Zechgelagen — an Schmarotzern fehlte es nicht — und er warf sich dem Laster in die Arme. So trieb er es
           zwei Jahre lang: da ward' es aber plötzlich anders.
           <stage>(Lucie blickt jetzt auf und folgt mit größter Spannung.)</stage>
-          <pb n="46" />Eines Morgens — es war der erste Osterfeiertag — kehrte er in der Frühe nach einer wüst
+            <pb n="46"/>Eines Morgens — es war der erste Osterfeiertag — kehrte er in der Frühe nach einer wüst
           verlebten Nacht nach Hause; er sah die Gläubigen zur Kirche eilen und hörte allenthalben die Glocken
           läuten. Kaum hatte er seine Zimmerthür hinter sich zugemacht, als er, wie vom Schlage getroffen,
           bewußtlos zu Boden fiel. Bald darauf stellte sich ein hitziges Fieber bei ihm ein und er mußte
@@ -2047,7 +2071,7 @@
           <speaker>Mülberg :</speaker>
           <p>Was du thun sollst? dich losreißen von deiner Vergangenheit und ein neues Leben beginnen.</p>
         </sp>
-        <pb n="47" />
+        <pb n="47"/>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Ja un wie — —</p>
@@ -2097,7 +2121,7 @@
           Heimat, zu ordentlichen Leuten; dort wirst du gut aufgehoben sein. Niemand soll etwas über deine
           Vergangenheit erfahren.</p>
         </sp>
-        <pb n="48" />
+        <pb n="48"/>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>— — — un min Schweschterle un mini Mamme? — — —</p>
@@ -2141,9 +2165,9 @@
             <l>'s isch m'r alles eins — —</l>
           </lg>
           <p>
-          <stage>(Er sieht zunächst Niemanden. Dann stößt er auf Mülberg, bricht den Gesang ab und sieht den
+            <stage>(Er sieht zunächst Niemanden. Dann stößt er auf Mülberg, bricht den Gesang ab und sieht den
           Vikar mit verglasten Augen an: er lallt)</stage>: Sapristi !
-          <pb n="49" />- — — Ah — — ! vot' serviteur — m'sieur le curé — — — je vous salue bien — m'sieur le
+          <pb n="49"/>- — — Ah — — ! vot' serviteur — m'sieur le curé — — — je vous salue bien — m'sieur le
           curé. Do könne m'r awer — — stolz sin, daß d'Geischtlichkeit au emol züe ess kummt. — — — Jetz möcht
           ich — — halt nur — — au gern wisse, was Sie do süeche — Herr Pfarrer.</p>
         </sp>
@@ -2180,7 +2204,7 @@
           <speaker>Vater :</speaker>
           <p>Ja, — — do bin ich — — du hesch doch nix d'rwidder — — hesch dü denne Pfaff ins Hüs gebroocht ?</p>
         </sp>
-        <pb n="50" />
+        <pb n="50"/>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Schäm dich do e bissel, so wüscht ze redde. Nemm dich doch zsamme! — — — Lieje Sie, Herr l'abbé, so
@@ -2213,14 +2237,16 @@
           <speaker>Vater :</speaker>
           <p>Oho — — — ! so kumme Sie mir dohere? — — — Herrgottsakrement noch emol, jetz verzürn ich mich — —
           Wenn Sie nit welle, daß ich mich an Ine vergriffe soll . . . .
-          <stage>(geht drohend auf den Vikar zu).</stage></p>
+          <stage>(geht drohend auf den Vikar zu).</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Mann, du machsch dich unglücklich!
-          <stage>(Lucie und Mutter halten ihn zurück.)</stage></p>
+          <stage>(Lucie und Mutter halten ihn zurück.)</stage>
+          </p>
         </sp>
-        <pb n="51" />
+        <pb n="51"/>
         <sp who="#abbe_mulberg">
           <speaker>Mülberg :</speaker>
           <p>Ich gehe schon, Herr Engel, ich gehe schon. Das aber sage ich Ihnen, in Ihrer Todesstunde werden Sie
@@ -2244,7 +2270,8 @@
           Ihr mich verstande? — — Was brüch ich e Pfarrer? — — Ich bin min Pfarrer selbscht — — ich brüch ken
           Pfarrer!
           <stage>(Ein Briefträger von rechts. Mit den Worten "Brief for's Mamsell Lucie Engel" wirft er einen
-          Brief auf den Tisch und geht wieder ab.)</stage></p>
+          Brief auf den Tisch und geht wieder ab.)</stage>
+          </p>
         </sp>
         <sp who="#lucie">
           <speaker>Lucie</speaker>
@@ -2269,7 +2296,7 @@
           <speaker>Lucie :</speaker>
           <p>Was ischs? Was ischs ?</p>
         </sp>
-        <pb n="52" />
+        <pb n="52"/>
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
           <p>Genn emol de Wisch here, dis versteh ich besser.
@@ -2279,17 +2306,20 @@
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Vor's Gericht !!
-          <stage>(Lauter Aufschrei.)</stage></p>
+          <stage>(Lauter Aufschrei.)</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Allmächtiger Himmel, dis Kind wurd ohnmächtig !
-          <stage>(Hält Lucie.)</stage></p>
+          <stage>(Hält Lucie.)</stage>
+          </p>
         </sp>
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
           <p>'s wurd nit so arri sin. — — 's isch halt 's erscht Mol. — M'r gwöhnt sich awer gschwind dran.
-          <stage>(Er setzt sich aufs Sopha.)</stage></p>
+          <stage>(Er setzt sich aufs Sopha.)</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
@@ -2302,7 +2332,8 @@
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Min arms Kind!
-          <stage>(Hält sie)</stage></p>
+          <stage>(Hält sie)</stage>
+          </p>
         </sp>
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
@@ -2311,7 +2342,8 @@
           Sach — — de gehsch halt anne — machsch e kleini Strof — sie wäre d'r de Kopf nit abschlaaue — —
           siehsch, un d'rno hesch's gfitzt — — d'rno kannsch mache, was de witt — — 's het d'r ken Mensch meh
           ebbs ze saaue — — ken Mensch — —
-          <stage>(Er schläft ein.)</stage></p>
+          <stage>(Er schläft ein.)</stage>
+          </p>
         </sp>
         <sp who="#eine_frau">
           <speaker>Eine Frau</speaker>
@@ -2320,7 +2352,7 @@
           <p>Bonsoir bisamme. Wohnt do verlycht d'Mamsell Lucie Engel?</p>
         </sp>
         <stage>(Große Pause.)</stage>
-        <pb n="53" />
+        <pb n="53"/>
         <sp who="#lucie">
           <speaker>Lucie</speaker>
           <stage>(blickt zuerst, wie aus einem Traume erwacht auf, und scheint einen Augenblick nachzusinnen. Man
@@ -2339,7 +2371,8 @@
           <stage>(überlegt noch einen kurzen Augenblick, dann plötzlich und entschieden, wieder im
           Flüsterton):</stage>
           <p>'s isch güet! ich kumm!
-          <stage>(Nimmt ihren Hut, der noch auf dem Tische liegt und eilt in ihr Zimmer.)</stage></p>
+          <stage>(Nimmt ihren Hut, der noch auf dem Tische liegt und eilt in ihr Zimmer.)</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
@@ -2348,7 +2381,8 @@
         <sp who="#frau_stelzer">
           <speaker>Frau :</speaker>
           <p>Merçi.
-          <stage>(Setzt sich.)</stage></p>
+          <stage>(Setzt sich.)</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
@@ -2407,17 +2441,19 @@
         <sp who="#frau_stelzer">
           <speaker>Frau :</speaker>
           <p>Es weiß es schun.
-          <stage>(Lucie tritt wieder ein; hat den Hut; auf und einen Regenmantel an.)</stage></p>
+          <stage>(Lucie tritt wieder ein; hat den Hut; auf und einen Regenmantel an.)</stage>
+          </p>
         </sp>
         <sp who="#lucie">
           <speaker>Lucie :</speaker>
           <p>Do bin ich.
           <stage>(Sie geht auf ihre Mutter zu, umarmt sie, giebt ihr einen Kuß.)</stage>Bonsoir, Mamme, ich müeß
           gschwind
-          <pb n="54" />furt. Ich derf ken Zitt verliere.
+          <pb n="54"/>furt. Ich derf ken Zitt verliere.
           <stage>(Auf dem Wege kehrt sie noch- mals um, umarmt ihre Mutter und küßt sie nochmals.)</stage>Adieu,
           Mamme! Loß d'rs güet gehn. Kumme Sie!
-          <stage>(Mit der Frau schnell ab.)</stage></p>
+          <stage>(Mit der Frau schnell ab.)</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter</speaker>
@@ -2489,9 +2525,10 @@
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
           <p>Zaij emol
-          <stage>(reißt ihr den Schein aus der Hand).</stage></p>
+          <stage>(reißt ihr den Schein aus der Hand).</stage>
+          </p>
         </sp>
-        <pb n="55" />
+        <pb n="55"/>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
           <p>Gibsch du denne Schin here!</p>
@@ -2499,7 +2536,8 @@
         <sp who="#joseph_engel">
           <speaker>Vater :</speaker>
           <p>Ich hebb ne-n-uff
-          <stage>(steckt ihn ein).</stage></p>
+          <stage>(steckt ihn ein).</stage>
+          </p>
         </sp>
         <sp who="#berthe">
           <speaker>Berthe :</speaker>
@@ -2514,7 +2552,8 @@
         <sp who="#berthe">
           <speaker>Berthe :</speaker>
           <p>'s Lucie isch furt!
-          <stage>(Weint auch.)</stage></p>
+          <stage>(Weint auch.)</stage>
+          </p>
         </sp>
         <sp who="#marie_engel">
           <speaker>Mutter :</speaker>
@@ -2538,7 +2577,8 @@
           <speaker>Vater :</speaker>
           <p>Dummheit! — — Brüchsch nit ze verzwyfle-n-Alti. M'r han jo noch e Doochter.
           <stage>(Er will Berthe an sich ziehen; diese macht sich aber los und läuft weinend zur
-          Mutter.)</stage></p>
+          Mutter.)</stage>
+          </p>
         </sp>
         <stage>Ende.</stage>
       </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -52,7 +52,7 @@
             <title type="sub">Elsässisch Luschtspiel in 1 Akt vun Paul Clemens</title>
             <publisher>Société d'édition Alsatia S.A.</publisher>
             <date when="1920" type="print">1920</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -76,9 +76,9 @@
             <persName>Otto Mobil</persName>
           </person>
           <listRelation type="personal">
-            <relation name="friends" mutual="#jean #victor" />
-            <relation name="friends" mutual="#jean #schakob" />
-            <relation name="associated_with" active="#jean" passive="#j_meyer" />
+            <relation name="friends" mutual="#jean #victor"/>
+            <relation name="friends" mutual="#jean #schakob"/>
+            <relation name="associated_with" active="#jean" passive="#j_meyer"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -92,7 +92,7 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="3" />
+      <pb n="3"/>
       <castList>
         <head>Persone:</head>
         <castItem corresp="#j_meyer">
@@ -131,7 +131,7 @@
         <p>Rechts un links vum Spieler.</p>
         <p>59 Minüte Spieldür.</p>
       </set>
-      <pb n="4" />
+      <pb n="4"/>
       <div type="front">
         <head>Persone-B'schriewung :</head>
         <p corresp="#j_meyer">Meyer: 30 Johr. Nätter grosser Mann, Schnüzer, englisch, goldicher Zwicker. — Füer
@@ -147,7 +147,7 @@
         Dialekt).</p>
       </div>
       <div type="front">
-        <head>Abküerzunge&#160;:</head>
+        <head>Abküerzunge :</head>
         <p>d. d. M.: durich d' Mitte.</p>
         <p>a. l.: ab links.</p>
         <p>a. r.: ab rechts.</p>
@@ -157,7 +157,7 @@
       </div>
     </front>
     <body>
-      <pb n="5" />
+      <pb n="5"/>
       <div type="scene">
         <head>1. Uftritt.</head>
         <stage>Jean, ellein.</stage>
@@ -205,7 +205,7 @@
           <speaker>Meyer :</speaker>
           <p>Was haw-i denn alles angschtellt in minere Kischt — hä?</p>
         </sp>
-        <pb n="6" />
+        <pb n="6"/>
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Ich muess jetz noch lache, wenn i dran dänk, wie se uf Händ un Fües d'Stäj eruf gegrobelt sinn — un
@@ -251,7 +251,8 @@
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>D'Zittunge — ah, un e Brief. Der isch schun gescht Owe kumme. 
-          <stage>(gibt-ne im Meyer.)</stage></p>
+          <stage>(gibt-ne im Meyer.)</stage>
+          </p>
         </sp>
         <sp who="#j_meyer">
           <speaker>Meyer:</speaker>
@@ -260,13 +261,14 @@
           Besprechunge — wohrschin's isch's wäje dere Stell als Generalagent in Strosburri. Ei, ei un noch emol e
           Ei — mit dem Kopf soll ich uf Nanci — mit dem Katzejammer Isebahn fahre?! Lang mer emol schnell dr
           Fahrplan 
-          <pb n="7" />in minere Mapp. Wenn mejli grej ich dene Schnellzug, wo geje de zehne abfahrt, no wär ich
+          <pb n="7"/>in minere Mapp. Wenn mejli grej ich dene Schnellzug, wo geje de zehne abfahrt, no wär ich
           geje de zweje in Nanci.</p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Voila, Patron, dr Fahrplan. 
-          <stage>(gibt ne).</stage></p>
+          <stage>(gibt ne).</stage>
+          </p>
         </sp>
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
@@ -305,7 +307,8 @@
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>No isch guet. 
-          <stage>(a. d. M.)</stage></p>
+          <stage>(a. d. M.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -319,11 +322,12 @@
           <stage>(luejt zuem Fänschter nüss)</stage>Dort vorne rädelt dr Patron. Dem isch's nitt um 's Velo fahre
           — hahaha — e Gsicht hett-r</p>
         </sp>
-        <pb n="9" />
+        <pb n="9"/>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
           <p>Aah, do bin i drbie, denn ich hab e Hunger, ass mr 's Wisse in de Aue gixt. 
-          <stage>(Gelächter).</stage></p>
+          <stage>(Gelächter).</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
@@ -347,7 +351,8 @@
           <speaker>Jean :</speaker>
           <p>Do ess emol dene Servilasalad, dü Frässbüch ! 
           <stage>(schenkt Win in)</stage>Un jetz welle mr emol Gsundheit drinke. Gsundheit! 
-          <stage>(stosse an un trinke. Schakob duet g'höerich inschiewe)</stage></p>
+          <stage>(stosse an un trinke. Schakob duet g'höerich inschiewe)</stage>
+          </p>
         </sp>
         <sp who="#victor">
           <speaker>Victor:</speaker>
@@ -369,7 +374,8 @@
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Do ess denne Käs, vun uns zwei will ne doch kenner. 
-          <stage>(Alli drej esse — Paus.)</stage></p>
+          <stage>(Alli drej esse — Paus.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
@@ -383,7 +389,7 @@
           <speaker>Victor :</speaker>
           <p>Warde, ich verzehl ebs — ich weis ebs gelunges. Im Isebahn isch e besserer Herr g'sässe un im sälwe
           Coupé e Madame mit-eme Hundel, e nätt's Bummerle, uf-em Geere. Der Herr züend't sich e Cygarr an un 
-          <pb n="10" />näwelt druff los wie e Düerik. Die Madame reclamiert und saat sie kann's Rauche nitt
+          <pb n="10"/>näwelt druff los wie e Düerik. Die Madame reclamiert und saat sie kann's Rauche nitt
           verdraue. Der Herr saat, er verdraat's un raucht härzhaft widdersch. Do risst die Madame dem Herr d'
           Cygarr üs-em Müll un schmisst se racta zuem Coupéfänschter nüss, der Herr awer au nitt füll un schmisst
           dere Madame ihr Hündel au nüss. Die Madame isch schier in Ohnmacht kejt un an der Station geht se rüss
@@ -398,12 +404,14 @@
         <sp who="#victor">
           <speaker>Victor :</speaker>
           <p>Aba — — — d' Zung hett's im Müll g'hett. 
-          <stage>(lache Schakob üss.)</stage></p>
+          <stage>(lache Schakob üss.)</stage>
+          </p>
         </sp>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
           <p>Pah, diss sinn widder so Plän vun dir — so isch eine guet ze verwiische, wenn mer am Esse isch. 
-          <stage>(isch böes.)</stage></p>
+          <stage>(isch böes.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
@@ -432,7 +440,8 @@
           <speaker>Schakob :</speaker>
           <p>Mit-em nüechtere Maue — ich glaab dü bisch gebickt — so kann ich doch nix verzehle. Lang mr noch
           Brot un Wurscht ! 
-          <stage>(Jean gibt-em).</stage></p>
+          <stage>(Jean gibt-em).</stage>
+          </p>
         </sp>
         <sp who="#victor">
           <speaker>Victor :</speaker>
@@ -441,7 +450,7 @@
           de witt, dass dü nitt "Kaschper mit de Nas" kannsch saue. Awer drejmol hinter-e-nand mit züegebundene
           Aue.</p>
         </sp>
-        <pb n="11" />
+        <pb n="11"/>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
           <p>Ho zell! Do mach ich gröescht Wettung — so daub bin ich doch nitt -.</p>
@@ -502,7 +511,8 @@
           <speaker>Victor :</speaker>
           <p>So, jetz muehsch drejmol Kaschper mit dr Nas saue. 
           <stage>(stellt de Schakob in d' Mitte von d'r Scène, vorne an de Disch).</stage>So, jetz los !- 
-          <stage>(Die Zwei könne küm noch 's Lache verbisse.)</stage></p>
+          <stage>(Die Zwei könne küm noch 's Lache verbisse.)</stage>
+          </p>
         </sp>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
@@ -518,9 +528,10 @@
         <sp who="#victor">
           <speaker>Victor :</speaker>
           <p>Dü hesch — Kaschper nitt mit dr "Nas"gsaat, dü hesch's jo mit-em "Müll"gsaat. 
-          <stage>(lache-ne üss).</stage></p>
+          <stage>(lache-ne üss).</stage>
+          </p>
         </sp>
-        <pb n="12" />
+        <pb n="12"/>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
           <stage>(wüeti)</stage>
@@ -540,7 +551,8 @@
           <speaker>Schakob :</speaker>
           <p>Alle wäje mir — ze will ich widder guet sinn. Siehsch, wenn ich jetz e böeser Karakter hätt, ze dät
           ich dr Häri gar nitt esse. 
-          <stage>(sitzt ane un fangt an ze-n-esse.)</stage></p>
+          <stage>(sitzt ane un fangt an ze-n-esse.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
@@ -551,14 +563,15 @@
           <speaker>Victor :</speaker>
           <p>Angenumme. — Also ufgebaset — de Refrain singe-nr mit. 
           <lg>
-            <l>Das Rindfleisch ist teuer,</l>
-            <l>Das ist doch zu dumm,</l>
-            <l>Es laufen genug Rindviecher rum.</l>
-            <stage>(ditt uf Schakob)</stage>
-            <stage>Refr.:</stage>
-            <l>Drulala, drula, drulala usw. !</l>
-          </lg>
-          <stage>(Alli drej singe de Refr. un klopfe mit de Messer an Däller un Gläser.)</stage></p>
+              <l>Das Rindfleisch ist teuer,</l>
+              <l>Das ist doch zu dumm,</l>
+              <l>Es laufen genug Rindviecher rum.</l>
+              <stage>(ditt uf Schakob)</stage>
+              <stage>Refr.:</stage>
+              <l>Drulala, drula, drulala usw. !</l>
+            </lg>
+            <stage>(Alli drej singe de Refr. un klopfe mit de Messer an Däller un Gläser.)</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
@@ -588,7 +601,7 @@
           <stage>(es schellt)</stage>Am End dr Patron. — Der hett dr Zugg verfählt. — Was jetz? Wenn der ejch do
           finde duet — er hett schun e Wuet.</p>
         </sp>
-        <pb n="13" />
+        <pb n="13"/>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
           <p>Ich spring zuem Fänschter nüss.</p>
@@ -625,7 +638,8 @@
           <p>Ich loss Düer e bissel offe, hebbsch Düer am Schloss ass se nitt ufgeht — do ejeri Kappe. 
           <stage>(gibt ne d' Kappe).</stage>So, un jetz mache mr uf un lueje, wer's isch. 
           <stage>(schellt)</stage>Ich kumm, ich kumm ! 
-          <stage>(Geht a. d. M.)</stage></p>
+          <stage>(Geht a. d. M.)</stage>
+          </p>
         </sp>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
@@ -639,7 +653,8 @@
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
           <p>Ich hab jetz schun Kritzweh — wenn mr nurre schun drüsse wärde — Pscht — sie kumme — Salü ! 
-          <stage>(Beidi verschwinde).</stage></p>
+          <stage>(Beidi verschwinde).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -663,7 +678,7 @@
           <speaker>Mobil :</speaker>
           <p>So, so — also du bist der Johann ?</p>
         </sp>
-        <pb n="14" />
+        <pb n="14"/>
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <stage>(f. s.)</stage>
@@ -720,7 +735,8 @@
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Sitzen Sie jetzt da annen, wenn's beliebt. 
-          <stage>(setzt sich, ass er de Fauteuil im Au hett, Mobil sitzt geje 's Publikum).</stage></p>
+          <stage>(setzt sich, ass er de Fauteuil im Au hett, Mobil sitzt geje 's Publikum).</stage>
+          </p>
         </sp>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
@@ -731,7 +747,7 @@
           <speaker>Jean :</speaker>
           <p>Nein, dass hätte ich weiss Knöpfelchen nicht geträumt.</p>
         </sp>
-        <pb n="15" />
+        <pb n="15"/>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
           <p>Ja, ich hatte keine Ruhe nich und wollte dich un deine Eltern noch mal sehen. Als du auf die Welt
@@ -745,7 +761,8 @@
           <p>Bitte sehr, Herr Auto — ä Herr Otto Mobil, die Freude ist ganz auf meiner Seite. 
           <stage>(f. s.)</stage>Wenn-r nurre Furt wär. 
           <stage>(lütt)</stage>Und nun wollen wir eins miteinander pfätzen, eins dranschütten. 
-          <stage>(schänkt Win in, dr Schakob luejt in d' Höeh. Jean winkt-em mit dr Hand nabzegehn).</stage></p>
+          <stage>(schänkt Win in, dr Schakob luejt in d' Höeh. Jean winkt-em mit dr Hand nabzegehn).</stage>
+          </p>
         </sp>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
@@ -798,7 +815,7 @@
           <speaker>Jean :</speaker>
           <p>Wie er heisst? A, dass weiss ich wie der heisst, der heisst — — ä — Schakob heisst er.</p>
         </sp>
-        <pb n="16" />
+        <pb n="16"/>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
           <stage>(ruft geje Düer 1.)</stage>
@@ -856,7 +873,8 @@
           <speaker>Mobil :</speaker>
           <p>Auf dein ganz spezielles Wohl. mein lieber Johann. 
           <stage>(geje de Düer)</stage>Prosit Schakob ! 
-          <stage>(Sie drinke).</stage></p>
+          <stage>(Sie drinke).</stage>
+          </p>
         </sp>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
@@ -883,7 +901,7 @@
           <p>Da bin ich jetz aber wunderfitzich, da bin ich gespannt wie ein Wäschseil, was da drinnen tut
           sein.</p>
         </sp>
-        <pb n="17" />
+        <pb n="17"/>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
           <p>Lauter Wurscht, echte Pferdewurst aus meiner Fabrik mit Dampfbetrieb — Salami-, Zungen-, Schwarz-,
@@ -901,7 +919,8 @@
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Die schmeckt hirnwietich guet! 
-          <stage>(macht e Gsicht geje de Litt.)</stage></p>
+          <stage>(macht e Gsicht geje de Litt.)</stage>
+          </p>
         </sp>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
@@ -955,7 +974,7 @@
           wollte mich erst gar nicht fahren lassen, sie hatte solche Angst, es könnte mir was passieren — es
           passieren ja auch immer so viele Eisenbahnunglücker.</p>
         </sp>
-        <pb n="18" />
+        <pb n="18"/>
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Da muss ich Sie jetzt aber auch dabbicht fragen, sind Sie in keiner Lebensversicherung ?</p>
@@ -1009,12 +1028,14 @@
           <stage>(f. s.)</stage>
           <p>Do haw i im Patron e guet's Gschäft gemacht! 
           <stage>(lütt)</stage>Da wird sich Ihre Frau sicher eins grunzen, wenn sie soviel Mummes bekommt. 
-          <stage>(Geste vum Geld zehle.)</stage></p>
+          <stage>(Geste vum Geld zehle.)</stage>
+          </p>
         </sp>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
           <p>Mummes ? 
-          <stage>(es schellt).</stage></p>
+          <stage>(es schellt).</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
@@ -1028,7 +1049,7 @@
           <p>Wer klingelt denn? 
           <stage>(zuem Jean)</stage>Was hast du denn, du bist so blass ?</p>
         </sp>
-        <pb n="19" />
+        <pb n="19"/>
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Ich will gehen und will aufmachen.</p>
@@ -1036,7 +1057,8 @@
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
           <p>Nein, bleib nur sitzen, wenn dir unwohl ist, ich mache schon auf. 
-          <stage>(ab d. M.)</stage></p>
+          <stage>(ab d. M.)</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1095,16 +1117,18 @@
           <stage>(unterbricht ne)</stage>
           <p>Was soll der sinn — Inspektor? 
           <stage>(betracht Jean)</stage>Hesch widder e Lumpestreich geliefert? Witte dene Frack üsszeje — dü! 
-          <stage>(will uf Jean los).</stage></p>
+          <stage>(will uf Jean los).</stage>
+          </p>
         </sp>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
           <stage>(geht dezwische)</stage>
           <p>Mein Herr, wollen Sie ruhig sein. Was fällt denn Ihnen ein, so'n Krakeel zu machen in einer fremden
           Wohnung. 
-          <stage>(Jean zejt de Anglais üss).</stage></p>
+          <stage>(Jean zejt de Anglais üss).</stage>
+          </p>
         </sp>
-        <pb n="20" />
+        <pb n="20"/>
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>In-ere fremde Wohnung ? Ja, zuem Gücksel, bin ich denn als noch voll? — Ah, do geht mir a Licht uf —
@@ -1150,7 +1174,8 @@
           <p>Halt, ich hab's — jetzt wurd's hell! Herr Auto — äh — Herr Ottomopel — Sie sind alleweg lätz. Auf
           demselben Hausgang nach der anderen Seite zu, da wohnt auch ein Meyer, und der ist Inspektor im
           Schlaghaus 
-          <stage>(Schlachthaus).</stage></p>
+          <stage>(Schlachthaus).</stage>
+          </p>
         </sp>
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
@@ -1178,12 +1203,13 @@
           <speaker>Alli drej :</speaker>
           <p>1, 2, 3, 4, 5, 6, 7 — 8.</p>
         </sp>
-        <pb n="21" />
+        <pb n="21"/>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
           <p>Es stimmt ! Also nun Adjee — besten Dank für die gute Aufnahme und wenn se mal gute Pferdewurst
           wollen, meine Adresse ist: Otto Mobil, Pferdewurstfabrik mit Dampfbetrieb in Dräsden. 
-          <stage>(a. d. M).</stage></p>
+          <stage>(a. d. M).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1232,24 +1258,27 @@
           gare un wie ich anne kumm, fahrt mr dr Zugg vor dr Nas weg. Dr nägscht fahrt erscht noch de viere, no
           dät's doch ze spot wäre bis ich uf Nanci käm. Ich hab awer glich e Tepesch ufgänn, dass ich bestimmt
           als morje kumm. 
-          <stage>(zieht de Bardessü üss).</stage></p>
+          <stage>(zieht de Bardessü üss).</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Diss isch awer ambedant. 
           <stage>(f. s.)</stage>Wenn numme die Zwei schun drüsse wärde.</p>
         </sp>
-        <pb n="22" />
+        <pb n="22"/>
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>Do isch numme die Kischt vun nächt schuld dran. 
-          <stage>(will de Bardessü in de Kaschte hänke).</stage></p>
+          <stage>(will de Bardessü in de Kaschte hänke).</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <stage>(ängschtlich, nimmt Meyer de Bardessü ab)</stage>
           <p>Lonn se numme Patron — gänn se mir ne, ich hänk ne in de Kaschte. 
-          <stage>(hänkt ne nin, losst Dier e bissel offe).</stage></p>
+          <stage>(hänkt ne nin, losst Dier e bissel offe).</stage>
+          </p>
         </sp>
         <sp who="#victor">
           <speaker>Victor :</speaker>
@@ -1294,7 +1323,8 @@
           <speaker>Schakob :</speaker>
           <stage>(luejt in d' Höeh)</stage>
           <p>O jeh — der verstickt ! 
-          <stage>(schnell wieder nab.)</stage></p>
+          <stage>(schnell wieder nab.)</stage>
+          </p>
         </sp>
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
@@ -1309,7 +1339,8 @@
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>Ich dät mir's au schwär verbitte dies. 
-          <stage>(sitzt in de Fauteuil).</stage></p>
+          <stage>(sitzt in de Fauteuil).</stage>
+          </p>
         </sp>
         <sp who="#jean">
           <speaker>Jean :</speaker>
@@ -1322,7 +1353,7 @@
           
           <stage>(nimmt e Cygarette üss-em Etui).</stage>Jean — Fier !</p>
         </sp>
-        <pb n="23" />
+        <pb n="23"/>
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <stage>(züend't e Hölzel an un züend't im Meyer sin Cygarette an.)</stage>
@@ -1369,7 +1400,8 @@
           <speaker>Meyer :</speaker>
           <stage>(mit Zwiefel)</stage>
           <p>Na — na! 
-          <stage>(ruckt mit-m Fauteuil geje dr Wand).</stage></p>
+          <stage>(ruckt mit-m Fauteuil geje dr Wand).</stage>
+          </p>
         </sp>
         <sp who="#schakob">
           <speaker>Schakob :</speaker>
@@ -1392,13 +1424,14 @@
           <speaker>Schakob :</speaker>
           <p>Kalender !</p>
         </sp>
-        <pb n="24" />
+        <pb n="24"/>
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <stage>(zuem Jean)</stage>
           <p>Isch diss Dräckgsicht jetzt dinn rein Gewisse, dü Galeesome ! Ich hab dr's doch angsähne, dass ebs
           nitt stimmt — awer jetz raucht's in dr Fächtschuel. Ich schmiss Ejch nüss, dass-r Hals un Bein breche 
-          <stage>(will beidi anpacke).</stage></p>
+          <stage>(will beidi anpacke).</stage>
+          </p>
         </sp>
         <sp who="#victor">
           <speaker>Victor :</speaker>
@@ -1416,7 +1449,8 @@
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>Diss kummt jo üss-em Kaschte — do huckt allewäj noch so e Vöjel. 
-          <stage>(macht de Kaschte-n-uf).</stage></p>
+          <stage>(macht de Kaschte-n-uf).</stage>
+          </p>
         </sp>
         <sp who="#victor">
           <speaker>Victor :</speaker>
@@ -1427,9 +1461,10 @@
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>
-          <stage>(ganz baff, no wüeti zuem Victor)</stage>Witt dü die Schnapsboudell un die Cigarre häre gänn ? 
+            <stage>(ganz baff, no wüeti zuem Victor)</stage>Witt dü die Schnapsboudell un die Cigarre häre gänn ? 
           <stage>(nimmt-em beid's ab un gitt-em Tritt hinte nin, ass-r fliejt bis nüewer in de
-          Fauteuil).</stage></p>
+          Fauteuil).</stage>
+          </p>
         </sp>
         <sp who="#victor">
           <speaker>Victor :</speaker>
@@ -1467,7 +1502,7 @@
           <speaker>Schakob :</speaker>
           <p>Herr Meyer — ich hab de Jean numme welle fröje well Zitt dass isch — un no — —</p>
         </sp>
-        <pb n="25" />
+        <pb n="25"/>
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>So — so — do bisch dü jo ganz unschuldi ?</p>
@@ -1479,7 +1514,8 @@
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>Na, dü wursch jetz schun erfahre well Zitt ass isch — 
-          <stage>(es schellt).</stage></p>
+          <stage>(es schellt).</stage>
+          </p>
         </sp>
         <sp who="#jean #victor #schakob">
           <speaker>Alli drej :</speaker>
@@ -1489,7 +1525,8 @@
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
           <p>Zeruck, un do stehn gebliewe, ich mach sälwer uf 
-          <stage>(a. d. M).</stage></p>
+          <stage>(a. d. M).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1527,7 +1564,8 @@
         <sp who="#schakob #victor">
           <speaker>Schakob und Viktor :</speaker>
           <p>Was saasch dü uns?! 
-          <stage>(packe de Jean un welle-ne verhaue).</stage></p>
+          <stage>(packe de Jean un welle-ne verhaue).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1547,7 +1585,7 @@
           <speaker>Meyer :</speaker>
           <p>Ja, sehen Sie, Herr Mobil, mein Diener hat während meiner Abwesenheit seine beiden Kumpane hier
           bewirtet, und als Sie dann plötzlich hereingeschneit kamen, da hat sich dieser Dreckfink hinter 
-          <pb n="26" />den Fauteuil versteckt und dieser Poilu im Schrank dort.</p>
+          <pb n="26"/>den Fauteuil versteckt und dieser Poilu im Schrank dort.</p>
         </sp>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
@@ -1575,7 +1613,8 @@
           <speaker>Meyer :</speaker>
           <p>Aber mit dem grössten Vergnügen, Herr Mobil, 
           <stage>(es schellt)</stage>E Moment — 
-          <stage>(a. d. M.).</stage></p>
+          <stage>(a. d. M.).</stage>
+          </p>
         </sp>
       </div>
       <div type="scene">
@@ -1593,7 +1632,8 @@
           <speaker>Schakob :</speaker>
           <stage>(luejt sich im e Taschespiejel)</stage>
           <p>Herrjeh — ich bin jo ganz verschmiert — diss sinn Ihr zwei gsinn — na, kumme numme nüss ! 
-          <stage>(butzt sich mit-em Nastuech).</stage></p>
+          <stage>(butzt sich mit-em Nastuech).</stage>
+          </p>
         </sp>
         <sp who="#otto_mobil">
           <speaker>Mobil :</speaker>
@@ -1604,7 +1644,7 @@
           seiner Stimme, und Sie 
           <stage>(zuem Victor)</stage>na, wie hiess der Vogel ?</p>
         </sp>
-        <pb n="27" />
+        <pb n="27"/>
         <sp who="#victor">
           <speaker>Victor :</speaker>
           <p>Ich — hüpp — ich war die Atzel.</p>
@@ -1634,7 +1674,7 @@
         <sp who="#jean #victor #schakob">
           <speaker>Alle drej :</speaker>
           <p>
-          <stage>(gehn uf Meyer zü)</stage>Mir gratüliere au.</p>
+            <stage>(gehn uf Meyer zü)</stage>Mir gratüliere au.</p>
         </sp>
         <sp who="#j_meyer">
           <speaker>Meyer :</speaker>
@@ -1663,7 +1703,8 @@
         <sp who="#jean">
           <speaker>Jean :</speaker>
           <p>Vielmols merci, Patron. — Dr nej Generalagent soll läwe: vive, vive, vive! 
-          <stage>(Alli rüefe mit, Mobil schrejt "Hurrah").</stage></p>
+          <stage>(Alli rüefe mit, Mobil schrejt "Hurrah").</stage>
+          </p>
         </sp>
         <stage>RIDEAU</stage>
       </div>

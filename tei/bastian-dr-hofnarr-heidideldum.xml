@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -50,7 +50,7 @@
             Schwoob</title>
             <publisher>Imprimerie A. Willm – Niderbronn-les-Bains</publisher>
             <date type="print" when="1937">1937</date>
-            <date type="written" />
+            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -153,14 +153,14 @@
             Drache</persName>
           </personGrp>
           <listRelation type="personal">
-            <relation name="spouses" mutual="#kinj_gourmand #kinigin_dificile" />
-            <relation name="parent_of" active="#kinj_gourmand #kinigin_dificile" passive="#prinzess_yoyotte" />
-            <relation name="associated_with" active="#baronesse_langue_de_chat" passive="#kinigin_dificile" />
-            <relation name="associated_with" active="#baronesse_bonbonniere" passive="#kinigin_dificile" />
-            <relation name="parent_of" active="#schablur" passive="#biberon" />
-            <relation name="parent_of" active="#schablur" passive="#babilotte" />
-            <relation name="associated_with" active="#coucou" passive="#niesatt" />
-            <relation name="spouses" mutual="#kinj_mickey #zieselmiesel" />
+            <relation name="spouses" mutual="#kinj_gourmand #kinigin_dificile"/>
+            <relation name="parent_of" active="#kinj_gourmand #kinigin_dificile" passive="#prinzess_yoyotte"/>
+            <relation name="associated_with" active="#baronesse_langue_de_chat" passive="#kinigin_dificile"/>
+            <relation name="associated_with" active="#baronesse_bonbonniere" passive="#kinigin_dificile"/>
+            <relation name="parent_of" active="#schablur" passive="#biberon"/>
+            <relation name="parent_of" active="#schablur" passive="#babilotte"/>
+            <relation name="associated_with" active="#coucou" passive="#niesatt"/>
+            <relation name="spouses" mutual="#kinj_mickey #zieselmiesel"/>
           </listRelation>
         </listPerson>
       </particDesc>
@@ -168,167 +168,125 @@
   </teiHeader>
   <text>
     <front>
-      <pb n="3" />
+      <pb n="3"/>
       <div type="front">
         <p>1898 – 1937</p>
         <p>Im Elsässische Theater
-        <lb />Strossburry
-        <lb />zuem Souvenir
-        <lb />an sin
-        <lb />vierzigjährig
-        <lb />Anniversaire</p>
+        <lb/>Strossburry
+        <lb/>zuem Souvenir
+        <lb/>an sin
+        <lb/>vierzigjährig
+        <lb/>Anniversaire</p>
         <p>Membres fondateurs:
-        <lb />Dr J. Greber&#160;†, Ch. Hauss&#160;†, G. Stoskopf,
-        <lb />Ferd. Bastian, Ad. Horsch&#160;†, Eug. Criqui père
-        <lb />G. Maurer, J. Dietrich&#160;†, Fr. Spegt,
-        <lb />Madame Eugénie Criqui&#160;†.</p>
+        <lb/>Dr J. Greber †, Ch. Hauss †, G. Stoskopf,
+        <lb/>Ferd. Bastian, Ad. Horsch †, Eug. Criqui père
+        <lb/>G. Maurer, J. Dietrich †, Fr. Spegt,
+        <lb/>Madame Eugénie Criqui †.</p>
         <p>Deckelzaichnung vun Oscar Schmitt, professeur de dessin.</p>
       </div>
-      <pb n="4" />
-      <pb n="5" />
+      <pb n="4"/>
+      <pb n="5"/>
       <castList>
         <head>Persone:</head>
         <castItem corresp="#kinj_gourmand">
-          <role>
-            <persName>Kinj Gourmand</persName>
-          </role>
+          <role><persName>Kinj Gourmand</persName></role>
         </castItem>
         <castItem corresp="#kinigin_dificile">
-          <role>
-            <persName>Kinigin Dificile</persName>
-          </role>
+          <role><persName>Kinigin Dificile</persName></role>
         </castItem>
         <castGroup>
           <castItem corresp="#prinzess_yoyotte">
-            <role>
-              <persName>Prinzess Yoyotte</persName>
-            </role>
+            <role><persName>Prinzess Yoyotte</persName></role>
           </castItem>
           <castItem corresp="#baronesse_langue_de_chat">
-            <role>
-              <persName>Baronesse Langue de chat</persName>
-            </role>
+            <role><persName>Baronesse Langue de chat</persName></role>
           </castItem>
           <castItem corresp="#baronesse_bonbonniere">
-            <role>
-              <persName>Baronesse Bonbonnière</persName>
-            </role>
+            <role><persName>Baronesse Bonbonnière</persName></role>
           </castItem>
           <roleDesc>Hofdame</roleDesc>
         </castGroup>
         <castItem corresp="#minischter_guggumseck">
-          <role>
-            <persName>Minischter Güggumseck</persName>
-          </role>
+          <role><persName>Minischter Güggumseck</persName></role>
         </castItem>
         <castItem corresp="#minischter_gaggele">
-          <role>
-            <persName>Minischter Gäggele</persName>
-          </role>
+          <role><persName>Minischter Gäggele</persName></role>
         </castItem>
         <castItem corresp="#opodeldock">
-        <role>
-          <persName>Opodeldock</persName>
-        </role>, 
-        <roleDesc>Hofmedikus</roleDesc></castItem>
+          <role><persName>Opodeldock</persName></role>, 
+        <roleDesc>Hofmedikus</roleDesc>
+        </castItem>
         <castItem corresp="#scharf">
-        <role>
-          <persName>Scharf</persName>
-        </role>, 
-        <roleDesc>Owertranschierer</roleDesc></castItem>
+          <role><persName>Scharf</persName></role>, 
+        <roleDesc>Owertranschierer</roleDesc>
+        </castItem>
         <castItem corresp="#winmuck">
-        <role>
-          <persName>Winmuck</persName>
-        </role>, 
-        <roleDesc>Owerynschenker</roleDesc></castItem>
+          <role><persName>Winmuck</persName></role>, 
+        <roleDesc>Owerynschenker</roleDesc>
+        </castItem>
         <castItem corresp="#mumes">
-        <role>
-          <persName>Mumes</persName>
-        </role>, 
-        <roleDesc>Schatzmaischter</roleDesc></castItem>
+          <role><persName>Mumes</persName></role>, 
+        <roleDesc>Schatzmaischter</roleDesc>
+        </castItem>
         <castItem corresp="#schimmel">
-        <role>
-          <persName>Schimmel</persName>
-        </role>, 
-        <roleDesc>Stallmaischter</roleDesc></castItem>
+          <role><persName>Schimmel</persName></role>, 
+        <roleDesc>Stallmaischter</roleDesc>
+        </castItem>
         <castItem corresp="#schablur">
-        <role>
-          <persName>Schablür</persName>
-        </role>, 
-        <roleDesc>Köche</roleDesc></castItem>
+          <role><persName>Schablür</persName></role>, 
+        <roleDesc>Köche</roleDesc>
+        </castItem>
         <castGroup>
           <castItem corresp="#biberon">
-          <role>
-            <persName>Biberon</persName>
-          </role>, 
-          <roleDesc>e klaaner Diener</roleDesc></castItem>
+            <role><persName>Biberon</persName></role>, 
+          <roleDesc>e klaaner Diener</roleDesc>
+          </castItem>
           <castItem corresp="#babilotte">
-          <role>
-            <persName>Babilotte</persName>
-          </role>, 
-          <roleDesc>e klaani Köche</roleDesc></castItem>
+            <role><persName>Babilotte</persName></role>, 
+          <roleDesc>e klaani Köche</roleDesc>
+          </castItem>
           <roleDesc>Kinder von Schablür</roleDesc>
         </castGroup>
         <castItem corresp="#schnurrdiburr">
-        <role>
-          <persName>Schnurrdiburr</persName>
-        </role>, 
-        <roleDesc>königlicher Müüsjäjer</roleDesc></castItem>
+          <role><persName>Schnurrdiburr</persName></role>, 
+        <roleDesc>königlicher Müüsjäjer</roleDesc>
+        </castItem>
         <castItem corresp="#kinj_niesatt">
-        <role>
-          <persName>Kinj Niesatt</persName>
-        </role>, 
-        <roleDesc>Üss-em Schlaraffeland</roleDesc></castItem>
+          <role><persName>Kinj Niesatt</persName></role>, 
+        <roleDesc>Üss-em Schlaraffeland</roleDesc>
+        </castItem>
         <castItem corresp="#coucou">
-        <role>
-          <persName>Coucou</persName>
-        </role>, 
-        <roleDesc>siner Diener</roleDesc></castItem>
+          <role><persName>Coucou</persName></role>, 
+        <roleDesc>siner Diener</roleDesc>
+        </castItem>
         <castItem corresp="#maharadscha_maja_rahja">
-          <role>
-            <persName>Maharadscha Maja Rahja</persName>
-          </role>
+          <role><persName>Maharadscha Maja Rahja</persName></role>
         </castItem>
         <castItem corresp="#erster_soldat">
-          <role>
-            <persName>1. Soldat</persName>
-          </role>
+          <role><persName>1. Soldat</persName></role>
         </castItem>
         <castItem corresp="#zweiter_soldat">
-          <role>
-            <persName>2. Soldat</persName>
-          </role>
+          <role><persName>2. Soldat</persName></role>
         </castItem>
         <castItem corresp="#prinz_aristide_hofnarr_heidideldum">
-          <role>
-            <persName>Prinz Aristide vun Sabatine (Hofnarr Heidideldum)</persName>
-          </role>
+          <role><persName>Prinz Aristide vun Sabatine (Hofnarr Heidideldum)</persName></role>
         </castItem>
         <castItem corresp="#prinz_arcadin_vun_chantalem">
-          <role>
-            <persName>Prinz Arcadin vun Chantalem</persName>
-          </role>
+          <role><persName>Prinz Arcadin vun Chantalem</persName></role>
         </castItem>
         <castItem corresp="#prinz_babbelenz_vun_gumberland">
-          <role>
-            <persName>Prinz Bäbbelenz vun Gumberland</persName>
-          </role>
+          <role><persName>Prinz Bäbbelenz vun Gumberland</persName></role>
         </castItem>
         <castItem corresp="#kinj_mickey">
-          <role>
-            <persName>Kinj Mickey</persName>
-          </role>
+          <role><persName>Kinj Mickey</persName></role>
         </castItem>
         <castItem corresp="#zieselmiesel">
-        <role>
-          <persName>Zieselmiesel</persName>
-        </role>, 
-        <roleDesc>sini Frau</roleDesc></castItem>
+          <role><persName>Zieselmiesel</persName></role>, 
+        <roleDesc>sini Frau</roleDesc>
+        </castItem>
         <castItem>
-          <role>
-            <persName>Zwei Page, Mickeymies, hochi Staatsbeamti, Diener un Dienere biem Maharadscha, e
-            Drache</persName>
-          </role>
+          <role><persName>Zwei Page, Mickeymies, hochi Staatsbeamti, Diener un Dienere biem Maharadscha, e
+            Drache</persName></role>
         </castItem>
       </castList>
       <set>
@@ -342,7 +300,7 @@
       </set>
     </front>
     <body>
-      <pb n="7" />
+      <pb n="7"/>
       <div type="act">
         <head>1. BILD.</head>
         <stage>Biem Kinj Gourmand.</stage>
@@ -380,7 +338,7 @@
             <speaker>Aristide:</speaker>
             <p>D’Prinzess het sich e halb Johr Bedenkzitt üssbedunge, un jetzt bin ich widder do.</p>
           </sp>
-          <pb n="8" />
+          <pb n="8"/>
           <sp who="#minischter_guggumseck">
             <speaker>Güggumseck:</speaker>
             <p>Haha, dummer Prinz, die füehrt alli an d’r Nas erum. 
@@ -402,7 +360,8 @@
           <sp who="#minischter_guggumseck">
             <speaker>Güggumseck:</speaker>
             <p>Ja, d’r Kinj Niesatt üss-em Schlaraffeland. 
-            <stage>(Drähjt sich erum.)</stage></p>
+            <stage>(Drähjt sich erum.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
@@ -458,7 +417,7 @@
             <speaker>Güggumseck:</speaker>
             <p>Armer Narr, armer Prinze-Narr, Narre-Prinz!</p>
           </sp>
-          <pb n="9" />
+          <pb n="9"/>
         </div>
         <div type="scene">
           <head>2. Ufftritt.</head>
@@ -479,14 +438,16 @@
             <speaker>Güggumseck:</speaker>
             <stage>(lütt)</stage>
             <p>Hum! Rumpeldibum! 
-            <stage>(Stosst mit-em Stock uff.)</stage></p>
+            <stage>(Stosst mit-em Stock uff.)</stage>
+            </p>
           </sp>
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <stage>(sinkt in d’Knej)</stage>
             <p>Jesses! 
             <stage>(Losst d’r Stock falle.)</stage> Wer isch denn do? E Gschbengscht? 
-            <stage>(Rutscht geje d’r Tisch, lüepft ’s Tischtuech.)</stage></p>
+            <stage>(Rutscht geje d’r Tisch, lüepft ’s Tischtuech.)</stage>
+            </p>
           </sp>
           <sp who="#minischter_guggumseck">
             <speaker>Güggumseck</speaker>
@@ -502,7 +463,8 @@
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>Gottseidank, d’r Kinj kummt. 
-            <stage>(Lauft geje rechts hintere Yngang.)</stage></p>
+            <stage>(Lauft geje rechts hintere Yngang.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -510,7 +472,7 @@
           <stage>Kinj, gross, im Schlofrock, Zipfelskabb, ziemlicher Büch, Geniessergsicht, blundi Locke, Bart,
           haiteri Nadür; derno d’Kinigin, gross, maauer, wissi Händschi aan, hinter ihre d’Hofdame Langue de
           chat, Bonbonnière. Alli vun rechts hinte geje d’r Tisch. D’r Kinj setzt sich</stage>
-          <pb n="10" />
+          <pb n="10"/>
           <stage>in d’r Lehnstuehl in d’Mitte. Zwai Page begleite ’ne, bliewe hinte stehn. D’Hofdame rechts un
           links vun d’r Kinigin. Gäggele bind im Kinj e grossi Serviett um de Hals, dass Zipfel wie Eselsohre
           nüsstehn.</stage>
@@ -548,7 +510,8 @@
             <p>Dribbsdrill! Merci Herr Kinj. 
             <stage>(Lauft hinte ab, küllert d’Staffle nab, graddelt uff Händ un Füess eruff.)</stage> Köche
             Schablür, d’r Kinj het Hunger. 
-            <stage>(Links hinte ab.)</stage></p>
+            <stage>(Links hinte ab.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -571,12 +534,14 @@
           <sp who="#baronesse_langue_de_chat">
             <speaker>Langue de chat:</speaker>
             <p>Verzeihung, Madam Kinj. 
-            <stage>(Knix.)</stage></p>
+            <stage>(Knix.)</stage>
+            </p>
           </sp>
           <sp who="#baronesse_bonbonniere">
             <speaker>Bonbonnière:</speaker>
             <p>Verzeihung, mir han sie vergesse. 
-            <stage>(Knix.)</stage></p>
+            <stage>(Knix.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
@@ -585,19 +550,21 @@
           <sp who="#baronesse_langue_de_chat">
             <speaker>Langue de chat:</speaker>
             <p>Gewiss, gewiss. 
-            <stage>(Ab rechts vorne, derno ab links hinte.)</stage></p>
+            <stage>(Ab rechts vorne, derno ab links hinte.)</stage>
+            </p>
           </sp>
           <sp who="#baronesse_bonbonniere">
             <speaker>Bonbonnière:</speaker>
             <p>Gewiss, glich. 
-            <stage>(Ewefalls ab.)</stage></p>
+            <stage>(Ewefalls ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
           <head>4. Ufftritt.</head>
           <stage>Gäggele, Biberon, Stibbernäsel, strohgäli Hoor, in Gala mit e’re Platt Hors-d’œuvre, Babilotte
           im Kochkostüm mit e’re Platt gebacheni Eier un Gemüess, Köche Schablür,</stage>
-          <pb n="11" />
+          <pb n="11"/>
           <stage>klaan, dich, Pfüüsbacke, Knöpfelnas, wisser Schurz, e grossi Kochkabb uff, mit e’re gebrotene
           Huehn, d’rno Scharf, macht ständig Grimasse, het e grosses Transchiermesser, Winmuck, e Nas wo züend,
           mit zwai grosse Kanne. Alli vun links hinte. Scharf, Winmuck stehn rechts un links vum Kinj, Kurz druff
@@ -605,7 +572,8 @@
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Aha! A la bonheur. 
-            <stage>(Schnalzt.)</stage></p>
+            <stage>(Schnalzt.)</stage>
+            </p>
           </sp>
           <sp who="#biberon">
             <speaker>Biberon:</speaker>
@@ -623,7 +591,8 @@
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Hab ich. Merci! E andersmol e bissel schneller, wenns beliebt. 
-            <stage>(Biberon, Babilotte, Schablür ab links hinte.)</stage></p>
+            <stage>(Biberon, Babilotte, Schablür ab links hinte.)</stage>
+            </p>
           </sp>
           <sp who="#scharf">
             <speaker>Scharf:</speaker>
@@ -636,7 +605,8 @@
           <sp who="#scharf">
             <speaker>Scharf:</speaker>
             <p>Die wäre mir glich giegle. 
-            <stage>(Markiert d’Säj.)</stage></p>
+            <stage>(Markiert d’Säj.)</stage>
+            </p>
           </sp>
           <sp who="#winmuck">
             <speaker>Winmuck:</speaker>
@@ -651,7 +621,8 @@
             <p>Alli zwai. 
             <stage>(Schenkt yn.)</stage> Glugg-glugg, Majestät, wenn mer vun denne trinkt, lauft aam ’s Wasser im
             Müül zamme. 
-            <stage>(Trinkt als haamlich mit, Scharf ewefalls.)</stage></p>
+            <stage>(Trinkt als haamlich mit, Scharf ewefalls.)</stage>
+            </p>
           </sp>
           <sp who="#scharf">
             <speaker>Scharf:</speaker>
@@ -690,7 +661,7 @@
             <p>Kinigin Dificile, Esse un Trinke hebbt Lyb un Seel zamme, saat e alts Sprichwort. Ich näm mir
             allewiel</p>
           </sp>
-          <pb n="12" />
+          <pb n="12"/>
           <stage>e Exempel an dir. Dü klebbersch so maauer bisch, un werum? Dü trinksch nume Tee, statt e Kann
           voll Räwebluet, essch Zwiebäckle, Bisgewittle, Vermischell am Platz vun Knöpfle, Speck,
           Süürkrütt.</stage>
@@ -714,17 +685,20 @@
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>Süürkrütt nit vergesse. 
-            <stage>(Ab hinte links.)</stage></p>
+            <stage>(Ab hinte links.)</stage>
+            </p>
           </sp>
           <sp who="#scharf">
             <speaker>Scharf:</speaker>
             <p>Läwerknöpfle! Süürkrütt! 
-            <stage>(Ab.)</stage></p>
+            <stage>(Ab.)</stage>
+            </p>
           </sp>
           <sp who="#winmuck">
             <speaker>Winmuck:</speaker>
             <p>Läwerknöpfle! Süürkrütt! 
-            <stage>(Ab.)</stage></p>
+            <stage>(Ab.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -773,7 +747,7 @@
           <sp who="#schablur">
             <speaker>Schablür:</speaker>
             <p>O Herr Minischter Gäggele, ich köchel jo Daa
-            <pb n="13" />un Nacht for Sini Majestät.</p>
+            <pb n="13"/>un Nacht for Sini Majestät.</p>
           </sp>
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
@@ -790,7 +764,8 @@
           <sp who="#schablur">
             <speaker>Schablür:</speaker>
             <p>Ich, e kiniglichi Köche, muess mir so ebbs saaue lonn. 
-            <stage>(Haut-em d’Pfann uff de Kopf, die ihm bis an de Hals rutscht.)</stage></p>
+            <stage>(Haut-em d’Pfann uff de Kopf, die ihm bis an de Hals rutscht.)</stage>
+            </p>
           </sp>
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
@@ -809,7 +784,8 @@
           <sp who="#schablur">
             <speaker>Schablür:</speaker>
             <p>Der het for’s Murre, 
-            <stage>(Schnell ab.)</stage></p>
+            <stage>(Schnell ab.)</stage>
+            </p>
           </sp>
           <stage>(Biberon, Babilotte ab.)</stage>
           <sp who="#kinj_gourmand">
@@ -874,7 +850,7 @@
             <stage>(schenkt yn)</stage>
             <p>Glugg-glugg-glugg!</p>
           </sp>
-          <pb n="14" />
+          <pb n="14"/>
           <sp who="#minischter_guggumseck">
             <speaker>Güggumseck:</speaker>
             <p>D’r Kinj Mickey un d’Kinigin Zieselmiesel han e Bittschrift an dich gericht, do isch sie. Dü
@@ -885,7 +861,8 @@
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Was e Hungersnot? 
-            <stage>(Esst schnell.)</stage></p>
+            <stage>(Esst schnell.)</stage>
+            </p>
           </sp>
           <sp who="#alli">
             <speaker>Alli:</speaker>
@@ -957,7 +934,7 @@
             <speaker>Kinj:</speaker>
             <p>Un e Kinigin het still ze sin, wenn d’r Kinj am Regiere isch.</p>
           </sp>
-          <pb n="15" />
+          <pb n="15"/>
         </div>
         <div type="scene">
           <head>6. Ufftritt.</head>
@@ -1025,12 +1002,14 @@
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>Herr Kinj, es kumme Mi-mi-mies. 
-            <stage>(Werft d’r Stock eweck, versteckelt sich.)</stage></p>
+            <stage>(Werft d’r Stock eweck, versteckelt sich.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
             <p>Ihr Hofdame, bschüetze mich. 
-            <stage>(Lauft geje vordere Yngang rechts.)</stage></p>
+            <stage>(Lauft geje vordere Yngang rechts.)</stage>
+            </p>
           </sp>
           <sp who="#baronesse_langue_de_chat">
             <speaker>Langue de chat:</speaker>
@@ -1051,7 +1030,7 @@
             <speaker>Yoyotte:</speaker>
             <p>O Papa, muehsch nit schelte. Luej, sie sin so nett un lieb.</p>
           </sp>
-          <pb n="16" />
+          <pb n="16"/>
           <sp who="#kinj_mickey">
             <speaker>Mickey:</speaker>
             <p>Qouic! Qouic!</p>
@@ -1067,7 +1046,8 @@
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Siehsch Papa, wie weich un sametich sie sin. 
-            <stage>(Stricht Zieselmiesel, gibt e’re e Schmutz.)</stage></p>
+            <stage>(Stricht Zieselmiesel, gibt e’re e Schmutz.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Kinigin:</speaker>
@@ -1093,7 +1073,8 @@
             <speaker>Mickey</speaker>
             <stage>(Schrei)</stage>
             <p>Qouic! Qouic! 
-            <stage>(Ab Park, macht an de Staffle e Füscht.)</stage></p>
+            <stage>(Ab Park, macht an de Staffle e Füscht.)</stage>
+            </p>
           </sp>
           <sp who="#zieselmiesel">
             <speaker>Zieselmiesel:</speaker>
@@ -1145,7 +1126,7 @@
             <p>Holeri, holera, un d’hüibheida un d’hüibheidi Holera, holeri, d’hüibheida, un guet vun hie.
             Bonjour, hochverehrter Herr Kinj, loss dich mit himmelhocher Fraid vun dim Hofnarr begrüesse.</p>
           </sp>
-          <pb n="17" />
+          <pb n="17"/>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Was Hofnarr? Ich brüch ken Hofnarr.</p>
@@ -1217,7 +1198,8 @@
           <sp who="#baronesse_bonbonniere">
             <speaker>Bonbonnière:</speaker>
             <p>Un d’Baronesse erscht recht nit. Pfui! 
-            <stage>(Wend sich ab.)</stage></p>
+            <stage>(Wend sich ab.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
@@ -1227,7 +1209,7 @@
             <speaker>Yoyotte:</speaker>
             <p>Wie haisch denn dü Narregiggel?</p>
           </sp>
-          <pb n="18" />
+          <pb n="18"/>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Heidideldum, mit Verlaub Prinzess.</p>
@@ -1264,7 +1246,8 @@
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Gern, Prinzess. 
-            <stage>(Spielt e Hopser.)</stage></p>
+            <stage>(Spielt e Hopser.)</stage>
+            </p>
           </sp>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte</speaker>
@@ -1296,12 +1279,14 @@
             <speaker>Aristide:</speaker>
             <p>Miner Dank. 
             <stage>(Singt)</stage>: Ei, ei, wie ich mich frai. Ticketicke-dei, ticketeckedei. 
-            <stage>(Spielt e Hopser, dänzelt vorderer Yngang links ab.)</stage></p>
+            <stage>(Spielt e Hopser, dänzelt vorderer Yngang links ab.)</stage>
+            </p>
           </sp>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Ei, ei, ticketicke-dei. Wie ich mich frai. 
-            <stage>(Ab Park.)</stage></p>
+            <stage>(Ab Park.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Kinigin:</speaker>
@@ -1323,7 +1308,7 @@
             <speaker>Kinj:</speaker>
             <p>Die Spring wäre n'em schun vergehn, wenn’s g’hirot isch</p>
           </sp>
-          <pb n="19" />
+          <pb n="19"/>
           <sp who="#kinigin_dificile">
             <speaker>Kinigin:</speaker>
             <p>Dir isch alles egal, nume ’s Esse nit, Herr Kinj Gourmand.</p>
@@ -1345,7 +1330,8 @@
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>Köche Schablür, d’r Schambong! 
-            <stage>(Ab Yngang links hinte.)</stage></p>
+            <stage>(Ab Yngang links hinte.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1401,7 +1387,7 @@
             <speaker>Gäggele:</speaker>
             <p>Allehopp, Biberon, Babilotte, laufe, laufe, d’r Kinj wart.</p>
           </sp>
-          <pb n="20" />
+          <pb n="20"/>
           <sp who="#biberon">
             <speaker>Biberon:</speaker>
             <p>Wohlbekumms, Herr Kinj, frisch üss-em Kamin.</p>
@@ -1467,7 +1453,8 @@
           <sp who="#opodeldock">
             <speaker>Opodeldock:</speaker>
             <p>Majestät, Madam Kinj. 
-            <stage>(Ab geje d’Staffle.)</stage></p>
+            <stage>(Ab geje d’Staffle.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1489,9 +1476,10 @@
             
             <stage>(Uewer’m Helfe falle alli durchenand, un stehn mit vieler Muehj uff. Opodeldok geht mit d’r
             Kochkabb uff un Kochlöffel ab. Schablür het d’r spitzig Huet uff un d’r Hammer in d’r
-            Hand.)</stage></p>
+            Hand.)</stage>
+            </p>
           </sp>
-          <pb n="21" />
+          <pb n="21"/>
           <sp who="#schablur">
             <speaker>Schablür:</speaker>
             <p>Herr Kinj, was wär diner Wunsch? Het’s gschmeckt?</p>
@@ -1544,7 +1532,8 @@
             <p>O was e Ehr. 
             <stage>(Bisst uff alli Arte am Schambong erum, macht Grimasse.)</stage> Ah! Ah! Ich biss mer noch alli
             Zähn üss. Liewer Gott, helf in e’re arme Köche. Ah! Herr Kinj, liewer füenfezwanzig. 
-            <stage>(Rennt ab hinte links.)</stage></p>
+            <stage>(Rennt ab hinte links.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -1580,7 +1569,7 @@
             <p>Ich möcht dich bitte, mir unter vier Aue din königlich Ohr ze lehne, wenn dü so guet wottsch
             sin.</p>
           </sp>
-          <pb n="22" />
+          <pb n="22"/>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Bon, ich will so guet sin. 
@@ -1609,7 +1598,8 @@
             <speaker>Aristide:</speaker>
             <p>Gewiss, Madame Kinj, awer nume die däte lache wo’s nix angeht. Herr Kinj, dini Staatskass isch
             leer, ich wott sie widder e bissel füelle. 
-            <stage>(Macht Mimik vun Geldzähle.)</stage></p>
+            <stage>(Macht Mimik vun Geldzähle.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -1622,12 +1612,14 @@
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Bravo! Gscheider Gedanke. Ynverschtande, wurd gemacht. Dini Wunder will ich sehne. 
-            <stage>(Setzt sich, schloft sachte yn, schnarcht.)</stage></p>
+            <stage>(Setzt sich, schloft sachte yn, schnarcht.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
             <p>Jaja, Kinj, dü wursch jo Wunder erläwe. 
-            <stage>(Setzt sich.)</stage></p>
+            <stage>(Setzt sich.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1651,7 +1643,7 @@
             <stage>(kurzotmig)</stage>
             <p>Herr Kinj, Herr Kinj, d’r Kinj Mickey un sin Volik han mich verhaue. Miau! Verhaue! Miau!</p>
           </sp>
-          <pb n="23" />
+          <pb n="23"/>
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>Bscht! D’r Kinj schloft.</p>
@@ -1680,7 +1672,7 @@
           ’s Esse. Aristide spielt Klarinett. Yoyotte danzt mit d’r Bubb.</stage>
           <stage>Müsik: Mickey-Ballett.</stage>
           <stage>RIDEAU.</stage>
-          <pb n="24" />
+          <pb n="24"/>
         </div>
       </div>
       <div type="act">
@@ -1734,9 +1726,10 @@
           <sp who="#biberon">
             <speaker>Biberon:</speaker>
             <p>Still, es kummt ebber. 
-            <stage>(Beidi uff Händ un Füess schnell rechts ab.)</stage></p>
+            <stage>(Beidi uff Händ un Füess schnell rechts ab.)</stage>
+            </p>
           </sp>
-          <pb n="25" />
+          <pb n="25"/>
         </div>
         <div type="scene">
           <head>2. Ufftritt.</head>
@@ -1746,9 +1739,10 @@
             <p>Also do hinne derf ich rejiere. Haha! D’r Kinj wurd Aue mache. Bis jetzt lauft alles guet. Un ich
             bin allewiel bie mim liewe Prinzessel. O ich glüecklicher Hofnarr.
             <l>Ich sieh d’r Himmel offestehn,</l>
-            <l>Hör d’ Engle singe schön im Chor,</l>
-            <l>Un möcht uff Silwerwolke gehn,</l>
-            <l>Bis nuff zuem gold’ne Himmelstor!</l></p>
+              <l>Hör d’ Engle singe schön im Chor,</l>
+              <l>Un möcht uff Silwerwolke gehn,</l>
+              <l>Bis nuff zuem gold’ne Himmelstor!</l>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -1791,7 +1785,8 @@
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>O wie gscheid. 
-            <stage>(Batscht in d’ Händ.)</stage></p>
+            <stage>(Batscht in d’ Händ.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
@@ -1810,7 +1805,7 @@
             <p>’s isch jo wohr. Un kann doch nit fliehje.</p>
           </sp>
           <stage>Aristide (saat Yoyotte ebbs in ’s Ohr).</stage>
-          <pb n="26" />
+          <pb n="26"/>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <stage>(nickt un lacht)</stage>
@@ -1823,7 +1818,8 @@
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Na, no numme e Krächerle. 
-            <stage>(Schmutz.)</stage></p>
+            <stage>(Schmutz.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
@@ -1876,18 +1872,21 @@
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>O liewer Butzemumel, verschon mich. 
-            <stage>(Zittert.)</stage></p>
+            <stage>(Zittert.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <stage>(dief)</stage>
             <p>Schu-hu-hu! 
-            <stage>(Werft e Schueh geje ne.)</stage></p>
+            <stage>(Werft e Schueh geje ne.)</stage>
+            </p>
           </sp>
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>Jesses! 
-            <stage>(Links ab.)</stage></p>
+            <stage>(Links ab.)</stage>
+            </p>
           </sp>
           <stage>Yoyotte Aristide lache helluff.</stage>
           <stage>(Drei Trumpetesignal.)</stage>
@@ -1897,7 +1896,7 @@
           </sp>
           <stage>Yoyotte (rechts ab).</stage>
           <stage>(Marsch.)</stage>
-          <pb n="27" />
+          <pb n="27"/>
         </div>
         <div type="scene">
           <head>5. Ufftritt.</head>
@@ -1924,7 +1923,8 @@
           <sp who="#scharf">
             <speaker>Scharf:</speaker>
             <p>Ich maan als, e anderer redd, statt d’r Kinj. 
-            <stage>(Henke d’ Köpf zamme, un büschbere,)</stage></p>
+            <stage>(Henke d’ Köpf zamme, un büschbere,)</stage>
+            </p>
           </sp>
           <sp who="#winmuck">
             <speaker>Winmuck:</speaker>
@@ -1980,7 +1980,7 @@
             <p>Herr Kinj, dü waisch, dass mir viel Mies im Land han, un die fresse alles eweck, viel, viel
             eweck.</p>
           </sp>
-          <pb n="28" />
+          <pb n="28"/>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Schad dass sie dich nit gfresse han. Un dü, Owerynschenker Winmuck, was hesch dü for Löje
@@ -2042,7 +2042,8 @@
           <sp who="#schablur">
             <speaker>Schablür:</speaker>
             <p>Merci, Herr Kinj. 
-            <stage>(Macht d’ Bind eweck, lacht, ab rechts.)</stage></p>
+            <stage>(Macht d’ Bind eweck, lacht, ab rechts.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
@@ -2057,7 +2058,7 @@
             <p>Silence! Waisch dü au worum dü denne Ring durich d’ Nas bekumme hesch? — Wiel dü dini Styre nit
             bezahlsch. Un denne Ring b’haltsch bis alles gepeit isch.</p>
           </sp>
-          <pb n="29" />
+          <pb n="29"/>
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>Oje, oje! Herr Kinj Gnad, Gnad.</p>
@@ -2070,7 +2071,8 @@
             <speaker>Alli:</speaker>
             <stage>(kneje anne)</stage>
             <p>Herr Kinj, Gnad. 
-            <stage>(Rutsche uff de Knej geje d’r Thron.)</stage></p>
+            <stage>(Rutsche uff de Knej geje d’r Thron.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
@@ -2142,7 +2144,7 @@
             <p>Herr Kinj, mir verspreche dini ehrliche Diener ze sin. Derf ich jetz, wo ich gepejt hab, d’r Ring
             vun dr Nas mache?</p>
           </sp>
-          <pb n="30" />
+          <pb n="30"/>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Heididelbum, mach-em denne Gfalle.</p>
@@ -2151,7 +2153,8 @@
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Aurevoir ihr Herre. 
-            <stage>(Schickt ne Schmüetz.)</stage></p>
+            <stage>(Schickt ne Schmüetz.)</stage>
+            </p>
           </sp>
           <stage>(Drei Trumpetesignal.)</stage>
           <sp who="#kinj_gourmand">
@@ -2187,7 +2190,7 @@
             schönscht Bluem in mim Wunderland, in dem ewig d’ Sunn schient, wo Summer wie Winter alles im
             Bluehscht steht, wo d’r Himmel wie e Glasglock üss Kristall üewer mim Palascht schwebt, der üss
             wissem Marmel, verziert mit Gold un Edelstaan,
-            <pb n="31" />geböüje isch. Un in d’r Nacht henke d’ Sterne wie Silwerample am Himmel, die in mine
+            <pb n="31"/>geböüje isch. Un in d’r Nacht henke d’ Sterne wie Silwerample am Himmel, die in mine
             parfumduftige Gärte züende, wo mir zwei ganz ellaan im goldene Mondschien spaziere gehn. Prinzess,
             was ich dir biet, kann d’r richscht Kinj vun d’r Welt nit verschenke.</p>
           </sp>
@@ -2201,7 +2204,8 @@
             hundertdöüsigi Mensche un Sklave unterworfe, ich rejier üewer Läwe un Tod. Was ich will, diss wurd.
             Ich denk, diner kindlich Sinn wurd sich noch ändere. Wer mini Person missacht, muess-es schwer
             büesse, denk do dran, Prinzess. D’r mächtig Füerscht Maja-Rahja het geredd. 
-            <stage>(Verneigt sich, sitzt links.)</stage></p>
+            <stage>(Verneigt sich, sitzt links.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Kinigin:</speaker>
@@ -2216,7 +2220,8 @@
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Bravo Prinzess, 
-            <stage>(Batscht Biefall.)</stage></p>
+            <stage>(Batscht Biefall.)</stage>
+            </p>
           </sp>
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
@@ -2236,7 +2241,8 @@
             <speaker>Chantalem:</speaker>
             <p>Prinzess, d’r Prinz Arcadin vun Chantalem losst nit mit sich spiele. Wer dich mir ewecknäme will,
             het’s uff Ehr un Eid mit mim Sawel ze duehn. 
-            <stage>(Risst d’r Sawel erüss.)</stage></p>
+            <stage>(Risst d’r Sawel erüss.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -2250,7 +2256,7 @@
             <speaker>Aristide:</speaker>
             <p>Bravo Prinzess!</p>
           </sp>
-          <pb n="32" />
+          <pb n="32"/>
           <sp who="#prinz_arcadin_vun_chantalem">
             <speaker>Chantalem</speaker>
             <stage>(geht mit-em Sawel uff ne):</stage>
@@ -2268,7 +2274,8 @@
           <sp who="#prinz_arcadin_vun_chantalem">
             <speaker>Chantalem:</speaker>
             <p>Wort! Do denk ich dran. 
-            <stage>(Setzt sich.)</stage></p>
+            <stage>(Setzt sich.)</stage>
+            </p>
           </sp>
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
@@ -2324,7 +2331,7 @@
           <sp who="#alli">
             <speaker>Alli:</speaker>
             <p>
-            <stage>(gross Gelächter)</stage>.</p>
+              <stage>(gross Gelächter)</stage>.</p>
           </sp>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
@@ -2345,7 +2352,7 @@
             <speaker>Bäbbelenz:</speaker>
             <p>Hä-hä-hä. E Sichel hinte?</p>
           </sp>
-          <pb n="33" />
+          <pb n="33"/>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Na, wer isch’s?</p>
@@ -2371,7 +2378,8 @@
           <sp who="#prinz_babbelenz_vun_gumberland">
             <speaker>Bäbbelenz:</speaker>
             <p>Gell ’s brennt. Bumbié kumme. 
-            <stage>(Verneigt sich vor Aristide, stosse mit de Köpf zamme.)</stage></p>
+            <stage>(Verneigt sich vor Aristide, stosse mit de Köpf zamme.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -2388,7 +2396,8 @@
           <sp who="#kinj_niesatt">
             <speaker>Niesatt:</speaker>
             <p>Guete Daa biesamme! 
-            <stage>(Setzt d’r Huet ab, gibt n'e im Coucou.)</stage></p>
+            <stage>(Setzt d’r Huet ab, gibt n'e im Coucou.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -2398,7 +2407,8 @@
             <speaker>Niesatt:</speaker>
             <p>Exküsier, dass ich e bissel spoot kumm. 
             <stage>(Butzt sich mit m’e farwige Nastuech d’r Schweiss ab, ringt’s üss, dass-es
-            tropft.)</stage></p>
+            tropft.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -2419,12 +2429,13 @@
             <speaker>Kinj:</speaker>
             <p>Minischter Gäggele, gib im Kinj e Stuehl.</p>
           </sp>
-          <pb n="34" />
+          <pb n="34"/>
           <sp who="#kinj_niesatt">
             <speaker>Niesatt:</speaker>
             <p>Merci, ich hab miner Stuehl mitgebrocht. Coucou, Coucou, buck dich. Halt, reich mer z’erscht d’r
             Reissack. Exküsier, Kinjsbrueder, ich hab schun widder Hunger. 
-            <stage>(Esst Brödle üss-em Sack.)</stage></p>
+            <stage>(Esst Brödle üss-em Sack.)</stage>
+            </p>
           </sp>
           <stage>Coucou (buckt sich uff Knej un Elleböüje).</stage>
           <sp who="#kinj_niesatt">
@@ -2478,7 +2489,7 @@
             <stage>(Riebt d’r Maaue un schnalzt.)</stage> Kinj Niesatt, loss dich zuem Dank im Name vum ganze Land
             umarme.</p>
           </sp>
-          <pb n="35" />
+          <pb n="35"/>
           <stage>Coucou (niest e paarmol, fallt zamme).</stage>
           <stage>(Pauke- un Zingedeckelschlaa.)</stage>
           <stage>Kinj Niesatt falle uffenander Hoppla! Coucou! Coucou!</stage>
@@ -2488,7 +2499,7 @@
             <p>Kinj« Oweh! Coucou! Herrje! Coucou!! un laufe zue de Kinj!</p>
           </sp>
           <stage>Rideau schnell.</stage>
-          <pb n="36" />
+          <pb n="36"/>
         </div>
       </div>
       <div type="act">
@@ -2528,7 +2539,7 @@
               <l>Sei willkumme, Kinijsbrueder</l>
               <l>In mim Land vum Maauefuedder.</l>
               <l>Gück, dort wachse Schambonbrödle,</l>
-              <pb n="37" />
+              <pb n="37"/>
               <l>Glich d’rnäwe Fleischpaschtedle,</l>
               <l>Knackun Brotwüerscht meterlang,</l>
               <l>Grösser als e Hopfestang.</l>
@@ -2595,7 +2606,8 @@
           <sp who="#alli">
             <speaker>Alli:</speaker>
             <p>Aha-aaa. 
-            <stage>(Schlecke un schmätze.)</stage></p>
+            <stage>(Schlecke un schmätze.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_niesatt">
             <speaker>Niesatt:</speaker>
@@ -2620,13 +2632,14 @@
               <l>Esse, trinke, schnabüliere.</l>
             </p>
           </sp>
-          <pb n="38" />
+          <pb n="38"/>
           <sp who="#kinj_niesatt">
             <speaker>Niesatt:</speaker>
             <p>Halt, Kinj, muehsch absattle. Coucou, füehr d’ Pferd uff d’ Matte wo Huniklee un Sirophawere
             wachst. 
             <stage>(Kinj, Yoyotte, Page, Kinigin, Güggumseck, Gäggele, Scharf, Winmuck, Schimmel, Mumes,
-            Opodeldock, links ab. Aristide galopiert hintenooch. )</stage></p>
+            Opodeldock, links ab. Aristide galopiert hintenooch. )</stage>
+            </p>
           </sp>
           <sp who="#kinj_mickey">
             <speaker>Kinj Mickey:</speaker>
@@ -2660,7 +2673,8 @@
           <sp who="#prinz_babbelenz_vun_gumberland">
             <speaker>Bäbbelenz:</speaker>
             <p>D‘ Juhu! Soviel ass ich will. 
-            <stage>(Nooch links.)</stage></p>
+            <stage>(Nooch links.)</stage>
+            </p>
           </sp>
           <sp who="#schablur">
             <speaker>Schablür:</speaker>
@@ -2714,7 +2728,7 @@
           <stage>Niesatt (batscht dreimol in d’ Händ; e gedeckter Disch mit Schüessle, Platte, Winkanne, kummt
           von links ze rolle bis in d’ Mitte).</stage>
           <stage>Coucou (stellt Fodell un Sessel an de Disch).</stage>
-          <pb n="39" />
+          <pb n="39"/>
         </div>
         <div type="scene">
           <head>2. Ufftritt.</head>
@@ -2731,7 +2745,8 @@
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Aha, wenn mer die Platte sieht, lacht aam d’r Maaue. 
-            <stage>(Schnalzt.)</stage></p>
+            <stage>(Schnalzt.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
@@ -2772,7 +2787,7 @@
               <l>Schlaaue n'en au e Gaggele drin...</l>
             </p>
           </sp>
-          <pb n="40" />
+          <pb n="40"/>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
             <p>Still dü frecher Narr, Demnooch bisch dü Witmann, wie ich hör.</p>
@@ -2802,7 +2817,8 @@
           <sp who="#prinz_arcadin_vun_chantalem">
             <speaker>Chantalem:</speaker>
             <p>So e Baam hesch dü? Jetzt geh ich n'e sueche, un hau n'e rakta ratsch ab. 
-            <stage>(Muschtert alli Baam.)</stage></p>
+            <stage>(Muschtert alli Baam.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_niesatt">
             <speaker>Niesatt:</speaker>
@@ -2815,7 +2831,8 @@
           <sp who="#kinj_niesatt">
             <speaker>Niesatt:</speaker>
             <p>Diss sollsch dü han. 
-            <stage>(Batscht dreimol in d’ Händ.)</stage></p>
+            <stage>(Batscht dreimol in d’ Händ.)</stage>
+            </p>
           </sp>
           <stage>(Mer hört e Rätschmaschin rapple. Windrüsche.)</stage>
           <sp who="#kinj_gourmand">
@@ -2826,7 +2843,8 @@
           <sp who="#kinj_niesatt">
             <speaker>Niesatt:</speaker>
             <p>Fraid mich. Wohlbekumms. 
-            <stage>(Batscht dreimol in d’ Händ, d’ Disch verschwind nooch links.)</stage></p>
+            <stage>(Batscht dreimol in d’ Händ, d’ Disch verschwind nooch links.)</stage>
+            </p>
           </sp>
           <stage>Coucou (stellt d’ Sessel geje rechts un links).</stage>
           <sp who="#kinigin_dificile">
@@ -2837,48 +2855,55 @@
           <sp who="#kinj_niesatt">
             <speaker>Niesatt:</speaker>
             <p>Verehrti Kinigin, es gschieht. 
-            <stage>(Batscht in d’ Händ.)</stage></p>
+            <stage>(Batscht in d’ Händ.)</stage>
+            </p>
           </sp>
           <stage>(D’ Rätschmaschin rappelt; fini Müsik. Mondnacht )</stage>
           <stage>(D’ Lampion am Palascht gehn an, vun rechts un links kumme Dänzere als: Wurscht, Milichlaiwel,
           Lebkueche, Gaggumer etc. Beleichtung.)</stage>
           <stage>Ballett.</stage>
           <stage>Alli bewundere d’r Danz, sinke noochenand for Schloof uff Debbi, Kisse, Füüllenzer.</stage>
-          <pb n="41" />
+          <pb n="41"/>
           <sp who="#kinj_niesatt">
             <speaker>Niesatt</speaker>
             <stage>(wenn ’s Ballett ferdig isch):</stage>
             <p>Jetzt wölle mer schlöfle un traime. 
-            <stage>(Gähnt, sinkt um.)</stage></p>
+            <stage>(Gähnt, sinkt um.)</stage>
+            </p>
           </sp>
           <stage>Müsik: Melo.</stage>
           <sp who="#kinigin_dificile">
             <speaker>Kinigin:</speaker>
             <p>O wie bin ich müed, müed. 
-            <stage>(Fallt in e Sessel.)</stage></p>
+            <stage>(Fallt in e Sessel.)</stage>
+            </p>
           </sp>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Un mir falle d’ Aue zue. Schlof hab ich, so schlof. 
-            <stage>(Sinkt in e Sessel.)</stage></p>
+            <stage>(Sinkt in e Sessel.)</stage>
+            </p>
           </sp>
           <sp who="#baronesse_langue_de_chat">
             <speaker>Langue de chat:</speaker>
             <p>Ich sink um for Schlof. 
-            <stage>(Sinkt um.)</stage></p>
+            <stage>(Sinkt um.)</stage>
+            </p>
           </sp>
           <sp who="#baronesse_bonbonniere">
             <speaker>Bonbonnière:</speaker>
             <p>Mir falle um. 
-            <stage>(Gähnt.)</stage></p>
+            <stage>(Gähnt.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Alli schlofe, d’ Kinigin, sogar d’ Prinzess. Gott, wie schön sie isch.
             <l>B’hüet dich Gott, dü schönes Kind,</l>
-            <l>Näm’s in dini sicher Hand.</l>
-            <l>Füehr’s zeruck in’s Heimetland,</l>
-            <l>Dass-es dort min Herzel find.</l></p>
+              <l>Näm’s in dini sicher Hand.</l>
+              <l>Füehr’s zeruck in’s Heimetland,</l>
+              <l>Dass-es dort min Herzel find.</l>
+            </p>
           </sp>
           <stage>(D’ Müsik hört uff.)</stage>
           <sp who="#kinj_gourmand">
@@ -2921,7 +2946,7 @@
             <p>Weck ’ne ebb dass-es ze spot isch, schüett-em Wasser in’s Gsicht, pfätz-em in d‘ Wade. Oweh,
             aye.</p>
           </sp>
-          <pb n="42" />
+          <pb n="42"/>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <stage>(links ab, bringt e Walholz)</stage>
@@ -2958,12 +2983,14 @@
             <speaker>Kinj:</speaker>
             <p>Ha, es geht mer schun besser... Heidideldum, roll noch meh, roll hin un her. Ah, es wurd mer als
             besser. Liewer Heidideldum, luej doch dü nooch de Pferd. 
-            <stage>(Sinkt um, schnaricht.)</stage></p>
+            <stage>(Sinkt um, schnaricht.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Ja, Herr Kinj. 
-            <stage>(Links ab.)</stage></p>
+            <stage>(Links ab.)</stage>
+            </p>
           </sp>
           <stage>(Alli schnarche. Es fliehje gebroteni Düwe, Hähnle un Wüerscht durich d’ Luft. Verschiedeni
           traime vun Esse, schnabbe un lange in d’ Luft. Vun links vor-em Rissberrj, kumme feddi Söüj mit Gawel
@@ -2981,7 +3008,7 @@
             <stage>(vun links):</stage>
             <p>Herr Kinj, es isch zuem Lache. Herr Kinj, d’ Pferd sin an e Schnapsquell gerote, sie sin</p>
           </sp>
-          <pb n="43" />
+          <pb n="43"/>
           <stage>eso betrunke, dass sie nimi grad stehn könne. Sie leje alli marode am Bodde. Herr Kinj, Herr
           Kinj! Er hört nit, un schnaricht.</stage>
           <stage>(Mer hört Pferd galoppiere.)</stage>
@@ -2993,7 +3020,7 @@
           </sp>
           <stage>(Es wurd langsam finschter.)</stage>
           <stage>Rideau.</stage>
-          <pb n="44" />
+          <pb n="44"/>
         </div>
       </div>
       <div type="act">
@@ -3025,9 +3052,10 @@
             <p>O Gott, schick mir e Engel, der mich zue mine Eltere bringt, helf mir in minere Not. Ich will
             foljsam un brav sin, demüetig wie e Magd, un guet zue alle Mensche. Liewer Gott, bring mich zue mine
             Eltere, gib mir mini Heimet widder. 
-            <stage>(Grient.)</stage></p>
+            <stage>(Grient.)</stage>
+            </p>
           </sp>
-          <pb n="45" />
+          <pb n="45"/>
           <sp who="#maharadscha_maja_rahja">
             <speaker>Maja:</speaker>
             <stage>(steht mit verschränkte Aerm vor e’re)</stage>
@@ -3064,7 +3092,8 @@
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Gott, gibt’s denn ken Uesswäj. 
-            <stage>(Suecht e Tüer.)</stage></p>
+            <stage>(Suecht e Tüer.)</stage>
+            </p>
           </sp>
           <sp who="#maharadscha_maja_rahja">
             <speaker>Maja:</speaker>
@@ -3089,9 +3118,10 @@
           <sp who="#maharadscha_maja_rahja">
             <speaker>Maja:</speaker>
             <p>Sterwe? Allewiel sterwe. 
-            <stage>(Geht nervös uff un ab, schlaat einmol uff d’r Gong.)</stage></p>
+            <stage>(Geht nervös uff un ab, schlaat einmol uff d’r Gong.)</stage>
+            </p>
           </sp>
-          <pb n="46" />
+          <pb n="46"/>
         </div>
         <div type="scene">
           <head>2. Ufftrite.</head>
@@ -3143,16 +3173,18 @@
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Gib n’e! Gib n’e! 
-            <stage>(Streckt d’ Aerm nüss.)</stage></p>
+            <stage>(Streckt d’ Aerm nüss.)</stage>
+            </p>
           </sp>
           <stage>Alli Dienere (sinke uff d’ Knej).</stage>
           <sp who="#maharadscha_maja_rahja">
             <speaker>Maja:</speaker>
             <p>Furt mit euch. Ruefe d‘ Soldate. 
-            <stage>(Werft d’r Mantel ab.)</stage></p>
+            <stage>(Werft d’r Mantel ab.)</stage>
+            </p>
           </sp>
           <stage>Dienere (ab).</stage>
-          <pb n="47" />
+          <pb n="47"/>
         </div>
         <div type="scene">
           <head>3. Ufftritt.</head>
@@ -3189,7 +3221,8 @@
             <speaker>Maja:</speaker>
             <p>Prinzess, jomer nit. Was geht dich diss Wieb an? Sei lieb mit mir, sei heiter un froh, no bin ich
             glüecklich. 
-            <stage>(Schlaat dreimot uff d’r Gong.)</stage></p>
+            <stage>(Schlaat dreimot uff d’r Gong.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3221,9 +3254,10 @@
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Füerscht, hab Erbarme. 
-            <stage>(Knejt vor ’ne.)</stage></p>
+            <stage>(Knejt vor ’ne.)</stage>
+            </p>
           </sp>
-          <pb n="48" />
+          <pb n="48"/>
           <sp who="#maharadscha_maja_rahja">
             <speaker>Maja:</speaker>
             <p>Nit so, Prinzess, nit so. Ich duld ken Widderspruch. 
@@ -3248,7 +3282,8 @@
             <stage>(Steht uff.)</stage> Wie isch diss möjlich. Sueche alli Winkel im Palascht ab. Sueche! Bringe
             ’ne no doher zue mir. Finde ihr n'e nit, so koscht’s euch d’r Kopf. Un ihr Edli vum Hofstaat, ihr
             üewernämme d’ Verantwortung, dass alles gschieht nooch mim Wille. 
-            <stage>(Nämmt Yoyotte an d’r Hand, füehrt sie erab.)</stage></p>
+            <stage>(Nämmt Yoyotte an d’r Hand, füehrt sie erab.)</stage>
+            </p>
           </sp>
           <stage>(D’r Vorhang geht zue.)</stage>
           <sp who="#maharadscha_maja_rahja">
@@ -3291,7 +3326,8 @@
           <sp who="#maharadscha_maja_rahja">
             <speaker>Maja:</speaker>
             <p>Gib her, heiliger Mann. 
-            <stage>(Lest.)</stage></p>
+            <stage>(Lest.)</stage>
+            </p>
           </sp>
           <stage>Aristide (hebbt d’ Hand geje Prinzess zuem Gruess).</stage>
           <sp who="#maharadscha_maja_rahja">
@@ -3300,7 +3336,7 @@
             grüesst un umarmt dich. Prinzess, jetzt bisch mine uff alli Zitte. Was e Fraid, e Glüeck isch in
             miner Palascht yrıgezöje.</p>
           </sp>
-          <pb n="49" />
+          <pb n="49"/>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Die Botschaft find miner Glauwe nit, sie isch falsch. Mini Eltere verkaufe mich nit.</p>
@@ -3342,7 +3378,8 @@
           <sp who="#maharadscha_maja_rahja">
             <speaker>Maja:</speaker>
             <p>Es sei, heiliger Mann. 
-            <stage>(Ab links.)</stage></p>
+            <stage>(Ab links.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
@@ -3369,7 +3406,7 @@
             <stage>(schwankt)</stage>
             <p>Gott!</p>
           </sp>
-          <pb n="50" />
+          <pb n="50"/>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <stage>(hebbt sie)</stage>
@@ -3422,13 +3459,14 @@
           <sp who="#maharadscha_maja_rahja">
             <speaker>Maja:</speaker>
             <p>Kumm! 
-            <stage>(Geht d’ Staffle nuff.)</stage></p>
+            <stage>(Geht d’ Staffle nuff.)</stage>
+            </p>
           </sp>
           <stage>Aristide (macht ’s Seil vum Lyb, werft’s Maja um de Hals, risst Maja ruckwärts uff d’ Staffle,
           stopft-em e Tuech in ’s Müül, bind n'e. Ab durich d’ gheim Tüer.)</stage>
           <stage>Maja (wehrt sich, suecht sich frei ze mache, rollt d’ Staffle erunter, bliebt leje).</stage>
           <stage>Rideau.</stage>
-          <pb n="51" />
+          <pb n="51"/>
         </div>
       </div>
       <div type="act">
@@ -3466,7 +3504,7 @@
             <speaker>Kinj:</speaker>
             <p>Mini Litt sin schun monatelang uff d’r Suech, d’r Prinz Arcadin vun Chantalem het uff Ehr un Eid
             versproche, unser Kind in sini Heimet zeruckzebringe.
-            <pb n="52" />Ja sogar d’r King Mickey, mit dem ich mich versöhnt hab, isch mit sim Volik unterwäjs.
+            <pb n="52"/>Ja sogar d’r King Mickey, mit dem ich mich versöhnt hab, isch mit sim Volik unterwäjs.
             Bis jetzt isch noch ken Zaiche kumme ob d’ Prinzess noch lebt. Es isch zuem verzwiefle.</p>
           </sp>
           <sp who="#kinigin_dificile">
@@ -3515,7 +3553,8 @@
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
             <p>Un het unser Kind gschtohle. 
-            <stage>(Grient.)</stage></p>
+            <stage>(Grient.)</stage>
+            </p>
           </sp>
           <sp who="#baronesse_langue_de_chat">
             <speaker>Langue de chat:</speaker>
@@ -3524,13 +3563,14 @@
           <sp who="#baronesse_bonbonniere">
             <speaker>Bonbonnière:</speaker>
             <p>Diss arm lieb Prinzessel. 
-            <stage>(Grient.)</stage></p>
+            <stage>(Grient.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Gehn, gehn, ihr mache mir ’s Herz noch schwerer.</p>
           </sp>
-          <pb n="53" />
+          <pb n="53"/>
         </div>
         <div type="scene">
           <head>2. Ufftritt,</head>
@@ -3565,7 +3605,8 @@
             <speaker>Opodeldock:</speaker>
             <p>Mir zwinge dich, odder bekummsch Fischtranöl. 
             <stage>(Grüesst.)</stage> Köche Schablür! Köche Schablür! 
-            <stage>(Links ab.)</stage></p>
+            <stage>(Links ab.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
@@ -3607,7 +3648,7 @@
           <sp who="#schablur">
             <speaker>Schablür:</speaker>
             <p>Herr Kinj, wenn dü so wittersch machsch, wurrsch dü mit d’r Zitt sa maauer, dass ’s Vadderun-
-            <pb n="54" />ser durich ’s Schlüesselloch pfiffe kannsch. (Knixt, schnell ab.)</p>
+            <pb n="54"/>ser durich ’s Schlüesselloch pfiffe kannsch. (Knixt, schnell ab.)</p>
           </sp>
           <stage>Kinj (setzt sich noochdenklich).</stage>
           <stage>(Es wurd finschter — Verwandlung.)</stage>
@@ -3626,7 +3667,8 @@
           <sp who="#scharf">
             <speaker>Scharf:</speaker>
             <p>Un ich hab genue for hitt. 
-            <stage>(Stellt d’r Korb ab.)</stage></p>
+            <stage>(Stellt d’r Korb ab.)</stage>
+            </p>
           </sp>
           <sp who="#winmuck">
             <speaker>Winmuck:</speaker>
@@ -3679,7 +3721,7 @@
             <p>Nix ze mache. Mir han Hunger, un jetzt wurd gesse. Wo isch denn d’r Pfannedraauer gebliewe? He,
             Prinz Bäbbelenz! Ich will ebbs brote. He!</p>
           </sp>
-          <pb n="55" />
+          <pb n="55"/>
         </div>
         <div type="scene">
           <head>5. Ufftritt.</head>
@@ -3705,7 +3747,8 @@
             in Trumph, ä in Triumph, haame. 
             <stage>(Grifft mit spitze Finger an de Spitze vum Spiess, krischt.)</stage> Au! Die stecht noch! 
             <stage>(Hüpft erum.)</stage> Auweh! 
-            <stage>(Steckt d’r Finger in’s Müül.)</stage></p>
+            <stage>(Steckt d’r Finger in’s Müül.)</stage>
+            </p>
           </sp>
           <sp who="#alli">
             <speaker>Alli:</speaker>
@@ -3733,18 +3776,21 @@
           <sp who="#prinz_babbelenz_vun_gumberland">
             <speaker>Bäbbelenz:</speaker>
             <p>E Drache! 
-            <stage>(Werft d’r Spiess eweck, links ab.)</stage></p>
+            <stage>(Werft d’r Spiess eweck, links ab.)</stage>
+            </p>
           </sp>
           <sp who="#alli">
             <speaker>Alli:</speaker>
             <p>Bscht! Bscht! 
-            <stage>(Uff de Zehspitze ab links. Lonn Korb un Fässel leje.)</stage></p>
+            <stage>(Uff de Zehspitze ab links. Lonn Korb un Fässel leje.)</stage>
+            </p>
           </sp>
           <sp who="#drache">
             <speaker>Drache:</speaker>
             <p>Ooo-aaa! Ooo-aaa! 
             <stage>(D’ Höhl wurd rot.)</stage> Wer het mich im Schlof gschtört? Ooo-aaah! 
-            <stage>(Höhl wurd dunkel.)</stage></p>
+            <stage>(Höhl wurd dunkel.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -3759,7 +3805,7 @@
             <speaker>Yoyotte:</speaker>
             <p>O die spitzige Felse. Ich kann nimi schritte.</p>
           </sp>
-          <pb n="56" />
+          <pb n="56"/>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Doch dü kannsch, dü muehsch könne. D’r lieb Gott het uns bis jetzt uff unserer witte Reis g’holfe,
@@ -3807,7 +3853,8 @@
           <sp who="#drache">
             <speaker>Drache:</speaker>
             <p>Ooo-aaah! 
-            <stage>(D’ Höhl wurd rot.)</stage></p>
+            <stage>(D’ Höhl wurd rot.)</stage>
+            </p>
           </sp>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
@@ -3834,7 +3881,8 @@
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>E Drache! 
-            <stage>(Packt d’r Spiess, geht langsam geje n'e.)</stage></p>
+            <stage>(Packt d’r Spiess, geht langsam geje n'e.)</stage>
+            </p>
           </sp>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
@@ -3850,11 +3898,12 @@
             noch lang nit. 
             <stage>(Stecht uff n'e.)</stage> Dü versperrsch uns d’r Wäj nit.</p>
           </sp>
-          <pb n="57" />
+          <pb n="57"/>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Himmel helf! 
-            <stage>(Fallt in Ohnmacht.)</stage></p>
+            <stage>(Fallt in Ohnmacht.)</stage>
+            </p>
           </sp>
           <stage>(Es blitzt, dundert.)</stage>
           <sp who="#drache">
@@ -3871,7 +3920,8 @@
           <sp who="#prinz_arcadin_vun_chantalem">
             <speaker>Chantalem:</speaker>
             <p>Was muess ich sehn? Prinzess! O was e Glüeck! Prinzess! Sie isch ohnmächtig, krank. 
-            <stage>(Knejt näwe sie.)</stage></p>
+            <stage>(Knejt näwe sie.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide</speaker>
@@ -3898,7 +3948,8 @@
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Sei gegrüesst, werter Prinz. O was isch mit dr Prinzess? Sie lejt wie tod? 
-            <stage>(Will geje sie.)</stage></p>
+            <stage>(Will geje sie.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_arcadin_vun_chantalem">
             <speaker>Chantalem:</speaker>
@@ -3923,7 +3974,7 @@
             <p>Sei still, dü Prinzessraiwer, dü hesch sie in d’ Wildnis verschleppt. Müx dich nit, sunscht lehrt
             dich miner Sawel e anderi Sproch.</p>
           </sp>
-          <pb n="58" />
+          <pb n="58"/>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Prinz, wenn dü Ehr im Lyb hesch, gibsch d’r Wäj frej!</p>
@@ -3950,19 +4001,22 @@
           <sp who="#prinz_arcadin_vun_chantalem">
             <speaker>Chantalem:</speaker>
             <p>Un ich zaj dir d’r Wäj in d’ Ewigkeit. 
-            <stage>(Stosst.)</stage></p>
+            <stage>(Stosst.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Ah! Ah! 
             <stage>(Hebbt d’ Bruscht.)</stage> Ich bin verwund. 
-            <stage>(Fallt um.)</stage></p>
+            <stage>(Fallt um.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_arcadin_vun_chantalem">
             <speaker>Chantalem:</speaker>
             <stage>(steckt d’r Sawel in d‘ Scheid)</stage>
             <p>So, mit dir bin ich ferdig. Soldate, he! 
-            <stage>(Zwai Soldate bringe e primitivi üss Aescht gemachti Drabär.)</stage></p>
+            <stage>(Zwai Soldate bringe e primitivi üss Aescht gemachti Drabär.)</stage>
+            </p>
           </sp>
           <sp who="#erster_soldat">
             <speaker>1. Soldat:</speaker>
@@ -4001,7 +4055,7 @@
             <speaker>Alli Mickeymiesle:</speaker>
             <p>Geloffe, geloffe, Blodere, Blodere,</p>
           </sp>
-          <pb n="59" />
+          <pb n="59"/>
           <sp who="#kinj_mickey">
             <speaker>Mickey:</speaker>
             <p>Stille. Redde nit soviel.</p>
@@ -4031,11 +4085,12 @@
             <speaker>Mickey:</speaker>
             <p>Kumme, laufe mer schnell an de heilige See, Wasser hole. Viellicht bringe mer ’ne widder zuem
             Läwe. Kinder, näme diss Fässel mit. Schnell! Zwai, drei bliewe do. Halte gueti Wacht, gueti Wacht. 
-            <stage>(Mit de andere Mickey ab links.)</stage></p>
+            <stage>(Mit de andere Mickey ab links.)</stage>
+            </p>
           </sp>
           <stage>Müsik (Mickey-Motif.)</stage>
           <stage>Rideau.</stage>
-          <pb n="60" />
+          <pb n="60"/>
         </div>
       </div>
       <div type="act">
@@ -4074,7 +4129,8 @@
           <sp who="#minischter_gaggele">
             <speaker>Gäggele:</speaker>
             <p>Ja, Herr Kinj. 
-            <stage>(Will ab.)</stage></p>
+            <stage>(Will ab.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene">
@@ -4100,7 +4156,7 @@
             <speaker>Mad. Kinj:</speaker>
             <p>Sie lebt, sie lebt!</p>
           </sp>
-          <pb n="61" />
+          <pb n="61"/>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Was e Glüeck, was e Fraid!</p>
@@ -4108,17 +4164,20 @@
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
             <p>D’r Prinz Arcadin vun Chantalem het unser Kind gebrocht. Hofdame, kumme. 
-            <stage>(Rechts ab.)</stage></p>
+            <stage>(Rechts ab.)</stage>
+            </p>
           </sp>
           <sp who="#baronesse_langue_de_chat">
             <speaker>Langue de chat:</speaker>
             <p>Unseri lieb Prinzess. 
-            <stage>(Ab.)</stage></p>
+            <stage>(Ab.)</stage>
+            </p>
           </sp>
           <sp who="#baronesse_bonbonniere">
             <speaker>Bonbonnière:</speaker>
             <p>Unser Herzenskind. 
-            <stage>(Ab.)</stage></p>
+            <stage>(Ab.)</stage>
+            </p>
           </sp>
           <sp who="#minischter_guggumseck">
             <speaker>Güggumseck:</speaker>
@@ -4127,7 +4186,8 @@
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Hesch recht. 
-            <stage>(Rechts ab.)</stage></p>
+            <stage>(Rechts ab.)</stage>
+            </p>
           </sp>
           <stage>(Alli lebhaft durchenander.)</stage>
           <sp who="#minischter_gaggele">
@@ -4168,7 +4228,8 @@
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Willkumme, willkumme, min Kind. 
-            <stage>(Schmutzt.)</stage></p>
+            <stage>(Schmutzt.)</stage>
+            </p>
           </sp>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
@@ -4207,17 +4268,19 @@
             <speaker>Kinj:</speaker>
             <p>Bringe d’ Prinzess in’s Bett un ruefe d’r Hofmedikus,</p>
           </sp>
-          <pb n="62" />
+          <pb n="62"/>
           <sp who="#kinigin_dificile">
             <speaker>Mad. Kinj:</speaker>
             <p>Isch diss e Kryz! 
-            <stage>(Ab rechts mit de Hofdame.)</stage></p>
+            <stage>(Ab rechts mit de Hofdame.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
             <p>Exküsier, hochangsehner Prinz, dass ich dir noch nit gedankt hab; d’ Fraid vum Vadderherz losst
             alles vergesse. Vun ganzem Herze miner Dank. 
-            <stage>(Umarmt ’ne.)</stage></p>
+            <stage>(Umarmt ’ne.)</stage>
+            </p>
           </sp>
           <sp who="#prinz_arcadin_vun_chantalem">
             <speaker>Chantalem:</speaker>
@@ -4298,7 +4361,7 @@
             <stage>(verschreckt)</stage>
             <p>Was, er lebt? Er lebt?</p>
           </sp>
-          <pb n="63" />
+          <pb n="63"/>
           <sp who="#kinj_mickey">
             <speaker>Mickey:</speaker>
             <p>Er will mit dir redde, er blangt nooch dir un d’r Prinzess.</p>
@@ -4365,7 +4428,7 @@
           <stage>Verwandlung.</stage>
           <stage>Wunderbari Waldgejed: in d’r Mitte e See, yngerahmt vun Lilie un Schilf. Waldbodde. Links e
           Felseestrade mit Felsesitz.</stage>
-          <pb n="64" />
+          <pb n="64"/>
         </div>
         <div type="scene">
           <head>5. Ufftritt.</head>
@@ -4425,7 +4488,7 @@
             verdient hesch. Siehsch denne See? Dort muehsch nyn. Es isch noch e Gnad wo ich dir schenk, dass ich
             dich</p>
           </sp>
-          <pb n="65" />
+          <pb n="65"/>
           <stage>im Gottesurteil üewerloss. Hesch gelöüje, kummsch niemols meh eruff.</stage>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
@@ -4443,7 +4506,8 @@
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
             <p>Halte! Halte! Er isch unschuldig. 
-            <stage>(Sinkt vor d’r Kinj.)</stage></p>
+            <stage>(Sinkt vor d’r Kinj.)</stage>
+            </p>
           </sp>
           <stage>Aristide (versinkt).</stage>
           <stage>(Grossi Paus, wittlos fini Müsik.)</stage>
@@ -4501,7 +4565,7 @@
             hesch. Ich berej min Duehn an dir, edler Prinz. Verzeih! 
             <stage>(Knejt un verschmutzt em d’ Hand.)</stage> Verzeih!</p>
           </sp>
-          <pb n="66" />
+          <pb n="66"/>
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Vun ganzem Herze. Es soll alles vergesse sin. Un dir Kinj Mickey, vielmols merci, denn ohne dini
@@ -4515,7 +4579,8 @@
             <speaker>Kinj:</speaker>
             <p>Prinz Aristide vun Sabatine, verzeih au mir, verzeih. Kumm an min Herz, dü Held. Verzeih
             döüsigmol. 
-            <stage>(Umarmung.)</stage></p>
+            <stage>(Umarmung.)</stage>
+            </p>
           </sp>
           <sp who="#prinzess_yoyotte">
             <speaker>Yoyotte:</speaker>
@@ -4526,7 +4591,8 @@
           <sp who="#prinz_aristide_hofnarr_heidideldum">
             <speaker>Aristide:</speaker>
             <p>Min liebs Prinzessel, min goldigs. 
-            <stage>(Umarmung.)</stage></p>
+            <stage>(Umarmung.)</stage>
+            </p>
           </sp>
           <sp who="#kinj_gourmand">
             <speaker>Kinj:</speaker>
@@ -4542,7 +4608,8 @@
             <speaker>Kinj:</speaker>
             <p>Un dü, Kinj Mickey, wiel dü im Prinz Aristide ’s Läwe gerett hesch, so schenk ich dir zuem Zaiche
             miniere Verehrung mini goldig Staatskett. 
-            <stage>(Laijt sieem um de Hals.)</stage></p>
+            <stage>(Laijt sieem um de Hals.)</stage>
+            </p>
           </sp>
           <stage>Alli Mickey: Qouic! Qouic! Kinj Mickey. Qouic! (Batsche in d’ Händ un hüpse.)</stage>
           <sp who="#kinigin_dificile">

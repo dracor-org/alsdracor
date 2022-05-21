@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
   <teiHeader>
@@ -112,11 +112,9 @@
           </personGrp>
           <listRelation type="personal">
             <relation name="spouses" mutual="#fritz_grinsinger #madame_grinsinger"/>
-            <relation name="parent_of" active="#fritz_grinsinger #madame_grinsinger"
-              passive="#jeannette"/>
+            <relation name="parent_of" active="#fritz_grinsinger #madame_grinsinger" passive="#jeannette"/>
             <relation name="parent_of" active="#fritz_grinsinger #madame_grinsinger" passive="#lisa"/>
-            <relation name="parent_of" active="#fritz_grinsinger #madame_grinsinger"
-              passive="#auguste"/>
+            <relation name="parent_of" active="#fritz_grinsinger #madame_grinsinger" passive="#auguste"/>
             <relation name="related_with" active="#hans_grinsinger" passive="#fritz_grinsinger"/>
             <relation name="related_with" active="#durand" passive="#fritz_grinsinger"/>
             <relation name="parent_of" active="#gauthier" passive="#olga"/>
@@ -154,42 +152,75 @@
       <pb n="7"/>
       <castList>
         <head>Personen.</head>
-        <castItem corresp="#fritz_grinsinger"><role><persName>Fritz <emph rend="italic"
-                >Grinsinger</emph></persName></role>,
+        <castItem corresp="#fritz_grinsinger">
+          <role><persName>Fritz <emph rend="italic">Grinsinger</emph>
+            </persName></role>,
           <roleDesc>Konservenfabrikant</roleDesc>.</castItem>
-        <castItem corresp="#madame_grinsinger"><role><persName><emph rend="italic">Caroline
-                Grinsinger</emph></persName></role>, <roleDesc>seine Frau</roleDesc>.</castItem>
+        <castItem corresp="#madame_grinsinger">
+          <role><persName>
+              <emph rend="italic">Caroline
+                Grinsinger</emph>
+            </persName></role>, <roleDesc>seine Frau</roleDesc>.</castItem>
         <castGroup>
-          <castItem corresp="#jeannette"><role><persName><emph rend="italic">Jeannette
-                  Grinsinger</emph></persName></role>,</castItem>
-          <castItem corresp="#lisa"><role><persName><emph rend="italic">Lisa
-                Grinsinger</emph></persName></role>, </castItem>
+          <castItem corresp="#jeannette">
+            <role><persName>
+                <emph rend="italic">Jeannette
+                  Grinsinger</emph>
+              </persName></role>,</castItem>
+          <castItem corresp="#lisa">
+            <role><persName>
+                <emph rend="italic">Lisa
+                Grinsinger</emph>
+              </persName></role>, </castItem>
           <roleDesc>Kinder der beiden</roleDesc>
         </castGroup>
-        <castItem corresp="#auguste"><role><persName><emph rend="italic">Auguste
-              Grinsinger</emph></persName></role>, <roleDesc>cand. med.</roleDesc></castItem>
-        <castItem corresp="#ehrstein"><role><persName><emph rend="italic">Georges</emph>
-              Ehrstein</persName></role>, <roleDesc>cand. med.</roleDesc></castItem>
-        <castItem corresp="#durand"><role><persName><emph rend="italic">Charles
-              Durand</emph></persName></role>, <roleDesc>Sekretär der Friedensliga in Paris, Neffe
-            Fritz <emph rend="italic">Grinsingers</emph></roleDesc>.</castItem>
-        <castItem corresp="#dr_kneppchen"><role><persName>Dr. Kneppchen</persName></role>,
+        <castItem corresp="#auguste">
+          <role><persName>
+              <emph rend="italic">Auguste
+              Grinsinger</emph>
+            </persName></role>, <roleDesc>cand. med.</roleDesc>
+        </castItem>
+        <castItem corresp="#ehrstein">
+          <role><persName>
+              <emph rend="italic">Georges</emph>
+              Ehrstein</persName></role>, <roleDesc>cand. med.</roleDesc>
+        </castItem>
+        <castItem corresp="#durand">
+          <role><persName>
+              <emph rend="italic">Charles
+              Durand</emph>
+            </persName></role>, <roleDesc>Sekretär der Friedensliga in Paris, Neffe
+            Fritz <emph rend="italic">Grinsingers</emph>
+          </roleDesc>.</castItem>
+        <castItem corresp="#dr_kneppchen">
+          <role><persName>Dr. Kneppchen</persName></role>,
             <roleDesc>Professor der Anthropologie</roleDesc>.</castItem>
-        <castItem corresp="#hans_grinsinger"><role><persName>Hans Grinsinger</persName></role>,
+        <castItem corresp="#hans_grinsinger">
+          <role><persName>Hans Grinsinger</persName></role>,
             <roleDesc>Rentner, früherer Wurstfabrikant in Leipzig</roleDesc>.</castItem>
-        <castItem corresp="#gauthier"><role><persName>Karl Gauthier</persName></role>,
+        <castItem corresp="#gauthier">
+          <role><persName>Karl Gauthier</persName></role>,
             <roleDesc>Beamter, Präsident der Sachsenbundes und Mitglied patriotischer
             Vereine</roleDesc>.</castItem>
-        <castItem corresp="#olga"><role><persName>Olga Gauthier</persName></role>, <roleDesc>stud.
-            phil.</roleDesc></castItem>
-        <castItem corresp="#riemer"><role><persName><emph rend="italic"
-            >Rièmer</emph></persName></role>, <roleDesc>Präsident der <emph rend="italic">Fanfare
-              Alsacienne</emph></roleDesc>.</castItem>
-        <castItem corresp="#de_rose"><role><persName><emph rend="italic">Le baron de
-              Rose</emph></persName></role>, <roleDesc>Sohn des Chef-Redakteurs des <emph
-              rend="italic">Réveil National</emph> in Paris</roleDesc>.</castItem>
-        <castItem corresp="#marie"><role><persName>Marie</persName></role>, <roleDesc>Magd bei Fritz
-              <emph rend="italic">Grinsinger</emph></roleDesc>.</castItem>
+        <castItem corresp="#olga">
+          <role><persName>Olga Gauthier</persName></role>, <roleDesc>stud.
+            phil.</roleDesc>
+        </castItem>
+        <castItem corresp="#riemer">
+          <role><persName>
+              <emph rend="italic">Rièmer</emph>
+            </persName></role>, <roleDesc>Präsident der <emph rend="italic">Fanfare
+              Alsacienne</emph>
+          </roleDesc>.</castItem>
+        <castItem corresp="#de_rose">
+          <role><persName>
+              <emph rend="italic">Le baron de
+              Rose</emph>
+            </persName></role>, <roleDesc>Sohn des Chef-Redakteurs des <emph rend="italic">Réveil National</emph> in Paris</roleDesc>.</castItem>
+        <castItem corresp="#marie">
+          <role><persName>Marie</persName></role>, <roleDesc>Magd bei Fritz
+              <emph rend="italic">Grinsinger</emph>
+          </roleDesc>.</castItem>
         <castItem corresp="#diener">
           <role><persName>Ein Diener</persName></role>
         </castItem>
@@ -200,7 +231,8 @@
           <role><persName>Ein Mitglied des Sachsenbundes</persName></role>
         </castItem>
         <castItem corresp="#ein_mitglied_der_fanfare">
-          <role><persName>Ein Mitglied der <emph rend="italic">Fanfare</emph></persName></role>
+          <role><persName>Ein Mitglied der <emph rend="italic">Fanfare</emph>
+            </persName></role>
         </castItem>
         <castItem corresp="#mitglieder">
           <role><persName>Mitglieder des Sachsenbundes und der Fanfare Alsacienne.</persName></role>
@@ -218,17 +250,14 @@
     <body>
       <div type="act">
         <head>I. Aufzug.</head>
-        <stage>Der erste Aufzug spielt in einem reich möblierten Empfangszimmer der Villa <emph
-            rend="italic">Grinsingers</emph>. Hinten in der Mitte eine grosse Doppeltür, links und
+        <stage>Der erste Aufzug spielt in einem reich möblierten Empfangszimmer der Villa <emph rend="italic">Grinsingers</emph>. Hinten in der Mitte eine grosse Doppeltür, links und
           rechts im Hintergrund Türen, im Vordergrund rechts ein Fenster. Wenn der Vorhang in die
           Höhe geht, sitzt <emph rend="italic">Lisa Grinsinger</emph>, ein junges, hübsches Mädchen
           auf einem Stuhl im Vordergrund des Zimmers, ihr Bruder <emph rend="italic">Auguste</emph>
-          nimmt mit einem Bandmeter anthropometrische Messungen ihres Kopfes vor. <emph
-            rend="italic">Auguste</emph> macht einen etwas pedantischen Eindruck, er ist sehr
+          nimmt mit einem Bandmeter anthropometrische Messungen ihres Kopfes vor. <emph rend="italic">Auguste</emph> macht einen etwas pedantischen Eindruck, er ist sehr
           kurzsichtig und trägt eine Brille. Sein Dialekt ist stark mit deutschen Wendungen
           durchsetzt. <emph rend="italic">Georges</emph> Ehrstein, hübsche jugendliche Erscheinung,
-          notiert die Zahlen, die <emph rend="italic">Auguste</emph> ihm angibt. <emph rend="italic"
-            >Jeannette</emph> die Schwester <emph rend="italic">Lisas</emph> folgt der Messung mit
+          notiert die Zahlen, die <emph rend="italic">Auguste</emph> ihm angibt. <emph rend="italic">Jeannette</emph> die Schwester <emph rend="italic">Lisas</emph> folgt der Messung mit
           Interesse und verwendet keinen Blick von <emph rend="italic">Georges</emph> Ehrstein.
           Hinter dem Rücken <emph rend="italic">Lisas</emph> und <emph rend="italic">Augustes</emph>
           werfen sie sich ab und zu verstohlene Kusshändchen zu.</stage>
@@ -270,9 +299,9 @@
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
-          <p><emph rend="italic">C’est vrai</emph>, ohne die Untersuechunge vun de Köpf vun unserer
-            Fameli, ze wüsste mir’s hytt noch nit, wie d’Fameli <emph rend="italic"
-              >Grinsinger</emph> herestammt.</p>
+          <p>
+            <emph rend="italic">C’est vrai</emph>, ohne die Untersuechunge vun de Köpf vun unserer
+            Fameli, ze wüsste mir’s hytt noch nit, wie d’Fameli <emph rend="italic">Grinsinger</emph> herestammt.</p>
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
@@ -300,17 +329,20 @@
           <speaker>Fritz Grinsinger</speaker>
           <stage>(tritt durch die Mitteltüre ein. Er trägt Reisekostüm, und hat eine leichte
             Reisetasche in der Hand. Er bleibt einen Augenblick still stehen):</stage>
-          <p><emph rend="italic">Nom d'un petit bonhomme</emph>, als noch nit ferti mit dere
+          <p>
+            <emph rend="italic">Nom d'un petit bonhomme</emph>, als noch nit ferti mit dere
             Kopfmesserej ?</p>
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette</speaker>
           <stage>(auf Fritz <emph rend="italic">Grinsinger</emph> zu und ihn umarmend):</stage>
-          <p><emph rend="italic">Bonjour papa</emph>.</p>
+          <p>
+            <emph rend="italic">Bonjour papa</emph>.</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">A l’instant papa</emph>. <stage>(schaut das Metermass nach)</stage>
+          <p>
+            <emph rend="italic">A l’instant papa</emph>. <stage>(schaut das Metermass nach)</stage>
             Jochbreite, zwölf Komma vier Centimeter.</p>
         </sp>
         <sp who="#ehrstein">
@@ -321,7 +353,8 @@
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(auf Fritz <emph rend="italic">Grinsinger</emph> zu):</stage>
-          <p><emph rend="italic">Bonjour papa</emph>!</p>
+          <p>
+            <emph rend="italic">Bonjour papa</emph>!</p>
         </sp>
         <sp who="#lisa">
           <speaker>Lisa</speaker>
@@ -340,8 +373,8 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Papa</emph>, dü erlaubsch, dass ich d’r mine Kolleg <emph
-              rend="italic">Georges</emph> Ehrstein vorstell. <stage>(Ehrstein verneigt
+          <p>
+            <emph rend="italic">Papa</emph>, dü erlaubsch, dass ich d’r mine Kolleg <emph rend="italic">Georges</emph> Ehrstein vorstell. <stage>(Ehrstein verneigt
               sich)</stage>, wie im Herr Professor Dr. Kneppchen unn mir arrig an d'Hand
             gange-n-isch bie d’r anthropologische Messunge.</p>
         </sp>
@@ -372,14 +405,16 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Eh bien</emph>, in d’r Wisseschaft ruckt m’r ererscht mit d’r
+          <p>
+            <emph rend="italic">Eh bien</emph>, in d’r Wisseschaft ruckt m’r ererscht mit d’r
             Sprooch erüs, zue wellem Zweck m’r e Forschung macht, wenn m’r e griffbars Resültat
             erzielt hett.</p>
         </sp>
         <pb n="12"/>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Eh bien</emph>, han’r’s jetzt diss griffbar Resültat? Ich mein es
+          <p>
+            <emph rend="italic">Eh bien</emph>, han’r’s jetzt diss griffbar Resültat? Ich mein es
             wär höchsti Zytt!</p>
         </sp>
         <sp who="#ehrstein">
@@ -442,8 +477,7 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Jetzt glauwich awwer doch ball, dass’r e Käfer do owwe-n-im <emph rend="italic"
-              >Plafond</emph> han! <stage>(lacht wieder)</stage> nein, diss isch jetzt emol zue
+          <p>Jetzt glauwich awwer doch ball, dass’r e Käfer do owwe-n-im <emph rend="italic">Plafond</emph> han! <stage>(lacht wieder)</stage> nein, diss isch jetzt emol zue
             einfältig!</p>
         </sp>
         <sp who="#auguste">
@@ -462,7 +496,8 @@
         <sp who="#olga">
           <speaker>Olga</speaker>
           <stage>(Typus einer Studentin kommt mit einer Mappe unter dem Arm von rechts):</stage>
-          <p><emph rend="italic">Pardon</emph>, wenn ich derangier.</p>
+          <p>
+            <emph rend="italic">Pardon</emph>, wenn ich derangier.</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
@@ -480,8 +515,7 @@
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
           <p>Im Auesblick <stage>(zu Fritz <emph rend="italic">Grinsinger</emph>)</stage>
-            <emph rend="italic">Tu permets papa</emph>, dass ich dir d’Mamsell <emph rend="italic"
-              >Gauthier</emph> vorstell, Stüdentin der Philologie. Sie helft im Professor Kneppchen
+            <emph rend="italic">Tu permets papa</emph>, dass ich dir d’Mamsell <emph rend="italic">Gauthier</emph> vorstell, Stüdentin der Philologie. Sie helft im Professor Kneppchen
             bie d’r Abfassung vunn sim Werik.</p>
         </sp>
         <sp who="#olga">
@@ -490,13 +524,13 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Gauthier</emph> heisse Sie? Sin Sie ebbe in Famili mit’m Herr <emph
-              rend="italic">Gauthier, capitaine en retraite? ..</emph></p>
+          <p>
+            <emph rend="italic">Gauthier</emph> heisse Sie? Sin Sie ebbe in Famili mit’m Herr <emph rend="italic">Gauthier, capitaine en retraite? ..</emph>
+          </p>
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
-          <p>Nein, minner Babbe isch Beamter unn isch e geborener Sachs, er isch <emph rend="italic"
-              >même</emph> Präsident vum Sachsebund. Ejentlich heisse m’r Gauthier, awwer’sisch so e
+          <p>Nein, minner Babbe isch Beamter unn isch e geborener Sachs, er isch <emph rend="italic">même</emph> Präsident vum Sachsebund. Ejentlich heisse m’r Gauthier, awwer’sisch so e
             fuerichter Namme.</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -543,8 +577,7 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Do hett m’r miner Generalvertreter in Leipzig minsex e lätze <emph rend="italic"
-              >crampon</emph> vum e Vetter in’s Hüs gschickt! Diss isch m’r jetzt emol e lätzi
+          <p>Do hett m’r miner Generalvertreter in Leipzig minsex e lätze <emph rend="italic">crampon</emph> vum e Vetter in’s Hüs gschickt! Diss isch m’r jetzt emol e lätzi
             Visit,</p>
         </sp>
         <sp who="#jeannette">
@@ -591,8 +624,7 @@
         <pb n="15"/>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p>Er kummt direkt vun Genf. Er isch uff d’r Friddeskonferenz gsin, wi <emph rend="italic"
-              >d’ligue de la paix</emph> organisiert hett.</p>
+          <p>Er kummt direkt vun Genf. Er isch uff d’r Friddeskonferenz gsin, wi <emph rend="italic">d’ligue de la paix</emph> organisiert hett.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -626,7 +658,8 @@
         <sp who="#ehrstein">
           <speaker>Ehrstein</speaker>
           <stage>(von rechts kommend):</stage>
-          <p><emph rend="italic">Pardon mademoiselle Jeanne</emph>, ich sott ehb dass ich heimgeh
+          <p>
+            <emph rend="italic">Pardon mademoiselle Jeanne</emph>, ich sott ehb dass ich heimgeh
             notwendi noch emol e paar Mess vun Ihrem Kopf noochmesse, wenn Sie d’rmit inverstande
             sin.</p>
         </sp>
@@ -658,7 +691,8 @@
         <sp who="#lisa">
           <speaker>Lisa</speaker>
           <stage>(schelmisch lachend):</stage>
-          <p><emph rend="italic">Jeannette</emph> un ich will d’r Mamme telephoniere, dass sie
+          <p>
+            <emph rend="italic">Jeannette</emph> un ich will d’r Mamme telephoniere, dass sie
             heimekummt. <stage>(abgehend nach links)</stage> Sie wäre nix d’rgeje han!</p>
         </sp>
         <sp who="#ehrstein">
@@ -677,8 +711,7 @@
         <sp who="#ehrstein">
           <speaker>Ehrstein</speaker>
           <stage>(lachend):</stage>
-          <p>Zue verruckt hett d’r Babbe g’saat! — Ich hab’m nit welle widderredde. Ich find <emph
-              rend="italic">au contraire</emph>, dass’s ebs vernünftigers, ebs netters un ebs
+          <p>Zue verruckt hett d’r Babbe g’saat! — Ich hab’m nit welle widderredde. Ich find <emph rend="italic">au contraire</emph>, dass’s ebs vernünftigers, ebs netters un ebs
             bequemers gar nit gän kann! <emph rend="italic">En particulier</emph> for e Liewespäärel
             wie mir zwei! — Gell <emph rend="italic">Jeannette</emph>?</p>
         </sp>
@@ -697,8 +730,7 @@
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
-          <p>Sie hett de Professor Kneppchen do in’s Elsass gführt, in’s Hüs vun minere <emph
-              rend="italic">bien-aimée</emph>?! Vun minere <emph rend="italic">Jeannette</emph>!</p>
+          <p>Sie hett de Professor Kneppchen do in’s Elsass gführt, in’s Hüs vun minere <emph rend="italic">bien-aimée</emph>?! Vun minere <emph rend="italic">Jeannette</emph>!</p>
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
@@ -733,7 +765,8 @@
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
-          <p><emph rend="italic">C’est ça ma chère</emph>!</p>
+          <p>
+            <emph rend="italic">C’est ça ma chère</emph>!</p>
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
@@ -741,7 +774,8 @@
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
-          <p><emph rend="italic">A propos Jeannette</emph>, was meinsch, soll ich glich hytt mini
+          <p>
+            <emph rend="italic">A propos Jeannette</emph>, was meinsch, soll ich glich hytt mini
               <emph rend="italic">demande</emph> mache bi dim Babbe, odder soll ich noch warte?</p>
         </sp>
         <sp who="#jeannette">
@@ -759,12 +793,12 @@
         <sp who="#jeannette">
           <speaker>Jeannette</speaker>
           <stage>(abwehrend):</stage>
-          <p><emph rend="italic">Georges</emph>, isch diss widder e Schadenersatz?! —</p>
+          <p>
+            <emph rend="italic">Georges</emph>, isch diss widder e Schadenersatz?! —</p>
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
-          <p>Nein, diss isch e-n-Abschlagzahlung uff unseri küenftig <emph rend="italic"
-              >fiançailles</emph>!</p>
+          <p>Nein, diss isch e-n-Abschlagzahlung uff unseri küenftig <emph rend="italic">fiançailles</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
@@ -779,8 +813,7 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Ja, ja, Querschnitt fufzeh Centimeter! — Schmecksch de <emph rend="italic"
-              >Büchon</emph>! — Ah, do wills nüs?! Die Kopfmesserej, diss schient m’r au noch die
+          <p>Ja, ja, Querschnitt fufzeh Centimeter! — Schmecksch de <emph rend="italic">Büchon</emph>! — Ah, do wills nüs?! Die Kopfmesserej, diss schient m’r au noch die
             richtig Erfindung ze sin! — Ah, do leijt d’r Has im Pfeffer?! —</p>
         </sp>
         <pb n="18"/>
@@ -808,7 +841,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Eh bien</emph>, unn ich hab e-n-Entdeckung gemacht, unn die isch
+          <p>
+            <emph rend="italic">Eh bien</emph>, unn ich hab e-n-Entdeckung gemacht, unn die isch
             nit wisseschaftlich gsin, unn Fraid hett sie m’r au kenni gemacht, so unn dass Sie’s
             wisse, vun hytt ab höert m’r die Kopfmesserej uff in mim Hüs. Gehn Sie in anderi Hieser,
             unn messe Sie mit Ihrem Schueschtermess in andere Familie d’Köpf vun de Töchter awwer
@@ -826,8 +860,8 @@
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
-          <p><emph rend="italic">Au fait</emph>, worum do langi Gschichte mache. Ja, Herr <emph
-              rend="italic">Grinsinger</emph>, so isch’s un ich halt domit offiziell um d’Hand vun
+          <p>
+            <emph rend="italic">Au fait</emph>, worum do langi Gschichte mache. Ja, Herr <emph rend="italic">Grinsinger</emph>, so isch’s un ich halt domit offiziell um d’Hand vun
             Ihrer Tochter an. <emph rend="italic">s’Jeannette</emph> unn ich mir han uns gern.</p>
         </sp>
         <sp who="#jeannette">
@@ -837,12 +871,14 @@
         <pb n="19"/>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">En effet</emph>, Sie mache jo kenn langi Gschichte, unn ich awwer
+          <p>
+            <emph rend="italic">En effet</emph>, Sie mache jo kenn langi Gschichte, unn ich awwer
             au nit, unn saa Ihne: Nein junger Mann! Do isch gar nit dran ze denke!</p>
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette</speaker>
-          <p><emph rend="italic">Papa</emph>, mach uns nit unglüecklich!</p>
+          <p>
+            <emph rend="italic">Papa</emph>, mach uns nit unglüecklich!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -885,9 +921,9 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(Ehrstein hastig unterbrechend):</stage>
-          <p><emph rend="italic">Pardon</emph>, dass ich Sie unterbrech, erschtens bin ich noch lang
-            nit Ihr Liewer und zweitens heiss ich nit Grinsinger, ich heiss <emph rend="italic"
-              >Grinsinger</emph>. So unn jetzt noch e kleini Fröuj: Könne Sie mir verlicht saaue, wo
+          <p>
+            <emph rend="italic">Pardon</emph>, dass ich Sie unterbrech, erschtens bin ich noch lang
+            nit Ihr Liewer und zweitens heiss ich nit Grinsinger, ich heiss <emph rend="italic">Grinsinger</emph>. So unn jetzt noch e kleini Fröuj: Könne Sie mir verlicht saaue, wo
             Sie Ihre Huet han unn Ihr Stock oder Paraplui?</p>
         </sp>
         <pb n="20"/>
@@ -906,8 +942,7 @@
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
-          <p>Ich versteh Ihre Wink mit’m Dreschfleijel. Ich geh Herr <emph rend="italic"
-              >Grinsinger</emph>. Sie könne-n-awwer versichert sin, ich wur nit ruehje, bis
+          <p>Ich versteh Ihre Wink mit’m Dreschfleijel. Ich geh Herr <emph rend="italic">Grinsinger</emph>. Sie könne-n-awwer versichert sin, ich wur nit ruehje, bis
             d’Mamsell <emph rend="italic">Jeanne</emph> mini Frau unn Sie min Schwejerbabbe sin!</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -925,12 +960,15 @@
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
-          <p><emph rend="italic">Merci ma chère! Et au revoir</emph>!</p>
+          <p>
+            <emph rend="italic">Merci ma chère! Et au revoir</emph>!</p>
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
-          <p><emph rend="italic">Au revoir</emph>! <stage>(<emph rend="italic">Georges</emph>
-              ab.)</stage></p>
+          <p>
+            <emph rend="italic">Au revoir</emph>! <stage>(<emph rend="italic">Georges</emph>
+              ab.)</stage>
+          </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -949,23 +987,23 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
-          <p><stage>(behäbige Parvenüsgattin im Stadtanzug durch die Mitte herein, während sie
-              spricht setzt sie ihren Hut ab. Zuvor küsst sie ihren Mann.)</stage><emph
-              rend="italic"> Bonjour</emph> Männel! Wie geht’s? ’s Lisa hett m’r in’s <emph
-              rend="italic">Rièmers</emph> telephoniert, dass dü do bisch. Awwer was hesch denn,
+          <p>
+            <stage>(behäbige Parvenüsgattin im Stadtanzug durch die Mitte herein, während sie
+              spricht setzt sie ihren Hut ab. Zuvor küsst sie ihren Mann.)</stage>
+            <emph rend="italic"> Bonjour</emph> Männel! Wie geht’s? ’s Lisa hett m’r in’s <emph rend="italic">Rièmers</emph> telephoniert, dass dü do bisch. Awwer was hesch denn,
             gell dü bisch nit guet gelünt ?</p>
         </sp>
         <pb n="21"/>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
           <p>E Wunder un e Kunscht! Alles im lätze Gleich, wie ich heimkumm! Verwitsch ich do
-            e-n-üwwerzwerichene, hergeloffene Stüdent üs d’r Krütenau, wie’r unser <emph
-              rend="italic">Jeannette</emph> verschmutzt!</p>
+            e-n-üwwerzwerichene, hergeloffene Stüdent üs d’r Krütenau, wie’r unser <emph rend="italic">Jeannette</emph> verschmutzt!</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
           <stage>(empört):</stage>
-          <p><emph rend="italic">O ça c’est fort</emph>! Diss isch awwer e stariks Stück!</p>
+          <p>
+            <emph rend="italic">O ça c’est fort</emph>! Diss isch awwer e stariks Stück!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -980,24 +1018,22 @@
           <stage>(freudig):</stage>
           <p>Oho, ’s Gejedeil vum <emph rend="italic">contraire</emph>! Wenn ich an denne Uffenthalt
             zeruckdenk, ze kumm ich <emph rend="italic">même</emph> widder in e ganz anderi Lün.
-            Miner <emph rend="italic">séjour</emph> in Paris isch grossartig verloffe! <emph
-              rend="italic">On m'a fait une réception! C'était phénoménal</emph>, ’s isch grossartig
+            Miner <emph rend="italic">séjour</emph> in Paris isch grossartig verloffe! <emph rend="italic">On m'a fait une réception! C'était phénoménal</emph>, ’s isch grossartig
             gsin!</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Tant mieux</emph>! Diss macht m’r jetzt Fraid!</p>
+          <p>
+            <emph rend="italic">Tant mieux</emph>! Diss macht m’r jetzt Fraid!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>D’r <emph rend="italic">Baron de Rose</emph>, d’r Chefredakteur vum <emph rend="italic"
-              >Réveil National</emph>, hett mich mit der <emph rend="italic">Duchesse de
+          <p>D’r <emph rend="italic">Baron de Rose</emph>, d’r Chefredakteur vum <emph rend="italic">Réveil National</emph>, hett mich mit der <emph rend="italic">Duchesse de
               Montplaisir</emph> bekannt gemacht.</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p>Was, e <emph rend="italic">duchesse</emph> hesch dü kenne lehre? E rechti <emph
-              rend="italic">duchesse</emph>?!</p>
+          <p>Was, e <emph rend="italic">duchesse</emph> hesch dü kenne lehre? E rechti <emph rend="italic">duchesse</emph>?!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1009,7 +1045,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">J’espère</emph>! Diss soll nix sin!</p>
+          <p>
+            <emph rend="italic">J’espère</emph>! Diss soll nix sin!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1019,13 +1056,12 @@
         <pb n="22"/>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p>Do fraj ich mich schun druff. Dü ladsch sie no hoffentlich zuem Esse-n-in. <emph
-              rend="italic">Tu l’inviteras ?</emph></p>
+          <p>Do fraj ich mich schun druff. Dü ladsch sie no hoffentlich zuem Esse-n-in. <emph rend="italic">Tu l’inviteras ?</emph>
+          </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Awwer selbstverständli, mit’m <emph rend="italic">comité</emph> vun d’r <emph
-              rend="italic">Fanfare. Enfin</emph>, wie dü siehsch hawich d'finscht Pariser
+          <p>Awwer selbstverständli, mit’m <emph rend="italic">comité</emph> vun d’r <emph rend="italic">Fanfare. Enfin</emph>, wie dü siehsch hawich d'finscht Pariser
             Gsellschaft kenne gelehrt.</p>
         </sp>
         <sp who="#marie">
@@ -1040,7 +1076,8 @@
         <sp who="#riemer">
           <speaker>Rièmer</speaker>
           <stage>(älterer Herr, würdiges Aussehen):</stage>
-          <p><emph rend="italic">Bonjour mon cher ami, bonjour chère madame</emph>. Grad hör ich,
+          <p>
+            <emph rend="italic">Bonjour mon cher ami, bonjour chère madame</emph>. Grad hör ich,
             dass dü üs Paris zeruck bisch. Dü siehsch e bissel angegriffe-n-üs.</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -1052,14 +1089,16 @@
             <emph rend="italic">Grande soirée hier chez la Duchesse de Montplaisir. Très remarqué
               dans la Société le grand industriel alsacien Grinsinger, le patriote alsacien bien
               connu</emph>. <stage>(steckt die Zeitung in die Tasche und zieht aus der andern Tasche
-              die <emph rend="italic">„Presse“)</emph></stage> Un do les emol denne-n-Artikel in d’r
+              die <emph rend="italic">„Presse“)</emph>
+            </stage> Un do les emol denne-n-Artikel in d’r
               <emph rend="italic">„Presse“. „Non! La protestation n'est pas morte, nous avons eu la
               bonne fortune d'interviewer Monsieur Grinsinger, le patriote alsacien“...</emph>
             siehsch, sie heisse mich einfach numme noch <emph rend="italic">„le patriote
               alsacien“.</emph>
             <stage>(liest weiter in der <emph rend="italic">Presse</emph>.)</stage> Unn zuem Schluss
             vun dem Artikel heisst’s: <emph rend="italic">„Et dire qu’un homme pareil n’est pas
-              encore décoré!“</emph></p>
+              encore décoré!“</emph>
+          </p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
@@ -1067,7 +1106,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">C’est vrai</emph>, awwer der Satz wurd sini Giltigkeit nimmi lang
+          <p>
+            <emph rend="italic">C’est vrai</emph>, awwer der Satz wurd sini Giltigkeit nimmi lang
             bhalte . . . .</p>
         </sp>
         <sp who="#riemer">
@@ -1100,24 +1140,18 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
           <p>Z’erscht han sie m’r d’r <emph rend="italic">mérite agricole</emph> welle gän, wyll ich
-            Konserve fabrizier, ich hab mich awwer nit d’rfor decidiere könne. Nitwohr, d’r <emph
-              rend="italic">Mérite agricole</emph> kann jeder Bür han, unn d’rno <emph rend="italic"
-              >officier d'académie</emph>, diss klingt au besser. <emph rend="italic"
-              >Officier</emph> klingt besser wie <emph rend="italic">mérite</emph> unn <emph
-              rend="italic">académie</emph> besser wie <emph rend="italic">agricole</emph>.</p>
+            Konserve fabrizier, ich hab mich awwer nit d’rfor decidiere könne. Nitwohr, d’r <emph rend="italic">Mérite agricole</emph> kann jeder Bür han, unn d’rno <emph rend="italic">officier d'académie</emph>, diss klingt au besser. <emph rend="italic">Officier</emph> klingt besser wie <emph rend="italic">mérite</emph> unn <emph rend="italic">académie</emph> besser wie <emph rend="italic">agricole</emph>.</p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">Enfin</emph> dü bisch e <emph rend="italic">veinard</emph>, diss
-            muess m’r saaue! <emph rend="italic">A propos</emph>, hesch au eso e Wörtel <emph
-              rend="italic">en passant</emph> falle lon for mich? Nit dass ich m’r bsunderi
-            Verdienschte zueschrieb, awwer nit wohr als langjähriger Präsident vun d’r <emph
-              rend="italic">Fanfare</emph>.</p>
+          <p>
+            <emph rend="italic">Enfin</emph> dü bisch e <emph rend="italic">veinard</emph>, diss
+            muess m’r saaue! <emph rend="italic">A propos</emph>, hesch au eso e Wörtel <emph rend="italic">en passant</emph> falle lon for mich? Nit dass ich m’r bsunderi
+            Verdienschte zueschrieb, awwer nit wohr als langjähriger Präsident vun d’r <emph rend="italic">Fanfare</emph>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Loss mich numme mache. <emph rend="italic">Voilà</emph> mon <emph rend="italic"
-              >stratagême</emph> Am nächste Sundaa, ze kummt d’r Sohn vum <emph rend="italic">baron
+          <p>Loss mich numme mache. <emph rend="italic">Voilà</emph> mon <emph rend="italic">stratagême</emph> Am nächste Sundaa, ze kummt d’r Sohn vum <emph rend="italic">baron
               de Rose</emph> zue mir uff Visit uff min Landhüs bie Barr. Er blieht ebbe zeh Daa do,
             er will nämlich e Roman üewwer’s Elsass schriewe, unn bie dere Geläjeheit, ze möcht ich
             gern <emph rend="italic">d’Fanfare</emph> inlade.</p>
@@ -1128,7 +1162,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">On organisera une de ces bonnes fêtes alsaciennes</emph>, for dass
+          <p>
+            <emph rend="italic">On organisera une de ces bonnes fêtes alsaciennes</emph>, for dass
             d’r <emph rend="italic">baron de Rose</emph> sieht, was e-n-elsässischi Societät isch.
             D’rno kann d’r <pb n="24"/>
             <emph rend="italic">baron de Rose e-n-entrefilet</emph> drüewwer in d’Zittung bringe.
@@ -1136,7 +1171,8 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">A la bonne heure</emph>!</p>
+          <p>
+            <emph rend="italic">A la bonne heure</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1145,32 +1181,33 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">Je te félicite</emph>.</p>
+          <p>
+            <emph rend="italic">Je te félicite</emph>.</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">N'est-ce pas</emph>, m’r muess sini Töchter in Frankrich
+          <p>
+            <emph rend="italic">N'est-ce pas</emph>, m’r muess sini Töchter in Frankrich
             verhierothe, hie hett’s nit viel Rar’s an junge Lytt!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Unn wenn’s <emph rend="italic">Lisa</emph> verhieroth isch, d’rno kummt s’ <emph
-              rend="italic">Jeannette</emph> an d’Reih, for in’s hawich e-n-Offizier im Au.</p>
+          <p>Unn wenn’s <emph rend="italic">Lisa</emph> verhieroth isch, d’rno kummt s’ <emph rend="italic">Jeannette</emph> an d’Reih, for in’s hawich e-n-Offizier im Au.</p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">Charmant</emph>!</p>
+          <p>
+            <emph rend="italic">Charmant</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Unn d’rno for mine Sohn, do hawich gedenkt, dass’s an d’r Zytt wär, dass m’r diss <emph
-              rend="italic">projet</emph> realisiere thäte, wie m’r’s letscht so <emph rend="italic"
-              >en passant</emph> d’rvun geredd hann unn dass’r sich mit dinere Tochter fianciere
+          <p>Unn d’rno for mine Sohn, do hawich gedenkt, dass’s an d’r Zytt wär, dass m’r diss <emph rend="italic">projet</emph> realisiere thäte, wie m’r’s letscht so <emph rend="italic">en passant</emph> d’rvun geredd hann unn dass’r sich mit dinere Tochter fianciere
             thät.</p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">En effet</emph>, es wär zue schöen, wenn die zwei guete elsässische
+          <p>
+            <emph rend="italic">En effet</emph>, es wär zue schöen, wenn die zwei guete elsässische
             Familie <emph rend="italic">Rièmer</emph> unn <emph rend="italic">Grinsinger</emph>
             verschwäjert thäte wäre Ja, hesch’m schun d’rvun geredd ?</p>
         </sp>
@@ -1180,13 +1217,14 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">Sais tu quoi</emph>? Ich lad ’ne Morje zuem z'Middaesse-n-in</p>
+          <p>
+            <emph rend="italic">Sais tu quoi</emph>? Ich lad ’ne Morje zuem z'Middaesse-n-in</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">C'est cela</emph>, ich acceptier for ’ne mit Fraide. Diss wär
-            wiriklich zue charmant, wenn m’r am End gar am Sunndaa, wenn <emph rend="italic"
-              >d’Fanfare</emph> kummt, e Doppelhochzitt proklamiere könnte.</p>
+          <p>
+            <emph rend="italic">C'est cela</emph>, ich acceptier for ’ne mit Fraide. Diss wär
+            wiriklich zue charmant, wenn m’r am End gar am Sunndaa, wenn <emph rend="italic">d’Fanfare</emph> kummt, e Doppelhochzitt proklamiere könnte.</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
@@ -1195,7 +1233,8 @@
         <pb n="25"/>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Ce serait une apothéose</emph>, wo for dich verlicht e violetts
+          <p>
+            <emph rend="italic">Ce serait une apothéose</emph>, wo for dich verlicht e violetts
             Bändele bedytte könnt, denn d’r Babbe vum <emph rend="italic">Baron de Rose</emph>, wie
             kummt, hett e lange-n-Arm.</p>
         </sp>
@@ -1214,8 +1253,10 @@
         <sp who="#riemer">
           <speaker>Rièmer</speaker>
           <stage>(gibt ihm die Hand):</stage>
-          <p><emph rend="italic">Et au revoir cher ami. Au revoir Madame</emph>.
-            <stage>(ab)</stage></p>
+          <p>
+            <emph rend="italic">Et au revoir cher ami. Au revoir Madame</emph>.
+            <stage>(ab)</stage>
+          </p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
@@ -1225,7 +1266,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Spiritueuse</emph>!! — <emph rend="italic">Spirituelle</emph> witt
+          <p>
+            <emph rend="italic">Spiritueuse</emph>!! — <emph rend="italic">Spirituelle</emph> witt
             dü saaue?!</p>
         </sp>
         <sp who="#madame_grinsinger">
@@ -1235,9 +1277,7 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
           <p>Wenn dü eso französch reddsch, wenn d’r <emph rend="italic">baron de Rose</emph> kummt,
-            wurd der ebbs netts denke! Dü verhunz’sch m’r noch mini ganz <emph rend="italic"
-              >carrière</emph>! Ich bin im Stand unn mach’s noch wie d’r <emph rend="italic"
-              >Napoléon premier</emph>, wie’r uff d’r Höh isch gsin, unn loss mich vun d’r
+            wurd der ebbs netts denke! Dü verhunz’sch m’r noch mini ganz <emph rend="italic">carrière</emph>! Ich bin im Stand unn mach’s noch wie d’r <emph rend="italic">Napoléon premier</emph>, wie’r uff d’r Höh isch gsin, unn loss mich vun d’r
             scheide!</p>
         </sp>
         <sp who="#madame_grinsinger">
@@ -1253,7 +1293,8 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><stage>(zurückkehrend): </stage> E, Mildebikl noch emol, wer kenn Gedanke hett, der
+          <p>
+            <stage>(zurückkehrend): </stage> E, Mildebikl noch emol, wer kenn Gedanke hett, der
             hett Füess. Ich bin ewwe ajetlich kumme, for ze fröuje, ob dü definitiv decidiert bisch,
             kenn Kandidatür for de Gemeinderoth anzenemme ?</p>
         </sp>
@@ -1287,18 +1328,17 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
           <p>Wie so?! — Wer kann e-n-Intresse dran han, diss erüszeförschle? — Üsser dir weiss ’s
-            kenn Seel unn kenn Mensch, nit emol mini Kinder wisse’s, dass so e-n-<emph rend="italic"
-              >de Damoclès</emph> üewwer mir hängt.</p>
+            kenn Seel unn kenn Mensch, nit emol mini Kinder wisse’s, dass so e-n-<emph rend="italic">de Damoclès</emph> üewwer mir hängt.</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">De quel</emph> Sawel <emph rend="italic">parles-tu la</emph>? Vun
+          <p>
+            <emph rend="italic">De quel</emph> Sawel <emph rend="italic">parles-tu la</emph>? Vun
             was for’me Sawel reddsch dü do?</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Dü hesch jetzt emol doch gar kenn Bildung! Vum Sawel vum <emph rend="italic"
-              >Damoclès</emph>.</p>
+          <p>Dü hesch jetzt emol doch gar kenn Bildung! Vum Sawel vum <emph rend="italic">Damoclès</emph>.</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
@@ -1311,7 +1351,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Ah, comme ça</emph>! — Ah, zellewäj !</p>
+          <p>
+            <emph rend="italic">Ah, comme ça</emph>! — Ah, zellewäj !</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1325,7 +1366,8 @@
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
           <stage>(besorgt):</stage>
-          <p><emph rend="italic">Qui sait</emph>! Wer weiss! Wer weiss!</p>
+          <p>
+            <emph rend="italic">Qui sait</emph>! Wer weiss! Wer weiss!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1334,7 +1376,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Eh bien</emph>, dass’s grad weisch, in dere Zytt, wie dü in Paris
+          <p>
+            <emph rend="italic">Eh bien</emph>, dass’s grad weisch, in dere Zytt, wie dü in Paris
             bisch g’sin, isch’s erüskumme. <emph rend="italic">C’est</emph> hüsse, ’s isch alles
             hüsse!</p>
         </sp>
@@ -1366,8 +1409,7 @@
           <speaker>Madame Grinsinger:</speaker>
           <p>Ei, sie han doch dine Kopf gemesse, ehb dass dü uff Paris bisch, un do han sie’s an dim
             Kopf gsehn, dass dü vun ditscher Ab-<pb n="28"/> stammung bisch. D’rno hett mich d’r
-            Dokter Kneppchen gfröut, ob ich ebs wisst, wie dinni Familli herestammt, <emph
-              rend="italic">si je savais quelque chose</emph>? </p>
+            Dokter Kneppchen gfröut, ob ich ebs wisst, wie dinni Familli herestammt, <emph rend="italic">si je savais quelque chose</emph>? </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1378,14 +1420,12 @@
           <speaker>Madame Grinsinger:</speaker>
           <p>O nein, ich hab <emph rend="italic">au contraire</emph> gsaat, <emph rend="italic">j'ai
               dit</emph>, ich weis nit, d’rno hettr Noochforschunge angstellt, unn isch am e scheene
-            Daa ganz stolz mit de Geburtsschien vun dine-n-Eltere angewalzt kumme. <emph
-              rend="italic">C’est comme ça</emph>!</p>
+            Daa ganz stolz mit de Geburtsschien vun dine-n-Eltere angewalzt kumme. <emph rend="italic">C’est comme ça</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
           <p>Diss soll m’r jetzt nix sin, isch m’r jetzt diss e <emph rend="italic">nouvelle</emph>!
-            Wenn diss <emph rend="italic">d'Fanfare</emph> erfahrt, wenn diss d’r <emph
-              rend="italic">Baron de Rose</emph> erfahrt, wenn diss <emph rend="italic">d’Duchesse
+            Wenn diss <emph rend="italic">d'Fanfare</emph> erfahrt, wenn diss d’r <emph rend="italic">Baron de Rose</emph> erfahrt, wenn diss <emph rend="italic">d’Duchesse
               de Montplaisir</emph> um <emph rend="italic">d’Diane de Bougival</emph> erfahre, do
             bin i verlore, geliffert, s’stüerzt Alles mit m’r zsamme! D’Welt geht mit mir unter!
             Nein, dass m’r miner Generalagent in Leipzig denne lätzgedräijte Professor in’s Hüs
@@ -1564,16 +1604,19 @@
           <p>Na, diss soll m’r emol jetzt nix sin! Wenn nur glich e Millionedunderweschbel in die
             sächsisch Verwandtschaft ninschlaaue tät! Diss sin m’r jo schöeni Üssichte!
                 <stage>(<emph rend="italic">Jeannette</emph> und <emph rend="italic">Lisa</emph>
-              kommen von links, <emph rend="italic">Auguste</emph> von rechts.)</stage></p>
+              kommen von links, <emph rend="italic">Auguste</emph> von rechts.)</stage>
+          </p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Mon Dieu</emph>!</p>
+          <p>
+            <emph rend="italic">Mon Dieu</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(mit Wärme zu seinen Kindern):</stage>
-          <p><emph rend="italic">Jeannette, Lisa, Auguste, Lisa</emph>, Kinder!</p>
+          <p>
+            <emph rend="italic">Jeannette, Lisa, Auguste, Lisa</emph>, Kinder!</p>
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
@@ -1598,7 +1641,8 @@
         <pb n="32"/>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Pardon Papa</emph>, e Gelehrter wie d'Wisseschaft stolz druff kann
+          <p>
+            <emph rend="italic">Pardon Papa</emph>, e Gelehrter wie d'Wisseschaft stolz druff kann
             sin!</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -1626,14 +1670,14 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(wütend):</stage>
-          <p><emph rend="italic">C’est cela</emph>, do han m’r’s! So, diss hawich m’r jo gedenkt,
+          <p>
+            <emph rend="italic">C’est cela</emph>, do han m’r’s! So, diss hawich m’r jo gedenkt,
             dass’r m’r diss jetzt alle gelte uff de Flade striche wäre! — Guet wie’r ’s doch wisse,
             ja mini Eltre sin Sachse gsin, awwer do hawwich doch e bigott nundebuckel nochemol nix
             d’rfor könnt, mini Eltre könne sin gsin, was sie welle, diss gitt mich nix an. Ich hab
             mine-n-Eltre do drüewwer kenn Vorschrifte ze mache ghett, wie sie here han solle sin.
             Awwer was mich anbelangt, ze bin ich kenn Sachs, ich bin e-n-Elsässer, ich bin do vor
-            siewwezig gebore, miner Geburtschyn wiest’s! Unn do d’rmit Punktum! <emph rend="italic"
-              >Mais n’importe</emph>, es muess alles gemacht wäre, for dass die Sach nit erüs kummt
+            siewwezig gebore, miner Geburtschyn wiest’s! Unn do d’rmit Punktum! <emph rend="italic">Mais n’importe</emph>, es muess alles gemacht wäre, for dass die Sach nit erüs kummt
             vun minere Abstammung. Grad jetzt, wie ich so noht am Ziel steh, derfs nit erüskumme,
             jetzt wo ich in Paris als einer vun de erschte Pfieler vum Elsass gelt, wie ich alli
             Ehre ze-n-erwarte hab, mit <emph rend="italic">Duchesses</emph>, Sängere, Minischter,
@@ -1685,15 +1729,16 @@
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p><emph rend="italic">Papa</emph>, wer soll diss sin?</p>
+          <p>
+            <emph rend="italic">Papa</emph>, wer soll diss sin?</p>
         </sp>
         <pb n="34"/>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
           <p>Es isch d’Mamsell <emph rend="italic">Rièmer</emph>, d’Tochter vum Präsident vun d’r
-              <emph rend="italic">Fanfare</emph>. <stage>(Enttäuschung bei <emph rend="italic"
-                >Lisa</emph> und <emph rend="italic">Jeannette</emph>.)</stage><emph rend="italic"
-            /></p>
+              <emph rend="italic">Fanfare</emph>. <stage>(Enttäuschung bei <emph rend="italic">Lisa</emph> und <emph rend="italic">Jeannette</emph>.)</stage>
+            <emph rend="italic"/>
+          </p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
@@ -1701,12 +1746,12 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Eh bien</emph>?! —</p>
+          <p>
+            <emph rend="italic">Eh bien</emph>?! —</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p>Ja, was soll ich do saaue, bie minere grosse Kurzsichtigkeit. <emph rend="italic"
-              >Lisa</emph> unn <emph rend="italic">Jeannette</emph>, wie gfallt sie Ejch? —</p>
+          <p>Ja, was soll ich do saaue, bie minere grosse Kurzsichtigkeit. <emph rend="italic">Lisa</emph> unn <emph rend="italic">Jeannette</emph>, wie gfallt sie Ejch? —</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1728,7 +1773,8 @@
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p><emph rend="italic">Papa</emph>, ei dü wurrsch’s jo selwer wisse, so guet wie mir, sie
+          <p>
+            <emph rend="italic">Papa</emph>, ei dü wurrsch’s jo selwer wisse, so guet wie mir, sie
             hett jo e Buckel.</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -1751,7 +1797,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Enfin</emph>, s’bescht isch, <emph rend="italic">Auguste</emph>, dü
+          <p>
+            <emph rend="italic">Enfin</emph>, s’bescht isch, <emph rend="italic">Auguste</emph>, dü
             nemmsch Morje n-e kleine Aueschyn, so e-n-Art Ortsbesichtigung vor.</p>
         </sp>
         <pb n="35"/>
@@ -1762,15 +1809,15 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>D’r Her <emph rend="italic">Rièmer</emph> hett Dich so wie so ingelade; unn <emph
-              rend="italic">sous prétexte</emph> d’Köpf vun d’r ganze Famili ze messe, messch no au
+          <p>D’r Her <emph rend="italic">Rièmer</emph> hett Dich so wie so ingelade; unn <emph rend="italic">sous prétexte</emph> d’Köpf vun d’r ganze Famili ze messe, messch no au
             d’r Kopf vun d’r <emph rend="italic">Mademoiselle Rièmer</emph>; bie dere Geläjeheit
             kannsch sie no au vun ganz noht betrachte.</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(verwundert):</stage>
-          <p><emph rend="italic">Tiens</emph>, uff so e-n-Idee wär ich jetzt nie kumme.</p>
+          <p>
+            <emph rend="italic">Tiens</emph>, uff so e-n-Idee wär ich jetzt nie kumme.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1795,8 +1842,7 @@
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p>E liebs Brüederle. Er intressiert sich nit emol drfor, was uns d’r <emph rend="italic"
-              >papa</emph> for Hochzitter erüsschoissiert hett.</p>
+          <p>E liebs Brüederle. Er intressiert sich nit emol drfor, was uns d’r <emph rend="italic">papa</emph> for Hochzitter erüsschoissiert hett.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1805,7 +1851,8 @@
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p><emph rend="italic">Eh bien merci</emph>!</p>
+          <p>
+            <emph rend="italic">Eh bien merci</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1814,7 +1861,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Songe une fois un baron</emph>! E Baron!</p>
+          <p>
+            <emph rend="italic">Songe une fois un baron</emph>! E Baron!</p>
         </sp>
         <pb n="36"/>
         <sp who="#lisa">
@@ -1836,7 +1884,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Un froisson! Un froisson</emph>! — E so muesch französch redde,
+          <p>
+            <emph rend="italic">Un froisson! Un froisson</emph>! — E so muesch französch redde,
             wenn d’r <emph rend="italic">Baron de Rose</emph> am nächste Sundaa kummt, no sin m’r
             gemutzt! — E <emph rend="italic">frisson</emph> heisst’s.</p>
         </sp>
@@ -1851,7 +1900,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Merci</emph> for de Verglich! —</p>
+          <p>
+            <emph rend="italic">Merci</emph> for de Verglich! —</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -1860,7 +1910,8 @@
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
-          <p><emph rend="italic">Papa</emph>! Dü kummsch leider ze spoot, dü weisch jo, dass ich
+          <p>
+            <emph rend="italic">Papa</emph>! Dü kummsch leider ze spoot, dü weisch jo, dass ich
             mich mit’m Herr Ehrstein fiancirt hab.</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -1901,7 +1952,8 @@
           <speaker>Durand</speaker>
           <stage>(tritt durch die Mitteltüre ein. Hübsches jugendliches Aussehen. Charakteristisch
             ist seine selbstgebundene grosse Halsbinde. Er begrüsst die Anwesenden):</stage>
-          <p><emph rend="italic">Bonjour mes chers. Bonjour oncle</emph>. <stage>(bemerkt die
+          <p>
+            <emph rend="italic">Bonjour mes chers. Bonjour oncle</emph>. <stage>(bemerkt die
               gedrückte Stimmung)</stage> Ich glaub gar, ich kumm grad im e lätze Moment.</p>
         </sp>
         <sp who="#lisa">
@@ -1918,7 +1970,8 @@
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
-          <p><emph rend="italic">Cousin</emph>, mir hett d’r Babbe e-n-Offizier erüsgsuecht.</p>
+          <p>
+            <emph rend="italic">Cousin</emph>, mir hett d’r Babbe e-n-Offizier erüsgsuecht.</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
@@ -1936,29 +1989,35 @@
         <sp who="#lisa">
           <speaker>Lisa</speaker>
           <stage>(traurig):</stage>
-          <p><emph rend="italic">Cousin</emph>, unn ich soll gar e Baron han.</p>
+          <p>
+            <emph rend="italic">Cousin</emph>, unn ich soll gar e Baron han.</p>
         </sp>
         <pb n="38"/>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
           <stage>(stolz):</stage>
-          <p><emph rend="italic">Le Baron de Rose</emph>.</p>
+          <p>
+            <emph rend="italic">Le Baron de Rose</emph>.</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p>Vum <emph rend="italic">Réveil national ?</emph></p>
+          <p>Vum <emph rend="italic">Réveil national ?</emph>
+          </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Parfaitement</emph>.</p>
+          <p>
+            <emph rend="italic">Parfaitement</emph>.</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p>Was, denne <emph rend="italic">commis-voyageur en patriotisme ?—</emph></p>
+          <p>Was, denne <emph rend="italic">commis-voyageur en patriotisme ?—</emph>
+          </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Parbleu</emph>, es sin nit alli Franzose so wie dü. Es gitt au noch
+          <p>
+            <emph rend="italic">Parbleu</emph>, es sin nit alli Franzose so wie dü. Es gitt au noch
             Franzose, wie gueti Patriote sin!</p>
         </sp>
         <sp who="#durand">
@@ -1998,8 +2057,7 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
           <p>Oho?! <emph rend="italic">Cocotte</emph>! — <emph rend="italic">Charles tu vas trop
-              loin</emph>! — Sie isch <emph rend="italic">d’maîtresse</emph> vum e rüssische <emph
-              rend="italic">grand-duc</emph>! Unn wenn sie unn d’r <emph rend="italic">Baron de
+              loin</emph>! — Sie isch <emph rend="italic">d’maîtresse</emph> vum e rüssische <emph rend="italic">grand-duc</emph>! Unn wenn sie unn d’r <emph rend="italic">Baron de
               Rose</emph> nit gsin wärte, wer weis, ob ich sunsch <emph rend="italic">d’palmes
               académiques</emph> demnächscht bekumme thät!</p>
         </sp>
@@ -2010,7 +2068,8 @@
         <pb n="39"/>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p><stage>(lässt sich auf einen Stuhl fallen): </stage> Wa. . .s? Onkel, dü dekoriert?
+          <p>
+            <stage>(lässt sich auf einen Stuhl fallen): </stage> Wa. . .s? Onkel, dü dekoriert?
               <stage>(Platzt heraus vor Lachen)</stage> Nein, Onkel, dü muesch m’r ’s nit in üewwel
             nemme, wenn i lach, wäje was denn, wenn m’r fröüje derf?</p>
         </sp>
@@ -2036,7 +2095,8 @@
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p><stage>(lachend): </stage> Oho?! —</p>
+          <p>
+            <stage>(lachend): </stage> Oho?! —</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -2047,7 +2107,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><stage>(Die Augen gen Himmel schlagend)</stage>; <emph rend="italic">O jeunesse
+          <p>
+            <stage>(Die Augen gen Himmel schlagend)</stage>; <emph rend="italic">O jeunesse
               d'aujourd'hui</emph>, wie bisch dü verdorwe !</p>
         </sp>
         <sp who="#durand">
@@ -2058,21 +2119,20 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Saa’s nur ditsch erüs, an d’menschlich Dummheit hesch dü saaue welle! — <emph
-              rend="italic">Eh bien</emph>, do dran glauwich au, denn wie könnt mir sich’s <pb
-              n="40"/> schunsch expliziere, dass’ s Lytt gitt, wie sich mit so Plän wie ere
+          <p>Saa’s nur ditsch erüs, an d’menschlich Dummheit hesch dü saaue welle! — <emph rend="italic">Eh bien</emph>, do dran glauwich au, denn wie könnt mir sich’s <pb n="40"/> schunsch expliziere, dass’ s Lytt gitt, wie sich mit so Plän wie ere
             Friedensliga unn <emph rend="italic">alliance francoallemande</emph> abthäte gän wie
             dü.</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p><emph rend="italic">Pardon</emph>, Unkel, dü hesch verlicht ganz recht, verlicht isch
+          <p>
+            <emph rend="italic">Pardon</emph>, Unkel, dü hesch verlicht ganz recht, verlicht isch
             alles uff dere krumme gebuckelte Welt nur e Dummheit!</p>
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
-          <p><stage>(hastig durch die Mitteltüre herein.)</stage> Sie exküsiere, e grossi <emph
-              rend="italic">nouvelle</emph>, e grossi <emph rend="italic">surprise</emph>. Sie
+          <p>
+            <stage>(hastig durch die Mitteltüre herein.)</stage> Sie exküsiere, e grossi <emph rend="italic">nouvelle</emph>, e grossi <emph rend="italic">surprise</emph>. Sie
             rothe’s nit?! Er kummt, er kummt !</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -2085,7 +2145,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><stage>(ängstlich)</stage> Ja, wer denn?</p>
+          <p>
+            <stage>(ängstlich)</stage> Ja, wer denn?</p>
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
@@ -2187,7 +2248,8 @@
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p><stage>(den beiden nach)</stage> Ja unn ich möcht au die nett Famillieszen nit
+          <p>
+            <stage>(den beiden nach)</stage> Ja unn ich möcht au die nett Famillieszen nit
             derangiere.</p>
         </sp>
         <sp who="#madame_grinsinger">
@@ -2376,8 +2438,7 @@
         <sp who="#gauthier">
           <speaker>Gauthier:</speaker>
           <p>Gleich der Kutscher, der uns daher gefahren hat, ist ein Exempel. Der freche Kerl
-            spricht Ihren Namen französisch aus. <stage>(In Aufregung.)</stage> Monsieur <emph
-              rend="italic">Grinsingee</emph>. So ’ne Unverschämtheit! Einen guten, deutschen Namen
+            spricht Ihren Namen französisch aus. <stage>(In Aufregung.)</stage> Monsieur <emph rend="italic">Grinsingee</emph>. So ’ne Unverschämtheit! Einen guten, deutschen Namen
             französisch auszusprechen ! S'ist um an den Beemen nufzuklettern !</p>
         </sp>
         <sp who="#hans_grinsinger">
@@ -2528,7 +2589,8 @@
         <sp who="#marie">
           <speaker>Marie</speaker>
           <stage>(meldend):</stage>
-          <p>D’r Herr <emph rend="italic">Rièmer !</emph></p>
+          <p>D’r Herr <emph rend="italic">Rièmer !</emph>
+          </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -2540,14 +2602,15 @@
         <sp who="#riemer">
           <speaker>Rièmer</speaker>
           <stage>(hastig herein):</stage>
-          <p><emph rend="italic">Bonjour mon cher ami. Avant tout mes sincères félicitations</emph>
+          <p>
+            <emph rend="italic">Bonjour mon cher ami. Avant tout mes sincères félicitations</emph>
             zue dinere <emph rend="italic">décoration! Mes compliments, mes sincères
               compliments</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Merci, mon cher, merci</emph>! Bringsch am End gar e gueti <emph
-              rend="italic">nouvelle</emph> vun mim Sohn, hett’r sich guet gschickt?</p>
+          <p>
+            <emph rend="italic">Merci, mon cher, merci</emph>! Bringsch am End gar e gueti <emph rend="italic">nouvelle</emph> vun mim Sohn, hett’r sich guet gschickt?</p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
@@ -2568,7 +2631,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Je comprends</emph>. Es fehlt mim Sohn halt an d’r nöthige
+          <p>
+            <emph rend="italic">Je comprends</emph>. Es fehlt mim Sohn halt an d’r nöthige
             Uewung!</p>
         </sp>
         <sp who="#riemer">
@@ -2578,23 +2642,23 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Enfin j'ai bon espoir</emph>, ich hab gueti Hoffnung! <emph
-              rend="italic">Du reste une bonne nouvelle</emph>. D’r <emph rend="italic">Baron de
+          <p>
+            <emph rend="italic">Enfin j'ai bon espoir</emph>, ich hab gueti Hoffnung! <emph rend="italic">Du reste une bonne nouvelle</emph>. D’r <emph rend="italic">Baron de
               Rose</emph> kummt ganz sicher am Sundaa, er hett mir g’schriwwe.</p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">A la bonne heure</emph>, diss trefft sich jo grossartig! ’s
-            Programm for de Sundaa isch also kurz noch emol diss: am Morje macht <emph rend="italic"
-              >d’Fanfare</emph> e-n-Üsflug uff de Odilieberry, unn am Oowe uff’m Ruckwäj kehre mir
+          <p>
+            <emph rend="italic">A la bonne heure</emph>, diss trefft sich jo grossartig! ’s
+            Programm for de Sundaa isch also kurz noch emol diss: am Morje macht <emph rend="italic">d’Fanfare</emph> e-n-Üsflug uff de Odilieberry, unn am Oowe uff’m Ruckwäj kehre mir
             bie dir in <emph rend="italic">au son de „la Sambre et Meuse“,</emph> diss muess e leids
             Effekt uff de <emph rend="italic">Baron de Rose</emph> mache! —</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Bien sûr</emph>! — <emph rend="italic">Inutile de te dire</emph>,
-            dass ich e <emph rend="italic">buffet froid</emph> dressiere wurr, dass de <emph
-              rend="italic">membres</emph> vun d’r Societät ’s Herz im Lyb lache wurd; ich hab schun
+          <p>
+            <emph rend="italic">Bien sûr</emph>! — <emph rend="italic">Inutile de te dire</emph>,
+            dass ich e <emph rend="italic">buffet froid</emph> dressiere wurr, dass de <emph rend="italic">membres</emph> vun d’r Societät ’s Herz im Lyb lache wurd; ich hab schun
             im e jede sin Lieblingsplättel notiert. Zuem trinke kann ich leider nur Champagner
             serviere <stage>(Rièmer lacht)</stage> Awwer wenn m’r emol ewyl d’rvun getrunke hett, ze
             gewöhnt m’r sich nooch unn nooch schun dran. <stage>(beide lachen)</stage>
@@ -2602,8 +2666,7 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p>Ja, ich muess jetzt gehn, ich bin arrig pressiert, un welle m’r’s bescht hoffe, <emph
-              rend="italic">et au revoir</emph>. — <stage>(Rièmer ab)</stage>.</p>
+          <p>Ja, ich muess jetzt gehn, ich bin arrig pressiert, un welle m’r’s bescht hoffe, <emph rend="italic">et au revoir</emph>. — <stage>(Rièmer ab)</stage>.</p>
         </sp>
         <pb n="49"/>
         <sp who="#madame_grinsinger">
@@ -2623,7 +2686,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Tant pis</emph>.</p>
+          <p>
+            <emph rend="italic">Tant pis</emph>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -2632,7 +2696,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Tant mieux</emph> — ’s isch zue schwer ze bhalte.</p>
+          <p>
+            <emph rend="italic">Tant mieux</emph> — ’s isch zue schwer ze bhalte.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
@@ -2653,7 +2718,8 @@
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
           <stage>(hat ihr Päckchen geöffnet):</stage>
-          <p><emph rend="italic">A la bonne heure! Envoi du Baron de Rose</emph>. E ganzes Lädele
+          <p>
+            <emph rend="italic">A la bonne heure! Envoi du Baron de Rose</emph>. E ganzes Lädele
             voll Bändele.</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -2663,13 +2729,13 @@
             will eins anprowiere. <stage>(zieht eins wohlgefällig <pb n="50"/> an und betrachtet
               sich im Spiegel).</stage>
             <emph rend="italic">Il n'y a pas à dire</emph>, es geht m’r wie angemesse, es geht m’r
-            zue guet. — Was for e Gfüehl dass m’r do hett, wenn’s heisst: <emph rend="italic"
-              >Grinsinger, officier d'académie</emph>. Frau <stage>(umarmt sie)</stage> gell, diss
+            zue guet. — Was for e Gfüehl dass m’r do hett, wenn’s heisst: <emph rend="italic">Grinsinger, officier d'académie</emph>. Frau <stage>(umarmt sie)</stage> gell, diss
             hesch dü nit gedenkt, dass diner Mann ’s emol so witt bringt? —</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">C’est vrai</emph>, ’s isch wohr.</p>
+          <p>
+            <emph rend="italic">C’est vrai</emph>, ’s isch wohr.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -2693,18 +2759,21 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(betrachtet sich wieder mit dem Bändchen):</stage>
-          <p><emph rend="italic">Grinsinger, officier d'académie! Cela fait plaisir! Cela fait
+          <p>
+            <emph rend="italic">Grinsinger, officier d'académie! Cela fait plaisir! Cela fait
               plaisir</emph>! <stage>(Das Bändchen wieder ausziehend)</stage> Vorsichtshalwer welle
             m’r ’s vorlaifig widder üszeihje.</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(durch die Mitte, etwas angeheitert und sehr gesprächig):</stage>
-          <p><emph rend="italic">Bonjour papa</emph>!</p>
+          <p>
+            <emph rend="italic">Bonjour papa</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Eh bien</emph>! Wie isch’s üsgfalle, wie stehn die Aktie?</p>
+          <p>
+            <emph rend="italic">Eh bien</emph>! Wie isch’s üsgfalle, wie stehn die Aktie?</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
@@ -2749,13 +2818,11 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p>Ich hab m’r vorgenomme, Noochforschunge drüewwer anzestelle, der <emph rend="italic"
-              >cas</emph> isch zue intressant.</p>
+          <p>Ich hab m’r vorgenomme, Noochforschunge drüewwer anzestelle, der <emph rend="italic">cas</emph> isch zue intressant.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Unn jetzt wittersch im Text: Redd m’r jetzt au vun d’r Mamsell <emph rend="italic"
-              >Rièmer</emph>, wie isch do d’Messerej üsgfalle? <emph rend="italic">Enfin</emph>, dü
+          <p>Unn jetzt wittersch im Text: Redd m’r jetzt au vun d’r Mamsell <emph rend="italic">Rièmer</emph>, wie isch do d’Messerej üsgfalle? <emph rend="italic">Enfin</emph>, dü
             weisch jo wie ich mein.</p>
         </sp>
         <sp who="#auguste">
@@ -2780,7 +2847,8 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Pardon papa</emph>, e Wasserkopf isch wisseschaftlich unter
+          <p>
+            <emph rend="italic">Pardon papa</emph>, e Wasserkopf isch wisseschaftlich unter
             Umstände sehr intressant.</p>
         </sp>
         <pb n="52"/>
@@ -2791,8 +2859,7 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p>’s ander Resultat, <emph rend="italic">papa</emph>, isch glich <emph rend="italic"
-              >zéro</emph>. — <emph rend="italic">Papa</emph> ich hab mich mit’m beschte Wille numme
+          <p>’s ander Resultat, <emph rend="italic">papa</emph>, isch glich <emph rend="italic">zéro</emph>. — <emph rend="italic">Papa</emph> ich hab mich mit’m beschte Wille numme
             uff’s Messe b’schränke könne ....</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -2801,7 +2868,8 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Que veux-tu papa</emph>, wie ich sie so noht betracht hab, ze
+          <p>
+            <emph rend="italic">Que veux-tu papa</emph>, wie ich sie so noht betracht hab, ze
             hawich gsehn, dass mini Schweschtere Recht han ghett. <emph rend="italic">Papa</emph>
             s’isch tatsächlich nit numme e Büeckele, wie sie hett; ’s isch e rechter, veritabler
             Buckel!</p>
@@ -2820,12 +2888,12 @@
           <speaker>Fritz Grinsinger:</speaker>
           <p>Was isch jetzt do d’rbie? — s’isch wohl d’rwerth, dass m’r wäje so e paar Centimeter e
             so e-n-Affär macht! Dü bisch im Stand unn verderbsch m’r noch min ganz Fescht am Sundaa.
-            — <emph rend="italic">Enfin</emph>, was soll ich denn jetzt im Herr <emph rend="italic"
-              >Rièmer</emph> saaue ?</p>
+            — <emph rend="italic">Enfin</emph>, was soll ich denn jetzt im Herr <emph rend="italic">Rièmer</emph> saaue ?</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Eh bien</emph>, saasch’m, dass i e-n-anderi hierothe wurr.</p>
+          <p>
+            <emph rend="italic">Eh bien</emph>, saasch’m, dass i e-n-anderi hierothe wurr.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -2876,8 +2944,8 @@
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(ihn unterbrechend):</stage>
-          <p><emph rend="italic">Papa</emph> niemols! Unn wenn dü bis an de <emph rend="italic"
-              >plafond</emph> springsch! <stage>(nach rechts ab)</stage>
+          <p>
+            <emph rend="italic">Papa</emph> niemols! Unn wenn dü bis an de <emph rend="italic">plafond</emph> springsch! <stage>(nach rechts ab)</stage>
           </p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -2893,8 +2961,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Toi, tais-toi</emph>! — Unn dü hierothsch de <emph rend="italic"
-              >Baron de Rose</emph>, wie am Sundaa uff Visit kummt.</p>
+          <p>
+            <emph rend="italic">Toi, tais-toi</emph>! — Unn dü hierothsch de <emph rend="italic">Baron de Rose</emph>, wie am Sundaa uff Visit kummt.</p>
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
@@ -2915,12 +2983,14 @@
         <sp who="#durand">
           <speaker>Durand</speaker>
           <stage>(von rechts):</stage>
-          <p><emph rend="italic">Lisa</emph>!</p>
+          <p>
+            <emph rend="italic">Lisa</emph>!</p>
         </sp>
         <sp who="#lisa">
           <speaker>Lisa</speaker>
           <stage>(erschrocken auffahrend):</stage>
-          <p><emph rend="italic">Charles</emph>, ich hab dich gar nit erüs höre kumme.
+          <p>
+            <emph rend="italic">Charles</emph>, ich hab dich gar nit erüs höre kumme.
               <stage>(trocknet sich die Augen ab)</stage> Dü hesch doch nit ghört, was ich ewe do
             for mich gsaat hab?</p>
         </sp>
@@ -2995,8 +3065,7 @@
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p>Gell dü helf’sch m’r <emph rend="italic">cousin</emph>, wenn mich d’r <emph
-              rend="italic">papa</emph> zue dere Hieroth zwinge will!?</p>
+          <p>Gell dü helf’sch m’r <emph rend="italic">cousin</emph>, wenn mich d’r <emph rend="italic">papa</emph> zue dere Hieroth zwinge will!?</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
@@ -3006,7 +3075,8 @@
         <pb n="55"/>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p><emph rend="italic">Merci Charles</emph>!</p>
+          <p>
+            <emph rend="italic">Merci Charles</emph>!</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand</speaker>
@@ -3038,7 +3108,8 @@
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p><emph rend="italic">Charles</emph>! Doch dü bisch d’r bescht!</p>
+          <p>
+            <emph rend="italic">Charles</emph>! Doch dü bisch d’r bescht!</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
@@ -3128,8 +3199,8 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Eh bien</emph>.... Was thäte-n-Ihr vun d’r <emph rend="italic"
-              >mademoiselle Gauthier</emph> halte? <stage>(grosse Verwunderung der
+          <p>
+            <emph rend="italic">Eh bien</emph>.... Was thäte-n-Ihr vun d’r <emph rend="italic">mademoiselle Gauthier</emph> halte? <stage>(grosse Verwunderung der
               Anwesenden)</stage>
           </p>
         </sp>
@@ -3140,8 +3211,7 @@
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
           <p>Ej, es glunzt schun ewyl. Awwer hytt, wie ich in’s <emph rend="italic">Rièmers</emph>
-            bin gsin, ze-n-isch’s m’r so uff einmol wie e-n-Erleichtung üewwer mich kumme. <emph
-              rend="italic">D’mademoiselle Gauthier</emph>, hett do e-n-innerlichi Stimm zue mir
+            bin gsin, ze-n-isch’s m’r so uff einmol wie e-n-Erleichtung üewwer mich kumme. <emph rend="italic">D’mademoiselle Gauthier</emph>, hett do e-n-innerlichi Stimm zue mir
             gsaat, diss wär so e Frau for mich!</p>
         </sp>
         <sp who="#jeannette">
@@ -3157,7 +3227,8 @@
         <sp who="#lisa">
           <speaker>Lisa</speaker>
           <stage>(am Fenster):</stage>
-          <p><emph rend="italic">Tiens</emph>, do kummt sie grad d’r Hoft erin.</p>
+          <p>
+            <emph rend="italic">Tiens</emph>, do kummt sie grad d’r Hoft erin.</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
@@ -3165,11 +3236,14 @@
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
-          <p><emph rend="italic">Bonne chance</emph>!</p>
+          <p>
+            <emph rend="italic">Bonne chance</emph>!</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p><emph rend="italic">Et bon courage</emph>! <stage>(Alle drei ab nach links)</stage></p>
+          <p>
+            <emph rend="italic">Et bon courage</emph>! <stage>(Alle drei ab nach links)</stage>
+          </p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste</speaker>
@@ -3182,7 +3256,8 @@
         <sp who="#olga">
           <speaker>Olga</speaker>
           <stage>(durch die Mitte):</stage>
-          <p><emph rend="italic">Bonjour</emph> Herr Grinsinger.</p>
+          <p>
+            <emph rend="italic">Bonjour</emph> Herr Grinsinger.</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
@@ -3210,7 +3285,8 @@
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
-          <p><emph rend="italic">Tant mieux</emph>!</p>
+          <p>
+            <emph rend="italic">Tant mieux</emph>!</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
@@ -3221,8 +3297,7 @@
         <sp who="#olga">
           <speaker>Olga</speaker>
           <stage>(für sich):</stage>
-          <p>Was hett’r denn, er kummt m’r so merikwüerdig vor?! <stage>(zu <emph rend="italic"
-                >Auguste</emph>)</stage> Mit was kann ich diene? ....</p>
+          <p>Was hett’r denn, er kummt m’r so merikwüerdig vor?! <stage>(zu <emph rend="italic">Auguste</emph>)</stage> Mit was kann ich diene? ....</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
@@ -3232,14 +3307,15 @@
         <pb n="58"/>
         <sp who="#olga">
           <speaker>Olga:</speaker>
-          <p><emph rend="italic">Et bien</emph>, babble Sie numme.</p>
+          <p>
+            <emph rend="italic">Et bien</emph>, babble Sie numme.</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(abseits):</stage>
-          <p><emph rend="italic">Sac à papier</emph>, die Affär macht mich schwitze! Wie die Sach
-            angriffe?! <emph rend="italic">Ah, mais oui</emph>, ich mach’s wie bie d’r <emph
-              rend="italic">mademoisselle Rièmer</emph>.</p>
+          <p>
+            <emph rend="italic">Sac à papier</emph>, die Affär macht mich schwitze! Wie die Sach
+            angriffe?! <emph rend="italic">Ah, mais oui</emph>, ich mach’s wie bie d’r <emph rend="italic">mademoisselle Rièmer</emph>.</p>
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
@@ -3247,7 +3323,8 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Eh bien</emph>, die Sach isch einfach... ich sott nämlich unbedingt
+          <p>
+            <emph rend="italic">Eh bien</emph>, die Sach isch einfach... ich sott nämlich unbedingt
             noch emol’s emol’s Mess vun Ihrem Kopf verriviziere wäje d’r Berechnung.</p>
         </sp>
         <sp who="#olga">
@@ -3260,14 +3337,16 @@
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
-          <p><emph rend="italic">Quelle idée</emph>, denne zehjt m’r einfach ab <stage>(zieht den
+          <p>
+            <emph rend="italic">Quelle idée</emph>, denne zehjt m’r einfach ab <stage>(zieht den
               Hut ab und setzt sich auf einen Stuhl)</stage>. Also, <emph rend="italic">en
               avant</emph>!</p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(zieht das Metermass heraus):</stage>
-          <p><emph rend="italic">Quelle émotion</emph>. Noch nie in mim Läwe hawich e so
+          <p>
+            <emph rend="italic">Quelle émotion</emph>. Noch nie in mim Läwe hawich e so
             e-nUffreijung gspiert! Bie de schwerschte-n-Operatione nit! Nit emol bie’m
             Staatsexame!</p>
         </sp>
@@ -3288,7 +3367,8 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Bon dieu, quelle émotion</emph>! <stage>(er misst weiter)</stage>
+          <p>
+            <emph rend="italic">Bon dieu, quelle émotion</emph>! <stage>(er misst weiter)</stage>
             Länge siebzehn Komma sechs.</p>
         </sp>
         <sp who="#olga">
@@ -3299,8 +3379,7 @@
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(für sich):</stage>
-          <p>Es geht alles mit m’r im Ringel erum! Ich mein, ich bin uff’m <emph rend="italic"
-              >carrousel</emph>! <stage>(misst noch einmal die Breite)</stage> Breite vierzehn Komma
+          <p>Es geht alles mit m’r im Ringel erum! Ich mein, ich bin uff’m <emph rend="italic">carrousel</emph>! <stage>(misst noch einmal die Breite)</stage> Breite vierzehn Komma
             sieben.</p>
         </sp>
         <pb n="59"/>
@@ -3369,8 +3448,7 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p>Sie sin d’r einzigscht Dokter, wie m’r helfe kann! <emph rend="italic"
-              >Mademoiselle</emph> Olga, Sie müehn mini Frau wäre!</p>
+          <p>Sie sin d’r einzigscht Dokter, wie m’r helfe kann! <emph rend="italic">Mademoiselle</emph> Olga, Sie müehn mini Frau wäre!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinzinger</speaker>
@@ -3386,9 +3464,9 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(für sich):</stage>
-          <p><emph rend="italic">Diable</emph>, die schient uff’m e grosse Fuess ze läwe! —
-              <stage>(Zu <emph rend="italic">Auguste</emph>)</stage>D’r Gücksel noch emol, <emph
-              rend="italic">Auguste</emph>, jetzt bisch dü glauw ich au noch Schuehmacher worre?!
+          <p>
+            <emph rend="italic">Diable</emph>, die schient uff’m e grosse Fuess ze läwe! —
+              <stage>(Zu <emph rend="italic">Auguste</emph>)</stage>D’r Gücksel noch emol, <emph rend="italic">Auguste</emph>, jetzt bisch dü glauw ich au noch Schuehmacher worre?!
             —</p>
         </sp>
         <sp who="#auguste">
@@ -3408,7 +3486,8 @@
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(aufstehend):</stage>
-          <p><emph rend="italic">Mademoiselle</emph> Olga, gän Sie mir Antwort uff mini Fröuj. Welle
+          <p>
+            <emph rend="italic">Mademoiselle</emph> Olga, gän Sie mir Antwort uff mini Fröuj. Welle
             Sie mini Frau wäre ?</p>
         </sp>
         <sp who="#olga">
@@ -3449,8 +3528,7 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p>Ohne Zwiefel! — <emph rend="italic">Un bon mouvement</emph>, saaue Sie ja, <emph
-              rend="italic">mademoiselle</emph> Olga.</p>
+          <p>Ohne Zwiefel! — <emph rend="italic">Un bon mouvement</emph>, saaue Sie ja, <emph rend="italic">mademoiselle</emph> Olga.</p>
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
@@ -3461,7 +3539,8 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Ainsi</emph>, do könne m’r uns also als verlobt ansehn ?</p>
+          <p>
+            <emph rend="italic">Ainsi</emph>, do könne m’r uns also als verlobt ansehn ?</p>
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
@@ -3569,8 +3648,7 @@
           <speaker>Ehrstein:</speaker>
           <p>Es thuet m’r arig leid, Herr <emph rend="italic">Grinsinger</emph>, Ihne saaue ze
             müehn, dass ich for kenn Geld vun d’r Welt d’rvun Abstand nimm, die Arweit ze
-            veröffentliche, unn dass ich nur unter einere Bedingung ’s <emph rend="italic"
-              >sacrifice</emph> vun minere Dokterarweit bring, unn diss isch, wenn Sie m’r Ihri
+            veröffentliche, unn dass ich nur unter einere Bedingung ’s <emph rend="italic">sacrifice</emph> vun minere Dokterarweit bring, unn diss isch, wenn Sie m’r Ihri
             Tochter gän!</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -3610,7 +3688,8 @@
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(von rechts kommend):</stage>
-          <p><emph rend="italic">Papa</emph>, grad isch der Herr Professor mit d’r Berechnung von
+          <p>
+            <emph rend="italic">Papa</emph>, grad isch der Herr Professor mit d’r Berechnung von
             dim Kopf fertig worre. Die Berechnung hett uns e grossi Ueweraschung gebrocht.</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -3624,8 +3703,7 @@
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
           <p>Denk d’r nur, <emph rend="italic">papa</emph>, dü hesch nit nur e ganz reiner
-            dolichocephaler Kopf, was im Elsass arig selte isch, dü hesch <emph rend="italic"
-              >même</emph> der klassischt, d’r charakteristischt <pb n="64"/> dolichocephale Kopf,
+            dolichocephaler Kopf, was im Elsass arig selte isch, dü hesch <emph rend="italic">même</emph> der klassischt, d’r charakteristischt <pb n="64"/> dolichocephale Kopf,
             wie m’r bis jetzt gemesse unn berechnet han bie lewändige Persone. Mit andere Worte, dü
             hesch d’r reinscht germanisch, kurz d’r ditschst Schäddel, wie m’r bis jetzt in ganz
             Ditschland gefunde hett.</p>
@@ -3729,8 +3807,7 @@
         <sp who="#dr_kneppchen">
           <speaker>Dr. Kneppchen:</speaker>
           <p>Durch meine Schädelmessungen habe ich eine geradezu verblüffende Entdeckung gemacht.
-            Unser lieber Herr Grinsinger <stage>(legt die Hand auf die Schulter Fritz <emph
-                rend="italic">Grinsingers</emph>)</stage> hat den rassenreinsten, germanischen
+            Unser lieber Herr Grinsinger <stage>(legt die Hand auf die Schulter Fritz <emph rend="italic">Grinsingers</emph>)</stage> hat den rassenreinsten, germanischen
             Schädel, der bis jetzt von meinen Kollegen und mir gemessen worden ist. Er ist der
             ausgesprochene Typus.</p>
         </sp>
@@ -3873,8 +3950,7 @@
         </sp>
         <sp who="#dr_kneppchen">
           <speaker>Dr. Kneppchen:</speaker>
-          <p>Ah, richtig! — Ihr Kopf, Herr Gauthier, ist nicht minder interessant. Denken Sie,<pb
-              n="68"/> Ihr Schädel hat nämlich einen ausgesprochenen klassischen Negroïdentypus, wie
+          <p>Ah, richtig! — Ihr Kopf, Herr Gauthier, ist nicht minder interessant. Denken Sie,<pb n="68"/> Ihr Schädel hat nämlich einen ausgesprochenen klassischen Negroïdentypus, wie
             er bis jetzt in Deutschland noch nirgends gefunden worden ist, und wie er nur in
             Südfrankreich, im Rhonegebiet, vorkommt. </p>
         </sp>
@@ -3907,8 +3983,7 @@
         <sp who="#gauthier">
           <speaker>Gauthier</speaker>
           <stage>(wie von der Tarantel gestochen):</stage>
-          <p>Wie sagten Sie da?! — Mein Kopf ist noch französischer wie der von <emph rend="italic"
-              >Déroulède</emph>?</p>
+          <p>Wie sagten Sie da?! — Mein Kopf ist noch französischer wie der von <emph rend="italic">Déroulède</emph>?</p>
         </sp>
         <sp who="#dr_kneppchen">
           <speaker>Dr. Kneppchen:</speaker>
@@ -3917,8 +3992,7 @@
         <sp who="#gauthier">
           <speaker>Gauthier</speaker>
           <stage>(wütend):</stage>
-          <p>Mein Herr! Sie häufen Beleidigung auf Beleidigung! Ich protestiere auf das Ent-<pb
-              n="69"/> schiedenste gegen eine solche Verhöhnung meiner Person!</p>
+          <p>Mein Herr! Sie häufen Beleidigung auf Beleidigung! Ich protestiere auf das Ent-<pb n="69"/> schiedenste gegen eine solche Verhöhnung meiner Person!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
@@ -3979,8 +4053,7 @@
         </sp>
         <sp who="#dr_kneppchen">
           <speaker>Dr. Kneppchen:</speaker>
-          <p>Übrigens deutet ja schon Ihr Name auf französische Abstammung. <emph rend="italic"
-              >Gauthier</emph> ist ein verbreiteter französischer Name.</p>
+          <p>Übrigens deutet ja schon Ihr Name auf französische Abstammung. <emph rend="italic">Gauthier</emph> ist ein verbreiteter französischer Name.</p>
         </sp>
         <sp who="#gauthier">
           <speaker>Gauthier</speaker>
@@ -4074,7 +4147,8 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(für sich):</stage>
-          <p><emph rend="italic">Ça se gâte</emph>! Jetzt kumme die Schwowe hinterenander!</p>
+          <p>
+            <emph rend="italic">Ça se gâte</emph>! Jetzt kumme die Schwowe hinterenander!</p>
         </sp>
         <sp who="#gauthier">
           <speaker>Gauthier</speaker>
@@ -4108,7 +4182,8 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(für sich):</stage>
-          <p><emph rend="italic">Attrape</emph>!</p>
+          <p>
+            <emph rend="italic">Attrape</emph>!</p>
         </sp>
         <sp who="#dr_kneppchen">
           <speaker>Dr. Kneppchen:</speaker>
@@ -4267,7 +4342,8 @@
         <sp who="#auguste">
           <speaker>Auguste</speaker>
           <stage>(von rechts):</stage>
-          <p><emph rend="italic">Papa</emph>, ein Resultat hawich schun erreicht, d’r Herr Professor
+          <p>
+            <emph rend="italic">Papa</emph>, ein Resultat hawich schun erreicht, d’r Herr Professor
             verzicht emol schun uf sini Gejeklaau geje de Herr Gauthier.</p>
         </sp>
         <pb n="73"/>
@@ -4316,15 +4392,15 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Papa</emph>, die Mamsell gfallt mir sowohl vum wisseschaftliche,
+          <p>
+            <emph rend="italic">Papa</emph>, die Mamsell gfallt mir sowohl vum wisseschaftliche,
             wie vum praktische als au vum rein menschliche Standpunkt üs, <emph rend="italic">et
               cela suffit</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(auffahrend und in einer Wut auf und ab):</stage>
-          <p>Diss soll m’r jetzt nix sin! Ein Stoss nooch’m andere! <stage>(vor <emph rend="italic"
-                >Auguste</emph> stehen bleibend)</stage> Ja bisch denn dü von alle guete Geischter
+          <p>Diss soll m’r jetzt nix sin! Ein Stoss nooch’m andere! <stage>(vor <emph rend="italic">Auguste</emph> stehen bleibend)</stage> Ja bisch denn dü von alle guete Geischter
             verlon, dass dü diss Schwowemaidel üs Sachse hierothe witt?</p>
         </sp>
         <sp who="#auguste">
@@ -4371,8 +4447,8 @@
         <sp who="#jeannette">
           <speaker>Jeannette</speaker>
           <stage>(von links):</stage>
-          <p><emph rend="italic">Papa</emph>! Wie stehn d’Aktie? Derf ich de <emph rend="italic"
-              >Georges</emph> hierothe?</p>
+          <p>
+            <emph rend="italic">Papa</emph>! Wie stehn d’Aktie? Derf ich de <emph rend="italic">Georges</emph> hierothe?</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -4402,7 +4478,8 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(für sich):</stage>
-          <p><emph rend="italic">Allons bon</emph>; an die Dokterarweit hawich, weiss Gift, nimm
+          <p>
+            <emph rend="italic">Allons bon</emph>; an die Dokterarweit hawich, weiss Gift, nimm
             gedenkt! Bin ich in ere Zwickmüehl! Bin ich in ere Zwickmüehl!</p>
         </sp>
         <sp who="#madame_grinsinger">
@@ -4434,23 +4511,23 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Oui, maman</emph>!</p>
+          <p>
+            <emph rend="italic">Oui, maman</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Unn d’r Herr Ehrstein setzt m’r d’Pistol uff d’Bruscht. Er möcht ’s <emph rend="italic"
-              >Jeannette</emph> als Frau.</p>
+          <p>Unn d’r Herr Ehrstein setzt m’r d’Pistol uff d’Bruscht. Er möcht ’s <emph rend="italic">Jeannette</emph> als Frau.</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Mon Dieu</emph>! Unn grad saat m’r ’s <emph rend="italic">Lisa,
+          <p>
+            <emph rend="italic">Mon Dieu</emph>! Unn grad saat m’r ’s <emph rend="italic">Lisa,
               qu'elle veut Charles</emph>, dass’s sichs mit’m <emph rend="italic">cousin
               Charles</emph> fianciert hett.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p>Mit’m <emph rend="italic">cousin Charles</emph>?! Au diss noch! Ja, unn d’r <emph
-              rend="italic">Baron de Rose</emph> wie am Sundaa kummt! Was wurd der saaue?! — Der Daa
+          <p>Mit’m <emph rend="italic">cousin Charles</emph>?! Au diss noch! Ja, unn d’r <emph rend="italic">Baron de Rose</emph> wie am Sundaa kummt! Was wurd der saaue?! — Der Daa
             soll mir <pb n="78"/> kenn Üwerraschunge gebrocht han! — <stage>(Ganz geknickt)</stage>
             D’r ditschst Kopf soll ich han! Erbse welle se m’r ninmache! E Dokterarweit welle se
             drüewwer schriewe! In e Prozess unn Düell soll i verwickelt wäre! D’rzue drej lätzi
@@ -4465,9 +4542,7 @@
           Türen. Hinten in der Mitte grosse offenstehende Doppeltüre mit Ausblick in den Garten. Die
           Halle ist gut möbliert und mit Blumen und Kränzen geschmückt. Rechts ist ein Büffet mit
           kalten Speisen aufgestellt. Am Boden Körbe und Eiskübel mit Sekt. Wenn der Vorhang in die
-          Höhe geht, ist <emph rend="italic">de Rose</emph> in ein eifriges Gespräch mit Fritz <emph
-            rend="italic">Grinsinger</emph> und seiner Frau verwickelt. <emph rend="italic"
-            >Lisa</emph> und <emph rend="italic">Jeannette</emph> halten sich ein wenig abseits.
+          Höhe geht, ist <emph rend="italic">de Rose</emph> in ein eifriges Gespräch mit Fritz <emph rend="italic">Grinsinger</emph> und seiner Frau verwickelt. <emph rend="italic">Lisa</emph> und <emph rend="italic">Jeannette</emph> halten sich ein wenig abseits.
             <emph rend="italic">De Rose</emph> ist eine jugendliche Erscheinung, er trägt
           Automobilkleidung. <emph rend="italic">Fritz Grinsinger</emph> trägt das violettene
           Ordensbändchen im Knopfloch.</stage>
@@ -4478,55 +4553,68 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">O merci, ça va de nouveau mieux. Le médecin n'a fait suivre un
+          <p>
+            <emph rend="italic">O merci, ça va de nouveau mieux. Le médecin n'a fait suivre un
               régiment et prendre des fortifications et maintenant je suis de nouveau complétement
               guérite</emph>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(macht eine verzweifelte Geberde. (für sich):</stage>
-          <p><emph rend="italic">Guérite</emph>! <stage>(zu <emph rend="italic">de
-              Rose</emph>)</stage><emph rend="italic"> . Nous avions déjà peur que vous ne viendriez
+          <p>
+            <emph rend="italic">Guérite</emph>! <stage>(zu <emph rend="italic">de
+              Rose</emph>)</stage>
+            <emph rend="italic"> . Nous avions déjà peur que vous ne viendriez
               pas, monsieur le baron</emph>.</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Oui je disai comme ça à mon homme, monsieur le baron ne vient
+          <p>
+            <emph rend="italic">Oui je disai comme ça à mon homme, monsieur le baron ne vient
               pas</emph>.</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Comment donc, madame, jamais de la vie j'aurais voulu manquer
+          <p>
+            <emph rend="italic">Comment donc, madame, jamais de la vie j'aurais voulu manquer
               l'occasion de faire la connaissance de cette vaillante société alsacienne</emph>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Enfin vous avez tout juste le temps de faire un peu de toilette; il
+          <p>
+            <emph rend="italic">Enfin vous avez tout juste le temps de faire un peu de toilette; il
               faudra même vous presser</emph>.</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Je m’en va vous montrer votre chambre</emph>. <stage>(wendet sich
-              nach rechts.)</stage></p>
+          <p>
+            <emph rend="italic">Je m’en va vous montrer votre chambre</emph>. <stage>(wendet sich
+              nach rechts.)</stage>
+          </p>
         </sp>
         <pb n="80"/>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><stage>(verneigt sich vor <emph rend="italic">Lisa</emph> und <emph rend="italic"
-                >Jeannette</emph>)</stage><emph rend="italic"> Mesdemoiselles, à tout à
+          <p>
+            <stage>(verneigt sich vor <emph rend="italic">Lisa</emph> und <emph rend="italic">Jeannette</emph>)</stage>
+            <emph rend="italic"> Mesdemoiselles, à tout à
               l'heure</emph>! <stage>(Folgt <emph rend="italic">Madame Grinsinger</emph> nach
-              rechts.)</stage></p>
+              rechts.)</stage>
+          </p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
           <stage>(an der Türe stehen bleibend):</stage>
-          <p><emph rend="italic">Passez, monsieur le baron</emph>.</p>
+          <p>
+            <emph rend="italic">Passez, monsieur le baron</emph>.</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Après vous, madame.</emph>
+          <p>
+            <emph rend="italic">Après vous, madame.</emph>
             <stage>(<emph rend="italic">Madame Grinsinger</emph> ab, <emph rend="italic">de
-                Rose</emph> ihr nach.)</stage></p>
+                Rose</emph> ihr nach.)</stage>
+          </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
@@ -4536,8 +4624,7 @@
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p>Ich mein m’r sotte mache, dass m’r an d’Isebahn fahre thäte de <emph rend="italic"
-              >Charles</emph>, pardon de <emph rend="italic">Auguste</emph> abhole, wie mit’m
+          <p>Ich mein m’r sotte mache, dass m’r an d’Isebahn fahre thäte de <emph rend="italic">Charles</emph>, pardon de <emph rend="italic">Auguste</emph> abhole, wie mit’m
             Achtührzug üs d’r Stadt kummt.</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -4551,7 +4638,9 @@
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
-          <p><emph rend="italic">Au revoir papa</emph>! <stage>(Mit Lisa der Türe zu.)</stage></p>
+          <p>
+            <emph rend="italic">Au revoir papa</emph>! <stage>(Mit Lisa der Türe zu.)</stage>
+          </p>
         </sp>
         <sp who="#lisa">
           <speaker>Lisa</speaker>
@@ -4562,21 +4651,22 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Tout va bien! Tout va bien! Grinsinger, je suis content de
+          <p>
+            <emph rend="italic">Tout va bien! Tout va bien! Grinsinger, je suis content de
               toi</emph>! <stage>(zieht seine Rede aus der Tasche)</stage> ich will doch noch emol
             gschwind mini Redd durchlese, nit dass i Angst hätt awwer... <stage>(Stellt sich in
               Positur)</stage>
             <emph rend="italic">Messieurs! Chers amis! Je ne m’attendais vraiment pas à tant
               d’honneur! L'ovation que vous venez de me faire m’est allée droit au cœur</emph>!
               <stage>(sich unterbrechend)</stage>
-            <emph rend="italic">Bravo! Cela sonne bien</emph>, diss klingt famos, <emph
-              rend="italic">c'est ronflant</emph>, ’s wurd guet wirike.</p>
+            <emph rend="italic">Bravo! Cela sonne bien</emph>, diss klingt famos, <emph rend="italic">c'est ronflant</emph>, ’s wurd guet wirike.</p>
         </sp>
         <pb n="81"/>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
           <stage>(von rechts):</stage>
-          <p><emph rend="italic">Quel charmant jeune homme ce baron</emph>! Was e netter junger
+          <p>
+            <emph rend="italic">Quel charmant jeune homme ce baron</emph>! Was e netter junger
             Mann!</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -4601,7 +4691,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">A propos</emph>, wenn Sie jemand fröüjt, wo Sie here sin, ze saaue
+          <p>
+            <emph rend="italic">A propos</emph>, wenn Sie jemand fröüjt, wo Sie here sin, ze saaue
             Sie vun Schnersche vun d’r Schliffmüehl.</p>
         </sp>
         <sp who="#marie">
@@ -4630,10 +4721,8 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(seine Frau an den Schultern fassend):</stage>
-          <p>Frau, diss muess e schöns, e prächtigs Fescht gän! Meinsch, wie die diss <emph
-              rend="italic">buffet-froid</emph> verwickle wäre? Im e Jede hawich sin
-            Lieblingsplättel gerüescht. Wie meinsch, wie d’r dick Müller do die <emph rend="italic"
-              >terrine</emph> verdaxe wurd?!</p>
+          <p>Frau, diss muess e schöns, e prächtigs Fescht gän! Meinsch, wie die diss <emph rend="italic">buffet-froid</emph> verwickle wäre? Im e Jede hawich sin
+            Lieblingsplättel gerüescht. Wie meinsch, wie d’r dick Müller do die <emph rend="italic">terrine</emph> verdaxe wurd?!</p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
@@ -4645,7 +4734,8 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Eh bien merci</emph>!</p>
+          <p>
+            <emph rend="italic">Eh bien merci</emph>!</p>
         </sp>
         <pb n="82"/>
         <sp who="#fritz_grinsinger">
@@ -4659,12 +4749,12 @@
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p>Ich wott es wär verbie, ich hab nächt e so böesi Traum ghett, <emph rend="italic"
-              >j'avais un mauvais songe</emph>.</p>
+          <p>Ich wott es wär verbie, ich hab nächt e so böesi Traum ghett, <emph rend="italic">j'avais un mauvais songe</emph>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Bon</emph>, jetzt kummsch dü m’r mit Altwywerplän! Was soll
+          <p>
+            <emph rend="italic">Bon</emph>, jetzt kummsch dü m’r mit Altwywerplän! Was soll
             passiere? Isch nit alles im Blej? D’r <emph rend="italic">cousin de malheur</emph> üs
             Sachse isch uff d’r Heimreis! D’r Dr. Kneppchen rischt sin Gepäck in d’r Stadt fur
             abzereise, unn hett m’r gschriwwe, dass d’Affär Gauthier e gueti Lösung wurd finde, unn
@@ -4691,7 +4781,8 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(in grosser Aufregung):</stage>
-          <p><emph rend="italic">Sac à papier</emph>, unn mini Kinder, wie noch nit do sin vum
+          <p>
+            <emph rend="italic">Sac à papier</emph>, unn mini Kinder, wie noch nit do sin vum
             Isebahn! <stage>(zieht seine Rede heraus)</stage> Marie, spring Sie gschwind nuff, d’r
             Herr Baron soll gschwind kumme.</p>
         </sp>
@@ -4706,7 +4797,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Nom d'un petit bonhomme</emph>! — <emph rend="italic">Mon
+          <p>
+            <emph rend="italic">Nom d'un petit bonhomme</emph>! — <emph rend="italic">Mon
               Dieu</emph>, was e-n-<emph rend="italic">émotion</emph>! — <stage>(in grosser
               Aufregung auf und ab.)</stage>
           </p>
@@ -4725,11 +4817,14 @@
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
           <stage>(im Türrahmen):</stage>
-          <p><emph rend="italic">Naturellement</emph>! <stage>(schnell ab)</stage></p>
+          <p>
+            <emph rend="italic">Naturellement</emph>! <stage>(schnell ab)</stage>
+          </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Nom d'un petit bonhomme</emph>, jetzt weiss ich vor lütter
+          <p>
+            <emph rend="italic">Nom d'un petit bonhomme</emph>, jetzt weiss ich vor lütter
             Uffrejung nimmi wie d’Redd anfangt. Wie hawich se denn numme? — <stage>(sucht in den
               Taschen)</stage>
             <emph rend="italic">Bon</emph>, do hawich se jo in d’r Hand! <stage>(er öffnet zitternd
@@ -4776,17 +4871,22 @@
         <sp who="#de_rose">
           <speaker>de Rose</speaker>
           <stage>(hastig von rechts, ihm nach <emph rend="italic">madame Grinsinger):
-            </emph></stage>
-          <p><emph rend="italic">Madame vient de m’apprendre que la Fanfare arrive</emph>.</p>
+            </emph>
+          </stage>
+          <p>
+            <emph rend="italic">Madame vient de m’apprendre que la Fanfare arrive</emph>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Oui on l'entend de loin dans la vallée</emph>! <stage>(sie
-              lauschen.)</stage></p>
+          <p>
+            <emph rend="italic">Oui on l'entend de loin dans la vallée</emph>! <stage>(sie
+              lauschen.)</stage>
+          </p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">En effet! — Quelle douce émotion que j'éprouve! Comme mon coeur bat
+          <p>
+            <emph rend="italic">En effet! — Quelle douce émotion que j'éprouve! Comme mon coeur bat
               joyeusement</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -4799,18 +4899,22 @@
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Je me mettrai un peu à l’écart pour prendre des notes pour mon
-              journal</emph>. <stage>(Die Musik wird deutlich vernehmbar.)</stage></p>
+          <p>
+            <emph rend="italic">Je me mettrai un peu à l’écart pour prendre des notes pour mon
+              journal</emph>. <stage>(Die Musik wird deutlich vernehmbar.)</stage>
+          </p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
-          <p><stage>(winkt mit dem Taschentuch an der Türe seine Frau desgleichen. Plötzlich wird er
+          <p>
+            <stage>(winkt mit dem Taschentuch an der Türe seine Frau desgleichen. Plötzlich wird er
               stutzig)</stage> Die Simpel blose glauwich e ditsche Marsch, unn Sie han m’r doch de
               <emph rend="italic">„Sambre et Meuse“</emph> versproche! <stage>(Er lehnt sich
               vor)</stage> Oho?! Was isch diss?! — <stage>(Er hält sich an einem Stuhl, der in der
               Nähe der Tür steht)</stage> Isch er’s odder isch’s siner Geischt? — Do kummt jo der
             verruckt <emph rend="italic">cousin</emph> üs Sachse de Garte here! . . . Sott am End .
-            . .. .?! <stage>(sinkt auf den Stuhl.)</stage></p>
+            . .. .?! <stage>(sinkt auf den Stuhl.)</stage>
+          </p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
@@ -4818,21 +4922,25 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Mon Dieu! Mon Dieu</emph>!</p>
+          <p>
+            <emph rend="italic">Mon Dieu! Mon Dieu</emph>!</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Qu’y a-t-il</emph>?</p>
+          <p>
+            <emph rend="italic">Qu’y a-t-il</emph>?</p>
         </sp>
         <pb n="85"/>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(nach Atem ringend):</stage>
-          <p><emph rend="italic">Rien, ce n’est rien! . . . c’est l'émotion</emph>!</p>
+          <p>
+            <emph rend="italic">Rien, ce n’est rien! . . . c’est l'émotion</emph>!</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Cela s'explique</emph>!. . .</p>
+          <p>
+            <emph rend="italic">Cela s'explique</emph>!. . .</p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger</speaker>
@@ -4844,13 +4952,16 @@
           <speaker>Fritz Grinsinger:</speaker>
           <p>O ja! O ja! Sprachlos! <stage>(für sich)</stage> Un wie! <stage>(Die Musik kommt näher.
                 <emph rend="italic">Grinsinger</emph> ist bestrebt, sein Ordenszeichen zu
-              verbergen.)</stage></p>
+              verbergen.)</stage>
+          </p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose</speaker>
           <stage>(für sich):</stage>
-          <p><emph rend="italic">Je suis ému</emph>! <stage>(er zieht sich in den Hintergrund
-              zurück.)</stage></p>
+          <p>
+            <emph rend="italic">Je suis ému</emph>! <stage>(er zieht sich in den Hintergrund
+              zurück.)</stage>
+          </p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger:</speaker>
@@ -4874,15 +4985,18 @@
               Alle sehr fidel und lebhaft. Hans Grinsinger kennt sich nicht mehr vor Freude, er
               schlägt den Takt. Die Musik stellt sich am Eingang auf und bläst ihren Marsch zu Ende.
               Fritz <emph rend="italic">Grinsinger</emph> hält sich, einer Ohnmacht nahe, an einem
-              Stuhle.)</stage></p>
+              Stuhle.)</stage>
+          </p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger</speaker>
           <stage>(für sich):</stage>
-          <p><emph rend="italic">Je me sauve</emph>! — Ich geh los! <stage>(<emph rend="italic">de
+          <p>
+            <emph rend="italic">Je me sauve</emph>! — Ich geh los! <stage>(<emph rend="italic">de
                 Rose</emph> hält sich in Bereitschaft um Notizen <pb n="86"/> zu machen. Wenn die
               Musik zu Ende gespielt hat, tritt Gauthier vor und flüstert Hans Grinsinger etwas in’s
-              Ohr.)</stage></p>
+              Ohr.)</stage>
+          </p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger:</speaker>
@@ -4910,7 +5024,8 @@
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Je ne comprends pas un mot</emph>.</p>
+          <p>
+            <emph rend="italic">Je ne comprends pas un mot</emph>.</p>
         </sp>
         <sp who="#gauthier">
           <speaker>Gauthier:</speaker>
@@ -4932,7 +5047,8 @@
         <sp who="#de_rose">
           <speaker>de Rose</speaker>
           <stage>(abseits):</stage>
-          <p><emph rend="italic">Je ne comprends toujours rien, quelle langue extraordinaire que cet
+          <p>
+            <emph rend="italic">Je ne comprends toujours rien, quelle langue extraordinaire que cet
               alsacien</emph>! —</p>
         </sp>
         <pb n="87"/>
@@ -4955,7 +5071,9 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Enfin</emph>. . . Ihr Herren! <stage>(Pause.)</stage></p>
+          <p>
+            <emph rend="italic">Enfin</emph>. . . Ihr Herren! <stage>(Pause.)</stage>
+          </p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger</speaker>
@@ -5036,12 +5154,15 @@
             Sekt is nich von Pappe, barbleeh! — <stage>(lachend)</stage> „Ein echter deutscher Mann
             kann keenen Franzosen leiden, aber seine Weine trinkt er gern!“ sagt unser oller
             Schiller. <stage>(Es wird immerzu nachgegossen. <emph rend="italic">De Rose</emph> ist
-              mit seinem Glase nähergetreten.)</stage></p>
+              mit seinem Glase nähergetreten.)</stage>
+          </p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose</speaker>
-          <stage>(zu Fritz <emph rend="italic">Grinsinger): </emph></stage>
-          <p><emph rend="italic">A votre bonne santé! Cette fête est vraiment charmante! Vraiment
+          <stage>(zu Fritz <emph rend="italic">Grinsinger): </emph>
+          </stage>
+          <p>
+            <emph rend="italic">A votre bonne santé! Cette fête est vraiment charmante! Vraiment
               réussie</emph>!</p>
         </sp>
         <sp who="#hans_grinsinger">
@@ -5056,7 +5177,8 @@
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Veuillez me présenter à ces Messieurs</emph>!</p>
+          <p>
+            <emph rend="italic">Veuillez me présenter à ces Messieurs</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -5081,8 +5203,7 @@
           <stage>(mit ausgelassener Lustigkeit):</stage>
           <p>Na ob, ich spreche perfekt franszösch. <stage>(mit auffallend <pb n="89"/> starkem
               Accent):</stage>
-            <emph rend="italic">Moi je parler française</emph>! Commang wu Portemonnä? — <emph
-              rend="italic">Liberté! Egalité! Fraternité</emph> ! <emph rend="italic">Oui! Oui!
+            <emph rend="italic">Moi je parler française</emph>! Commang wu Portemonnä? — <emph rend="italic">Liberté! Egalité! Fraternité</emph> ! <emph rend="italic">Oui! Oui!
               Allong</emph> ! <stage>(allgemeine Heiterkeit.)</stage>
           </p>
         </sp>
@@ -5102,25 +5223,30 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Ah! Ah! ... tout juste on vient de me dire qu'il est malade, bien
+          <p>
+            <emph rend="italic">Ah! Ah! ... tout juste on vient de me dire qu'il est malade, bien
               malade</emph>.</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Oh! C’est bien dommage! — Et ce vaillant garde mobile dont vous
+          <p>
+            <emph rend="italic">Oh! C’est bien dommage! — Et ce vaillant garde mobile dont vous
               m’aviez également parlé</emph>?</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Ah! Ah</emph>! <stage>(für sich)</stage> Nundebickel! Nundebickel!
+          <p>
+            <emph rend="italic">Ah! Ah</emph>! <stage>(für sich)</stage> Nundebickel! Nundebickel!
               <emph rend="italic">Le pauvre homme... il est mort, on vient de me le dire qu'il est
               mort, bien mort... et enterré</emph>...</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Ah! Les vieux s'en vont! C'est égal, les allemands ont bien
+          <p>
+            <emph rend="italic">Ah! Les vieux s'en vont! C'est égal, les allemands ont bien
               travaillé, mais pourvu que le cœur soit resté français</emph>. <stage>(sich an die
-              Gesellschaft wendend)</stage><emph rend="italic"> Mesdames et Messieurs, ne sachant
+              Gesellschaft wendend)</stage>
+            <emph rend="italic"> Mesdames et Messieurs, ne sachant
               pas l'allemand, vous me permettrez de vous adresser quelques paroles en français.
               Notre aimable amphitryon aura la complaisance, j'en suis sûr, de se faire l'interprète
               de mes paroles et de mes sentiments</emph>!</p>
@@ -5150,7 +5276,8 @@
         <sp who="#de_rose">
           <speaker>de Rose</speaker>
           <stage>(spricht mit grossem Pathos):</stage>
-          <p><emph rend="italic">Mesdames et Messieurs</emph>!</p>
+          <p>
+            <emph rend="italic">Mesdames et Messieurs</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
@@ -5159,7 +5286,8 @@
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Chers compatriotes, si j'ose vous nommer ainsi. C'est avec une
+          <p>
+            <emph rend="italic">Chers compatriotes, si j'ose vous nommer ainsi. C'est avec une
               profonde émotion que j'ai attendu ce jour où je dois enfin avoir l'honneur de voir
               face à face les nobles représentants de cette vaillante, de cette courageuse société
               alsacienne qui porte si haut le drapeau des anciennes traditions! Oui, c'est bien
@@ -5167,7 +5295,8 @@
               profond que je vois briller des larmes limpides dans vos yeux! Ne pleurez pas, chers
               amis, et sachez que nous songeons toujours à votre cher, à votre beau, à votre
               vaillant pays! C'est à lui que je vide mon verre! Qu'il vive</emph>! <stage>(er erhebt
-              das Glas, man stösst mit ihm an.)</stage></p>
+              das Glas, man stösst mit ihm an.)</stage>
+          </p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger:</speaker>
@@ -5183,16 +5312,19 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Enfin</emph>, er hat gesagt, dass — dass . . . . <stage>(für
+          <p>
+            <emph rend="italic">Enfin</emph>, er hat gesagt, dass — dass . . . . <stage>(für
               sich)</stage> E Nundedié noch emol, was for Bäre könnt m’r ne denn anbinde?</p>
         </sp>
         <sp who="#de_rose">
           <speaker>De Rose:</speaker>
-          <p><emph rend="italic">C’est difficile de traduire en alsacien</emph>?</p>
+          <p>
+            <emph rend="italic">C’est difficile de traduire en alsacien</emph>?</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Ah oui ... bien difficile! Très difficile</emph>! — Er hat also
+          <p>
+            <emph rend="italic">Ah oui ... bien difficile! Très difficile</emph>! — Er hat also
             gesagt, dass es ihn besonders freut, die Bekanntschaft der Sachsen zu machen.
               <stage>(Beifall)</stage>
           </p>
@@ -5256,7 +5388,8 @@
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger:</speaker>
           <p>Also, noch mal unser liebes Sachsen soll läben, Hoch! Hoch! Hoch! <stage>(alles stimmt
-              begeistert ein und stösst mit <emph rend="italic">de Rose</emph> an.)</stage></p>
+              begeistert ein und stösst mit <emph rend="italic">de Rose</emph> an.)</stage>
+          </p>
         </sp>
         <sp who="#de_rose">
           <speaker>De Rose</speaker>
@@ -5268,7 +5401,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Il n'y a pas de quoi, il n'y a vraiment pas de quoi</emph>....
+          <p>
+            <emph rend="italic">Il n'y a pas de quoi, il n'y a vraiment pas de quoi</emph>....
               <stage>(für sich)</stage> Gott sej Dank, dass ich die Folter erum hab! — Was wurd diss
               <pb n="92"/> noch fur e-n-End nemme?! — <stage>(es wird eifrig Sekt zugegossen. Nach
               einer kleinen Pause klopft Grinsinger an’s Glas.)</stage>
@@ -5278,31 +5412,30 @@
           <speaker>Hans Grinsinger:</speaker>
           <p>Stillentzium!! Liewe Sachsenbrieder uud Sachsenschwestern, der geehrte Herr Vorrädner
             hat unser scheenes Vaterland hoch läwen lassen, dadrum fordere ich Sie auf das Gleiche
-            zu tun. Worscht wieder Worscht, heest’s bei uns. Es lebe Frankreich! <emph rend="italic"
-              >Vive la</emph> Frangss! —</p>
+            zu tun. Worscht wieder Worscht, heest’s bei uns. Es lebe Frankreich! <emph rend="italic">Vive la</emph> Frangss! —</p>
         </sp>
         <sp who="#gauthier">
           <speaker>Gauthier</speaker>
           <stage>(stürzt sich entsetzt auf Hans Grinsinger zu und hält ihm den Mund zu)</stage>
           <p>Um’s Himmelswillen Onkel keine Dummheiten! <stage>(er flüstert Hans Grinsinger etwas
-              in’s Ohr.)</stage></p>
+              in’s Ohr.)</stage>
+          </p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger</speaker>
           <stage>(ganz verwundert):</stage>
           <p>Ach Blech? — Na meinetwegen, wenn ’s so staatsgefährlich is, da schreien wir eben
             nicht: <emph rend="italic">Vive la</emph> Frangss! sondern sagen ganz eenfach auf gut
-            französch: <emph rend="italic">A vôtre</emph> Sangtee! <stage>(Er stösst mit <emph
-                rend="italic">de Rose</emph> an, alle folgen seinem Beispiel und suchen das <emph
-                rend="italic">„à votre santé“</emph> so gut es eben geht herauszubringen. <emph
-                rend="italic">De Rose</emph> verneigt sich höflich mit seinem Glase. Hans Grinsinger
+            französch: <emph rend="italic">A vôtre</emph> Sangtee! <stage>(Er stösst mit <emph rend="italic">de Rose</emph> an, alle folgen seinem Beispiel und suchen das <emph rend="italic">„à votre santé“</emph> so gut es eben geht herauszubringen. <emph rend="italic">De Rose</emph> verneigt sich höflich mit seinem Glase. Hans Grinsinger
               wendet sich wiederum Gauthier zu, mit dem er lebhaft diskutiert. Eine Anzahl
-              Mitglieder gehen in den Garten.)</stage></p>
+              Mitglieder gehen in den Garten.)</stage>
+          </p>
         </sp>
         <sp who="#de_rose">
           <speaker>De Rose</speaker>
           <stage>(zu Fritz Grinsinger):</stage>
-          <p><emph rend="italic">Si j'ai bien compris, ce malheureux a voulu entraîner la société à
+          <p>
+            <emph rend="italic">Si j'ai bien compris, ce malheureux a voulu entraîner la société à
               crier: Vive la France</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -5314,8 +5447,10 @@
         </sp>
         <sp who="#de_rose">
           <speaker>De Rose:</speaker>
-          <p><emph rend="italic">Mais c’est insensé! Mais il faut que je serre encore une fois la
-              main de ce brave </emph><stage>(geht auf Hans Grinsinger zu und schüttelt ihm kräftig
+          <p>
+            <emph rend="italic">Mais c’est insensé! Mais il faut que je serre encore une fois la
+              main de ce brave </emph>
+            <stage>(geht auf Hans Grinsinger zu und schüttelt ihm kräftig
               die Hand)</stage>. <emph rend="italic">Cher Monsieur, permettez moi de vous serrer la
               main, et croyez moi que je sais apprécier à sa juste valeur l'acte heroïque, l'acte
               sublime dont je fus le témoin</emph>!</p>
@@ -5324,7 +5459,8 @@
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger</speaker>
           <stage>(verneigt sich liebenswürdig):</stage>
-          <p><emph rend="italic">Oui, oui, oui, Allong</emph>!</p>
+          <p>
+            <emph rend="italic">Oui, oui, oui, Allong</emph>!</p>
         </sp>
         <sp who="#de_rose">
           <speaker>De Rose</speaker>
@@ -5347,7 +5483,8 @@
           <stage>
             <stage>(zu <emph rend="italic">de Rose</emph>):</stage>
           </stage>
-          <p><emph rend="italic">Oui, oui, allong</emph>. — Aber natürlich lass ich Frankreich
+          <p>
+            <emph rend="italic">Oui, oui, allong</emph>. — Aber natürlich lass ich Frankreich
             läben. <stage>(schüttelt <emph rend="italic">de Rose</emph> aufs neue die Hand)</stage>
             Wir Menschen sind ja alle Brüder. <emph rend="italic">Oui, oui, oui, liberté, égalité,
               fraternité</emph>!</p>
@@ -5358,7 +5495,8 @@
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger:</speaker>
-          <p><emph rend="italic">Oui! oui! oui</emph>! — Und wie sagt der Dichter so schön: „Seid
+          <p>
+            <emph rend="italic">Oui! oui! oui</emph>! — Und wie sagt der Dichter so schön: „Seid
             umschlungen Millionen!“ <stage>(macht die Geste des Umarmens)</stage>.</p>
         </sp>
         <sp who="#de_rose">
@@ -5379,7 +5517,8 @@
         <sp who="#de_rose">
           <speaker>de Rose</speaker>
           <stage>(ergreift ein Glas):</stage>
-          <p><emph rend="italic">A votre bonne santé</emph>! — Gesundheitlich! Ja! Ja!</p>
+          <p>
+            <emph rend="italic">A votre bonne santé</emph>! — Gesundheitlich! Ja! Ja!</p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger</speaker>
@@ -5395,14 +5534,15 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(für sich):</stage>
-          <p>Die süffe m’r alle mine Champagner, wenn sie mir nur nit au noch ans <emph
-              rend="italic">buffet</emph> gerothe!</p>
+          <p>Die süffe m’r alle mine Champagner, wenn sie mir nur nit au noch ans <emph rend="italic">buffet</emph> gerothe!</p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger</speaker>
           <stage>(verständnisvoll <emph rend="italic">de Rose</emph> zunickend):</stage>
-          <p><emph rend="italic">boire... manger</emph>... <stage>(macht die Geste des
-              Essens)</stage><emph rend="italic"> oui, oui, oui</emph>...</p>
+          <p>
+            <emph rend="italic">boire... manger</emph>... <stage>(macht die Geste des
+              Essens)</stage>
+            <emph rend="italic"> oui, oui, oui</emph>...</p>
         </sp>
         <pb n="94"/>
         <sp who="#de_rose">
@@ -5424,7 +5564,8 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(für sich):</stage>
-          <p><emph rend="italic">Ça y est</emph>! — Adje <emph rend="italic">buffet-froid</emph>!
+          <p>
+            <emph rend="italic">Ça y est</emph>! — Adje <emph rend="italic">buffet-froid</emph>!
             —</p>
         </sp>
         <sp who="#hans_grinsinger">
@@ -5525,12 +5666,14 @@
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Là on reconnaît la bonne fourchette alsacienne, cela fait plaisir à
+          <p>
+            <emph rend="italic">Là on reconnaît la bonne fourchette alsacienne, cela fait plaisir à
               voir</emph>!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Oui cela fait plaisir</emph>. <stage>(für sich)</stage> Wenn’r
+          <p>
+            <emph rend="italic">Oui cela fait plaisir</emph>. <stage>(für sich)</stage> Wenn’r
             numme wüesst wie!</p>
         </sp>
         <sp who="#hans_grinsinger">
@@ -5549,20 +5692,22 @@
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger</speaker>
           <stage>(aufhorchend):</stage>
-          <p>Was is’n das? — Musike? <stage>(man hört von ferne den Marsch <emph rend="italic"
-                >„Sambre et Meuse“</emph> spielen)</stage> Noch’ne Musike ? jetzt wirds fidel!
+          <p>Was is’n das? — Musike? <stage>(man hört von ferne den Marsch <emph rend="italic">„Sambre et Meuse“</emph> spielen)</stage> Noch’ne Musike ? jetzt wirds fidel!
               <stage>(Er begleitet die Musik, indem er den Takt dazu schlägt)</stage>..</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsiger</speaker>
           <stage>(für sich):</stage>
-          <p><emph rend="italic">d’Fanfare</emph>! Ich tät liewer d’Trumpete vun Jericho oder
+          <p>
+            <emph rend="italic">d’Fanfare</emph>! Ich tät liewer d’Trumpete vun Jericho oder
             d’Posaune vum jüngschte Gericht höre! — Nein, so e Daa! so e Daa!</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">On dirait la „Sambre et Meuse“ </emph><stage>(Fritz <emph
-                rend="italic">Grinsinger</emph> nickt bestätigend)</stage><emph rend="italic"> Quel
+          <p>
+            <emph rend="italic">On dirait la „Sambre et Meuse“ </emph>
+            <stage>(Fritz <emph rend="italic">Grinsinger</emph> nickt bestätigend)</stage>
+            <emph rend="italic"> Quel
               beau geste! Encore une ovation?! Décidément si le gouvernement savait de quelle
               considération vous jouissez, il vous aurait donné la Légion d'honneur. — Savez-vous
               que je suis étonné de voir que la police ne s'en mêle pas</emph>?</p>
@@ -5578,19 +5723,23 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">Mesdames! Messieurs! Chers amis</emph>! — <stage>(er wird
+          <p>
+            <emph rend="italic">Mesdames! Messieurs! Chers amis</emph>! — <stage>(er wird
               unterbrochen durch Frau <emph rend="italic">Grinsinger</emph>, welche hastig von links
-              hereinstürmt.)</stage></p>
+              hereinstürmt.)</stage>
+          </p>
         </sp>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
           <p>Ihr Herre, d’r Gendarm kummt — <stage>(zu <emph rend="italic">de
-              Rose</emph>)</stage><emph rend="italic"> Un gendarme</emph>. <stage>(Alles sieht sich
+              Rose</emph>)</stage>
+            <emph rend="italic"> Un gendarme</emph>. <stage>(Alles sieht sich
               verwundert um)</stage>.</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Un gendarme?! — Ah, vraiment, cela ne m’étonne pas, on a poussé
+          <p>
+            <emph rend="italic">Un gendarme?! — Ah, vraiment, cela ne m’étonne pas, on a poussé
               l'audace trop loin! — A quelle lutte héroïque vais-je assister</emph>.</p>
         </sp>
         <pb n="97"/>
@@ -5598,8 +5747,7 @@
           <speaker>Gendarm</speaker>
           <stage>(durch die Mitte herein, knapp):</stage>
           <p>’n Abend! — <stage>(Die Mitglieder der beiden Gesellschaften treten in den Raum, rechts
-              kommen die Mitglieder des Sachsenvereins, links die der <emph rend="italic"
-                >Fanfare</emph> zu stehen. Einzelne Mitglieder des Sachsenvereins haben noch ihre
+              kommen die Mitglieder des Sachsenvereins, links die der <emph rend="italic">Fanfare</emph> zu stehen. Einzelne Mitglieder des Sachsenvereins haben noch ihre
               Teller in der Hand und essen stehend weiter)</stage>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -5610,15 +5758,13 @@
         <sp who="#gendarm">
           <speaker>Gendarm:</speaker>
           <p>Herr Grinsinger, es ist mir soeben mitgeteilt worden, dass <emph rend="italic">„vive
-              la</emph> Frangss“ hier gerufen worden ist. <stage>(Die Mitglieder der <emph
-                rend="italic">Fanfare</emph> protestieren)</stage>. Wenn Sie mir den Deliquenten
-            nicht namhaft machen, so muss ich Sie und den Vorstand der sattsam bekannten <emph
-              rend="italic">Fanfare</emph> verhaften.</p>
+              la</emph> Frangss“ hier gerufen worden ist. <stage>(Die Mitglieder der <emph rend="italic">Fanfare</emph> protestieren)</stage>. Wenn Sie mir den Deliquenten
+            nicht namhaft machen, so muss ich Sie und den Vorstand der sattsam bekannten <emph rend="italic">Fanfare</emph> verhaften.</p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">Mais c'est infecte</emph>! <stage>(Die Mitglieder der <emph
-                rend="italic">Fanfare</emph> protestieren lebhaft)</stage>.</p>
+          <p>
+            <emph rend="italic">Mais c'est infecte</emph>! <stage>(Die Mitglieder der <emph rend="italic">Fanfare</emph> protestieren lebhaft)</stage>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -5626,15 +5772,15 @@
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Quelle scène imposante</emph>!</p>
+          <p>
+            <emph rend="italic">Quelle scène imposante</emph>!</p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger</speaker>
           <stage>(sich dem Gendarm vorstellend):</stage>
           <p>Grinsinger, mei Name is Grinsinger. <stage>(mit Humor)</stage> Ich teile dem
             verehrlichen Polizeiorganus mit, dass meine Wenigkeit <emph rend="italic">„vive
-              la</emph> Frangss“ gerufen hat. <stage>(Die Mitglieder der <emph rend="italic"
-                >Fanfare</emph> verraten grosses Erstaunen)</stage>.</p>
+              la</emph> Frangss“ gerufen hat. <stage>(Die Mitglieder der <emph rend="italic">Fanfare</emph> verraten grosses Erstaunen)</stage>.</p>
         </sp>
         <sp who="#gendarm">
           <speaker>Gendarm:</speaker>
@@ -5663,7 +5809,8 @@
           <speaker>Gendarm:</speaker>
           <p>Spielen Sie nicht den wilden Mann. Sie sind so wenig Sachse wie ich Franzose! Sie sind
             ein Mitglied der <emph rend="italic">Fanfare</emph>
-            <stage>(Lebhafter Widerspruch bei der <emph rend="italic">Fanfare</emph>).</stage></p>
+            <stage>(Lebhafter Widerspruch bei der <emph rend="italic">Fanfare</emph>).</stage>
+          </p>
         </sp>
         <sp who="#gauthier">
           <speaker>Gauthier</speaker>
@@ -5675,7 +5822,8 @@
           <speaker>Rièmer</speaker>
           <stage>(zu <emph rend="italic">Madame Grinsinger</emph>):</stage>
           <p>Was mache denn die Schwowe do? <stage>(<emph rend="italic">Madame Grinsinger</emph>
-              antwortet nicht).</stage></p>
+              antwortet nicht).</stage>
+          </p>
         </sp>
         <sp who="#gendarm">
           <speaker>Gendarm:</speaker>
@@ -5695,8 +5843,7 @@
         <sp who="#riemer">
           <speaker>Rièmer</speaker>
           <stage>(verwundert):</stage>
-          <p>Was faselt der do vum Sachsebund? <stage>(zu Fritz <emph rend="italic"
-                >Grinsinger</emph>)</stage> Wenn ich do recht verstande hab, ze wärsch dü also
+          <p>Was faselt der do vum Sachsebund? <stage>(zu Fritz <emph rend="italic">Grinsinger</emph>)</stage> Wenn ich do recht verstande hab, ze wärsch dü also
             Mitglied vum Sachsebund ?</p>
         </sp>
         <sp who="#fritz_grinsinger">
@@ -5724,8 +5871,7 @@
         <sp who="#gauthier">
           <speaker>Gauthier</speaker>
           <stage>(erstaunt):</stage>
-          <p>Was höre ich da?! Herr Grinsinger, Sie sind Vizepräsident der berüchtigten <emph
-              rend="italic">Fanfare Alsacienne</emph>?! <stage>(spricht die letzten Worte mit
+          <p>Was höre ich da?! Herr Grinsinger, Sie sind Vizepräsident der berüchtigten <emph rend="italic">Fanfare Alsacienne</emph>?! <stage>(spricht die letzten Worte mit
               starkem Akzent aus. Grosse Bewegung unter den Mitgliedern des Sachsenbundes.)</stage>
             So sprechen Sie doch! —</p>
         </sp>
@@ -5737,7 +5883,8 @@
             unserem elsässische Vatterland! —</p>
         </sp>
         <sp who="#mitglieder_der_fanfare">
-          <speaker>Die Mitglieder der <emph rend="italic">Fanfare</emph></speaker>
+          <speaker>Die Mitglieder der <emph rend="italic">Fanfare</emph>
+          </speaker>
           <stage>(in grosser Entrüstung):</stage>
           <p>
             <emph rend="italic">C'est infect! C'est révoltant !</emph>
@@ -5780,14 +5927,15 @@
           <speaker>Rièmer:</speaker>
           <p>Ah, <emph rend="italic">par exemple</emph>! <stage>(grosse Entrüstung unter den
               Mitgliedern der <emph rend="italic">Fanfare</emph>.)</stage> Es leijt uff d’r Hand,
-            dass vun hytt an alles fertig unn verbie isch zwische d’r <emph rend="italic"
-              >Fanfare</emph> unn dir. Mir brüche kenn <emph rend="italic">mouchard</emph> in
+            dass vun hytt an alles fertig unn verbie isch zwische d’r <emph rend="italic">Fanfare</emph> unn dir. Mir brüche kenn <emph rend="italic">mouchard</emph> in
             unserer Societät! <stage>(Lebhafte Zustimmung.)</stage>
           </p>
         </sp>
         <sp who="#mitglieder_der_fanfare">
-          <speaker>Die Mitglieder der <emph rend="italic">Fanfare: </emph></speaker>
-          <p><emph rend="italic">A bas le traître</emph>!!</p>
+          <speaker>Die Mitglieder der <emph rend="italic">Fanfare: </emph>
+          </speaker>
+          <p>
+            <emph rend="italic">A bas le traître</emph>!!</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
@@ -5834,8 +5982,7 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p>So, unn ebb dass ich geh, ze will ich dir au noch saaue, dass vun ere <emph
-              rend="italic">fiançaille</emph> zwische minere Tochter unn dim Sohn nix wäre kann!</p>
+          <p>So, unn ebb dass ich geh, ze will ich dir au noch saaue, dass vun ere <emph rend="italic">fiançaille</emph> zwische minere Tochter unn dim Sohn nix wäre kann!</p>
         </sp>
         <pb n="101"/>
         <sp who="#auguste">
@@ -5851,7 +5998,8 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p><emph rend="italic">Tant mieux</emph>! No brüch ich au nimmi mit minere Verlobung mit
+          <p>
+            <emph rend="italic">Tant mieux</emph>! No brüch ich au nimmi mit minere Verlobung mit
             d’r Mamsell Olga zeruckzehalte.</p>
         </sp>
         <sp who="#gauthier">
@@ -5887,7 +6035,8 @@
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p><emph rend="italic">En effet</emph>! Was isch denn do passiert, ihr mache jo alli
+          <p>
+            <emph rend="italic">En effet</emph>! Was isch denn do passiert, ihr mache jo alli
             Gsichter, wie wenn’r in ’s Leid kumme wärde?! —</p>
         </sp>
         <sp who="#gauthier">
@@ -5914,7 +6063,8 @@
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
-          <p><emph rend="italic">Messieurs! Il a trahi la France, sa patrie</emph>!</p>
+          <p>
+            <emph rend="italic">Messieurs! Il a trahi la France, sa patrie</emph>!</p>
         </sp>
         <sp who="#lisa">
           <speaker>Lisa</speaker>
@@ -5925,8 +6075,7 @@
         <sp who="#gauthier">
           <speaker>Gauthier:</speaker>
           <p>Herr Grinsinger ist zu gleicher Zeit Mitglied zweier patriotischer Vereine gewesen,
-            eines deutschen, des Sachsenbundes und eines französischen, der <emph rend="italic"
-              >Fanfare</emph>! Was sagen Sie dazu?</p>
+            eines deutschen, des Sachsenbundes und eines französischen, der <emph rend="italic">Fanfare</emph>! Was sagen Sie dazu?</p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
@@ -5942,7 +6091,8 @@
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p><emph rend="italic">Eh bien</emph>, ich halt d’rvun, dass diss ganz in d’r Ordnung
+          <p>
+            <emph rend="italic">Eh bien</emph>, ich halt d’rvun, dass diss ganz in d’r Ordnung
             isch. <stage>(lebhafter Protest bei den Beteiligten)</stage> Die Haltung vun mim Unkel
             isch, wenn m’r sini Ansichte kennt, ganz logisch, ganz selbsverständlich !
               <stage>(erneuter Protest)</stage>
@@ -5972,8 +6122,7 @@
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
           <stage>(sich stolz aufrichtend):</stage>
-          <p>Ja, wie’s denn doch hüsse-n-isch, ja, Ihr Herre, miner lieb <emph rend="italic"
-              >neveu</emph>
+          <p>Ja, wie’s denn doch hüsse-n-isch, ja, Ihr Herre, miner lieb <emph rend="italic">neveu</emph>
             <stage>(fasst ihn bei der Hand)</stage> hett mich zue sine menschefrindliche-n-Idee
             bekehrt. Mini einzig <emph rend="italic">ambition</emph> isch, e so e-n-Art
             Friddesaposchtel ze wäre!</p>
@@ -5985,21 +6134,21 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p>Unn ich als Elsässer vum alte Schrot und Korn protestier <emph rend="italic"
-              >également</emph>!</p>
+          <p>Unn ich als Elsässer vum alte Schrot und Korn protestier <emph rend="italic">également</emph>!</p>
         </sp>
         <pb n="103"/>
         <sp who="#de_rose">
           <speaker>de Rose</speaker>
           <stage>(der von einem Mitglied der <emph rend="italic">Fanfare</emph> instruiert worden
             ist):</stage>
-          <p><emph rend="italic">Et moi, je proteste au nom de la nation française</emph>!</p>
+          <p>
+            <emph rend="italic">Et moi, je proteste au nom de la nation française</emph>!</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
           <p>So viel ich weiss, hätte-n-alli drei Herre, wie ewwe so kräftig protestiert han, alli
-            Grüend e bissl vorsichtiger ze sin in ihre-n-Erklärunge! <stage>(<emph rend="italic"
-                >Rièmer</emph> und Gauthier machen eine abwehrende Bewegung)</stage></p>
+            Grüend e bissl vorsichtiger ze sin in ihre-n-Erklärunge! <stage>(<emph rend="italic">Rièmer</emph> und Gauthier machen eine abwehrende Bewegung)</stage>
+          </p>
         </sp>
         <sp who="#dr_kneppchen">
           <speaker>Dr. Kneppchen:</speaker>
@@ -6031,8 +6180,7 @@
           <speaker>Dr. Kneppchen:</speaker>
           <p>Ihre Gesinnung verdanken Sie dem Schwager des Herrn Grinsinger, der Sie erzogen und als
             sächsischer Sergeant sich eine Ehre daraus machte, aus einem revolutionären Franzosen
-            einen guten deutschen Patrioten zu züchten und aus einem <emph rend="italic"
-              >Gauthier</emph> ein Gauthier zu machen!</p>
+            einen guten deutschen Patrioten zu züchten und aus einem <emph rend="italic">Gauthier</emph> ein Gauthier zu machen!</p>
         </sp>
         <sp who="#gauthier">
           <speaker>Gauthier</speaker>
@@ -6062,12 +6210,12 @@
         <sp who="#mitglieder_der_fanfare">
           <speaker>Die Mitglieder der Fanfare</speaker>
           <stage>(schadenfroh):</stage>
-          <p><emph rend="italic">Ça c'est fameux! C'est rigolo</emph>!</p>
+          <p>
+            <emph rend="italic">Ça c'est fameux! C'est rigolo</emph>!</p>
         </sp>
         <sp who="#ein_mitglied_des_sachsenbundes">
           <speaker>Ein Mitglied des Sachsenbundes:</speaker>
-          <p>Unter diesen Umständen Herr Gauthier oder vielmehr Herr <emph rend="italic"
-              >Gauthier</emph>
+          <p>Unter diesen Umständen Herr Gauthier oder vielmehr Herr <emph rend="italic">Gauthier</emph>
             <stage>(mit starkem Accent)</stage>....</p>
         </sp>
         <sp who="#gauthier">
@@ -6098,8 +6246,9 @@
         </sp>
         <sp who="#ein_mitglied_der_fanfare">
           <speaker>Ein Mitglied der Fanfare:</speaker>
-          <p><emph rend="italic">Ça c'est vraiment fameux</emph>! <stage>(Gelächter bei der <emph
-                rend="italic">Fanfare</emph>)</stage></p>
+          <p>
+            <emph rend="italic">Ça c'est vraiment fameux</emph>! <stage>(Gelächter bei der <emph rend="italic">Fanfare</emph>)</stage>
+          </p>
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
@@ -6120,7 +6269,8 @@
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer:</speaker>
-          <p><emph rend="italic">Je suis fichu</emph>!</p>
+          <p>
+            <emph rend="italic">Je suis fichu</emph>!</p>
         </sp>
         <sp who="#ein_mitglied_der_fanfare">
           <speaker>Ein Mitglied der Fanfare:</speaker>
@@ -6132,8 +6282,7 @@
         </sp>
         <sp who="#auguste">
           <speaker>Auguste:</speaker>
-          <p>Do <emph rend="italic">du reste</emph> d’Geburtsschien vum Herr <emph rend="italic"
-              >Rièmer</emph> sine-n-Eltre <stage>(überreicht <emph rend="italic">Rièmer</emph> die
+          <p>Do <emph rend="italic">du reste</emph> d’Geburtsschien vum Herr <emph rend="italic">Rièmer</emph> sine-n-Eltre <stage>(überreicht <emph rend="italic">Rièmer</emph> die
               Geburtsscheine)</stage>. <emph rend="italic">Vous permettez</emph>.</p>
         </sp>
         <sp who="#ein_mitglied_der_fanfare">
@@ -6154,13 +6303,14 @@
         </sp>
         <sp who="#mitglieder_der_fanfare">
           <speaker>Die Mitglieder der Fanfare:</speaker>
-          <p><emph rend="italic">Démission! Démission</emph>!</p>
+          <p>
+            <emph rend="italic">Démission! Démission</emph>!</p>
         </sp>
         <sp who="#riemer">
           <speaker>Rièmer</speaker>
           <stage>(lässt sich verzweifelt auf einen Stuhl sinken):</stage>
-          <p><emph rend="italic">Démission</emph>? Nüskejt üs d’r <emph rend="italic"
-            >Fanfare</emph>! Diss isch min Tod!</p>
+          <p>
+            <emph rend="italic">Démission</emph>? Nüskejt üs d’r <emph rend="italic">Fanfare</emph>! Diss isch min Tod!</p>
         </sp>
         <sp who="#ein_mitglied_der_fanfare">
           <speaker>Ein Mitglied der Fanfare:</speaker>
@@ -6168,8 +6318,7 @@
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
-          <p>Ihr Herre, do d’rwäje brüche Sie sich kenn gröüji Hoor wachse ze lon, denn d’r <emph
-              rend="italic">Baron de Rose</emph> isch ewe so weni Franzos wie Baron?</p>
+          <p>Ihr Herre, do d’rwäje brüche Sie sich kenn gröüji Hoor wachse ze lon, denn d’r <emph rend="italic">Baron de Rose</emph> isch ewe so weni Franzos wie Baron?</p>
         </sp>
         <sp who="#alle">
           <speaker>Alle</speaker>
@@ -6189,26 +6338,25 @@
         <pb n="106"/>
         <sp who="#madame_grinsinger">
           <speaker>Madame Grinsinger:</speaker>
-          <p><emph rend="italic">Comment</emph>, d’r Baron isch kenn <emph rend="italic"
-              >baron</emph>!? —</p>
+          <p>
+            <emph rend="italic">Comment</emph>, d’r Baron isch kenn <emph rend="italic">baron</emph>!? —</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose</speaker>
           <stage>(der von einem Mitglied der <emph rend="italic">Fanfare</emph> instruiert worden
             ist):</stage>
-          <p><emph rend="italic">Je proteste</emph>!</p>
+          <p>
+            <emph rend="italic">Je proteste</emph>!</p>
         </sp>
         <sp who="#durand">
           <speaker>Durand:</speaker>
           <p>Do helft alles protestiere nix, do d’r Geburtsschien vun sim Vater <stage>(überreicht
-                <emph rend="italic">de Rose</emph> den Geburtsschein)</stage>. <emph rend="italic"
-              >Voici l'acte de naissance de votre père</emph>!</p>
+                <emph rend="italic">de Rose</emph> den Geburtsschein)</stage>. <emph rend="italic">Voici l'acte de naissance de votre père</emph>!</p>
         </sp>
         <sp who="#de_rose">
           <speaker>de Rose:</speaker>
           <p>Comment?! <emph rend="italic">— Est-ce possible?! — Quel coup terrible pour moi</emph>!
-              <stage>(lässt sich auf einen Stuhl niedersinken, so dass er mit <emph rend="italic"
-                >Rièmer</emph> und Gauthier eine Reihe bildet)</stage>.</p>
+              <stage>(lässt sich auf einen Stuhl niedersinken, so dass er mit <emph rend="italic">Rièmer</emph> und Gauthier eine Reihe bildet)</stage>.</p>
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger</speaker>
@@ -6226,11 +6374,9 @@
             ungerechter Wies bhandelt han. Awwer als Mitglied vun d’r Friddesliga will ich mit’mm
             guete-n-Exempel vorangehn. Ihne Herr Gauthier verzehj ich, dass Sie als Franzos,
             Präsident vum e ditsche Verein sin gsin, dir <emph rend="italic">Rièmer</emph>, dass dü
-            als Ditscher, Präsident vun ere elsässische Societät bisch gsin <stage>(zu de <emph
-                rend="italic">Rose</emph>)</stage> Et vous, Monsieur le baron, je vous excuse que
+            als Ditscher, Präsident vun ere elsässische Societät bisch gsin <stage>(zu de <emph rend="italic">Rose</emph>)</stage> Et vous, Monsieur le baron, je vous excuse que
             vous ayez mis tant d’ardeur en votre qualité de prussien, à défendre les intérêts de la
-            France. <stage>(Alle bleiben geknickt sitzen)</stage>. Unn wenn ich <emph rend="italic"
-              >pour terminer</emph> denne zwei Societäte e guete Roth derft gän, ze thät ich ’ne
+            France. <stage>(Alle bleiben geknickt sitzen)</stage>. Unn wenn ich <emph rend="italic">pour terminer</emph> denne zwei Societäte e guete Roth derft gän, ze thät ich ’ne
             vorschlaaue ihri Präsidente jetzt einfach gejesittig üszetüsche. <stage>(Widerspruch bei
               den Mitgliedern der beiden Gesellschaften)</stage>.</p>
         </sp>
@@ -6262,8 +6408,9 @@
         </sp>
         <sp who="#lisa">
           <speaker>Lisa:</speaker>
-          <p><emph rend="italic">Charles! </emph><stage>(<emph rend="italic">Durand</emph> und <emph
-                rend="italic">Lisa</emph> umarmen sich)</stage>.</p>
+          <p>
+            <emph rend="italic">Charles! </emph>
+            <stage>(<emph rend="italic">Durand</emph> und <emph rend="italic">Lisa</emph> umarmen sich)</stage>.</p>
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
@@ -6271,7 +6418,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Bon</emph>, jetzt kummt der au noch!</p>
+          <p>
+            <emph rend="italic">Bon</emph>, jetzt kummt der au noch!</p>
         </sp>
         <sp who="#ehrstein">
           <speaker>Ehrstein:</speaker>
@@ -6281,7 +6429,8 @@
         </sp>
         <sp who="#fritz_grinsinger">
           <speaker>Fritz Grinsinger:</speaker>
-          <p><emph rend="italic">Pincé</emph>!</p>
+          <p>
+            <emph rend="italic">Pincé</emph>!</p>
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
@@ -6293,7 +6442,9 @@
         </sp>
         <sp who="#jeannette">
           <speaker>Jeannette:</speaker>
-          <p><emph rend="italic">Georges</emph>! <stage>(Umarmung.)</stage></p>
+          <p>
+            <emph rend="italic">Georges</emph>! <stage>(Umarmung.)</stage>
+          </p>
         </sp>
         <sp who="#dr_kneppchen">
           <speaker>Dr. Kneppchen:</speaker>
@@ -6312,8 +6463,7 @@
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger:</speaker>
-          <p>Da de nu doch emal e Franzose bist, kanns dirsch, wees Kneppchen, auch egal<pb n="108"
-            /> sein, wenn deine Tochter einen Franzosenkopf heiratet, der dazu noch ein halber
+          <p>Da de nu doch emal e Franzose bist, kanns dirsch, wees Kneppchen, auch egal<pb n="108"/> sein, wenn deine Tochter einen Franzosenkopf heiratet, der dazu noch ein halber
             Sachse ist!</p>
         </sp>
         <sp who="#gauthier">
@@ -6322,7 +6472,9 @@
         </sp>
         <sp who="#olga">
           <speaker>Olga:</speaker>
-          <p><emph rend="italic">Auguste</emph>! <stage>(Umarmung.)</stage></p>
+          <p>
+            <emph rend="italic">Auguste</emph>! <stage>(Umarmung.)</stage>
+          </p>
         </sp>
         <sp who="#hans_grinsinger">
           <speaker>Hans Grinsinger:</speaker>
