@@ -40,7 +40,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106606149</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -51,8 +50,6 @@
             <title type="main">So e liederlicher Frack!</title>
             <title type="sub">odder: E foljieschwäri Hüssuechung. E Schwank in 1 Uffzug</title>
             <publisher>F. X. Le Roux &amp; Cie, Strasbourg</publisher>
-            <date when="1928" type="print">1928</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -103,6 +100,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1928">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q106606149"/>
+  </standOff>
   <text>
     <front>
       <pb n="3"/>

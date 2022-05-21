@@ -33,7 +33,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q92047713</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -44,8 +43,6 @@
             <title type="main">Sainte-Cécile!</title>
             <title type="sub">Lustspiel in einem Aufzuge in Straßburger Mundart von Julius Greber</title>
             <publisher>Verlag von Schlesier &amp; Schweikhardt</publisher>
-            <date type="print" when="1897">1897</date>
-            <date type="written" when="1897">1897</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -82,6 +79,17 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1897">
+        <desc/>
+      </event>
+      <event type="written" when="1897">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q92047713"/>
+  </standOff>
   <text>
     <front>
       <castList>

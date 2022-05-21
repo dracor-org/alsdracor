@@ -40,7 +40,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106592612</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -51,8 +50,6 @@
             <title type="main">D'r Hans im Schnokeloch</title>
             <title type="sub">Volksspiel in 4 Aufzügen mit Musik, Gesang und Tanz von Ferd. Bastian</title>
             <publisher>Druck und Verlag: Imprimerie du Nouveau Journal de Strasboug S. à. r. l.</publisher>
-            <date when="1930" type="print">1930</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -149,6 +146,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1930">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q106592612"/>
+  </standOff>
   <text>
     <front>
       <castList>

@@ -40,7 +40,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106588086</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -51,8 +50,6 @@
             <title type="main">D'r Herr Maire</title>
             <title type="sub">Lustspiel in drei Aufzügen von G. Stoskopf. 18. Auflage.</title>
             <publisher>L. Jaggi-Reiss, Gundershoffen</publisher>
-            <date when="1935" type="print">1935</date>
-            <date when="1898" type="written">1935</date>
           </bibl>
           <note>The first edition was published by Schlesier &amp; Schweikhardt (Strasbourg) in 1898.</note>
         </bibl>
@@ -200,6 +197,17 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1935">
+        <desc/>
+      </event>
+      <event type="written" when="1898">
+        <label>1935</label>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q106588086"/>
+  </standOff>
   <text>
     <front>
       <castList>

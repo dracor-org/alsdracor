@@ -34,7 +34,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q91900355</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -46,8 +45,6 @@
             <title type="sub">Einakter vun Marie Hart. Nej bearweit vun E. Deck, Regisseur vom Els. Theater in
             Hawenau.</title>
             <publisher>Edition de théâtre et de musique L. Jaggi-Reiss, Gundershoffen (Bas-Rhin)</publisher>
-            <date type="print" when="1937">1937</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -80,6 +77,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1937">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q91900355"/>
+  </standOff>
   <text>
     <front>
       <castList>

@@ -41,7 +41,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q108197512</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -53,8 +52,6 @@
             <title type="sub">Schauspiel in 3 Aufzügen in Straßburger Mundart von Julius Greber. Mit einer
             Deckenzeichnung von C. Spindler.</title>
             <publisher>Schlesier &amp; Schweikhardt</publisher>
-            <date when="1899" type="print">1899</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -114,6 +111,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1899">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q108197512"/>
+  </standOff>
   <text>
     <front>
       <pb n="7"/>

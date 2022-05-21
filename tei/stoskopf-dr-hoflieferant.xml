@@ -25,7 +25,6 @@
             <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q90885236</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -37,9 +36,6 @@
           <bibl type="originalSource">
             <title>Gustave Stoskopf: D’r Hoflieferant. Elsässische Komödie in 3 Aufzügen von G.
               Stoskopf. Strassburg: Schlesier &amp; Schweikhardt 1906.</title>
-            <date type="print" when="1906">1906</date>
-            <date type="premiere" when="1905">1905</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -136,6 +132,17 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1906">
+        <desc/>
+      </event>
+      <event type="premiere" when="1905">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q90885236"/>
+  </standOff>
   <text>
     <front>
       <pb n="3"/>

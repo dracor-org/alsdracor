@@ -40,7 +40,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q107433122</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -51,8 +50,6 @@
             <title type="main">Lucie</title>
             <title type="sub">Dramatisches Sittenbild in einem Aufzuge in Straßburger Mundart</title>
             <publisher>Schlesier &amp; Schweikhardt</publisher>
-            <date when="1896" type="print">1896</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -102,6 +99,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1896">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q107433122"/>
+  </standOff>
   <text>
     <front>
       <pb n="5"/>

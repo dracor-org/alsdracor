@@ -40,7 +40,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106556023</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -51,8 +50,6 @@
             <title type="main">A lätzi Visit</title>
             <title type="sub">Elsässisch Luschtspiel in 1 Akt vun Paul Clemens</title>
             <publisher>Société d'édition Alsatia S.A.</publisher>
-            <date when="1920" type="print">1920</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -90,6 +87,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1920">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q106556023"/>
+  </standOff>
   <text>
     <front>
       <pb n="3"/>

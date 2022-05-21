@@ -38,7 +38,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q97285602</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -50,7 +49,6 @@
             <title type="sub">E Wihnachtsstüeckel in 1 Akt in elsässischem Dialekt füer kleine und grossi
             Kinder</title>
             <publisher>Société d’Edition de la Haute-Alsace S. A. Colmar 1919</publisher>
-            <date type="print" when="1919">1919</date>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -109,6 +107,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1919">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q97285602"/>
+  </standOff>
   <text>
     <front>
       <castList>

@@ -41,7 +41,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106559230</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -52,8 +51,6 @@
             <title type="main">Yo-Yo!</title>
             <title type="sub">E Geduldspiel in einem Akt</title>
             <publisher>Imprimerie de la Bourse, Strasbourg</publisher>
-            <date when="1932" type="print">1932</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -92,6 +89,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1932">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q106559230"/>
+  </standOff>
   <text>
     <front>
       <pb n="3"/>

@@ -40,7 +40,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q106559604</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -51,8 +50,6 @@
             <title type="main">Uff Dr Hochzittsreis</title>
             <title type="sub">Luschtspiel in 1 Akt im els. Dialekt</title>
             <publisher>Theater- und Musik-Verlag, Rouffach, Iprimerie Keller-Immelé</publisher>
-            <date when="1924" type="print">1924</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -92,6 +89,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1924">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q106559604"/>
+  </standOff>
   <text>
     <front>
       <pb n="2"/>

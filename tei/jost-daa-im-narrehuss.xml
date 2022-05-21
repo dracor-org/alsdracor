@@ -38,7 +38,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q100753215</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -49,8 +48,6 @@
             <title type="main">E Daa im Narrehüss</title>
             <title type="sub">E Original-Farce in zwei kurze  Akt vum Camille Jost</title>
             <publisher>Druck und Verlag von F. X. Le Roux &amp; Cie., S. A.</publisher>
-            <date type="print" when="1928">1928</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -109,6 +106,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1928">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q100753215"/>
+  </standOff>
   <text>
     <front>
       <castList>

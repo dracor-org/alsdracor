@@ -37,7 +37,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q97695017</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -49,8 +48,6 @@
             <title type="sub">Märel in 6 Bilder un 2 Verwandlunge vun Ferd. Bastian. Musik von Aug.
             Schwoob</title>
             <publisher>Imprimerie A. Willm – Niderbronn-les-Bains</publisher>
-            <date type="print" when="1937">1937</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -166,6 +163,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1937">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q97695017"/>
+  </standOff>
   <text>
     <front>
       <pb n="3"/>

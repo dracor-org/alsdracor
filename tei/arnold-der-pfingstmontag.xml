@@ -27,7 +27,6 @@
             <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q77593548</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -40,9 +39,6 @@
             <title>G. D. Arnold: Der Pfingstmontag. Lustspiel in Straßburger Mundart. Nach der vom
               Dichter durchgesehenen zweiten Ausgabe des Jahres 1816 herausgegeben von J. Lefftz und
               E. Marckwald. Straßburg: Trübner 1914.</title>
-            <date type="print" when="1816">1816</date>
-            <date type="premiere" when="1835">1835</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -122,6 +118,17 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1816">
+        <desc/>
+      </event>
+      <event type="premiere" when="1835">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q77593548"/>
+  </standOff>
   <text>
     <front>
       <castList>

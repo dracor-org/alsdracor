@@ -40,7 +40,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q13099277</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -52,8 +51,6 @@
             <title type="sub">E modern's Lustspiel in 1 Akt</title>
             <publisher>Elsassische Aktien-Gesellschaft für Buchhandel und Publicität, vormals A.
             Ammel</publisher>
-            <date when="1901" type="print">1901</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -101,6 +98,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1901">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q13099277"/>
+  </standOff>
   <text>
     <front>
       <pb n="6"/>

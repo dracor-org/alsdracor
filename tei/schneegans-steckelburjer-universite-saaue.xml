@@ -42,7 +42,6 @@
             <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
           </licence>
         </availability>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q107247835</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -54,8 +53,6 @@
             <title type="sub">Humoristisches Intermezzo von Dr. Heinrich Schneegans Privatdocent, Aufgeführt zum
             Universitäts-Jubiläum am 2. Mai 1897</title>
             <publisher>Schlesier &amp; Schweikhardt</publisher>
-            <date when="1897" type="print">1897</date>
-            <date type="written"/>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -92,6 +89,14 @@
       </textClass>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1897">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q107247835"/>
+  </standOff>
   <text>
     <front>
       <pb n="3"/>
