@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gsw">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="als000004" xml:lang="gsw">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,7 +27,6 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <publisher>LiLPa – Université de Strasbourg</publisher>
         <idno type="URL">https://dracor.org</idno>
-        <idno type="dracor" xml:base="https://dracor.org/id/">als000004</idno>
         <availability>
           <licence>
             <ab>CC BY 2.0</ab>
@@ -83,7 +82,9 @@
         <desc/>
       </event>
     </listEvent>
-    <link type="wikidata" target="http://www.wikidata.org/entity/Q91900355"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/als000004" passive="http://www.wikidata.org/entity/Q91900355"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
