@@ -109,9 +109,9 @@
         <desc/>
       </event>
     </listEvent>
-    <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/als000030" passive="http://www.wikidata.org/entity/Q97120060"/>
-    </listRelation>
+    <!-- <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/als000030" passive="http://www.wikidata.org/entity/Q"/>
+    </listRelation> -->
   </standOff>
   <text>
     <front>
