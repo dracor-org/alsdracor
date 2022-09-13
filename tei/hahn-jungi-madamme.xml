@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="als000027" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Jungi Madamme</title>
+        <title type="sub">Lustspiel in einem Aufzug in Strassburger Mundart</title>
+        <author>
+          <persName>
+            <forename>Emilie</forename>
+            <surname>Hahn</surname>
+          </persName>
+          <idno type="wikidata">Q96475210</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Audrey Deck</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Audrey Deck</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Hoda Chouaib</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata">Q113506763</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109609n</idno>
+          <bibl type="originalSource">
+            <author>
+              <persName>Emilie Hahn</persName>
+            </author>
+            <title type="main">Jungi Madamme</title>
+            <title type="sub">Lustspiel in einem Aufzug in Strassburger Mundart</title>
+            <publisher>Librairie Ernest Finck, Strasbourg</publisher>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="FEMALE" xml:id="amalie_schneider">
+            <persName>Amalie Schneider</persName>
+          </person>
+          <person sex="FEMALE" xml:id="salmel">
+            <persName>Sälmel</persName>
+          </person>
+          <person sex="FEMALE" xml:id="fanny_muschler">
+            <persName>Fanny Müschler</persName>
+          </person>
+          <person sex="FEMALE" xml:id="josefine_martel">
+            <persName>Josefine Martel</persName>
+          </person>
+          <person sex="MALE" xml:id="fernand_schneider">
+            <persName>Fernand Schneider</persName>
+          </person>
+          <person sex="MALE" xml:id="alfons_muschler">
+            <persName>Alfons Müschler</persName>
+          </person>
+          <person sex="MALE" xml:id="mayer">
+            <persName>Mayer</persName>
+          </person>
+          <person sex="FEMALE" xml:id="frau_liemann">
+            <persName>Frau Liemann</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#alfons_muschler #fanny_muschler"/>
+            <relation name="friends" mutual="#amalie_schneider #fanny_muschler #josefine_martel"/>
+            <relation name="parent_of" active="#frau_liemann" passive="#amalie_schneider"/>
+            <relation name="spouses" mutual="#amalie_schneider #fernand_schneider"/>
+            <relation name="related_with" mutual="#fernand_schneider #frau_liemann"/>
+            <relation name="associated_with" active="#salmel" passive="#amalie_schneider #fernand_schneider"/>
+            <relation name="friends" mutual="#alfons_muschler #fernand_schneider"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1922">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/als000027" passive="http://www.wikidata.org/entity/Q96475210"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <note>This cast list is not present in the play, it was added as part of the Methal edition to facilitate
+        consultation.</note>
+        <head>Personen</head>
+        <castItem corresp="#amalie_schneider">
+          <role><persName>Amalie Schneider</persName></role>.</castItem>
+        <castItem corresp="#salmel">
+          <role><persName>Sälmel</persName></role>.</castItem>
+        <castItem corresp="#fanny_muschler">
+          <role><persName>Fanny Müschler</persName></role>.</castItem>
+        <castItem corresp="#josefine_martel">
+          <role><persName>Josefine Martel</persName></role>.</castItem>
+        <castItem corresp="#fernand_schneider">
+          <role><persName>Fernand Schneider</persName></role>.</castItem>
+        <castItem corresp="#alfons_muschler">
+          <role><persName>Alfons Müschler</persName></role>.</castItem>
+        <castItem corresp="#mayer">
+          <role><persName>Mayer</persName></role>.</castItem>
+        <castItem corresp="#frau_liemann">
+          <role><persName>Frau Liemann</persName></role>.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="scene">
+        <head>1. Szene.</head>
+        <stage>(Amalie Schneider, später Sälmel.)(Amalie liegt auf einer Chaise-logue, ein Buch in der Hand. Sie
+        trägt einen Morgenrock, ihr Haar ist ungeordnet. Im Zimmer herrscht Unordnung.)</stage>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(das Buch bei Seite legend, erhebt sich und dehnt die Glieder)</stage>
+          <p>Oh — isch diß awwer e scheeni Gschicht gsin, — numme schad, daß sie sich nit kreijt hann — zue
+          schad! — Die arm Gabrielle — —
+          <stage>(sieht auf die Uhr, erschrocken)</stage> O jrrum! — schun so spoot? — Un ich bin noch nit emole
+          mol coiffiert! — Sälmel! — Sälmel!
+          <stage>(schellt.)</stage>
+          </p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Was beliebt, Madame?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Wo bliet denn d’coffeuse hitt?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ei, sie isch jo do gewänn, awwer d‘Madame hett jo gseit, sie soll numme widder gehn, sie hätt kein
+          Zitt.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amalie:</speaker>
+          <p>Herje, ja — ‘s isch jo wohr — och mit däre dumme Gschicht — wie ischs mit‘m Esse, Sälmel? jetz
+          isch‘s dreiviertel uff Zwelf!</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ich mein ‘s Rindfleisch wurd nem weich, wenn‘s schun so spoot isch — ich hab‘s erscht vor ‘re halwe
+          Stund in de Hafe gemacht —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Erscht?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ei jo, d’Madame hett jo gseit, sie bsorgt‘s — I hab halt d‘r Gang un d‘Stay gebutzt, ‘s isch doch
+          Samschdeu —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Herrjeses — haw ich awwer jetz d‘Zitt versümt — in ‘re Stund wurd‘s Rindfleisch nit weich, hein?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ich glöub nit, Madame!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Was mache m‘r jetz?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>I weiß nit!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Dräje Sie de Gas guet uff, daß es tichtig kocht, villicht packt‘s es noch — ah! — warte Sie mol —
+          ich hab schun ghört, wenn m‘r Süd an‘s Gemues macht, wurd‘s schneller weich, — wenn m‘r e bissel an
+          d‘Supp mache dät — ich mein m‘r dät‘s nit schmecke — daß ‘s Fleisch weich dät wäre —</p>
+          <pb n="5"/>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel :</speaker>
+          <stage>(kichernd)</stage>
+          <p>I weiß nit!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Scheele Si jetz emol e Will d‘Grumbeere — ich kumm d‘rno.</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ja, Madame!
+          <stage>(auf die Seite)</stage> Deß wurd m‘r widder e natts Gfraß gann.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Hett Sie ebs gsaat?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ich mein d’Grumbeere hänn noch e bissel Zitt —ich könnt noch gscwind s‘Schloofzimmer mache —
+          d‘Madame hett‘s hitt doch nit gemaacht.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(auffahrend)</stage>
+          <p>Was geht deß Sie an? —
+          <stage>einlenkend)</stage> Awwer — doch — mache Sie‘s noch gschwind
+          <stage>(Sälmel ab nach links)</stage> — ich bin doch arig spoot d‘ran hitt — numme wärje däre dumme
+          Gschicht — och, un sie isch doch e so scheen gsin. — ‘s isch au ebs mit däre dumme Kocherei alle Daa —
+          —
+          <stage>(es klingelt)</stage> —Uh! — was isch jetz? — Ich glaub ich krej noch visite. — Die kummt m‘r
+          jetz grad recht — Sälmel — gehn Sie doch — ‘s hett gschellt
+          <stage>(Sälmel kommt von links und geht einlig ab durch die Mitte)</stage> ah! diß isch ‘s Fanny — —</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>2. Szene.</head>
+        <stage>(Amelie Schneider. Fanny Müschler. Josefine Martel)</stage>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Bonjour, Amélie!</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Guete Morje!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>M‘r sin grad do verbei gange, henn m‘r dir welle bonjour sawe, so en passant —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Prenez place, ihr muen excüsiere, ‘s isch noch nit uffgerümmt.</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>O diß macht nix! — bi mir isch‘s als manchmol au nit andersch — awwer wenn ich emol verhirot bin —
+          —</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Isch‘s d‘r nit guet, daß de d‘Hoor erab hänke hesch?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Nan — deß heißt — ja ich hab e bissel Kopfweh —</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>A noch? — kenn Wunder, wenn m’r e so schaffe mueß. Sie hann numme an Maid‘l gelte Sie?</p>
+          <pb n="6"/>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo, unn mit dem isch nit viel los.</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Minni Schweschter hett jetz zwei unn wenn ich emol verhirot bin — —</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Jo, ‘s isch wohr, fer was soll m‘r sich so ploeje uff d’r Welt? Ich bin noch jung an Johre und will
+          mich noch amüsiere — Do — ich hab dich froeje welle, bisch au mit vun d‘r Partie? M‘r welle morje früej
+          uff d‘Hohkenigsburrj.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>I weiß net, i mueß emol de Fernand froeje —</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Dü? Ich froej net lang, — ich saa als, ivh geh — un wenn‘r nit mit will, soll‘r miran d’heim
+          bliewe!</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Wenn ich emol verhirot bin, ich mach‘s grad e so —</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <stage>(streckt den Kopf zur Tür herein, mit etwas gedämpfter Stimme)</stage>
+          <p>Madame! — Soll i jetz d‘Süd an d’Supp mache?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo, macht Sie‘s numme — Sie sieht jo, ich hab jetz nitt derzit. — ‘s isch ambetant, wenn m‘r sich um
+          alles okkupiere mueß.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Ich hab jetz e Maid‘l, wo koche kann</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Ja, un e femme de chambre —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ja, wenn m‘rs e so mache kennt, — awwer d‘r Fernand —</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Geh, Plän do! — Was versteht denn e Mann do dervun? Ich stell an, wenne daß ich will, un minner Mann
+          sell‘s bezahle, do d’rfer isch er do. Ich hab mich doch net ghirote, fer in d‘Kich zu stehn, de ganze
+          Daa ‘s dät m‘r infalle.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ja, awwer —</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Wenn ich emol verhirot bin, ich will au nit sälwer koche.</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel :</speaker>
+          <stage>(wie oben)</stage>
+          <p>Madame! ‘s isch noch kenn Grüens un nix an d‘r Supp!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ze macht Sie‘s doch dran, un macht Sie Gries nin!</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>‘s isch kener meh do; m‘r hann d’ganz Wuch Griessupp g‘hett, soll ich Riß drin mache?</p>
+          <pb n="7"/>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Mintwäje!
+          <stage>(Sälmel ab)</stage> — Awwer der wurd am End nimmi weivh?</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Was lejt‘s d‘ran. Er soll ne hart esse, dinner Mann, wenn‘r d‘r kein Köche anschaffe will.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo, ‘s isch wohr; ich kennt m‘r jo au eini halte, ich bin jo au guet dotiert worre vun d‘heim!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Muesch numme nit so dumm sin. M‘r mueß de Mannslitt d‘Zähn zaje, sunsch danze sie eim uff d’r Nas
+          erum.</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Minni Schwester hett ganz e recht. Wisse Sie — wenn ich emol verhirot bin, mach ich‘s grad e so.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Wannee welle Sie denn hirote, Mademoiselle Josefine?</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>I weiß net, i mein, i, derf nimm so lang warte.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Aelie:</speaker>
+          <stage>(bei Seite)</stage>
+          <p>Deß mein i awwer a!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <stage>(spöttisch)</stage>
+          <p>‘s Josefine gitt d‘Hoffnung nit so ball uff!</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Jetz do, nit wohr, ein‘s hirot früej un‘s ander spoot! Ich hab jo noch Zitt, ich bin allewill erscht
+          38 Johr.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(bei Seite)</stage>
+          <p>Uija! Allewill noch?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel :</speaker>
+          <stage>(wie oben)</stage>
+          <p>Madame!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Was isch denn schun widder?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>M‘r mueß jetz de Disch decke, un ich hab d‘Grumbeere no nit ferti g‘scheelt.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ze scheelt Sie sie, un dummelt Sie sich, ich deck derwillsch de Disch!</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>s‘ Sürkrütt isch angebrennt, soll i Wasser d‘ran schütte?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo, jo, mintwäje!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>M‘r inkommodiere dich numme, m‘r welle gehn, dinner Mann wurd ball kumme.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Un dinner isch am End schun d‘heim.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>O, diß het nix ze sawe. — Do — a ja, wie isch‘s mit morje? Mir fahre mit‘m vélo. Fahrsch jetz
+          widder? Dü kannsch doch e so guet.</p>
+          <pb n="8"/>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo, d’r Fernand will‘s nit han, er sieht‘s nit gern an de Wiebslit, saat‘r —</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Jetz hör emol die Frau do an!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Eh bien, merci!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Weisch, ich an dim Platz dät dinne Mann emol recht in d‘Schür nämme.</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Ich a, — ho jerum — wenn ich emol verhirot bin —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Min Rad isch üwerhaupt ganz kapüt.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Lehn d‘r ein‘s, hörsch? — No treffe m‘r uns in Schlettstadt. Wenn dinner Mann nit will, kummsch
+          allan. —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>I will emol sehn. Weisch was, i schick d‘r ‘s Sälmel fer ze sawe wie oder wenn.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Guet, guet! Kumm, Finnel, m‘r gehn. — Au revoir, Amélie — loß di numme nit unterkreje vun dim Mann,
+          mach, daß du Meischter wursch, uffträte, daß‘r Reschpekt krejt vor d‘r.</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine :</speaker>
+          <p>Nadierlich, ich dät‘s au e so mache — O jerum, wenn ich emol verhirot bin —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Enfin, ich will sehn, au revoir — bon appétit. Fanny,</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine :</speaker>
+          <p>Merci, pareillement!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Merci!</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine :</speaker>
+          <stage>(im Hinausgehen)</stage>
+          <p>Weisch, Fanny, wenn ich emol —</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>3. Szene.</head>
+        <stage>(Amelie allein; später Sälmel und Fernand.)</stage>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jetz heißt‘s awwer gedummelt! — Jerum, wie siehts do noch üß — awer ‘s Fanny het recht, ich bin viel
+          zu guet, was brüch ich mich denn um alles ze kümmere — minni Mamme isch au allewill so einfältig un
+          meint m‘r mueßt de Mannslit um de Bart striche, — ‘s lejt m‘r an, ich bin au nimmi so dumm —</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Madame, m‘r hann jo gar kein Ripple fer an‘s Krütt, wie ich s‘Rindfleisch g‘holt hab, sinn sie noch
+          nit abkocht gsin.</p>
+          <pb n="9"/>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Och du liewi Zitt, ze laaft Sie schnell!— sä! — do esch Geld! — Hett Sie d’Grumbeere uffgstellt?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Grad haw i‘s welle mache!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ze geht Sie numme, ich mach‘s, —
+          <stage>(Sälmel ab)</stage> — och du gueter Himmel — wenn ich numme gschtrählt wär —
+          <stage>(es schellt)</stage> verflixt noch e mol — do kummt‘r — ho — was lejt‘s mir dran — ich mach‘s a
+          wie‘s Fanny — numme nit unterkreje lonn —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Guete Daa!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Bonjour, Fernand!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Hesch visite ghett? I hab d‘Madame Müschler un ihri Schweschter drunte angetroffe.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ja, sie senn do g‘sinn —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(sieht sich im Zimmer um)</stage>
+          <p>Na, do sieht‘s awwer noch getrei üß —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(auffahrend)</stage>
+          <p>Na, was esch, ‘s isch doch Samschdaa —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Bisch so flissig g‘sin, daß de noch kein Zitt hesch ghett, fer dich ze schträhle?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo, weisch, ich hab Kopfweh ghett.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>So?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ja, awwer jetz will i mi noch schnell frisiere, derwill‘sch isch‘s Esse ferti.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Dummel di numme, d‘r Maawe heukt m‘r bis uff d‘Schueh
+          <stage>(Amelie ab, läßt die Tür offen, Fernand setzt sich an den Tisch)</stage>. Was riech i denn?
+          schun widder Sürkrütt? Schun ‘s dritt mol die Wuch, jetz, mitte im Summer! Ich glaab dü hesch Ständel
+          voll erjets per rencontre kaaft! — —
+          <stage>(Seufzt und greift nach der Zeitung)</stage> O du liewer Himmelbabbe, — wos esch deß fer e
+          mizère! Do loßt m‘r sich wie e Schoof an de Ehpfoschte binde un denkt m‘r krejt guets Fueder,
+          d‘Schwejermamme macht eim‘s Müll wässerig, was ihri Doochter alles gelehrt hett un alles koche kan, un
+          jetz kummt d‘ganz Wuch ken gschejti Supp uff
+          <pb n="10"/>de Disch. — Nix als Maggi, mueß m‘r dran schütte — — un als Maggi, un wenn ze viel dran
+          isch, isch sie erscht e rächt nix nutz.</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel :</speaker>
+          <stage>(bringt die Suppe)</stage>
+          <p>So, do isch e mol d‘Supp!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Was isch, Sälmel, brav gekocht? Gitts widder Griessupp, fer d’Wuch voll ze mache?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Nän, hitt esch Riß drinne, awwer ich glöujb, ar esch nit racht weich.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ei, weiß d‘r Kücksel! Ihr hänn doch d‘r ganz morje Zitt fer ze koche.</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ich hab kenn Schuld, Harr! d‘Madame weiß, daß i nit koche kann.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ei heilig nochemol, fer Riß koche ze lehre, brücht m‘r doch nit in d‘Kochschuel gehn?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel :</speaker>
+          <stage>(ärgelich)</stage>
+          <p>Deß dät m‘r jetz grad fahle, daß ech noch soll eruntergerisse wäre, — ech kann doch nit meh aß
+          schaffe.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(kehrt zurück)</stage>
+          <p>Was isch denn los?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Was wurd mir denn do fer e Supp uffgesehtellt, do luej e mol, grad d‘r ruei Riß —isch deß e Art, deß
+          do? Esch deß e Art?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Brüel numme nit so! Was kann ich denn derfer, wenn der Riß nix nutz isch? (Sie spricht leise mit
+          Sälmel, diese trägt die Suppe fort.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ah so, — d‘r Riß isch nix nutz — guet! guet! — guet! —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Na, worum stellsch m‘r a kenn Köche an, s‘ Müfchler‘s hänn doch au eini.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>A so fang‘sch dü mir an? Wenn dü noch e Köche hesch, no schtrählsch dich erscht wenn‘s Naacht wurd,
+          hein?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Kenn insulte, Fernand! Ich hab d’r schun gsaat, ich hab Kopfweh ghett. — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>A ja!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Wenn s‘ Müschler‘s e Köche halte könne, kann ich a eini anstelle.</p>
+          <pb n="11"/>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(polternd)</stage>
+          <p>Mintwaje, stell eini an, stell zwei an waje mir, — awwer jetz will ich ebs ze esse hann.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(heftig)</stage>
+          <p>Jo, krej‘sch jo ebs, brüel numme nit so, ich bin doch nit daub!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Hör e mol, min Wiewel, schlag m‘r kein so Tonart an! Weisch, muesch nit meine, daß i einer vun dänne
+          bin, wo sich vum e Wiebsbild nunderdunke loßt —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Was isch denn do derbi, wenn i san, daß i nit daub bin? ‘s isch doch au wohr!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Wenn d‘r Mann gschafft hett de ganze Morje un heim kummt mit me gsunde Appetit, un d‘Frau setz‘m
+          kein anständige Supp vor, no brücht sie nit noch ‘s Müll uff ze risse, no hett sie sich hechstefalls
+          ze-n-excüsiere.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Un dü meinsch grad, dü kennsch e Schuehlumpe üß eim mache! Awwer, daß d‘es weisch, ich bin grad so
+          vill aß dü —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ehein! Ehein! Zue schoen — s‘wurd immer schoener! — Ei nunde buckel noch emol — ich glaab, ich wurr
+          hitt gschejt gemacht, hein?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Sej doch still jetz, ‘s Sälmel kummt. Sälmel
+          <stage>(bringt die Suppe)</stage>.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Was hann‘r jetz gemacht?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ich hab de Riß üß dr Supp mache lonn un Brod nin.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Grad so Brod? Ungebäjts? Deß wurd m‘r ebs guet‘s sin.
+          <stage>(Versucht die Suppe und fängt gleich an zu husten und zu spucken.)</stage> Was d‘r Kücksel isch
+          denn in däre Supp — pfi Deiffel noch e mol!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(versucht ihrerseits)</stage>
+          <p>Sälmel, trawe Sie die Supp nüß, m‘r kann sie nit esse.</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Deß haw i m‘r gedankt. — M‘r kann doch kein Südwasser asse! —
+          <stage>(ab.)</stage>
+          </p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Was? Südwasser? — ich glaab ‘s Sälmel traamt! — hein? — Deß esch m‘r e schoener Witz, wie kummen-ihr
+          derzue, Süd an d‘Supp ze mache?</p>
+          <pb n="12"/>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo s‘ Sälmel bett ze vill genumme. Ich hab‘m gsaat, es soll e bissel dran mache, daß ‘s Fleisch
+          weich wurd — un zart.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Eh bien, — hett m‘r sin Daa des Leewens e so ebs g‘hört — —
+          <stage>(Sälmel will das Rindfleisch bringen)</stage>, nan, nan, deß Fleisch wurd schmecke, wie d‘Supp.
+          Numme nüß mit und bring Sie diß famose Sürkrütt.
+          <stage>(Sälmel ab)</stage>. Kannsch denn nix andersch‘s koche als allewill un allewill — och du liewer
+          — —
+          <stage>(Sälmel kommt mit Sauerkraut und Rippchen, Fernand riecht etwas daran.)</stage> Deß isch jo schun
+          widder angebrennt?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ja— awwer, daß m‘rs nit schmeckt, haw i a ganzer Wisch Peterle dran gemacht.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Peterle?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Was?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ha, ja, diß gitt doch e gueter G’schmack.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>M‘r dät awwer meine, m‘r isch do im e Narrehüß. Los mit dem Fueder, ‘s wurd am uewel, wenn m‘rs
+          numme anloejt. —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Wo sin denn d’Grumbeere? hann?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Die wären-ihr-doch annegebrocht hann?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Sie leje noch ruej in d‘r Schuessel drüsse —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Jetz reicht‘s! — Jetz haw i genue! —</p>
+          <stage>Sälmel (trägt das Essen fort)</stage>
+          <stage>Amelie (sitzt trotzig am Tisch, den Kopf in die Hand gestützt)</stage>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(polternd)</stage>
+          <p>E Schand! E Sünd un e Schand so ebs!
+          <stage>(nimmt den Hut)</stage> Sechs Wuche verhirot un mueß in‘s Restaurant esse gehn —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(weinerlich)</stage>
+          <p>Ich hab doch Kopfweh ghett!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Wäje dem hätt‘sch doch könnte e bissel uff‘s Esse uffbasse, — weisch — diß isch doch nit schön
+          <stage>(Amelie weint)</stage>
+            <stage>(einlenkend)</stage> awer na — ich will‘s fer deß mol gelte lonn, will de
+          <pb n="13"/>Kopfweh hesch ghett, sorj numme jetz, daß i ebs bekumm.
+          <stage>(Will sich auf die Chaiselongue setzen, da fällt das Buch herunter)</stage> Tiens,— luej do, e
+          Gschichtebuech üß d‘r Bibliothek — ah — deß isch dini Arweit gsinn hitt morje — deß isch dinn Kopfweh?
+          <stage>(Wirft das Buch zornig auf den Tisch)</stage> Fi donc! schäm di numme! Schäm di!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(trotzig)</stage>
+          <p>Ich los mich doch nit abkanzle, wie wenn ich e kleines Maidl wär.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Nein, bi me kleine Maidl kann m‘rs im Unverstand zuegänn, awwer dü bisch e verhiroti Frau!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Un ich loß mich awwer net schelte vun dir! Ich loß m‘r nix sawe, daß de‘s weisch. Ich hab mich nett
+          verhirot, fuer in d‘Kich ze stehn de ganze Daa. Ich bin noch jung un will mich amüsiere. Morje lehn ich
+          m‘r e vêlo un fahr uff Schlettstadt, un derno geh ich mit ‘s Müschlers uff d’Hohkenigsburj — un wenn
+          dü nit mit witt, kann‘sch miran d’heim bliewe!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>So, so! Bisch jetz ferti?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ja!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Guet! ze geh jetz numme glich, — geh, zej di an un mach dich heim zue dinnere Mueder. Saa‘schre, ich
+          hätt dich gschickt, sie soll dich lehre, wie m‘r sich uffzefuehre hett geje de Mann, un wie m‘r sich ze
+          schicke hett als e gueti ménagère. — Verzähl‘schre awwer au, was de m‘r hitt gekocht hesch!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(weinerlich)</stage>
+          <p>Guet! ich geh! — awwer ich kumm nit ender, als bis de mich widder holsch.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Do kann‘sch awwer lang warte!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Hesch mi nit gern! Hesch mi nie gern ghett, s‘Geld welle‘n‘r, un d‘Frau esch numme e Zuegab.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja awer manchmol e recht schlechti.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Hätt’sch doch e Köche ghirot.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja, — Hätt ich‘s numme gedohn, ze bekäm i uff‘s wenigscht ebs rechts ze esse — luej — deß Buech do
+          sott m‘r d‘r an de Kopf schmisse — du fülls Ding, dü!</p>
+          <pb n="14"/>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ah! Deß esch jetz ze vill
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Naan, ze wenni! Geh numme! Geh zue din‘re Mueder! Sie wurd dich am erschte zuer raison bringe. Deß
+          dät m‘r noch fehle! Bi allem andre au noch so widderspenschtich uff ein mol! Do esch awwer neemand
+          Schuld als em Alfons Müschler sini Frau. Die wurd au sehn, wie witt aß sie kummt met ehre Sprueng. Em
+          Alfons geht d‘Geduld au e mol üß. — Deß mueßt doch d‘r Schinder sin! Hah, ha! — Nein, min Wiewele, — so
+          kummsch dü mer nit! Dü muesch wisse, daß ich d’r Herr bin un daß ich d’Hose an b’halt.
+          <stage>(Amelie kehrt zurück in Sommermantel und Hut)</stage>. Aha! Schun geruescht?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(weinerlich und doch trotzig)</stage>
+          <p>Ja ich geh, — un dü kannsch lang warte, bis ich widder zue d’r kumm
+          <stage>(a)</stage> schlägt draußen die Türe zu.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>C‘est ca! — Sie saat eim net e mol adje — deß esch net uewel! — da — un jetzt sclaat sie au noch
+          Tuer zue, wie wenn ich im Unrecht wär. — Schoeni Üssichte — ja sechs Wuche verhirot un kummt m‘r e so
+          <stage>(stützt den Kopf in die Hand)</stage>. Heilig noch e mol! Un derbi fahrt m‘r d‘r Mawe im Büch
+          erum, wie e Karoussel uff‘m Meßti. — Sälmel! — — Sälmel!</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel :</speaker>
+          <stage>(mit vollen Backen kauend, kommt herein)</stage>
+          <p>Jo, Harr!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Was eßt denn Sie do?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Gebrätelti Grumbeere un Schwinereppie. M‘r mueß doch ebs asse, wenn m‘r Hunger hett.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Aha!</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Wenn d‘r Harr will — ‘s isch noch genüa drüsse.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Guet! guet! Bringt Sie m‘r — u no bacht Sie m‘r hinterher e paar Eier — hört Sie?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ja, Harr! — Sall kann i
+          <stage>(ab)</stage>.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Na, deß isch m‘r liewer, als jetz noch in d‘Wirtschaft laufe — wenn mi jo ebber dät sehn — i mueßt
+          mi ze dood schämme —</p>
+          <pb n="15"/>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel :</speaker>
+          <stage>(bringt das Essen)</stage>
+          <p>So Harr!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>C‘est ca, merci! Na, Grumbeere brätle, deß kann Sie schun, wenn Sie sich hirot, hein?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ja Harr!
+          <stage>(geht kichernd hinaus; es schellt)</stage>.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Geht Sie, luejt Sie mol, minni Frau hett sich villicht b‘sunne —</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>4. Szene.</head>
+        <stage>Fernand. Alfons Müschler.</stage>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ah! Bonjour! Bonjour, cher ami!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Was isch? Ganz allan am frougaliere?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja — — minni Frau — hm — sie mueß ebs b‘sorje — e Kommission — e pressanti —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ab, schint‘s geht‘s alle Wiewer egal — ich hab hit au allein g‘esse!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja, hesch wenigstens ebs guet‘s kreit?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ho, famos! Ich saa d‘r — wärt, do haw i‘s menu
+          <stage>(sucht in den Taschen und zieht ein Papier hervor)</stage>.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Zaj e mol here!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Loß doch numme! Eß numme wittersch, ich les d‘rs vor.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ehein!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Also: „Consommé royal“. Deß isch d‘Supp.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Meinsch, ich weiß diß nit?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Saumon, sauce riche et hollandaise! — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Sapperdiblitz!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Filet de Charollais Richelieu.! — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(pfeift)</stage>
+          <p>Ah! Do moecht i au drinhaue.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Aspic de foie gras de Strasbourg en belle vue.! — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Hör, du mach‘sch farce.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Haricots verts au beurre d’Isigny.! — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Sunsch nix meh?</p>
+          <pb n="16"/>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Petits pois à la francaise.! — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Geh, halt ‘s Müll!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Dindonneau nouveau à la broche.! —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Mach doch kein Plän! Du mach‘sch m‘r jo langi Zähn.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Salade Rachel.! — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Hör‘sch no net uff?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Parfait à la vanille! — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Noch ebs?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(nickt)</stage>
+          <p>Gaufrettes, gateau breton.! —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Aa noch?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Pièce montée! — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Geh m‘r doch eweck!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Dessert et fruits.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja, wenn hesch dü deß g‘esse — wannee hett dinni Frau des alles gekocht?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Mini Frau? Ha, ha, ha, ha!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>A ja, ihr hann jo jetz e Köche — un de bibele, hann‘r ‘s groß Loos gewunne?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ja, Plän, unsri Köche kocht was‘re infallt, un d‘Madame geht spazeere!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Na, awwer hör emol, die kann awwer ebs.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ja, was meinsch, was es hitt gänn hett?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Hesch m‘rs jo uffgezählt —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Nix do! — Grumbeeresalat un Groschewürschtle hett sie m‘r hitt anne g‘stellt, un nix d‘rhinter un
+          nix dervor.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Net uewel, — isch denn hitt d’ganz Welt verruckt, un dinni Frau?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Die esch uewerhaupt net heime kumme; — awwer ich bin au nit füll g‘sinn, ich hab de Huet genumme un
+          bin zuem Valentin.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Net uewel! — net uewel, un do hesch du no so diniert?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Jo, was denk‘sch, deß esch ‘s Menü du jour g‘sin, i hab m‘r sunsch ebs gfetzt‘s gänn lonn fer e paar
+          Fränklä.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>A so! — Ehein! — Net uewel!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(mißmutig)</stage>
+          <p>Awwer weisch, s‘ wurd m‘r ze dumm, deß Dings do — wenn minni Frau
+          <pb n="17"/>so witterscht macht, gitt‘s noch en-Unglueck — im beschte Fall e divorce — die meint glaw
+          i, ich bin e Dottel!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Weisch, deß wär m‘r noch egal — awwer wenn dinni Frau en min‘re Lectione gitt, säll haw i nit gern!
+          —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Aha! Jetz wurd sich‘s finde, was dinni Madame fer Kommissione macht. —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <stage>(kreuzt die Arme — langsam sprechend)</stage>
+          <p>Hesch dü schun e mol Fleischupp g’esse met Süd drinne?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Au!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Un angebrennts Sürkrütt mit Peterle dran?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Hör uff! Ich krej Büchweh!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Do hettsch du muesse hitt bi uns z‘Midda esse.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ei Dunderwille! — Un was hesch jetz g‘esse? Grumbeere un kalti Ripple? Deß esch saftig! Wo isch denn
+          dinni Frau jetz?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Heim haw i sie gschickt, zue ehrer Mueder.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Un sie isch gange?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ich denk emol! — — — — —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Hör, — ich glaab, mir sin angschmiert alli zwei — mir mueße erjets ebs anstelle — es mueß ebs
+          gemacht wäre, daß uns‘ri Wiebslitt Mores kreje.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Nochgänn derf m‘r do net, — däre Meinung bin ich a — was sölle m‘r mache? — Hett‘s nit g‘schellt —
+          ewe?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ich mein au, ich hab ebs g‘hört.</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Do esch e Harr, wo mit‘m Harre will redde!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>5. Szene.</head>
+        <stage>(Die Vorigen. Mayer.)</stage>
+        <sp who="#mayer">
+          <speaker>Mayer :</speaker>
+          <stage>(die Sprache ist etwas näselnd, jüdelnd)</stage>
+          <p>Die Herren möchen entschuldischen, daß isvh hier eindringe —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Was beliebt Inne?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Geschtatten Sie, daß isch mich vortelle. Ich haiße Mayer und bin Agent.</p>
+          <pb n="18"/>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Was mache Sie denn noch in unserm Elsässel? Sie ghoere doch, wie m’r an d’r Sproch hoert newer’s
+          Bächel.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Bin hierzu beliebt. — Ein guter Geschäftsmann kann sich allen Verhältnissen anpassen. Kann ich Ihnen
+          dienlich sein? Ich wollte mich erkundischen, ob die Herren vielleicht geneicht wären, ihr kostbares
+          Leben zu versichern. Unsere Versicherung ist —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Nan, nan, gehn Sie numme, bi uns kumme Si hitt an d‘letze.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(spöttisch)</stage>
+          <p>Brücht m‘r nit ze sterwe, wenn m‘r bi Inne assüriert esch?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Leider können auch wir den unangenehmen Knochenmann nicht fernhalten, aber, wo er in einem Hause
+          einkehrt, ist es immer ein großer Trost — — —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja, ja! m‘r wisse schun — bi uns isch nix zu mache.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Mir sin schon ussuriert.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ach so, bedaure, — aber vielleicht haben Sie sonst jemand in der Verwandtschaft?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Nan, nan, nan lon Sie uns numme in Ruej!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Nun, wenn es damit nischts ist, wollen die Herren vielleicht einen schönen billichen Anzug kaufen?
+          Sehen Sie sisch doch mal die herrlischen Muster an, alles prima Ware! Und fabelhaft billisch.
+          <stage>(Zieht einen ganz langen Karton mit Stoffmustern aus der Ledertasche.)</stage> Fernand und Alfons
+
+          <stage>(lachen)</stage>.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Nun ja, heutzutage ist der Geschäftsmann am besten daran, der sich nicht auf einen Gegenstand
+          versteift. — Ich bin auch Heiratsvermittler. Wenn einer der Herren sich den Ehehimmel erschließen will,
+          sehen Sie dieser herrliche Damenflor.
+          <stage>(Dreht den Karton um, und man erblickt ebenso viele Damen- und Herrenbilder, als auf der anderen
+          Seite Stoffmuster waren.)</stage> In jedem Alter, von jeder Farbe
+          <stage>(in einem Atem, wie ein Ausrufer)</stage>, schwarze, braune, rote, blonde, gutmütige,
+          interessante, elegante Erscheinungen, gute Hausmütterchen, reiche Waisen, alles wie man es
+          <pb n="19"/>wünscht, für Kaufleute und Beamte, Witwer ohne und mit Kinder nicht ausgeschlossen.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(lachend)</stage>
+          <p>Gänn Sie sich wittersch kein Mueij —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(lachend)</stage>
+          <p>Mir sinn schun alli zwei verwitscht worre, schun drei Monet</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(lachend)</stage>
+          <p>Ja, leider Gottes schun sechs Wuche!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ach! Also quasi noch in den Honigwochen? Nun, dafür kann isch Ihnen einen Offerte für
+          ausgezeichneten Waldhonig machen
+          <stage>(zeigt ein Muster)</stage> nur 90 Cent das Pfund.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>E heilig noch e mool! Deß esche Gschäftsmann.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Wisse Sie, — mit hann de Hunni schun lang satt.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ja unseri Fraue gänn uns anders als Hunni ze schlecke.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ei, da haben Sie wohl schon ein Haar in der Butter gefunden? — Na, da empfehle ich Ihnen die neueste
+          Hausbuttermaschine
+          <stage>(zeigt einen Prospekt)</stage>, da kommt so etwas nicht vor. In einer Viertelstunde die feinste
+          Tafelbutter.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Jetz isch awwer genue mit Ihrem Gedings.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Unseri Wiebslitt solle uns numme sunsch ebs Guets uff d‘Tafel bringe.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ganz recht, sehen Sie, kaufen Sie Ihrer Frau Gemahlin die berühmte Kochkiste
+          <stage>(zeigt einen Prospekt)</stage>, die feinste Suppe, den schmackhaftetsten Braten, die leckerste
+          Sauce erreicht die Hausfrau, ohne Feuerung. —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(aufgebracht)</stage>
+          <p>Ei heilig noch e mol! Gehn Sie doch uff Belzbummre mit Ihrer Kochkischt.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Doch, daß unseri Madamme noch meh füllenze könne!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Es scheint, die Herren sind nicht gut gelaunt. Kosten Sie doch mal die Probe von dem köstlichen
+          Champagner, Veux Cliquot, Imitation aber fein, die ich hier bei mir führe
+          <stage>(schenkte aus einem kleinen Fläschchen in ein Sektglas)</stage>. Wie das perlt
+          <pb n="20"/>und braust, einige Tropfen heben die Lebensgeister und die Stimmung, kosten Sie,
+          ausgezeichnetes Fabrikat, nur 10 Frcs. die Flasche.
+          <stage>(Schaumwein ist leicht mit Brausepulver herzustellen. Anm. des Verf.)</stage>
+          </p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Merci, merci, trinke Sie‘s selwer.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Wie denn, das werden Sie doch nischt verachten. —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Nan, awwer höre Sie, Sie sin e Allerweltsmensch un hänn fer alles e Mittele.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ja, isch bin Geschäftsmann, voilà tout.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ich glab, dü witt mit‘m anbendle?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Weisch, ich mein er kennt uns villicht e Rot gänn.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(zuckt die Achseln)</stage>
+          <p>Halt liewer ‘s Müll.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(schüttelt den Kopf)</stage>
+          <p>Höre Sie, Herr Mayer, was däte Sie anfange mit re Frau, wo de ganze Morje spaziere geh, d‘Mägd
+          d’heim hüse loost, daß wenn d‘r Mann heim kummt, er Grumbeeresalat un Groschewürschtle vorgstellt
+          krejt.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(wird erregt)</stage>
+          <p>Oder wo de ganze Samschdaa morje met Romanelese zuebringt, un wenn d‘r Mann heim kummt, soll‘r
+          Südwasser fer Supp esse un als Gemues angebrennt Sürkrütt mit Peterle dran?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer :</speaker>
+          <stage>(lächelnd)</stage>
+          <p>Verzeihen Sie, aber wenn das meine Frau wäre, isch glaube, isch würde ihr nur ein ganz klein wenig
+          <stage>(macht eine bezeichnende Handbewegung)</stage> — flattieren.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Nan, nan, deß kanu m’r nit — nan.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Mit zwei Fischt möcht m‘r jo als manchmol drin schlawe, ‘s esch wohr!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Wenn Sie kein anders Mittel wisse?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ich wüßte eines, wenn die Herren sich könnten für acht Tage frei machen?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Fer aacht Daa?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Un derno?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Wir haben hier ein famoses Reisebüreau, ich stehe damit in geschäftlicher Verbindung.</p>
+        </sp>
+        <sp who="#alfons_muschler #fernand_schneider">
+          <speaker>Alfons und Ferdnand:</speaker>
+          <p>Ehein! Hm!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Lassen Sie sich einschreiben zur Teilnahme an der nächsten Reisegesellschaft, die
+          <pb n="21"/>nach Paris geht und Sie verleben dort 8 herrliche Tage für nur 500 Francs.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ja und derno?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Nit uewel!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Von Paris aus schreiben Sie an Ihre Frauen, daß Sie sich daselbst in das Dorado der Vergnüchungen
+          gestürzt hätten, um sisch zu entschädischen für die Unannehmlischkeiten, die sie Ihnen bereitet hätten,
+          und daß Sie nischt eher zurückkehren, als bis Ihnen das feierlichste Versprechen abgegeben wird, daß
+          künftischhin von eigener geschulter Hand gekocht wird, und es überhaupt im Haushalt wie auf Schienen
+          geht. —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Diß könnt schun geh —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Un ich bring‘s aa ferti, — awwer wenn sie nix verspricht?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>So viel isch die Weiber kenne, krichen sie‘s mit der Angst, und wenn Sie überdies das verfüschbare
+          Geld mitnehmen, so werden Sie schon in den ersten Tagen mit Briefen, Bitten und Verspreschungen
+          überhäuft.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja, awwer wenn sie no d‘Verspreche nit halte?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Keine Angst! Im Wiederholungsfalle hilft eine einfache Drohung und überhaupt müssen Sie im Briefe an
+          Ihre Frauen die dortiche Vergnüchungen recht anschaulich beschreiben und die Übertreibungsfarbe dabei
+          tüschtisch auftragen, das wirkt Wunder, sag isch Ihnen.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(freudig triumphierend)</stage>
+          <p>Guet! Guet! Was saasch dü derzue?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <stage>(bedächtig)</stage>
+          <p>Mr welle‘s uns uewerlaje.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Sie werden wohl kaum einen besseren Auswesch finden, um die Frauen gründlich zu kurrieren.
+          Ueberlechen Sie, aber rasch, denn Sie müßten eventuell noch heute mit dem Nachtzuge reisen.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Hitt Nacht schun?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Fer mich, ich wär d‘rby.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Isch werde einstweilen den Nachbarhäusern meinen Besuch machen und in kurzer
+          <pb n="22"/>Zeit bin isch zurück und leche Ihnen das Reiseprogramm vor.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>‘s isch recht, Herr Mayer, mir sin‘s zefridde!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Auf wiedersehn An reevouar!
+          <stage>(ab)</stage>.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>6. Szene.</head>
+        <stage>(Die Vorigen ohne Mayer.)</stage>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Üßgezeichnet! Uff die Idee wärde mir nit kumme, heilig noch e mol, der Mensch hett ebs los! Ebs mueß
+          gemacht wäre, un so e kleine Hochzittsreis entre nous deux, dü, deß wär nit so uewell —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja, — awwer weisch — ä — ä —! Weisch d’r Kücksel — ich hab halt deß nixnutzig Wiewel doch leidsmäßig
+          gern —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Geh, sey doch kein Narr!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja un derno, — ich verschteh gar net, daß dü so glich derbi bisch fer so e Streich — m‘r sin doch
+          kein jungi Buewe meh — so ebs käm doch erüß. Üwerhaupt so e jungs Wiewel jaluse ze mache, ‘s isch doch
+          im Grund e guets Kind —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Eh bien, wenn dü nett witt, ze geh ich allein!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Och geh, bedenk‘s doch!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Witt morje widder angebrennts Sürkrütt esse mit Peterle dran?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Jo, — jo — hesch jo e rächt, — awwer —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>So wurd‘s gemacht, wie‘s der Herr gsaat hett, un vun Paris üß schriewe m‘r e Brief —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Hör, m‘r könnte die Sach jo au einfacher und billiger mache. Weisch wie?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Allez — erüß mit d‘r Sprooch.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Eh bien, m‘r schriewe alli zwei e recht enragierter Brief, daß m‘r sie sitze lonn un uff Paris reise
+          welle, fuer dort ze bliewe un daß sie no mit ihre Mägd un mit ihrem Kochgschirr anfange könne, was sie
+          welle —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(ungeduldig)</stage>
+          <p>Un derno?</p>
+          <pb n="23"/>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>No mache m‘r e Düür in d‘Vogese un bliewe bis am Mondaa Midda, — bis dort anne henn unsri junge
+          Madamme schun lang Mores krejt un sin froh, wenn sie uns widder sähn —</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Enfin, ich glaub deß zejt nit genüe - awwer - die Brief könne m‘r schun schriewe un ich fahr e mol
+          schnell mit‘m vélo in‘s Gschäft, schrieb d‘r Brief dort
+          <stage>(sieht nach der Uhr)</stage>, schick de Brief in d’Wohnung un kumm widder häre, derwill‘sch isch
+          där type do un dü?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Guet — un ich will minnere au glich aane annepfeffere.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Eh bien. Einschtwiele! Adje!
+          <stage>(ab.)</stage>
+          </p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>A bientot! — Allez — un jetz an‘s Gschrieb‘s
+          <stage>(ab nach links vorne)</stage>.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>7. Szene.</head>
+        <stage>(Sälmel allein.)</stage>
+        <sp who="#salmel">
+          <speaker>Sälmel :</speaker>
+          <stage>(kommt mit Kehrutensilien im Arm. Sie sucht auf dem Büffet, nimmt einen Apfel und beißt daran
+          herunter; spricht, indem sie immer abbeißt und kaut)</stage>
+          <p>Jetz möcht ich doch garn wisse, was die do d‘ganz Zit ze dischkeriere hann ghett? — Allewaj waje de
+          junge Madamme. Diß isch awwer oeuj a z’Midda-esse gewann
+          <stage>(kichert)</stage>. Wann i numme wisse dat, ebb d’Madame ball kummt, — un i weiß au gar net —
+          sinn die Harre alli zwei furt? —
+          <stage>(Horcht an den Türen)</stage>. M‘r hört gar nix — ich bin ganz allein Meister im Hüß
+          <stage>(kichert)</stage>, soll i jetz faje, — oder soll i net faje?
+          <stage>(Wirft den Apfelrest auf den Boden und wischt die Finger an einer Tischdecke ab; es klingelt,
+          sie läuft hinaus und stolpert über den Besen.)</stage> U, — wenn deß d‘Madame war!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>8. Szene.</head>
+        <stage>(Mayer. Sälmel.)</stage>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Also der Herr ist nicht hier?</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>I weiß net, — ich glöeub net! —</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Na, isch kann ja einen Augenblick warten — aha da klingelt es!</p>
+          <pb n="24"/>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Ich will e mol sahn.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Werde misch am besten etwas retirieren.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>9. Szene.</head>
+        <stage>(Die Vorigen. Josefine.)</stage>
+        <sp who="#josefine_martel">
+          <speaker>Josefine :</speaker>
+          <stage>(im Hereinkommen)</stage>
+          <p>Sälmel — jeses, do siehts jo noch net üß — wenn ich e mol verhi—
+          <stage>(sehr freundlich)</stage> — ah, guete Daa im Herre —</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>Do esch e Sunnebarebli, isch deß</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Ja, ja, merci!
+          <stage>(leise zu Sälmel)</stage> Wer isch diß?
+          <stage>(Sälmel zuckt die Achsel und geht mit dem Besen ab.)</stage>
+          </p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Hab isch die Ehre, die gnädige Frau?</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <stage>(süßlich)</stage>
+          <p>Naan, ich bin noch leddi, — awwer wenn ich e mol verhirot bin —</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Sie möschten wohl gerne heiraten, wie?</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>O ja!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Na, vielleicht kann isch Ihnen behülflich sein —</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Meine Sie?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Wie alt sind Sie, wenn isch fragen darf?</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine :</speaker>
+          <stage>(verlegen)</stage>
+          <p>Ich bin 38 Johr alt gewese —</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>So? Wann denn?</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine :</speaker>
+          <stage>(wie oben)</stage>
+          <p>Vor zwei Joh — Monet will i sawe.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Na, — da sind Sie ja immer noch Jung —</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Ja
+          <stage>(rasch)</stage> nit wohr? — un wenn m‘r e mol verhi—</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Sie entschuldigen, — haben Sie Vermögen?</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>O ja, Wie minni Schweschter bekumm i 5000 livres baar‘s Vermeje un e schoens
+          <pb n="25"/>trousseau, alles selwer ghäkelt un gschtickt, diß isch doch scheen, gelle Sie?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ganz passabel, — Sie hatten ja auch Zeit dazu — und was stellen Sie für Ansprüche?</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Grad wie minni Schweschter, mein i, — e Köche un e femme de chambre. Nit — m‘r will‘s doch au guet
+          hann, wenn m‘r e mol —</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ja — ja — isch weiß — und sonstische Bedingungen stellen Sie keine?</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Ha jo, — nit — e gueter Charakter — so daß m‘r mi‘tm mache kann, was m‘r will — un er eim gewähre
+          loßt, — un derno — daß‘r nit raucht bsunders kenn Cigarettle — denn deß kann i nit rieche — un wenn i e
+          mol verhirot —</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Das Weib hat einen Sparren, das steht bombenfest!</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Wie meine Sie?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Isch meine, Ihnen kann geholfen werden — Männer, wie Sie einen suchen, habe isch massenhaft auf
+          Lager.</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine :</speaker>
+          <p>Isch‘s mejli? O, deß isch jo magnifique!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Gewiß! Wenn Sie mir Ihre werte Adresse angeben wollen, so werde ich Ihnen morchen einen bringen.</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine :</speaker>
+          <stage>(sehr erfreut)</stage>
+          <p>Morje schun?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ja, ja, Sie ihn sich mal ansehen, ob er Ihnen gefällt.</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>O, diß wär jo zue nett. — Wisse Sie — am liebschte e chiker franzescher Offizier — je Vous serais
+          bien obligée
+          <stage>(spricht aus: Che und oblichée.)</stage> — Ich wohn in d‘r Langstroß mit minnere Mamme, un mini
+          Schweschter, wo verhirot esch, wohnt a im Hüß — awwer wenn ich e mol verhirot bin —</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>So weit sind wir noch nischt —</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>O, wenn Sie‘s anne bringe däte, un wenn ich e mol verhirot bin — un no trinke Sie bi uns d’r Kaffee
+          — gelte Sie? Au revoir, en attendant.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ihr Diener —
+          <stage>(Josefine ab)</stage> — Ist das ein verrücktes Huhn, nee, — das hab isch gemerkt, — an dem
+          Geschäft wär kein Profit zu
+          <pb n="26"/>machen — — aber
+          <stage>(sieht nach der Uhr)</stage> wenn mein neuer Kunde — aha!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>10. Szene.</head>
+        <stage>(Mayer. Fernand Schneider.)</stage>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Monsieur
+          <stage>(spricht aus Musjé)</stage>: Nun ist die Sache im Reinen?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Nämme Sie e bissel Platz, Herr Mayer, minner Freind wurd a glich kumme.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Aha! Und im übrigen?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Do, — m‘r hann mitnander üßgemacht, m‘r welle glich e Brief schriewe un do zeruck lonn, daß unseri
+          Fraue solle sehn, m‘r sinn durch d’Latte —</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Auch gut.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ich hab e ziemlich gsalzener Brief gschriewe — un — ich denk, d‘r Alfons, d‘r Herr Müschler kummt a
+          ball, denn sunsch steht uff ein mol mini Frau do, un no isch alles fütsch.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Gewiß! Si müssen sich in aller Stille drücken, — könnten wir ihm nicht entgegen gehen?
+          <stage>(es schellt)</stage> — aha, — däs wird er wohl sein.</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ja! — Will e mol glich sälwer sehn ob er‘s isch
+          <stage>(ab.)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>11. Szene.</head>
+        <stage>(Die Vorigen. Müschler.)</stage>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(für die Reise fertig)</stage>
+          <p>So, Herr Mayer! Do bin i— Hänn‘r schun ebs üßgemacht? — Geh‘sch mit?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>De Brief haw i gschriwe— er lejt dort drinne uff‘m offene Secrétaire.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Na, un ich hab einer uffgsetzt, kurz un buendig, awwer denne steckt minni Frau nit hinter de Spiejel
+          —</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Wenn Sie erlauben, so werde ich jetzt das Programm entwickeln, — also morgen —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Still! — ‘s kummt ebber
+          <stage>(geht zur Türe und horcht.)</stage>
+            <stage>(Alle drei ab nach hinten links.)</stage>
+          </p>
+          <pb n="27"/>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>12. Szene.</head>
+        <stage>(Die Vorigen. Müschler.)</stage>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(schaut vorsichtig zur Tür herein)</stage>
+          <p>Er isch nit do, Mamme, kumm numme!</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Na, do sieht‘s awwer nett drin, ich hab d‘r doch allewill gsaat, mach, daß de d‘r salle à manger
+          allewil schön proper hesch, wenn d‘r Mann heim kummt. Amelie
+          <stage>(sieht verlegen zu Boden)</stage>.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Saa m‘r doch jetz franchement, was de gemacht hesch — hörsch? — Ich mein, de hesch m‘r nit alles
+          g‘saat. — Was hesch denn g‘schafft hitt morje, hein, will‘s Esse nit guet worre isch?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo — i weiß jo, Mamme, daß i im Unrecht bin, awwer —</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Na, do muesch‘s dim Mann au ingschtehn.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(weinerlich)</stage>
+          <p>Ja, wie sall i denn diß mache?
+          <stage>(Fernand will von Zeit zu Zeit hereinkommen, wird aber jedesmal von Mayer oder Müschler
+          zurückgehalten.)</stage>
+          </p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Weisch jetz was. Schick‘s Sälmel tripes hole, un alles was derzue ghört fer à la mode de Caen ze
+          mache, — ich helf d’r a bissel — un no rischt‘sch e famos guets z‘Nachtesse —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ja, un was soll i sawe, wenn‘r kummt?</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Ei, dü duesch ne frindli begrueße un mach‘sch, wie wenn nix wär g‘sinn, no macht‘s sich schun
+          widder.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Meinsch? Och, Mamme, meinsch er wurd widder guet?
+          <stage>(weint.)</stage>
+          </p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Gäll, dumms Dippele jetz griensch, awwer wart numme, wenn noch e mol so ebs bassiert, no derf‘sch
+          nim zue m‘r kumme, no kann‘sch zue din‘re famose Frinde gehn, wo d‘r so de Kopf verdrähjt hett.</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Jo, ‘s isch wohr, i hätt nit uffs Fanny höre solle —awwer i will m‘r sicher jetz e recht Muej genn
+          un alles guet b‘sorje.</p>
+          <pb n="28"/>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Allewäj, diß isch doch sunsch e Schand, so e nett‘s Menägel, un wenn m‘r noch e Maidl hett —</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Hör — wenn i awwer im Fernand e Brief dät schriewe — un ‘s Sälmel dät‘s ins Gschäft trawe — weisch —
+          no wenn‘r kummt, isch‘r schun besser uffgelaijt. un geht au liewer heim.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Hesch recht, sunsch kummt‘r am End gar nit, er denkt er kreijt widder nix, hein?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>E bien, ja, ich schrieb‘m eins — e reeht frindli‘s —</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>So isch rächt, — geh — ich will im Sälmel sawe, daß es die tripes holt.
+          <stage>(Amalie ab nach links vorne.)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>13. Szene.</head>
+        <stage>(Frau Liermann. Sälmel. Säter Frau Müschler.)</stage>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Sälmel! — Sälmel!
+          <stage>(es klingelt)</stage> Ah — ‘s kummt ebber —</p>
+        </sp>
+        <sp who="#salmel">
+          <speaker>Sälmel:</speaker>
+          <p>d‘Madame Müschler isch do.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Sie soll numme erin kumme, die kummmt m‘r grad e recht
+          <stage>(spricht leise mit Sälmel; Sälmel ab)</stage>.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny :</speaker>
+          <stage>(hat verweinte Augen und scheint sehr erregt)</stage>
+          <p>Ah, Madame Liemann! Isch ‘s Amelie nit do?</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann :</speaker>
+          <stage>(kühl)</stage>
+          <p>Doch, — worum? Es schriebt e Brief.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Ah! — kummt‘s glich?</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Ja, ich denk, nemme Sie e bissel Platz; Sie henn glauwi gegrinne?</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny :</speaker>
+          <stage>(weinerlich, heftig)</stage>
+          <p>Jo, denke Sie, die Unverschämtheit! Minner Mann isch uff Baris!
+          <stage>(Weint heftig)</stage>.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Nit mejli!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Ja, denke Sie numme, — ich bin hitt morje furt gsinn — un wie i am Midda heim kumm, isch min Mann
+          schun widder los — ich hab m‘r do nix derbi gedenkt, un wie i gemuetli minner Kaffe trink, kommt uff
+          einmol der Brief. — Ich bin betroeje — betroeje! — o was bin ich ungluecklich
+          <stage>(schluchzt)</stage>.</p>
+          <pb n="29"/>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Ja, — sehn Sie, deß kummt dervun, wenn m‘r sin Sach nit b‘sorjt, wie sich‘s ghört. So soll‘s denne
+          junge Madamme alle gehn. — Zwei Mägd un doch nix gschafft, denn wo d‘Frau fehlt, fehlt alles —</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny :</speaker>
+          <stage>(ärgelich)</stage>
+          <p>Ich glaub, Sie welle m‘r noch Lektione gänn?</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Sie hänn sie au noeti. Ihri Mamme mueß Sie schlecht inschtruirt hann, wenn Sie bi re im Hüß wohne,
+          un doch so mit‘m Geld erumschmisse, wie wenn sie hunderttöjisig livres Rente ze verzehre hätte. Brüche
+          Sie e Köche? Hee Ihri Mamme au e Köche ghett, wie sie als noch fer andri Litt gekocht hett? hein?</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Höre Sie, diß isch ze viel, — diß gitt kein Mensch nix an. —</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Deß brücht m‘r niemet‘s ze sawe, daß i höfli bin, awwer ehrli un rechtschaffe haw i min Sach
+          gschafft mit mim Mann säli ün‘s zu ebbs gebroocht. — Mir wär minner Mann nit noch drei Monet uff un
+          dervun gange — wie Ihrere, — awwer so mueß es kumme,
+          <stage>(mit Nachdruck)</stage> er wurd jetz ball e andri hann! —</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny :</speaker>
+          <stage>(ängstlich)</stage>
+          <p>Meine Sie, daß deß d‘r Alfons macht? — Meine Sie? — Könnt so ehbs moejli sinn? Frau Liemann
+          <stage>(zuckt die Achseln)</stage>.
+          <stage>(Alfons macht es, wie vordem Fernand, wird aber auch immer zurückgehalten.)</stage>
+          </p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Madame Liemann! Liewi Madame Liemann, lehne Sie m‘r 500 France!</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Fer was?</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Daß i mim Mann nochreise kann uff Baris.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Ja, hänn sie kein Geld?</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny :</speaker>
+          <stage>(schüttelt den Kopf)</stage>
+          <p>Er hett gschriwe, daß‘r alles Geld mitgenumme het.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>So isch recht! Un Ihri Mamme?</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Sie gitt m‘r keins —</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Un was mache Sie mit der Köche?</p>
+          <pb n="30"/>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Hab ne uffgekuennt alle zwei Maidle —
+          <stage>{weinend)</stage> i wott jo alles ganz allein schaffe, wen numme d‘r Alfons noch do wär!
+          <stage>(Schluchzt heftig)</stage>
+          </p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Hänn m‘r sie so witt, die Junge Madamme? Deß haw i gedenkt, daß es do noch andersch kummt. Jetz mueß
+          i awwer noch‘m Ameli lueje, deß kummt jo gar nit.
+          <stage>(ab)</stage>.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>14. Szene.</head>
+        <stage>(Fanny. Frau Liemann. Amelie.)</stage>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann :</speaker>
+          <stage>(ruft von innen)</stage>
+          <p>Hilf! Hilf! Madame Müschler!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Jesses, was isch do bassiert?
+          <stage>(ab)</stage>.
+          <stage>(Sie bringen Amelie, die ohnmächtig ist)</stage>.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Schnell Essig! — Wärd numme ‘s Sälmel do —
+          <stage>(Fernand will wieder vorkommen wie oben)</stage>.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Wie isch diß kumme?</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Ich weiß nit — ich will lueje, ob i eau de Cologne find im Schlofzimmer
+          <stage>(ab)</stage>.
+          <stage>(Fernand ringt heftig mit den beiden andern, wird aber immer noch, besonders von Mayer,
+          zurückgehalten.)</stage>
+          </p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Herrje, so ebs
+          <stage>(ruft der Kranken)</stage>, Amelie! — Großer Gott! — Frau Liemann
+          <stage>(kommt zurück)</stage>.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Hänn Sie?</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Ja, un do, der Brief isch drinne geläje —</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny :</speaker>
+          <stage>(neugierig)</stage>
+          <p>Der Brief? Soll i lese?
+          <stage>(liest)</stage> Uh! Denke Sie! Im Amelie sin Mann isch uff Baris!</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Au! — ‘s isch nit moejli!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Do könne Sie‘s sehn —</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Och, arm‘s Kind — un ‘s hett doch alles widder welle guet mache.</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Un ich doch aa — ‘s isch wohr! — Och Gott! Och Gott! — Wenn‘s numme zue sich käm — soll i d‘r Docter
+          hole?</p>
+          <pb n="31"/>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Sehn Sie, do sinn Sie dran schuld, gehn Sie numme zum Docter.
+          <stage>(Fernand reißt sich los.)</stage>
+          </p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Zuem nächste, beschte, ich laaf, was i kann. O jerum, nein, was isch deß e Kriz!
+          <stage>(wil] gehen.)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>15. Szene.</head>
+        <stage>(Die Vorigen. Schneider. Müschler. Mayer.)</stage>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand :</speaker>
+          <stage>(kommt leise hervor und hält Fanny zurück)</stage>
+          <p>Nan — bliewe Sie numme do — Frau Liemann und Fanny schreien auf: Dü bisch do, Fernand?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Wie de sieh‘sch, Mamme. Ich hab welle im Amelie e Lection gänn
+          <stage>(ruft der Kranken)</stage>. Amelie! — Kind! — Ich bin doo, d‘r Fernand!</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie :</speaker>
+          <stage>(wacht auf)</stage>
+          <p>D‘r — Fernand? — Ja — geh‘sch nit — uff — Baris? —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Naan — naan — isch‘s dr jetz widder guet?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ja — oh ja —
+          <stage>(umschlingt mit beiden Armen seinen Hals)</stage>. Gäll dü blie‘sch do?</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Witt m‘r denn alle Daa ebs guets koche?</p>
+        </sp>
+        <sp who="#amalie_schneider">
+          <speaker>Amelie:</speaker>
+          <p>Ja, o ja! ich will alles mache, was de witt, blie numme do!
+          <stage>(Kuß, Umarmung.)</stage> Fanny
+          <stage>(weint heftig)</stage>.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons :</speaker>
+          <stage>(springt auf)</stage>
+          <p>Und dü?!</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Dü bisch au do?</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Ja awwer um‘s Härel wär i furt g‘sinn, luej, ich bin schun geruescht und do sie‘sch, diß isch d‘r
+          Agent vum Reisebureau üß d‘r Blöiwolkegaß, wenn de m‘r nit verschprich‘sch —</p>
+        </sp>
+        <sp who="#fanny_muschler">
+          <speaker>Fanny:</speaker>
+          <p>Alles, was di witt
+          <stage>(hält ihn krampfhaft um den Hals fest)</stage> — awwer blie numme doo. De Maidle haw i alli zwei
+          uffgekuennt.
+          <stage>(Kuß, Umarmung)</stage>.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>Gottlowedank ze isch doch widder alles guet. Jetz seije numme recht flissig, ihr jungi Madämle.
+          Deile ejri Zitt guet in,
+          <pb n="32"/>no koenne ihr alles guet b’sorje un derbi zue Abwechslung au lese oder schpaziere gehn.
+          Wenn ihr ejier Sach gschafft hann, hänn eijeri Männer gar nix dergeje, gelte nit?
+          <stage>(Küßt Amelie und reicht Müschlers die Hand.)</stage>
+          </p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Ei allewäj!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Sie hett erecht!</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <stage>(Verlegen zu Mayer)</stage>
+          <p>Ja, — Herr Mayer —</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Es duet uns leid.</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Ja, isch sehe, es ist nischt zu machen und bleibt mir nur noch eine Offerte übrig. Hier
+          <stage>(zieht aus der Tasche zwei Haushaltungsschürzen)</stage> die schönste Zierde des weiblichen
+          Geschlechts, gut waschecht, schützt die Kleider, das Stück 20 Frcs. Da neueste elsässische Kochbuch
+          gebe ich gratis dazu.</p>
+        </sp>
+        <sp who="#alfons_muschler">
+          <speaker>Alfons:</speaker>
+          <p>Här dermit!</p>
+        </sp>
+        <sp who="#fernand_schneider">
+          <speaker>Fernand:</speaker>
+          <p>Un glich angedohn.
+          <stage>(Die Herren ziehen den Damen die Schürzen an und geben jeder das Kochbuch)</stage>.</p>
+        </sp>
+        <sp who="#frau_liemann">
+          <speaker>Frau Liemann:</speaker>
+          <p>‘s hett g’schellt, ‘s wurd Sälmel sin —</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>16. Szene.</head>
+        <stage>(Die Vorigen. Josefine.)</stage>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Ah — do sin jo die Herre — ich hab gemeint
+          <stage>(zu Alfons)</stage> sie sin uff Baris, hett d‘Mamme g‘saat — ah —
+          <stage>(zu Mayer, freundlich)</stage> un Sie sinn au widder do?</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Diener! Habe dem Fräulein versprochen
+          <stage>(unter Verbeugungen)</stage> einen Mann zu versorgen, der sie in allem gewähren läßt —</p>
+        </sp>
+        <sp who="#josefine_martel">
+          <speaker>Josefine:</speaker>
+          <p>Ja, ja —‘s isch superb — morje, gelte Sie? Denk e mol, Fanny, wo net raucht un net trinkt!</p>
+        </sp>
+        <sp who="#mayer">
+          <speaker>Mayer:</speaker>
+          <p>Habe zufällig einen bei mir, hier — lasse ihn Ihnen zu 1,50 Francs.
+          <stage>(Er zieht einen Hampelmann heraus und läßt ihn strampeln.)</stage>
+          </p>
+          <stage>Josefine (schreit auf und geht ab. Unter allgemeinem Lachen der Spieler fällt der
+          Vorhang)</stage>
+          <stage>— Schluß —</stage>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

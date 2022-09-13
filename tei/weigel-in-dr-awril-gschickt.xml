@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="als000030" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">In dr Awril g'schickt</title>
+        <title type="sub">Lustspiel in zwei Akten von M. Weigel</title>
+        <author>
+          <persName>
+            <forename>Madeleine</forename>
+            <surname>Weigel</surname>
+          </persName>
+          <idno type="wikidata">Q97120060</idno>
+        </author>
+        <editor>Pablo Ruiz</editor>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Audrey Deck</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Hoda Chouaib</name>
+          <name>Audrey Deck</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Hoda Chouaib</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata">Q113505779</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109668h</idno>
+          <bibl type="originalSource">
+            <author>
+              <persName>Madeleine Weigel</persName>
+            </author>
+            <title type="main">In dr Awril g'schickt</title>
+            <title type="sub">Lustspiel in zwei Akten von M. Weigel</title>
+            <publisher>Salvator-Verlag Múlhausen</publisher>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="FEMALE" xml:id="mlle_florentine_blind">
+            <persName>Mlle Florentine Blind</persName>
+          </person>
+          <person sex="FEMALE" xml:id="suzanne">
+            <persName>Suzanne</persName>
+          </person>
+          <person sex="FEMALE" xml:id="lucie">
+            <persName>Lucie</persName>
+          </person>
+          <person sex="FEMALE" xml:id="irene">
+            <persName>Irène</persName>
+          </person>
+          <person sex="FEMALE" xml:id="juliette">
+            <persName>Juliette</persName>
+          </person>
+          <person sex="FEMALE" xml:id="marthe">
+            <persName>Marthe</persName>
+          </person>
+          <person sex="FEMALE" xml:id="jeanne">
+            <persName>Jeanne</persName>
+          </person>
+          <person sex="FEMALE" xml:id="mlle_amelie">
+            <persName>Mlle Amélie</persName>
+          </person>
+          <person sex="FEMALE" xml:id="sophie">
+            <persName>Sophie</persName>
+          </person>
+          <person sex="FEMALE" xml:id="elise">
+            <persName>Elise</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="friends" mutual="#irene #jeanne #juliette #lucie #marthe #suzanne"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1930">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/als000030" passive="http://www.wikidata.org/entity/Q97120060"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>Personen</head>
+        <castItem corresp="#mlle_florentine_blind">
+          <role><persName>Mlle Florentine Blind</persName></role>,
+          <roleDesc>rentière</roleDesc>.
+        </castItem>
+        <castItem corresp="#suzanne">
+          <role><persName>Suzanne</persName></role>,
+          <roleDesc>ihri nièce</roleDesc>.
+        </castItem>
+        <castGroup>
+          <castItem corresp="#lucie">
+            <role><persName>Lucie</persName></role>
+          </castItem>
+          <castItem corresp="#irene">
+            <role><persName>Irène</persName></role>
+            <roleDesc/>
+          </castItem>
+          <castItem corresp="#juliette">
+            <role><persName>Juliette</persName></role>
+            <roleDesc/>
+          </castItem>
+          <castItem corresp="#marthe">
+            <role><persName>Marthe</persName></role>
+            <roleDesc/>
+          </castItem>
+          <castItem corresp="#jeanne">
+            <role><persName>Jeanne</persName></role>
+            <roleDesc/>
+          </castItem>
+          <roleDesc>Frindinne vom Suzanne</roleDesc>
+        </castGroup>
+        <castItem corresp="#mlle_amelie">
+          <role><persName>Mlle Amélie</persName></role>,
+        <roleDesc>G'sellschaftre vu Mlle Florentine</roleDesc>.
+          </castItem>
+        <castItem corresp="#sophie">
+          <role><persName>Sophie</persName></role>,
+          <roleDesc>Kecha</roleDesc>.
+        </castItem>
+        <castItem corresp="#elise">
+          <role><persName>Elise</persName></role>,
+          <roleDesc>femme de chambre</roleDesc>.
+        </castItem>
+      </castList>
+      <set>
+        <head>Zit:</head>
+        <p>Gegenwart.</p>
+      </set>
+      <set>
+        <head>Ort der Handlung:</head>
+        <p>Garten der Villa Flora.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>I. AKT.</head>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <stage>Suzanne.</stage>
+          <stage>Garten der Villa Flora. Ringsum Bäume und Sträucher. In der Mitte Gartentisch mit mehreren
+          Stühlen. Hinter der Szene hört man den Gesang von Suzanne, der immer näher kommt Sie singt: «Der Mai
+          ist gekommen» (oder ein anderes Maienlied), tritt singend von rechts ein mit einem Strauss Veilchen,
+          pflückt noch welche dazu und legt die Blumen auf den Tisch.</stage>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Das isch nit schlacht, sing ich do s’schenschta Maialied un mr han doch hit erscht dr 1. Awril.
+            S’isch awer o so a prachtvoll Watterla, do müeß mr jüchzge un singe, eb mr will oder nit; derbi han i
+            alli Ursach luschtig z’si, denn i erwart mini fenf amies zum a Teekranzla. Das git a fideler Mittag.
+            Wu si awer o nur alli stacka
+             <stage>(sieht auf ihre Uhr)</stage> , es isch jo glich drei un se han mr versproche fir racht friahi
+            z’ku. Wenn nur d’Tante Florentine nit so schlacht glünt war. Das wird noch ebbs absetze. Ja, wenn i
+            mini Frindinna nit schu alli iglada hat vor acht Tag, so war üs dam Teekranzla nit wora. Rißt is net
+            vorgescht Knall un Fall unseri Kecha üs. Das isch d’zweite g’si sitter Neijohr. Hoffentlig git’s bol
+            Ersatz, denn die menus, wu mini chère tante
+            <note place="bottom">Tante ist überall französisch auszusprechen.</note> sitter combiniert het,
+            brrr.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. SZENE.</head>
+          <stage>Suzanne, die fünf Freundinnen.(Man hört hinter der Bühne die Stimmen der fünf Freundinnen,
+          welche von der Villa herkommen. Sie rufen):</stage>
+          <sp who="#irene #jeanne #juliette #lucie #marthe">
+            <speaker/>
+            <p>Suzi — uhu! — uhu! — Suzi!</p>
+          </sp>
+          <pb n="6"/>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Aha, do kumme se alla mitnander.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Freundinnen:</speaker>
+            <stage>(treten ein):</stage>
+            <p>Bonjour Suzanne, salut Suzi, bonjour ma chère etc.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Bonjour Kinder
+             <stage>(gibt allen die Hand)</stage> , andlig isch nit ewig. Ihr lehn lang uf i warta.
+             <stage>(Alle setzen sich.)</stage>
+            </p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne:</speaker>
+            <p>Mr han anander rendez-vous gah, fir unser Izug mitnander z’fiera und do hatt’s halt a Will gedürt,
+            bis alli présentes g’si sin. S’Juliette isch natierlig weder s’letschta gsi, wie immer.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>As meint, es isch a Todsind, wenn as uf uns warte müeß, ich bin ganz sicher, as kunt o a mol
+            z’spot fir in dr Himmel.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Han nur ke so groß Mül, so g’fahrlig isch’s nit; un iwerhäupt in dr Bibel steht’s jo: die letzten
+            werden die ersten sein. Das isch m i Troscht, hoffentlig geht's mir o so.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe :</speaker>
+            <stage>(zu Suzanne)</stage>
+            <p>Mr han z’erscht diner tante bonjour g’sait, awer se schient mr nit rosig glünt z’si.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Luzie:</speaker>
+            <p>Ja, ja, ich han’s o gedankt.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>O jeh, sinn mr nur still, ich han schu ebbes mitg’macht, mr han schu zwe Tag ke Kecha me.</p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne:</speaker>
+            <p>Ja, kat denn eira femme de chambre nit üshalfa?</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Jo die Gans, s’hat jo ke Ahnung vu dr Kochkunscht, das weiß nit amol, wenn s’Wasser kocht.
+            Deßletscht hat se ebbs gebache, no hat se schint’s em Kochbüech glase: man nimmt drei ganze Eier. Wie
+            mr das Dings welle asse, biß ich uf ebbs herts. Meine n’r hat se die drei Eier mitsamt de Schale in
+            danne Teig ine gedolgt.
+             <stage>(Lachen.)</stage>
+            </p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Wu asse n’ihr jetz, im Hotel?</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Nei, mini chère tante kocht salwer un d’Mamselle Amélie müeß re halfa. Mich will si nit in dr
+            Kucha ha, si seit ich seig z’schtrutlig,</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ja kat dini tante denn koche?</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Un ebb. Si lest alles üs’m Kochbüech. Meine gescht z’Mittag isch re ein passiert. D’Mamselle
+            Amelie hat re schient alles mieße rischta, wie’s im
+            <pb n="7"/>Büech steht. Derno hat mini tante ohne Zige welle si, fir dr ganza mérite uf ihre Konto
+            kenne z’schriwe. Sie hat halt da ganze Schmäuß in d’Hafala un Pfannala g’macht, alles schen züedeckt,
+            uf dr Hard g’stellt un isch mit ihrem Kochbüech zu mir in dr Garte ku sitza. Gega da zwelfa kunnt uf
+            eimol d’Mamselle Amélie ku springa. Mademoiselle, mademoiselle, riaft se schu vu witem, s’Essa isch
+            jo noch ganz kalt. Sie hat namlig im Watter doch nit träuit un isch ge nolüega. Was, meint mini
+            tante, schu kalt, do mien mr awer gschwind geh asse. Nei, sait d’Mamselle Amélie, noch kalt, s’isch
+            jo gar ke Fier im Hard.
+             <stage>(Alle lachen.)</stage>  Ja, meint mini tante, vu dam isch nit im Kochbüech g’stande, waga dam
+            han is halt verga
+             <stage>(Allgemeines Gelächter.)</stage>
+            </p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Das isch güet, das g’hert in d’Zittung.</p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne:</speaker>
+            <p>Nei, a so ebbs han i noch nie erlabt.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe:</speaker>
+            <p>Schad aß es nit hit am 1. Awril passiert isch.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène :</speaker>
+            <stage>(zu Suzanne)</stage>
+            <p>Ja han ihr noch ke andre Kecha in Uessicht ?</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Es han si schu a paar g’malda, awer se han dr tante nit imponiert.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Kinder, ihr wisse was hit fir a Tag isch, hit mien mr unbedingt in ebbrem a Streich spiela, denn
+            ohne das gett’s bi uns ke 1. Awril.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Awer sicher, ich mach schu mit, dü doch o, Juliette ?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Salbschtverstandlig, fir so ebbis bin i nie s’letschte.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Uf wer han ihr’s abg’sah ?</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe:</speaker>
+            <p>Wie war’s mit’em Elise?</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Jo, do hat’s ke charme, sich mit dr personifizierte Dummheit z’amüsiere.</p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne:</speaker>
+            <p>Oder d’Mamselle Amelie?</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Nei, nei, das git’s nit, do mach ich nit mit. Ich han namlig a faible fir d’Mamselle Amélie. Se
+            isch immer so lieb, hat a Himmelsgeduld für d’Lüna vu ihrer Patronne, in eim Wort, se isch a Engel.
+            In dr Awril g'schickt 3
+            <pb n="8"/>
+            </p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Ja, um s’Himmels Wille, wer wan ihr denn in dr Awril schicke, doch ebba nit mini Tanta.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Was war jetz do derbi, wenn mr is a so a unschuldiger Witz data erläuiwa, schada dat’s re nit, im
+            Gegateil, weisch dü bisch grad o nit uf Rosa betta do.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Sal schu, awer nochhar hat ich jo d’Heil, wenn se das dat erfahre.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Das brücht se jo gar nit. — — Hab nur ke Bang, ich will mr schu ebbs üsdanka.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Jo, dü bisch nie en peine an Witz.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe :</speaker>
+            <stage>(sieht nach rechts)</stage>
+            <p>O jeh, dert: kunt d’Mamselle Blind.
+             <stage>(Zu Lucie)</stage>  Un wie steht’s jetz mit dinre famose Idee?</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Ja, so schnall wird nit gschossa. Kumma nur alle mit ins Gartahisla do dernawa, dert halla mr
+            großer Rot.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ja, wenn is awer d’Mamselle Florentine schu g’sah hat?</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Jo dü, g’sah, sie isch jo so kurzsichtig, nit amol wenn sie noch drei Brilla uf d’Nas setzt,
+            g’seht sie a so wit.</p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne :</speaker>
+            <stage>(sieht nach links hinter die Coulisse)</stage>
+            <p>Un do unta kunt d’Mamselle Amélie, ganz ins Lasa vertieft.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Allez hopp, alla mir no, — — schicke ni, a bitzi tout de suite.
+             <stage>(Alle nach links ab hinter die vordere Coulisse.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. SZENE.</head>
+          <stage>Mlle Florentine.</stage>
+          <stage>(Von der rechten Seite eintretend, hält eine Lorgnette an die Augen und sieht verwundert nach
+          dem Tisch und den Stühlen. Sie ist sehr vornehm gekleidet. Während folgendem stecken die fünf
+          Freundinnen wiederholt die Köpfe hinein, für das Publikum sichtbar, und machen allerlei. schelmische
+          Grimassen.)</stage>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Was, niemeds do, as isch mr doch g’si, wie wenn i ebber hat hera reda.
+             <stage>(Seufzt.)</stage>  S’isch doch trürig, je älter i wird, desto schlachter wird mini
+            <pb n="9"/>vue un jetz geht’s mr sogar ans G’her. Nei, ich hat’s nie dankt, daß ich mit 50 Johr so
+            Praschta müeß ha.
+             <stage>(Erschrickt.)</stage>  Doch still, ich sag das so lüt, das geht doch niemes nit a, daß ich schu
+            fufzig «Lenze» ufm Buckel ha. Zum große Glick isch ke Mensch do, wu’s hat kenna hera. Es schätze mi
+            alli Lit viel Jinger. Es isch o ke Wunder, denn i schien net mehr wie ebena drißig dura. Noch ke
+            einzig gräui Herala uf’m Kopf, grâce vu miner coiffeuse, wu ne epatant Farwungsmittel awandet. Falta
+            im G’sicht, das loß i nit ufku; a ganz ring Mittel, alla Tag a Stund G’sichtsmassage. In de Farwa
+            kenn i mi üs wie wenig. — Ja, was isch halt do anders z’macha, mr müeß ewa nohalfa wies nur geht.
+             <stage>(Sieht sich etwas um)</stage> . Ich frog mi nur, wu sich die jeunesse ufhaltet, mr g’sieht un
+            hert se nit.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. SZENE.</head>
+          <stage>Mlle Florentine, Mlle Amélie.</stage>
+          <sp who="#mlle_amelie">
+            <speaker>Mlle Amélie:</speaker>
+            <stage>(tritt ganz ins Lesen vertieft, von links, hintere Coulisse ein und slösst auf Mlle
+            Florentine):</stage>
+            <p>Oh pardon, mademoiselle, veuillez bien excuser.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Mais mademoiselle, sie sott mi nit verschreckt ha, gett se doch a ander Mol besser acht. A propos,
+            hat sie vorig grad so lüt g’red un glacht?</p>
+          </sp>
+          <sp who="#mlle_amelie">
+            <speaker>Mlle Amélie:</speaker>
+            <p>Ich g’lacht un g’red! Awer mademoiselle, was dankt Se denn vu mir, ich kum jo grad dr Wag do unta
+            ufa,
+             <stage>(zeig nach links)</stage>  un bin a so in a franzescher Roman vertieft gsi, daß ich se jo schier
+            umg’rennt han.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Schier, meint se nur. — — — Awer hert Se, Sie müeß hit mittag dana junge Dame dr Tee macha. Also
+            nur dr Tee, dr Rascht kunt alles vum patissier. Sie hat awer noch Zitt. Se kat mr noch a wenig
+            G’sellschaft leischta.
+             <stage>(Beide setzen sich.)</stage>  Das prachtvolle Watter hit, es macht eim weder ganz jung, findet
+            Se nit o mademoiselle?</p>
+          </sp>
+          <sp who="#mlle_amelie">
+            <speaker>Mlle Amélie:</speaker>
+            <p>Ich fir mi Teil, ka halt do nit mitreda, mi Alter isch jo grad s’schenschta. Bi Ihra isch das
+            ebbis anderschs, ich ka mr’s labhaft danka...
+            <pb n="10"/>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>5. SZENE.</head>
+          <stage>Die Vorigen, Elise.</stage>
+          <sp who="#elise">
+            <speaker>Elise :</speaker>
+            <stage>(tritt ein von rechts)</stage>
+            <p>Pardon, mademoiselle Blind, awer s'isch scha weder eina do, wu sich fir Kecha maldet. Ich han se
+            in dr salon g’fiehrt.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>So, das glicht dr weder, dü dumma Gans. Sofort gesch se geh hola un bringsch se do har.
+             <stage>(Zu Mlle Amélie.)</stage>  Un Sie kennt geh lüaga, ob dr patissier scha a Sach g’schickt hat,
+            wenn nit, so reklamiert Se am Telephon.</p>
+          </sp>
+          <sp who="#mlle_amelie">
+            <speaker>Mlle Amélie:</speaker>
+            <p>C'est ça, ich will o glich dr Tisch decka fir die Dame, s’Ellse kat mr no grad halfa.
+             <stage>(Beide ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Hoffentlig g’fallt mr die, ich bin jo gar nit difficile un verlang o nit unmegligs un doch hall’s
+            keini bi mr üs, i frog mi nur, was do Schuld dra isch. Mr hat’s halt nit licht, wenn mr sich mit so
+            n’re Klasse Lit müeß umaschlaga, wu doch gar nit in mi cadre passa.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>6. SZENE.</head>
+          <stage>Florentine, Elise, Sophie.</stage>
+          <stage>(Es treten ein von der rechten Seite, Elise und Sophie. Letztere ist ungefähr fünfzig Jahre alt,
+          einfach aber sauber gekleidet.)</stage>
+          <sp who="#elise">
+            <speaker>Elise:</speaker>
+            <p>Voilà mademoiselle, do isch d’neia Kecha.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>S’isch güet, Elise, da kasch geh. Schick di a bitzi un hilf dr Mamselle Amélie dr Tisch decka.
+             <stage>(Elise ab.)</stage>  Mlle Florentine
+             <stage>(mit ihrer Lorgnette Sophie scharf fixierend)</stage> : So, Sie war also die neia Kecha, wu
+            eventuell in Betracht kam. Kunnt Sie doch a bitzi necher, ich g’seh namlig nit ganz güet. Wie heißt
+            Se denn?</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie :</speaker>
+            <stage>(näher tretend und sich verbeugend)</stage>
+            <p>Sophie Meller geb. Schmitt.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Was, — — ja isch Sie denn g’hirota?</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Ich bin’s amol g’si, awer schu sitter 25 Johr bin i Wittfräu.
+            <pb n="11"/>
+            </p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Hat Sie ebba Kinder?</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Ich han ein’s ka, s’isch awer ganz klei schu g’storwa.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>So, ja kat Sie denn o kocha? Ich mein do dermit nit Suppa, G’mies, Hartepfel usw. Ich mecht wissa,
+            ob se ebbis vu dr fina Kucha versteht, in mim Hüs git’s namlig nur güete Platta.</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Awer sicher, ich bin iwer zwanzig Johr Kecha bin re marquise gsi.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>So, un wurum isch Sie dert furt?</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Will die marquise, wu Wittfräui gsi isch, g’storwe isch un Kinder het si keini g’ha.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Hat Sie ke Zeignis? Sophie
+             <stage>(nimmt aus ihrer Handtasche einen Brief und reicht denselben Mlle Florentine)</stage> : Doch,
+            doch, voilà madame!</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Pardon, ich bin kei madame,
+             <stage>(betonend)</stage>  ich heiß Mademoiselle Florentine Blind un bin rentiere. Ich wohn in dara
+            Villa mit minre nièce, a G’sellschaftere un a femme de chambre.
+             <stage>(Durchliest die Zeugnisse.)</stage>  Ihre Zeignis isch nit schlacht, wieviel Lohn verlangt Se
+            denn?</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Ich han bi minre letschte Herrschaft 200 Franka g'ha. —</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(ganz aufgeregt)</stage>
+            <p>Was, her ich racht?
+             <stage>(Betonend.)</stage>  Was? 200 Franka? isch das meglig ? Mini dame de compagnie het jo küm
+            mehr.</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Eh ben, Mamselle, Sie kat jo dr Lohn salbscht b’stimma, mr wara schu einig wara.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Bis jetz han i noch nie mehr wie 120 Franka bezahlt, un es sin noch immer alli mini Kecha z’friede
+            gsi.</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Nu, so will ich halt mit 120 z’frieda si. Es isch mr mehr um a güete Behandlung z’tüe, als um a
+            großer Lohn un daß i alli Morga in mi Maß ka geh.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Was? alla Morga in d’Kircha renna, nei, das geht nit, ich mein alla Wuch a mol, am a Sunntig, isch
+            Ding’s genüe.
+            <pb n="12"/>
+            </p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Ich tüe jo dermit nix vu miner Arwet versüme, denn das halwa Stendla, wu ich in dr Kircha bin,
+            spar ich mir am Schlof ab. Lüegt Sie, ich bin das sitter Kind vu d’heim üs g’wehnt un ’s tat mr arg a
+            tüe, wenn i jetz nem kennt geh.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Sie schient mr jo a richtiga Batschweschter z’si, wu alla Kirchatera irennt.</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Sie excusiert, mademoiselle, awer a Batschweschter bin i nit un o ke Kopfhangere, awer ohne unser
+            Herrgott kann i halt amol nit fertig ware.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Ich merk schu, am Mül fahlt re o nit. Mr meint, sie kunnt mit ihrem Zingla frisch üs dr
+            Schliffmehl. Also Sophie heißt Sie?</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Ja, mademoiselle.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Das will mr o nit g’falla, denn da Nama mahnt mi an ebs — — — a souvenir, wu i schu lang vergrawa
+            han un folglig nit immer dra erinnert will si. Sie miaßt vor allem a anderer Nama anah. Zum Biespiel
+            Joséphine oder Eugénie oder Emilie. Do data mr schu noch einig ware drewer. Un a bitzi a andere
+            Kleidung g’sacht i o garn, a wenig moderner, denn es verkehrt bi mir nur d’haute volée, un do halt i
+            dra, daß mine domestiques immer a — —</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie :</speaker>
+            <stage>(einfallend)</stage>
+            <p>Pardon, mademoiselle, mine friahere patronne, wu doch a marquise g’si isch, hat nie ke Anstoß an
+            minre Kleidung un an mim Name g’funda.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(hochmütig)</stage>
+            <p>Eh bien, madame Sophie,
+             <stage>(den Namen höhnisch aussprechend)</stage>  no müeßt se halt wider zu so re marquise ins
+            Frankrich.</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Es tüet mir halt sehr leid, ich war züe garn bin re in Stellung ku, waga will mi einzige
+            Schweschter wu ich han, hie verhirote isch un mr hat doch garn ebber in dr Necha, wu mr hie un da kat
+            s’Harz üslara.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Was, o noch das, nei a so ebbs lied ich nit in mim Hüs, mir han fertig mitnander, Sie kat geh.
+             <stage>(Sophie betrübt rechts ab.)</stage>  Das hat grad noch g’fahlt, die hat ich jo immer z’erscht bi
+            ihrer Schweschter miesse lo hola, wenn’s Zitt gsi war zum kocha. Nei, was doch d’Magd vu hita sich
+            nit alles erläuiwa. Ich will a mol geh lüege wie die andre zwei dr Tisch arrangiert han.
+             <stage>(Stolz rechts ab.)</stage>
+              <pb n="13"/>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>7. SZENE.</head>
+          <stage>Die sechs Freundinnen.</stage>
+          <stage>(Die sechs Freundinnen treten aus ihrem Versteck hervor. Alle halten ihr Taschentuch in der
+          Hand, welches einige noch an die Lippen pressen.)</stage>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Andlig, Gott sei Dank, aß se furt isch.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe:</speaker>
+            <p>Ich bin ganz g’stiff, ka mi nem riahre.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Hole mr a Wecker, — mir sin d’Bei igschlofa,
+             <stage>(sie springt hin und her)</stage>  ujeh, ujeh, i halt’s nem üs.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ich bin schier verplatzt vor lacha.</p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne :</speaker>
+            <stage>(ihr zerrissenes Taschentuch ausbreitend)</stage>
+            <p>Kinder, lüega nur was ich fertig brocht han.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne :</speaker>
+            <stage>(welche ängstlich nach links schaut)</stage>
+            <p>Nit so lüt Kinder, wenn i’s d’tante Florentine hert. Meine, wenn Se das dat wisse, aß mr do hinta
+            züe g’lost han. Dü liewer Himmel, do gab’s ebbis. Wissen ihr, s’isch doch nit schen gsi vun is, mi
+            Lawa lang mach i das nimi. Die Angscht wu ich üsgstanda han.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Jo dü Hasafüeß, scham di, fir was denn Angscht z’ha, mr han jo nur üs Notwehr so g’handelt.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Natierlig, un s’brücht jo nieme ebbis dervu erfahre.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe:</speaker>
+            <p>Keschtlig isch’s doch gsi, a so ebbs han i noch nie erlabt.</p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne:</speaker>
+            <p>Ich bin schier umg’falla vor Lacha, wo se n'is so schen ihr Alter g’sait hat.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Grad wie wenn mr das nit schu lang g’wißt hatta.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>A so kurzsichtig sin mr nit, daß mir nit g’sahn, was imitation isch.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène :</speaker>
+            <stage>(mit dem Finger an ihre Stirn greijend)</stage>
+            <p>Kinder, mir kunt a Idee, a famosa Idee. Ich spring g’schwind furt, dr Mamselle Florentine a
+            G’schank geh käuifa.</p>
+          </sp>
+          <sp who="#irene #jeanne #juliette #lucie #marthe #suzanne">
+            <speaker>Alle :</speaker>
+            <stage>(durcheinander)</stage>
+            <p>Was? Was gesch geh hola? hein!</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène :</speaker>
+            <stage>(legt den Finger an den Mund)</stage>
+            <p>Grand secret, mesdemoiselles.
+            <pb n="14"/>
+            </p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Ums Himmels Wille Irène blib do, mach’s nit; as isch iwerhäuipt Zitt zum Tee.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Ja, ja, her nur, was mir in dr Sinn ku isch waga mim Awrilscharz.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Ich bin gli z’ruck, ihr kenne mir’s nochher am Tisch saga.
+             <stage>(Rechts ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ich han a Wüet uf dina Tanta, Suzi, daß Se die Fräui Sophie a so abkanzelt hat. Un sie nennt sich
+            nit difficile.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Nur still Kinder, ich garantier eich, daß d’Mamselle Florentine vor ebbs Nacht isch, d’Sophie als
+            Kecha engagiert hat.</p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne:</speaker>
+            <p>Isch das ebba di Awrilscharz ?</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Ja, das isch mini ingeniose Idee.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe:</speaker>
+            <p>Wie isch das meglig, dü kennsch jo die Sophie gar nit un weisch o nit wu se wohnt.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Was kenn ich se nit? Han ihr a Ahnung! Ihre Schweschter, wu hie wohnt, das isch unsre Glättere un
+            bi dara isch se schu zwe Monet, fir a güete Stell abz’warte. Un bi uns hat se letscht kocht, an mim
+            Schweschter sinre Hochzit, denn unsre Magd isch fir so ebbs nit à la hauteur. Awer ich sag eich, die
+            hat ebbs los. Se isch nur z’schad fir d’Mamselle Florentine.
+             <stage>(Zu Suzanne.)</stage>  Awer dir z’liab, Süzi, setz i alles in Bewegung, ich garantier eich,
+            morna kocht d’Sophie.</p>
+          </sp>
+          <sp who="#irene #jeanne #juliette #lucie #marthe #suzanne">
+            <speaker>Alle :</speaker>
+            <stage>(ausser Suzanne)</stage>
+            <p>Vive d’Sophie, vive!!!</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne :</speaker>
+            <stage>(zu Lucie)</stage>
+            <p>Ja, sag mr nur was de im Schild fiehrsch. Ihr han alli güet lacha, awer ich müeß nochher dr Buckel
+            anahewa.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Hasch nur ke Angscht, das wird ganz harmlos, awer ihr mien mr alla derbi halfa un d’Mamselle
+            Amelie un s’Elise ware o in s’G’heimnis ig’weiht.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Jetz isch’s üs mit minre Geduld, schieß mol los un verrot is di Faldzugsplan.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Also hera. Noch’m Tee tien mr uns alla als Kecha verkleida un stelle uns dr Mamselle Florentine
+            vor. Mr stelle re awer Bedingunge, daß sie-n-is alle zum Kückück schickt un ihr wara g’sah, daß se
+            hit noch d’Sophie auf de Knie bittet, fir züen re als Kecha z'ku. —
+            <pb n="15"/>
+            </p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne:</speaker>
+            <p>Sag die Idee isch einzig großartig.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe:</speaker>
+            <p>A epatanter Witz.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Das isch herrlig, ich mach mit, awer — —</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Ja, awer, awer, wenn d’Tanta derhinter kunnt, was no, hein?</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Bekimmer di doch nit um ung’legte Eier, ich nim s'ganza Risiko uf mich, ich wir schu fertig mit
+            dinre Tanta.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>8. SZENE.</head>
+          <stage>Die Vorigen, Elise.</stage>
+          <sp who="#elise">
+            <speaker>Elise :</speaker>
+            <stage>(kommt von rechts)</stage>
+            <p>Die Mamsella mechta so güet si un inna kumma, dr Tee isch g’serviert.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène :</speaker>
+            <stage>(kommt von rechts)</stage>
+            <p>So, do war i weder, ich kumm gläuib grad racht.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie :</speaker>
+            <stage>(zu Elise)</stage>
+            <p>Hat’s Wasser schu kocht, Elisla?</p>
+          </sp>
+          <sp who="#elise">
+            <speaker>Elise:</speaker>
+            <p>Ja, ja, Mamselle, un s’git noch ebbis fins derzüe.
+             <stage>(Ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Eh bien, so wan mr denn. Ich bin g’spanna wie a nasser parapluie, wie nochher das Dings abläuift.
+             <stage>(Ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Kumm Irène, ich müeß dr noch instruction gah, daß de B’scheid weisch.
+             <stage>(Alle ab.)</stage>
+              <stage>(Rideau.)</stage>
+            </p>
+          </sp>
+        </div>
+      </div>
+      <pb n="16"/>
+      <div type="act">
+        <head>II. AKT.</head>
+        <stage>Gleiche Szenerie wie im ersten Akt.</stage>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <stage>Mlle Florentine.</stage>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(sitzt am Tisch)</stage>
+            <p>S’isch mr tatsachlig verleide, jetz müeß i weder nodanka, was i hit will z’Nacht kocha, denn uf mi
+            Kochbüech allei verloß i mi doch nim so blindlings; das hüfa Gald wu mr üsget fir so Biacher, un
+            wenn’s druf un dra kunnt, no fahlt noch s’halwa drin. Wenn i doch numme weder a Kecha hat.
+             <stage>(Grübelt etwas nach.)</stage>  Hat i am End nit doch d’letschta sotta b’halta? — — Awer nei, was
+            dankt denn mi Harz, sa o ne Person. Nei, liawer abwarte, s’'maldet sich viellicht noch eine oder
+            d’andere.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. SZENE.</head>
+          <stage>Mlle Florentine, Elise.</stage>
+          <sp who="#elise">
+            <speaker>Elise :</speaker>
+            <stage>(tritt von rechts ein mit einem Paketchen)</stage>
+            <p>Mademoiselle, grad hat a portefaix das Pakla fir Sie abga.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Fir mich, zeig gib mol har, do bin i o wunderfitzig, ich han doch nieme nix b’stellt, erwart
+            folglig o ke envoi. Was isch acht’scht do drin, will amol lüege.
+             <stage>(Zu Elise.)</stage>  S’isch güet, Elise, da kasch weder geh.
+             <stage>(Elise ab.)</stage>  Mlle Florentine öffnet das Paketchen. Ja, was isch denn das?
+             <stage>(Entnimmt dem Paketchen einige Schachteln, kleinere und grössere, längliche und runde und
+            beginnt deren Aufschrift zu lesen.)</stage>  — Crème Tokalon, pour garder un teint d'un merveilleux
+            éclat. — — — Poudre Floréine. — — — — — Les batons rouges Corday embellissent les Ièvres. — — — Ja,
+            <pb n="17"/>was soll denn das heißa? — — — Dr. Schröder’s bewährte Haartinktur. Jetz wird’s mr nim
+            besser, ja vu wem isch denn das eigentlig, das sin jo alli mini Verschenerungsmittala wu i awand, wu
+            awer doch nieme nit dervu weiß, nit amol s’Suzanne, denn i g’schpließ die Ladla immer in miner
+            Toilette i. Das geht nim mit rachta Dinga züe. Wenn i nur dat wisse, wer die bodalosa Frachheit g’ha
+            hat, mir a so ebbs z’schicke, wie wenn ich nit ohne — — — ojeh! do kunnt s’Elise, g’schwind awag mit
+            dam G’schmeiß.
+             <stage>(Während der lelzten Worte hört man Elise hinter der Szene rufen. Mlle Florentine deckt
+            geschwind alles zu.)</stage>
+            </p>
+          </sp>
+          <sp who="#elise">
+            <speaker>Elise:</speaker>
+            <p>Mademoiselle, mademoiselle, — — — —</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. SZENE.</head>
+          <stage>Die Vorigen, Lucie.</stage>
+          <sp who="#elise">
+            <speaker>Elise :</speaker>
+            <stage>(tritt von rechts ein)</stage>
+            <p>S’isch schu weder so a Person ku, wie hit z’mittag, a so ne Kecha, ich han si awer glich
+            mitbrocht.
+             <stage>(Ruff hinter die Szene)</stage> : Kumme nur necher.
+             <stage>(Elise ab.)</stage>  Lucie
+             <stage>(welche als Bauernmädchen gekleidet ist, mit blauer Brille, tritt ein, verstellt ihre
+            Stimme)</stage> : Buschur madame!</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Ich heiß nit madame, sondra mademoiselle, mademoiselle Blind.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie :</speaker>
+            <stage>(für sich)</stage>
+            <p>So so, Blind heißt Sie un isch Sie gläuib o noch halwer, waga dam hebt Se immer so ne G’stell vor
+            d’Auiga.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Was verzehlt Se do, kunnt Se amol ganz noch.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Ich ha grad g’sait, daß sie o im gliche Fall isch wie ich, un ha so Bedüres mit re, daß Sie o nit
+            güet g’sieht. Awer lüegt Se, ich han’s erscht sitter minre Kranket, drgega Sie hat’s viellicht schu
+            lang, s’isch wohrschienlig s’Alter wu das macht.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Ja, sagt Se, Sie, was fallt denn Ihre i, mir so ebbis z’saga, ich wu erscht drißig gsi bin.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Was? eh das dat mr jetz nit meina, awer do sin allei mini Auiga dra Schuld, wu so ebbs nim kenna
+            unterscheida. Ja, so ne Kranket nimmt eim z’wag.
+            <pb n="18"/>
+            </p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Ja. was isch denn das fir a Kranket gsi?</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Meint si nur Mamselle, in unserm Dorf sin dana Winter Ziginer gsi un die han die Kranket inna
+            g’schlept un ich armer Tropf han se grad mießa verwitscha.
+             <stage>(Tritt etwas näher zu Mlle Florentine.)</stage>  Ich han d'schwarze Pocke g'ha.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(springt entrüstet auf)</stage>
+            <p>Was? Was? d’Pocke? macht Se sofort, aß Se üsa kunnt, schunscht kei i Se üsa. Sie steckt mi a, am
+            End han is schu g’erbt.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Awer mamselle, das isch doch nit meglig, d’Kranket isch jo umme, as sin mr numme noch d’Narwa
+            bliwa. Lüegt Se amol vu nochem.
+             <stage>(Bei den letzten Worten nähert sie sich ihr wieder.)</stage>
+            </p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Z’ruck, un ke Schritt me witerscht, ich riaf sofort im a Polizei.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Was? Polizei? was fallt Ihre i, ich bin a ehrbara Person un han nit mit dr Polizei z’schaffa. Un
+            Sie isch a ganz g’meina, nedertrachtiga alta Schachtla, wu a armer Mensch verachtet, will er
+            s’Unglick g’ha hat, a so a Kranket z’erwa.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Jetz still un ke Wort me, üs mina Auiga, sofort, schunscht riaf i um Hilf.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Se brücht si nit so ufrega, ich gang allei, denn mit so re Vogelschiecha will i nit z'tüe ha. Sie
+            weißt o no nit mit was firem a G’sicht aß Sie stirbt. Do isch mi G’sicht mit dana paar Narwa
+            apatitliger az’lüega, als Ihre vermolte Fratz. So verlase’s jetz, madame, adje!
+             <stage>(Geht ab.)</stage>  Mlle Florentine
+             <stage>(setzt sich erschöpft und trocknet den Schweiss von der Stirne)</stage> : Nei, das isch doch
+            züe arg, ich, d’Mademoiselle Blind, rentiere, müeß mir so ebbs g’falla lo, un die Uesdrick, wu die
+            frache Person agwanda hat. Vogelschiecha, alta Schachtla, vermolta Fratz. Wer hat denn dara g’sait,
+            daß ich mich a wenig schmink, das weißt doch ke Mensch. Nei, do isch doch d’Fräui Sophie ebber
+            anderschs gsi. A so eifach un a so astandig im Benama. Wer weiß, ob i je ebbs bessers bekum. Wenn das
+            a so witerscht geht, bekum i noch d’Galsucht vor Aerger.
+            <pb n="19"/>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. SZENE.</head>
+          <stage>Mlle Florentine, Elise.</stage>
+          <sp who="#elise">
+            <speaker>Elise :</speaker>
+            <stage>(kommt schnellen Schrittes)</stage>
+            <p>Mamselle, grad isch wider eini ku froga fir Kecha.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Awer hoffentlig ke so frache wie die letschta.</p>
+          </sp>
+          <sp who="#elise">
+            <speaker>Elise:</speaker>
+            <p>Se schient mr ganz astandig z’si, isch nowel aglegt, trait a Zwicker un hat a Velo.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Was? a Velo? Jetz wird’s Tag, zeig hol se amol do ana
+             <stage>(Elise ab)</stage>  S’wird immer besser, d’nachschte kunnt sicher im a Auto, un d’ewernachschte
+            in’re Flugmaschine. Ja, ja, das mol han i mr eini g’langt, hat i doch liewer d’Fräui Sophie
+            engagiert. Zwanzig Johr isch se bi dara marquise gsi, das isch zum vorneri schu a güet Zeicha.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>5. SZENE.</head>
+          <stage>Die Vorigen, Irène.</stage>
+          <stage>(Elise tritt ein mit Irène. Letztere ist ganz modern und auffallend gekleidet, trägt lorgnon,
+          ist geschminkt und spricht ziemlich affectiert.)</stage>
+          <sp who="#elise">
+            <speaker>Elise:</speaker>
+            <p>Voilà Mamselle, do isch se.
+             <stage>(Ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Bonjour Mademoiselle,
+             <stage>(gibt Mlle Florentine die Hand)</stage>  vous allez bien?</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Was geht doch das Sie a, das toupet vu Ihre. — — Isch Sie iwerhäuipt ku fir die Stell als Kecha
+            ?</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Mais bien sûr, Mademoiselle, wundert Sie das a so, will ich so chic aglegt bin.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Ja, un wie Se mit em a Vélo kunnt ge fahra.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>O jeh, das isch doch nit aparts, ich betrieb noch andre Sport, im Winter läuif i fir mi Lawa garn
+            Schlittschüeh un Ski, im Summer do isch mr s’liabschta Vélo fahre, schwimma un turna. Im Schwimma han
+            i s’letschta Johr a premier prix g’holt, lüegt Se, do han i mi Diplom.
+             <stage>(Packt einen Bogen Papier aus, und will ihn Mlle Florentine zeigen.)</stage>
+            </p>
+          </sp>
+          <pb n="20"/>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Ja, un Sie maldet sich fir Kecha un betriebt alla megliga Sport.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Wurum nit, do geht ein’s s’andera gar nit a. In dr Wucha bin ich Kecha, awer dr Sunntig g’hert im
+            Sport. So han is bis jetz in alla mine Stella g’macht. Sieht Se, das isch’s jo grad, wu im Mensch Not
+            tüet, wu ne gsund un jung erhaltet, hert se, jung.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Ja, meint Se ebba, am a Sunntig stand ich salwer in d’Kucha, fir daß d’Kecha kat geh schwimme un
+            vélofahre.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Do kat Se jo macha, wie Sie meint, Se kat jo a Ueshilf astella. Dr Sunntig isch mi. Lüegt Sie,
+            unser Herrgott hat’s im Paradies schu so igrechta. «Am siebten Tage ruhte er.» Un fir mich isch das
+            Erholung.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>So, so, un schunscht kat Se nit meh?</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>O doch, ich kann noch güet franzesch, a wenig anglisch un verstand o ebbs vu dr Müsik.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Vu dam allem will ich nit wissa, wie steht’s denn mit em Kocha? Zeigt Se mr amol ihre Zeignis.
+             <stage>(Irène überreicht ihr dieselben und sie liest sie durch)</stage>  Was? g’sehn i racht? Sie hat
+            do in eim Johr nin Mol d’Stella g’wachselt.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Wundert Sie das, mich nit, mr findet jo hit zu tags ke astandiga Herrschaft meh, wu mr’s o a
+            Zittlang kat üshalta.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>S’isch güet, mr wann witerscht ke Worta meh verliere, Sie isch entlassa.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>C’est bien, mademoiselle, also nix fir ungüet, wenn Se wider amol ebbis brücht.
+             <stage>(Ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(halb weinend)</stage>
+            <p>Wu han ich. das verdient? — — Findet mr denn hit ke astandige Persona meh. Wie froh war ich, wenn
+            ich jetz d’Sophie als Kecha hat. Alla morga derft se mr in d’Kircha un waga mir noch z’Nacht. Wenn,
+            ja wenn. Jetz isch’s z’spot fir z’jomre.
+             <stage>(Lässt sich auf den Stuhl fallen.)</stage>  O wie isch’s mir verleida, ich bin schu ganz krank..
+            Am End bekumm i doch die Pocka.
+            <pb n="21"/>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>6. SZENE.</head>
+          <stage>Mlle Florentine, Elise, Juliette.</stage>
+          <stage>(Elise tritt ein von rechts von Juliette begleitet, welche auffallend gekleidet ist, grossen
+          Hut, grellfarbenes Kleid und hat einen Sprachfehler.)</stage>
+          <sp who="#elise">
+            <speaker>Elise:</speaker>
+            <p>So do war jetz Nummer vier, die hat ke Velo, awer dussa steht ein vum Isabahn.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Güeta Nowa, madame oder mamselle. Ich kum waga dam Platz als Kecha, wu hit morga in dr Zittung
+            gstanda hat.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Scheen, doch zeigt Sie mr glich Ihre Zeignis.
+             <stage>(Juliette überreicht ihr ein Büchlein, welches sie durchliest.)</stage>  Hm, s’isch jo güet, sie
+            wird jo g’riahmt als Kecha, — — doch zeig halt, was steht denn do unta. — —
+             <stage>(Liest leise.)</stage>  Es schient, daß Sie öfters Verkehr mit junga Manner hat, wu o züe re uf
+            B’süech ku sin.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Ja was isch do schlachts derbi, ich bin jo noch jung, folglig brüch i nit mit alta z’geh. Un
+            derno, s’isch jo immer nur mi Hochzitter gsi; meint Sie ebba, ich will als alta Jungfre starwe, nei
+            nur alles als das nit.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Das sin Ihra Sache; awer das kat Se si merka, daß, falls Sie züe mir als Kecha kunnt, ich Ihra
+            Hochzitter nie in dr Kucha will gash. Mit einere vu mina letschta Kecha han i scho so-n-a Gschichta
+            g’ha. Vierzeh Tag noch ihrem Itritt kumm ich züefallig in d’Kucha un mach a Kaschta uff, steht do e
+            Mannskarl drin. Hat dia frach Person o noch s’toupet fer z’saga: da g’hert net züe mir, da hat
+            wohrschienlig die andera Kecha vor mir do drina steh lo. Jetz frog ich Sie, e Mannskarl esch doch ke
+            parapluie, aß m'r ne so steh loßt. Awer die han i g’schasst.</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Wenn’s nur sal isch, dam isch abz’halfa, ich kan jo mi Hochzitter im salon empfanga.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Eh jo, das fahlt noch. Ich will noch ditliger reda, Sie derf Ihre Hochzitter weder do im Garta,
+            noch weniger im Hüs empfanga. Mina friahare: Kecha han sich o alli güet verhirota, un es hat nit amol
+            keine a Bekanntschaft g'ha.
+            <pb n="22"/>
+            </p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Do bin i o wunderfitzig wie das ganga hat. Die han sich wohrschienlig par T. S. F. lehre kenna. So
+            modern bin ich halt nit. — — — Awer ich bi ganz sicher, wenn Sie mi Fiancé amol g’sah hat, daß Sie
+            mir’s nim verbietet, fir ne do z’empfanga, denn er isch a astandiger, natter, junger Mann, Er hat mi
+            do ahna begleita un wartet mr dussa, ich will em g’schwind geh riafa.
+             <stage>(Springt nach rechts, während Mlle Florentine ihr nachruft.)</stage>
+            </p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Blibt Se do, hat Se g’hert, bringt Se nen jo nit do ahna. O jeh, o jeh, ich gläuib amol se holt
+            nen, i gseh se nieneds meh. — — —
+             <stage>(Geht nach rechts an die coulisse.)</stage>  I mein i her ebber reda, — — ums Himmels Willa, do
+            kumme se gläuib.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>7. SZENE.</head>
+          <stage>Mlle Florentine, Juliette, Marthe.</stage>
+          <stage>(Juliette tritt ein in Begleitung von Marthe, welche als Eisenbahnbeamter angezogen ist. Bei
+          ihrem Anblick fällt Mlle Florentine halb ohnmächtig auf einen Stuhl.)</stage>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Voilà madame, do isch jetz mi Franz, isch er nit a g’fitzter Burscht.
+             <stage>(Zu Franz.)</stage>  Lüeg d’Madam hat gsait, ich derf di nie in dr Kucha empfanga, no han i
+            dankt, i will di ihre amol vorstelle, no wird se schu anderscht reda.
+             <stage>(Zu Mlle Florentine.)</stage>  Galla madam, jetz han Ihr Eich anderscht b’sunna.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(mit erhobener Hand)</stage>
+            <p>Sofort mache-n-Ihr, aß Ihr üssa kumma, sunscht telephonier i uf d’Wacht; un Sie, monsieur, zeig
+            ich a bi Ihrem chef.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe :</speaker>
+            <stage>(mit tiefer Stimme)</stage>
+            <p>Ja, sag Catherine, was soll denn das heißa, zu so-n-re alte Schatulle witt dü als Kecha, nei, das
+            lied ich nit, do git’s noch andre Platz. Kumm nur mit.
+             <stage>(Beide ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(sich ganz erschöpft hinsetzend)</stage>
+            <p>Dü liawer Gott, ich bin halb tot. Das iwerlab ich nim. Daß mir so ebbs passiere müeß. Ich
+            g’schpier’s, ich mach nim lang mit.
+             <stage>(Sie nimmt ihr Taschentuch und weint.)</stage>  Hat ich doch numme d'Sophie nit furt g’schickt,
+            uf de Hand wott i se traga Alla ihre Winsch an de Auiga absah.
+            <pb n="23"/>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>8. SZENE.</head>
+          <stage>Mlle Florentine, Elise, Sophie.</stage>
+          <sp who="#elise">
+            <speaker>Elise :</speaker>
+            <stage>(hereineilend)</stage>
+            <p>Mamselle, meint Sie, die Fräui, wu hit mittag do gsi isch, kunnt grad noch amol ku froga, ebb se
+            d’Mamselle nit doch als Kecha dat nah?</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(freudig erregt, springt auf)</stage>
+            <p>Was? d'Sophie isch wider do? ja hasch di o nit trumpiert, Elise, isch se se wirklig?</p>
+          </sp>
+          <sp who="#elise">
+            <speaker>Elise:</speaker>
+            <p>Ja, ja, s’isch se, ich ha se glich wider kennt</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Gott sei Dank! O, wie bin ich so froh. Gang hol se g’schnall do ahna, Elise! Elise
+             <stage>(tritt nach rechts, winkt Sophie und ruft hinter die Coulisse)</stage> : Kumma, madame,
+            d’Mamselle will mit i reda.</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie :</speaker>
+            <stage>(tritt bescheiden von rechts herein)</stage>
+            <p>Bonjour, Mademoiselle. Mlle Florentine
+             <stage>(eilt auf sie zu und küsst ihre beiden Hände.)</stage>  Sie güete Seel, ja, isch Sie’s
+            tatsachlig. Sie isch noch amol ku. Galt Se, Se verzeiht mr, aß i hit mittag so komisch mit re gsi
+            bin. Lüegt Se, s'tüet mr vu Harza leid, ich han’s jo nit so bes g’meint ka. Also galt Se, Sie kunnt
+            als Kecha züe mr?</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie:</speaker>
+            <p>Ja, Mamselle, unter dr Bedingung, daß i alla Morga — — —</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(sie unterbrechend)</stage>
+            <p>Natierlig derf Se alla Morga in d’Kercha un waga mir noch z’owa. Un 200 Franka gib i re alla Monet
+            ohne d’Gschanker. Un güet soll Sie's ha bi mir, wie wenn Se mi eiga Schweschter war.</p>
+          </sp>
+          <sp who="#sophie">
+            <speaker>Sophie :</speaker>
+            <stage>(küsst ihr gerührt die Hand)</stage>
+            <p>Merci, o merci vielmol. I will mr o g’wiß Miahi ga, daß Se z’frede isch mit mr. Ich bin a so
+            glicklig, daß Se mi jetz doch gnu hat, kann i doch als am a Sunntig z’owa a wenig zu mim Schweschter,
+            un derno bin i froh, daß ke Kinder un Mannslitt im Hüs sin.
+            <pb n="24"/>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>9. SZENE.</head>
+          <stage>Mlle Florentine, Sophie, Amélie.</stage>
+          <sp who="#mlle_amelie">
+            <speaker>Mlle Amélie :</speaker>
+            <stage>(tritt von rechts ein)</stage>
+            <p>Pardon, mademoiselle, ich han nur wella froga, was mr fir’s Nachtassa rischta müeß.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine :</speaker>
+            <stage>(ganz wohlgemut)</stage>
+            <p>Do mache mr is ke große Arwet, es git kalta Platta, un vu morn ab sin mr dam corvée enthowa, lüegt
+            Sie, do stell i re unsere neia Kecha vor.</p>
+          </sp>
+          <sp who="#mlle_amelie">
+            <speaker>Mlle Amélie :</speaker>
+            <stage>(gibt Sophie die Hand)</stage>
+            <p>So, so, das frait mi awer vu Harza.
+             <stage>(Zu Mlle Florentine.)</stage>  Ich bin jo froh, daß die Kocherei a End hat, denn mir zwei han
+            doch nit verninftigs ferig brocht.</p>
+          </sp>
+          <sp who="#mlle_florentine_blind">
+            <speaker>Mlle Florentine:</speaker>
+            <p>Sal isch wohr, un mi Kochbüech, wu doch nur s’Halwa drin steht, wirf i ins Fier.
+             <stage>(Zu Mlle Amélie.)</stage>  Doch, mr wann jetz glich dr Sophie ihr Zimmer zeiga, no kat se, wenn
+            se will, hitta noch ihra Kuffer bringa.
+             <stage>(Zu Sophie)</stage>  Eh bien, Sophie, kunnt Se amol mit is, fir z’lüega, ob’s re o g'fallt.
+             <stage>(Alle ab.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>10. SZENE.</head>
+          <stage>Suzanne.</stage>
+          <sp who="#suzanne">
+            <speaker>Suzanne :</speaker>
+            <stage>(tritt ein von links)</stage>
+            <p>Nei, awer a so ebbs. Jetz stand i sitter do hinter me Bäum versteckt un lüeg dam ganza Theater
+            züe. Eimol sen mr vor Angscht d’Hoor z’Barg g’standa, no war i als wieder fascht verplatzt vor lache.
+            Das Lucie isch a Kaiwamaidle, was dam nit alles dur dr Kopf geht, un wie se alla ag’muschtert gsi
+            sin.
+             <stage>(Sieht nach rechts.)</stage>  Ja, ich gläuib amol dert kumme si. Eh natierlig sin se si, o jeh,
+            wenn se d’Tanta jetz g’seht, no sin mr verlore.
+             <stage>(Winkt ihnen zu.)</stage>  Um s’Himmels Willa kumma g’schwind do ahna, meine wenn d’Tanta kunnt.
+
+             <stage>(Es erscheinen Lucie, Irène und Juliette als Köchinnen, Marthe als Eisenbahner und Jeanne in
+            ihrem früheren Kleid.)</stage>
+              <pb n="25"/>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>11. SZENE.</head>
+          <stage>Die sechs Freundinnen.</stage>
+          <sp who="#lucie">
+            <speaker>Lucie :</speaker>
+            <stage>(zu Suzanne)</stage>
+            <p>Ja, wu stacksch dü denn, im ganza Hüs han mr di g’süecht.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Ich han doch dam Ding wella züelüega un han mi dert hinta versteckt g’ha. Meina numma, d’Sophie
+            isch weder ku, un d’Tanta hat se engagiert.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène:</speaker>
+            <p>Wisse mr alles schu. S’Jeanne isch se jo gsi geh hola, fir sich noch amol vorz’stella.</p>
+          </sp>
+          <sp who="#jeanne">
+            <speaker>Jeanne:</speaker>
+            <p>Un grad vorig sin dina Tanta, d’Mamselle Amélie un d’Sophie d’Staga ufa kumma, doch wu mr se g’sah
+            han, han mr is versteckt un wu se dura gsi sin, heidapritsch awa in dr Garta.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne :</speaker>
+            <stage>(ängstlich)</stage>
+            <p>Ja, worum han ihr eich derno nit umzoga?</p>
+          </sp>
+          <sp who="#juliette">
+            <speaker>Juliette:</speaker>
+            <p>Dü müesch g’schwind unser portrait macha, waga dam han mi di iwerall g’süecht, gang hol die
+            Apparat, mr warta dr sitter im Gartahisla.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Güet, awer nochhar fix ins Hüs un eiri Reck ag’legt.</p>
+          </sp>
+          <sp who="#marthe">
+            <speaker>Marthe :</speaker>
+            <stage>(zu Suzanne)</stage>
+            <p>Weisch, luschtig isch da Witz doch gsi.</p>
+          </sp>
+          <sp who="#irene">
+            <speaker>Irène :</speaker>
+            <stage>(zu Suzanne)</stage>
+            <p>Was hasch denn zu mim Packle Schminka g’sait, wu aku isch ?</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Das isch einzig gsi, de hasch’s awer o noch so güet verrota.</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie :</speaker>
+            <stage>(zu Suzanne)</stage>
+            <p>Was meinsch jetz zu mim Awrilscharz, isch er nit g’réussiert, was han i gsait, morna kocht
+            d’Sophie; isch’s ebba nit so ku?</p>
+          </sp>
+          <sp who="#irene #jeanne #juliette #lucie #marthe #suzanne">
+            <speaker>Alle :</speaker>
+            <stage>(miteinander)</stage>
+            <p>Ja, ja, s’Lucie soll lawa!</p>
+          </sp>
+          <sp who="#lucie">
+            <speaker>Lucie:</speaker>
+            <p>Un dr erscht Awril dernawa.</p>
+          </sp>
+          <sp who="#suzanne">
+            <speaker>Suzanne:</speaker>
+            <p>Un d’Sophie owa dri.</p>
+          </sp>
+          <pb n="26"/>
+          <p>COUPLET.</p>
+          <lg>
+            <l>1.</l>
+            <l>Dr erscht Awril soll lawa hoch, uns het er amüsiert.</l>
+            <l>Wie han mr doch d’tante Florentine mit Hochglanz dribuxiert.</l>
+            <l>Mr han is re als Kuchafee, eins no nem andra zeigt,</l>
+            <l>Als Sportsfrind un als Bürakind, als Franz mit siner Maid.</l>
+            <l>Mr han re jedes d’Meinung g’sait uf a ganz derwa Art.</l>
+            <l>Un han sogar, es isch kei Lug, mit Schimpf un Spott nit</l>
+            <l>(g’spart.</l>
+            <l>Dr erscht Awril soll lawa hoch, uns het er amüsiert.</l>
+          </lg>
+          <lg>
+            <l>2.</l>
+            <l>Un daß dr Witz uns g’lunga isch, das han ihr alli g’sah,</l>
+            <l>Verstellta Stimm, a ander Kleid, un schu isch’s Wunder g’schah,</l>
+            <l>D’tante Florentine isch so entsetzt vu de moderna Magd</l>
+            <l>Drum hat se, wu isch d’Sophie ku, vor Freid ihr d’Hand abg’schlackt,</l>
+            <l>Un hat zu uns’rer groß’ plaisier, sofort sie engagiert.</l>
+            <l>Si will ke andra Kecha meh, da Scharz hat se kuriert.</l>
+            <l>Dr erscht Awril soll lawa hoch, uns he er amüsiert.</l>
+          </lg>
+          <stage>(Rideau)</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

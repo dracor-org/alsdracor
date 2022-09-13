@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="als000028" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">D'r Schnider von Gambse</title>
+        <title type="sub">Lustspiel von H. Kleisecker</title>
+        <author>
+          <persName>
+            <forename>H.</forename>
+            <surname>Kleisecker</surname>
+          </persName>
+          <idno type="wikidata">Q96497696</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Lena Camillone</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Hoda Chouaib</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <editor>Pablo Ruiz</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata">Q107261261</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k91097431</idno>
+          <bibl type="originalSource">
+            <author>
+              <persName>H. Kleisecker</persName>
+            </author>
+            <title type="main">D'r Schnider von Gambse</title>
+            <title type="sub">Lustspiel von H. Kleisecker</title>
+            <publisher>Herausgebeben von Jul. Schies Gesellenpräses. Selbstverlag des Herausgebers,
+            Straßburg</publisher>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="georg_lugenbuhler">
+            <persName>Georg Lügenbühler</persName>
+          </person>
+          <person sex="FEMALE" xml:id="therese">
+            <persName>Therese</persName>
+          </person>
+          <person sex="MALE" xml:id="jean_lugenbuhler">
+            <persName>Jean Lügenbühler</persName>
+          </person>
+          <person sex="MALE" xml:id="mathias_zwicker">
+            <persName>Mathias Zwicker</persName>
+          </person>
+          <person sex="MALE" xml:id="toni_brullberger">
+            <persName>Toni Brüllberger</persName>
+          </person>
+          <person sex="MALE" xml:id="martin_tannspahn">
+            <persName>Martin Tannspahn</persName>
+          </person>
+          <person sex="MALE" xml:id="nipper">
+            <persName>Nipper</persName>
+          </person>
+          <person sex="MALE" xml:id="mahlberg">
+            <persName>Mahlberg</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="mehrere_stimmen">
+            <name>Mehrere Stimmen</name>
+          </personGrp>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#georg_lugenbuhler #therese"/>
+            <relation name="related_with" mutual="#georg_lugenbuhler #jean_lugenbuhler"/>
+            <relation name="associated_with" mutual="#mahlberg #nipper"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1920">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/als000028" passive="http://www.wikidata.org/entity/Q107261261"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <pb n="2"/>
+      <castList>
+        <head>Personen</head>
+        <castItem corresp="#georg_lugenbuhler">
+          <role><persName>Georg Lügenbühler</persName></role>,
+          <roleDesc>Schneider in Gambsheim</roleDesc>.
+        </castItem>
+        <castItem corresp="#therese">
+          <role><persName>Therese</persName></role>,
+          <roleDesc>seine Frau</roleDesc>.
+        </castItem>
+        <castItem corresp="#jean_lugenbuhler">
+          <role><persName>Jean Lügenbühler</persName></role>,
+          <roleDesc>dessen Bruder</roleDesc>.
+        </castItem>
+        <castItem corresp="#mathias_zwicker">
+          <role><persName>Mathias Zwicker</persName></role>,
+          <roleDesc>Kaufmann in Gambsheim</roleDesc>.
+        </castItem>
+        <castItem corresp="#toni_brullberger">
+          <role><persName>Toni Brüllberger</persName></role>,
+          <roleDesc>Mitglied d. Gesangsv. „Gambsheim“</roleDesc>.
+        </castItem>
+        <castItem corresp="#martin_tannspahn">
+          <role><persName>Martin Tannspahn</persName></role>,
+          <roleDesc>Schreiner in Gambsheim</roleDesc>.
+        </castItem>
+        <castItem corresp="#nipper">
+          <role><persName>Nipper</persName></role>,
+          <roleDesc>Gendarmerie-Wachtmeister</roleDesc>.
+        </castItem>
+        <castItem corresp="#mahlberg">
+          <role><persName>Mahlberg</persName></role>,
+          <roleDesc>Gendarm</roleDesc>.
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <pb n="3"/>
+      <div type="scene">
+        <head>1. Auftritt.</head>
+        <stage>Georg singt bei Aufzug des Vorhanges :</stage>
+        <lg>
+          <l>I.</l>
+          <l>Sunn und Mond gehn täglich uff und unter</l>
+          <l>Und das Wasser lauft den Berg hinunter,</l>
+          <l>Viele Bäume machen einen Wald</l>
+          <l>Und im Winter isch's gewöhnlich kalt.</l>
+          <l>Was nit wohr isch, nennt m'r eine Fabel</l>
+          <l>Alle Vögel haben einen Schnabel</l>
+          <l>Das Bier üs Bayern nennt m'r bayrisch Bier</l>
+          <l>Do kann unsereins halt nix derfür.</l>
+          <l>Refrain: ’s het alles sin Ursach, ’s het alles sin Grund</l>
+          <l>’s het alles sin Zitt und ’s het alles sin Stund.</l>
+        </lg>
+        <lg>
+          <l>II.</l>
+          <l>In der Welt passiere doch au Sache</l>
+          <l>’s isch wahrhafti schier zum Bucklichlache</l>
+          <l>Nimmt m'r nur e Zittung jetzt in d'Hand</l>
+          <l>List mr Dings ’s isch gar ze intressant</l>
+          <l>B'sunders hinte les' i gern d'Annonce</l>
+          <l>Do wurd herzhaft in d'Trumpet geblose</l>
+          <l>Alles durchenand in einre Pfann</l>
+          <l>Was nur's Menscheherz begehre kann.</l>
+          <l>Refrain: 's het alles sin Ursach usw.</l>
+        </lg>
+        <pb n="4"/>
+        <lg>
+          <l>III.</l>
+          <l>Wenn m'r Nummer left vom Samstag Owe</l>
+          <l>Lieber Vadder dü, im Himmel drowe,</l>
+          <l>Fresse, süffe, Festlichkeit und Tanz</l>
+          <l>Fülle schier gar alli Sitte ganz.</l>
+          <l>Wie do d'Wirt sich d'Gäst ze angle sueche</l>
+          <l>Mit Sürkrütt, Lewerwurst un Pfannekueche</l>
+          <l>Gebach'ni Eier, Hasepfeffer, hei,</l>
+          <l>Hahne-, Spate-, Bschorr- un Löwebräu.</l>
+          <l>Refrain: ’s het alles sin Ursach usw. .....</l>
+        </lg>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <stage>(eintretend)</stage>
+          <p>Jo! jo ’s het alles sin Ursach, sell isch jetzt wohr, Dü kannsch jo nix derfür, daß ’s Pulver
+          erfunde isch worre, Dü dummer Bebelenz, daß d' bisch, sunsch kenntschte nit helluff singe, am nämliche
+          Tag, wo m'r jede Aueblick ze erwarte het üs em Hisel nüs g'schmisse ze wäre un am End gar noch in’s
+          Rappele ze kumme.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <stage>(singt)</stage>
+          <p>Was nit wohr isch, saat m'r isch e Fabel, Alli Wibslitt han e scharfe Schnabel.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Jo, ’s isch währli au nothwendi, wenn m'r so e glichgildicher Mann het, wo als furt ’s nemli G'sicht
+          macht, ob d'Sunn schinnt odder ebs Katze hagelt, ob ’s guet geht oder schlecht.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Zuefriddeheit macht ’s Glück vum Mensche üs, mit Brummle un Muere, macht mr nix besser.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Jo, wenn m'r durch sini Dummheit d'ganz Menage ze Grund gericht het.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Aha! jetzt wurd min Sünderegister widder abgelese.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Isch's am End nit wohr, daß Dü durch Dinni dumm Guetheit jetzt kenn Pfenni Geld me hesch, aber
+          Schulde über Hals und Kopf.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>’s kummt au widder besser, numme Geduld.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Mit dinnere Geduld kenne m'r noch bettle gehn, zerscht lehn'sch dim Brueder dine ganze Teil vum
+          elterliche Vermeje un er geht in's Frankrich nin.</p>
+        </sp>
+        <pb n="5"/>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Nur Geduld! Dr Jean isch erkenntli, er wurd mr helfe, ich hab'm jo mini Misere g'schriewe.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Jo, do kannsch de warte bis anno Tuwack, der denkt nit an Dich, zum zweite bisch im Schriner-Marti
+          Bürri for zweidöusig Liewer un der loßt Dr sie am Hals und Dü kannsch nit zahle.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Er isch kenn Lump, sunsch hätt'i die Bürgschaft nit angenumme ; er wurd sie schun zahle; übermorje
+          hett er Hochzitt mit's Tannebüere Nanni, die het Spähne, er wurd schun bezahle, wenn er sin
+          Hochzittskleid au bezahlt.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Ja, wenn Dü un ich bettelarm sin un im Loch sitze weje Schulde ; het dr Krämermathiß au Geduld mit
+          Dir ? — He! Gell, der isch bal alle Daa do und luejt, ob ebs ze hole isch.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Des isch e Fehler g'sin, daß ich bi ihm Geld gelehnt hab. Awer sunsch, dies muesch doch selwer saue,
+          ich hab doch kenn Geld vervohn un verschwendt ; i hab g'schafft, wenn i Arweit hab g'hett, ich bin doch
+          kenn Lump un Verschwender.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Dü — Isch des kenn Verschwendung, wenn m'r sin für verdients Geld Andere anekeit, daß sie ihri Plän
+          üsführe kenne. Do kenn ich kenn Unterschied. Andri sin growi Lumpe un Dü bisch e finer, awer e dummer
+          Lump, Dü bisch kenn Mann, verstesch mi.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Theres griff mi nit an der Ehr an, Dü weisch, daß i des nit vertraje kann. Wenn i au Unglück hab
+          g'hett, so mueß mi doch jedermann respektiere un kann mr niemes ebs schlechts nochredde. Drum halt i
+          ebs uff mine Charakter un —</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Des isch ewe Din dummer Eigedünkel, Dü meinsch alsfurt, Dü bisch ebs, Dü bild'sch Dir in, Dü seisch
+          im Bismarck sin Better und hesch e Grattel wie e franzescher Kochhafe, und —</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>
+            <stage>(aufspringend)</stage>  Theres jetzt halt's Mül, Dü weisch wenn i wild wurr, kenn i mi nimm, i bin
+          e wieser Kerl, so geduldi wie i sunsch bin.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Vor Dir hab i kenn Angscht, Dü Jäschtes, Dü wursch doch nit meine, daß ich Dich fercht. Vor dim dumme Hochmut hab i kenn Respekt, im Gejedeil.</p>
+        </sp>
+        <pb n="6"/>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <stage>(springt vom Tisch herunter, wirft die Arbeit weg und sagt)</stage>
+          <p>Ze schaff au, wenn d'mi nit reschpektiere witt, geh Dü süchsch nix als Unfridde und des isch unser
+          Unglück.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Predije und plediere kansch, awer sunsch bisch nix — daß —</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <stage>(nimmt den Besen)</stage>
+          <p>Geh nüs! un loß mi in Rüeh oder ich geh furt un loß alles leje, schamsch bi net so ze redde. —
+          Allons nüs.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Hahaha, was wit denn Dü mir befehle.
+           <stage>(Sie reißt ihm den Besen aus der Hand. Georg flüchtet unter den Tisch.)</stage>  Do sehner dene
+          Hasefueß mit siner Courage.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Theres, ich fröj Dich ein for allemol : Wer isch Meister im Hüs, ich oder Dü?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Dü bisch Meister, Dü, ich sa jo nix derwidder, m'r sieht's jo an dinere Stellung. Ja ja! kumm nur
+          evor, i tue Dir nix. Georgele, i sieh ohnedes der Krämermathis ufs Hüs zuekomme, for dem kannsch Dini
+          Courage zeie, der will leuje, ob er Geld bekummt; Gück, ob de mit dem ferti wursch.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <stage>(springt vor, sitzt auf den Tisch und näht)</stage>
+          <p>Ich saa Dir, jetzt kenn Dummheite, halt zue mix, s'isch alles sunsch verlore.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Aha, Aha ! Aber vorhin hesch mi welle nüswerfe ? Jetzt kannsch ’s Nüswerfe bi dem prowiere.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Theres blie do un helf mir, Dü hesch e Mundstück wie e Bachstelz, Dich fercht er, un zue dem, Dü hesch mich in e Vivität gebrocht, ich fercht ’s g'schieht e Unglück; ich kennt Alles
+          zusammeschlaue.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Na, mint'wege, ich will numme sehn, was diß for e Sauce gitt.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>2. Auftritt.</head>
+        <stage>Die Vorigen. Mathis (ein Krämer).</stage>
+        <sp who="#mathias_zwicker">
+          <speaker>Mathis :</speaker>
+          <p>Guete Daa bisamme, schun so flissi, do wurd g'schafft, do wurd Geld verdient.</p>
+        </sp>
+        <pb n="7"/>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Spettle nit, Mathis, mr wisse wie Ihr's meine un wisse au worum Ihr kumme.</p>
+        </sp>
+        <sp who="#mathias_zwicker">
+          <speaker>Mathis:</speaker>
+          <p>Will i Euch gescht widder nit getroffe hab. Wie steht's ? kennt ich jetzt endli zue mim Geld kumme ?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Jo, wenn mer's hätte, woher nemme un nit stehle. Wo nix isch hett d'r Krämermathis ’s Recht verlore.</p>
+        </sp>
+        <sp who="#mathias_zwicker">
+          <speaker>Mathis:</speaker>
+          <p>Ihr brüche net so spöttisch ze redde ; ’s gilt Ernst. Jett wo der Herr Schneiderschorsch endli emol
+          ze treffe isch, denn einmol isch er in der Stadt im Tuechlade, ’s andermol isch er gange anprobiere, ’s
+          drittemol isch er uff der Geldjagd. Jett welle mir endli emol sueche in's Reine ze kumme, denn ’s wär
+          jetzt endli Zitt.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Mathis, han Geduld : Ihr wäre bezahlt, so wohr als ich do sitz.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <stage>(zu Georg)</stage>
+          <p>I saa noch emol, woher nemme ? Zei redd emol, Dü bisch jo so e Finanz-Genie, Dü schmisch s'Geld im
+          Große nüs, lensch heere, bisch Bürri fur Anderi, weisch jetzt au, wie de dini Schulde decke wit ?</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <stage>(erzürnt)</stage>
+          <p>Theres mach mi nit wild. Un Ihr Krämermathis, han Geduld, Ihr wisse, daß i au Geld drüsse stehn hab,
+          ich bekumm's widder un wur bezahle.</p>
+        </sp>
+        <sp who="#mathias_zwicker">
+          <speaker>Mathis:</speaker>
+          <p>Geld üsstehn ! füli Poste, wenn Ihr's au schun hätte. Geduld, haha, wie oft het m'r diß der geduldi
+          Schnieder schun g'saat, aber mit Geduld bezahlt mr mich nit; ich will emol min Geld, sapristi! noch
+          emol.
+           <stage>(schlägt auf den Tisch)</stage>
+          </p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Eh! Eh! nur langsam, Mathis
+           <stage>(sie steht auf)</stage> .</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>
+            <stage>(gleich zornig)</stage>  Oho! numme e bissele doucement. In mim Hüs, wurd nit so gedewert, oder
+          cru tonnerre! i vergiß mich!
+           <stage>(springt ab)</stage>
+          </p>
+        </sp>
+        <sp who="#mathias_zwicker">
+          <speaker>Mathis :</speaker>
+          <p>In Eurem Hüs ? Haha, wo jeder Ziegel verschulde isch. Lueg emol, wie lang daß Ihr noch in Eurem
+          Hisel kampiere ; es isch alles schun ferti. Dr Hüssier kann jedi Stund kumme ; ich hab numme noch e
+          letschtsmol welle sehn, ob am End doch noch bezahlt wurd, awer jetzt —</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Nüs! Mille de bongre! Alter Wucherer! numme nüs, diß loß ich mir nit g'falle
+           <stage>(er stößt ihn zur Thür hinaus. Therese wehrt ab)</stage>
+          </p>
+        </sp>
+        <pb n="8"/>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Georg, sei verständi, stell kenn Unglück an!</p>
+        </sp>
+        <sp who="#mathias_zwicker">
+          <speaker>Mathis :</speaker>
+          <p>
+            <stage>(unter der Thüre)</stage>  Des soll Euch gedenke. Hit nacht schlofe-n-r im Rappele — — Ihr
+          Lumpepack! elends !</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <stage>(nimmt den Besen und geht ihm nach)</stage>
+          <p>Was? Lumpepack ?
+           <stage>(ab)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>3. Auftritt.</head>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <stage>(allein)</stage>
+          <p>Sapristi un kenn End! Bal hätt's e Unglück genn. I hätt ne grad erwürgt, wenn i ne an der Gurgel
+          kriegt hätt. I zitt'r noch an Lieb und Seel, so hett mich der Ufftritt in Zorn gebrocht. Der elend
+          Gizhals, het's Geld en masse und zieht mr de Hals zue. Er hett Freid dran, mich ze ruiniere, un ich
+          weiß au worum. Will i in de letschte Wahle im Löwe öffentli uffgetrette bin gege die Wucherer, o mini
+          Vivität, min Zorn, der het mr schon manche dumme Streich g’spielt. Der Zorn, der Zorn! Wenn i numme
+          emol denne bemeistere könnt; ich suech im durch Geduld de Hals zebreche, awer do komme als widder
+          Momente, wo ’s mir wie im e Kochhafe kocht, uff einmol der Deckel e sprengt und alles iwerläuft un
+          Unheil anstellt üwer Unheil. — Was wurd jetzt widder komme. Mille de bongre, der Wucherer isch alles im
+          Stand, wer weiß, ob mir am End nit noch hit nüs g'schmisse wäre oder von der Polizei abg'führt, do däht
+          i mi awer wehre, au tonnerre! — Ha, armseliger Schnieder. Diner Zorn däht's Unglück noch größer mache,
+          denn in mim einfältige Zorn bin i schun manchmol so fuchsteufelswild worre, daß i minner selbsch nimmer
+          mächtig bin. Awer jetzt will i sehn, ob's mit Geduld und heiterm Sinn nit besser geht. Jo, jo,
+          Schnieder, hesch als gemeint, bisch e moralischer Mensch, d. h. einer der e bissel besser isch als
+          anderi ehrliche Mitburjer, dis isch der Hochmuet, un der bringt dich zum Zorn, sobal einer dir in's
+          Garn lauft; Awer Theres het erecht: Dü bisch e ingebildter Plebs. Dis het mi g'stoche, wie sie mir dis
+          g'saat het, 's isch grad g'sin, wie wenn sie mir mit 'm Messer inwendi ebs durchschniede tät. Diß isch
+          d'r Hochmuet g'sin. Ehrg'fiel mueß m'r henn, awer i mueß acht genn, daß der
+          <pb n="9"/>Hochmuet nit am Ehrg'fiel festwachst. Drum isch's manchmol ganz guet, wenn so e kleins
+          Donnerwetter kommt, daß m'r nit ze übermütig wurd. —</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>4. Auftritt.</head>
+        <stage>Georg und Therese.</stage>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <stage>(streckt den Kopf zum Fenster herein)</stage>
+          <p>Schorsch! Er isch furt; der hett abscheili gethon, un wenn er alles üsführt, was er g'schwore hett,
+          ze geht's uns hitt noch schlecht ; i will jetzt niewer zue der G'schwei un sehn, ob der Mathis jo am
+          End d'Polizei holt, un schaff Dü unterdesse numme ruhig furt, daß im Martin sini Hose ferti werde.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Jo, geh' numme, liebs Theresele! I mueß jetzt widder e bissele arti sin mit Ihre, denn i mein als, i
+          wur Sie bal brüche. I mein als, uns geht's in kurzer Zitt e bissele schlecht un e verständige Frau het
+          schon manchmol im e tappige Mann üs der Klemm g'holfe — jetzt awer schaffe, sapristi, daß der Martin
+          sini Hose bekummt, sunsch kann er nit Hochzitt mache.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>5. Auftritt.</head>
+        <stage>Georg und Toni.</stage>
+        <sp who="#toni_brullberger">
+          <speaker>Toni :</speaker>
+          <stage>(springt herein)</stage>
+          <p>Salü Schorsch! Lüj, wie der druf los räumert, mr däht meine wunder was pressants daß er hett.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Pressant? zell will i meine, im Schriner sini Hochzitskleider !</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Potz Gewitter noch e mol, was ? Des trefft sich güt, do wursch de wohl nit andersch könne, wursch
+          müesse mitmache. Grad wejeder Hochzitt kumm i zu dir.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Wieso? Was solls denn genn? soll i am End serviere bim Esse ?</p>
+        </sp>
+        <pb n="10"/>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Nein, dr Gesangverein soll ebs singe, e Ständerle, un ich un du solle zell Duette singe, het dr
+          Präsident g'saat, weisch s'Hochzittsduettel: Was e scheene Zit, wenn zwei bravi Lit. — Na! wit mit
+          mache?</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Singe isch min Freid, awer sapperlot, wenn i numme die Hose schun ferti hät, un dr Frack isch au
+          erscht ze Fade gschlaa un üwermorje isch Hochzitt, un wer weiß, o jerum, wer noch kummt villicht hit
+          noch.
+           <stage>(seufzt)</stage>
+          </p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Was hesch de denn ze sitze un ze krächze, mer däht meine, du hesch dr Bendelwurm. So e Schnieder wi
+          Dü bisch, bringt doch alles ferti.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Dü hesch güt rede, Dü stecksch in güete Hose, bi mir awer rauchts in alle Ecke, hitt kenne m'r noch
+          viel erlewe. O jeh! o jeh!</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Des isch e Gekrächs un e Gemachs, ze saa doch, was-'s isch, kann ich dir helfe ? Saa mirs, süm di
+          nit.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>D'Polizei sitt m'r uf-'m Hals, 's Hisel isch verpfändt, grad durch die Bürgschaft vom
+          Schniedermartin, wo ich hab bezahle müesse, wo i Geld vum Krämermathis' uffgenumme hab, un jetz zieht
+          er m'r d'Gurgel zue, hitt noch kann alles zammekrache, kenn Stier un nix isch bezahlt. O jeh, was soll
+          i anfange! S'isch züem Verzwifle.</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Jo, jo, wenn des isch, hm, hm, so tief geht min Elleböje au nit, awer viellicht kann i doch ebs
+          mache. I wur mit'm Martin redde unter vier Aue, sini Hochzittere isch e rechts Maidel, er wurd's schun
+          inrichte kenne, jo, jo, es wurd schun gehn. Allons, Schnieder, lusti, nit verzwatzelt, stolz,
+          Herrschaft von Benfeld, macht der e Armsündergsicht, m'r meint er het Kritzspinne gfresse.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Dü weisch nit, wie mir ze Müet isch, stell Dich in mine Platz.</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Allons, stell Dü Dich an dene Platz un sing mit mir des Hochzittsduettel, will sehn, obs noch geht,
+          Allons marsch, kumm vum Bock, Dich mien mr bi der Hochzitt han, daß der Gsangverein Ehr inleijt, un
+          wenn alli Bredel breche, ze müesch Dü derzue. Also here jetzt.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Na, schlechter kanns ellewej nit wäre, wenn i au e
+          <pb n="11"/>bissel sing, im Gejedeil, es heitert mich uff, awer wenn's d'Therese hört, mille de
+          bongre.</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Jetzt ken Mucketänz gemacht, vorwärts!
+           <stage>(stimmt an)</stage>
+          </p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Numme e bissele Piano!</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <stage>(singt mit kräftiger Stimme)</stage>
+          <p>O schöni Zit, wenn bravi Litt — —</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Au, Piano! i bitt di! mit dinere Bärestimm!</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Ach, bah! G'sang isch G'sang, do mueß m'r herzhaft inbrenne, ich bin kenn Pensionsmamsellele, mit so
+          me Silberstimmele.
+           <stage>(ahmt es nach)</stage>
+          </p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Also denn! Daß i ferti wur
+           <stage>(sie singen das Lied)</stage>
+          </p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>O schöni Zit, wenn bravi Lit Dr Bund fors Lewe schließe.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>O Hochzittdaa, Juchheirassa ! Dich welle mir begrieße.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler #toni_brullberger">
+          <speaker>Beide:</speaker>
+          <p>Dudlrida, dudlrida, dudlrida, huhn :/:</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>In dr Liederschall, mischt sich der Knall, Vun Katzeköpf un Böller.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Im Hochzittshüs, do gits e Schmüs Was d'Küch vermag un Keller</p>
+        </sp>
+        <sp who="#georg_lugenbuhler #toni_brullberger">
+          <speaker>Beide:</speaker>
+          <p>Dudlrida, dudlrida, dudlrida, huhu :/:</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Dü Schorsch, ich mein dini Stimm isch hit nit ganz rein.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Im Gejedeil, ich ha vori schun saue welle, m'r däht meine, Dü hesch e Frosch in der Gurgel stecke,
+          ich will Dir eine Vers vorsinge:</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Dr G'sangverein un d'ganz Gemein Will Euch dr Glückwunsch bringe.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>M'r kumme all mit Freudeschall E Festhymnes ze singe.</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>’s geht so ziemli, wenn Du numme stärker singe dätsch.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Ich sing mit Kunstsinn, mit Nuance, piano un forte, Dü bisch awer nit recht gschüelt im Singe, dine
+          Gsang isch als furt glich dick wie e Knackwurscht.</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Dü pfifsch numme, wie so e Schermüs, des isch kenn
+          <pb n="12"/>Gsang, m'r müeß's doch äußere. Enfin, ’s geht, ’s isch jo numme e Repetition.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Jetzt der vierte und lezte Vers, awer mit piano un forte un mit Gfühl.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler #toni_brullberger">
+          <speaker>Beide:</speaker>
+          <p>E dreifach hoch von fern un noch, dem Hochzittspaar zu Ehre.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Piano! Ganz Gambse soll uf Euer Wohl — forte — mit uns e Gläsel — noch e mol fortissimo — Ganz
+          Gambse soll leere
+           <stage>(während der lezten Töne tritt Therese auf)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>6. Auftritt.</head>
+        <stage>Vorige, Therese.</stage>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <stage>(springt herein)</stage>
+          <p>Sie kumme, sie kumme, Schorsch, hesch's g'hört ?</p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Wer kummt, was isch denn los?</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Was dewersch denn e so? Wer kummt?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>d'Schandarme, schnell, dummer Daadieb, versteck dich, sie welle Dich arretiere.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Mich, do müeß i au drbi sin, des gschicht aber nit, cru tonnerre
+           <stage>(rennt umher)</stage>
+          </p>
+        </sp>
+        <sp who="#toni_brullberger">
+          <speaker>Toni:</speaker>
+          <p>Loß mich emol lüje, wo sie sin.
+           <stage>(geht ab)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>7. Auftritt.</head>
+        <stage>Vorige ohne Toni.</stage>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <stage>(rennt umher)</stage>
+          <p>Ja, was welle-mr jezt mache, schnell versteckt.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Wo anne, alt's dumms Kastell, ich weiß jo selber nit, wo m'r der Kopf steht, awer arretiere loß-i-mi
+          nit.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>In der Keller, uf d'Bühn, in der Geisestall, der steht doch leer.</p>
+        </sp>
+        <pb n="13"/>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Jetzt süeche sie mi überall, awer wo sunsch hin? halt!</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Schnell, mach, daß dü dich verstecksch, sei's wo's will.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Do kummt m'r e Gedanke! in d'Kinderkutsch, Dü gibsch mich for e Kneckes üs ; ich üwerloß Dirs, Dü
+          bisch alt und g'scheidt genue, spiel dini Roll gut.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Gerechter Gott, sie sin schun bal do!
+           <stage>(Georg schlupft in die Kinderkutsche, Therese deckt ihn zu und wiegt hin und her;
+          singt)</stage>  Schlof Männele schlof, der Vater —</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>8. Auftritt.</head>
+        <stage>Vorige, Wachtmeister, Gendarm (eintretend)</stage>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Guten Tag! Sind Sie die Frau des Schneidermeisters Georg Lügenbühler ?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <stage>(schluchzend)</stage>
+          <p>O dü liewer Gott, leider jo, daß Gott erbarm !</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Wachtmeister:</speaker>
+          <p>Wo ist Ihr Mann?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Ich weiß nit, er isch vor-ere Viertelstund furt, for ze sehn, daß er Geld bekummt, wo er ze guet
+          hat.
+           <stage>(Der Schneider quikt, Therese singt.)</stage>  Schlof Kindele, schlof, der Vater hütet
+          d'Schof.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Haben Sie noch kleine Kinder?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Mer han do eins angenumme, so-n-e arms Würmel vun dr G'schwei in Wyersche, wo noch siewe so anderi
+          d'heimme hett, vier drunter han die dreckete Krankheit d'Difteri, oder wie mr saat.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Ah! Typhus, vielleicht ?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Nein, nit de Kühfuß, so e Krankheit kennt mr bi uns net, Dif, Dif, ri — dr Schinder wie heißt denn
+          des Ding nume uff ditsch — Dif — te — ri —</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Die Diphteritis ganz recht!</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Des Büewel het au de Anfang drvun, gehn nur net ze noch mit Eurem G'sicht an de Waue, sunscht könnte
+
+          <pb n="14"/>Ihr au angsteckt were, Ihr sin jo alleweg au Familievadder, Schlof Kindele, schlof!</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Schrecklich! Die Diphteritis! Gut, daß Sie mir das sagen, liebe Frau; ich habe fünf Kinder zu Hause,
+          Donner und Wetter.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Und ich ein halb Dutzend — Müssen wir gerade in diese Bude kommen.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Na so gehn numme wider furt, s'kunnt sunscht e Unglück zu Ihne.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Ach nein! gute Frau, das geht nicht. Der Dienst muß besorgt werden, warum habt Ihr denn das kranke
+          Kind angenommen, Ihr wißt doch, daß die schreckliche Krankheit ansteckend ist.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Der Dokter in Hördt hat g'saat, e Luftveränderung tuet ihm guet. Un Euch tuets viellicht au guet,
+          wenn Ihr jetzt e Luftveränderung mache täte nüs üs dere Krankezimmerluft, min, Mann isch desweje au
+          furtgange, for wider frische Luft ze schöpfe ; gehn numme un sueche mine Mann drüß, denn do finde Ihr
+          ne nit.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Das versteht Ihr nicht, Frau Lügenbühler. Wir kommen, um Ihren Mann abzuholen, damit er eine
+          Luftveränderung für einige Zeit macht, weil er doch so für Luftwechsel schwärmt. Sagt uns gerade
+          heraus, wo er ist, es ist besser, als lang Versteckens zu spielen. Das macht die Sache nur schlimmer.
+           <stage>(Georg quiekt)</stage>
+          </p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Jo min Hammele, numme still, sie tuen dir nix, numme schön drunte gebliewe, schlof Kindele, schlof,
+          schlof Hammele, schlof.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Das ist doch drollig mit dieser Frau, hahaha!</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Ihr brüche mir nit Dolle ze saue, ich bin e ehrliche Frau e unglücklichi.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Ich hab ja gesagt drollig, seid doch vernünftig.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Ze redde ditsch mit unsereim, daß mirs au verstehn kann.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Papperlapapp! Mit dem Geplauder finden wir den Schneider nicht.</p>
+        </sp>
+        <pb n="15"/>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Ze sueche doch numme e mol. Gehn nüs in dr Keller, uf d'Bühn, in de leere Kuhstall un ins
+          Gaiseschöpfel, sueche, ich hab jo nix derwidder, un wenn m'r fröje derf, weje was welle ihr ne denn
+          hohle? Was soll er denn angestellt han.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Schulden, Betrugsversuch, Steuerrückstände, Beleidigung des Kaufmanns Mathias Zwicker hier.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Numme! Des isch jo e großes Verbreche, von dem allem weiß ich nix.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Na, Mahlberg, gehn wir mal und machen Haussuchung, kommen Sie mit, Frau Lügenbühler
+           <stage>(willgehen)</stage>
+          </p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Mit gehn, jo ’s lejt mr an, von dem arme kranke Kind weg ze gehn.
+           <stage>(Georg quiekt)</stage>  Here Sie, wie's winselt vor Schmerze. Schlof, Männele, schlof, numme
+          zefridde, die böse Männer gehn bal wider furt, numme stille, krejich au e guets Stückele Bäredreck
+          dernoh; Schlof Kindele, schlof.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Na, das Kind ist ja ruhig, eine Viertelstunde wird es wohl auch ohne Sie durchbringen können. Kommen
+          Sie mit.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Nit um Alles, sueche ne wo Ihr welle, ich geh nit von dem Kind eweg, i wott wette, sobol i vun-'m
+          eweg bin, ze will er in der Hiz zum Bettel rüß, un wenn'm e Unglück g’schehn tät, wer mueßt's
+          verantworte! Ich!</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Dann bleib ich allein hier und Sie gehen mit Wahlberg im Hause herum; wir dürfen einmal heute nicht
+          zu unserm Chef kommen, ohne den Schneider mitzubringen, steckt er wo er will. Also, Mahlberg, fort, und
+          Sie gehen mit, Frau, damit der Mann nicht am Ende auf einer Kellertreppe den Hals bricht.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Wenns partout nit andersch ze mache isch, ze well i mit, awer warte emol, i will'm noch e Stückel
+          Bäredreck ins Schnüffele stecke; — so liebs Hämmele, jetzt schlutz dü numme, meinsch, des isch emol
+          güet.
+           <stage>(Georg quiekt)</stage>  jo, jo, luj wie er trett, unter finere Couvert, — soll dr wohl tuen bis in
+          dr große Zehnele, daß d'widder gsund wursch, — sei jetzt brav un ruehi, ’s Bäsel kummt bal wider — i
+          will dir nur e Memmele hole. Adieu Schätzele, halt di guet.</p>
+        </sp>
+        <pb n="16"/>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Jetz macht einmal ein Ende mit Eurer Narretei und kommt mit.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Ich möcht numme Euch sehn, mit Euere sechs Kneckes d'heim, ihr sin ganz gewiß noch viel ärjer
+          vernarrt, mer hört jo genu verzehle.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Geht jetz Frau und macht ein End, Ihr habt ja ein Mundstück, wie eine Dampf-Kaffeemühle.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Ich geh jo, awer Ihr müesse alls-furt e bissele hin un her wajle un au e bissele singe: Schlof
+          Kindele, schlof, sunsch wenn's Fuhrwerk still steht, wurd er unruehig un dernoh han'r Euri liewe Not
+          mit'm awer uff dene Bäredreck wurd'r wohl ruehi sin un zefridde.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Jetz aber vorwärts, ein für allemal, sapperlot.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Pressierts denn e so, Ihr sin jo uff der Monat bezahlt oder han'rs im Akkord? So g’fährli isch's
+          doch nit, denk-i.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Jetz macht mal, daß Ihr fort kommt.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Halt!! Bob liewer Alledaa, d'Hauptsach hätt i bal vergesse! was ich Euch bitt, wenn Euch Euer Lewe
+          un's Lewe un G'sundheit vun Eure Kinder un Madam lieb isch, ze bliewe mit Eurem Kopf, un bsunders mit'm
+          Mül vun dem Bettel eweg. Ihr kenne der Dif-dif-ri — Schinder zur Difteri — ebä ze losse-n-Euch rote un
+          tuen was ich saa, oder es isch Euer eigener Schade. Adieu, Herzkäferle, schlof wohl, er schloft
+          prächti, jezt numme ruhig, liewer Herr Wachtmeister, ich geh jetzt.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Ja, ja, nur endlich fort, das ist ja schrecklich.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Eins muesse Ihr mir noch erlauwe, e Gläsle Kirsch will ich Euch offeriere. — I hols glich.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Bleibt doch nur, das darf ja nicht sein.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <stage>(bringt eine Flasche voll Wasser und ein Gläschen)</stage>
+          <p>Do, ich stells emol do ane, à votre service, Ihr könne mache, was Ihr welle.
+           <stage>(Schenkt ein und geht mit dem Gendarm fort.)</stage>
+          </p>
+        </sp>
+      </div>
+      <pb n="17"/>
+      <div type="scene">
+        <head>9. Auftritt.</head>
+        <stage>Wachtmeister allein.</stage>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Hahaha, Potz Flinten und Kanonenkugeln ! So was ist mir noch nicht vorgekommen! In meiner langen
+          Dienstzeit noch nicht vorgekommen. Muß ich da Kinderwärterin spielen! In der Tat, unbekannt ist mir
+          diese Funktion gerade nicht. Habe es oft praktiziert bei meinen fünf Rangen zu Hause; aber im Dienst —
+          zum Kuckuck, das ist denn doch einzig und gehört in den Kladderadatsch. Ein Gendarmerie-Wachtmeister,
+          ein krankes Kind hütend. Alles im Dienst, im Namen des Gesetzes! Haha, und doch es muß sein. Strenge
+          Ordre. — Dieser Schneider ist nicht nur ein heruntergekommener, verschuldeter Kerl, sondern, was für
+          uns die Hauptsache ist, ein Sozialist, ein Redner bei Wahlen und dergleichen. Einige Zeit ins Trockene,
+          wird ihn kurieren.
+           <stage>(Georg quiekt)</stage>  Was Du regst dich auch, kleiner Unglücksvogel! Ich werde mich wohl hüten,
+          dir nahe zu kommen.
+           <stage>(Schaut in den Wagen)</stage>  Ein ziemlich großer Bengel. Na! schlafe nur, schlaf, Kindchen,
+          schlaf,
+           <stage>(er wiegt)</stage>  der Vater hüt die Schaf, hahaha! Muß über mich selber lachen, hab von der
+          drolligen Frau das Geschäft abgelernt. Ja, sei nur still, so du bist verständig, liegst ganz verständig
+          auf dem Gesicht in deinem Kissen drin, Du kleiner Mann. — — Ich wollte. nur meine Frau sähe mich hier
+          sitzen; die würde mir dann jeden Abend Kindermagd-Dienst kommandieren und mit meinem Abendschoppen wäre
+          es vorbei. —
+           <stage>(Betrachtet das Glas)</stage>  Und haha, dann der gutmütige Einfall dieser einfältigen alten Frau,
+          einem Gendarm, der ihren Mann holen will, ein Glas Kirschbranntwein einzuschenken.
+          Riecht eigentlich gar nicht übel, echt — sollen wir nicht versuchen? Bah dienstwidrig!
+           <stage>(Riecht)</stage>  Die Probe könnte man ja machen.
+           <stage>(nippt)</stage>  Nicht übel, echter selbstgebrannter Kirsch Haha, man kann ja nachhelfen, man muß
+          sich zu helfen wissen.
+           <stage>(Georg quiekt, während er trinken will)</stage>  Still! kommt jemand?
+           <stage>(Georg quiekt)</stage>  Nein, das ist der Herzkäfer da in in seiner Kutsche. Schlaf Kindchen,
+          schlaf, der Vater hüt die Schaf.
+           <stage>(wiegt)</stage>  Sei nur brav, Kindchen, ja!
+           <stage>(trinkt und schenkt wieder voll ein)</stage>  So, jezt meint man, ich hätte es stehen lassen,
+          <pb n="18"/>gut, haha! — Aber verflixt langweilig ist die Kinderwärterei doch, muß doch mal ein
+          bischen hinausgucken, ob die Haussuchung noch nicht zu End.
+           <stage>(Geht ab ; der Schneider hebt sich in die Höhe, trinkt das Glas leer und schenkt wieder
+          ein.)</stage>
+          </p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Oh! Wie guet macht eim so e Schnäpsel, wenn m'r üs'm Schlof verwacht, i wott awer doch, i käm bal üs
+          dere Malefizkütsch herüs, i bin grad wie gerädert, ganz krizlahm; awer des tüet eine e bissele stärke.
+           <stage>(trinkt wieder leer und schenkt wieder ein.)</stage>  So jetz awer wider nunter ; er kennt kumme.
+          Schlof Männele, schlof, haha! schnell er kunnt.
+           <stage>(Drückt sich schnell hinunter.)</stage>
+          </p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <stage>(eintretend)</stage>
+          <p>Noch keine Spur von dem Malefizschneider, langweiliges Kesseltreiben in der dumpfigen Bude hier. Na,
+          werde mir noch eins unter die Binde gießen, die gute Alte hat mirs ja angeboten, brauchts übrigens gar
+          nicht mal zu merken.
+           <stage>(will trinken, Georg quiekt)</stage>  Ja, liebs Kerlchen, nur ruhig, ich komme gleich
+           <stage>(trinkt und schenkt ein)</stage>  Sei Du nur hübsch ruhig; schlaf Kindchen, schlaf, sei nur still
+          und brav.
+           <stage>(Georg quiekt)</stage>  Still, hab ich nicht etwas gehört, vielleicht der Schneider.
+           <stage>(Geht hinaus)</stage>
+          </p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <stage>(trinkt wieder leer und schenkt ein, und geht schnell hinunter)</stage>
+          <p>Oh, e guets Tröpfel.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>10. Auftritt.</head>
+        <stage>Voriger, Wachtmeister, Gendarm und Therese treten ein.</stage>
+        <sp who="#mahlberg">
+          <speaker>Gendarm :</speaker>
+          <p>Nicht eine Spur von dem schlauen Schneider zu entdecken — das ganze Haus, alle Ecken und Winkel
+          durchsucht ; alles umsonst.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Was macht denn min Schorschele? Pipero, Lüej wie der so nett schloft.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Wißt Ihr denn gar nicht. Frau, wo er auf der Geldjagd ist; wo er immer Geld holen will? Das müßt Ihr
+          doch wissen.</p>
+        </sp>
+        <pb n="19"/>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Bim Schrinermartin viellicht — üßm Dorf nüs isch er nit kumme.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>So muß er aufzutreiben sein ! Bomben und Granaten, das wollen wir doch sehen. Jetzt geht Ihr mit
+          mir, Frau. Ich werde ihn schon erwischen und müßte ich ganz Gambsheim umkehren. Allons : vorwärts.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Ich mit euch gehn. Zell isch awer nit wohr! Was dhäte do d'Litt im Dorf denke un babble. Ich bin e
+          rechtschaffeni Frau — mich vum e Schandarm durch's Dorf füchre ze losse ? —</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Ich führe euch. ja nicht; Ihr führt mich.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Eh bäh! Ze will ich Euch kettle, Allons here!</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Unsinn! Dummes Weib, so geht meinetwegen allein voraus. Ich folge euch in die Häuser, wo Ihr den
+          Ausreißer vermutet.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Zell welle mer gälte lon, awer wer hüet unterdesse des arm Würmele.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Mahlberg! Sie bleiben hier, bis wir wiederkommen.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Sehr angenehm, Herr Wachtmeister! Bin das Kinderhüten gewöhnt, werde meine Pflicht tun.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <stage>(nimmt die Flasche zur Hand, will einschenken, sieht das Gläschen noh voll und macht kuriose
+          Augen.)</stage>
+          <p>Herr Wachtmeister, ja, han Sie denn nix getrunke, kurios; ich ha gemeint, s'isch noch mehr in den
+          Budell gewehn un doch steht das Gläsel noch voll do.
+           <stage>(zum Gendarm)</stage>  Do trinke Ihr, geniere Euch nit, à votre Service !</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister:</speaker>
+          <p>Mahlberg! Sie werden wissen, daß das im Dienst nicht erlaubt ist. Die Frau meint es gut, aber das
+          darf nicht sein.</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Keine Sorge, Herr Wachtmeister, ich werde meine Pflicht tun.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Au revoir Schorschele! au revoir; er schloft wie e Kalb — hüete-n-e güet.
+           <stage>(Wachtmeister und Therese ab)</stage>
+          </p>
+        </sp>
+      </div>
+      <pb n="20"/>
+      <div type="scene">
+        <head>11. Auftritt.</head>
+        <stage>Vorige.</stage>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Haha, drollige Lage, Kinderfrau spielen — schlaf Lämmchen, schlaf, der Papa hüt die Schaf. Na nur
+          still.
+           <stage>(Georg quiekt)</stage>  ich tue Dir gewiß kein Leid, aber ich werde mich auch hüten. Dich
+          aufzudecken oder sonst irgend etwas mit dir zu unternehmen, — Diphteritis, das sollte mir noch fehlen
+          mit meinen sechs Trabanten, wo's so wie so noch nicht langen will, wenn alles gesund ist. Nein, schlaf
+          Du nur! — Wenn die Geschichte nur nicht gar zu lange dauert, denn verflucht langweilig ist es da schon,
+
+           <stage>(steht auf)</stage>  Übrigens scheinen mir die Leute nicht so übel zu sein, nehmen da ein krankes
+          Kind an; das ist doch schön — schlechte Leute tun das nicht und wie freundlich die gute alte Frau uns
+          hier ein Gläschen angeboten hat, haha! Könnte man da mal eine Probe machen obs eine gute Sorte ist?
+           <stage>(will trinken Georg quikt)</stage>  Donnerwetter, ich glaube es kommt jemand, werde mal draußen
+          nachsehen,
+           <stage>(ab)</stage>
+          </p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <stage>(steht auf, trinkt aus, schenkt ein)</stage>
+          <p>Wenn m'r am Morje üsg'schlofe het, nimmt m'r gewöhnli e Schnäpsel un wenn m'r owes ins Bett geht,
+          nimmt m'r au eins
+           <stage>(nimmt noch eins und schenkt wieder ein)</stage>  so, jetz geh i wider ins Bett, guet Nacht
+          bisamme!
+           <stage>(schnarcht)</stage>
+          </p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <stage>(tritt wieder ein)</stage>
+          <p>Keine Seele weit und breit, wie ausgestorben die ganze Nachbarschaft. Alles auf dem Felde, und ich
+          muß da sitzen, Unsinn ! wenn es nicht des Schneiders wegen wäre, des Kindes wegen könnte man die Bude
+          schon schließen und abgehen, der kleine Kerl ist bräver als meine sechs alle miteinander, freilich die
+          Krankheit kann einen schon brav machen. — Wie der Kirsch so angenehm duftet. Sapperlot! na nur nicht so
+          schüchtern, man hat es uns ja angeboten.
+           <stage>(nimmt das Gläschen, leert es auf einen Zug und schenkt wieder ein)</stage>  So jetz steht immer
+          noh das erste Gläschen da, das der Herr Wachtmeister nicht annehmen wollte, oder sollte er am Ende auch
+          den gleichen Gedanken gehabt haben ? Kaum glaublich, dazu ist er zu diensteifrig. — Aber horch! welch
+          ein Lärm da draußen.
+           <stage>(man hört Lärm und Schreien hinter der Szene)</stage>
+          </p>
+        </sp>
+        <pb n="21"/>
+        <sp who="#mehrere_stimmen">
+          <speaker>Mehrere Stimmen:</speaker>
+          <p>Hewene, hewene! Schmisse-n-e rab! Hauene dene Schereschliffer, druff uf dene Schereschliffer !</p>
+        </sp>
+        <sp who="#mahlberg">
+          <speaker>Gendarm:</speaker>
+          <p>Was hat das zu bedeuten? Ein Auflauf, ein Streit, eine Prügelszene? Da muß ich doch mal nachsehen!
+          Hat der Wachtmeister schließlich den Schneider gefunden und er ist ihm wieder durchgegangen.
+           <stage>(Man hört einen Schuß)</stage>  — Sapperlot! ein Schuß! jezt wird es aber doch zu bunt. Auf,
+          hinaus, den Säbel locker gemacht. Wenn Schüsse fallen, so muß auch der Säbel blitzen.
+           <stage>(ab. Großer Lärm und Stimmengewirr hinter der Szene, immer stärker werdend. Georg steht
+          auf)</stage>
+          </p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Was isch jetz los, mille de bongre! e Revolution! cru tonnerre, do möcht i au derbi sin!
+           <stage>(er trinkt das Glas leer)</stage>  Vive la liberté, égalité, fraternité!
+           <stage>(schhenkt wieder ein)</stage>  haw-i denn kenn alti Flint oder — halt, i hab noch e alter rostiger
+          Sawel, jetz gilt's 's Vaterland ze vertheidige! vaincre ou mourir! cré mille de bible
+           <stage>(steht auf die Zehen und schaut hinaus)</stage>  Sie kumme, d'Schandarme, o jerum.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>12. Auftritt.</head>
+        <stage>Georg, Therese.</stage>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <stage>(schwingt den Säbel und schreit)</stage>
+          <p>Vive la Ré- — —
+           <stage>(Therese rennt ihn im Hereinstürzen um.)</stage>
+          </p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Witt de glich 's Mül halte mit dem Gebrülls, wenn d'Schandarme in der Näh sin, schnell in dini
+          Kütsch! Do bisch am sicherste uffg'hebt. Großer Gott, was isch des for e Spektakel g'sin.
+           <stage>(Georg geht an den Wagen, Therese wirft ihn hinein)</stage>  furt mit dem Speckmesser un lüj do,
+          au fascht aller Schnapps isch weg! Do hesch du d'Glegeheit pofitiert, drum bischte au so kuraschiert,
+          wenn de redde solsch, ze stehsch do, wie dr Hans im Dreck.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Was isch denn drüs passiert ? verzähl mirs. Isch d'Republik üsgeruefe ?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Still! ich hör Litt kumme.</p>
+        </sp>
+      </div>
+      <pb n="22"/>
+      <div type="scene">
+        <head>13. Auftritt.</head>
+        <stage>Jean, Georg, Therese.</stage>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <stage>(stürzt herein)</stage>
+          <p>Oh! ces filous, ces canailles! va bongre, de bongre! Madame, parlez-vous le français, hé!</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>'s isch m'r liewer, Ihr redde ditsch mit mir? Was welle Ihr! Worum Ihr jetz grad zu uns dorin renne.
+          Ihr han drüße e Höllespektakel angestift. Was welle Ihr dobin ?</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Ah, sapristi! Ich nix kann viel ditsch, ich üs Frankreich kumme, ce gendarme, les gendarmes, cré
+          diable, gann Sie nit mich verstecke; ich ihm donne viel beaucoup d'argents.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Verstecke! Au weh! Bi uns will alles sich verstecke! Non, do wurd jetzt kenn Versteckles meh
+          g'spielt, i hab jetz genue for hitt. ?</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Dummes paysanne ! oh misère ! ils viennent! Sie komm.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>14. Auftritt.</head>
+        <stage>Wachtmeister, Gendarm und Vorige.</stage>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Mahlberg! Sie bleiben hier an der Türe stehen, damit die aufgeregten Bauern in ihrem Zorn nicht
+          hereindringen. Das war ja ein Höllenspektakel. Mein Herr! Sie werden uns begleiten. Wir sehen ein, daß
+          Sie zwar nicht schuld sind, an dem Auflauf des Bolkes, aber nachdem die Hauptschreier hinter Schloß und
+          Riegel sind, müssen Sie ebenfalls verhört werden. Also vorwärts auf's Gemeindehaus.</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean :</speaker>
+          <p>Permission! Brigadier ! macht Sie, s’il vous plait in dis Hüs ici d' Procés-verbal, ich will nit
+          gehn mit Sie in Mairie, denn ces paysans là wild und bös und ordinair, mich gehn schlag tot, ah ces
+          brigants, ich ganz welle alles expliziere sur mon personalité, glaub Sie, ich sein un honnette homme,
+          un guet Mann, kein filou.</p>
+        </sp>
+        <pb n="23"/>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Nun so wollen wir denn hier das Protokoll aussetzen, der das ganze Dorf auf die Beine bringt.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Jetzt isch unser Stub, auh noh e Wachistub wore,
+           <stage>(Georg quikt und Sie sagt)</stage> : Schlof Kindele schlof, schlof.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Nur ruhig, Frau Lügenbühler, die Angelegenheit mit Ihrem Mann kommt nachher.
+          Er ist noch nicht zu finden, desto schlimmer.</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Mache jetzt, daß der Scheereschliffer zue minere Stub nüs kommt.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Also Sie sind hier fremd ?</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean :</speaker>
+          <p>Ik sein in Gambsheim gebor, mais wie Büewele von six Johre ich in France gange, und sitt ich wohn
+          dorte.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Ihr Namen ?</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Jean Lügenbühler, fabricant de velocipèdes à Lyon.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Lü-schän-bühlär, verflixter Name, der Teufel soll ihn schreiben. Haben Sie noch Verwandte hier.
+          Wollten Sie hier blos durchreisen, oder hier Aufenthalt nehmen! Und warum ?</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Ich ici in Gambsheim noh hab e Brueder, ich ihm wollt mache e Visite.
+           <stage>(Georg quikt, er regt sich merklich)</stage>
+          </p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Io, jo, lieb's Schorschele, numme ruehig, er kreijt wieder so e Attaque. Schlof, Männele schlof.</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Eh bien, oui, wie ich kumm in des village, wir mache toujours unseri Voyage par velocipèdes, kumm
+          sie e ganzi Bande de gamins und schreit und schmißt mit de pierres so große
+           <stage>(macht eine Faust)</stage>  schmiss mir widder die Rad so grand baquette, schmiß mit de füli Äpf!
+          und crient toujours, ewene! ewene! Scheereschliff, wuethi, abschmiß ! hau! Ah! ces canailles, cette
+          bande de brigants! Was ich hab wohl ma, ich prend mon Revolver, schieß in die Luft, for sie zu
+          verschreck un comme ça isch kumme ce grand trouble, ik nit sin coupable non! Glaube Sie mir Brigadier
+          !</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>So isch's -g'sin, er saat was wohr isch, Sie hätte ne schier grad tot g’schlawe, die elende Hund. ’s
+          isch e Schand vor ganz Gambse.</p>
+        </sp>
+        <pb n="24"/>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Eh bien! Wie Sie kommen, nehme Sie mon Revolver, ich retrire in cette maison, sonft hätt mich, die
+          miserables massakrier ; ich kann nir derfür, ich sin froh, daß noch vivre kann.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Sie haben einen Bruder hier! Wo soll der wohnen und was hat er für ein Geschäft ?</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Ich weiß nit sin domicile, mais er sin Schnieder-Tailleur, je vous assure !
+           <stage>(Georg quikt)</stage>
+          </p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Io, Männele, schlof, blie drunte. Schlof Kindele schlof.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Ruhe jetzt mit dem dumme Geleier!</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Er wird unruehig, wenn's euch net paßt, ze gehn uff's Gemeindehüs.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Weiter, wie heißt Ihr Brueder mit Zunamen ?</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Georg, Georg Lügenbühler, Er mir écrire, er het Schulde et nix d'argent, kayn bezahle nit, wie er
+          nit bekumme Geld ; er häng sich uff; ich pense, ich will helf. Ich kumm par velocipede a Gambsheim, ich
+          hab beaucoup d’argent; ich will helfe jetz ihm, ish min Brueder ! Brigadier, kenne Sie ihn nit.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>
+            <stage>(hervorsteigend)</stage>  Do isch er, do isch er, juchhe, Jean, Jean, ob, mon frère
+           <stage>(fällt ihm um den Hals. Der Wachtmeister und Therese stehen wie versteinert, Therese schlägt die
+          Hände über dem Kopfe zusammen.)</stage>
+          </p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>E Gewitter noch emol, i glaub er isch verruckt, Jerum, jerum, her jerum.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Ha, ha, ha. So das ist das kranke Bübchen gewesen! Na jetzt nur mit, haha! D'r Spaß ist köstlich,
+          aber ein böses Nachspiel wird's geben. Allons, Schneider, geht mit! Die Sache mit Ihnen, Herr
+          Lügenbühler, wird keine schlimmen Folgen haben; bei Ihrer Abreise erhalten Sie Ihren Revolver wieder,
+          vorher nicht, sonst könnte noch ein Unglück geschehen.</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Ah! mon frère Schorsch, Comment Sie welle arretier mon bon frère et pourquoi ?</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Schulden, Steuerrückstände usw., Schwindel!</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Eh bien ! Ich alles bezahl! Voila!
+           <stage>(legt eine Brieftasche auf den Tisch)</stage>  er het g'holf mir mit Geld von unser parents,
+          <pb n="25"/>ich worre bin un homme comme il faut avec argent viel; ich ihm maintenant auch helf.
+          Brigadier, je vous prie, nit nehme mon frère mit in prisons, ich alles mach guet. Ich alles bezahl,
+          coute que coute, koscht was will.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <stage>(vor Freude hüpfend und springend)</stage>
+          <p>Juchhe! So isch's, oh mon frère, Jean, merci beaucoup! Oh wie dank ich Dir! Theres, Sisch, ich hab
+          Dir als g'saat, der alt Gott lebt noch un min Brueder isch nit undankbar, er isch e Ehre mann. Do isch
+          er jetzt, gelt dis isch e Mann, ah bongre ! Geh nur glich nüs un rischt en-Esse was d'Küch un Keller
+          uffdresche kann. Ich mueß ebs druff gen, mim Brueder ze Ehre. Ah bongre. Juchhe.
+           <stage>(springt)</stage>
+          </p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Ich weiß in der Tat nicht mehr, wo mir der Kopf steht, von allem dem, was ich heute hier erlebt
+          habe; glaube aber, daß unter den jetzigen Umständen eine Verhaftung des Herrn Schneidermeisters
+          Lügenbühler wohl unterbleiben kann, das Weitere wird Ihnen vom Amtsgericht zugehn.</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Wir bezahle tout! tout! Eh Brigadier! kann ich Sie invetiere pour ce soir, sie zu trinke une
+          bouteille de Champagne, vous êtes un brave-homme.
+           <stage>(schüttelt ihm die Hand)</stage>  Wenn Sie nit wäre kumme, ces canailles mich hätt g' schlaa
+          tot.</p>
+        </sp>
+        <sp who="#nipper">
+          <speaker>Wachtmeister :</speaker>
+          <p>Wir haben unsere Pflicht gethan. — Also jetzt will ich fort meinen Rapport abgeben. Auf Wiedersehen.
+          Mahlberg! fort, kommen Sie
+           <stage>(ab)</stage>
+          </p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean :</speaker>
+          <p>Au revoir! Brigadier, au revoir, gut Abend!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>15. Auftritt.</head>
+        <stage>Jean, Georg, Therese.</stage>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Eh hien, min liewer Schorsch ! Dis isch Dini Madam !</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese :</speaker>
+          <p>Ze diene! Es macht, m'r Freid! so e flotte Herr als Schwöjer kenne ze lehre; Un b'sunders, will er
+          grad zur rechte Zitt kumme isch, um e Unglück ze verhüete.</p>
+        </sp>
+        <pb n="26"/>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Glück het er in's Hüs gebrocht! Juchhe, ich wur ganz verruckt
+           <stage>(rennt umher. Jean lacht. Der Schneider rennt gegen den eintretenden
+          Schreinermartin.)</stage>
+          </p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean :</speaker>
+          <p>Maintenant mueß alles lustig sin! toujours lusti!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>16. Auftritt.</head>
+        <stage>Martin, Vorige.</stage>
+        <sp who="#martin_tannspahn">
+          <speaker>Martin:</speaker>
+          <p>Na! Na! Potz Hagelwetter ! Heißt m'r diß schaffe? Wenn krej i denn miner Hochzittsfrack, Schnieder ?
+          he ?</p>
+        </sp>
+        <sp who="#therese">
+          <speaker>Therese:</speaker>
+          <p>Jetz saa i nix meh, der wurd jetz viel Lust han zum schaffe.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Dü kriegsch ne, un wenn i d'ganz Nacht dran schaffe mueß, luej i hab Visite, min Brueder vun Lyon, o
+          was e Freid.</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Bon jour, monsieur!
+           <stage>(gibt ihm die Hand)</stage>
+          </p>
+        </sp>
+        <sp who="#martin_tannspahn">
+          <speaker>Martin:</speaker>
+          <p>Bon jour! Euer Brueder isch e braver Mann, awer leider durch allerhand unglückliche Zuefäll e
+          bissele zeruck kumme, awer Gott sei dank, ich kann ihm hit au e kleini unerwarti Freid mache. Er het
+          mir emol in der Not Bürgschaft geleischt for 2000 Franke un het als e Ehremann die Summ bezahlt, was
+          ich nit im Stand bin g'sin. Er isch dodurch e armer Mann worre; Hitt kumm ich, zwei Tag vor minnere
+          Hochzitt, um alles in Richtigkeit ze mache! Voila 2000 Mark mit Zinse von fünf Johr. S'wurd alles
+          stimme.</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg :</speaker>
+          <p>Theres ! hebs uff, so viel Glück macht mi gan des parat! Hebs uff! un rischt e Esse, un grand diner!
+          Martin, Dü bisch invitiert un au dr Toni un die zwei Gendarme un Sie alle, ihr Herre un Dame. Der alt
+          Gott lebt noch! Er verloßt en ehrliche Mann net, deß steht fest. Theres, daß D' mir nie mehr verzagsch:
+          also, jeht numme dr Hochzittsfrack fertig gemacht. Nochher am Owe gitts glich au e flott's Esse.</p>
+        </sp>
+        <sp who="#martin_tannspahn">
+          <speaker>Martin:</speaker>
+          <p>Und ich lad Euch alli zue der Hochzitt un do welle m'r uff's neje d'Frindschaft hoch lewe lon,
+          d'Frindschaft unter
+          <pb n="27"/>brave Handwerkslitt, wo statt enander ze beniede, enander helfe, wo sie kenne.</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean :</speaker>
+          <p>C'est bien! c'est bien! Dis will ich meine! mon idée tout mon opinion.</p>
+        </sp>
+        <sp who="#martin_tannspahn">
+          <speaker>Martin:</speaker>
+          <p>Eh bien, un au Sie, Monsieur Jean, kumme zür Hochzitt und unterhalte uns vun Ihre Reise und
+          Erlebnisse.</p>
+        </sp>
+        <sp who="#jean_lugenbuhler">
+          <speaker>Jean:</speaker>
+          <p>Avec plaisir! Monsieur !</p>
+        </sp>
+        <sp who="#georg_lugenbuhler">
+          <speaker>Georg:</speaker>
+          <p>Vor alle Dinge! Dr erst Toast gilt mim Brueder, dem Helfer in der Not, un der zweit alle
+          rechtschaffene Litt, die Ihr Wort halte und Ihre Pflicht erfülle; un wenn alli Luschtbarkeit ze End
+          isch, ze singe m'r alli mitenander, wenn mr heim gehn, das schön Liedel und dis derf nix anders sin als
+          : „Schlof! Kindele schlof !“
+           <stage>(Vorhang fällt)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="appendix">
+        <head>Gesangs-Einlagen zu „In der Kütsch“ oder „Schlof, Kindele schlof“.</head>
+        <lg>
+          <head>I.</head>
+          <l>In der Welt passiere doch au Sache,</l>
+          <l>Manchmol trürig, manchmol au zum Lache.</l>
+          <l>Nehmt m'r nur e Zittung jetz in d'Hand,</l>
+          <l>Lest m'r Dings, s’isch wirkli intressant.</l>
+          <l>B'sunders gern thue ich mich amüsiere,</l>
+          <l>Hinte die Annonce ze stüdiere,</l>
+          <l>Denn do steckt manchmol e praktischer Sinn</l>
+          <l>Oder au e gueti Lehr noch drinn.</l>
+          <l>Refrain : Un ’s het alles sin Ursach, ’s het alles sin Grund ’s het alles sin Zitt und 'shet alles
+          sin Stund.</l>
+        </lg>
+        <lg>
+          <head>II.</head>
+          <l>I hab do d'Nummer grad vum Samstag z'owe,</l>
+          <l>Liewer Vater Dü, im Himmel drowe!</l>
+          <l>Schlachtfest, Tanz, Konzert un Keglerei,</l>
+          <l>Hahne-, Spate-, Pschorr- un Löwebräu,</l>
+          <l>Uewerall Pläsir un lustig Lewe</l>
+          <l>Awer — d'Zwangsverkaif stehn glich d'newe;</l>
+          <l>Denn Vergnügungsucht füehrt zum Bankrott,</l>
+          <l>Sie stürzt in Schulde un bringt Schand un Spott.</l>
+          <l>Refrain : Ja! ’s het alles usw.</l>
+        </lg>
+        <lg>
+          <head>III.</head>
+          <l>Do isch eim e Jagdhund zuegelaufe,</l>
+          <l>Un was isch do nit alles ze verkaufe;</l>
+          <l>Brennholz, Hammelfleisch un altes Zinn,</l>
+          <l>Möbel, Hasepelz und roter Win.</l>
+          <l>Alles, alles kann m'r do hin finde:</l>
+          <l>Häring, Salwendschueh, Berliner Flinte</l>
+          <l>Au woll’ne Unterrök und Bairisch Bier</l>
+          <l>E starker Schubkarch un e neus Klavier.</l>
+          <l>Refrain :Ja! ’s het alles usw.</l>
+        </lg>
+        <pb n="29"/>
+        <lg>
+          <head>IV.</head>
+          <l>Do isch e Wohnung leer am Schlachthüsstade,</l>
+          <l>Des wär ebs for gewissi Advokate,</l>
+          <l>Ob sie ’s welle, des isch zwiefelhaft,</l>
+          <l>Awer ’s wär dort guete Nochberschaft;</l>
+          <l>Denn die wo dort im Chambre garni wohne,</l>
+          <l>Sin akkurat so freisinnige Patrone</l>
+          <l>Die Herre könnte jo vun Zit ze Zit</l>
+          <l>Dort Ihre Brueder mache e Visit.</l>
+          <l>Refrain : Ja! ’s het alles usw.</l>
+        </lg>
+        <lg>
+          <head>V.</head>
+          <l>Uf dere Sitt do isch e nett's Kapitel,</l>
+          <l>Vereinsvergnuege heißt der lustig Titel,</l>
+          <l>Wer die Verein' wott zähle; s'gäb kenn End,</l>
+          <l>In jedem Hüs wohnt jetz e Präsident.</l>
+          <l>Do gibt ’s denn Stiftungsfest' un Fahneweih</l>
+          <l>Konzert un Bäll, Usflüg un Gasterei</l>
+          <l>M'r macht oft furt drei Tag un ganze Nächt</l>
+          <l>Un nochher saat m'r : d'Zitte sin so schlecht.</l>
+          <l>Refrain : Ja! ’s het alles usw.</l>
+        </lg>
+        <lg>
+          <head>VI.</head>
+          <l>Jo, jo, mir lewe in kuriose zitte,</l>
+          <l>Der Fortschrittsgaul wurd wirkli stark geritte,</l>
+          <l>Un doch gibt's Litt, die meine noch derzue,</l>
+          <l>Das Volk sei noch nit liberal genue.</l>
+          <l>Die Brüeder, wo so flott Ihr Fähnel schwenke,</l>
+          <l>Die solle an de Aubettesaal nur denke,</l>
+          <l>Dort het e liberaler Geist z'letscht g'spuckt,</l>
+          <l>M'r het dort g'sehn wo uns der Stiefel druckt.</l>
+          <l>Refrain : Ja! ’s het alles usw.</l>
+        </lg>
+        <pb n="30"/>
+        <lg>
+          <head>Lied am Schluß des Stückes.</head>
+          <stage>Chor:</stage>
+          <l>Schlof, Kindele, schlof.</l>
+          <stage>Georg:</stage>
+          <l>Deß gilt dene Brueder, wo bim Win un bim Bier</l>
+          <l>In de Wirtskneipe sitze bis am Morge am vier;</l>
+          <l>Denn, wenn die ken Dampf han, ze kumt ne ken Schlof.</l>
+          <stage>Chor:</stage>
+          <l>Schlof, Kindele, schlof. Schlof, Kindele, schlof.</l>
+          <l>
+            <stage>Georg :</stage> So hab i g'hört singe e strammer Soldat,</l>
+          <l>Wo d'Kinderkutsch g'führt het uf der Esplanade,</l>
+          <l>Na! denk i. Du bisch au e guetmüetig's Schof.</l>
+          <stage>Chor:</stage>
+          <l>Schlof, Kindele, schlof. Schlof, Kindele, schlof.</l>
+          <stage>Georg:</stage>
+          <l>E Mann schwenkt vum Bierhüs zuem heimische Dach ;</l>
+          <l>’s schlat eins un sin Frau isch bim Kleinste noch wach ;</l>
+          <l>Jetz poltert er d'Stäy ruf; er het widder en Aff.</l>
+          <stage>Chor:</stage>
+          <l>Schlaf, Kindelein, schlaf. Schlaf, Kindelein, schlaf.</l>
+          <stage>Georg:</stage>
+          <l>E Burjer wo d'Sundasruehj nit recht versteht,</l>
+          <l>Lejt zitter all’ Sunda bis nyne im Bett; </l>
+          <l>Wenns litt macht er d'Läde uf, er meint, sunsch gäbs Strof.</l>
+          <stage>Chor:</stage>
+          <l>Schlof, Kindele, schlof. Schlof, Kindele, schlof.</l>
+          <stage>Georg:</stage>
+          <l> So singt au e Maidel, wo d'Kinderkütsch füehrt</l>
+          <l>Un newe her mit em Ulan dischkerirt;</l>
+          <l>Drum wünscht sie dem Kindel g'segnete Schlof.</l>
+          <stage>Chor:</stage>
+          <l>Schlof, Kindele, schlof. Schlof, Kindele, schlof.</l>
+          <stage>Georg:</stage>
+          <l>So ruef ich Euch, Dame un Herre jetz zue</l>
+          <l>Un wünsch Euch guet Nacht un e angenehm' Rueh ;</l>
+          <l>Daß er träume vum Schnieder, un singe im Schlof.</l>
+          <stage>Chor:</stage>
+          <l>Schlof, Kindele, schlof. Schlof, Kindele, schlof.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

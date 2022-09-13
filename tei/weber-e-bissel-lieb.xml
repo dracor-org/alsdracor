@@ -1,0 +1,3989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="als000029" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">E bissel Lieb</title>
+        <title type="sub">Drama im e Vorspiel un 3 Akt von Emile Weber, 5 Herren — 3 Damen</title>
+        <author>
+          <persName>
+            <forename>Emile</forename>
+            <surname>Weber</surname>
+          </persName>
+          <idno type="wikidata">Q97103623</idno>
+        </author>
+        <editor>Pablo Ruiz</editor>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Lena Camillone</name>
+          <name>Barbara Hoff</name>
+          <name>Vedisha Toori</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Hoda Chouaib</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 4.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/4.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata">Q106559034</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109731t</idno>
+          <bibl type="originalSource">
+            <author>
+              <persName>Emile Weber</persName>
+            </author>
+            <title type="main">E bissel Lieb</title>
+            <title type="sub">Drama im e Vorspiel un 3 Akt von Emile Weber, 5 Herren — 3 Damen</title>
+            <publisher>Édition de théatre et de musique L. Jaggi-Reiss, Gundershoffen (Bas-Rhin)</publisher>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="jean_pfister">
+            <persName>Jean Pfister</persName>
+          </person>
+          <person sex="MALE" xml:id="siner_babe">
+            <persName>Siner Babe</persName>
+          </person>
+          <person sex="FEMALE" xml:id="sini_mame">
+            <persName>Sini Mame</persName>
+          </person>
+          <person sex="FEMALE" xml:id="lilly_weiler">
+            <persName>Lilly Weiler</persName>
+          </person>
+          <person sex="MALE" xml:id="paul_weiler">
+            <persName>Paul Weiler</persName>
+          </person>
+          <person sex="FEMALE" xml:id="alice_sandel">
+            <persName>Alice Sandel</persName>
+          </person>
+          <person sex="MALE" xml:id="dr_babe_fischer">
+            <persName>D'r Babe Fischer</persName>
+          </person>
+          <person sex="MALE" xml:id="e_inspecteur_vun_de_polizej">
+            <persName>E Inspecteur vun de Polizej</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#siner_babe #sini_mame" passive="#jean_pfister"/>
+            <relation name="spouses" mutual="#siner_babe #sini_mame"/>
+            <relation name="spouses" mutual="#jean_pfister #lilly_weiler"/>
+            <relation name="siblings" mutual="#lilly_weiler #paul_weiler"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2430899</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1936">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/als000029" passive="http://www.wikidata.org/entity/Q106559034"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <pb n="2"/>
+      <div type="front">
+        <p>A mon Ami
+        <lb/>L. ED. SCHAEFFER
+        <lb/>STRASBOURG
+        <lb/>E. W.</p>
+      </div>
+      <pb n="4"/>
+      <castList>
+        <head>Persone:</head>
+        <castItem corresp="#jean_pfister">
+          <role><persName>Jean Pfister</persName></role>
+          <roleDesc/>
+        </castItem>
+        <castItem corresp="#siner_babe">
+          <role><persName>Siner Babe</persName></role>
+          <roleDesc/>
+        </castItem>
+        <castItem corresp="#sini_mame">
+          <role><persName>Sini Mame</persName></role>
+          <roleDesc/>
+        </castItem>
+        <castItem corresp="#lilly_weiler">
+          <role><persName>Lilly Weiler</persName></role>,
+        <roleDesc>fiancée vum Jean</roleDesc>
+        </castItem>
+        <castItem corresp="#paul_weiler">
+          <role><persName>Paul Weiler</persName></role>,
+          <roleDesc>Brüeder vum Lilly</roleDesc>
+        </castItem>
+        <castItem corresp="#alice_sandel">
+          <role><persName>Alice Sandel</persName></role>,
+          <roleDesc>Dactylo</roleDesc>
+        </castItem>
+        <castItem corresp="#dr_babe_fischer">
+          <role><persName>D'r Babe Fischer</persName></role>,
+          <roleDesc>garçon de bureau</roleDesc>.
+        </castItem>
+        <castItem corresp="#e_inspecteur_vun_de_polizej">
+          <role><persName>E Inspecteur vun de Polizej</persName></role>
+          <roleDesc/>.</castItem>
+      </castList>
+      <set>
+        <p>Ort: E Stadt im Elsass</p>
+      </set>
+      <set>
+        <p>Gejewart</p>
+      </set>
+    </front>
+    <body>
+      <pb n="5"/>
+      <div type="front">
+        <head>Personeb’schriewung:</head>
+        <head>vum Vorspiel.</head>
+        <p corresp="#jean">Jean: ung’fähr 18-19 Johr alt. Sohn vun Arweitslyt wo Ingénieur wäre will, Het sini Eldere gern.
+         Sieht alles rosig. Einfachi Kleider.</p>
+        <p corresp="#babe">Babe: ebene 58 Johr alt, Isch arich krank un abg’schafft. Ganz einfachi Kleider.</p>
+        <p corresp="#mame">Mame:: ebene 55 Johr alt. E liewi, einfachi Frau. Dunkli Kleider, Schurz. vum Stück.</p>
+      </div>
+      <div type="front">
+        <head>vum Stück.</head>
+        <p corresp="#jean">Jean: ung’fähr 28-30 Johr alt. Junger Ingénieur. Güeti Kleider. Het sini Mame arich gern. Isch e
+         Find vun allem Unrecht. Er opfert für ’s Recht sini Stellung un d' Uessicht uff e richi
+         Hyrot.</p>
+        <p corresp="#mame">Mame: isch ebene 62-65 Johr alt. Wissi Hoor. Besseri, awer doch einfachi Kleider. Isch immer noch die
+         einfach Frau. Het ihre Jean un alli Arme gern.</p>
+        <p corresp="#lilly">Lilly: 22-23 Johr alt. Fawrikantedoochter mit scheene un ganz moderne Kleider. Kalt geje d' Arme, het
+         numme Familieinteresse.</p>
+        <p corresp="#paul">Paul: ebene 21 Johr alt. Moderni Kleider. Charakter wie sini älter Schweschter. E Mensch, wo ’s Läwe
+         geniesse will.</p>
+        <p corresp="#alice">Alice: 18-19 Johr alt. Einfachi un doch netti Kleider. Hängt arich an ihrem Pfläjvater Fischer.
+         Waiselkind. Kämpft für ihri Ehr un will nit, dass anderi Opfer für sie bringe.</p>
+        <p corresp="#fischer">Fischer: Mann vun ebene 64-65 Johr. Wissi Hoor. Einfach im Charakter un Kleidung. Bringt gern Opfer au
+         für anderi. E Seel vum’e Mensch. Heisst by alle Babe Fischer.</p>
+        <p corresp="#inspecteur">Inspecteur: ebene 35 Johr alt. Gewöhnlichi Kleider, Hüet. D’ Bühneb’schriewung isch in jedem Bild
+         angänn.</p>
+      </div>
+      <pb n="6"/>
+      <div type="act">
+        <head>Vorspiel.</head>
+        <stage>Eine ganz einfache Stube (Dachwohnung).Hinten in der Mitte ein Bett (Breitseite nach vorn). Am
+        Kopfende des Bettes ein Nachttischchen mit einigen Medizinfläschchen. Am Fussende ein runder Tisch.
+        Einige Stühle und ein grosser Rohrstuhl. Links vorn eine Türe. Links auf der Seite ein einfaches Sofa,
+        welches auch als Bett dient. Rechts vorn ein Fenster. Einige kleine Bilder an den Wänden, auf dem Tische
+        eine Vase mit Blumen.</stage>
+        <div type="scene">
+          <head>1. Szen.</head>
+          <stage>Gedrückte Stimmung. Alle reden langsam (vor allem Babe), an manchen Stellen ganz leise.</stage>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <stage>(sitzt im Rohrstuhl; Hemd, Hose und Frack an, Halstuch; hat eine Decke über sich. Sehr
+            krankhaftes Aussehen, Fährt sich oft mit einem Tuche übers Gesicht, um den Schweiss zu trocknen. Nach
+            einer Weile)</stage>
+            <p>Mame!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(einfach angezogen; Schürze. Bringt das Bett in Ordnung)</stage>
+            <p>Was denn Babe?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Kum, setz dich... e bissel... züe mir.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(setzt sich neben Babe)</stage>
+            <p>Was soll denn sin?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(langt nach den Händen von Mame)</stage>
+            <p>Mame — Madeleine!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Pierre, Pierre, was isch denn?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Gäll, mir zwei... sin doch immer... glücklich g’sin?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Nadierlich sin mir glücklich g’sin! Wie kummsch düe jetzt awer grad uff diss ze redde? Noch nie
+            hesch düe mich e so ebs g’fröjt.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Ich hab dir’s jo immer ang’sähn, dass düe... glücklich bisch, awer... ich hab’s jetzt au vun dir
+            wölle höre.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Düe hesch jo hyt ganz sunderbari Gedanke un Wünsch!</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Schun e paar Dääj... hab ich üwer unser Läwe nochsimeliert... un au an diss gedänkt... was noch
+            kumme kann.
+            <pb n="7"/>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Diss sollsch düe gar nit, denn es isch nit güet für dich.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Un doch... un doch!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Was denn?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Mame, Mame... Madleine! Wer weiss... wie lang ich noch do bin!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(will das Weinen unterdrücken)</stage>
+            <p>Red... nit... devun, Pierre!</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Werum denn nit? Mame
+             <stage>(steht auf und geht gegen das Bett)</stage> .</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(streckt die Hände nach ihr)</stage>
+            <p>Madleine!!! Mame
+             <stage>(geht zu Babe, küsst ihn und macht sich wieder am Bett zu schaffen)</stage> . Babe
+             <stage>(schaut Mame lächelnd zu, ist dann wieder nachdenklich, Wischt sich den Schweiss ab)</stage> .
+            Mame
+             <stage>(öffnet das Fenster, wischt sich dabei Tränen ab)</stage> .</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Mame... d' Medizin wenn’s beliebt. Mame
+             <stage>(holt ein Fläschchen und einen Löffel vom Nachttischchen, zählt einige Tropfen in den Löffel
+            und gibt denselben Babe)</stage> .</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(nimmt die Tropfen)</stage>
+            <p>Ich weiss nit... ich weiss nit.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(bringt Fläschchen und Löffel auf den Nachttisch)</stage>
+            <p>Düe weisch jo, was’r d'r Dokter immer saat, wenn ’s Früehjohr kummt, geht’s wieder besser.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(lächelt)</stage>
+            <p>Wenn ’s Früehjohr kummt... ja wenn’s kummt!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(wischt Babe den Schweiss ab)</stage>
+            <p>Wotsch denn nit wieder in ’s Bett?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Wart noch... wöll Zyt isch denn?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(macht gerade das Fenster zu)</stage>
+            <p>Glich sechs.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Schun! Kummt denn... de Jean bal?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Er isch sicher noch züem Henri gange. Düe weisch, es geht uff de Exame. De Henri un er schaffe
+            mitnander.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Ja, ich weiss... Mame, gib mir doch Tropfe.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ich hab dir jo grad ewe gän.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Ja... awer ich g’spier... dass sie mir güet mache.</p>
+          </sp>
+          <pb n="8"/>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Düe sollsch awer nit züviel vun däm Gift nämme.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Gib mir, Frau. Mame
+             <stage>(gibt wie vorhin die Tropfen)</stage> .</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(wischt sich ab und nimmt die Tropfen)</stage>
+            <p>Merci! Mame
+             <stage>(legt Löffel und Fläschchen weg. Kommt zu Babe und wischt ihm den Schweiss ab)</stage> : Düe
+            schwitsch hyt awer arich!</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(schaut Mame an und lächelt)</stage>
+            <p>Merci, Mame!!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. Szen.</head>
+          <stage>D’ Vorige un Jean.</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <stage>(von links — bleibt zögernd an der Türe stehen, sucht Babe im Bett — sieht ihn nun im
+            Rohrstuhl — lächelt — geht nun schnell zu Babe)</stage>
+            <p>Bonjour, bonjour Babe, düe bisch hyt uff?? Diss isch jo e güets Zeiche !! ellein viel meh wert,
+            ass wie 100, ja sogar 1000 anderi, wo Gnad un Barmherzigkeit im Weiler vun de Hand abschlecke müehn.
+            Was mache die alli emol, wenn er am e scheene Daa sini Hand zeruckzejt? Doch, doch, ich seh’s an
+            eujre G’sichter aan... Was hätte mir drej noch meh könnte han uff dere Welt als glücklich sin?... Ich
+            weiss nit!! ... Halt! d' Ehr noch, ja. Un au die han mir g’het. Alles andere geht numme ums Geld un
+            immer wieder ums Geld.
+             <stage>(Kleine Pause.)</stage>  Babe (legt eine Hand auf die Hände von Mame, die andere sin; Stunde, wo
+            düe kämpfe müesch un doch grossi Enttäuschunge erläwe wursch. No müesch düe starik sin, un starik
+            isch m'r numme, wenn m'r ellein isch. Wer ständig by andere isch, isch wie die gross Mass, e
+            Schwächling! gross isch g’sin... doch arich wenni... het g’het.
+             <stage>(leiser)</stage>  Un jetzt Mame, rischt mir schnell Tropfe.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(lächelt)</stage>
+            <p>Ja, Jean.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Geht’s denn güet, noch so langer Zyt? Do wurd jo de Dokter lüeje, wenn er dis hört!
+             <stage>(Wischt Babe den Schweiss ab.)</stage>  Düe wursch sicher müed sin?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Schwäche... nix als Schwäche!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ich hab schun lang wölle han, dass de Babe wieder in ’s Bett geht, awer wohrschints isch er wäje
+            dir uffgebliewe, Jean.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Loss ne doch, Mamele.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Es isch awer schun züe viel für ’s erschte Mol.
+             <stage>(Geht links ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(holt einen Stuhl und setzt sich zu Babe)</stage>
+            <p>Ich hab mich e bissel uffg’halte, länger ass wie ich gedänkt hab.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Un ich bin froh... dass düe wieder kumme bisch... Ich hab schun gemeint düe kummsch nimmi... all
+            wie ich uff bin. Mame
+             <stage>(kommt von links)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(holt einen 50-Frankenschein aus der Tasche)</stage>
+            <p>Ich hab doch Geld verdient, Babe, Schun wieder 50 Franke.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Was, 50 Franke hesch düe schun wieder verdient?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Vun wem isch diss Geld, Jean?</p>
+          </sp>
+          <pb n="9"/>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich hab e Zeichnung füer de Herr Weiler gemacht. Er isch arich nät züe mir.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Vum Weiler sin die 50 Franke?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, Babe. Er het mir hyt wieder versproche, dass er mich in d' Fawrik nämmt, wenn ich ’s Diplom
+            hab.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Glaub düe doch hyt noch nit an so Sache, Jean... Er verzählt dir diss hyt... will er dich im
+            Moment brücht... un düe ihm billig schaffsch!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich glaub nit, dass de Herr Weiler so isch, wie düe immer saasch. Er isch e Ehremann!!</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>E Ehremann, e Ehremann!!!
+             <stage>(lacht — redet nun schnell, ohne Pause)</stage> . Jean, o düe Dummer! Er süecht by allem was er
+            macht, siner Vorteil. Er isch wie alli, e Lytschinder, wo numme sich kennt un füer die arme Schlukker
+            nix üwrie het. Jean, nimm dich in acht!!! Düe wursch späder mir nochemol Recht gänn, wenn düe ’s
+            Weilers besser kennsch.
+             <stage>(Hustet, hat Atemnot.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Düe reddsch immer so schlecht vun de riche Lyt, Babe.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <stage>(zuerst langsam und leise, dann immer lauter und schneller):</stage>
+            <p>Ich redd üss Erfahrung liewer Büe. Ich hab sie kenne lehre, nit numme einer, nein e paar, viel
+            sogar. Un im Grund genumme gliche sie sich alli wie Wassertropfe, numme heisse sie andersch.
+             <stage>(Lauter.)</stage>  Hab ich nit au mini Kräfte un G’sundheit in de Fawrik gelonn!! Wöeller Dank
+            hab ich hyt?... Diss kümmert de Geldsack nit, wenn e Arweiter wennjer do isch, denn Moral un e
+            Gewisse han sie nit, die Herre. Jeds Arweitsloch, wo emol freij isch, stopft m'r mit zwei andere
+            Arweitstier züe. Wie sich de Arweiter schind un uff was füer e elendi Art er sin Brot für sini
+            Familie verdient, diss wisse die Herre jo gar nit... An mim Platz sollsch düe emol in d' Fawrik. De
+            Weiler het no e Heldetat gemacht, denn dodurich losst er no dini Mame nit verhung’re. D’ ganz Welt
+            müess die Wohltat erfahre, drumm redd er dir hyt schun devun... Schämme soll er sich... Jean, mach’s
+            nit, nimm däne Platz nit aan. Fang liewer emol füer dich aan. Düe bisch
+            <pb n="10"/>ellein viel meh wert, ass wie 100, ja sogar 1000 anderi, wo Gnad un Barmherzigkeit im
+            Weiler vun de Hand abschlecke müehn. Was mache die alli emol, wenn er am e scheene Daa sini Hand
+            zeruckzejt?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Düe reddsch züe viel, Babe, diss isch nit güet füer dich.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Loss numme, Mame, ich mües diss doch alles emol unserem Jean saawe, un wer weiss, ob’s nit bal ze
+            spot wär?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Redd nit eso, Babe.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(langsam und leise)</stage>
+            <p>Doch, doch Jean! Werum solle mir uns anlüeje? Ich weiss ganz genau wie’s mit mir steht.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein Babe, nein Babe! Düe sollsch jo noch lang by uns bliewe.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Au düe, Jean... kannsch emol de Tod nit bezwinge, wenn er züe dir kummt,... denn er isch stäriker
+            wie d' Lyt. Mame
+             <stage>(weint und geht auf die Seite)</stage> .</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(sieht Mame weinen)</stage>
+            <p>Nit hiele, Mame,
+             <stage>(langsam)</stage>  mir sin jo alli drej noch so glücklich bynand... Jean
+             <stage>(geht zu Mame und tröstet sie)</stage> .</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(fortfahrend)</stage>
+            <p>...doch wenn emol d' Stund an mich kummt.... no... no machts au nix, denn ich bin gerüescht, füer
+            die gross Reis ze mache.
+             <stage>(Kleine Pause.)</stage>
+            </p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(schaut die beiden an)</stage>
+            <p>Kumme doch do häre züe mir.
+             <stage>(Winkt.)</stage>  Jean
+             <stage>(führt Mame zu Babe)</stage> .</p>
+          </sp>
+          <stage>Mame (setzt sich neben Babe)</stage>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>So ja, un düe, Jean, kum uff d' ander Syt. Jean
+             <stage>(kniet sich auf die andere Seite neben Babe)</stage> . .</p>
+          </sp>
+          <stage>Mame (weint immer noch)</stage>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Werum denn grine, Mame? Werum denn, saa? Will mir emol vunand müehn? Ja sin denn mir nit glücklich
+            g’sin in unserem Läwe? Mir drej!!!
+             <stage>(Betrachtet beide.)</stage>
+              <pb n="11"/>Doch, doch, ich seh’s an eujre G’sichter aan... Was hätte mir drej noch meh könnte han
+            uff dere Welt als glücklich sin?... Ich weiss nit!! ... Halt! d' Ehr noch, ja. Un au die han mir
+            g’het. Alles andere geht numme ums Geld un immer wieder ums Geld.
+             <stage>(Kleine Pause.)</stage>
+            </p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe</speaker>
+            <p>
+              <stage>(legt eine Hand auf die Hände von Mame, die andere Hand auf die Schulter von Jean:</stage>  min
+            liewer Büe!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, Babe.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(zwingt sich, ruhig zu sein)</stage>
+            <p>Wenn ich emol nimmi by euch zwei kann sin, Jean... no... no Jean... denk immer do an dini Mame...
+            sorig düe füer sie... gäll, min Jean... Ich vertröj dir sie aan... ich hab sie arich gern... so lieb
+            wie ich dich hab, Jean... denk immer an diss... Jean, gäll, denk immer... immer dran.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(fest)</stage>
+            <p>Babe, so lang wie d' Mame lebt, blie ich by ihre un sie by mir.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Nein, nein, versprich diss nit, Jean. Düe kannsch nit immer by ihre sin.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Werum denn nit?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Nein, diss kannsch düe nit, denn düe hyrotsch doch sicher au.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>No kann sie doch by mir bliewe, gäll, Mamele.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Ich verlang numme, dass düe immer füer dini Mame sorigsch, meh nit.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Wenn ich emol e güeter Platz hab, no isch au füer d' Mame g’sorigt.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Diss hab ich grad saawe wölle. Awer no kummt au ebs anderschs, Jean. Düe kummsch no in ’e Milieu,
+            wo uns bis hyt fremd isch g’sin, wo mir uns nit ganz wohl füehle wäre. Düe viellicht schun iinder,
+            awer do dini Mame nit. Awer gäll, Jean, düe schämsch dich nie wäje dinere Mame. Lüej, diss däht mir
+            weh mache.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Babe, nie wur ich mich wäje minere Mame schäme!</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Baeb :</speaker>
+            <p>No... no kumme sicher emol füer dich bösi Stunde; Stunde, wo m'r dich sicher füehle losst, wär
+            dini Eldere sin; Stunde, wo düe kämpfe müesch un doch grossi Enttäuschunge erläwe wursch. No müesch
+            düe starik sin, un starik isch m'r numme, wenn m'r ellein isch. Wer ständig by andere isch, isch wie
+            die gross Mass, e Schwächling!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(wischt Babe den Schweiss ab)</stage>
+            <p>Awer düe bisch jo noch lang by uns, Babe, düe kannsch mich noch viel lehre.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Lang nimmi, Jean, ’s Herz, ’s Herz. Ich g’spiers immer meh.
+             <stage>(Sieht Mame weinen.)</stage>  Ich loss dir jo de Jean, Mame, dir ganz allein!.</p>
+          </sp>
+          <stage>Mame (steht auf und geht weg)</stage>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(schaut Mame nach, dann)</stage>
+            <p>Noch eb’s, Jean, Wenn düe emol Arweiter unter dir hesch, blie immer gerecht. Steh füer sie iin,
+            wenn ne Unrecht gemacht wurd... zeij no, dass düe e Arweitersohn bisch...</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(nimmt eine Hand vun Babe in seine Hände)</stage>
+            <p>Wenn ich so e Hand seh, so voller Schwüele un so hart, wur ich, nie vergesse un immer dran denke,
+            dass so verschafti Händ miner Babe het g’het. Voller Stolz wur ich mich üwerall als Arweitersohn ze
+            erkenne gän un immer füer d' Arweiter iinstehn.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Babe, düe sottsch jetz in ’s Bett. Düe bisch schun zü lang uf.</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Ich müess noch im Jean ebs saawe, eb ich in ’s Bett geh.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(wischt Babe den Schweiss ab)</stage>
+            <p>Was denn, Babe?</p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Nimmi viel isch’s, miner letscht Wunsch un Rot.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Was denn?
+             <stage>(Wischt nun öfters den Schweiss ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe :</speaker>
+            <stage>(langsam, Wort für Wort)</stage>
+            <p>Wenn düe emol hyrode witt... hyrod no e Maidel... wo... züe dir basst. Wenn’s au arm isch!! Arm...
+            ehrlich... un brav. So sin mir zwei... dini Mame un ich g’sin... Düe wursch sicher glücklicher... as
+            wenn düe... uff’s Geld... lüejsch. Glücklich!!!
+             <stage>(Lacht.)</stage>  Was heisst glücklich... ’s Läwe isch jo so kurz... so kurz
+             <stage>(richtet sich noch auf, laut)</stage>  Wenn m'r vor’m Tod steht... no seht m'r iin, dass m'r vum
+            Glück... wenn’s noch so
+            <pb n="13"/>gross isch g’sin... doch arich wenni... het g’het.
+             <stage>(leiser)</stage>  Un jetzt Mame, rischt mir schnell Tropfe.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ich gib dir sie, wie düe im Bett bisch.
+             <stage>(Hilft Babe aufstehen.)</stage>
+            </p>
+          </sp>
+          <sp who="#siner_babe">
+            <speaker>Babe:</speaker>
+            <p>Langsam
+             <stage>(steht auf)</stage> . Es isch mir jetzt... so güet... so güet!!!</p>
+          </sp>
+          <stage>Jean (hilft Babe auf der anderen Seite).</stage>
+          <p>
+            <stage>(Alle drei drehen sich dem Bette zu und gehen einen Schritt. Babe fällt ihnen fast zwischen
+            den Armen durch. Mame und Jean bringen Babe mit grosser Mühe auf das Bett. Babe fällt gleich auf eine
+            Seite — ist tot.)</stage>
+          </p>
+          <stage>Mame (bemerkt dies nicht sofort, geht und bereitet die Tropfen).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(bei Babe)</stage>
+            <p>Babe, Babe!
+             <stage>(Will Babe aufrichten — lauter)</stage>  Babe, Babe!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Was isch denn?
+             <stage>(Kommt schnell an das Bett)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(ist mit seinem Kopfe am Kopfe von Babe)</stage>
+            <p>Babe, gib mir Antwort, hörsch düe mich den nit!! Babe, Babe!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>O Gott!!! Jean, was het denn de Babe??</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ba—be!! Ba—be!!
+             <stage>(Schaut Mame an und ruft laut)</stage>  Er... isch... jo tot!! Mame, Mame!!
+             <stage>(Umarmt Mame.)</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Jean, Jean!!
+             <stage>(Geht ans Bett und küsst Babe lange.)</stage>  Jean
+             <stage>(weint — macht dann Mame langsam vom Bette weg.)</stage>
+            </p>
+          </sp>
+          <stage>Der Vorhang fällt langsam.</stage>
+          <stage>Ende des Vorspiels.</stage>
+        </div>
+      </div>
+      <pb n="14"/>
+      <div type="act">
+        <head>Erschder Akt.</head>
+        <stage>Ein Fabrikbüro, Rechts ein grosses Fenster. In der Mitte des Büros (mit Aussicht auf das Fenster)
+        ein grosser Schreibtisch. Vor dem Schreibtisch 2 Lederfauteuils. Hinter dem Schreibtisch
+        <stage>(also an der linken Seitenwand)</stage> eine grosse Bibliothek
+        <stage>(Bücherschrank)</stage>. An der Hinterwand Zeichnungen und Photos von Maschinen. Vorn und hinten
+        links je eine Türe. Bei der Türe vorn ein Kleiderständer. An demselben hängen Hut und Mantel von
+        Jean.</stage>
+        <div type="scene">
+          <head>1. Szen.</head>
+          <stage>Jean un Fischer.</stage>
+          <stage>Jean (sitzt am Schreibtische und arbeitet).</stage>
+          <stage>Fischer (kommt von hinten links — holt eine Mappe mit Schriftstücken, welche auf dem
+          Schreibtische liegt — will gehen)</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Babe Fischer!</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Monsieur Pfister.
+             <stage>(Kommt wieder zurück.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Schicke Sie mir doch d' Mamsell Alice.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ja, Monsieur Pfister, sofort.
+             <stage>(Geht, bleibt wieder stehen, bedenkt sich und kommt zögernd wieder nach
+            vorn.)</stage>  Monsieur...</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Was soll sin, Babe Fischer?
+             <stage>(Schaut auf.)</stage>
+            </p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ich will’s Ihne schun de ganze Morje saawe...
+             <stage>(findet die richtigen Worte nicht)</stage> . Ich hab... ich will... ich müess Ihne noch merci
+            saawe füer miner Sohn...</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(steht auf)</stage>
+            <p>Allez, allez Babe Fischer!!!
+             <stage>(Geht zu Fischer)</stage> . Do isch gar kein Wort meh drüewer ze verliere. Ihne ze lieb hät
+            ich’s jo schun mache müehn. Ihr Sohn
+            <pb n="15"/>hät’s jo nit verdient, denn wenn m'r drej Kinder het, no sott m'r e bissel meh an sini
+            Familie denke, un sich nit mit so Sache abgänn.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Sini Kamrade sin schuld, Monsieur Pfister. Vor e paar Johr het er vun all dene Syndikatssache nix
+            wisse wölle un hyt saat er, dass e Verband vun de Arweiter so notwendig isch wie ’s Brot.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Do bin ich ganz mit iinverstande, dass d' Arweiter sich im e Syndikat zammeschliesse um uff e
+            vernüenftige Art un Wies ihr Los verbessere ze köenne. Diss Recht han d' Arweiter un sie finde in mir
+            immer e ufrichtiger Helfer un Frind. Was sich awer in de letschde Zyt die Führer erlaubt han, diss
+            isch zü viel! M’r het jo schun lang, gemerigt, dass ebs geplant isch g’sin. E Grund isch g’süecht
+            worre un die Lohnredüzierung isch ne im richtige Moment kumme, Ihr Sohn het offe in alle Ateliers
+            züem Streik uffg’fordert. Na, de Rescht wisse Sie jo. Sini Entlassung isch definitiv g’sin. D’
+            Direktion het numme nochgänn, will Sie schun üewer 40 Johr do sin. E Strof wurd er doch bekumme.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ich wär Ihne arich dankbar, Monsieur Pfister, wenn Sie emol mim Sohn d' Levite lese däte.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich hab schun do dran gedenkt un wills hyt au noch mache.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ich bin sicher, dass er andersch wurd, wenn Sie’s ihm saawe, denn uff mich hört er doch nimmi.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Babe Fischer, ich bin jo au dere Ansicht, dass er numme ’s Güete für d' Arweiter will. Awer was
+            nutzt ein Vernünftiger untere Mass vun e paar Hundert? Sini Meinung gilt nit, er müess immer mache
+            wie d' Mehrheit will. Un uff de ander Syt steht no de Patron, wo numme die Führer kennt un die immer
+            für alles verantwortlich macht. Awer werum het sich Ihre Sohn nie an mich gewend? Als Arweitersohn
+            isch’s für mich e heiligi Pflicht, au die Interesse vun de Arweiter zu verteidige. Mini Stellung wurd
+            mich niemols hindere, geje’s Unrecht,
+            <pb n="16"/>wo im e Arweiter gemacht wurd, iinzetrette, selbscht wenn dodurch mini eijene Interesse
+            zeruckstehn müesste.
+             <stage>(Kleine Pause.)</stage>
+            </p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Soll ich’s mim Sohn saawe, dass er zü Ihne kumme soll?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein, nein, ich loss ne durich de contre-maître rüefe.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Also nochemol vielmols merci, Monsieur Pfister, un au im Name vun sinere Frau un sine Kinder,</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(geht wieder an den Schreibtisch)</stage>
+            <p>Redde mir nimmi dervun, Babe Fischer. Schicke Sie mir glich d' Mamsell Alice.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ja, Monsieur Pfister.
+             <stage>(Hinten ab.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. Szen.</head>
+          <stage>Jean un Alice.</stage>
+          <stage>Jean (arbeitet weiter).</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(kommt von hinten)</stage>
+            <p>Bonjour Monsieur Pfister!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Bonjour Mamsell Alice. — Ein Moment.
+             <stage>(Geht seine Arbeit durch.)</stage>  So, diss sin no alli.
+             <stage>(Zu Alice.)</stage>  Wieviel Brief han Sie für die Vorführunge vun dere neuje Maschin
+            gerischt?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>40, Monsieur Pfister.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Güet. Do sin also die 20 Adresse für de erschte Daa. Sie könne zwei Kopie-e devun mache un gänn
+            mir eini devun. Die andere 20 Adresse gib ich Ihne morje, denn ich müess noch mit’m Herr Direkter
+            drüwer redde.
+             <stage>(Gibt Alice eine Liste.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(nimmt die Liste)</stage>
+            <p>Merci Monsieur Pfister.
+             <stage>(Bleibt stehen.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Han Sie sunscht noch ebs uff’m Herze, Mamsell Alice?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>E persönlichi Sach... Monsieur Pfister.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>E persönlichi Sach??</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja... ich möcht fröje, ob Sie hyt Midda viellicht Zyt hätte.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Jetz schun, wenn Sie wölle.
+            <pb n="17"/>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich will ne saawe, dass ich de nägschde Monet... nimmi kumm.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(erstaunt)</stage>
+            <p>Sie kündige?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja.
+             <stage>(Leiser.)</stage>  Ich müess kündige.
+             <stage>(Legt die Liste auf den Schreibtisch.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Sie müehn? Isch’s wäjenem Lohn?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein, nein!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Han Sie ebs ghet im G’schäft, im Bureau?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Han Sie e bessere Platz g’funde, g’fallt’s Ihne nimmi do?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(leiser, verschämt)</stage>
+            <p>Nein Monsieur Pfister.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja was isch’s denn no, was Sie furttriebt?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>
+              <stage>(zögert zuerst, dann weinend)</stage> : D’ Schand!
+             <stage>(lauter)</stage>  D’ Schand isch’s!!
+             <stage>(Weint.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(steht auf)</stage>
+            <p>Was saawe Sie?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, d' Schand isch’s,
+             <stage>(Schwankt, hält sich an einem Fauteuil.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(geht zu Alice)</stage>
+            <p>Mamsell Alice.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>’s isch nix, merci.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Setze Sie sich.
+             <stage>(Führt Alice zu einem Fauteuil.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(setzt sich, schaut Jean an, weint wieder)</stage>
+            <p>Ich hab’s Ihne gar nit saawe wölle.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich näm Ihri Kündigung numme aan, wenn ich weiss, was Sie no mache wölle.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Diss weiss ich noch nit.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Na also!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Awer ich kann doch nimmi kumme</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich verlang vun Ihne kein näheri Erklärung, Mamsell Alice, ich saa Ihne numme eins, üwerleije Sie
+            sich’s nochemol.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Uewerlaje? Nein, nein, hyt isch’s ze spot für ze üwerleije, ich hätt vorm’e Johr schun sotte furt
+            vun do gehn... awer er het mir immer zügeredd... un ich dumms Maidel hab uff ne g’hört un bin
+            gebliewe.
+             <stage>(Weint.)</stage>  Ich hab ne gern g’het... hyt noch!!
+             <stage>(Langsam.)</stage>  Wo ich g’spiert hab.
+            <pb n="18"/>dass es in mir läbt... un ich’s ihm g’saat hab... no isch er nimmi kumme.
+             <stage>(Kleine Pause.)</stage>
+              <stage>(Lauter.)</stage>  D’ Schand... d' Schand triebt mich vun do furt.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja wo wölle Sie denn ane?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich weiss noch nit.
+             <stage>(Steht auf.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un de Babe Fischer, weiss er’s schun?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein. Ich bitt Sie, saawe Sie ihm nix devun. Ich hab jo noch keinem Mensche ebs devun g’saat!...
+            Der güet arm Mann, was wurd er saawe, wenn er’s erfahrt?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Wär’s vielleicht nit besser, wenn er’s wisse dät?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich weiss nit, ich weiss nit. Ich will nur furt vun do, wit furt vun do.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un no, wenn Sie so ganz ellein sin, by fremde Lyt, ohne Heimet un ohne Geld?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Für die nägschde 3 Monet hab ich Geld, dass ich läwe kann.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja un nochhere?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Zäll weiss ich noch nit.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mamsell Alice, Sie könne de Kampf um ’s Läwe für zwei nit allein füehre, diss isch zü viel für
+            Sie. Lon Sie mich die Sach in d' Händ nämme, lon Sie mich für Sie sorje.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(lächelnd)</stage>
+            <p>Merci Monsieur Pfister, merci vielmols, awer ich glaub nit, dass noch ebs ze ändere isch an minere
+            Sach... Ich bin e arms Maidel, ohne Eldere. Fremdi Lyt han mir bis hyt g’holfe. Ich kann awer dene
+            ihri Hilf jetz nimmi in Anspruch nämme... Un wo kann ich min Recht verlange? Wo??? Ich kumm mir vor
+            wie e alts Kleid, wo m'r ewegwirft, will m’rs nimmi brüche kann...
+             <stage>(langsam)</stage>  Ich hab Mame un Babe sterwe sähn un hab gemeint ich kann’s nit üwerläwe... Es
+            isch erumgange...
+             <stage>(weinend)</stage>  Was mir noch Müet macht isch ellein der Gedanke... Mame... Mame... ze wäre,
+             <stage>(Schneller.)</stage>  Wie hab ich mich frühjer do druff als g’frait g’het... Mame...
+            <pb n="19"/>Mame!!! Ich!!!
+             <stage>(Sitzt verzweifelt in den Fauteuil, weint, dann langsam)</stage> : Mame — ich Mame. Ja, awer
+            wie!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich mein, der Betreffend müess doch sin Unrecht iinsähn.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(schüttelt mit dem Kopfe)</stage>
+            <p>Ich bin e arms Maidel un sini Eldere sin richi Lyt. Wo mir uns kenne han lehre, hab ich ihm diss e
+            paar Mol g’saat. Dert het er nix devun wisse wölle, awer hyt isch’s de Grund werum er mich nimmi
+            aanlüjt... Mir han uns gern g’het, Ich hab nie gedenkt, dass d' Lieb au so Weh mache kann.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un Sie glauwe, dass diss alles nimmi güet ze mache isch?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich hab kein Hoffnung meh.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich versprich Ihne mini Hilf.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein, mache Sie diss nit, denn Sie könnte Ihr Verspreche nimmi halte, wenn Sie die voll Wohrheit
+            wisse däte.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich nit?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein. Es isch dorum besser, wenn ich Ihne nit meh saa.
+             <stage>(Steht auf.)</stage>  Sie kenne jetzt de Grund werum ich vun dort furt will, lon Sie mich also
+            gehn... Lon Sie mich ellein kämpfe, ich müess au für mini Schuld büesse.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ihri Schuld isch sicher nit so gross, dass Sie so büesse solle. Sie sin zü jung für so e Kampf.
+            Bedenke Sie doch, zwei Läwe!! Un wenn eins debie... nein, ich will’s nit saawe. Sie müen do bliewe,
+            Sie derfe nit furt. Ich will glich mit'm Babe Fischer drüewer redde.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein, ich kann un derf ihri Hilf nit annämme.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un wenn ich Ihne awer hilf, au wenn ich die Wohrheit nit weiss, un sogar widdersch hilf, wenn ich
+            doch d' Wohrheit erfahre sott?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Sie sinn verlobt, Monsieur Pfister, denke Sie an ihri Fiancée.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mini Fiancée dät in dem Fall genau so mache, wie ich’s do jetz mache will.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich kann un will nit meh saawe.
+            <pb n="20"/>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Sie schlawe also mini Hilf ab?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, will ich...</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. Szen.</head>
+          <stage>D’ Vorige un Lilly.</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(kommt plötzlich von links vorn — hat es sehr eilig)</stage>
+            <p>Bonjour cheri!!
+             <stage>(bleibt lachend an der Türe stehen)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(ist im ersten Augenblicke etwas verlegen)</stage>
+            <p>Ah, bonjour.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(kommt nun schnell zu Jean — küsst ihn)</stage>
+            <p>Bonjour Jean!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Bonjour Lilly!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Bonjour Mademoiselle,
+             <stage>(Will gehen.)</stage>
+            </p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(kurz)</stage>
+            <p>Bonjour.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ein Moment, Mamsell Alice.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, Monsieur Pfister.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Han Sie die Lischt?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein, do lejt sie.
+             <stage>(Nimmt die Liste vom Schreibtische weg.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Also wie g'saat, mache Sie für mich e Kopie devum Un wäje Ihre Sach redde...</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jean, de Popaul un ich sin do mit'm Auto für dich abzehole. Düe müesch hyt by uns esse. Mir fahre
+            by dinere Maman durich. Ich denk sie wurd nix degeje han.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Hyt? Ich hab jo hyt üwer Midda schaffe wölle, Weisch was, kumme morje. Ich hab nämlich mit de
+            Mamsell Alice noch ebs ze redde, wo arich wichtig isch.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(zu Alice)</stage>
+            <p>Mamsell Alice, saawe Sie doch, dass die Sach nit so arich wichtig isch un dass m'r sie au noch
+            morje mache kann.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich kann do nix saawe... ich weiss nit.
+             <stage>(Schaut Jean. an.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein, Lilly, es müess sin. Die Sach isch arich wichtig.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Was isch’s denn, kann ich dir nit debie helfe?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein Liewi, denn düe verstehsch nix devun.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(zu Alice)</stage>
+            <p>Meine Sie au, dass ich so dumm bin?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(ruhig)</stage>
+            <p>Fröje Sie liewer nit, Mademoiselle.
+            <pb n="21"/>
+            </p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Diss wurd jo jetz uff einmol ganz geheimnisvoll od’r wölle ihr mich ütze?
+             <stage>(Lacht.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Hör Lilly, ich hab mir’s üwerleijt, ich geh doch mit euch. Awer zerscht müess ich noch e Sprung in
+            d' Ateliers.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Endlich e vernünftigi Idee. Blie awer nit züe lang od’r weisch was, ich geh grad mit dir.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Au güet.
+             <stage>(Zu Alice.)</stage>  Sie könne jo schnell do die Kopie-e mache, dass ich sie hab, eb ich furt
+            geh. Die, ander Sach regle mir so bal wie möjlich. Lilly, kumm jetz schnell.
+             <stage>(Geht mit Lilly hinten links ab.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. Szen.</head>
+          <stage>Alice.</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(schaut Jean und Lilly nach)</stage>
+            <p>Wie sie so glücklich isch!!!
+             <stage>(Nachdenklich — setzt sich an den Schreibtisch und beginnt mit der Arbeit. Sitzt so, dass sie
+            den Rücken gegen die Türe links vorn dreht.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>5. Szen.</head>
+          <stage>Alice un Paul.</stage>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(kommt von links vorn — reisst die Türe auf — kommt herein — die Türe fährt zu — sucht
+            Lilly):</stage>
+            <p>Lilly! !</p>
+          </sp>
+          <stage>Alice (erkennt Paul — steht auf und schaut erschrocken Paul an).</stage>
+          <stage>Paul (erschreckt auch, da er Alice hier nicht erwartete).</stage>
+          <stage>(Kleine Pause.)</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(schnell)</stage>
+            <p>Paul!!
+             <stage>(hält sich rasch die Hand auf den Mund, denn sie hat etwas gesagt, was nicht jeder wissen
+            soll)</stage> .</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(macht, wie wenn Alice ihm fremd wäre)</stage>
+            <p>Pardon, ich hab mini Schweschter g’süecht. Isch sie nit do?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein.
+             <stage>(Will zu Paul, kommt aber nicht von der Stelle.)</stage>  Paul!!</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(will von hier fort, denn die Situation ist ihm unangenehm)</stage>
+            <p>Sie isch sicher mit ihrem Fiancé in d' Ateliers.
+            <pb n="22"/>
+              <stage>(Geht gegen die Türe hinten.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(lauft Paul nach und hält ihn fest)</stage>
+            <p>Paul, nur ein Wort, numme eins. Ich bitt dich drumm. Paul
+             <stage>(dreht sich an der Türe um und schaut Alice an)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(bittend)</stage>
+            <p>Paul!</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(nach einer Weile)</stage>
+            <p>Was soll sin?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(kann fast nicht sprechen)</stage>
+            <p>Werum Paul, hesch düe dich nimmi sähn lonn? Werum kummsch düe nimmi?? Saa, werum?? Paul
+             <stage>(dreht sich auf die andere Seite, so dass Alice sein Gesicht nicht sehen kann)</stage> .</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(bittend)</stage>
+            <p>Paul... Paul!...
+             <stage>(Hält ihn mit beiden Händen vorn am Frack.)</stage>  Paul
+             <stage>(gibt keine Antwort)</stage> .</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Gib mir doch Antwort, Paul.</p>
+          </sp>
+          <stage>Paul (versucht sich frei zu machen).</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Saa mir doch ebs!</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ich kann jetz do nix redde. Ich müess züe minere Schweschder.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(hält Paul immer noch fest)</stage>
+            <p>Ja, wenn hesch düe denn Zyt? Saa.</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(will unbedingt fort)</stage>
+            <p>Ich müess jetz do niin.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Düe witt mir also üewerhaupt nie e Antwort gänn?
+             <stage>(Stellt sich vor die Türe.)</stage>  Ich will awer e Antwort vun dir, ich verlang eini, will ich
+            sie mit Recht verlange kann... Ich blie so lang do stehn, bis düe mir saasch, werum düe nimi kumme
+            bisch.</p>
+          </sp>
+          <stage>Paul (geht, da die Türe durch Alice versperrt ist, langsam zum Fenster rechts und schaut dort
+          hinaus. Zündet sich dann in aller Ruhe eine Zigarette an).</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(kommt nach einer Weile auch nach vorn)</stage>
+            <p>Nadierlich, e richer, junger Herr het’s niemols notwendig im’e arme Maidel Recheschaft ze gänn. So
+            witt isch’s also schun kumme mit uns zwei. D’ Vergangeheit soll mit eim Mol vergesse sin??? Alli dini
+            Verspreche sin wertlos, will düe mich immer aangelöje hesch!
+            <pb n="23"/>
+            </p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ich mein, do isch nit de Platz, für üwer so Sache ze redde.
+             <stage>(Schaut immer weiter zum Fenster hinaus.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich müess d’Gelejeheit üssnutze, wenn ich sie hab!</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Füer üewer ebs einig ze wäre isch’s jo nie ze spoot.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Einig wäre, einig wäre?? Ich versteh nit, was düe do saawe wit.</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(schaut Alice einige Augenblicke an)</stage>
+            <p>Ich mein verständige, die Angeläjeheit regle.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Regle? Regle??? Ich versteh, dass m'r e Geldg’schäft regliert, awer... od’r sottsch düe am End au
+            mit Geld... nein, nein... was saa ich do!! Paul, ich glaub nit, dass düe je emol so’e Gedanke hesch
+            g'het.
+             <stage>(Lauter.)</stage>  Düe weisch wär ich bin, düe kennsch mich... Ich hab mini Lieb un Ehr nie füer
+            Geld verkauft, ich will au d' Ehr, de Name von mim Kind nit füer Geld kaufe.</p>
+          </sp>
+          <stage>Paul (zündet eine neue Zigarette an und schaut zum Fenster hinaus).</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(hat sich beruhigt, geht nahe zu Paul, zärtlich)</stage>
+            <p>Paul, gäl düe denksch als au dran, das es emol unser Kind, din Kind isch? Lüej, es weis noch
+            niemes ebs vun unserem Gheimnis. Gäl düe bisch jetzt wieder güet züe mir, so wie vorhere. Es isch
+            doch alles so scheen g’sin!! Paul, weisch düe noch wie mir am’e Maisunndaa züem erschte Mol in de
+            Wald gange sin, wo düe mir züem erschte Mol no « Miesele » g’saat hesch un ich hab’s doch nit wöelle
+            han. Oh, wie bin ich dert so glücklich g’sin!! Un hyt, Paul, hyt!! Lüej ich bin jo mit allem
+            iinverstande. Ich verlang jo numme e ehrlicher Name füer min Kind, füer unser Kind. Dini Eldere wäre
+            uns sicher verzeje. Saa’s dinere Mame zerscht, sie versteht’s, denn sie het jo au Kinder!!</p>
+          </sp>
+          <stage>Paul (raucht und schaut weiter zum Fenster hinaus).</stage>
+          <p>
+            <stage>(Kleine Pause.)</stage>
+          </p>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich hab in dene Monet, wo düe furt bisch g'sin, viel mitgemacht. Awer ich hab immer an miner
+            Popaul gedänkt. Ganz ellein hab ich als die Wäj gemacht, wo mir als mitnander gange sin, un immer hab
+            ich gemeint,
+            <pb n="24"/>ich treff dich emol aan. Awer nie bisch düe kumme, hesch din « Miesele » immer ellein
+            gelonn... Düe bisch verreist g’sin mit dinere Mame üwer de Winter??</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ja, in Italie.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Es müess doch nät sin dort! Ich hab schun devun geläse, vun Venedig, Neapel un Rom. Sin ihr au in
+            Rom g’sin?</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ja.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Awer jetz gehsch nimmi furt, gäl Paul.
+             <stage>(Schmiegt sich an Paul.)</stage>
+            </p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(macht sich los)</stage>
+            <p>Wenn jemand käm.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Was wär debie? Mir han uns jo gern. Weisch düe noch, wie düe als g’saat hesch??... Mir sin doch
+            Mann un Frau.
+             <stage>(Lacht.)</stage>  Paul, saa mir doch wieder so wie früehjer « Miesele ». Numme einmol, dass ich
+            seh, dass wieder alles isch, so wie’s isch g’sin. Allez Paul, saa’s doch.</p>
+          </sp>
+          <stage>Paul (rührt sich nicht).</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Popaul! Min Liewer, saa mir’s doch einmol.</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ich kann nit un ich will nit.
+             <stage>(Geht schnell nach links.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Es soll also doch, alles ferti sin??</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(kalt, bestimmt)</stage>
+            <p>Ja, es soll alles ferti sin!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Diss isch awer doch gar nit möjlich, nit wohr. Paul, bedenk au, was düe mir gemacht hesch. Ich
+            steh ganz ellein do uff dere grosse Welt. Düe dätsch mich jo üss dem Stüeckele Heimet wo ich noch
+            g’het hab, furttriewe, denn ich kann doch so nit bym Babe Fischer bliewe, Paul, gäll es isch nit
+            wohr, was düe ewe g’saat hesch? Saa nein, nein. Saa’s, ich bitt dich drum.
+             <stage>(Kniet vor Paul.)</stage>  Paul, ich bitt dich. Düe kannsch doch nit eso sin. Nein, düe bisch
+            nit eso!! Paul, Paul! Gib mir doch Antwort!! Lilly
+             <stage>(kommt von hinten, bleibt verwundert stehen)</stage> .</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(verächtlich)</stage>
+            <p>Werum bettelsch düe denn eso um e bissel Lieb?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(weint, in grossem Schmerze)</stage>
+            <p>Es isch kein Bettle, nein... verstehn mich doch!!... Es isch will ich dich gern
+            <pb n="25"/>hab... Es isch, will jetz uff einmol alles ferti soll sin... no isch’s füer min Kind...
+            füer unser Kind. Paul, füer din Kind!! Allein füers Glück... vun unserem Kind!!
+             <stage>(weint)</stage> .</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>6. Szen.</head>
+          <stage>D’Vorige un Lilly.</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(kommt nach vorn — hat mit Interesse zugehört)</stage>
+            <p>Paul, was soll denn diss alles heisse?</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul :</speaker>
+            <stage>(erschreckt — geht gleich zu Lilly)</stage>
+            <p>Kumm Lilly, mir müen gehn, es isch Zyt
+             <stage>(will Lilly zur Türe drängen)</stage> .</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ich will wisse, was diss heisse soll.</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Es isch jo nix. Kumm mir gehn jetzt.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(zu Alice)</stage>
+            <p>Saawe Sie mir d’Wohrheit.</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ich saa dir’s no Lilly, kumm doch!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Nein, do will ich’s höre.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich hab ewe züe ihrem Brüeder g'saat, dass ich nit um e bissel Lieb bettel füer... nein, es isch
+            züe viel, ich kann nimmi!!
+             <stage>(weint)</stage> .</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Kumm doch, Lilly, ich geh
+             <stage>(will gehn)</stage> .</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(streng)</stage>
+            <p>Nein, düe bliesch do!!
+             <stage>(zu Alice)</stage> : Redde sie widdersch.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(mit grosser Müeh, langsam)</stage>
+            <p>Ich verlang... de ehrlich Name... füer min Kind.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Paul isch diss wohr...</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ich will dir jo alles saawe, numme nit do, d’heime.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(geht gegen die Türe, kommt wieder zurück — zu Alice)</stage>
+            <p>Sie kenne miner Brüeder durich’s G’schäft?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, Mademoiselle Weiler.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(zu Paul)</stage>
+            <p>Isch’s wohr, Paul?</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Werum witt düe denn diss alles wisse?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Diss wursch düe schun sähn!
+             <stage>(zu Alice)</stage> : Sie han doch gewüsst, dass er noch so jung isch un in wöllem Verhältnis er
+            züe ihne steht?... Sie hätte immer denke sölle, dass er de Fils vum Direkter isch un dass üss dere
+            Bekanntschaft niemols ebs wäre kann. Od’r was han sie sich eigentlich gedänkt?
+            <pb n="26"/>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich weiss nit.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Sie wisse nit? Güet, ich weiss es awer. Sie han sich awer in ihre Rechnung trumpiert.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Mademoiselle, Sie denke schlecht vun mir!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>S’isch schun güet. Ich weiss was ich vun dere G’schicht ze halte hab.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Mademoiselle...
+             <stage>(kann fast kein Worten sagen)</stage> : Ich... bitt... Sie.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>7. Szen.</head>
+          <stage>D’Vorige un Jean.</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(von hinten)</stage>
+            <p>So, un jetzt könne mir gehn, Lilly
+             <stage>(sieht Paul)</stage> : Ah do isch jo au de Paul!!
+             <stage>(schaut alle drei an)</stage> . Ja was han ihr denn?
+             <stage>(zu Lilly)</stage> : Lilly, was isch denn?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>S’isch güet, dass düe kumme bisch. Ich hab do grad ebs unangenehms erfahre. Do, dini Dactylo macht
+            im Paul Vorwürf. Ich denk, dass düe nix degeje wursch han, wenn ich ihri sofortig Entlassung bym Papa
+            verlange wur.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(erstaunt)</stage>
+            <p>D’Entlassung vun de Mamsell Alice?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ja, denn nachdem was ich do ewe g’hört hab, wurd’s beschte sin.
+             <stage>(Zu Alice)</stage> : Alles andere wurd no unsere Avocat mit ihne regle. Alice
+             <stage>(stosst einen Schrei aus, schwankt)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(hält schnell Alice und bringt sie in einen Fauteuil)</stage>
+            <p>Wasser!
+             <stage>(Lilly und Paul bleiben ruhig stehen.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(ist um Alice bekümmert)</stage>
+            <p>Hol doch eins Wasser! Paul
+             <stage>(will nach hinten)</stage> .</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Paul!! Komedie!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>So geh doch eins!
+             <stage>(geht an die Türe hinten — ruft)</stage> : Babe Fischer! Alice
+             <stage>(hat sich erholt, schaut alle an)</stage> . Paul
+             <stage>(dreht sich ab)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(wieder bei Alice)</stage>
+            <p>Geht’s besser?</p>
+          </sp>
+        </div>
+        <pb n="27"/>
+        <div type="scene">
+          <head>8. Szen.</head>
+          <stage>D’Vorige un Fischer.</stage>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(von hinten)</stage>
+            <p>Monsieur Pfister?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(eilt auf Fischer zu, fällt ihm um den Hals, küsst ihn)</stage>
+            <p>Babe! Babe! Babe!!
+             <stage>(weint und küsst Fischer immer wieder)</stage> .</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Was hesch denn, min Kind??</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Gehn Sie doch mit de Mamsell Alice uff ihr Bureau un bliewe sie by ihre bis ich kumm!
+             <stage>(macht die Türe hinten auf)</stage> . Fischer
+             <stage>(führt Alice ab)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>9. Szen.</head>
+          <stage>Paul, Lilly un Jean.</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ich denk es wurd Zyt, dass mir gehn
+             <stage>(schaut auf ihre Uhr)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un ich glaub, es wurd jetz uff e paar Minüde nit aankumme.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Mir müen awer doch heim züem Esse.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Düe hesch also noch dem, was do passiert isch, noch grosser Hunger?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Passiert??? Wohere un was weisch düe denn?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Düe hesch doch vorhin g’saat, düe witt by dim Babe d’Entlassung vun minere Dactylo verlange, weje
+            gewisse Sache, wo passiert sin?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ja un?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Düe kumsch ze spoot.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ze spoot, wieso?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Sie het schun by mir sälwer gekündigt... will... will... d’Schand sie üss dem Hüss do triebt!
+            Lilly hörsch, was ich saa, d’Schand triebt sie do nüss!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>So??</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja sie het gekündigt, het mir awer nit g’saat wer de Schuldig isch. Jetzt weiss ich’s awer. De
+            Sohn vum Direkter, dinner Brüeder, Lilly, isch’s, wo sie entehrt het!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(entrüstet)</stage>
+            <p>Jean!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(stellt sich vor Paul)</stage>
+            <p>Was witt düe jetzt mache, Paul? Od’r was wursch düe jetzt mache, wenn düe numme ein Funke Ehr in
+            dir hesch?
+             <stage>(Von hier ab, bis zum Schluss dieser Szene, sehr schnell.)</stage>
+            </p>
+          </sp>
+          <stage>Paul (schaut auf die Seite).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(laut)</stage>
+            <p>Gib mir Antwort! Ich redd nit mit dir als zükünftiger Schwöjer, ich redd mit dir als Frind, als
+            Kamrad, als Mann!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jean, was verlangsch düe denn do?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(zu Paul)</stage>
+            <p>Redd, Paul!! Paul
+             <stage>(gibt keine Antwort)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich fröj dich nochemol, Paul. Was witt düe mache?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Loss ne doch gehn, Jean!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Paul redd.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jean, ich bitt dich!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(hält nun Paul mit beiden Händen an den Schultern)</stage>
+            <p>Ich will vun dir e Antwort han!! Paul
+             <stage>(schaut Jean an)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(laut)</stage>
+            <p>Gib mir e Antwort!!</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ich weiss nit.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(schlägt Paul ins Gesicht)</stage>
+            <p>Feigling!!!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(empört)</stage>
+            <p>Jean, was machsch düe do!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(ruhig)</stage>
+            <p>Ich hab e arms, wehrloses Maidel verteidigt!!!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(geht an Jean vorbei)</stage>
+            <p>Paul, mir gehn.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein, noch nit!! Ich will wisse, was düe mache wit Lilly!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Nix! Sie soll sich an unsere Avocat wende.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Lilly!!! Het denn de Richtum, s’Geld, e jed’s Gefüehl füer anderi in dir erstickt?? Bedenk in
+            wöllem Zustand diss Maidel isch!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>So Maidle süche jo numme ’s Vergnüje. Eins het Chance, e anders nit. Werum het es de Paul grad
+            g’süecht? Es het jo gewisst wer er isch!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un er het au gewisst, dass es e arms Maidel isch, wo sich ehrlich durich s’Läwe schlaat. Ich
+            kenn’s zitter as
+            <pb n="29"/>es do uff'm Bureau isch. De Babe Fischer isch siner Pflejvater, denn Eldere het’s keini
+            meh. Wo es mir vorhin gekündigt het, het’s mir numme g’saat, werum es gehn will. De Name vum
+            Schuldige hab ich ewe erscht erfahre. Wo isch do numme e bissel Schlechtigkeit an dem Maidel? Wo?? Es
+            will jo nix erpresse!
+             <stage>(zeigt auf Paul)</stage> : Do isch d'r Schuldig! Der isch’s, wo ihn’s angelöje het un
+            Versprechunge gemacht het, wo er jetzt nimmi halte will.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(spöttig)</stage>
+            <p>Düe hetsch Armeadvokat sotte wäre! Uess dini ganze Redde hört m'r s’Milieu rüess, wo düe here
+            kummsch!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(erregt)</stage>
+            <p>Lilly, Lilly!!
+             <stage>(ruhiger)</stage> : Ich verzej dir, was düe grad g’saat hesch, denn düe bisch uffgerejt.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Düe wottsch also, dass de Paul... wie soll ich numme saawe...</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>...dass de Paul sin Unrecht güet macht...</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>
+              <stage>(fortfahrend)</stage> : ...sini Maîtresse hyrod?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Kein so Uessdrück, Lilly! Stell dich an dem Maidel siner Platz!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ich hab meh uff mini Ehr g'halte.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Düe witt saawe, ich hab dich meh reschpektiert as wie de Paul d’Mamsell Alice! Lilly
+             <stage>(gibt keine Antwort — sucht etwas in der Handtasche)</stage> . Jean
+             <stage>(betrachtet beide, schaut zuletzt Lilly an)</stage> . Lilly
+             <stage>(schaut Jean an)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Redd mit dine Eldere, Lilly!
+             <stage>(geht zu Paul)</stage> : Paul, düe bisch mir immer e güeter un liewer Kamrad g’sin, zeij dich
+            als Mann.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Werum witt düe denn de Paul züe’re Antwort zwinge? Loss ihm doch Zyt!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Wenn’s doch soll sin, werum kann er no nit glich « ja» saawe? Paul, ich fröj dich nochemol.</p>
+          </sp>
+          <sp who="#paul_weiler">
+            <speaker>Paul:</speaker>
+            <p>Ich hab’s noch nie gern g’het!
+             <stage>(geht schnellen Schrittes links vorn ab)</stage> . Lilly
+             <stage>(will Paul schnell nachgehen)</stage> .
+            <pb n="30"/>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Lilly, nein!
+             <stage>(steht Lilly in den Weg)</stage> : So sollsch düe jetzt nit vun do furt gehn. Es müess un es
+            wurd sicher au do noch e Lösung gänn!
+             <stage>(ruft laut)</stage> : Babe Fischer! Babe Fischer! !</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Was isch jetzt?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ein Moment, Lilly!
+             <stage>(ruft)</stage> : Babe Fischer! !</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(kommt hinten herein)</stage>
+            <p>Monsieur Pfister?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Hole Sie doch d’Mamsell Alice do here! Fischer
+             <stage>(hinten ab)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich bitt dich, noch ein Moment ze warte.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>10. Szen.</head>
+          <stage>Jean, Lilly, Alice un Fischer.</stage>
+          <stage>Fischer (kommt mit Alice hinten herein)</stage>
+          <stage>Alice (weint noch).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Kumme sie ganz do here, Mamsell Alice. Babe Fischer, ihr wisse um was es sich handelt?</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ja... ’s Alice het mir’s...
+             <stage>(kann nicht weiter reden, wendet sich ab und weint)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(steht nahe bei Lilly — leiser)</stage>
+            <p>Bedracht diss Kind!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(schaut Jean an und sagt dann)</stage>
+            <p>Düe hesch jo g’hört, was de Paul g’saat het.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Diss isch also no din letschde Wort?</p>
+          </sp>
+          <stage>Lilly (gibt keine Antwort).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Redd, Lilly!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ja, was soll ich denn noch saawe?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Gib mir Antwort uff mini Fröj. Isch diss din letschd Wort g’sin?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(überlegt — dann bestimmt)</stage>
+            <p>Ja... min letschde Wort!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Güet, no soll diss au min letschde Wort sin!
+             <stage>(geht an den Schreibtisch, legt die Sachen, welche auf demselben liegen, in eine Schublade,
+            schliesst ab und wirft die Schlüssel auf den Schreibtisch)</stage> : Babe Fischer, bringe sie
+            d’Mamsell Alice sofort heim züe minere Mame... Un sie, Mamsell Lilly, saawe sie ihrem Babbe, dass ich
+            noch hyt mini Kündigung by de Direktion inreich!!
+            <pb n="31"/>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein, Monsieur Pfister! !</p>
+          </sp>
+          <stage>Jean (geht an Lilly und Alice vorbei an den Kleiderständer. Nimmt dort seinen Mantel und geht
+          schnell links ab).</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jean! — Jean!</p>
+          </sp>
+          <stage>Die drei schauen verwundert Jean nach. — Indessen fällt der Vorhang.</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Zweiter Akt.</head>
+        <stage>Ein bürgerliches Wohnzimmer. Links ein Tisch und einige Stühle. In der Mitte ein Fauteuil. Rechts
+        davon ein Canapé. Dahinter ein kleiner Schreibtisch. Bilder an den Wänden. Blumentisch mit Blumen. Rechts
+        und links hinten je eine Seitentüre. In der Hinterwand eine Doppeltüre mit Vorhängen. Rechts beim
+        Schreibtisch ein Fenster.</stage>
+        <div type="scene">
+          <head>1. Szen.</head>
+          <stage>Alice un Mame.</stage>
+          <stage>Alice(sitzt im Fauteuil — ist sehr ermüdet. Auf ihrem Schosse liegt ein Buch, in welchem sie
+          mehrere Male zu lesen beginnt. Legt dann das Buch auf den Tisch und schaut nachdenklich vor sich — hört
+          Mama nicht kommen. — Kleidung wie im 1. Akt.)</stage>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <stage>(einfache, gediegene Kleidung. Kommt von links, bringt eine Tasse Milch):</stage>
+            <p>So, Mamsell Alice, do trinke sie die Tass Milich. Es isch doch noch e bissel lang bis züm
+            Nachtesse.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(ist erschrocken)</stage>
+            <p>Madam Pfister, nein, ich kann nit, es isch zü viel, was sie mache. Sie verwöhne mich jo ganz.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Verwöhne?
+             <stage>(lacht)</stage> . Ah jo, ich denk gar nit dran. Dis kleine Tässele müen sie noch trinke.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich kann diss awer nit aannehme, was sie alles mache.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(lachend)</stage>
+            <p>Trinke sie zerscht un reklamiere sie nochhere.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(nimmt die Tasse und trinkt)</stage>
+            <p>Merci, Madam Pfister!
+             <stage>(stellt dann die Tasse auf den Tisch)</stage> .
+            <pb n="33"/>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>So isch erecht. Bliewe sie numme so scheen rüehig do sitze, denn sie müen sich üssrüehje.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(steht auf)</stage>
+            <p>Uesrüehje? Nein, Madam Pfister. Ich bin jetzt jo schun zwei Dääj by ihne, Ich kann nimmi länger do
+            in dem Hüss bliewe, wo ich doch fremd bin.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja g’fallt’s ihne denn nit do by uns? Bliewe sie numme scheen do! Was meine sie, was miner Sohn
+            dät saawe, wenn sie däte gehn, eb die Affaire geregelt isch? Ich hab mich schun ganz an sie gewöhnt.
+            Es kummt mir vor, wie wenn sie vun jehere do by uns werde g’sin!
+             <stage>(macht Alice wieder sitzen.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Sie han awer durich mich numme Unangenehms.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Was sie do nit saawe, Mamsellele. Unangenehms han mir durich sie nit im geringschte, im
+            Gejeteil!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Awer ich hab doch gar...</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Nix ze awer! Miner Sohn un ich han uns in de Kopf g’setzt, sie do by uns ze b’halte, un no bliewe
+            sie einfach. Um de Recht han sie sich gar nit ze kümm’re, do sorigt miner Jean schun defüer.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>De Monsieur Pfister macht sich wäje mir züe viel Sorje.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Diss isch e Erbstückel vun sim Babe. Wenn er ebs anfangt, no soll’s au ferti wäre... Wer weiss, ob
+            nit ihri Sach uff die eind od’r and’r Art ganz schnell arrangiert wurd.
+             <stage>(Setzt sich zu Alice an den Tisch.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich hab noch nie kein Chance g’het in mim Läwe.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Sie han ihri Eldere frühj verlore, het mir miner Sohn g'saat.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(weint)</stage>
+            <p>Nit lang hab ich in mim Läwe Babe un Mame derfe saawe.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Arm’s Kind!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Mini Mame isch üss Kriz un Elend im Kriej g’storwe. Sie het als immer Angscht g’het wäje mir.
+            Fascht jede Daa het sie mir ihr bissele Esse gänn. Füer dass ich läb isch sie g’storwe!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Arm’s Kind!
+            <pb n="34"/>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(fortfahrend)</stage>
+            <p>De Babe... de Babe isch im Kriej drüsse g’sin un isch krank heime kumme. Er isch vum Gas vergift
+            g’sin... Glich im Johr druff isch er arich schwer krank worre. Am’e Daa, anfangs Jänner 1920, het er
+            no viel Blüt verlore. Er het no immer meh un meh Blüt gebroche. De Dokter het nimmi helfe könne. Am e
+            Fridda morje isch er no... verstickt... wil’s Blüt... nimmi ...de Hals eruff... könnt het
+             <stage>(weint)</stage> .</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Un sie sin no ellein, ganz ellein vun dem Daa ab g'sin?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja... ganz ellein, denn Verwandti hab ich keini.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja, ja, d'r Kriej isch kalt un herzlos!! Ich bin jo e alti Frau, wo nix vun de Politik versteht,
+            awer isch saa diss, wenn ’s Volik, d’Lyt un vor allem alli Frauwe in alle Länder g’schejt genüej
+            wärde, un immer an all diss Misère un Elend däte denke, wo e Kriej bringt, no gäb's kein Kriej meh.
+            Es kann e jeder sin Land gern han, ohne dass es dodurich e Kriej mit'm Nochbersland gibt. E Kriej
+            isch e Zeiche vun Dummheit un Borniertheit vum Volik, nit vun de Grosse, denn zälli sin jo doch nie
+            debie.
+             <stage>(Sieht, dass Alice immer noch weint.)</stage>  Sie müen nit alsfurt grine!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich denk an mini Mame... an de Babe!! Oh hätte sie mich doch nit ellein gelonn. Diss alles wär
+            sicher nit vorkumme... Was wurd noch üss mir wäre?!
+             <stage>(steht auf, geht einige Schritte und wirft sich dann auf’s Canapé)</stage> .</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Mamsel Alice!
+             <stage>(geht und setzt sich neben Alice auf’s Canapé)</stage> . Mamsel Alice... Kind!!
+             <stage>(nimmt Alice in ihre Arme)</stage> . So, ja, hiele sie sich jetzt üss.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(nach einer Weile, mit verweinter Stimme)</stage>
+            <p>Madam Pfister!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja, was soll denn sin, min Kind?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(kniet nun vor Mame)</stage>
+            <p>Madam Pfister!... Glauwe sie, dass ich e schlecht’s Maidel bin??</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Nein, nein, niemols!
+            <pb n="35"/>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(freudig)</stage>
+            <p>Merci, merci vielmols, Madam Pfister! !
+             <stage>(küsst Mame die Hände)</stage> .</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(macht ihre Hände weg)</stage>
+            <p>Nein, nein, diss will ich nit.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Awer sie mache mich doch so glücklich un froh! Ein Mensch; wo mir noch glaubt un dezüe noch e
+            Mame!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Lon sie mich doch ganz ihri Mame sin!
+             <stage>(schaut Alice an)</stage> : Wölle sie??... Ihri Auwe saawe ja. Güet, es soll sin. Awer jetzt
+            müen sie mir ebs verspreche!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Was denn?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Sie solle nie meh vum Furtgehn redde, verspreche sie diss?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, awer...</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Kein «awer»! Sie bliewe do bis alles erum isch; üwerhaupt so lang wie’s ihne do g’fallt. Miner
+            Sohn un ich sin uns schun drüwer einig. Sie han numme «ja» ze saawe.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Diss Glück wär züe gross für mich.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Sie solle «ja» saawe!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Madam Pfister!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Saawe sie doch «ja»! Jean
+             <stage>(kommt von rechts, bleibt stehen und schaut lächelnd auf beide, geht wieder hinaus, wenn Mame
+            Alice geküsst hat.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(verlegen)</stage>
+            <p>Ja, awer zerscht vielmols merci!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Alice, min Kind!
+             <stage>(küsst Alice auf beide Wangen)</stage> ,</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Merci, merci, merci!!!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. Szen.</head>
+          <stage>D’Vorige un Jean.</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(kommt rechts herein und sagt gleich)</stage>
+            <p>Bonjour!
+             <stage>Alice (steht auf und geht auf die andere Seite)</stage> .</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Was bringsch düe uns, Jean?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(setzt sich auf den Fauteuil)</stage>
+            <p>Nit arich viel. De Berger Henri hab ich nit aangetroffe. Er isch in Lyon un kummt erscht hyt Owe
+            wieder heim. Ich denk, dass mir
+            <pb n="36"/>mitnander einig wäre. Er het mir jo au schun de Vorschlaa gemacht, dass mir zwei
+            mitnander schaffe.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, no wölle sie nimmi in d’Fawrik?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Werum denn? Sie derfe doch nit grad so ihri Stellung uffgänn!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Jetzt isch de Moment do, wo ich mich selbständig mache kann. Wenn ich mit’eme Frind schaff, no
+            isch’s grad wie wenn ich selbständig wär.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Un no s’Weiler’s?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich hab mini Kündigung schun gemacht un ich denk, dass sie aangenumme wurd.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, werum mache sie denn diss alles?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ei will’s eso güet un recht isch.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ich mein au, dass es eso besser wurd sin</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ah un noch ebs. Ich bin bym Babe Fischer d’heime durich un hab sinere Frau g'saat, dass er alli
+            ihri Sache do here bringe soll.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Mini Sache do here?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>So sin mir no au sicher, dass sie do bliewe.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Er wurd sicher bal kumme. An un vun alle, vum Jeanne, Berthe un Charles un de Mame soll ich ihne
+            viel Grüess üssrichte un sie warte alli uff Visit. Alice
+             <stage>(nachdenklich)</stage> .</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>An was denke sie?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>An was ich denk?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>An d’Familie Fischer. Ich hab grad dran gedenkt wie’s wär, wenn sie mich un ich sie nimmi dät
+            sähn.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Immer noch so schwarzi Gedanke! !</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Wie kam’r numme!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Wisse denn im Babe Fischer sini Kinder, werum ich jetz do bin?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich glaub nit, diss heisst, ich weiss nit. Uff alli Fäll will ich awer mit'm Babe Fischer do
+            drüwer redde.
+             <stage>(Es klingelt.)</stage>
+              <pb n="37"/>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ah, diss isch ganz sicher schun de Babe Fischer!
+             <stage>(geht rechts hinaus und kommt mit Fischer wieder)</stage> .</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. Szen.</head>
+          <stage>D’Vorige un Fischer.</stage>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <stage>(kommt von rechts mit einer Reisetasche und einigen kleineren Paketen):</stage>
+            <p>Bonjour bysamme!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(geht schnell auf Fischer zu und küsst ihn)</stage>
+            <p>Bonjour, Babe!</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Kumm Kind, ich will schnell die Sache anestelle.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(küsst ihn immer noch)</stage>
+            <p>Babe, Babe!</p>
+          </sp>
+          <stage>Jean (nimmt Fischer die Sachen ab).</stage>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Was hesch dü denn, Alicele?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich bin so froh, will düe kumme bisch!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Babe Fischer, kumme sie un sitze sie doch e bissel.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(setzt sich aufs Canapé)</stage>
+            <p>Merci! Alice
+             <stage>(setzt sich neben Fischer und küsst ihn immer wieder)</stage> : Babe, Babe!!</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ja, min Kind!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Was mache d’Mame un alli d’heime?</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Alli güet. D’Lyt üss’m Hüss han au schun noch dir g’fröjt, ich hab’ne g’saat, düe bisch by
+            Bekannte.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Sie han erecht g’het.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Un im G’schäft?</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Gescht isch’s gar nit uffg’falle. Numme hyt, wo die vun de Bolizeij do sin g’sin.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>D’Police? Was han sie gewöllt?</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>In alle Bureaux sin sie g’sin un an alle Plätz vun alle Employés han sie gelüejt. In alle Ecke un
+            Schüblade un Fach han sie g’sücht; alli Tisch un Käschte sin geruckt worre. Alice, an dim Platz,
+            unterem Kisse uff’m Stühl un unter de Schriebmachine han sie Papierschnitzel g’funde, wo sie
+            mitgenumme han.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>By mir am Platz?</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ja, sie han au noch dinere Adresse g’fröjt
+             <stage>(steht auf)</stage> .
+            <pb n="38"/>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>O Gott, o Gott! Isch’s denn noch nit ferti?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Stille, Mamsell Alice, diss isch sicher nit wäje ihne g'sin.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Doch, doch, sie wäre schun sähn! Mame
+             <stage>(setzt sich zu Alice, um sie zu trösten)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(zu Alice)</stage>
+            <p>Han sie schun einmol ebs unter’s Kisse vum Stühl od’r unter ihri Maschin geleijt?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Noch nie!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich kann mir schun denke, wo diss nüss will.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Jetzt awer noch ebs. Küm bin ich hyt Middaa d’heime g’sin, no isch au dort alles untersücht
+            worre.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un?</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Sie han e Brief vum Alice mitgenumme, wo sie in sinere Valise g’funde han.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Mini Brief?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Was sin diss für Brief?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Vun mine Frindinne un vum Paul.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Vum Paul?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Die ellein wäre sie g’süecht han. Ich weiss jetzt schun, was die Untersüchungen ze beditte han.
+            Alli Bewies solle uff d’Syt gemacht wäre. Diss mit dene Papierschnitzel im Bureau kummt vun de
+            nämlich Syt. Alles isch nix andersch’s wie e grossi Gemeinheit.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Denk doch nit glich eso!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mame, es isch so, wie ich saa, düe wursch schun sähn. Mir wäre jo bal meh erfahre. Na, sie solle
+            numme kumme!
+             <stage>(zu Alice)</stage> : Mamsell Alice, sie gehn uff alli Fäll in de nägschde Dääj nit do züe dere
+            Wohnung nüss. Wenn jemand kummt, no sin sie einfach krank. Gäll, Mame, düe losch d’Mamsell Alice nit
+            züem Hüss nüss. Wenn ebs ze mache isch, no bin ich do.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Blie doch stille, Jean, un redd nit immer so Sache! Kumme sie, Mamsell Alice, un rümme sie ihre
+            Sache in ihrem Zimmer inn!
+             <stage>(will einige Sachen von Alice tragen)</stage> .</p>
+          </sp>
+          <pb n="39"/>
+          <stage>Fischer (kommt Mame zuvor — nimmt die Reisetasche).</stage>
+          <stage>Mame (macht die Türe hinten in der Mitte auf).</stage>
+          <stage>Fischer (geht hinein).</stage>
+          <stage>Alice (folgt Fischer mit den übrigen Sachen).</stage>
+          <stage>Mame (macht die Türe wieder zu).</stage>
+        </div>
+        <div type="scene">
+          <head>4. Szen.</head>
+          <stage>Mame un Jean.</stage>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Jean!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, Mame.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Wie kannsch düe numme dem arme Maidel so Angscht mache?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mame, ich weiss, wo die Sach nüss soll. s’Weiler’s, uff alli Fäll awer de Paul, stecke hinter dene
+            Untersüchunge. Es isch besser, wenn ich glich ebs devun g’saat hab. Bedenk doch, in wöllem Züstand
+            d’Mamsell Alice isch!! Un wenn noch so unverhofft jemand vun de Police käm!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Dü hättsch awer e bissel vorsichtiger solle sin!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Grad will ich vorsichtig bin, hab ich glich devun geredd. Awer loss jetzt diss, ich hab ebs
+            andersch’s dir ze verzähle.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Noch ebs?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Kumm, mir setze uns dert ane!
+             <stage>(setzt sich auf’s Canapé)</stage> .</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(setzt sich zu Jean)</stage>
+            <p>Was weisch denn noch?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>E Wunsch, wo düe schun lang hesch g’het un ebs wo mir de Babe am Daa vun sim Dod noch geredd
+            het.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Was kann jetzt diss numme sin?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich hab de Irrtum vun minere Verlobung iing’sähn un im Lilly min Wort zeruckgänn
+             <stage>(steht auf)</stage> .</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Düe hesch d’Verlowung...</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>...uffgelöst, ja. Mame, es isch so besser. Die ganz vorletscht Nacht hab ich nit schloofe könne un
+            immer wieder hab ich an de Babe müen denke, wo er doch immer g’saat het, nim emol e Maidel, wo au zü
+            dir basst.
+            <pb n="40"/>Wo vorgescht die Sach im Bureau vorkumme isch, het mir s’Lilly g’saat, üss mine ganze
+            Redde hört m'r s’Milieu erüss, wo ich here stamm. E Antwort hab ich ihm keini gänn, awer ich hab
+            gedenkt, diss gilt vor allem dine Eldere, vor allem dir, Mame. Dort im Bureau het s’Lilly so richtig
+            siner Charakter gezeijt. Na, es isch jetzt Schluss mit allem. Hyt seh ich iin, dass d’Lieb ebs viel
+            Scheeners un Grössers isch, as was ich mir bis jetzt immer vorg’stellt hab</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja, wenn bisch düe denn dorte g’sin?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Gescht schun, ich hab awer noch nix saawe wölle.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ich versteh werum. Wisse denn s’Weiler’s genau B’scheid üwer die Sach?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nadierlich. Sie han’s jo müen erfahre un ich hab ne nochemol mini Meinung g’saat. Erscht, wo sie
+            immer un immer wieder vum Advokat geredd han, hab ich im Lilly min Wort wieder zeruckgänn. s’Lilly
+            het ghielt... ich bin awer no furt. Es isch m'r noochgeloffe un het g’saat, es will hyt unbedingt mit
+            mir redde. Ich bin awer nit ane gange. So Lyt üss besserem Milieu müess m'r zeije, dass m'r meh
+            Charakter het wie sie un besser weiss, was es heisst... Ehr han. Ich wurr dir au bal noch ebs
+            andersch saawe. Hyt geht’s noch nit, awer ich bin sicher, dass düe mir au Recht gibsch!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>5. Szen.</head>
+          <stage>D’Vorige un Fischer, speder Alice.</stage>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(kommt aus dem Zimmer hinten)</stage>
+            <p>So, jetzt isch schun alles ferti.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Awer jetzt müen sie au e Sprung mit mir in d’Küche, e Gläsel Win trinke un e Biss esse.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Abah, merci, Madam Pfister.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Kumme sie numme!
+             <stage>(nimmt die Tasse, welche auf dem Tische steht und geht links ab)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Allez, Babe Fischer, gehn sie numme, d’Mame het nit gern, wenn m'r ihre refüsiert.
+            <pb n="41"/>Jean
+             <stage>(will nun auch hinten ab, da kommt Alice aus dem Zimmer)</stage> .</p>
+          </sp>
+          <stage>Fischer (folgt Mame).</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(kommt aus dem Zimmer)</stage>
+            <p>Wo isch denn d'r Babe? Isch’r schun furt?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Er het üwer dem witte Wäj e bissel Durscht bekumme.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(lacht)</stage>
+            <p>Ah so!
+             <stage>(setzt sich auf den Fauteuil)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(kommt auch nach vorn, betrachtet Alice eine Weile)</stage>
+            <p>De Babe Fischer isch doch e güeter Mann. Jedem Mensche isch er glich sympatisch un alli Lyt saawe
+            ihm Babe. 's</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, ja, e Babe könnt mit sim eijene Kind net besser sin, wie er mit mir isch. Ich kann diss nie
+            vergesse. Wo er vorgescht d’Wohrheit erfahre het, no het er arisch g’hielt un sich sogar Vorwürf
+            gemacht. Alice, mach düe dir kein Sorje, het er awer glich g’saat. Lüej ich hab mini fünf Kinder un
+            dich gross gezöje, ich wurr au noch ebs für ’s Siewete mache könne.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>E goldigs Herz steckt in dem einfache Mann. D’r eind will vor Stolz un Richtum nix wisse un de
+            ander, e armer Schlucker, will noch sin Bissel teile. Diss darf awer nit sin. Nein, nein!! Mamsell
+            Alice, lon sie mich sorje!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(steht auf)</stage>
+            <p>Ich weiss nit, ob ich numme e Recht hab, ihne do druff e Antwort ze gänn. Sie han Partie für mich
+            aangenumme, un diss isch jo au alles, wo ich vun ihne hab verlange könne un derfe.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Redde sie nit devun, Mamsell Alice.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Doch, doch, Wenn m'r so wenni Mensche kennt, wo güet zü eim sin, no müess m’rs ne au saawe, wenn
+            sie’s nit wölle han. Jean
+             <stage>(geht an den Schreibtisch und sucht etwas)</stage> .</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Monsieur Pfister!</p>
+          </sp>
+          <stage>Jean (gibt keine Antwort).</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(geht ganz nahe zu Jean)</stage>
+            <p>Monsieur Pfister!
+            <pb n="42"/>
+            </p>
+          </sp>
+          <stage>Jean (dreht sich gegen Alice — schaut sie an).</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Derf ich ihne nit Merci saawe, für diss, was sie gemacht han?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein, Mamsell Alice, sie nit!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Doch, denn sunscht tröj ich kein Minüd meh länger do in dem Hüss ze bliewe. Sie han jo numme
+            Unangenehms weje mir. Sogar ihre Platz han sie uffgänn.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Weje mim Platz brüche sie sich kein Sorje ze mache. Miner Frind isch froh, wenn mir mitnander
+            schaffe. Un will ich sie uffgenumme hab? Ja, isch denn diss nit mini Pflicht g’sin, wo doch durich
+            mich alles so kumme isch? Ich hab allerdings au g’hofft g’het, dass ich s’Weiler’s zü-ere
+            Entscheidung zwinge kann. Bis jetzt han sie awer noch nit nochgänn.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Sin sie dort g’sin?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja! Ich hab mit’em alte Herr Weiler sälwer geredd.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Uewer mich?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja. Er weiss jetzt alles. Un wo er sich nit het entschliesse könne, au wo ich schun mini Demission
+            hab gänn g’het, no hab ich au...</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Was han sie noch?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>....d’Verlowung mit de Mamsell Lilly uffgelösst.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein, nein, diss solle sie nit mache!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Es isch schun so witt. Oder soll ich noch für e Person Achtung han, wo wäje ihrem Brüeder, wo doch
+            schwer im Fehler isch, diss veracht, was Recht un Pflicht isch?? Ich hab iing’sähn, dass zwische uns
+            zwei e tiefer Abgrund in de Meinunge isch un dass dodurich keins züem andere kumme kann.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Sie hätte diss doch nit jetzt schun sotte mache.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Sähn sie, ich bin froh, dass ich’s gemacht hab. Mini Mama het’s doch nie gern g’sähne.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Un diss alles wäje mir?? Werum denn, werum?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(führt Alice zum Fauteuil zurück und macht sie sitzen)</stage>
+            <p>Werum? werum fröje sie? Ei will’s by ihne doch de
+            <pb n="43"/>Wert isch, dass m'r so ebs macht!!
+             <stage>(holt einen Stuhl und setzt sich neben Alice)</stage> .</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Sie bereje sicher nochemol, was sie alles gemacht han.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Bereje?? Nein, niemols!! Im Gejeteil, ich berejs hyt schun, will ich nit iinder hell hab
+            g’sähne.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Wieso denn?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mamsell Alice, ich hätt schun lang ihne mini Hilf solle aanbiete. Es wäre viellicht no wenjer
+            Schwierigkeite g'sin. Awer es geht au jetzt noch. Ich bin jo wieder ganz frej!!!...
+             <stage>(steht neben Alice)</stage> : Mamsell Alice, ich bitt sie, höre sie, was ich ihne saa... Ich
+            hab mir’s güet, üwerlejt... Lon sie mich diss güet mache, was e anderer nit mache het wölle.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(steht auf)</stage>
+            <p>Monsieur Pfister... nein!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Werum denn nit?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Will ich diss... nit derf, nit kann.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich biet’s ihne aan.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein, nein!!... Hyt isch’s noch Mitleid, awer morje...!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich halt e Wort, wo ich gib.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ich bitt sie, redde mir nimi devun!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Sie brüche mir jo nit glich e Antwort ze gänn. Mir redde speder drüwer.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Nein, niemols meh!!</p>
+          </sp>
+          <stage>(Es klingelt.)</stage>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Es kummt jemand!
+             <stage>(geht gegen die Türe rechts)</stage> .</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ich mach uff!
+             <stage>(dreht sich an der Türe gegen Alice)</stage> : Mamsell Alice!! Alice
+             <stage>(schüttelt mit dem Kopfe — geht rechts an das Fenster)</stage> .</p>
+          </sp>
+          <stage>(Es klingelt.)</stage>
+          <stage>Jean (geht rechts ab und kommt dann mit Lilly wieder herein).</stage>
+        </div>
+        <pb n="44"/>
+        <div type="scene">
+          <head>6. Szen.</head>
+          <stage>D’Vorige un Lilly.</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(kommt herein — Strassenkostüm)</stage>
+            <p>Ich hab mit dir redde wölle.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(macht die Türe zu)</stage>
+            <p>Ja, was soll sin?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(hat Alice gesehen)</stage>
+            <p>Könnte mir nit ellein sin?</p>
+          </sp>
+          <stage>Alice (hat nun auch Lilly gesehen, will gehen).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Bliewe sie numme, Mamsell Alice!
+             <stage>(zu Lilly)</stage> : Ich mein, was mir mitnander ze redde han, derf doch jeder Mensch höre
+             <stage>(zeigt auf den Fauteuil)</stage> : Wenn düe sitze witt.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(setzt sich)</stage>
+            <p>Mir han hyt uff dich gewart, Jean!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(dreht beiden den Rücken, schaut zum Fenster hinaus).</stage>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(steht rechts vor dem Tische)</stage>
+            <p>Uff mich?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ja, denn düe bisch gescht so schnell furt.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Schnell? Uff was hab ich noch warte solle? Od’r handelt’s sich um die Sach vum Paul, het er sini
+            Meinung g’ändert?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Nein. Er het mir grad ewe noch, eb er mit sini Amis im Auto furtg’fahre isch, nochemol g’saat,
+            dass er d' Mamsell Alice noch nie gern het g’het.</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(hält sich am Fenster),atmet tief — — lehnt den Kopf ans Fenster).</stage>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Soo? Ja was soll ich denn no noch by euch? Od’r het m'r mir viellicht Uffklärunge wölle gänn üwer
+            die Untersüchunge vun de Police in de Bureaux un bym Babe Fischer d’heime?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(steht auf)</stage>
+            <p>Ich bin glich degeje g’sin, wo ich devun ebs g’hört hab.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Diss isch egal, ob düe defüer od’r degeje bisch. Dini Familie steckt dehinter, un diss saat mir
+            alles. Nit genüej, dass m'r e brav’s un unschuldig Maidel eso witt bringt, nein, m'r sücht ihm au
+            noch uff anderi Art Schwierigkeite. D’Mamsell Alice isch kein Dieb! Diner
+            <pb n="45"/>Brüeder isch’s, denn er het dem Maidel dort sini Ehr g’stohle!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jean, glaub mir’s, ich bin geje die Untersüchunge g’sin.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Tiens, wie kummt’s, dass düe jetzt andersch denksch?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Will ich iing’sähn hab, dass ich Unrecht gemacht hab.
+             <stage>(Geht zu Alice)</stage>  Mamsell Alice, könne sie mir verzeje ?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Ja, vun Herze!
+             <stage>(gibt Lilly die Hand)</stage> .</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Merci vielmols!
+             <stage>(zu Jean)</stage> : Wenn ich bis jetzt so g’handelt hab g’het, no isch’s wäjenem Paul gsin. Er
+            isch noch so jung !</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Brüeder un Alter spiele by dere Sach kein Roll. Numme ’s Recht.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ich will jo alles versüche. Ich versprich dir’s.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Was nutzt diss, wenn dü hyt andersch denksch un reddsch wie dini Familie?? Dini Eldere unterstütze
+            jo diner Brüeder, Ich hab kein Hoffnung meh. Es het üewerhaupt kein Wert meh, dass mir noch länger
+            üwer die Sach redde, so lang wie diner Brüeder nit anderer Meinung isch.</p>
+          </sp>
+          <stage>Lilly (will etwas sagen, kann aber nicht).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Hesch dü sunscht noch ebs gewöllt?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(weint)</stage>
+            <p>Jean!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Was soll sin?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Un... mir zwei?? Soll denn alles ferti sin?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(kurz)</stage>
+            <p>Ja.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Nein, Jean, nein!!! Diss isch nit möjlich. Dü hesch’s nit so gemeint.</p>
+          </sp>
+          <stage>Jean (dreht sich um).</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(geht zu Jean)</stage>
+            <p>Mir zwei han uns doch gern!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un wenn’s e Irrtum wär g’sin. Wenn mir uns diss ingebild hätte?
+             <stage>(Schaut Lilly an.)</stage>
+            </p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Nein, es isch kein Irrtum, denn ich hab nur dich ellein gern. Jean, Jean, gäll es isch nit so, wie
+            düe gsaat hesch. Ich hab dich so lieb! Ich hab dich so gern wie
+            <pb n="46"/>kein anderer Mensch!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Miner Entschluss isch un bliet, so wie ich gescht schun g’saat hab. Es gibt kein Aenderung meh. Dü
+            hesch jo vorgescht im Bureau sälwer g’saat, dass unseri Milieu nit zamme basse. Es gäb also au nie e
+            richtigs Verstehn, un dorum isch’s besser, mir mache Schluss!
+             <stage>(Will links ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jean!!!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Monsieur Pfister, lonn sie mich au e Wort saawe. Werum denn diss alles?? Wäje mir?? Diss hab ich
+            jo gar nit gewöllt... Es gibt Lyt uff dere Welt, wo nit für’s Glück gebore sin. Ich g'hör au dezü.
+            Wenn ich awer kein Glück hab, no solle defür anderi nit unglücklich sin.
+             <stage>(Geht zu Jean)</stage> : Monsieur Pfister, seje sie doch nit so hart!!
+             <stage>(Zu Lilly)</stage> : Un Sie, Mademoiselle, sie derfe de Müet nit verliere, es wurd schun wieder
+            andersch kumme.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Merci!!</p>
+          </sp>
+          <stage>Es klingelt.</stage>
+          <stage>Jean (geht rechts hinaus und kommt mit Inspecteur wieder).</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(zu Alice)</stage>
+            <p>Sie sin e Engel, Mamsel Alice!!</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice:</speaker>
+            <p>Werum soll ich sie hasse?</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>7. Szene.</head>
+          <stage>D’Vorige, Mame un Inspecteur.</stage>
+          <stage>Mame (kommt von links).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(kommt links herein)</stage>
+            <p>Kumme sie numme eriin.</p>
+          </sp>
+          <sp who="#e_inspecteur_vun_de_polizej">
+            <speaker>Inspecteur :</speaker>
+            <stage>(kommt nach Jean)</stage>
+            <p>Bonjour bysame. Ich bin vun de Police.
+             <stage>(Zeigt Karte.)</stage>  By ihne wohnt doch e Mamsell Alice Sandel?</p>
+          </sp>
+          <stage>Mame (geht zu Alice und hält sie).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, dort isch sie.
+             <stage>(Zeigt auf Alice.)</stage>
+            </p>
+          </sp>
+          <sp who="#e_inspecteur_vun_de_polizej">
+            <speaker>Inspecteur:</speaker>
+            <p>De Herr Kommissär het gern e Uesskunft vun inne g'het. Sie solle by ihm uff’m Bureau durichkumme.
+            <pb n="47"/>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Es handelt sich ganz sicher wäje dene Untersüchunge, wo in de Fawrik Weiler gemacht worre sin?</p>
+          </sp>
+          <sp who="#e_inspecteur_vun_de_polizej">
+            <speaker>Inspecteur:</speaker>
+            <p>Ich weiss nit.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Doch, doch. Also do will ich ihne saawe, dass die Mamsell Sandel nit kumme kann, sie isch krank.
+            Ich geh awer mit ihne zum Kommissär. Ich bin nämlich de direkt Chef vun dere Mamsell in de Fawrik
+            g'sin un kann ihne grad so güet Uesskunft gän, wie sie sälwer. Do isch iwrigens d’Mamsell Weiler, die
+            Doochder vom Directer, sie wurd ihne diss, was ich grad ewe g’saat hab, b’stätige könne. Wenn awer de
+            Kommissär trotzdem b’steht, sie ze verhöre, no müess er do häre kumme.</p>
+          </sp>
+          <sp who="#e_inspecteur_vun_de_polizej">
+            <speaker>Inspecteur:</speaker>
+            <p>Güet. Sie könne jo emol mit'm Herr Kommissär redde.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, ich geh glich mit ihne.
+             <stage>(Geht gegen die Tür rechts.)</stage>
+            </p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(zu Jean)</stage>
+            <p>Wenn kann ich mir dir redde, Jean?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(im Abgehen)</stage>
+            <p>Speder!!
+             <stage>(Rechts ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#e_inspecteur_vun_de_polizej">
+            <speaker>Inspecteur:</speaker>
+            <p>Bonjour!
+             <stage>(Rechts ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jean, ich geh mir dir. Au revoir, Madam Pfister! Au revoir, Mamsell Alice, un Merci!!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>8. Szen.</head>
+          <stage>Alice, Mame, speder Fischer.</stage>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(führt Alice zum Fauteuil)</stage>
+            <p>Setze sie sich scheen do ane. Ich will im Babe Fischer rüefe. Er wurd noch so lang by ihne könne
+            bliewe bis miner Sohn wieder zeruckkummt.
+             <stage>(Geht hinten links ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(nach einer Weile)</stage>
+            <p>Un diss alles wäje mir?... Nein, nein.
+             <stage>(Steht uff)</stage> : Diss derf nit sin, nein, nein!!
+             <stage>(Sucht etwas: geht an den Schreibtisch... setzt sich langsam... legt den Kopf auf den Tisch...
+            sucht Schreibpapier... denkt nach und schreibt dann schnell einige Zeilen, eine Adresse, schliesst
+            den Brief)</stage> : ...So!...
+             <stage>(Betrachtet lange den Brief, steht dann auf)</stage> : Es isch so besser.
+             <stage>(Küsst den Brief und stellt ihn dann sichtbar auf den
+            <pb n="48"/>Schreibtisch; geht dann schnell in ihr Zimmer.)</stage>
+            </p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(von links)</stage>
+            <p>Alice! Ja wo isch’s denn? Ich’s viellicht doch mit uff d’Polizej?
+             <stage>(Geht wieder links ab.)</stage>
+            </p>
+          </sp>
+          <stage>Kleine Pause.</stage>
+          <stage>Alice (kommt aus dem Zimmer, hat Mantel und Hut auf, geht nach rechts).</stage>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(kommt von links, sieht Alice an der Türe)</stage>
+            <p>Wo wölle sie denn ane?</p>
+          </sp>
+          <sp who="#alice_sandel">
+            <speaker>Alice :</speaker>
+            <stage>(zeigt auf den Brief)</stage>
+            <p>Dort, Madam Pfister, läse sie, ich... adieu...
+             <stage>(Geht schnell rechts ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(ist nun auch wieder von links gekommen)</stage>
+            <p>Alice!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Schnell, Babe Fischer, sie will jo furt,
+             <stage>(Geht nach rechts.)</stage>  Draussen Gepolter, wie wenn jemand eine Treppe hinunterfällt.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>O Gott, o Gott!!! Sie fallt jo d’Stej nab, schnell, schnell! !</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(geht schnell rechts ab)</stage>
+            <p>Alice, Alice!!! Alice!!!</p>
+          </sp>
+          <stage>Indessen fällt schnell der Vorhang.</stage>
+        </div>
+      </div>
+      <pb n="49"/>
+      <div type="act">
+        <head>Dritter Akt.</head>
+        <stage>Bühne wie im 2. Akt.</stage>
+        <div type="scene">
+          <head>1. Szen.</head>
+          <stage>Mame, speder Fischer.</stage>
+          <stage>Die Bühne ist einige Augenblicke leer.</stage>
+          <stage>Mame (kommt von links; sieht ermüdet aus; hat 2 Kerzen in der Hand, steckt dieselben auf 2
+          Leuchter, welche schon auf dem Tische stehen; zündet die Kerzen an; geht langsam mit den Leuchtern in
+          das Zimmer von Alice) Die Bühne ist einige Augenblicke leer.</stage>
+          <stage>Mame (kommt aus dem Zimmer zurück).</stage>
+          <stage>Fischer (kommt nach Mame aus dem Zimmer; sehr ermüdet; nicht gekämmt; alle Handlungen sehr
+          langsam; überlegt sich, bevor er spricht).</stage>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Sie müen jetzt heime gehn.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ja... Madam Pfister.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Sie gehn am beschte no au glich uff’s Bureau un breweniere dort glich.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ja... Madam Pfister.
+             <stage>(Holt seinen Hut, welcher auf dem Schreibtisch liegt.)</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Sie kumme awer im Lauf vom Morje wieder.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(geht langsam zur Türe rechts, bleibt stehen)</stage>
+            <p>Ich schick au d’Mame here.
+             <stage>(Weint.)</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja, un wenn sie miner Sohn antreffe, no saawe sie numme zü ihm, er soll doch glich heime
+            kumme.</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer:</speaker>
+            <p>Ja... Madam Fischer.
+             <stage>(Rechts ab.)</stage>
+              <pb n="50"/>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(schaut Fischer nach)</stage>
+            <p>Armer Babe Fischer!! Was wäre sini Lyt saawe, wenn er ihne die Noochricht bringt!
+             <stage>(Geht nach vorn)</stage> : Un erscht de Jean-Jean!?! Wie soll ich’s im numme saawe?... Wo hab
+            ich denn jetzt dene Brief ane?
+             <stage>(Sucht auf dem Schreibtisch, Tisch; findet den Brief in der Schürzentasche; setzt sich auf den
+            Fauteuil und liest)</stage> : ...Ich werde allein kämpfen!... Arms Maidel!! Dü hesch... viel Müet
+            g’het. Es isch jo noch so jung, im e Alter wo m'r lacht un hielt un weiss nit werum!!
+             <stage>(Steckt den Brief in die Schürzentasche)</stage> : ...... Alles gemahnt mich jetzt wie e Traum,
+            wie e Traum vun e bissel Lieb un vun e bissel Glück !!... De Traum isch ferti un alles isch erum...
+            Es het alles üwerstande un het Rüehj un Friede.
+             <stage>(Schaut sinnend vor sich)</stage> : Es isch doch manichmol sonderbar, wie unsere Herrgott alles
+            iinricht...</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. Szen.</head>
+          <stage>Mame un Jean.</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <stage>(reisst die Türe rechts schnell auf und bleibt lachend stehen)</stage>
+            <p>Bonjour Mame!!
+             <stage>(Eilt zu Mame, kniet zu ihr und küsst sie)</stage> : Mame! Mamele!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Jean, min liewer Büe!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Gäll, dü hesch Angscht um diner Büe g'het un hesch do die ganz Nacht uff ne gewart? Weisch, es
+            isch arisch spoot worre, un no het de Henri nit wölle han, dass ich noch heime geh. Ich hab müen by
+            ihm bliewe. Awer jetzt bin ich wieder do, dü bisch doch nit bös, gäll Mamele?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Nein, min Liewer, ich hab mir gedenkt, dass dü bym Henri wursch sin.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, werum hesch dü no d' ganz Nacht do gewart?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ei, dü weisch jo... dass ich nit schloofe kann, wenn dü nit d’heime bisch!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Oh dü liewi, güeti Mame!! Awer jetzt e Nouvelle! ! De Henri un ich sin Associés!! Was saasch dü
+            dezüe?
+            <pb n="51"/>
+              <stage>(Steht auf)</stage> : Wo isch denn d’Mamsell Alice? Isch sie noch im Zimmer?
+             <stage>(Will gegen das Zimmer gehen.)</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Bschd!! Bschd!!
+             <stage>(macht Zeichen mit dem Finger.)</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Schlooft sie noch??.. Awer ich will’s ihre doch au saawe!! Un ich hab au an sie gedenkt. Mame, de
+            Henri weiss alles und mir nämme sie züe uns uff’s Bureau. Sie wurd no nimmi furt wölle, will sie
+            sunscht zür Lascht fallt. Awer saa, Mame, kummt sie bal?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Werum bisch dü denn so pressiert?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mame, Mame, ich bin doch so glücklich, so arich glücklich hyt!!
+             <stage>(Küsst Mame un will nicht mehr aufhören.)</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja, so halt doch wieder!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>D’ganz Welt wott ich hyt verschmutze!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Allez, allez, dü machsch jo so wild, grad wie e kleiner Büe!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Werum denn nit, Mame?? Ich bin doch so froh un ich will, dass ’s ganze Hüss hyt au froh isch. Au
+            dü, Mamele!
+             <stage>(Küsst Mame wieder.)</stage>  Hör, Mamele
+             <stage>(ins Ohr)</stage> : Geh dü schnell züe de Mamsell Alice un saa ihre, sie soll glich
+            erüsskumme.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Dü wursch noch warte könne. Kum, setz dich züe mir un verzehl mir doch schnell, wie alles gescht
+            gange isch.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, awer ich will au glich de Mamsell Alice rüfe.
+             <stage>(Ist schon an der Türe und klopft)</stage> : Mamsell Alice! !</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Jean, nein, nit!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(kommt wieder zu Mame)</stage>
+            <p>Sie schlooft sicher noch.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Kumm, setz dich züe mir.</p>
+          </sp>
+          <stage>Jean (setzt sich zu Mame auf den Fauteuil).</stage>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>So, un jetzt verzehl mir, denn ich hab dir au ebs ze verzehle.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(schaut Mame an und lacht)</stage>
+            <p>Dü mir?? Gäll so wie früehjer, e G’schichtel?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Viellicht, min Grosser, min Liewer!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Also, hör jetzt, Mame. Gescht owe bin ich vun do furt
+            <pb n="52"/>zum Kommissär, diss heisst, ’s Lilly isch au mitgange. Es het mich alsfurt g’fröjt, wenn
+            es mit mir redde kann. Für Rüehj ze han, hab ich züm g’saat, speder wenn ich emol g’hierot bin.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Wenn dü g’hierot bisch?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>’s Lilly het mich gross angelüejt, het anfange hiele un isch furt.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>So gibt m'r awer au kein Antwort.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Im Moment hab ich lache müen, hab awer nochhere gedenkt, dass es nit recht isch g’sin. — Also ich
+            bin no züm Kommissär. Dort hab ich erfahre, dass die Papierschnitzel, wo am Platz vun de Mamsell
+            Alice g'funde sin worre, e Stück vun-ere B’schriewung vun-ere neje Maschin sin. Ich hab no glich
+            gsaat, dass die B’schriewung uff mini Veranlassung verrisse worre isch, will jo ’s Original ich hab
+            un will ich de Erfinder bin. Mini Erklärunge wäre in de Firma Weiler mitgeteilt, un was no isch,
+            weiss er noch nit.</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Un die Untersüchunge bym Babe Fischer?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Die het d’Police nit gemacht. Ich bin no an d’Gare für de Henri abzehole. Dort hab ich lang warte
+            müen, denn siner Zugg het fascht 2 Stund Verspätung g’het. Mir sin no züm Henri heim, han gesse un
+            üwer alles geredd. Es isch no fascht Drej worre. De Henri het wölle han, dass ich by ihm schloof, un
+            ich bin gebliewe. Schloofe hab ich jo zerscht nit könne, vor lütter Fraid un no will ich Angscht hab
+            g’het, ich verschloof. Ich hab no doch verschloofe. Züe Füess bin ich jetzt do here geloffe.
+             <stage>(Steht auf.)</stage>  Wo bliet numme d’Mamsell Alice so lang??</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Noch e klein bissel Geduld, min liewer Jean! Kumm, setz dich noch emol un hör, was ich dir ze
+            verzehle hab.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, was hesch dü mir denn ze verzehle?
+             <stage>(Holt einen Stuhl.)</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Vun gescht owe.
+            <pb n="53"/>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(setzt sich neben Mame)</stage>
+            <p>Vun gescht owe?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja... Wo dü vun do furt bisch, bin ich zum Babe Fischer in d’Küche, für ihm ze saawe, dass
+            d’Police do isch g’sin. Wo mir mitnander do häre kumme, isch’s Alice dort züe de Tür nüss, angezöje
+            füer furt ze gehn.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Füer furt ze gehn?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja. Un üwerem Nüssgehn hat’s g’saat, dort isch e Brief, Madam Pfister, un het uff e Brief gezeijt,
+            wo uff’m Schriebtisch g’stande isch.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>E Brief? Ja, isch denn d’Mamsell Alice furt?
+             <stage>(Steht auf.)</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ich hab au gedenkt, dass sie furt will und bin nooch an d’Tür. Wo ich ane kumm, hör ich e Schrei
+            wie wenn jemand d’Stej nabfallt.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Isch’s d'Mamsell Alice g’sin, wo d’Stej nabg’falle isch?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(langsamer)</stage>
+            <p>Ja, de Babe Fischer het’s eruffgetrawe un in’s Bett geleijt. Es isch ohnmächtig g’sin. Mir han no
+            e Dokter g’holt, un der het g’saat...</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Was denn, Mame?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Es müess sofort operiert wäre.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Operiert? Mame, werum denn?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Es het müen sin, es het sich um sin Läwe g’handelt.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Ja, un?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(noch langsamer)</stage>
+            <p>D’Operation isch güet erumgange...</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Gott sej Dank!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>...awer!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Was denn, Mame?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>’s Kind isch... dod g’sin!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Dod??</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Arm’s Alice!!... armi Mame!!
+             <stage>Kleine Pause.</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Noch-ere Stund isch’s Alice wieder züe sich kumme. ...Verwundert het es uns aangelüejt, denn es
+            het jo von
+            <pb n="54"/>nix gewüesst... Es isch arich schwach g’sin... het awer trotzdem gelächelt. De Dokter
+            het gemeint, es wär güet, wenn mir e Pfarrer hole däte. De Babbe Fischer isch no furt un het einer
+            g'holt. E Stund nochdem de Pfarrer furt isch g’sin, isch’s no wieder besser worre. Es isch froh g’sin
+            un het gelacht. De Babe Fischer het uff eini Syt un ich uff d’ander Syt vum Bett müen sitze... So sin
+            mir lang g’sesse, jed’s e Hand vum Alice in sinere.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Geht’s jetzt besser, Mame?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Es het no verzählt mit'm Babe Fischer, biss uff einmol...</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Was, Mame?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>...het’s sini Händ üss unsere gerisse un isch im Bett uff. Es het sich no ganz an mich gedruckt un
+            het gerüefe: «Madam Pfister, sie wölle mich hole, awer ich will jo nimi furt.» Ich hab’s getröscht.
+            Awer immer het’s wieder anfange ze rüefe, alles möjliche durichenander.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Im Fiewer?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja. In alle Lyt het’s gerüefe, un vun alle het’s verzehlt. Speder isch’s no wieder rüehischer
+            worre und het g’hielt, un uns zwei immer wieder verschmutzt. Dir soll ich füer alles Merci doch
+            saawe.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un no, un no, Mame?</p>
+          </sp>
+          <stage>Mame (gibt keine Antwort, weint).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mame, Mame, un no???</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(weint weiter)</stage>
+            <p>...Jean, Büe!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mame !!!
+             <stage>(Lauft schnell an das Zimmer von Alice, reisst die Türe auf und geht in das
+            Zimmer.)</stage>
+            </p>
+          </sp>
+          <stage>Pause.</stage>
+          <stage>Mame (ist aufgestanden)</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean</speaker>
+            <p>
+              <stage>(kommt aus dem Zimmer... in grösstem Schmerz)</stage> . Mame!! Mame!!
+             <stage>(Geht langsam bis zu Mame, fällt ihr um den Hals)</stage> : Es isch jo... au... g’storwe!!!</p>
+          </sp>
+          <pb n="55"/>
+          <stage>Mame (geht mit Jean zum Fauteuil, setzt sich).</stage>
+          <stage>Jean (kniet neben Mame, legt seinen Kopf auf ihren Schoss).</stage>
+          <stage>Pause.</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(weint)</stage>
+            <p>Mame!!!... ’s Alice... isch dod!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ja, min Liewer.</p>
+          </sp>
+          <stage>Kleine Pause.</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Un ich hab’s doch so gern g’hett!!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Ich au, ich au, Jean!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(schaut Mame an)</stage>
+            <p>Werum het’s denn schun sterwe müen, werum Mame, werum?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>’s isch besser für ihn’s,</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Besser??... Besser isch’s, Mame??
+             <stage>Kleine Pause.</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(langsam)</stage>
+            <p>Es het e scheener Dod g’het, Jean. Es het uns immer zügelächelt un Merci g’saat für alles. Dir
+            Merci, im Babe Fischer Merci un mir. Es het mich noch viel verschmutzt un g’fröjt, ob es mir Mame
+            saawe derf, will’s doch keine meh het... Wo’s schun lang dod isch g’sin, hab ich als noch gemeint,
+            ich hör Merci saawe. Ich hab’s gar nit könne glauwe, dass de Dod so schnell kumme isch, bis ich e
+            kalti Hand in minere g’spiert hab.... De Babe Fischer het gar nimmi vum Bett eweg gewöllt un het
+            immer un immer wieder «Alice, min Kind!» gerüefe. Er het’s nit glauwe wölle, der arm Mann!!!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(schaut Mame an)</stage>
+            <p>Ja, het denn de Dokter nit helfe könne?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Nein, min Liewer. Er het gemacht, was er könnt het.</p>
+          </sp>
+          <stage>Kleine Pause.</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(geht in die Mitte des Zimmers)</stage>
+            <p>Es het müen sterwe, un de ander lauft erum un freit sich viellicht noch, dass er....</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Stille, Jean, es isch noch nix unbelohnt gebliewe!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(geht an das Zimmer, öffnet und schaut lange hinein;
+            <pb n="56"/>dreht sich dann gegen Mame)</stage>
+            <p>Wie scheen ’s do lejt!... Es lacht, de letscht Grüess für alli, wo ihn’s noch sehn!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(kommt zu Jean)</stage>
+            <p>Ja, de letscht Grüess un Merci!
+             <stage>(Schliesst die Türe, bleibt mit Jean davor stehen, beide schauen einander lange an.)</stage>
+              <stage>Pause.</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Mamele!</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>Jean-Jean, min Liewer!</p>
+          </sp>
+          <stage>Es klingelt.</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Wer isch diss?</p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame:</speaker>
+            <p>De Babe Fischer wurd’s sin. Wart ich lüej.
+             <stage>(Geht rechts ab, kommt mit Lilly wieder herein.)</stage>  Jean
+             <stage>(bleibt so an der Türe stehen, dass er der Türe rechts den Rücken kehrt)</stage> .</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. Szen.</head>
+          <stage>D’ Vorige un Lilly.</stage>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(von rechts)</stage>
+            <p>Kumme Sie numme eriin.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <stage>(anderes Kleid — hat ein grosses Bouquet weisse Blumen im Arm)</stage>
+            <p>Sie wundere sich sicher, will ich schun so früej ze Ihne kumm.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(dreht sich um)</stage>
+            <p>Düe bisch’s?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Bonjour Jean!
+             <stage>(Geht auf Jean zu.)</stage>  Ich denk düe bisch mir nit böes, will ich kumme bin.
+             <stage>(Weint.)</stage>  Im Paul isch gescht e Unglück passiert, er isch im Auto schwer
+            verunglückt...</p>
+          </sp>
+          <stage>Mame un Jean (schauen einander an)</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ich hab dir jo gescht g’saat, dass er mit Amis im Auto furtg’fahre isch... Uff’m Heimwej sin am
+            Auto zwei Reife mitnander geplatzt un de Wawe isch umgeworfe worre, Alli sin wie e Wunder mit’m
+            Schrecke devun kumme, numme de Paul... numme er het ebs g’het.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Schwer?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>D’ Bruscht het er iingedruckt... un ebs am Kopf... un
+            <pb n="57"/>au innerlich müess er ebs han... D’ ganz Nacht isch er geläje ohne züe sich ze kumme...
+            Vor-ere Stund het er züem erschte Mol d’ Auwe uffgemacht... un het glich ...noch’m Alice
+            verlangt.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Noch’m Alice?</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Ja, noch’m Alice... Ich bin no glich do here gange... für’s ze hole... Jean... meinsch es geht
+            mit? Redd düe mit ihm... es isch doch füer e Sterwender!... Es saat sicher nit nein!!! Gäll Jean,
+            redd düe mit ihm.</p>
+          </sp>
+          <stage>Jean (gibt keine Antwort)</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>...Ich hab glich Blüme mitgebrocht, wo es im Paul bringe kann. Düe saasch jo gar nix... Kann ich
+            mit ihm redde??</p>
+          </sp>
+          <stage>Mame (dreht sich um und weint).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein, Lilly. Nein!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(verwundert)</stage>
+            <p>Werum denn nit? Isch’s furt bym Babe Fischer?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Nein!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Wo isch’s denn? Jean, ich bitt dich, saa mir’s. Wer weiss ob’s nit bal ze spoot isch!</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>Es isch dort, wo Ihn’s niemes meh hole kann, dort, wo mir alli Rüehj un Fridde han füer immer.</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jean, ich bitt dich, saa mir doch d' Wohrheit.</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>D’ Wohrheit??
+             <stage>(Macht die Zimmertüre weit auf.)</stage>  Do kannsch düe d' Wohrheit sähn!! Lilly
+             <stage>(erschreckt — schaut in das Zimmer. Man sieht das Fussende eines Bettes. Davor steht ein
+            kleines weissgedecktes Tischehen mit Kreuz und zwei brennenden Kerzen. Im Bette liegt Alice;
+            Totenkleid)</stage> .</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Was isch do, Jean?</p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean:</speaker>
+            <p>’s Werik vun dim Brüeder!</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <stage>(geht langsam, Schritt für Schritt gegen das Zimmer — hat Alice gesehen — stosst einen Schrei
+            aus — lässt die Blumen fallen — geht mühsam in ’s Zimmer — fällt auf die Knie — weint und
+            ruft)</stage>
+            <p>Alice, Alice!!!</p>
+          </sp>
+          <stage>Jean(hat sich in den Fauteuil gesetzt, hält sich seinen Kopf
+          <pb n="58"/>mit beiden Händen)</stage>
+          <stage>Mame (geht zu Jean und tröstet ihn).</stage>
+          <stage>Lilly (steht auf, kommt aus dem Zimmer — nimmt die Blumen, welche auf dem Boden liegen und
+          streut sie dann auf das Bett von Alice — geht dann wieder langsam aus dem Zimmer).</stage>
+        </div>
+        <div type="scene">
+          <head>4. Szen.</head>
+          <stage>D’ Vorige un Fischer.</stage>
+          <stage>Fischer (kommt von rechts — hat Blumen im Arme — betrachtet die drei und will an ihnen vorbei
+          in’s Totenzimmer).</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Babe Fischer! Fischer
+             <stage>(dreht sich verwundert gegen Lilly um, ohne ein Wort zu sagen)</stage> .</p>
+          </sp>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly :</speaker>
+            <stage>(weinend, Wort für Wort)</stage>
+            <p>Babe... Fischer... könne... sie... im Paul verzeje?</p>
+          </sp>
+          <sp who="#dr_babe_fischer">
+            <speaker>Fischer :</speaker>
+            <stage>(langsam)</stage>
+            <p>Unser Herrgott soll un wurd ihm verzeje!
+             <stage>(Geht langsam in’s Totenzimmer.)</stage>
+            </p>
+          </sp>
+          <stage>Mame (schliesst hinter Fischer die Türe des Zimmers und geht wieder zu Jean).</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Was soll... ich jetzt... im Paul saawe?
+             <stage>Kleine Pause.</stage>
+            </p>
+          </sp>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(ohne Lilly anzusehen)</stage>
+            <p>Saa, dass ihm ’s Alice verzöje het... viellicht kann ihne diss tröschte!</p>
+          </sp>
+          <stage>Kleine Pause.</stage>
+          <sp who="#lilly_weiler">
+            <speaker>Lilly:</speaker>
+            <p>Jetzt müess... ich ellein... gehn.
+             <stage>(Geht langsam bis zur Türe rechts.)</stage>
+            </p>
+          </sp>
+          <stage>Jean (steht auf).</stage>
+          <stage>Lilly (dreht sich um und schaut beide an, will etwas sagen, geht dann langsam rechts
+          hinaus).</stage>
+          <stage>Jean (schaut Lilly nach).</stage>
+          <pb n="59"/>
+          <stage>Mame (hat die Türe rechts zugemacht, dreht sich gegen Jean).</stage>
+          <sp who="#jean_pfister">
+            <speaker>Jean :</speaker>
+            <stage>(ruft laut)</stage>
+            <p>Mamele!!!
+             <stage>(Läuft Mame entgegen.)</stage>
+            </p>
+          </sp>
+          <sp who="#sini_mame">
+            <speaker>Mame :</speaker>
+            <stage>(schliesst Jean in ihre Arme)</stage>
+            <p>Jean — Jean!!!</p>
+          </sp>
+          <stage>Unterdessen fällt der Vorhang.</stage>
+          <stage>Finis.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

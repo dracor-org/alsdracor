@@ -1,0 +1,3653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="als000026" xml:lang="gsw">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Heimlichi Lieb</title>
+        <title type="sub">Elsässisch's Volksstüeck in 7 Bilder</title>
+        <author>
+          <persName>
+            <forename>Ernst</forename>
+            <surname>Fuchs</surname>
+          </persName>
+          <idno type="wikidata">Q96464816</idno>
+        </author>
+        <respStmt>
+          <resp>OCR</resp>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <respStmt>
+          <resp>OCR correction</resp>
+          <name>Audrey Li-Thiao-Té</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding</resp>
+          <name>Hoda Chouaib</name>
+          <name>Pablo Ruiz</name>
+        </respStmt>
+        <editor>Pablo Ruiz</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <publisher>LiLPa – Université de Strasbourg</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC BY 2.0</ab>
+            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata">Q106605591</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Numistral</name>
+          <idno type="URL">https://www.numistral.fr/ark:/12148/bpt6k9109729r</idno>
+          <bibl type="originalSource">
+            <author>
+              <persName>Ernst Fuchs</persName>
+            </author>
+            <title type="main">Heimlichi Lieb</title>
+            <title type="sub">Elsässisch's Volksstüeck in 7 Bilder</title>
+            <publisher>Gundershoffen, Édition de théatre et de musique L. Jaggi-Reiss</publisher>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="_s_stawalders_vadder">
+            <persName>'s Stawalders Vadder</persName>
+          </person>
+          <person sex="MALE" xml:id="_s_stawalders_jean">
+            <persName>'s Stawalders Jean</persName>
+          </person>
+          <person sex="MALE" xml:id="basche">
+            <persName>Basche</persName>
+          </person>
+          <person sex="MALE" xml:id="katt">
+            <persName>Katt</persName>
+          </person>
+          <person sex="FEMALE" xml:id="mejel">
+            <persName>Mejel</persName>
+          </person>
+          <person sex="MALE" xml:id="_s_lipse_vadder">
+            <persName>'s Lipse Vadder</persName>
+          </person>
+          <person sex="MALE" xml:id="_s_lipse_mieder">
+            <persName>'s Lipse Mieder</persName>
+          </person>
+          <person sex="FEMALE" xml:id="_s_lipse_gredel">
+            <persName>'s Lipse Gredel</persName>
+          </person>
+          <person sex="FEMALE" xml:id="lissel">
+            <persName>Lissel</persName>
+          </person>
+          <person sex="FEMALE" xml:id="rosel">
+            <persName>Rosel</persName>
+          </person>
+          <person sex="FEMALE" xml:id="evel">
+            <persName>Evel</persName>
+          </person>
+          <person sex="FEMALE" xml:id="lenel">
+            <persName>Lenel</persName>
+          </person>
+          <person sex="MALE" xml:id="d_r_unkel_franz">
+            <persName>D'r Unkel Franz</persName>
+          </person>
+          <person sex="MALE" xml:id="fritzel">
+            <persName>Fritzel</persName>
+          </person>
+          <person sex="MALE" xml:id="d_r_bassgej">
+            <persName>D'r Bassgej</persName>
+          </person>
+          <person sex="MALE" xml:id="d_r_fisselbloje">
+            <persName>D'r Fisselblöje</persName>
+          </person>
+          <person sex="MALE" xml:id="d_r_bangelschlacker">
+            <persName>D'r Bangelschlacker</persName>
+          </person>
+          <person sex="MALE" xml:id="_s_drumbohn">
+            <persName>'s Drumbohn</persName>
+          </person>
+          <person sex="MALE" xml:id="_grosbure_lanz">
+            <persName>'Grosbüre Lanz</persName>
+          </person>
+          <person sex="MALE" xml:id="mej">
+            <persName>Mej</persName>
+          </person>
+          <person sex="MALE" xml:id="xavier">
+            <persName>Xavier</persName>
+          </person>
+          <person sex="MALE" xml:id="_s_barribure_franz">
+            <persName>'s Barribüre Franz</persName>
+          </person>
+          <person sex="FEMALE" xml:id="sini_frau_lehn">
+            <persName>Sini Frau Lehn</persName>
+          </person>
+          <person sex="FEMALE" xml:id="de_growechrischtel">
+            <persName>De Growechrischtel</persName>
+          </person>
+          <person sex="FEMALE" xml:id="d__schiltze_von_bahle">
+            <persName>D' Schiltze von Bahle</persName>
+          </person>
+          <person sex="MALE" xml:id="de_schultz">
+            <persName>De Schultz</persName>
+          </person>
+          <person sex="MALE" xml:id="euphrosine">
+            <persName>Euphrosine</persName>
+          </person>
+          <person sex="MALE" xml:id="hochzittslaader">
+            <persName>Hochzittslaader</persName>
+          </person>
+          <person sex="MALE" xml:id="de_herr_notari">
+            <persName>De Herr Notari</persName>
+          </person>
+          <person sex="MALE" xml:id="e_bue">
+            <persName>E Büe</persName>
+          </person>
+          <person sex="MALE" xml:id="burslitt">
+            <persName>Bürslitt</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#_s_stawalders_vadder" passive="#_s_stawalders_jean"/>
+            <relation name="associated_with" active="#basche #katt" passive="#_s_stawalders_vadder"/>
+            <relation name="spouses" mutual="#_s_lipse_vadder #_s_lipse_mieder"/>
+            <relation name="parent_of" active="#_s_lipse_vadder #_s_lipse_mieder" passive="#_s_lipse_gredel"/>
+            <relation name="friends" mutual="#lissel #rosel #evel #lenel #_s_lipse_gredel"/>
+            <relation name="friends" mutual="#_s_stawalders_jean #fritzel"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2430899</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1914">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/als000026" passive="http://www.wikidata.org/entity/Q106605591"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <pb n="1"/>
+      <pb n="2"/>
+      <div type="front">
+        <p>Mine liewe Eltere
+        <lb/>gewidmet</p>
+      </div>
+      <pb n="3"/>
+      <pb n="4"/>
+      <castList>
+        <head>Persone</head>
+        <castItem corresp="#_s_stawalders_vadder">
+          <role><persName>'s Stawalders Vadder</persName></role>
+          <roleDesc/>
+        </castItem>
+        <castItem corresp="#_s_stawalders_jean">
+          <role><persName>'s Stawalders Jean</persName></role>,
+        <roleDesc>siner Sohn</roleDesc>
+        </castItem>
+        <castGroup>
+          <castItem corresp="#basche">
+            <role><persName>Basche</persName></role>
+          </castItem>
+          <castItem corresp="#katt">
+            <role><persName>Katt</persName></role>
+          </castItem>
+          <roleDesc>Gsind biem Stawalder</roleDesc>
+        </castGroup>
+        <castItem corresp="#mejel">
+          <role><persName>Mejel</persName></role>,
+        <roleDesc>'s Nochbers Maidel</roleDesc>.
+        </castItem>
+        <castItem corresp="#_s_lipse_vadder">
+          <role><persName>'s Lipse Vadder</persName></role>
+        </castItem>
+        <castItem corresp="#_s_lipse_mieder">
+          <role><persName>'s Lipse Mieder</persName></role>
+        </castItem>
+        <castItem corresp="#_s_lipse_gredel">
+          <role><persName>'s Lipse Gredel</persName></role>, <roleDesc>ihri Dochder</roleDesc>
+        </castItem>
+        <castGroup>
+          <castItem corresp="#lissel">
+            <role><persName>Lissel</persName></role>
+          </castItem>
+          <castItem corresp="#rosel">
+            <role><persName>Rosel</persName></role>
+          </castItem>
+          <castItem corresp="#evel">
+            <role><persName>Evel</persName></role>
+          </castItem>
+          <castItem corresp="#lenel">
+            <role><persName>Lenel</persName></role>
+          </castItem>
+          <roleDesc>Kamerädle vom Gredel</roleDesc>
+        </castGroup>
+        <castItem corresp="#d_r_unkel_franz">
+          <role><persName>D'r Unkel Franz</persName></role>
+        </castItem>
+        <castItem corresp="#fritzel">
+          <role><persName>Fritzel</persName></role>,
+        <roleDesc>Stüdiefriend vom Jean</roleDesc>.
+          </castItem>
+        <castGroup>
+          <castItem corresp="#d_r_bassgej">
+            <role><persName>D'r Bassgej</persName></role>
+          </castItem>
+          <castItem corresp="#d_r_fisselbloje">
+            <role><persName>D'r Fisselblöje</persName></role>
+          </castItem>
+          <castItem corresp="#d_r_bangelschlacker">
+            <role><persName>D'r Bangelschlacker</persName></role>
+          </castItem>
+          <castItem corresp="#_s_drumbohn">
+            <role><persName>'s Drumbohn</persName></role>
+          </castItem>
+          <roleDesc>Dorfmüsikante</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castItem corresp="#_grosbure_lanz">
+            <role><persName>'Grosbüre Lanz</persName></role>
+          </castItem>
+          <castItem corresp="#mej">
+            <role><persName>Mej</persName></role>
+          </castItem>
+          <castItem corresp="#xavier">
+            <role><persName>Xavier</persName></role>
+          </castItem>
+          <castItem corresp="#_s_barribure_franz">
+            <role><persName>'s Barribüre Franz</persName></role>
+          </castItem>
+          <castItem corresp="#sini_frau_lehn">
+            <role><persName>Sini Frau Lehn</persName></role>
+          </castItem>
+          <castItem corresp="#de_growechrischtel">
+            <role><persName>De Growechrischtel</persName></role>
+          </castItem>
+          <castItem corresp="#d__schiltze_von_bahle">
+            <role><persName>D' Schiltze von Bahle</persName></role>
+          </castItem>
+          <castItem corresp="#de_schultz">
+            <role><persName>De Schultz</persName></role>
+          </castItem>
+          <castItem corresp="#euphrosine">
+            <role><persName>Euphrosine</persName></role>
+          </castItem>
+          <roleDesc>Hochzittsgäscht</roleDesc>
+        </castGroup>
+        <castItem corresp="#hochzittslaader">
+          <role><persName>Hochzittslaader</persName></role>
+        </castItem>
+        <castItem corresp="#de_herr_notari">
+          <role><persName>De Herr Notari</persName></role>
+        </castItem>
+        <castItem corresp="#e_bue">
+          <role><persName>E Büe</persName></role>
+        </castItem>
+        <castItem corresp="#gsind_burslitt_kinder">
+          <role><persName>Gsind, Bürslitt, Kinder</persName></role>
+        </castItem>
+      </castList>
+      <set>
+        <head>Zitt:</head>
+        <p>Um 1860 im e Dorf im elsässische Ackerland, nod am Gebirri.</p>
+      </set>
+      <set>
+        <p>Rechts un links vom Public üss gsähne.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="5"/>
+      <div type="act">
+        <head>Erschtes Bild.</head>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <stage>Wenn de Rideau noch züe isch, ze höert mr doch schun de Krambohl uff em e Bürehoft am Owe vor
+          ere Hochzitt, par exemple: e Hund, wo wie wüedi bellt; Hüehner, wo gagere; e Küehj, wo dumpf brüelt un
+          e Haizel, wo gellt, wie’s grad abgstoche wurd. Wo de Rideau uffgeht, sieht mr e grossi Kiche im e riche
+          Bürehüss. Rächts vorne isch e Dhüer ins Hüss. Drhinter e grosser, üss rote Bachstan gemürter Herd. E
+          ganzi Portion Pfanne, Kaarer un Kunschthäfe stehn druff, wo ’s drine brozzelt un pfiest. In de
+          Hinderwand isch e breit’s drejdalich’s Fenschter. M’r sieht nüss uff d' Stross. Drnäwe steht breit un
+          b'häwig ’s Känschterle mit viele geblüemte Deller, Schüessle un Suppeschüessle. Au Zinn isch debie. An
+          de Hinderwand hänke kupferni Pfanne un Karer un e paar zinneni Leffelblech mit Löeffel un Suppelöeffel
+          <note place="bottom">Awer kenn Email oder Aluminium.</note>. Links geht e Dhüer in de Hoft. Vorne an
+          dere Dhüer isch e Schaft oder e geblüemter Trog. In de Mitte von de Scène steht e grosser, solider,
+          ungstrichener Kichedisch.
+          <pb n="6"/>Am Herd steht d' Katt, e aldi Magd im Schaffkleid un gröje Hoor. Sie macht als e Mol dr and
+          oder de ander Deckel uff un rüehrt e bissel. Allegelte lajt sie e Stüeckel Holz an un ’s rote Fier
+          züend noch üss em Herd erüss. E Magd rennt mit em-e Brett voll Köjelhupfe üss de Dhüer vun rechts üewer
+          d' Scène un stellt die Köjelhupfe uff de Trog oder de Schaft vorne links. Magd links ab. E Knächt kommt
+          mit ere grosse Daigschüessel voll Brootwüerscht vun rechts un stellt sie uffs Kenschterle. Knächt
+          rechts ab.</stage>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <stage>(jungs Büremaidel, ungfähr 20 Johr, d' brüne Zöpf wie e Kron um de Kopf gewickelt, streckt de
+            Kopf züre de Dhüer links erin)</stage>
+            <p>Bscht — bscht, — Katt, — bscht —</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(fahrt erum)</stage>
+            <p>Was isch schun widder? — Ah dü bisch’s — ’s Nochbers Mejel! — Kommsch nit ering?</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <stage>(kommt erin. Sie hett ebs underm Füerdi verstekkelt)</stage>
+            <p>Ich hab gedankt, ich will noch e Sprung erüewer.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>— — So, so.
+             <stage>(Paus.)</stage>
+            </p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Viel Aerwet — Katt.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>E Wünder, wann de Bür morn Hochzitt mocht.
+             <stage>(Paus.)</stage>
+            </p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Ja — vellicht brüche nr noch ebs.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Mir? — Nä, i wisst nit.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Oder — köennt i ebs halfe?</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Was dann?</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Jetz, — nit, — i hab halt gemänt</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>So, so, do hesch halt latz gemänt, Mejel.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Na, ze geh i halt wider.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Diss isch awer e schnalli Visit gewahn.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Alleh, adjeh Katt.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Adjeh Mejel.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <stage>(geht an d' Dhüer, bliet stehn, kommt schnell zeruck züe de Katt)</stage>
+            <p>Isch ar schun do, Katt??</p>
+          </sp>
+          <pb n="7"/>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <stage>(losst de Kochlöeffel ins Kar keje, nemmt ’s Mejel an de Achsle un kommt mit em evor)</stage>
+            <p>So, jetz gfall’sch mr, als erüss mit de Sproch un nit hinderm Hüetel gspielt. Halt’sch mich dann
+            for so dumm, Mejel? Nä, nä, diss kannsch de äm vezohle, wo d' Schüeh mit Widde binge dhüet.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL :</speaker>
+            <stage>(düs)</stage>
+            <p>Verrode mi nit — Katt.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Mänsch, ich hab’s nit schun lang gsahne, wie d' als rot worre bisch bis hinger d' Ohrlapple, wann
+            de als mit ünserm Jean geredd hesch. Lüej, Mejel, mir zwäj sin jo d’änziche, wo an de Jean danke un
+            uff ne warde dhüen. De Bür, siner Vadder, ar hett kenn Zitt, ar hieroot morn züem zwäite Mol. Dar
+            hett anderi Sorje. Awer mir: Ich, Mejel, ich hab dene Büe uffgezöje, wiel sini Müeder gstorwe isch,
+            küm isch ar uff de Walt gewahn. — — Un dü, — — hm — — dü, — — mach jetz kenn Gsicht wie e Küehj, wann
+            mr ere e Vejlott annehebbt, — — dü wart’sch halt uff ne, wie d’ne gare hesch.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Bscht — Katt — bscht, wann ’s eber hoert!
+             <stage>(Sie zejt e par roti Rose, wo sie underm Füerdi versteckelt hett ghett, vor.)</stage>  Do, — ’s
+            sin d' letschte, wo ich im Garde gfunde hab. Stelle sie im Jean in d' Stubb.
+             <stage>(Gitt d' Rose in de Katt.)</stage>  Awer nit vegasse, Katt, gall. — — Un jetz geh i wider. Adjeh
+            Katt. Un nit vegasse, Katt.
+             <stage>(Links ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(bedracht die Rose)</stage>
+            <p>Ass hett ganz eracht, ’s Mejel. Mr müess die Manner als e bissel mit de Nas druffdupfe, schunsch
+            merike se nix. — Vom Batte wurd de Hawere nit fatt, mr müess äui Mischt dron moche. Awer i will doch
+            die Rose glich nuff im Jean sin Stubb dräuje.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. SZENE.</head>
+          <stage>E MAGD (kommt von links mit em e Blotzständel un stellt’s vor ’s Kenschterle).</stage>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(züe de Magd)</stage>
+            <p>Do gib mr Achting am Hard. Ich müess so wie so noch ’s Bluet hole for d' Kuttelsupp.
+             <stage>(Ab noch rechts mit dene Rose.)</stage>
+              <pb n="8"/>
+            </p>
+          </sp>
+          <stage>BASCHE (alter Knecht in gröje Hoor, gröjem Mutze un schwarzer Zipfelskapp, kommt von links mit
+          Metzjermesser un Stahl. Er zejt 's Messer am Stahl ab. Am Blotzständel schleckt er e Finger voll Rahm,
+          nod inspiziert er d' Köjelhupfe un wo er an de Magd, wo am Herd hantiert, durich geht, pfetzt er sie in
+          de Speck, ass sie giekst. Nod will er links ab)</stage>
+          <stage>KATT (kommt mit ere grosse irdene Schüessel voll Bluet von links. Sie un de Basche renne
+          zamme)</stage>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Hepla —</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Hepla —</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Allez, allez, schick di, daöbs Kalwel. — Katt, jetz</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(rüehrt alsfurt mit eme Kochlöeffel im Bluet)</stage>
+            <p>Aei ze gib doch Achting, alter Schöijde. Wann dü emol im Drabb bisch, ze datsch de Hüss un Hoft
+            zammeranne. As isch nur güed, as de so wenni in de Drabb kommsch.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Awer hitt bin i de gaönze Daö gedrabbd.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Aei jo, e Wünder isch’s, e varitawels Wünder.
+             <stage>(Sie stellt d' Schüessel uff de Disch in de Mittle un rüehrt widdersch.)</stage>  Do Basche,
+            komm un rüehr e bissel. Awer immer noch de namlichte Sitt, schunsch gerinnt ’s Bluet un nod isch
+            Schatte mit de Kuddelsupp.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ass geht nit, i müess im Metzjeri ’s Masser bringe, ech habs grad aagezöje.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Wann ar uff dich halt warde miehn. Ar dhuet jo schun aaschwarte.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Mientswaje, ze rühre mr halt.
+             <stage>(Er rüehrt, ein Mol mit de rächte un ein Mol mit de linke Hand.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <stage>(hett sich d' Aerm im e Wasserschaff vom Bluet abgeputzt, am Herd noch em Esse gelüejt un de
+            Magd, wo jetz am Blotze isch, e Pfumpfer gänn, ass sie sich dummle soll. Sie nemmt ned im Basche de
+            Löeffel un rüehrt sälwer.)</stage>
+            <p>Nän, Basche, hatte mir diss gedankt, ass ünsere Harr noch e Mole e Fräuj ins Hüss bringe dhuet. Un
+            äui noch so e jungi.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Wäisch Kalt, e jungi Fräui im Bett isch äui kenn schlachti Sach. Un wann de Hünd alt isch, nod
+            lejt er erscht racht gare in de Sunn.
+            <pb n="9"/>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Dü hesch halt immer Holz for e Pfiffel. Awer jetz hesch de latze Finger vebunge. Säit als nit de
+            alt Wachter: « Aein jünges Wäib ischt altem Mann äin Poschtpferd züm Grabe ».</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Fitzekapores — Katt, — vierspannig, — vierspannig, wott ich do ins Grab.
+             <stage>(Haut ere e saftigi uff de Buckel.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Ja, ja, do bisch dü druff versasse wie e Katz uff e Söjmäuje.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(versuecht ’s Bluet üss dr Schüessel)</stage>
+            <p>Jetz köennt’sch ’s Gewüerz dran mache, Katt.
+             <stage>(Sie dhuet’s.)</stage>
+            </p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(versuecht noch emole)</stage>
+            <p>Was mänsch, noch e wenjele Majoran war nit von Schade.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Oh Basche, wann mr sich an dir hebbt, nod kejt mr äui de lange Waj uff de Bodde. Was, Majoran? Nix
+            ze Majoran, Pfaffer müess dran, Pfaffer, Pimant un Muschketnuss, ass d' Büre drinke köenne. E
+            Kuddelsupp, die müess äm ’s Halszapfel aaraschble un de Rache uffkratze ass mr äui ebs dran schitte
+            kann.
+             <stage>(Sie macht Gewüerz nin, versüecht.)</stage>  So, jetz isch grad eracht. Basche, diss gitt
+            Bluetwüerscht, nix ass Bluet, Spackmumpfle un Raöhm.
+             <stage>(Züe dr Magd wo blotzt.)</stage>  Zäj, Ursch, draö do die Schüessel im Metzjeri nüewer in d'
+            Büchkiche ass ar d' Bluetwüerscht ferdi macht.</p>
+          </sp>
+          <stage>MAGD (mit de Schüessel rächts ab, sie kommt noch ere Wiel wider zeruck un blotzt
+          widersch)</stage>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(setzt sich an de Disch)</stage>
+            <p>Jetz mües i e bissele verschnüfe. Diss sell mir hitt nix sin.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Wäisch noch, Katt, wü se do isch gewahn, d' Hochzitlere vom Bür, as Gredel! Fitzekapores, Katt,
+            isch diss e natt Mäide. Hett die e par Aeue im Kopf. Wann die äne so richti anlüejt mit ihre
+            Sundiäue, Katt, ich gläuib, do hatt sich unser Harr Chrischtüs salwer verhobasst. De Bür isch bie ere
+            gsasse un hett jeds Wort zeh Mol vebisse. Un zitter hare isch ar wie üss em Sankel un hett als
+            gedrangelt uff d' Hochzitt. Un nix isch em fürnahm un grossardi genüe.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Ar hett gsäit: Wann ’s Gredel äui mini zwäit Fräui isch, ze soll’s in nix zeruckstehn. D’ ganz
+            Friendschaft, d' gross un d' klän, isch inggelode worre.
+            <pb n="10"/>
+            </p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Was hett’s nurr alles koscht fors Ase:</p>
+            <p>2 Kalwle</p>
+            <p>4 Söj</p>
+            <p>25 Hüehner</p>
+            <p>8 Gans</p>
+            <p>43 Pfünd Juddespitzel, Hoch- und Uewerzwarichripp for d' Supp</p>
+            <p>7 Pfünd Marik ellän for d' Knöepfle</p>
+            <p>65 Köjelhupfe an de hündert Brieli.</p>
+            <p>Von dene viele Schambunge, dem Spack, dene Aeier, dene viele Sack Mahl und dem andere Dings will i
+            gar nix säuje.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Bedank Basche, ’s sin biem Ase morn 24 Litt in de Stubb un an de 50 drüsse in de Schier.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ech, wann ech de Mäischter ward, ech hatt halt d' Hochzitt bie « ihm » gemocht. Schun ellän wäje
+            de Ingköeschte.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Wäisch nit, ass ’s Stowolders noch von jehare hie Hochzitt ghalte haön un ass zitter Manschedanke
+            in kenere andere Kirich e Hochzitt vom e Stowolder isch ghalte worre ass in dare hie? Do wurd’s de
+            Bür doch jetz nit andersch mache! As wurd schun bal los gehn, dann e Dhäl von de Inggelodene, die wo
+            von witt hare sin, die komme schun hitt owe un bliewe do üewer Nacht. Die andere komme morn un nod
+            wurd drej Daj lang nix gemocht ass gasse un gedrunke.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ja, ja, do köenne sich die Büre wider Hangbichle oonfrasse.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Ich, for min Dhäl, bin doch froh, ass widerum e Biere ins Hüss kommt. Ass isch äui höechsti Zitt.
+            Ueweral müess mr hinge dran stehn un triewe, schunsch wachst öjch jo de Grüenspun under de Füess.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Jo, daöbs Kalwel, schick di, mir mach’sch kenn Müsbolle for Makimmi vor. Hab ich nit noch immer
+            g’schafft, was dr Zej gholte hett, un gasse, was gekocht isch gewahn. Nän, nän, Katt, dü brüch’sch
+            noch eber, wo dr züehöere dhuet, wann d' ’s Mül frisch gschliffe hesch. Wäisch, wie dr alt Wachter
+            ass saöt:
+            <lg>
+                <l>Dräi sind nicht müd zü machen:</l>
+                <l>Aein Büb im Spielen,</l>
+                <pb n="11"/>
+                <l>äin Pfarrer im Opfern</l>
+                <l>und äin Wäibsbild im Ratschen.</l>
+              </lg>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Zitter ass d' erscht Fräuj vom Bür doot isch — ass sin jetz im Kanzli zwanzig Johr gewahn — e
+            langi Zitt, — zitter bin ich do hine d’änzich Fräuj, wo noch em Rachte lueje dhuet. Un bin allewiel
+            d' hinger hare gewahn wie ebs böeses. Awer jetz hawi äui emole genüe. Jetz soll e anderi an mine
+            Platz.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ar isch halt schlacht gfalle gewahn mit sinere erschte Fräui, de Bür.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Schun krank, hett ar sie ghierot un in de Kindbett isch se gstorwe. E Fini isch’s gewahn, e
+            Siedebried. Wenni geredd un numme gsasse un gedrämd. Un doch isch de Bür so arig anere ghankt. An
+            ihre un am Büe, am Jean.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Meh ass am Hoft un am Bürewase. Isch dann diss äui e Art? E so e grosses, stolzes Wase; än Bue, un
+            schickt ne ning in d' Stodt, stüdiere. Ech, wann ech de Mäischter ward — — —</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Loss ne doch, Basche, ’s isch ganz eracht eso. Dr Jean hatt doch kenn güede Bür gann. Dar isch üss
+            em e framde Holz. Ar isch so e Bedankter un e Düser un basst nit züe uns. Schun von klän uff isch ar
+            e abartigs Kind gewahn. « Jean » hett mr em rüefe miehn, nit Schang oder Hans. Ar isch äui immer furt
+            gewahn in de Framde, küm e paar Daj im Johr isch ar häme komme üss de Schuel.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Katt, Katt, dar wurd ze gschied in dene viele Schuele. Dann die sin numme dezue do, for d' Litt
+            daöb ze moche. Wursch sahne, Katt, in dene Schuele lehrt de Jean nit emole a gradi Furich zu zackere
+            oder e Wäuje Mischt ze loode wie sich’s ghöert. Am And, do wurd ar noch so gschied, ass ar mit de
+            duechene Flint ums Eck schiese kann.
+             <stage>(Do höert mr drüsse e lütter Pfiff un de Schellekranz vom e Gfährt, wo ankommt.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Diss isch de Scharrebang mit em Hans. Jetz komme die schun un mir sin noch bis üewer de Kopf in de
+            Bluetwüerscht. Komm nüs, Basche, komm.
+             <stage>(Sie jäscht links ab.)</stage>
+            </p>
+            <pb n="12"/>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(bliet zerscht noch sitze)</stage>
+            <p>Ho, ho, daöbs Kalwel, wursch warde köenne, ’s gitt halt nix daöwers wie e alti Fräuj. Hett kenn
+            Zahn meh im Mül un will doch noch bisse.
+             <stage>(Zottelt langsam de Katt noch.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. SZENE.</head>
+          <stage>KATT (kommt zeruck mit Koefferle un Reistasch vom Jean. Hintenoch e Knecht mit em Kuffer uff de
+          Achsel. Sie gehn rechts ab).</stage>
+          <stage>JEAN un FRITZEL (komme hinte noch).</stage>
+          <stage>JEAN (ebene 20 Johr alt, halb bürisch, halb städtisch angezöje. Gross un schlank. Ganz heller,
+          wisser Teint. Schwarzi Hoor un grossi, gschwungeni schwarzi Auesbröje. Uffallend volli un roti Lippel,
+          düenns, schwarzes Schnitzerle).</stage>
+          <stage>FRITZEL (im nämliche Alter, blund).</stage>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Mr gehn grad durich d' Kiche, Fritzel, mr sin jo nit so difficil.</p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>Huh, schmeckts do gued.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(zuem Basche, wo an de Dhuer steht)</stage>
+            <p>Salut Basche, wie geht’s? Wo isch de Vadder?</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ewe isch ar im Rossstall gewahn.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ich will grad helfe, mini Sache nuff traue, ich komm noch glich erab. Komm, Fritzel.
+             <stage>(Beidi rechts ab.)</stage>
+              <stage>(Do höert mr drüsse e Katzemüsik. E Gej, wo lätz spielt, e Klarinett, wo in de Da nin düdelt
+            un e Trombone, wo ganz lätz blost. D’ Instrümenter hüpse durichenander wie Knäckes, wo
+            Bockspringerles mache un ganz owe druff sitzt d' Klarinett un blost, als ob sie verspringe
+            wodd.)</stage>
+            </p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Höer do, do komme jo schun d' Müsikante an. Die schmecke äui de Broote.
+             <stage>(D’ Dhüer links wurd uffgstosse un erin komme d' Müsikante.)</stage>  DE BANGELESCHLUTZER
+             <stage>(d’ Klarinett, lang und mauer, in e alter, enger, schwarzer Anglees geklemmt. Wenn er awer au
+            so mauer isch, ze hett er doch immer Hunger un Durscht. Er hett e bleich’s Gsicht, pechschwarzi,
+            langi Hoor un e leidsmässiger Zinke)</stage> .
+            <pb n="13"/>
+            </p>
+          </sp>
+          <stage>DE FISSELBOEJE (d’ Gej, klein, dick, buschberli mit rotem Kopf un gröje Hoor, e alder Cylinder
+          uff em Kopf, Stiffel an un e blöje Frack mit Schöessle un gäle Knepf. Er isch de Chef von de
+          Müsik.)</stage>
+          <stage>’S DRUMBOHN (gross un dick, rots Gsicht un roti Hoor. E blöjrooti Naas un e Brill. Er isch in e
+          brüner Mantel une groses rots Cache-nez gewickelt. Grosser Schlapphuet, er babbelt ganz
+          langsam)</stage>
+          <stage>D’ BASSGEJ (klein un mauer, wissi Hoor. Er heit d' Bassgej uff em Buckel gebunde, e Kapp mit eme
+          grosse Dächel uff, e alter, blöjer Soldatemantel an un e roter Barablie in de Hand.)</stage>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Nurr do erin, ich wäiss, wo d' guede Gschmackle hare komme.</p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>’S DRUMBOHN:</speaker>
+            <p>Dü brüch’sch jo nur de Nas noch ze gehn.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>DE FISSELBOEJE:</speaker>
+            <p>Do kann mr de Bangeleschlacker brü- che, dar het dis sim Griff wie de Battelmann d' Lüs un wann
+            erigs uff siwe Mäile im Umkreis e Fass dröepfelt, ar findt’s mit sim Schmecker erüss.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(kommt von rächts)</stage>
+            <p>Ihr dhuen awer latz bloose, isch diss alles, was ihr kenne?</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>DE FISSELBOEJE :</speaker>
+            <stage>(zejt de Cylindre ab)</stage>
+            <p>Katt, diss isch doch e alti Müsik, e nüechterner Drumbeter kann nit richti bloose.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Katt, dar winkt mit em Zünpfohl.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Ha joh, wo e Baöm isch, falle äui Aepfel.
+             <stage>(Sie geht mit eme Kruejel rechts ab. ’s Maidel wo plotzt, geht mit ere.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN :</speaker>
+            <stage>(züem Fisselböje)</stage>
+            <p>Nurr nit ’s Mül uffgemacht üewer de Drumbeeter. Dü machsch jo schun zitter 4 Wuche e grosser Böje
+            um de Brunne.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Un dir riecht mr de Schnaps uff e Stund Wäjs witt an.
+             <stage>(Er hett de Cylindre uff de Tisch gebolderd un will uff ’s Drumbohn los.)</stage>
+            </p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Langsam, langsam, schick di, daöbs Kalwel. Do namme zerscht e Drawerle züem veküehle.
+             <stage>(Er hett e paar Schnapsgläsle anegstellt un schenkt de Drawere in.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Basche, Ihr sin e Wohltäter von de Kunscht. Wann Ihr starwe, krieje Ihr von mir ins Grab
+            gebloose.</p>
+          </sp>
+          <pb n="14"/>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <stage>(züe de Bassgej, wo als de rote Bareblie underm Arm geklemmt hett)</stage>
+            <p>Ich gläub, Ihr komme mit de Blabberroos.</p>
+          </sp>
+          <sp who="#d_r_bassgej">
+            <speaker>BASSGEJ:</speaker>
+            <p>Mine Vadder hett ass gsäit: Wann’s schöen Watter isch, nammt mr de Bareblie mit, un wann’s rajt
+            oder schnejt, kann jeder Esel mache, was ar will.</p>
+          </sp>
+          <stage>BANGELESCHLACKER (hett sich glich züem Maidel an de Herd gemacht. Er lüepft d' Deckel un gückt
+          in d' Häfe. ’s Maidel schlat em mit em Kochleffel uff d' Händ un kittert: Hi — Hihihi —)</stage>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Dü, Bangeleschlacker, dü losch jo de Schnaps stehn.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Diss ward ’s erschte Mol in mim Lawe.
+             <stage>(Er komt schnell here, kippt ’s Gläsel in sich nin, losst sich noch e Mol inschenke, kippt ’s
+            au un schüettelt sich)</stage> : Brrr — — Däifel, isch diss gued.
+             <stage>(Er geht zeruck an de Herd, ’s Maidel kittert. Nodhäre geht er mit em Maidel links
+            ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(hett noch e Mole ingschenkt)</stage>
+            <p>Allez, Gsündhäit, drinke, ass isch nit umesunscht Hochzitt morn.</p>
+          </sp>
+          <stage>BASSGEJ (hett sich in e Eck uff e Schemel gsetzt un schlooft, de Bareblie underm Arm)</stage>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <stage>(bliet mit Drumbohn un Basche am Disch sitze)</stage>
+            <p>Diss isch jetz awer schnall gange, die Hieroterej von ejrem Bür.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Eb diss schnall gange isch. Vor zwäj Monet isch ’s Gredel bie üns im Hopfezopfe gewahn. Niemes
+            hett ebs gsahne, uff änsmols packt ’s Gredel sini Saches un fahrt uff un devon. Am Sundi druff häisst
+            mich de Mäischter anspanne. Mir sin uff Graswiller, wo ’s Gredel d’häme isch un do hett de Bür um ’s
+            Gredel gfröjt.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Awer sie isch doch viel jüenger ass öjere Bür. Un so e natts Mäide. Ich kann’s. E Gsichtel wie e
+            Schleh.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Wie e Schleh?</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Aei jo, anlüeje, awer nit nin bisse. Ja, hett sie sich nit lang bedankt?</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(ruckt nehdersch, lieslicher)</stage>
+            <p>Ihr wisse jo, wie ’s uff em Land isch. Was hett do e Mäide viel ze säuje?
+            <pb n="15"/>Bsundersch wann d' Eldere do stehn, wie im Gredel sini.</p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Aei — — ja — — wie stehn se dann?</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Nit güet. De Vadder vom Gredel isch vor meh ass zeh Johre vom e Häiwäuje gfalle un isch an alle
+            Gliddere lahm gebliewe. Zitter sitzt ar im Stüehlele un kann kenn Schritt meh gehn.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>E Bür — un lahm — ja, diss isch jo e Unglüeck.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Nadierli, ’s Wase isch zeruckgange un sie solle arig in de Schulde stacke, vor allem wie kenn Büe
+            do isch, dann ’s Gredel isch jo ’s änzich King.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>So isch die Sach, na, jetz versteh i’s. De Eldere zu Lieb hett ’s Gredel «Ja» gsäit. Wann jetz de
+            Stowolder numme halwer so veliebt isch wie pressiert, nod ware die Schulde von de Eldere ball —
+             <stage>(blosst un wischt ebs vom Disch)</stage>  ssst — veschwunde sin.</p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Was macht dis im riche Stowolder üss, üss’m Schilehsackel dhuet ar diss bezohle.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Diss geht mich jetz nix an, diss isch im Mäischter sin Sach.</p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Ha joh — Ha joh — mr redd jo nurr devon.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>De Mäischter isch d' letscht Wuch dine in de Stodt gewahn biem Junge — un hett mit m geredd. In
+            ere halwe Stung fahrt jetz de Schang uff Graswiller, d' Hochzittere abhole.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Ja, ich versteh — ass gitt halt doch viel beesi Mieler im e Dorf un wann e Gröjkopf so e jungs
+            Mäide aahole kommt, do kann er ebs ze höere krieje.</p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Wan ar se hitt noch hole will, do hett er Zitt. Ich kann de Waj, ’s sin anderthalb Stung ane un
+            fascht zwäj zeruck.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ar hett sie zerscht morn friehj hole söelle, awer de Harr Notari will schun am achte kumme morn
+            friehj, ar hett gescht Ordre gschickt.</p>
+            <pb n="16"/>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. SZENE.</head>
+          <stage>KATT (kommt von rächts zeruck. Sie drat zwei geblüemti Winkrüjle. Ihre noch kommt die Magd, wo
+          geplotzt hett, mit eme Plateau voll Esse: Schambong, Speck, Bürekäs etc. Sie decke de Disch, ohne
+          Dischduech). So — komme jetz — mir asse äui glich, dann nodhare finde mr doch kenn Zitt meh.</stage>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Katt, Ihr sin e Engel. Ejer Läwe han er kenn gschiederi Idee ghett. Zaj, dü Drumbohn, do lüej emol
+            dene Schambung, un do die Bürestinkkas, do kann jo e alter Esel jung wäre.</p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Do kann mr sich e Wangschtel oonfrasse, so satt un rund, ass mer e Wangelstänel druff
+            verschmattere kennt.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Mach’s Mül nit zue witt uff, schunsch schlucks’sch dich sälwer nunder.
+             <stage>(Züe d'r Bassgej, wo noch immer schlooft)</stage> : Hej, Bass — komm doch, dü hucksch jo do wie
+            e Pfund Schnitz — komm, ’s gibt ebs ze esse.
+             <stage>(Biem Wort «ebs ze esse» fahrt zeller in d' Höeche un kommt häre.)</stage>
+            </p>
+          </sp>
+          <sp who="#d_r_bassgej">
+            <speaker>BASSGEJ:</speaker>
+            <p>Diss isch ebs andersch ass so e matter wasseriger Kaffeeschlüri wie bie mir dhäm.
+             <stage>(Noch un noch isch ’s Gsind dezuekomme. Alles setzt sich um de Disch.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Wo isch dann ’s Céléstine?</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Un de Bangeleschlacker?
+             <stage>(In dem Moment komt de Bangeleschlacker mit em Maidel vom Herd zeruck, alli zwei draue Holz
+            for in de Herd.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Er kommt glich, d' Nas isch schun do.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Zaj, do komme häre, uns isch zue Müet wie de Hüehner im e Waizefeld.
+             <stage>(Sie esse un drinke.)</stage>
+            </p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Un wann mr ferdi sind, nod spiele mir diss Stüeckel: « Von dene versoffene Müsikante un dem
+            verfrassene Gsind ». Namme ihr numme de Kas — ieh halt mich an de Schambung.
+             <stage>(Er nemmt sich 3 bis 4 Mol erüss.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Gann Achting, de Schambung isch scharf gsalze, mr stirbt dran, wann mr ze viel devon isst.</p>
+            <pb n="17"/>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>So — äi, do will i doch minere Fräuj e Stüeck mitnamme, ich ward dene alte Belz doch schun lang
+            gare los.
+             <stage>(Nimmt noch e Stüeck, wickelt sich’s ins Nasduech un steckt’s in.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Gläuwe ’sem nit. Ar hett jo gar kenn Fräuj. Dü un e Fräuj — Hahaha.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Was wott äui e Fräuj mit mir anfange? Un ich erscht mit ihre? Do ward ich nit latz gemutzt. E
+            Fräuj, wo finde dhat, ich drink ze viel Schnaps un nit ze wenni Win un Bier. Wo mich üss em Wirtshüss
+            hole dhat, wann ich grad am beschte sitz, mini Sack üssmüst, wann i schloof, wo sich 4 nöje Hüet
+            käuft in dare Zitt, wo’s for mich nit emole for e neji Kapp langt — nä — nä, ich blie e Büe, ich will
+            emole mit eme wisse Voile begrawe wäre.
+             <stage>(Er drinkt mit eim Schluck sin Glas leer, will sich noch e Mole inschenke. Wie er sieht, ass
+            es Kriejel leer isch, langt er’s de Katt.)</stage>  Do, lange noch e Kriejel von dem Vitriol.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Heh, heh, mr sin do nit im e Wirtshüs.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Als eruffgholt, ich bezahl’s. So dhier sin Win un Schnaps noch lang nit, ass mir sie nit köennte
+            schuldi bliewe. — Allez, Gsündhäit. Ze drinke doch.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Heh, langsam, schunsch bisch dü nimmi nüechtre wenn mr spiele müehn.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Was? Ich un nüechtre? E Mensch, wo nüechtre isch, isch e Mensch, wo noch halwer schlooft. Un äni
+            von de finschte Sache im Lawe, diss isch e anstandigi Kischt. — Wann se numme nit so Kopfweh mache
+            dhat.</p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Jetz ass emole, kann’sch dann ’s Mül nit halte?</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>I glaöib, ich kann’s, awer i habs noch nie browiert.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ihr babble öjch jo ’s Mül noch franzlich.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>’s Mül franzlich, jetz lohn ihr mich gehn, jetz halt ich mich an d' Wiebslitt.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Nä, nä, lohn uns numme gehn, alder Schöide.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Ohoh, Jumpfer Katt, was i säue hab wölle, han er äui e häiss Wangelstänel in öjer Bett gemacht —
+            ich mecht nit friere hitt nacht.</p>
+            <pb n="18"/>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>’S DRUMBOHN:</speaker>
+            <p>Katt, lüeje ne doch e mole an, dar isch jo so fatt, ass ar kennt in de Klarinatt schloofe. Do
+            bedrachde mich, Litt wie ich, do kann mr sich de Hingere warme.</p>
+          </sp>
+          <stage>KATT (druckt em d' Hand uff ’s Mül, er bisst nin. Katt krischt uff, un mr weis nitt, isch’s vor
+          Blaisir oder vor Weh.)</stage>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Guet, namm dü se, isch mr äui eracht. Na ze halt ich mich an d’Junge.
+             <stage>(zue dere Magd vom Herd)</stage> : Mir basse äui gued zamme, gall, un wann dü die Nacht
+            vegass’sch d’Dhuer an dinere Kammer züezeschliesse, ze brüch ich se nit inzedradde.</p>
+          </sp>
+          <sp who="#_s_lipse_vadder">
+            <speaker>MAGD :</speaker>
+            <stage>(kichert)</stage>
+            <p>Hi, hi; hi, hi.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Ich wurr schun stiechem mache. Wann ’s Katzel an de Raöhm will, ze zieht’s äu nit zerscht
+            Nussschale an d’Füess an, ass es klebbert.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ho, hoh; ich wurr schun Achting gann, morn friehj. Wann ich so am e Uehre sechse mit dare lange
+            Kett e paar Mole d’Staje nuff un nunder fajohle dhüe for e Wecker, do bass ich schun uff, war üss de
+            Kammere schlupft.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(zuem Bangeleschlacker)</stage>
+            <p>Ihr hann awer jetz schnall d’Idee gschangscheert. Ich hab jetz gemänt, ich köennt äui emol äner
+            bekumme.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>D’Hoffnung nit uffgahn, Katt, als d’Hoffnung nit uffgahn. M’r mache’s wie bie de Düerike.</p>
+          </sp>
+          <sp who="#d_r_bassgej">
+            <speaker>BASSGEJ:</speaker>
+            <p>Ohoh, mr säit, ass derte e jeder Mansch e par Miedere hett.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Katt, wenn ihr einer wodde dhäte, glaub ich, brichte n’ihr nit witt ze laufe.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Joh, gehn mr ewag mit de Mannslitte, i will nix wisse von ’ne.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Uff jede Fall halte-n-ejch an d’Alte, die junge Schnüfer sin wie d’Flichholder; husch, sin se uff
+            ere andere Bluem.</p>
+          </sp>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN :</speaker>
+            <stage>(langsam)</stage>
+            <p>Ja, wann m’r jung isch, do müess alles gschwind gehn, do geht’s uff de Schnallkiche. Awer wann mr
+            älder wurd, isch mr nimmeh so gebressiert, do dhuet mr alles schöen langsam köechle.</p>
+            <pb n="19"/>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER :</speaker>
+            <stage>(sieht d’Brotwüerscht uff em Disch vorne, springt uff)</stage>
+            <p>Was isch Katt, han ihr äui schun ’s Mass von de Brotwüerscht genumme?</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Wie diss:</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Ei, ihr müehn doch wisse, wie gross d'Portione ware solle. — Drumbohn, komm emol hare.
+             <stage>(Nemmt ’s Füerdüech von de Magd, bind’s im Drumbohn under d’Aerm un lajt em e Reif
+            Brotwüerscht um de Büch.)</stage>  So, sahn’r, Katt, diss isch ’s Mass for än Persohn.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(springt uff)</stage>
+            <p>Wöelle-n-ihr mini Brootwüerscht leje lohn.
+             <stage>(Sie geht em mit em e Kochleffel noch.)</stage>
+            </p>
+          </sp>
+          <stage>BANGELESCHLACKER (schnappt im Durichgehn d’Klarinett, un wenn sie händelt, gitt er mit de
+          Klarinett Antwort)</stage>
+          <stage>DRUMBOHN, FISSELBOEJE un BASSGEJ hole au ihri Instrümenter, un im Handumdrähje isch e Hopser im
+          Gang. De Basche nemmi d’'Kätt un alli mache mit un danze um de Disch.</stage>
+          <stage>BASCHE (singt un drabbt wie e Bär)—</stage>
+          <stage>Melodie: Zu Lauterbach —:</stage>
+          <lg>
+            <l>In ünserem Wirtshüss fällt 's Daönze nit schwar,</l>
+            <l>Wamer wäiss, wie mr sich schwankt,</l>
+            <l>Wann nüer in de Mittle de Pfoschte nit war,</l>
+            <l>Wo mr als gor nit dran dankt.</l>
+          </lg>
+          <lg>
+            <l>Ass Schulze Madlehnel, diss hesch jo gekannt,</l>
+            <l>Isch mit de Nos glich an de Pfoschte gerannt.</l>
+          </lg>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(rueft)</stage>
+            <p>De Mäischter, kommt üewer de Hoft!
+             <stage>(D’Müsik brecht schnell ab, de Danz höert glich uff, alli laufe un schaffe.)</stage>
+            </p>
+          </sp>
+          <stage>BASCHE (stellt Stüehl un Bänk an de Platz)</stage>
+          <stage>KATT (rümt de Disch ab)</stage>
+          <stage>MAGD (kleppert mit de Pfanne am Herd)</stage>
+          <stage>E ANDRI MAGD (blotzt am Blotzständel)</stage>
+          <stage>D’MUESIKANTE (sitze am Disch, butze un browiere ihri Inschtrumenter)</stage>
+          <stage>BANGELESCHLACKER (schenkt sich noch schnell eins in un drinkt)</stage>
+          <pb n="20"/>
+        </div>
+        <div type="scene">
+          <head>5. SZENE.</head>
+          <stage>STOWALDERS VADDER (e breiter behäwiger Bür, End vierzich, Gröjkopf, awer gross un starik. Er
+          hett in Gsicht, Kleid un Poschtür ebs, wo ’ne dittlich von de andere abhebbt, kurz, e Herrebür. Er
+          kommt von links. — Zue de Müsikante): Guede-n-owe bienand. Sin er äui ankomme. Han er schun ebs
+          ze-n-ase ghett?</stage>
+          <sp who="#_s_drumbohn">
+            <speaker>DRUMBOHN:</speaker>
+            <p>Aei jo, mir han e Klänigkeit ebs züe-n-is genumme.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Ja, merci, mir han ze-n-esse un ze drinke.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER:</speaker>
+            <p>Un ze schaffe brüche mr nix.</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Mir hat grad d’Instrümenter gstimmt, un wie Sie sehn — sin mir alli allegro.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STOWALDERS VADDER:</speaker>
+            <p>Ihr lüje druff, Katt, ass denk Manner nix fahlt, d’nachschte Daj.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>’s wurd bsorrit, Bür.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STOWALDER:</speaker>
+            <p>Un noch ebs, Katt; gehsch nodhare nuff zuem Jean, ar soll sich ferdi mache un zue mir kumme. — Dü,
+            Basche, spannsch an, dü wäisch jo Bsehäid. Wie ich dr’s gsaöt hab, ganz genäuj: kenn Untadele am
+            Gschirr, nitt an de Ross un nit am Wäuje. ’s müess alles in Ordnung sin, dann de Jean dhuet
+            d’Hochzittere aahole.
+             <stage>(Rechts ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(zuem Basche)</stage>
+            <p>Ich geh noch schnall e Sprung ins Nochbers.
+             <stage>(Links ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(hett im Stowalder durich de Dhüerspalte noochgelüejt)</stage>
+            <p>Ar isch in sini Kammer un zieht sich andersch an; ar kommt jetz nimmi.</p>
+          </sp>
+          <sp who="#d_r_bangelschlacker">
+            <speaker>BANGELESCHLACKER :</speaker>
+            <stage>(gaukelt schun e bissel)</stage>
+            <p>Ohoh, dar Daönz isch nonitt üss. Jetz wurd eracht äns gsunge un gedöonzt.
+             <stage>(Singt)</stage> : Mir legen üns besoffen nieder... Und stehen äuif und säuifen wieder...
+             <stage>(schnappt d’Klarinett)</stage> : Un jetz de Siwenersprung — Allez — une, deux — —
+             <stage>(D’andere Müsikante falle in un alli danze un jüchse un krische de Siwenersprung.)</stage>
+              <stage>— RIDEAU. —</stage>
+            </p>
+          </sp>
+        </div>
+      </div>
+      <pb n="21"/>
+      <div type="act">
+        <head>Zweites Bild.</head>
+        <stage>Scène: D’Stubb vom Jean, e solidi, anfachi Bürestubb. Durich ’s Fenschter hinte sieht mr d' Gäwel
+        von de Hieser vis-à-vis. Hinte rechts e Bett, an de Wand links e Kaschte. Vorne rechts e Dhüer. In de
+        Mitte e Disch un e par Stüehl, wo Büecher un Kleider druff leje.</stage>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <stage>JEAN (steht am Fenschter un lüejt nüss).</stage>
+          <stage>FRITZEL (packt Büecher üss em e Reiskuffer).</stage>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Wie isch de Owe lies un mild — So rüehwich leje Feld un Garde do. Un d'Stross schlooft au schun. —
+            De Herrgott dert am Kriz sieht mr fascht nimm. — Ich glaub au er hett d’Aue züegemacht un draimt. — —
+            Un d’Oweschätte henke in de Hecke un dunke sie in Düschter un in Dämmerung. Kenn Vöjelton, kenn
+            Schritt wurd lütt. — Schun gschbiert mr d' Nacht.</p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL :</speaker>
+            <stage>(spoettisch, mit em e Siffzer)</stage>
+            <p>Schön gsat, dü Schwarmgeischt, — — schöen un drürich.
+             <stage>(Er bringt em e Stoss Büecher ans Fenschter.)</stage>  Un jetz helf e bissel un mach die Büecher
+            an de Platz.
+             <stage>(Lüejt züem Fenschter nüss.)</stage>  Dü wohnsch awer hoch drowe. De ranschte Abgrund do nab.
+            Diss sin jo gued 10 Meter bis in de Garde.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(nemmt d’ Büecher un macht e par uff ’s Kommod)</stage>
+            <p>Ajetli dhuet mich die ganz Sach mit dere Hieroterej vom Vadder ambetiere. Wenn er nit so trewliert
+            hätt, wärd
+            <pb n="22"/>ich gar nit komme.
+             <stage>(Er bliet vor ere Photographie, wo im e Rahme uff em Kommod steht, stehn)</stage> : Do, s’ Bild
+            von minere Müeder. — Vor zwanzich Johr hett sie mir ’s Läwe gänn un isch dran gstorwe. — Wie im e
+            Spiejel hab ich so viel Mols mini ajene Trait in dem fremde Frauegsicht gsüecht. — —
+             <stage>(siffzt)</stage> : Hit süech ich ebs andersch’s.
+             <stage>(mit Wärme)</stage> : Anderi Aue süech ich in dene Aue, —e anders Gsicht in dene Züegg.</p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>Noch immer ’s nämlich. — Denksch denn noch immer an «Sie»? An dini heimlich Lieb? — Vergess sie
+            doch.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Köennt ich sie je vergesse! Was for e Wunder isch doch d' Lieb. — Was for e diefes Rätsel ’s
+            Menscheherz. Wie köenne an eim einziche Blick zwei Herze sich anzüende, ass sie in Brand un Flamme
+            brenne e ganzes Läwe lang. ’s isch sunderbar. — Noch brennt min Herz in heisser Lieb, — noch denk ich
+            hundert Mol im Daa an «sie», — — un doch, — so viel ich mich au stibber, verschwind’t diss Gsicht mir
+            üss de Aue, — wie im e Näwel, — wie im Oowelicht. Ich quäl mich ab, for’s widerum for mir ze sähn, —
+            ich will’s erüsschäle üss de Erinnerung, un find nix meh ass d’Aue, die dunkle, grosse Aue. — — So
+            süech ich üeweral, — in jedem Bild, in jedem Frauegsicht die Aue. Ich quäl mich ab, — ich süech un
+            süech — — un kann sie nimmi finde.
+             <stage>(stellt ’s Bild zeruck)</stage> : Au dü hesch anderi Aue, —- Müeder, — so fremd, so voller
+            Rätsel, voller Wüensch. — Ich glaub, ich hab so Aue, — so voller Wüensch.</p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>Heh, Jean, ze spinn doch nit so viel, mach doch voran, — dü müeh’sch doch noch üewer Land hitt
+            owe. Dü müeh’sch doch noch d’Hochzittere von dim Vadder abhole.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Verum grad ich? Soll doch e anderer gehn.</p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>Awer du bisch doch do dheim, dü mach’sch jo grad, als ob do fremd wärsch.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <stage>(steht ohne Wort uff, geht zuem Fritzel un lajt em de Arm um d’Achsel. Füehrt ’ne zuem e
+            Stuehl. Fritzel setzt sich un lüejt de Jean gross an)</stage>
+            <p>Fritzel, — loss
+            <pb n="23"/>jetz diss Uesspacke gehn, mr han jo 8 Däi Urlaub. — Dü bisch min beschter — — un
+            anzicher Friend. — Un hesch mich nie verstande. — Höer mir jetz zue, — — vellicht wurd dr noch
+            manichs klor. Dü hesch rächt gsat ewe, — — ja, ich bin do fremd, —- ich bin nit dheime do. — Wie sott
+            ich au do heere basse? Mini Müeder isch von witt häre gsin — e scheeni fremdi Blüem. Noch ihrem
+            früehje Dood hett mich mine Vadder zue Verwandte in d’Stadt gemacht. Fremdi Händ han mich fremd
+            uffgezöje. — — Oh ich hab nie Hunger ghett un nie kalt. Awer e Kind brücht meh als Esse, Drinke,
+            Kleider un e warmi Stubb. Wenn ich als mit Kamerade zue ihne heime bin, hab ich diefi Quale gelitte.
+            Sie hett d’Müeder mit Sorri un Zärtlichkeit erwart un im Vadder hett au bie Ernscht un Stroofe d'
+            Lieb durichgschunne. Mit heissem Herz un dräneleere, brennende Aue bin ich denäwe gstande,
+            unverstande un ellein, e einsams, fremds Kind. FRITZ: Awer dü bisch doch jeds Johr in de Vekanze do
+            hüsse gsin, biem Vadder dheime.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Dheim! — — dheïm! — — Wie vielmools hab ich schun diss Wöertel ghöert un hab doch nie ebs andersch
+            debie gschbiert ass Heimweh. Dheim bin ich fremd wie üeweral. D’Mensche do sin mir fremd im Denke un
+            im Füehle, ich bin e Fremder un hab nix gemein mit ’ne. De Vadder? — — Er isch noch immer guet gsin
+            zue mir. — Wenn ich ebs brüch, bekomm ich’s, Geld oder was es isch. — Un doch, — in unserm Innere sin
+            au mir uns fremd. Nein, nein — es isch nit ’s Land, nit ’s Dorf, nit Hüss un Hoft, — — ’s sin d'
+            Mensche wo mr bie ’ne dheime isch.
+             <stage>(Steht uff, geht ans Fenschter, gequält, fascht wie e Anklau brecht’s üss em erüss)</stage> :
+            Wo isch der Mensch, bie dem ich dheime bin, — der mine isch — — un dem ich ghöer? — —
+             <stage>(Er verstummt. Paus.)</stage>  Un jetzt wiel ich im Zug bin, soll’sch au alles wisse. Vellicht
+            vergess ich’s ehnder, wenn ich dir’s verzehl. O dü Fritzel, dü bisch jo kalt wie e Fisch, — — dü
+            hesch jo ken warm Bluet, ken Gfüehl, — dü bisch jo nit
+            <pb n="24"/>« sentimental » — —
+             <stage>(scharf)</stage> : Dü un noch viel anderi, — — ihr köenne’s nit begriffe, ass mr e Maidel gern
+            kann han — — ohne ass mr jemole e Wort mit em geredd hett.</p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>— Wie isch’s denn möejli? E Unbekanntli — — e fremdi Frau?</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <stage>(kommt here, losst sich in e Sessel falle un vergrabt de Kopf in d’Händ)</stage>
+            <p>’s isch noch de letzschte Ferie gsin — uff de Ruckreis in d' Stadt. Im Coupé hab ich e bissel
+            Dischbetates ghett, dü weisch — — es brücht nit viel bie mir. Die dumme Antworte von mim Vis-à-vis
+            han mich verzüernt un ich bin grad dran, in d' Hitz ze komme. Hin un her sin scharfi Antworte gflöje.
+            Do, — mittles im e Satz, sieh ich zwei grossi schwarzi Aue mich ganz rüehwich anlüeje. Der Blick, — —
+            so glänzich dunkel, so dief un voll, hett uf de Stell mich stumm gemacht. De ganze Wäj hab ich nix
+            meh geredd un hab nur allewiel die Aue gsüecht. — Awer die han e andere Wäj gelüejt. — Erscht an de
+            Gare in Strossburri hab ich gsähn, ass es e Maidel vom Land isch gsin — un eb sie mit de Verwandte,
+            wo sie abgholt han, ins Kitschel gstöje isch, hett sie mich noch emol gsuecht. Die Däj denod bin ich
+            wie im e Fiewer gsin. Ich hab an nix meh denke köenne, als an die grosse schwarze Aue, — un an diss
+            Gsicht — so nett, so frisch, so hell, — grad wie e Liljeblatt, — wie Morjetau im Mai. Küm hab ich
+            noch gewüesst, wie d' Däj erum sin gange. Nix hab ich gschafft — — nur in de Stadt bin ich erum
+            geloffe, sie, sie ze sueche, sie widerum ze sähn. Ich hab sie widder gsähne. Am Dracheschlöessel isch
+            sie mir ergeje komme. — — Root isch sie worre, — — fierig root, — — wie ich. Wie durich e Zauber
+            feschtgebannt han mir uns angelüejt un immer angelüejt — — un sin nod ohne Grüess anenand verbej. Von
+            dert eweg hab ich e jede Daa de nämlich Wäj gemacht, — e jede Daa han mir uns gsähne. — — Dief han
+            sich unseri Aue inenand versenkt. Ich glaub, in dem Moment hett nix an mir gelebt ass d’Aue. Un nit
+            um alles in de Welt hätt ich de Huet abzeje oder gar ebs saue köenne.
+            <pb n="25"/>Was for e Wunder isch doch d' Lieb. Wer weiss, üss welle dunkle Tiefe vom Menscheherz
+            sie’ uffstejt. Was isch’s, wo im e kurze Auesblick gebore wurd, wo d’Mensche züenander triebt un
+            niemols meh vergeht? — E Wuch lang han mir uns so gsähne, un jedes Mol han klar un offe, dittlicher
+            als alli Wort, d’Aue von am im andere gsat: ich hab dich gern, — gern, — gern. — — Nie han mir je e
+            Wort mitnand geredd. — — Endlich hab ich mir ’s Herz genumme, sie anzeredde. Mit rote Rose in de Hand
+            hab ich am Stade geward, — lang vor de Zitt. — Wie tropfewies isch d' Zitt vergange. — «Sie » isch
+            nit komme. E Stund un meh hab ich gewart, — nix, — nix. Langsam bin ich nod hamezües un von de
+            Dhumesbruck hab ich, ani noch de andere, die rote Rose ins Wasser falle lohn. ch- — Wie d’Stüecker
+            vom e verbrochene Herz sin sie d’Ill nabgetriwe — un langsam verschwunde. — Verschwunde — wie sie! —
+            — Nie hab ich sie meh gsähne.
+             <stage>(Paus.)</stage>
+            </p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>Dü bisch e sunderbarer Mensch, Jean, — vertraimt, empfindlich, —-fascht wie üss ere andere Welt.
+            Wenn ich verliebt bin, muess ich ’s Maïdel gschbiere un wenn ich’s nit im Arm hab, frisch un warm,
+            noch bin ich nit verliebt.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Do drvor hesch dü au Sand in de Odere am Blatz vom Bluet un e kalts Herz.</p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>Ohoh, ich bin als au verliebt, bsundersch im Früehjohr. — — Awer ’s isch bie mir so ziemlich immer
+            ’s nämlich. D’ nämliche Hecke, wo mr drunter sitzt, — un d’Baim wo blüehje, d' Vöjel wo pfiffe, d'
+            Matte wo widder grüen sin — — alles isch ’s nämlich; — — nurr ’s Maidel isch jeds Mol e anders. Un
+            sieh’sch, Jean, ich glaub, so ebs Griffbars hett dinere Lieb gfählt. Sie isch ze viel Ideal, Schwarm,
+            Empfindung gebliwe. Wie e ferner glänzichder Stern hänkt sie in de Wolike. Die Schwärmerej wärd alli
+            verloffe wie de Schnee in de Sunn, hätt’sch dü anmol diss Maidel im Arm ghett, wärd’sch einmol wie
+            ich mit ere under de Heck gsesse, hätt’sch einmol din Verlange gstillt un — — JEAN
+             <stage>(isch blitzschnell im Raasch, springt mit eim Satz uff de Fritzel zue, packt ’ne am Hals un
+            will mit eme Lichtstock uff ’ne haue)</stage> : Still, — still, — noch ein Wort,
+            <pb n="26"/>ein einzigs Wort, — — biem Herrgott, ’s isch mr ernscht — heiliger Ernscht. — — Diss
+            isch e Heiligdum, — nit dü, — — nit anderi, — — niemes derf do dran rüehre.
+             <stage>(Er werft de Lichtstock eweg un fallt schnell in e matti Reaktion.)</stage>  Was versteh’sch dü
+            devon? — Brücht mr sich denn ze saue, was mr gschbiert? E diefi Lieb wiest sich au ohne Wort, denn
+            d’Wort sin nurr e matter Abglanz vom Gfüehl, wo heiss un starik ströemt, wie sich e schwarzi Wolik
+            schnell un wild entleert im Räjesturz.
+             <stage>(Es klopft.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. SZENE.</head>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(kommt, bliet in de Dhüer stehn)</stage>
+            <p>De Vadder schickt mi, Jean. Dü sollsch na komme. ’s isch Zitt for furt ze fahre.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ich komm. Ah, Katt, denk dran, wenn d' Stubb mach’sch, loss mr diss klane Köefferle stehn, ’s sin
+            Fläschle drin mit Gift. De Vadder hett mr’s anbedunge, ich soll em ebs mitbringe for d’Hamschter un
+            d’Wissele. Rüehr mr nix an.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Jo, Jean, was danksch. — Flaschle mit Gift, — nän, was dü alles lehre müehsch. Un nod die viele
+            Büecher...
+             <stage>(Mit ere Art Muederlichkeit, wo uff anmole bie ere erüssbrecht)</stage> : Ward’sch dü Bür
+            worre, Jean.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(lajt dene Root als Dienschtbottevertröjlichkeit üss)</stage>
+            <p>’s isch gued, Katt, ich wäiss, ihr meine’s rächt. Ihr denke an die Fläschle, gäll.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>— — Ech hab noch ebs, Jean. — As isch noch ebber mit mir eruff komme, — wo, — wo dir guede Daö
+            säuje will.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Wer denn?</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>’s Mejel von ’s Nochbers.
+             <stage>(Sie rueft nüss)</stage> : Komm, Mejel, komm ering!</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL :</speaker>
+            <stage>(kommt erin, sie geniert sich, liesli)</stage>
+            <p>Buschur, Hans.
+             <stage>(Sie gibt ihm d’Hand.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Buschur, Mejel, kommsch morn au uff d’Hochzitt?</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Ja, Hans. — — Blisch lang do?</p>
+            <pb n="27"/>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Acht Däj.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Kommseh äui emol in ünser Hüss?</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ich weiss noch nit.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Ass’sch als de Biskwitt noch so gare wie früehjer als?</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Ich hab em extra muehn zäje, wie mr ’ne macht.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Wann d' komme daatsch, Hans, i daat dr e Extra-Biskwitt maache.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Waisch, Mejel, ajetli mach i mr gar nix üss em Biskwitt.
+             <stage>(Paus.)</stage>
+            </p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL :</speaker>
+            <stage>(drürich)</stage>
+            <p>Oder üss dare, wo ’ne bache will. — Komm, Katt.
+             <stage>(ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ich geh jetzt Fritzel ich hab noch witt. ’s wurd spot bis ich zeruck komm. Wart’sch nit uff mich.
+             <stage>(Ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>Arms Maidel. — Schad um die Biskwitt.
+             <stage>— RIDEAU. —</stage>
+            </p>
+          </sp>
+        </div>
+      </div>
+      <pb n="28"/>
+      <div type="act">
+        <head>Drittes Bild.</head>
+        <stage>Scène: D’Wohnstubb im Hüss vom Stawalder. E grossi solidi Bürestubb, dunkel getäfelt. An de
+        Hinterwand e grosses breits Fenschter un e Dhüer in de Hoft. An de rechte Sittewand e Bürekaschte. Links
+        hinte im Eck de Offe, denäwe e Sessel, e Standühr un d’Dhüer ins Hüss. Schrägs an de linke Sitt e grosser
+        polierter Tisch mit 6—8 Stüehl.</stage>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDERS VADDER :</speaker>
+            <stage>(steht an de Dhüer hinte un redd nüss)</stage>
+            <p>Un de Schagob soll d’Radle am Scharebang schmiere. Awer gan Acht, ass alles in dr Ordnung gemacht
+            wurd.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(kommt von links)</stage>
+            <p>Do bin i, Vadder.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER :</speaker>
+            <stage>(e bissel geniert)</stage>
+            <p>Mach dich jetz ferdi, Jean, dini zuekünfti Mieder aahole for d’Hochzitt. Hesch noch e witte Waj,
+            schick di jetz un mach füerschi. Dü brüch’sch e wärmere Mutze ass dar do, — un noch e dicke Mantel.
+            Es sin gued anderthalwe Stung bis Graswiller, d' Luft isch rüch, ’s kennt gar am And noch Schnee
+            gann.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Vadder, ich weiss, es isch nit rächt, wenn ich’s saa. Ich weiss jo, wie ejch e vertröjdi Hilf un e
+            guedi Hand fehlt. Awer ich kann nix drfor, ass es mr schwer um’s Herz isch, wenn ich an mini Mueder
+            denk.</p>
+            <pb n="29"/>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>’s isch guet, Jean, — ich wäiss, dü bisch e Dräimer un Sinnierer, drum hab ich dich äui nit Bür
+            ware lohn. Awer jetz namm ’s Harz in d' Hand un zäj e luschtigs Gsicht. Fahr nutr zuem Gredel, —
+            säui’sch em, ass ich uff’s bass in Lieb un Sorri. — Säui’sch em, — wann mini Hoor äui gröj sin, ’s
+            Harz schlaöjt noch jung un frisch. Ich hab noch Sunneschien uffghebbt for jetz, un so e güedi
+            Spotjohrssunn kann manich’s Mol äus friendli lache. Un von dir, Hans, hoff i, ass de gued mit dinere
+            nöje Mieder üsskomme wursch, dann as isch e düses Mäide, so änfach, uffrichti un ehrlich, ass mr’s
+            gärn müess han. JEAN
+             <stage>(streckt em d’Hand ane, de Vadder druckt se mit beide Händ)</stage> : Ihr wäre nix ze klaue
+            han, Vadder, un ich wüensch ejch viel Glüeck, — viel Glüeck in ejre neje Ehstand.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER :</speaker>
+            <stage>(bewejt)</stage>
+            <p>Ich dank dr, Hans, — ich dank dr.
+             <stage>(Sie lohn d' Händ gehn.)</stage>
+            </p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(kommt vom Hoft)</stage>
+            <p>Mr warde jetz so witt. ’s isch alles parat.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>D’Katt soll mr de Wintermantel un d' Pelzkapp in de Waue laje.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Sie hett’s schun lang gerüescht, üss Angscht, ihr köennte öjch vekälte.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>As fahrt noch e Wäuje mit dr. Dü bringsch ’s Gredel un dr ander Wäuje ladt de Nöjroth, wie's Mode
+            isch. Es sin zwäi Knacht uff em andere Wäuje. Wann d' witt, kann dr Schang de Char-à-banc fahre.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>HANS:</speaker>
+            <p>Nein, lohn, — ”s isch gued so, ich bin jo schun viel Mols mit em Gröjschimmel gfahre, ich brüch
+            niemes. Ich fahr vor, sie solle nurr satt hinder mr bliewe.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Wie d' witt. — Un noch ebs: ’s Gredel soll sich gued andhüen bie dem rüche Watter, säujseh’s sine
+            Litte.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>HANS:</speaker>
+            <p>’s wurd üssgericht. [hr brüche kenn Sorri han, — ich bring’s ejch glüecklich häre.
+             <stage>(Sie gehn mitnand nüss.)</stage>
+            </p>
+            <pb n="30"/>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. SZENE.</head>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <stage>(kommt von links, lüejt zuem Fenschter hinde nüss in de Hoft)</stage>
+            <p>Jetz fahrt er los, sie hole.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(kommt von hinde; zue Katt am Fenschter)</stage>
+            <p>As isch e bissel spoot, as gfallt mr nit. As lejt Schnee in dr Luft. Dr Schang hatt fahre solle,
+            awer dr Graddel losst’s im Hans nit züe.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Dr Vadder räicht em noch e Mol d' Hand.
+             <stage>(Sie risst ’s Fenschter uff)</stage> : Jean, guedi Rä — — —
+             <stage>(Dr Wind schlat ’s Fenschter zue)</stage> . Puh, was e dracketer Wind,. Gotts Wille — was isch
+            diss? De Gröjschimmel schejt, — ar will nit ’s Dhor nüss, kerzegrad geht’r in d' Höeh.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Joh, daöwi Katt, sieh’sch nit, ass grad e Gfahrt in de Hoft ering will. Wohrschients äner von de
+            Inggelodene.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(schnüft uff)</stage>
+            <p>De Jean höift, ar losst de andere ering. Ja, ja, jetz sieh ich’s. ’s isch jo ’s Grossbüre Lanz von
+            Gäischspitze.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Dar isch doch allewiel debie, wann’s ebs ze asse gitt.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Komme-n-e Daö erschter ass d' andere un bliewe nochhar 3 Daj länger. Un alles waje-n-em Ase.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(markiert de dicke Mann un geht mit breite Schritt)</stage>
+            <p>Un pratzt noch: Wann’s nit waje de Friendschaft ward, üss em Ase, do moch ich mir nix, — — do
+            gangt ich nit e Mole hingerem Offe füere. Ich, Katt, wann ich de Mäischter ward, die Friendschaft
+            kannt mr gstohle ware.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. SZENE.</head>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER :</speaker>
+            <stage>(kommt von rechts)</stage>
+            <p>Do komme nurr ering, ihr sin jo ganz vestawert.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>’S GROSSBUERE LENZ :</speaker>
+            <stage>(mit Frau un Sohn komme erin. Er isch gross, arig fett un geht mit breite Schritt, sie isch
+            mauer wie e Bohnestang, grad wie dr Sohn Xaveri au. Sie draue richi Bürekleider von
+            Geischspitze)</stage>
+            <p>Ja, Stowolder, diss hatte mir üns jetz nit namme lohn, — do har ze komme. « Ass » heit as gsaöt,
+            ’s isch nit ze mooche,
+            <pb n="31"/>mr finge kenn dr Zitt’ — awer ass isch doch ze mooche gewahn. Ass geht ‘-s halt nix
+            üewer d' Friendschaft. Nit, ass isch jo nit wäje-n-em Ase, — üss em Ase, do moch ich mir gar nix, do
+            gang ich nit e Mole hingerm Offe efüere.
+             <stage>(Er geht breit in de Stub hin un here.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Ass isch mr arig racht, ass er kumme sin un ich dank öjch äu for d' Ehr wo ihr mr andhuen.
+             <stage>(Gitt jedem d' Hand.)</stage>  Dir Lanz, — un in dr Mej un äui im Xaveri. — E stolzer Burscht
+            isch er worre, öjere Xaveri.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Wie geht’s im Stall, — ’s Vieh alles gsünd, — isch d' Arn güet häme komme, hesch schun
+            gedrosche?</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Ich dank de Nochfröj, ’s geht, i bin zefridde. D’ Frucht isch so schöen gewahn wie zitter lange
+            Johre nit, — viel Stroh un ’s gitt guet üss im Seschter.
+             <stage>(Mr höert knelle i Hoft. Stawalder lüejt nüss)</stage> : Ah, do kommt grad ’s Barribüre Franz
+            von Dingelse — ich muess ejch jetz e Wenjele ellän lohn.
+             <stage>(Noch hinde ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>E gross Gedhuens macht er mit sinere Hieroterej.</p>
+          </sp>
+          <sp who="#mej">
+            <speaker>MEJ:</speaker>
+            <p>Ward öi gschieder gewahn, er hatt’s nit so füehrnahm gemoocht.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Ja, un mir kennte d’häime sitze biem e Kunskhthafe voll gschwellti Hardäpfel un wissem Kas. Nä,
+            ich fing’s besser so, — ass koscht so sin Gald. Un dr Xaveri müess äui inger d' Litt. Un dü, Xaveri,
+            vergass nit, was mr Lawesart häisst bie üns: Wammer inggelode isch, soll mr uff drej Sache Achting
+            gahn: mr soll nie meh drinke, ass mr mit aller Gewalt nunder bringt; mr soll nie meh aase, ass bis es
+            äm wider erufkommt; Un mr soll nie ehnder häme gehn, ass bis mr nüskejt wurd.</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI:</speaker>
+            <p>Jo — Voder — STAWALDER
+             <stage>(kommt erin, bie ihm sin: ’s Barribüre Franz un sini Frau. Alli zwei sin mauer un fascht
+            ärmlich angedhon. Tracht vom Kochersberri, geblüemti Schlupfkapp. Es sin Küehjbüre, — Büre, wo ken
+            Ross han un numme mit Küehj fahre)</stage> ;
+            <pb n="32"/>Growechrischtel
+             <stage>(alter Bür wo schlecht höert un mit ganz heller Stimm redd)</stage> .</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>So isch eracht, ass er kumme sin uns ass er uns d' Ehr andhüen. Läje jetz ab un mache, als ob er
+            dhäme warde.
+             <stage>(Rueft)</stage> : Katt! Célestine!</p>
+          </sp>
+          <stage>KATT un d' MAGD (hole d' Kleider un d' Mäntel un draue sie nüss.)</stage>
+          <stage>D' GAESCHT (begrüesse sich)</stage>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL :</speaker>
+            <stage>(zuem Lanz)</stage>
+            <p>GROWE Un was mocht öjre ander Jung, de Muchele?</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Ar isch jo schun 6 Monet ghierot.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Hä?</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ :</speaker>
+            <stage>(im Chrischtel lütt ins Ohr)</stage>
+            <p>Ar isch ghierot.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Ghierot, — ah so!</p>
+          </sp>
+          <sp who="#mej">
+            <speaker>MEJ:</speaker>
+            <p>Ja, ar hett e rich Mäide bekumme, — e gross Anwase, vier Ross un e Mischthüffe, so gross wie e
+            Hüss.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Was isch mit dem Mischthüffe?</p>
+          </sp>
+          <sp who="#mej">
+            <speaker>MEJ :</speaker>
+            <stage>(lütt ins Ohr)</stage>
+            <p>Aei, do hett er ning ghierot.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Ah so.
+             <stage>(Paus.)</stage>
+            </p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ:</speaker>
+            <p>Schlacht Watter, — mr haön Nordwind.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Hä?</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ:</speaker>
+            <p>Schlachter Nordwind hammer.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Ja, ja, de Nordwind kann hare komme, wo ar will, ze-n-isch'er allewiel nix Nutz.</p>
+          </sp>
+          <sp who="#mej">
+            <speaker>MEJ :</speaker>
+            <stage>(lüejt zuem Fenschter nüss)</stage>
+            <p>Do kommt d' Schilze von Bahle.
+             <stage>(Jetzt gitt’s 'e Uffrejung, de Basche, d' Katt, de Stawalder, d' Célestine, alles lauft durich
+            und noch rächts ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#mej">
+            <speaker>MEJ:</speaker>
+            <p>Zäj, Lanz, do lüj — alles in Sied. Nowel, nowel, wie unser Harr Chrischtüs im Sundimutze. Debie
+            hett se zallemols, wo de Schultz sie ass armi Küehjmöid ghierood hett, nix ghett ass e Hamd, un disch
+            isch gewahn wie e Fischernelz. (Erseht kommt jetz d' Célestine un drat e par Couverture, nod kommt de
+            Basche mit Mäntel, noch d' Katt mit Halsdüecher un Filzschlappe, un nod kommt:
+            <pb n="33"/>D'SCHILTZE VON BAHLE
+             <stage>(arig dicki Bürefrau von herrischem Wäse, in dr Tracht üss em Ackerland, ganz in Sied, mit
+            lange Schmuckkette um de Hals)</stage> ; DE SCHULTZ
+             <stage>(bedüechter Bür im Sundastaat, mauer ass er kleppert)</stage> ; EUPHROSINE
+             <stage>(ihri Dochter, dick wie d' Müeder, rooti Hoor, ’s Gsicht voll Summersprosse, bambelt als mit
+            ihre grosse Händ)</stage> .
+             <stage>(Uewerem Uesszeje von dene viele Mäntel, Mäntele, Halsdüecher un Fichus.)</stage>
+            </p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE :</speaker>
+            <stage>(sieht d' andere, wo schun do sin)</stage>
+            <p>Dü, Schultz, war isch dann dar Alt?</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>De Growechrischtel, wo schun drissich Johr lang saöt, ass ar bal starwe dhuet. Ar isch jetz 85
+            Johr alt un fahlt bie kem Ase.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE :</speaker>
+            <stage>(saat de andere Guede-n-Owe)</stage>
+            <p>Do lüej de Lanz, d' Mej un dr Xaveri.
+             <stage>(Sie redde liesli mitnander.)</stage>
+            </p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>DR SCHULTZ :</speaker>
+            <stage>(zuem Growechrischtel)</stage>
+            <p>Na, wie geht’s öjch, Chrischtel?</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Schlacht, schlacht — mr wurd als älter. — I mach jetz nimmi lang, I starb jetz ball.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>DR SCHULTZ:</speaker>
+            <p>Ass ihr noch dene witte Waj do hare gemacht han.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Jo, ich hab mr gsaöt, ’s isch, jetz doch ’s letschte Mol. Ihr kenne’s sicher glaöwe, d' Maöd hett
+            d' Pfann schun uf em Fier ghett.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>DR SCHULTZ:</speaker>
+            <p>Ha joh, — wajene-n-em Ase un Drinke geht mr jo nit hare.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Nadierli, waje dam gangt i nit e Mol zue de Dhüer nüss.
+             <stage>(Sie gehn meh in de Hintergrund.)</stage>
+              <stage>(D’ Wiebslitt komme jetz ze Wort.)</stage>
+            </p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>War hatt jetz diss gedankt, ass dr Stowolder noch e Mol hierode dhüet.</p>
+          </sp>
+          <sp who="#mej">
+            <speaker>MEJ:</speaker>
+            <p>Un ar soll mache wie nit gschied mit dam Gredel, veliebt wie e Aeichhöernel.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>Ja, ja, d' Lieb un de Hüeschte, die lohn sich schlacht vesteckle.</p>
+          </sp>
+          <sp who="#mej">
+            <speaker>MEJ:</speaker>
+            <p>Wie lang geht dann de Schang, sine Jung, noch in d' Schuele?</p>
+            <pb n="34"/>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>Nit ass ’s em emole geht wü dem Knacht, wo ich e Mol hab ghett. Dar isch früehjer Schriewer gewahn
+            un üss lütter Gewohnhäit heit ar ass d' Mischtgawel hinger’s Ohr stecke welle.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ:</speaker>
+            <p>Ho zall, d' Kopfarwäit isch fascht noch d' schwarscht, ich gsich’s an mine Ochse.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER :</speaker>
+            <stage>(vom Hoft her mit em Fritzel)</stage>
+            <p>So, do bring i noch e Kamerad vom Jean, ich hab ’ne ingelade, e Mumpfel mit i’s ze asse.
+             <stage>(Begrüessung.)</stage>  KATT un CELESTINE rüeschde de Disch.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>Han er mit em Ase nit warte wöelle, bis d' Wiewer üssgsprachelt han?</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Do kamte mir nie an de Disch, — wann d' Wiewer am Ratsche sin, vegasse sie noch ’s Starwe.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE :</speaker>
+            <stage>(wo grad dezue kommt)</stage>
+            <p>Dü hesch doch ’s Mül allewiel so g’striche voll, ass es dr alle Auesblick üewer läuft.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>A joh, a joh — —
+             <stage>(geht zue de andere Grupp. — D’Schiltze un Lanz ellan)</stage> .</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Wü mr jetz grad von nix andersch ze redde han, — wisste ner mr nit e Bardie for mine Jung, de
+            Xaveri? Awer e bissel e wifi, solidi,</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>Aei, mir han jo so e Massik.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Hoh, dass ward mir schun eracht, die zwäj daate guet zamme basse. Uensere, dar isch äui so e
+            wifer. Dar fangt de Dejfel im freje Fald.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>Redde-n-emol mit de Mej.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. SZENE.</head>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Kumme jetz an de Disch.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>Komme, ihr Manner, setze-n-ejch hare.</p>
+          </sp>
+          <stage>BASCHE (bsorrit de Wien un schenkt in)</stage>
+          <sp who="#fritzel">
+            <speaker>FRITZEL:</speaker>
+            <p>Ich glaub, mir wöelle z’erscht uff d' Gsundheit vom Hochzittspaar drinke.</p>
+          </sp>
+          <sp who="#_s_lipse_vadder">
+            <speaker>ALLI:</speaker>
+            <p>Alleh, Gsündhäit.
+             <stage>(D’ Kuttelsupp wurd uffgetraue in grosse geblüemte Suppeschüessle. Alles grifft dichti
+            zue.)</stage>
+            </p>
+            <pb n="35"/>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>Un ass de guet fallsch, Stawalder, dann zall Sprüechel häisst: Nammsch dü mich, dann hasch dü mich
+            — mag dir’s lieb säin oder nicht — — un: Ass isch ze spoot zuem Schnitze, wann d' Nas schun ewag
+            isch.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>Schultz, dü bisch gläuwi hitt widder Führmann.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Führmann?</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>Ah jo — ar hett frisch bschlaöje.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>I wurr doch äui emole ebs saöje derfe wo nix galt. Schunsch derf i nurre ebs säuje, wann mr mini
+            Fräuj ebs ze säuje iwri losst.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>Bie üns isch diss gued inggedählt: Wann mir drüsse sin, hett ar nix ze säuje — — wann mir awer
+            dhäme sin, nod haw ich ’s Wort — — ja, do isch Ordnung im Hüss.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>As geht mir äui nit besser, Schultz. Wäisch, was ich noch dhäm ze säuje hob? — Wann d' Küehj d'
+            Staj nuff will, nod kann i säuje: Oehla, Bless — — blie hidde. — Awer diss isch äui alles, was i ze
+            säuje hab. FRANZ
+             <stage>(macht sich wichtig un vesteht nit, ass d' andere ütze; ditt als mitt m Messer, ass mr meint,
+            er will d'andere ersteche)</stage> : Was, — nix ze säuje in de äjene Hüshalting, diss war ower. Wann
+            ich Garscht vekaöif im Möische, oder wann i mit em Metzjeri im Handel bin wäje-n-em e Stüeckel Vieh
+            —, do —, do lüj ich «ins» nurr an. Un wann « ass» noch am linke Fürdüchbangel zopft, häisst’s «nää »
+            — un wann ass ’s Füerdi glatt stricht, — « ja », — awer de Rascht, de Rascht hab ich ze säuje — — jah
+            —</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Franz, do sin ihr grad so e guedmietiger Ochsebar wie mir.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ:</speaker>
+            <p>Ja, guedmüeti bin i, zall isch wohr, — i dhat mr ’s Holz uff em Kopf hackle lohn, — awer in de
+            Hüsshalting, — do kann i nix, do loss ich mir nit ningredde. GROWECHRISCHTEL Chett bis jetz ifrig an
+            sinere Supp geleffelt, zupft jetz de Xaveri, wo näwe-n-em sitzt): Xaveri, gib mr noch Supp.</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI :</speaker>
+            <stage>(grifft an d' Schüessel)</stage>
+            <p>Sie isch awer schun e bissel kalt.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Diss macht nix, im Mäuje wurd se schun warm ware.</p>
+          </sp>
+          <stage>XAVERI (langt de Teller nüewer)</stage>
+          <pb n="36"/>
+          <stage>(Es wäre Platte mit gebachene Eier mit Speck eringetraue.)</stage>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ:</speaker>
+            <p>Aeier mit Spack, diss isch min Sach.
+             <stage>(Er nemmt sich e unverschämti Portion, esst griddi.)</stage>
+            </p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Heh, heh — un ich!</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ:</speaker>
+            <p>Ass isch gelunge — e Hüehn brücht 14 Daj for e paar Aeier ze läje, — e Fräuj e Viertelstung for se
+            ze baache un in zwäi Minütte isch alles gasse.
+             <stage>(Er macht sich ifrig dhinter.)</stage>
+            </p>
+          </sp>
+          <stage>STAWALDER (links ab)</stage>
+          <stage>(Paus.)</stage>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Mr mäint grad, ar kommt üss em Hungerland.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>SCHILZE:</speaker>
+            <p>Lehn ’ne — e Küehbierel. Die köenne halt nit genüe bekumme.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ :</speaker>
+            <stage>(losst d' Gawel falle, blitzt uff. Sine Frau zupft ’ne, er soll rüehwich sin)</stage>
+            <p>Dittlich redde, — dittlich redde, — nit uff de linke Füess ditte, wann de racht gemänt isch. Ihr
+            brüche ’s Mül nit im Sack b’halte.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE :</speaker>
+            <stage>(sitzt breit un b’häwich)</stage>
+            <p>Han ihr öjch gedroffe gfunge?</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ :</speaker>
+            <stage>(zue sinere Frau)</stage>
+            <p>Loss mich, wann mir äner e Fuess stellt, brüch ich em for ’s Leje nit ze danke. Mir warft kenner e
+            Klatt in de Belz.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ :</speaker>
+            <stage>(lacht)</stage>
+            <p>Ha — ha — hah.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>FRANZ:</speaker>
+            <p>Lache nurr, lache nurr, — lohn öjer Wangschtel hüpse. Wann ich äui e Küehjbierel bin un ken
+            Rossbür, — in dr Bürerej mache-n-ihr mir noch lang nix vor.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL :</speaker>
+            <stage>(redd au mit em Messer, wo er mit esst)</stage>
+            <p>Ganz racht hesch, Franz, un wo de racht hesch, do hesch de racht, diss isch so wohr, ass d' Sunn
+            am Himmel steht. Un bie de gröeschte Büre isch äui nit alles Butter was d' Küehj gitt.
+             <stage>(Esst widdersch.)</stage>
+            </p>
+          </sp>
+          <stage>STAWALDER (kommt von links zeruck, hinder ihm de Basche mit em e Arm voll Boudelle.)</stage>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>Ohoh, dü kommsch jetz schun mit Gebitschierde. Do ware mir jo schwammevoll noch vor de Zitt.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Hoh zall, de Stowolder wäiss, was sich ghöert.</p>
+          </sp>
+          <stage>Ass CELESTINE un KATT (bringe Sürkrüt mit Brotwurscht un Baandäschle)</stage>
+          <stage>CHRISCHTEL (steht glich uff un krejt z’erscht)</stage>
+          <pb n="37"/>
+          <stage>BASCHE (schenkt in un geht noch links ab)</stage>
+          <sp who="#mej">
+            <speaker>MEJ:</speaker>
+            <p>E güedi Köeche sin er, Katt.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ :</speaker>
+            <p>Die Bluetwüerscht, die sin jetz grad eracht im Gewürz, grad so hab ich se gare, so sin se gued.
+             <stage>(Sie drinkt in eim Zug ’s Glas leer.)</stage>
+            </p>
+          </sp>
+          <stage>KATT (widder links ab mit Célestine)</stage>
+          <sp who="#mej">
+            <speaker>MEJ:</speaker>
+            <p>Wann’s noch so gued isch, isch’s doch bal veschluckt.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Do hett mr sich so lang druff gfräit, un wie schnall isch alles gasse.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ :</speaker>
+            <stage>(löjt durich ’s Glas geje ’s Licht)</stage>
+            <p>Im Flaschel isch de Win jo gued, — awer ich män, im Fass halt ar sich doch noch besser.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Ho zall, diss isch awer numm, im e Flaschel isch er doch besser.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>SCHULTZ:</speaker>
+            <p>Was wäisch doch dü devon, dü mach’sch jo nix wie Burlegieges.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Ich? Hoh — wann dü schun gedrunke hatt’sch was ich.
+             <stage>(Sie komme in d’ Hitz.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Stritte öjch nit, — ich findt, de Wien, — in Manschehütt gschüett’t un spundevoll nochgfüellt,
+            isch noch am beschte. Allez Gsündhäit.
+             <stage>(Alli drinke ’s Glas leer.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER :</speaker>
+            <stage>(rueft nüss)</stage>
+            <p>Allez, ihr Müsikante, jetz spiele emole e Stüeckel.
+             <stage>(Geht zeruuck an de Blatz, zue de andere)</stage> : Nodhare schmeckt ’s Asse widder besser.</p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL :</speaker>
+            <stage>(zuem Xaveri)</stage>
+            <p>Von wellem Stüeckel redde sie?</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI:</speaker>
+            <p>Ich wäiss nit.
+             <stage>(Geht vom Platz, wie em siner Vadder winkt.)</stage>
+            </p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Diss isch allewaj diss Stüeckel, wo vorig Johr so weni Garscht hett gann.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ :</speaker>
+            <stage>(nimmt de Xaveri uff d' Sitt)</stage>
+            <p>Lüej, Xaveri, derte ’s Phrosin, diss ward so ebs fur dich.</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI:</speaker>
+            <p>Sie hett mi biem ganze Ase angelacht, so siess wie e Hafe voll Sürmilich.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Mir han mit sine Litt so witt geredd.</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI:</speaker>
+            <p>Was bekummt’s?</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>An de 20 Acker uff’s wenigscht.</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI:</speaker>
+            <p>Nod bin ich mit ingverschtande.</p>
+            <pb n="38"/>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Dratt e Mole äne mit ere. Awer dü müeh’sch’s äui zäje, ass de se hieroode witt.</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI:</speaker>
+            <p>Ich wills ere schun ze gschbiere gann, — ich will se hewe, ass ere d' Knoche im Lieb krache solle.
+
+             <stage>(D’ Müsikante sin erinkomme, hann sich an de Hinderwand uffgstellt, de Disch isch eweg
+            gerutscht worre, de Chrischtel isch mit gerutscht for widdersch ze esse.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Spiele jetz äns, was köenne ’ner?</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>E Hopser un e Ländler.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Kenne-n-er au de Rutsch hin — Rutsch her?</p>
+          </sp>
+          <sp who="#d_r_fisselbloje">
+            <speaker>FISSELBOEJE:</speaker>
+            <p>Ja nadierli. — Allez, une, deux.
+             <stage>(Stawalder engagiert d' Schiltze, de Schultz d' Mej etc. Sie danze, als ob se de Dielebodde
+            wodde indrette un krische un jüchse.)</stage>
+            </p>
+          </sp>
+          <sp who="#de_growechrischtel">
+            <speaker>CHRISCHTEL:</speaker>
+            <p>Ihr kenne daönze, ech hab noch Hunger.
+             <stage>(Er nemmt noch e Stüeck.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <stage>(höert uff mit Danze wie d' Schiltze veschnüfe müess. Er kommt ganz noch vorne, for
+            sich)</stage>
+            <p>Eb jetz de Jean schun derte isch? — Was macht jetz 's Gredel? Was söuje sini Litt?
+             <stage>(D’ Scène wurd langsam dunkel un verwandelt sich ins nächschte Bild.)</stage>
+              <stage>— RIDEAU. —</stage>
+            </p>
+          </sp>
+        </div>
+      </div>
+      <pb n="39"/>
+      <div type="act">
+        <head>Viertes Bild.</head>
+        <stage>Scène: Biem Gredel sine Eltre. E bissel ärmlichi, awer arig süferi Bürestubb. Links vorne e Dhüer
+        ins Hüss. Im linke Eck hinde e Bummeroffe mit Offestecke un Offebank. In de Hinterwand Dhüer un Fenschter
+        in de Hoft. Vorne rechts e Disch, süfer gedeckt. Gläser, e Krüejel Win un e Strüss Blüeme stehn druff. In
+        de Mitte von de Stubb steht e offener gemolter Bü- retrog, gfüellt mit Wäsch un mit dr Uffschrift: Dieser
+        Drog gehört Margareta Lips. A. D. 1866.</stage>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <stage>LIPSE VADDER (e Bür in wisse Hoor, gelähmt, sitzt in Hemdsärmel im Lehnsessel).</stage>
+          <stage>GREDEL (20 Johr, mit lange Zöpf, im Bliesel, knejt vor em, hett de Kopf in sine Gehre gelajt un
+          grient still. De Vadder stricht ere üewer d' Hoor).</stage>
+          <stage>LIPSE MUEDER (steht hinderm Lehnsessel un hett d' Hand vor de Aue).</stage>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Gredel, loss diss Griene jetz. Mir wisse jo, dü dhüesch’s for uns, unn wann d’s äui läigelsch, mir
+            wisse’s doch. Un gar bsundersch for mich, for mich arme lahme Krüeppel. Lüej Kind, dr Harrgott im
+            Himmel wurd drs vegalte, was d’an uns dhuesch, mir kenne’s nit. Kind, Gredel, dine Vadder un dini
+            Mueder wüensche dir, ass dr’s Lawe Rose bringe soll, ken Dorne.
+            <pb n="40"/>
+            </p>
+          </sp>
+          <stage>GREDEL (steht uff, bhalt awer d’Hand vom Vadder)</stage>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>’s isch jo äui hert for uns, dich jetz ewag ze gann. Dü bisch jo noch de änzich Glanz gsin in mine
+            drüewe Daj, un küenftigane müess ich äui dich noch misse... De änzich Troscht isch noch, ass de e
+            güede Mann bekommsch, wo dich sicher gare hett. Brüch’sch dich nit dran ze stöere, ass ar dich hit
+            nit salwer holt. Mir hann’s so üssgemacht. Als im Stowolder sini Fräuj hesch nix ze kläuje. Wäisch
+            jo, was ar schun alles for uns gedhon hett. Ar heit vedient, ass dü ne glüeckli mach’sch. Un wann dr
+            ebs schwar ankommt, nod dank’sch zeruck an dine Vadder, wo zitter sachzeh Johre an sine Stuehl
+            genäujelt isch
+             <stage>(krischt uff)</stage>  — — e Bür — — un lahm!</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Still, Vadder, still.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Un danksch an dini Mieder, wo die lange Johre hare gschafft hett for drej un nie äui nurr e Wort
+            velore hett.</p>
+          </sp>
+          <stage>MUEDER (lajt em d' Hand uff d' Achsel)</stage>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Ja, Mieder, ja, ich wäiss, dü witt nit, ass mr devon red. Drum bliewe mir do, was soll ich lahmer
+            Mansch im Hochzittstrüwel, un dini Mieder will nit gehn ohne mich. Es dhat sie doch nix fräie. Un
+            jetzt Gredel, drüeckel die Drahne. As isch e alter Bürespruch: Trü- richi Hochzittere, glüecklichi
+            Fräuj.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Ich wäiss nit, wie i’s üsshalt ohne öjch. Ach, ’s Harz isch mr jo so schwar. I mähn grad, im muess
+            üss dr Walt.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Im Stowolder, dim Hochzitter, sini Litt, ware bal do sin, dich aazehole, komme, mr wöelle-n-i-s
+            ferdi mache.
+             <stage>(Sie rolle de Vadder rechts ab.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. SZENE.</head>
+          <stage>Lissel, Rosel, Lenel, Evel, vier Kamerädle vom Gredel, luschtigi Büremaidle, komme vom Hoft
+          here. Erscht klopfe sie, wo awer niemes uffmacht, streckt zerscht ans de Kopf erin, nod komme sie alli
+          vier erin. Sie hann noch d' Zöepf hänke. Sie kittere. Nod sähn se de Drog, stupfe sich mit de Elleböje
+          un fange noch e Mole an ze kittere. Jedi draat ebs in ere Serviett un sie schmuggle’s in de
+          Drog.</stage>
+          <pb n="41"/>
+          <sp who="#lissel">
+            <speaker>LISSEL:</speaker>
+            <p>’s Hochzittshamb. Alli vier platze erüss mit kittere.</p>
+          </sp>
+          <sp who="#rosel">
+            <speaker>ROSEL:</speaker>
+            <p>Ich wott meh Spitze an de Wäsch.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>LISSEL:</speaker>
+            <p>Diss isch doch schöeni Wäsch, ich hab se halfe packe, Prachtswäsch isch diss.</p>
+          </sp>
+          <sp who="#lenel">
+            <speaker>LENEL:</speaker>
+            <p>D’ Wäsch ward mir gaönz egal, ich wodd vor allem e jüengere Hochzitter, was fangt dann ’s Gredel
+            mit eme so e Alde an.
+             <stage>(Sie kittere widder.)</stage>
+            </p>
+          </sp>
+          <sp who="#lenel">
+            <speaker>LENEL:</speaker>
+            <p>Un King wodd ich, e gaönze Disch voll King.
+             <stage>(Lissel un Lenel platze erüss.)</stage>
+            </p>
+          </sp>
+          <sp who="#rosel">
+            <speaker>ROSEL:</speaker>
+            <p>Redde doch nit so ungaddi.</p>
+          </sp>
+          <sp who="#evel">
+            <speaker>EVEL:</speaker>
+            <p>Wisse-n-ihr dann, wie’s im Gredel zue Müet isch? Ich wäiss es, ’s geht em wie mir’s in de Schuel
+            gelehrt han: Sie stehet mit Seufzern auf und leget sich mit Weinen nieder. Und verschmachtet an dem
+            Felsbrocken auf ihrer Brust. Un ihr? Ihr amesiere öjch noch driwer.</p>
+          </sp>
+          <sp who="#lenel">
+            <speaker>LENEL:</speaker>
+            <p>Mr mäne’s jo nit so. Mir bedüre ’s Gredel äui.</p>
+          </sp>
+          <sp who="#rosel">
+            <speaker>ROSEL:</speaker>
+            <p>Still, ’s kommt.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(ferdi angezöje, awer ohne d' Schlupfkapp)</stage>
+            <p>Diss isch jetz natt von öjch, ass er noch komme sin.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>LISSEL:</speaker>
+            <p>D’ vorne biem Schmidd sin d' Burscht bienand un lade d' Sackbuffer un d' Flinte. Diss gitt e
+            Gekrach’s wann er durichfahre.</p>
+          </sp>
+          <sp who="#lenel">
+            <speaker>LENEL:</speaker>
+            <p>Ja, han se gsäit, wann ’s Gredel äui kenne von üns gewellt hett, ze söells doch sine ord’tliche
+            Adjeh bekumme.</p>
+          </sp>
+          <sp who="#rosel">
+            <speaker>ROSEL:</speaker>
+            <p>Un d' Bas Lehn un 's Barrischuehmachers un ’s Schierejockels, öjri ganz Frindschaft hett schun
+            angspanne, un warde drüsse am Ingang vom Dorf uf em Stowolder sini Litt un wanner durichfahre, fahre
+            se mit. E stolzi Begläitung züem Dorf nüss bekommsch noch, Gredel
+            <note place="bottom">Alfred Pabst (Musée de Colmar no 680)</note>.</p>
+          </sp>
+          <sp who="#e_bue">
+            <speaker>BUE :</speaker>
+            <stage>(e Strüss im Arm, kommt eringerennt)</stage>
+            <p>E Sie komme, sie komme.
+             <stage>(Alles lauft ans Fenschter)</stage> .</p>
+          </sp>
+          <sp who="#e_bue">
+            <speaker>BUE:</speaker>
+            <p>...nit.
+             <stage>(Lauft nüss.)</stage>  Aehx.</p>
+          </sp>
+          <sp who="#lenel">
+            <speaker>LENEL:</speaker>
+            <p>Käiwe Bue.
+             <stage>(Alli bis uf”s Lissel gehn vom Fenschter eweg. Gredel schliesst de Trog züe.)</stage>
+            </p>
+            <pb n="42"/>
+          </sp>
+          <sp who="#lissel">
+            <speaker>LISSEL:</speaker>
+            <p>Doch komme sie, dert an de Kirich kommt e Wäuje um de Kehr, geziert, so gross ar isch un d' Ross
+            han Blueme un Bandel am Gschirr.</p>
+          </sp>
+          <sp who="#rosel">
+            <speaker>ROSEL:</speaker>
+            <p>Jetz, Gredel, jetz wurds Arnscht. Lab wohl, Gredel.
+             <stage>(Sie falle ere um de Hals.)</stage>
+            </p>
+          </sp>
+          <sp who="#evel">
+            <speaker>EVEL:</speaker>
+            <p>Un blie mr gsund.</p>
+          </sp>
+          <sp who="#lissel">
+            <speaker>LISSEL:</speaker>
+            <p>Un loss drs gued gehn.</p>
+          </sp>
+          <sp who="#lenel">
+            <speaker>LENEL:</speaker>
+            <p>Vegass uns nit, vegass uns nit.
+             <stage>(Sie umarme un veschmutze ’s Gredel.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(under Dräne)</stage>
+            <p>Ich bsüech ejch ball.</p>
+          </sp>
+          <sp who="#evel">
+            <speaker>EVEL:</speaker>
+            <p>Komm, ich half dr d' Kapp uffsetze.
+             <stage>(Beidi ab noch rächts.)</stage>
+            </p>
+          </sp>
+          <stage>VADDER, MUEDER, komme bal druff von rächts, Sundi angezöje. D’ Mueder druckt de Vadder uff sim
+          Stuehl, d' Kamerädle helfe. Uffrejung. Mr höert schiesse.</stage>
+        </div>
+        <div type="scene">
+          <head>3. SZENE.</head>
+          <stage>(Von hinte komme jetz e gröesseri Zahl Litt, Fraue un Männer im Sundaastaat, wo sich, im
+          Hintergrund halte. Vorne rächts stehn Vadder un Mueder, links de Jean, ’s Gredel isch noch nit do. Jean
+          hett ken Blueme am Huet.)</stage>
+          <sp who="#hochzittslaader">
+            <speaker>HOCHZITTLADER:</speaker>
+            <stage>(e Strüss im Knopfloch, mit eme Cylindre, e bissel ebs niederer als e Kamin, mit viele Bändel
+            un eme Strüss dran)</stage>
+            <p>De Hochzitter hett dran ghalte, noch e Mole alles uff d' Hochzitt ze lade.
+             <stage>(Er geht erum un gitt jedem d' Hand.)</stage>
+            </p>
+          </sp>
+          <sp who="#e_bue">
+            <speaker>EINER VON DE BUERE:</speaker>
+            <p>Ich gläub, dü bisch Handlanger worre, Schang?</p>
+          </sp>
+          <sp who="#hochzittslaader">
+            <speaker>HOCHZITTLADER:</speaker>
+            <stage>(zejt e Papier erüs, setzt de Huet fescht in de Kopf)</stage>
+            <p>Werte un geliebte Fräindschaft, Fräinde, Nachbarn und Bekannte. Die Uenderzäichneden haben die
+            Ehre, ahnzüzäigen, dass sie sich in äin äheliches Versprachen äingelassen haben, sodass am morgenden
+            Dage früh um 10 Uehr die Aeinsagnung und dann das Gaschtmahl säin wird. Zü dieser Fäierlichkäit
+            machen wir ünsere heflichste
+            <pb n="43"/>Aeinladung mit der innigschten Bitte, sie wollen ünsern Ehrendag mit eurer Arschäinung
+            zieren helfen. Für die Fraindschaft warden wir üns zäitlabens dankbar arwäisen. Wir bläiben äier
+            ergäbenschtes Bräuitpaar Martin Lenhardt, genannt Stawalder, Hochzäiter, Margareta Lips,
+            Hochzäiterin.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Bravo, Bravo.</p>
+          </sp>
+          <sp who="#_s_lipse_vadder">
+            <speaker>ALLI:</speaker>
+            <p>Bravo, gued geredd, ja ja, de Schang, ar kanns.</p>
+          </sp>
+          <stage>JEAN (isch rüewerkomme zuem Vadder un züe dr Mieder)</stage>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Dü bisch dr Schang, ’s Stawalders Sohn
+             <stage>(streckt em d’Händ ergeje, so gued ’s geht)</stage> .</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ja, de Vadder losst ejch viel Mol grüesse un saue, ihr solle sicher sin, ’s Gredel wurd als sini
+            Frau allewiel hoch eschtimiert sin, un nit ihr, nit es, wäre sich je beklaue kenne, ass ihr ’s em
+            gänn han als sini Frau. Wie ’s üssgemacht isch gsin, kommt er nit sälwer, ’s Gredel hole, un es dhuet
+            em arig leid, ass ihr nit au mit komme. Wenn ihr ejch doch entschlosse han, —- er hett mirs extra
+            gsat, — von alle Hochzittsgäscht sin ihr em d' liebschte nod.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER :</speaker>
+            <stage>(vedruckt e Trän im Au)</stage>
+            <p>Mir danke d'r, Jean, un äui dim Vadder, viel Mols ‚ viel Mols. ’s Gredel isch ünser ainzich Kind.
+            Domit isch alles gsäit.</p>
+          </sp>
+          <stage>MUEDER (isch rechts ab, kommt mit em Gredel zeruck)</stage>
+        </div>
+        <div type="scene">
+          <head>4. SZENE.</head>
+          <stage>GREDEL (kommt von rechts).</stage>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Do isch ’s Stowolders Jean un will di hole.
+             <stage>(E Moment lueje sich Jean un Gredel dief in d’Aue, noch zucke sie alli zwei zamme un griffe
+            noch em Herz.)</stage>
+              <stage>(Paus.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Dü bisch ’s Gredel.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(tonlos)</stage>
+            <p>Ja.</p>
+            <pb n="44"/>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ich — soll — dich grüesse — vom Vadder — un dir saue — ass er uff dich wart un dich hoch in Ehre
+            halte will — — —</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER :</speaker>
+            <stage>(macht dere e bissel gedruckte Stimmung e End)</stage>
+            <p>Un jetzt ihr Litt, dhuen uns d' Ehr an un drinke äns, ’s isch drüsse in de Schier gedeckt for
+            alli. Komm Mieder.
+             <stage>(Er wurd nüssgfahre.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_lipse_mieder">
+            <speaker>MUEDER:</speaker>
+            <p>Komme mit mir un lohn’s i gschmecke
+             <stage>(zue de Kamerädle vom Gredel)</stage> : Halfe mr Mäidle un schanke brav in, die Litt sin
+            durschti.
+             <stage>(D’ Litt gehn alli nüss.)</stage>
+            </p>
+          </sp>
+          <stage>JEAN un GREDEL (stehn stumm, noch ere Wiel)</stage>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(in diefschter Bewejung)</stage>
+            <p>Dü, dü bisch ’s Gredel! Dü? Dü hesch min Herz, dü hesch mir Daa un Nacht üssgfüellt zitter de
+            Zitt, wo mir uns gsähn han in de Stadt. Wie hab ich als an dich gedenkt. — Un so sähn mir uns
+            widder.</p>
+          </sp>
+          <stage>GREDEL (isch im Innerschte getroffe un hebbt sich, for nit umzesinke for Bewejung)</stage>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(stürzt vor em Gredel uff d' Knej, hebbt ihri Händ, vezwiefelt)</stage>
+            <p>Han dini Aue denn gelöje, wo mir uns gsähne han in de Stadt, am Dracheschlöessel, Da for Da. Han
+            se gelöje, wo sie mir han gsaat von Lieb un Gejelieb?</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <stage>(will sich, vom Gfüehl üewerwältigt, zum Hans bucke, liesli)</stage>
+            <p>Nein, sie han nit gelöje.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(springt uff)</stage>
+            <p>Gredel, Gredel!</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <stage>(kommt noch dem Moment, wo sie sich vergesse hett ghett, d' ganz Sitüation wider in. Sie nemmt
+            sich mit Gewalt zamme)</stage>
+            <p>Jean, diner Vadder, miner Hochzitter, wart uff mich.
+             <stage>(Ab noch hinde.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(isch wie verschmettert. E paar Moment isch’s still. Nur de Jean schnüft schwer. E wild’s,
+            verzwiefelt’s Lache brecht üss em erüss. Nod risst er sich zamme. Mit ere wilde Bewejung risst er d'
+            Dhüer uff un rüeft nüss)</stage>
+            <p>Hopp, uff de Waue, un voran. Mir fahre jetz! jetz! glich!! De Owe fallt un ’s fangt schun an ze
+            schneje. Voran, voran. Un läwe wohl.
+             <stage>(Ab noch hinde.)</stage>
+              <stage>(Mr höert Peitscheknelle, Schellekränz, Rüefe un Gelaufs. D’ Schüess krache.)</stage>
+            </p>
+          </sp>
+          <stage>ROSEL, EVEL, LENEL (stehn under de Dhüer, winke un hiele)</stage>
+          <pb n="45"/>
+          <sp who="#evel">
+            <speaker>EVEL:</speaker>
+            <p>Huh, isch diss jetz awer schnall gange. Wie bläich ’s Gredel isch.</p>
+          </sp>
+          <sp who="#rosel">
+            <speaker>ROSEL:</speaker>
+            <p>Lüej, wie dar d' Ross päitscht un wie sie ’s Dorf na raase.</p>
+          </sp>
+          <sp who="#lenel">
+            <speaker>LENEL:</speaker>
+            <p>Lüej, lüej, ”s Ross geht ene durich. Er wurd nimm Mäischter driwer. Halfe, ihr Litt
+             <stage>(lauft in de Hoft, wo’s e gross Gerenns gitt.)</stage>  Fahre ’n-em noch.</p>
+          </sp>
+          <sp who="#evel">
+            <speaker>EVEL :</speaker>
+            <stage>(sinkt uff de Stüehl)</stage>
+            <p>Diss fangt schlacht an. Adjeh min Gredel.
+             <stage>(Sie grient.)</stage>
+            </p>
+          </sp>
+          <stage>(Rideau.)</stage>
+        </div>
+      </div>
+      <pb n="46"/>
+      <div type="act">
+        <head>Fünftes Bild.</head>
+        <stage>Gejed im Schneewetter. Tannebaim im Wald, ganz verschnejt. D’ Aescht bilde e Dach. Es lejt hoch
+        Schnee un ’s schnejt als noch widdersch. Es isch Nacht, de Mond schient ganz schwach.</stage>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <stage>M’r höert de Sturm hiele un durich de Sturm s’ klingle vom e Schellekranz. ’s kommt naehdersch
+          un naehdersch un höert nod uff.</stage>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <stage>(von links. Er füehrt ’s Gredel, wo fascht ohnmächtig isch. Er suecht Schutz im Schurme von
+            dene Dannebaim)</stage>
+            <p>Verirrt, verirrt im Schnee. D’ andere sin witt zeruck, ich hab geglaubt, ich find do ’s Hüss vom
+            Unkel Franz. Nix, nix ass Schnee.</p>
+          </sp>
+          <stage>GREDEL (sitzt uff em e Felsstüeck.</stage>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Un doch bedür ich nix. So bin’ ich doch mit dir ellein
+             <stage>(knejt vor ’s Gredel)</stage> . Wie im e Fiewer, wie im Traum bin ich von dem Moment eweg, wo
+            ich dich widergsähne hab. Mir isch’s, ass hätt ich nit geläbt bis jetzt als hätt ich sinnlos, dumm im
+            Buech vom Läwe Da um Da e Blatt erumgedrähjt ohne an anzichs Mol au nurr e Satz ze läse un ohne ze
+            verstehn was drowe steht, was Läwe heisst.
+            <pb n="47"/>Un wie e endlos leeri Reih von leere Däj kommt mir min Läwe bis jetz vor. Däj, Wuche,
+            Monet, Johr, sie sin mir durich d' Händ gerollt grad wie e Kett üss wiss un schwarze Gralle. Jetz
+            isch die Kett verrisse und alles küllert durichenand. Jetz wach ich uff, jetz isch mir alles klor, de
+            ganze Wäj hetts in mir schun gebrüst un gstüermt, jetz müess i’s saue, un wenn ich’s in de
+            Schneesturm ruef: Gredel, Gredel, ich hab dich gern, schun zitter zällemols, wo dü mir gejenüewer
+            gsässe bisch, schun zitte zälle Däi wo mir uns gsähne han am Dracheschlössel. Die Lieb wo zällemols
+            schun in mir gebrennt hett, stäriker un heisser isch sie uffgflammt hitt, wo ich dich widerfind. Ich
+            weiss nix meh, ich denk nix meh, gejaut von Lieb, vom heisse Bluet un vom Velange noch dir bliehjt d'
+            rot Ros Liedeschaft mir üss dem Schnee.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Lonn mich, lonn mich, wo sin m’r?</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(steht uff)</stage>
+            <p>Verirrt, mittles im Schnee, mittles im Wald, mir zwei ellein.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Mir zwäi ellän, mir zwäi ellän? Gehn, Jean, lohn mich.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ich, gehn? Ich kann nit gehn, Ich kann au nit stille sin. Geh, sa im Bach, wenn er im Früehjohr
+            mit Gewalt durich Matte un Felder ins Dal rast, er soll düs sin. Sa dü im Sturm, wenn er üewer d'
+            Berri jaut un hundertjährigi Eiche üss de Wurzle hebt, er soll gemach dhüen. Sa dü mim Herz, wo
+            üewerströemt, sa dü mim Gfüehl, wo mir d' Bruscht fascht sprengt, sie solle sich beherrsche, sie
+            solle stille sin. Wie köennt ich saue, was ich for dich füehl? Kennt ich min Herz, min Denke, minni
+            Seel vor dir üssschüette, oh, es wärd e Tropfe nurr im Meer vom Gfüehl. Un alles was ich denk un was
+            ich bin, min ganze Herz, ich, ganz, drängt sich mir zamme in dem einde Wort: Ich hab dich lieb,
+            Gredel, ich hab dich lieb
+             <stage>(er knejt vor sie ane)</stage> .</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(lajt im Jean d' Hand uff de Kopf)</stage>
+            <p>Jean, dank doch an mich, an mini Eldre, an dine Vadder.</p>
+            <pb n="48"/>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Mir isch’s, als ob von je un je min Herz dich gsüecht hätt, un als ob alles Heimweh, wo mir im
+            Herz gebrennt hett, dir gegolte hätt, nur dir. Un ich sott jetz zeruckstehn?? Sott mich andere
+            opfere? Ich will min Rächt, ich will min aje Läwe läwe wie jeder in de Welt.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(im e helle Ton. Wie noch e’me Entschluss)</stage>
+            <p>E grossi Stille isch um uns. D’ Nacht wo am Himmel hängt, lejt schwer un schwarz, grad wie e
+            grossi Füscht uff mir. Kenn Starne züend in ünsri Finschternis. Durich de Winterwald schüettelt sich
+            wild de Schnee do hare. Do setz di ane, Jean, zue mir. Ich will mich an dich lahne un hab e so e
+            gross Vetröje in dich, als ob ich uff em Meer mich im e grosse Schiff vetröje dat.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ja, Gredel, dü hesch rächt. Ich bin grad wie e Schiffsmann, wo’s Rueder hett veloore uff em Meer
+            un jetz im Sturm erumtriebt. So trieb ich uff dem dunkle See von dere Nacht au ohne Rueder uf dem
+            Meer von Gfuehl un Lieb.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Mir wöelle jetz do bliewe, Jean.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Nein, nein, dü sterbsch mr jo.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Mr wöelle bliewe.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Dü sterbsch!</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(wie e Hüch)</stage>
+            <p>Ja, mit dir, mit dir, ja.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(weich)</stage>
+            <p>Gredel, ich möecht de Schnee dr von de Lippel schmutze, nit meh, ass mr e Ros schmutzt.
+             <stage>(Sie wehrt sich nit.)</stage>
+              <stage>(De Mond kommt silwerich üss de Wolike.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(springt uff)</stage>
+            <p>Nein! Töisigmol nein! Diss isch kenn End, diss isch e Anfang vom Läwe.
+             <stage>(’s höert uff mit schneje.)</stage>  Wie bliehjt uns froh un farwig ’s Läwe uff, mittles im
+            Schnee. Komm Gredel, komm, e stariks Herz find’t Wäj un Stäj. E wildi Fraid packt wie e Fiewer mich.
+            Zeruck! Zeruck in ’s Läwe. Komm, Gredel, komm.</p>
+            <pb n="49"/>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Ich kann nit, loss mich do.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>De Schnee höert uff, wittlos sieh ich e Licht. ’s isch ’s Hüss vom Unkel Franz.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(knejt un hebbt d' Händ in d' Höeh)</stage>
+            <p>Loss mich do bliewe, Jean, loss mich do im Schnee. Geh, geh, üss Mitlied oder üss Lieb, geh!</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Komm, Gredel, komm. Witt macht uns ’s Läwe ’s Dhor uff. Blueme un Kränz un ’s Früehjohr wart uff
+            uns.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Zeruck jetzt nä, ich kann nit.
+             <stage>(Sie schlat d' Händ vor ’s Gsicht.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Lüej derte ’s Licht. De Sterne in de Nacht. Nurr e par Schritt un mir sin dorte.
+             <stage>(Er zejt sie züe sich.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Nä, Jean. Nä, nä. Oh.
+             <stage>(Sie sinkt ohnmächtig Jean in d’Aerm.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(drat sie furt un rueft)</stage>
+            <p>Franz, heh, Unkel Franz.
+             <stage>(Verwandlung bie offener Scène oder Zwischeaktsvorhang.)</stage>
+            </p>
+          </sp>
+        </div>
+      </div>
+      <pb n="50"/>
+      <div type="act">
+        <head>Sechstes Bild.</head>
+        <stage>D' Stubb biem Unkel Franz. E kleini Bürestubb, Vorne links e Dhüer un e Fenschter. Hinde schrägs e
+        Stäj noch owe. Näwets e gemolter Trog. An der Hinterwand e Bild.</stage>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <stage>(Es isch diefi Nacht. De Unkel Franz, e alter Bürsmann in schlooswisse Hoor sitzt näwe me
+          Oellicht im e Sessel, e Deck uff de Füess, näwe-n-em Offe. Er hett e grossi Biwel uff em Geere un läst.
+          Er hett e Brill uff un fahrt mit em Finger noch. ’s müess so geläse wäre, ass dr Sinn vom Gelä- sene
+          verstande wurd un nit komisch wirkt.)</stage>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Unser Leben währet siebenzig Jahre, Und wenn es hoch kommt, so sind es 80 Jahre, Und wann es
+            köstlich gewäsen ist, So ist es Mühe und Arbeit gewäsen, — Denn wir fahren schnell dahin, als flögen
+            wir davon
+             <stage>(er höert uff un horicht)</stage> . Rueft do nit ebber? ’s isch allewäj de Wind oder e Stüeckel
+            Wild, wo sich veloffe hett
+             <stage>(klappt d' Biwel widder uff, horicht widder, geht ans Fenschter, macht's uff, de Jean steht
+            vor em Fenschter)</stage> . Jean, dü? Ich komm, ich komm.
+             <stage>(Er geht nüss un kommt zeruck mit)</stage> .</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(wo ’s Gredel uff de Aerm drat. Er lajt’s in de Sessel, zuem Unkel Franz)</stage>
+            <p>E bissel Wasser.
+             <stage>(Unkel ab.)</stage>  I wott, ich köennt dich immer widdersch draue, witt furt, witt furt.</p>
+            <pb n="51"/>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(bedracht ’s Gredel)</stage>
+            <p>Klar wie e Quell uff ere Früchjohrsmatt, zart wie e Lilieblüem glänzt jetz din Gsicht, dr Glanz
+            vom Mond, ’s Wisse vom Schnee isch druff gebliwe.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(bewejt sich)</stage>
+            <p>Jean, — Jean! — — —</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(mit diefer, küm unterdruckter Fraid)</stage>
+            <p>Sie rueft noch mir, noch mir!</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL :</speaker>
+            <stage>(bringt Wasser im e Kruej)</stage>
+            <p>Do, Jean.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Es geht schun besser.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Ich hol ebs Warms züem drinke.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Ja, ja.
+             <stage>(Unkel widder ab. Weich)</stage> : Gredel, mach dini Aue uff un loss in ihrem klare Glanz mich
+            untergehn wie im e Meer von Lieb.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(kommt züe sich)</stage>
+            <p>Lieb — Lieb. —
+             <stage>(Sie macht d’Aue uff, lüejt lang de Jean an, lüejt ganz langsam in de Stubb erum, dief
+            drürich)</stage> : Ohhh, wo sin mir? Jean, verum hesch mich dann nit im Schnee gelohn? Dert isch’s so
+            schöen gewahn. Aen Aeujesblick bin i glüeckli gewahn. Verum müess i zeruck in ’s Lawe jetz?</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(zärtlich)</stage>
+            <p>Redd nit so, Gredel. Sieh’sch, ich bin jung un lüej mit feschtem Blick in d' Zükunft, in ’s Läwe,
+            wo ich for dich uffböje will, for dich, mit dir, an dinere Sitt. Ich sieh die Schwierigkeite un ich
+            weiss, ass ich sie alli zwing, mit dir, un waje dir.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(dief drürich, resigniert)</stage>
+            <p>Nä, nä.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. SZENE.</head>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL :</speaker>
+            <stage>(kommt zeruck mit ere Schüessel heisser Milich, gibt sie im Gredel, wo sie schluckwies drinkt.
+            Er setzt sich uff d' Offebank)</stage>
+            <p>So, un jetzt Jean, saö, was do los isch. Diss isch doch ’s Lipse Gredel, d' Hochzittere von dim
+            Vadder.</p>
+          </sp>
+          <stage>GREDEL (zuckt zamme, wie wenn ere erscht jetz widder alles inkomme dhuet)</stage>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>D’ Ross sin m’r durich uff em Wäj for ham. Ich bin vom rächte Wäj abkomme. Un wie diss
+            Schneewetter immer äriger worre isch, hab ich züe ejch gewöellt. D’ gross Klamm, unwitt von do, isch
+            voller Schnee gsin.
+            <pb n="52"/>Drum hab i ’s Ross guet zügedeckt, im Schurme angebunde un mir han unter de Danne Schutz
+            gsüecht. Wie noch de Mond erüs isch komme, ’s Wetter au nochgelohn hett, bin ich do here mit em
+            Gredel. Un von de Uffrejung, vom Sturm un Schnee isch’s em schwach worre.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL :</speaker>
+            <stage>(noch ere kleine Paus)</stage>
+            <p>Un jetz?</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(hett d’Schüessel eweg gstellt, zuem Unkel)</stage>
+            <p>Jetz füehre Ihr mich widdersch.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(lütt)</stage>
+            <p>Wo ane?</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Zuem Stowolder, uff d' Hochzitt
+             <stage>(sie hielt still)</stage> .</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(schrejt uff)</stage>
+            <p>Gredel!!</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Jean? Gredel? Gredel, dü hielsch? So isch’s? Ja, ’s Früehjohr un dr Herbscht sodde nit zamme
+            komme.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Gued, Unkel Franz, Ihr sin dr Aeltscht in unserer Familli, un alli gehn, ejch Roots ze fröje. Ich
+            will ejch alles saue. Roote uns noch. — ’s Gredel hett jo im Vadder nurr züegsat wäje ihre Eldere un
+            üssere Umständ. Mir han uns in de Stadt schun kennt ghett un wo mir uns hitt widdergsähne han, isch
+            d' Lieb uff’s Neje uffgebrennt in uns un ich, wo nie vorher e Maidel gärn hab ghett, hab jetz ken
+            anderer Gedanke meh in mir als « Gredel ».</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL :</speaker>
+            <stage>(lüejt vor sich ane)</stage>
+            <p>Macht au e Brand sich Sorje, verum ar üssgebroche isch? Odder de Bach, verum ar alles
+            üewerschwammt? Un dü, Gredel?</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Spare mr d' Antwort. Ich derf min Harz nit redde lohn, ich derf nit. Gitt’s dann kenn Waj, ass
+            alles widder guet wurd?
+             <stage>(in grosser Not)</stage> : Gott, grosser Gott, zäj mir e Uesswaj.
+             <stage>(Sie schlat d' Händ vor ’s Gsicht un schluchzt.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <stage>(fallt uff d' Knej vor ere, lajt de Kopf in ihre Gehre, schluchzt)</stage>
+            <p>Gredel, Gredel.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL :</speaker>
+            <stage>(langsam)</stage>
+            <p>In mine junge Johre han mr gsunge: Käin Feuer, käine Kohle kann brannen so häiss, Als haimliche
+            Lieb, von dar niemanden wäiss</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Was han mir denn verschuld’t, ass mir so bitter weh miehn liede?</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>O Bue, d' Fröj noch de Schuld hett grad so wenni Wart wie Röje. Jetz höere mich.
+            <pb n="53"/>Dü, Hans, dü wäisch, was d' witt. Dü witt nit schwimme wie ’s Wasser läuft un mit em
+            Kopf witt durich d' Wand. Dü fröjsch noch nix. Doch mit em Gredel isch’s ebs andersch’s. Ich sieh
+            zwäj Waj for öjch. Dr erscht: ’s Gredel geht morn uff d' Hochzitt un dü, Jean, in d' Framde. Un
+            erscht wann dine Vadder d' Aeuje gschlosse hett, nod köenne ihr öjch widder sahne. Dr zwäit: ’s
+            Gredel fahrt morn zeruck zue sine Litt. Dü fahrsch zue dim Vadder un saöjsch em alles, alles hoor un
+            klän. Ar soll noch saöje, ob ar ’s Gredel frej gitt. Diss isch, was isch ass Uesswaj sieh. Ass isch
+            spoot in dr Nacht. Dü, Jean, gehsch jetz, holsch Ross un Wäuje hare un stell’sch se in de Schopf. Nod
+            schloof’sch dü do am Offe, nawe mim Sassel. Dü, Gredel, schloofsch dowe in minere Kammer, un unsere
+            Harrgott soll dr Kraft un Müet ingann, dann dü hesch morn ze säuje, was gschahne soll.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Gredel...</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Kenn Wort meh, Jean. Mach, wie ich gsaöt hab.
+             <stage>(Zajt em d' Düehr, Hans ab.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. SZENE.</head>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Komm, Gredel, komm.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Wie bin ich unglüecklich.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Gredel, ich bin jetz 82 Johr alt un hab viel Mansche kannt im Lawe. Un hab viel Manschelawe gsahn.
+            Un ’s kommt mr vielmols vor, ass ob se alli unglüecklich warde gsin. Ich gläub, d' ganz Kunscht im
+            Lawe isch, glüecklich ze schiene, un was mr isch oder nit isch, niemes ze zäje. Kind, zwäieachzig
+            Johr sin lang, awer wann ich an alli, wo ich als Mann un Fröj kannt hab, zeruck dank, noch wäiss ich
+            äui nit zwäi, wo ganz glüecklich sin gewahn. E Fräu wo zäit, ass se unglüeckli isch, die wurd
+            veracht, veracht von alle denne, wo grad wie sie, znachts ins Kopfkisse bisse vor Harzweh un Elang un
+            doch am Daö e hall’s zefriddes Gsicht de andre zähje miehn. Un jetz geh, Kind, un schloof, wann’d
+            schloofe kannsch.
+             <stage>(Gredel ab, d' Stäj nuff.)</stage>
+            </p>
+            <pb n="54"/>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL :</speaker>
+            <stage>(setzt sich widder, nämmt d' Biwel widder un läst)</stage>
+            <p>Wenn ich mit Menschen und mit Engelzungen redete und hätte der Liebe nicht, so wäre ich äin tönend
+            Erz oder äine klingende Schelle
+             <stage>(klappt d' Biwel züe)</stage> . D’ Lieb isch ’s gross Läid in dare Walt.</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(kommt zeruck)</stage>
+            <p>’s isch bsorrit, Unkel Franz.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Do, wickel di gued in un rüehj di üss.
+             <stage>(Paus.)</stage>  Dowe lejt’s Gredel jetz un hielt sich d’Aue rot um dich. Dü bisch do unde un
+            denk’sch nurr an ihn’s. Armi Kinder. Ich geh jetz ’s Hüss verrejle, ich bin grad zeruck.
+             <stage>(Ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(wickelt sich in d' Deck un lajt sich vor d' Stäj)</stage>
+            <p>Do will ich dich erwarte. Un d' Stross in d' Züekunft soll mir mit helle Träim wie Bluemestriss am
+            Wäj gsaimt sin. Grad wie uff silwerige Wolike zej uff de Traim ich in de Sehloof.
+             <stage>(Im Inschloofe)</stage> : Bisch dü au nimm bie mir, um mich isch d' Luft, wo dini Sprooch
+            gedraue hett. O süesses Bild, ich sieh dich noch. Dü steh’sch vor mir, dü lüej’sch mich an, un dini
+            Aue glänze.
+             <stage>(Er schlooft.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. SZENE.</head>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL :</speaker>
+            <stage>(kommt zeruck, bedracht de Jean)</stage>
+            <p>’s gröescht Glüeck, ’s gröescht Läid, alli zwäj häisse sie: Fräuj
+             <stage>(er setzt sich in de Sessel, will ’s Licht üssblose)</stage> .</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(kommt d' Stäj erab, rüeft lies)</stage>
+            <p>Unkel Franz.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Was, Gredel, dü? Bscht still, de Jean schlooft.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(bliet unde an de Stäj vor em Jean stehn)</stage>
+            <p>Ich bitt öjch um alles in de Walt, füehre mich furt, glich, glich.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Wo anne?</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(langsam, fescht)</stage>
+            <p>Zuem Stowolder.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Dü hesch schwassiert?</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Ja.</p>
+            <pb n="55"/>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Fescht, felsefescht entschlosse?</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Ja.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Gredel, bedank di gued for dene Schritt ze mache. Er schäid’t for immer dich vom Jean.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(steht als noch zwische Stäj un em Jean)</stage>
+            <p>Ar schlooft un lächelt lies im Traum. Schloof, schloof, noch kommt de Daö nit, wo dich gröjsam
+            weckt.
+             <stage>(Zuem Unkel)</stage> : Mir isch’s, wie wann alles in mir in Stüecker vebrache dhat. So schwar,
+            so bitter isch dar Schritt, dann ich drat uff min äje Harz. Awer ich müess dene Schritt dhuen
+             <stage>(sie schritt üewer de Jean eweg un kommt vor zuem Unkel Franz)</stage> : Was lejt an mir, nit
+            äne Buechstawe derfe mini Eldre wisse.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>Ich hab nurr noch e kläne Waj zuem Grab un ich kann stille sin.</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>Ich hab de Jean gare, o, dr Harrgott wäiss es, awer ich kann und kann im Vadder un in de Mueder
+            diss nit andhüen. Un wann i furtläuif bis ans And dr Walt, ass nutzt jo nix, dann jede Schritt
+            krischt’s hinder mir: hesch dini Eldere in d' Schand gebroocht. Un schlacht bisch geje dene gewahn,
+            wo dine Eldre nurr Gueds gedohn hett. Hesch em d' Hochzitt zuegsaöt un hesch din Wort gebroche. Von
+            mir will ich nit redde, d'r Stowolder soll nie e Grund zuem kläuje han, ich bring ne nitt ins
+            Geredd’s.</p>
+            <p>Nie hab ich üewer de Stowolder e ungrads Wöertel höere säuje. Un ich sott geje ’ne schlacht sin,
+            wie mr nit schlachter sin kann, un ich sott mache, ass mr uff minni Eldre mit Finger ditt, nä, nä,
+            diss derf ich nit. Ja, Unkel Franz, diss ich de Waj. De Jean schlooft un eb ar uffwacht, müess ich
+            furt sin. Mir fahre glich, morn isch d' Hochzitt, un wann ar häme kommt, isch alles gschahne
+             <stage>(dief drürich)</stage>  alles gschahne.
+             <stage>(Im Fenschter wurd’s gröjer Morje.)</stage>
+            </p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL:</speaker>
+            <p>’s erscht Licht steht schun im Fanschter uff. Gab dir de Harrgott, ass dü’s nie beröjsch. Mir
+            fahre in Gotts Namme. Was dir de Himmel schickt, namm’s an un traöj’s geduldi.
+             <stage>(Unkel geht ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL :</speaker>
+            <stage>(bliet stehn un presst d' Hand geje ’s Herz)</stage>
+            <p>For immer, Jean, lab wohl
+             <stage>(sie schluchzt am Disch)</stage> .
+            <pb n="56"/>
+            </p>
+          </sp>
+          <stage>UNKEL (kommt zeruck un füehrt sie nüss)</stage>
+          <stage>(Gredel lüejt im Nüssgehn als furt uff de Jean. Zue de Dhüer bloost de Wind erin. Mr höert
+          drüsse de Schellekranz wittersch un widdersch eweg.)</stage>
+        </div>
+        <div type="scene">
+          <head>5. SZENE.</head>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(wacht uff)</stage>
+            <p>O süesser Traum, köennt ich dich hewe, blie, blie, farwiger Papillon. Niedischi Nacht, loss mir
+            diss Gschenk vom Himmel
+             <stage>(er setzt sich uff)</stage> . Gredel! Gredel!!
+             <stage>(Er höert de Schellekranz un sieht de leere Sessel vom Unkel.)</stage>  He, Unkel Franz!
+             <stage>(Er springt uff. lauft d' Stäj nuff, kommt in grosse Sätz erab.)</stage>  Leer, alles leer!
+             <stage>(Springt ans Fenschter, mr höert noch de Schellekranz. Brielt uff)</stage> : Furt, furt.
+             <stage>(Fallt, in ere Ohnmacht nohd, an d' Wand, nod nämmt er sich zamme, streckt d' Aerm
+            üss)</stage> : Gredel, Gredel.
+             <stage>(Wo er d' Dhüer uffmacht, blosst em de Sturm entgeje, er geht.)</stage>
+            </p>
+          </sp>
+          <stage>(De Rideau fallt langsam.)</stage>
+        </div>
+      </div>
+      <pb n="57"/>
+      <div type="act">
+        <head>Siwetes Bild.</head>
+        <stage>D’ Stubb biem Stawalder üss em 3. Bild Scène: D’ganz Hochzitt isch do bienand. An de hintere Sitt
+        steht de Disch un de Notari sitzt dran. Vor em Disch sitze de Stawalder un ’s Gredel, alli zwei im grosse
+        Hochzittsstaat. De Stawalder hett e dunkler langer Kirichemutze an, mit farwige Bändel am Arm. ’s Gredel
+        isch im Sundaastaat un drat ’s Hochzittskroenel, e hochi Kapp üss Silwer- un Goldflitter. De Räscht von
+        de Inrichtung isch wie im dritte Bild, au de Lehnsessel steht im Hintergrund an de Wand.</stage>
+        <div type="scene">
+          <head>1. SZENE.</head>
+          <sp who="#de_herr_notari">
+            <speaker>NOTARI :</speaker>
+            <stage>(arig kurzsichtig, ohne Brill, läst)</stage>
+            <p>Contrat de Mariage. — Au nom de la loi — — Herrgott, dass ich awer au mini Brill vegesse muess — —
+            —
+             <stage>(läst)</stage> : Da die beiden:</p>
+            <p>Martin Lehnhardt, genannt Stawalder;</p>
+            <p>Margareta Lips</p>
+            <p>miteinander die Ehe eingehen wollen — ich sieh’h fascht nix, — na do läse’s sälwer, — ich kann’s
+            ejch doch nit vorläse.</p>
+            <stage>(Er gibt im Stawalder ’s Schriftstüeck.)</stage>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER :</speaker>
+            <stage>(läst’s un gitt’s im Gredel)</stage>
+            <p>’s isch alles eracht un nix vegasse. — Wo solle mr anneschriewe?</p>
+          </sp>
+          <sp who="#de_herr_notari">
+            <speaker>NOTARI:</speaker>
+            <p>Do unde ane, wo ’s Datum isch.
+            <pb n="58"/>
+            </p>
+          </sp>
+          <stage>STAWALDER (schriebt de Namme ane)</stage>
+          <stage>GREDEL (unterschriebt au)</stage>
+          <stage>(In dere Zitt wo die zwei underschriewe, spielt sich vorne die klan Scène ab)</stage>
+          <stage>BARREBUERE FRANZ (hett de Kopf vewickelt, setzt sich in * de Sessel)</stage>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <stage>(zuem Schultz)</stage>
+            <p>Drüsse in de Kiche sitzt de alt Growechrischtel un wurd nimmi ferdi mit em Zmorjenase.
+             <stage>(Sie setzt sich.)</stage>  Diss isch mr jetzt e Nocht gewahn. I muess mi setze, ich kann nimmeh
+            uff d’Füess stehn.</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>DR SCHULTZ:</speaker>
+            <p>I hab dr gsaöt, daönz nit so wiedi. Dü bisch jo nacht grod wie von de Kett gewahn.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>Dü, Schultz, werum hett dann diss Küehjbierel de Kopf so vebunge?</p>
+          </sp>
+          <sp who="#de_schultz">
+            <speaker>DR SCHULTZ:</speaker>
+            <p>De Basche hett mr gsaöt, dar isch die Nacht in de Vollhäit am Platz von de Dhüer zuem Fanschter
+            nüssgange un üss em erschte Stock erunder in de Hoft gepflatscht. Un wann er nitt uf de Mischthüffe
+            kejt ward, nod hatt er noch ebs brache köenne.</p>
+          </sp>
+          <stage>XAVERI un ’s EUPHROSINE (gehn vebej. De Xaveri hett d' Händ in de Hossesäck un rennt als im
+          Euphrosine mit de Achsel in de Buckel als Zeiche von sinere Zärtlichkeit.)</stage>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>Aeuj schun uff, Xaveri?</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI:</speaker>
+            <p>Ja — -— de Vadder mänt, mr sotte-n-is am Sundi anschläuje lohn un in 4 Wuche Hochzitt mooche.</p>
+          </sp>
+          <sp who="#d__schiltze_von_bahle">
+            <speaker>D’ SCHILTZE:</speaker>
+            <p>Do sin er also äni mitnang?</p>
+          </sp>
+          <sp who="#xavier">
+            <speaker>XAVERI:</speaker>
+            <p>Mir haön’s in Richtigkäit gebrocht die Noocht.</p>
+          </sp>
+          <sp who="#euphrosine">
+            <speaker>EUPHROSINE:</speaker>
+            <p>Hi-hi-hi-hi.
+             <stage>(In däre Zitt isch ’s Underschriewe ferdi worre.)</stage>
+            </p>
+          </sp>
+          <sp who="#de_herr_notari">
+            <speaker>NOTARI :</speaker>
+            <stage>(isch vorkomme, gibt de Hochzittslitt d' Hand)</stage>
+            <p>So un jetz wüensch ich Ihne viel Glüeck in de Ehstand!</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Un Sie wöelle-n-uns nit d’Ehr andhüehn, Harr Notari un bie uns ase.</p>
+          </sp>
+          <sp who="#de_herr_notari">
+            <speaker>NOTARI:</speaker>
+            <p>Es geht leider nit. Sie wisse jo, ich bin dodrum so früehj komme, wiel ich in ere Stund dheime bie
+            mir e gross Vente d'immeubles hab. Also noch emol, excusez-moi! — Au revoir, la compagnie, et bonne
+            journée!</p>
+            <pb n="59"/>
+          </sp>
+          <sp who="#_s_lipse_vadder">
+            <speaker>ALLI:</speaker>
+            <p>Adjeh, Harr Notari, adjeh.</p>
+          </sp>
+          <sp who="#_grosbure_lanz">
+            <speaker>LANZ:</speaker>
+            <p>Dar Notari, dar isch besser als ünsere, saller gangt nit zue de Litte ins Hüss, zue dam mueh’sch
+            häme komme un nod kannsch stungelong worte. Dann gewöehnli dhuet er jächtle oder fische.
+             <stage>(Er veliert sich mit de andere Büre im Hintergrund.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER :</speaker>
+            <stage>(kommt mit em Basche un Unkel Franz vor)</stage>
+            <p>Isch de Jean als nonitt do?</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL FRANZ:</speaker>
+            <p>Nä, was witt, diss Schneewatter hett em arig züegselzt. Ar isch die Luft halt nit gewohnt wie mir.
+            Wo ich mit em Gredel bie mir dhäm furt bin, hett ar fescht gschloofe.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Ich hatt ’ne doch nit schicke söelle de Jean. Ich hab im Gredel un sine Lätt e Ehr wöelle andhuen.
+
+             <stage>(zuem Basche)</stage> : Geh, säuj in de Katt, se soll guet warm han üeweral — ich wäiss nit, ’s
+            Gredel isch so bläich.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ich bsorri’s, Mäischter.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Un noch ebs Basche. Wann de Jean häme komme dhuet; am beschte glich ins Bett mit em, d' Katt wäiss
+            jo Bschäid.
+             <stage>(Zuem Unkel Franz)</stage> : Ar isch so glich im Fiewer dar Bue.
+             <stage>(D’ Glocke fange an, zamme ze litte.)</stage>  Mache öjch äui ferdi, Unkel Franz, for mit in d'
+            Kirich ze gehn.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL FRANZ:</speaker>
+            <p>Nän, Stowolder. Die Nacht isch lang gewahn. E kläner Nicker schad’t mr nix.
+             <stage>(Setzt sich in de Sessel.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>Ze welle mr.
+             <stage>(Ab noch links.)</stage>
+            </p>
+          </sp>
+          <stage>D’MUESIKANTE UESS EM 1. BILD (komme von hinde, bliewe an de Dhüer stehn. Alli andere stelle sich
+          ze Päärle. Es gitt e bissel Durichenander; es wurd geruefe: «Mej, geh’sch do hare!» — «Schulz, mach
+          fuerschi !» etc. Au de Fritzel geht mit.)</stage>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <stage>(von links. Er het jetz e grossmächtiger Drejmaschter uff mit Bändel dran. Zuem
+            Gredel)</stage>
+            <p>Komm jetzt Gredel. As dhuet mr arig läid, ass dine Vadder un dini Mueder fahle. Dü söellsch se nie
+            mangle. Ich füehr dich salbscht in d' Kirich. Komm, stüetz di fescht uff mine Arm ar füehrt di for
+            din ganzes Lawe.
+            <pb n="60"/>
+            </p>
+          </sp>
+          <stage>GREDEL (nemmt ohne Wort im Stawalder sine Arm)</stage>
+          <stage>(D’ Müsikante spiele. Alles geht ab in d' Kirich. Mr höert drüsse Schüess.)</stage>
+          <stage>BASCHE un KATT (mache d’Dhüer zue, gehn an ’s Fenschter un lüeje im Zug noch)</stage>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(hett ’s Füerdüechel an de Aue)</stage>
+            <p>Doo gehn se jetz in d’ Kirich. Wann jetz de Jean grad d' Stross era kamt, war’s doch dumm.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Verum, — nod gangt er mit in d' Kirich.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Sie hatte äui noch warte köenne, bis ar zeruck ward gsin.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>De Unkel Franz hett’s jo gewöellt, ass sie nit warde dhüen.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Jetz sin se-n-an de Kirich. Höer’sch d' Origel spiele?
+             <stage>(Mr höert witther Origelspiel.)</stage>  Wie bläich diss Gredel isch — dootsbläich. Diss isch
+            kenn luschtigi Hochzittere.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>E Wünder, Katt, e Wünder. In dare Zitt, wo mir do gase un getrunke haön isch sie drüss in de Nacht
+            un in dam Schneewatter uff em Scharebangel gsasse. An Glüeck noch, ass de Jean so gschied gewahn
+            isch, for zuem Unkel Franz ze fohre. Dert isch se doch uffghebbt gewahn for’s erscht.
+             <stage>(Sie lüeje.)</stage>  Jetz sin se alli in de Kirich un d' Dhüere ware zügemacht.
+             <stage>(D’ Origel höert uff.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Die andere, wo mit em Jean sin gfahre, sin awer doch bezitte do gewahn.
+             <stage>(Sie gehn vom Fenschter eweg.)</stage>
+            </p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Katt, hesch de Mäischter gsahne, wo die hämekomme sin ohne d' Hochzittere. Wiss isch ar worre wie
+            e Waönd, — gedohn hett er mit danne Burscht, min Labdisdaö hob ich ’ne nit so gsahne ghett.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Sie säuje, de Jean isch so viehmassi gfohre, ass sie ’ne in ere Viertelstung ger nimmi gsahne
+            haön. — Dar hett gewisst, ass es e Watter gitt un hett gedankt, ar kommt noch häme.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Un wie de Unkel Franz nod in de früehje Stung mit em Gredel ankomme-n-isch!</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Gemahn mi nit, Basche, gemahn mi nit. De Mäischter hett kenn Aeui züegemacht d’ganz Nacht, — ich
+            gläuib,
+            <pb n="61"/>ar hett nit emol nit de Mutze üssgedohn. Küm hett mr 's Rossle ghöert vom Wäuje im Hoft,
+            ze-n-isch ar äui schun haregsprunge und hett ’s Gredel üss em Wäuje ghebbt. Bläich isch se schun
+            gewahn — grad so wie jetz, wo se-n-in d' Kirich sin.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ich gläuib, sie hett noch kenn zeh Wort geredd.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Awer Basche, mach jetz voran; wann se-n-üss de Kirich komme, noch gehts an’s Ase.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Ward nurr din Saches gerüescht wie mins. Dank’sch äui an d’Hochzittsgläser un ’s Krichel un ’s
+            Brot for d' Hochzittslitt, wann se üss de Kirich komme — — — dü wäisch, ass deff nix fahle.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Ken Angscht, as isch alles parad. Ich bring sie glich ering. Komm jetz.
+             <stage>(Alli zwei ab ins Hüss links.)</stage>
+              <stage>(D’ Scène bliet e Moment leer.)</stage>
+            </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>2. SZENE.</head>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(kommt von de Stross. Ohne Hüet, d' Hoor vestrüwelt, d' Krawatt offe, bleich)</stage>
+            <p>Leer, — alles leer. — — Un üss de Kirich hab ich d' Origel ghöert. — —
+             <stage>(schrejt uff)</stage> : Ze spoot — ze spoot — —
+             <stage>(er fallt uff e Stuehl)</stage> . Ich bin gerennt, — gerennt als gäng’s um’s Läwe. Un ’s geht
+            um ’s Läwe, — todswund bin ich. So rennt e Hirsch de Tod schun in de Bruscht, noch milde Kritter for
+            de Schmerz ze lindre — — Mir isch’s als sej ich im e dunkle Wald verirrt un geh als widdersch un als
+            widdersch. — un als im Kreis erum, denn ich hab jo ’s Ziel vefehlt. ’s Ziel — — ’s Ziel — — wo isch
+            min Ziel? — Küm e paar Stund sin’s häre, ass ich do furt bin. Wie viel hett sich in dere Zitt
+            geändert!
+             <stage>(Er vergrabt ’s Gsicht in d' Händ.)</stage>  O Gredel — Gredel, — wie bin ich elend.
+             <stage>(Er lüejt in de Stubb erum. Er redd wie im Fiewer; au sini Bewejunge sin fiewerhaft,
+            abgebroche.)</stage>  Alles isch fremd, — wie von jehäre.
+             <stage>(Knöepft ’s Fräckel züe.)</stage>
+              <pb n="62"/>Alles isch kalt, — wie von jehäre. — —
+             <stage>(lütt)</stage> : Niemes un nix erbarmt sich üewer mich. — Die Stubb, wo ich drine uffgewachse
+            bin, — — do ’s Bild von minere Mueder, wo mich von jeher fremd un starr anlächelt; — — alles isch mir
+            so fremd, grenzelos fremd. — — Dr einzich Mensch bie dem ich dheim köennt sin, — —
+             <stage>(weich)</stage> : ’s Gredel, — — isch drüewe in de Kirich un wurd mim Vadder sini Frau. — — Mit
+            ere Löje uff de Lippe drett sie vor de Altar. Dass ich nit lach, wenn ich dran denk, — un was dr
+            Herrgott zammegitt — — de Herrgott zammegitt — — Gott, o Gott, was for e unbarmherzigs Schicksal
+            hesch dü mir uffghebbt!
+             <stage>(Er steht uff)</stage> : Wo isch e Uesswäj, wo e Hilf?
+             <stage>(Er knejt sich an e Stuehl vor em Bild von de Mueder)</stage> : O Mueder, — — Mueder, — —
+            unbekannti Mueder! Ich hab dich niemols gsehn un doch bisch dü’s — es isch din Bluet in mir, wo mich
+            so liede macht, wo in mir brennt. O unbekannti, fremdi Mueder, — helf doch dim Kind, — — helf doch
+            dim Kind, jetz in de hôechschte Seelenot un Qual — — — Wärtsch dü noch do, — — alles wärd andersch, —
+            alles, — alles — — — Verum bisch dü denn zellemols ellan furt üss de Welt un hesch din Kind
+            zeruckgelohn?
+             <stage>(Schrejt)</stage> : Mueder, Mueder, helf mr, helf mr, helf doch dim Kind. — — — Ich kann’s, —
+            ich kann's nimm traue; — ich kann sie nit in sine Aerm sähn — — un wie soll ich die Nacht erläwe —
+            die Nacht! — — die Nacht!! — O ich erläb sie nit!
+             <stage>(Er stürzt uff de Bodde wie ohnmächtig, d' Uffrejung isch jetz an ihrem höechschte Punkt. Von
+            jetz eweg wurd er rüehiger)</stage> . — Nein, ich erläb sie nit, — — jetz weiss ich’s, — — ja, ja,
+            jetz weiss ich’s — Mueder, hesch dü dich doch erbarmt? — Zaj’sch dü mir d' Ruehj? — Zwei Dropfe nurr
+            üss zellem kleine Fläschel, — nod schlooft mr in, — $o still, so still un rüehwich, un alli Unruehj
+            hett e End. — Un do vor ihre Aue, — sie soll’s sähn. — Mr saat, dr Dood, der ich d' Flucht vor sich
+            selbscht, — — ich glaub, ’s isch s’Heimekomme zue sich selbscht.
+             <stage>(Noch hinde ab.)</stage>
+            </p>
+            <pb n="63"/>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>3. SZENE.</head>
+          <stage>BASCHE un KATT (von links. D’ Katt drat e silwerigs Plateau mit zwei gemolte Gläser un e
+          gebluemt’s Krüejel. De Basche drat e kleins Laiwel Brot un e Messer uff eme Deller. Sie stelle die
+          Sache uff de Disch.)</stage>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(schenkt in)</stage>
+            <p>I wäiss nit, ’s schückert mi jeds Mol, wann i die Gläser do erindraö.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>As isch e üralter Brüch, un de Mäischter halt arich am Alte.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Wann nurr de Jean do ward.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Se miehn ball üss de Kirich komme.
+             <stage>(Beidi links ab.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(von hinde zeruck, presst e kleins Fläschel mit em e klare Inhalt an sich. Bedracht nod ’s
+            Fläschel)</stage>
+            <p>Wie Wasser isch’s — so hell...</p>
+            <p>Im e Kätzel hab ich emol zwei Dropfe nurr in d’Milich gemacht. Ich sieh’s noch, wie’s die Milich
+            üssschlabbert, sich streckt, d' Aue witt uffrisst, mich ganz veslünt anlüejt un still un ohne sich ze
+            mückse d' Aue nod schliesst for immer.</p>
+            <p>So will ich dich noch einmol sähn un nod for ewig üss em Wäj dir gehn.</p>
+            <stage>(Er sieht d' Gläser, Win un Brot, wo gerüescht sin.)</stage>
+            <p>De Hochzittswin un ’s Brot, — nix fählt, ’s isch alles do.
+             <stage>(Er nemmt ’s Glas in d' Hand.)</stage>
+            </p>
+            <p>Im Hochzitter sin Glas. — — —</p>
+            <p>Nod stosst er mit dir an, — wüenscht dir viel Glüeck un e langs Läwe, —
+             <stage>(stutzt)</stage>  — un e langs Läwe — — elangs Läwe — —
+             <stage>(stellt ’s Glas ane un lauft vom Disch eweg)</stage> .</p>
+            <p>Ah — — der Gedanke!! —</p>
+            <p>Nurr e paar Tropfe in zell Glas un ’s Gredel isch nod frej!! —</p>
+            <p>De Win isch ingschenkt, — niemes merikt's. Frej wärd sie, — — frej, — frej!!</p>
+            <stage>(Mr höert litte.)</stage>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(kommt widder langsam an de Disch)</stage>
+            <p>Hass isch noch stäriker wie Lieb.
+            <pb n="64"/>
+              <stage>(Er streckt d' Hand üss, blitzt erum)</stage> : Wer rueft mir Möerder, — — bin ich'nit im
+            Rächt?! —</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL FRANZ :</speaker>
+            <stage>(wo bis jetzt hinde im Lehnsessel so gsässe isch, ass mr ne nit gsähne hett, steht uff un
+            kommt langsam häre)</stage>
+            <p>Nän, dü bisch nit im Racht, Jean. Vebland bisch un kann’sch nimm Racht un Unracht underschäide.
+            Was kann noch häilich sin for dich, wann dü dim äje Vadder sin Lawe nit acht’sch! So müess ich alter
+            Mann erlawe, ass diss, was ich als 's höechschte angsahn hab, d' Lieb wo e Kind zue sine Eldre draöt,
+            for nix meh galt. — — Luej, — ich hab King ghett. Ich bin debie gewahn, wo d' Mueder sie mit Weh
+            gebore hett. Ich bin debie gewahn, wo se sie ins Grab geläjt han, ich hab diss alles durichgemacht.
+            Un doch
+             <stage>(er schlaat sich an d’Bruscht)</stage>  — meh Weh macht's, diss ze-n-erlawe.
+             <stage>(Nemmt im Jean ’s Fläschel un geht ab noch hinde.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(im diefschte Weh)</stage>
+            <p>Bliet mir denn nix erspart? Bin ich din Stiefkind, Gott?
+             <stage>(Druckt beidi Händ uff ’s Herz)</stage> : Bluet nit, arms Herz — — brech — — brech — —
+             <stage>(Fallt uff e Stuehl am Disch un vegrabt de Kopf in d' Händ.)</stage>
+              <stage>(Mr höert Litte d' Kirich isch üss. D’ Schüess krache im Dorf. Wittlos spielt d'
+            Müsik.)</stage> ]</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>4. SZENE.</head>
+          <stage>BASCHE un KATT (von links).</stage>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Glich sin se do.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>De Jean — de Jean.
+             <stage>(Sie bemüehjt sich um ’ne.)</stage>  Jean, — Schangel, — was isch, was hesch? Dü glüehjsch jo
+            ganz, hesch sicher Fiewer.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>Schlacht isch’s em, sieh’sch’s dann nit? Katt, mach ’ne glich ins Bett.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Komm, Jean, geh nuff ins Bett.</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE:</speaker>
+            <p>D’ Stubb isch gewärmt.</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT:</speaker>
+            <p>Un ’s Belt gebahjt. Komm, läj di, komm! JEAN
+             <stage>(losst sich willelos nüss füehre)</stage> .</p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(im Abgehn)</stage>
+            <p>Wo d' furt bisch, hesch geblöje wie e Roos un jetz bisch wie e Schatte an de Wand, so elang.
+             <stage>(Katt un Jean links ab.)</stage>
+            </p>
+            <pb n="65"/>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>5. SZENE.</head>
+          <stage>(D’ Müsik kommt nehdersch. ’s Litte halt an. ’s Gsind, voran de Basche, kommt in d' Stubb un
+          stellt sich an de Dhüer uff. D’ Dhüer noch hinde wurd uffgemacht. D’ Müsikante stelle sich rächts un
+          links von de Dhüer drüsse ane un lohn d' Hochzittslitt in de Mitte durich.)</stage>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <stage>(kommt als erschter erin. ’s Gredel bliet an de Dhüer stehn. Vadder geht an de Disch, nemmt ’s
+            Brot un macht mit em Messer zwei Strich krizwies üewer d' mehlich Sitt. Nod schnied er e Stüeckel ab,
+            brecht’s in zwei Dheil un geht mit Brot un Wien zuem Gredel)</stage>
+            <p>Gredel, ich halt’s, wie's mini Vädder un Vorvädder ghalte han un biet dir jetz, wo de als mini
+            Fräuj, — als d' Mäischtere vom Hüss zuem erschte Mol üewer d' Schwell dratt’sch, — Win un Brot an. So
+            wie ich jetz dhäl mit dir, wöelle mir alles dhäle, bis uns de Harrgott schäid’t.</p>
+          </sp>
+          <stage>KATT (kommt zeruck)</stage>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <stage>(nemmt ’s Glas un kommt erin. In dem Moment höert mr e grüserlicher, langzezöjener Schrej
+            fascht wie e Hund, wenn er vor eme Dootehüss hielt)</stage>
+            <p>Ohhhh — Ohhhhh — — —
+             <stage>(Alli stehn stumm un horiche.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER :</speaker>
+            <stage>(fahrt zamme)</stage>
+            <p>Um Gottswille, was isch dann diss?</p>
+          </sp>
+          <sp who="#basche">
+            <speaker>BASCHE :</speaker>
+            <stage>(isch biem erschte Ton glich in de Hoft gsprunge gsin, rueft)</stage>
+            <p>’s isch ’s Nochbers Mejel, do kommt se ze läuife.</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <stage>(stüerzt erin un hänkt sich an de Stawalder. Sie hett d' Hoor in Unordnung un isch in
+            gröeschter Uffrejung)</stage>
+            <p>Stowolder, kumme — schnall — de Jean — de Jean.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>STAWALDER:</speaker>
+            <p>De Jean? Was isch — was isch?</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL:</speaker>
+            <p>Ar isch ’s Fanschter nüss gstüerzt, im Garde lejt er.
+             <stage>(Vadder un alli schreje grell uff. Fascht alli laufe nüss, au de Vadder.)</stage>
+            </p>
+          </sp>
+          <sp who="#katt">
+            <speaker>KATT :</speaker>
+            <stage>(under Schluchze zue dene, wo do gebliewe sin)</stage>
+            <p>Krank un vewirrt hett ar geredd schun wo ar häme komme isch. Ar hett hoch Fiewer ghett, do isch e
+            Unglüeck schnall bassiert.
+             <stage>(Hielt vor sich ane.)</stage>
+            </p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <stage>(isch wie ohnmächtig an d' Wand gfalle, wo sie sich müehsam uffrächt halt)</stage>
+            <p>O Gott — —</p>
+          </sp>
+          <stage>UNKEL FRANZ (füehrt sie zum e Stuehl).</stage>
+          <pb n="66"/>
+          <stage>DE FRITZEL un e paar Knecht bringe de Jean. Er hett d' Aue zue un üss em Mül sickert ’s Bluet.
+          Sie laje ’ne längs uff de Bodde.</stage>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER:</speaker>
+            <p>Schnall Wasser, Line, Decke. Un äner schnall zuem Dokter un d' Ross nit gschont — ’s bressiert.
+             <stage>(Knejt näwe de Jean)</stage> : Jean, Bue — kannsch mi — Jean?</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN :</speaker>
+            <stage>(schlat langsam d' Aue uff)</stage>
+            <p>Es geht — ze End — — ich sieh ejch — schun — fascht — nimm — —. Min Läwe isch ze heiss
+            uffgflackert, — drum — müess ich jetz — vebrenne dran.</p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL FRANZ:</speaker>
+            <p>Ar redd im Fiewer.</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER :</speaker>
+            <stage>(mit Weh)</stage>
+            <p>Esch dann nix meh ze halfe?</p>
+          </sp>
+          <sp who="#_s_stawalders_jean">
+            <speaker>JEAN:</speaker>
+            <p>Jetzt löescht ’s Licht üss, ’s wurd Nacht — — Nacht ohne Morje — — — Wie gued — — wie still wurd’s
+            jetz in mir — — —
+             <stage>(Uff anmol richt er sich halb uff, lütt)</stage> : O Mueder, — — Müeder — — jetz — komm — — ich
+            — — heim. —
+             <stage>(fallt zeruck un sterbt)</stage> .</p>
+          </sp>
+          <sp who="#_s_stawalders_vadder">
+            <speaker>VADDER :</speaker>
+            <stage>(schluchzt uff)</stage>
+            <p>Bue — — Bue! —</p>
+          </sp>
+          <sp who="#mejel">
+            <speaker>MEJEL :</speaker>
+            <stage>(hielt lütt un werft sich üewer de Jean, veschmutzt em d' Händ)</stage>
+            <p>Jean — Jean — — —</p>
+          </sp>
+          <sp who="#_s_lipse_gredel">
+            <speaker>GREDEL:</speaker>
+            <p>O Vadder — — Mueder — —
+             <stage>(fallt under Träne im Unkel Franz in d' Aerm)</stage> .
+             <stage>(Alli andere kneje ane.)</stage>
+            </p>
+          </sp>
+          <sp who="#d_r_unkel_franz">
+            <speaker>UNKEL FRANZ:</speaker>
+            <p>— — — Mir gehn wie in de Nacht durich unser Läwe. Uff dunkle Wäj, an diefe Abgrüend durich. Mir
+            han kenn Angscht, mir wisse’s nit. — — — Nurr manichs Mol brannt äner hall uf, grad wie e Fackel. Nod
+            sahn mr d' Abgrüend, — un ’s schückert äne nöd, — — so dief, so schwarz sin sie. Dü, Jean, bisch so e
+            Fackel gsin. Schloof, armer Bue, schloof, schloof.</p>
+          </sp>
+          <stage>— RIDEAU —</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
