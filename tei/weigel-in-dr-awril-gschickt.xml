@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">In dr Awril g'schickt</title>
+        <title>In dr Awril g'schickt</title>
         <title type="sub">Lustspiel in zwei Akten von M. Weigel</title>
         <author>
           <persName>
@@ -35,10 +35,7 @@
         <publisher>LiLPa – Université de Strasbourg</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC BY 4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
         </availability>
         <idno type="wikidata">Q113505779</idno>
       </publicationStmt>

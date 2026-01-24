@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Heimlichi Lieb</title>
+        <title>Heimlichi Lieb</title>
         <title type="sub">Elsässisch's Volksstüeck in 7 Bilder</title>
         <author>
           <persName>
@@ -33,10 +33,7 @@
         <publisher>LiLPa – Université de Strasbourg</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC BY 2.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</licence>
         </availability>
         <idno type="wikidata">Q106605591</idno>
       </publicationStmt>

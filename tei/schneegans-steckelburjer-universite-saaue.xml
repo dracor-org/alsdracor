@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Was d' Steckelburjer vun d'r „Université“ saaue</title>
+        <title>Was d' Steckelburjer vun d'r „Université“ saaue</title>
         <title type="sub">Humoristisches Intermezzo von Dr. Heinrich Schneegans Privatdocent, Aufgeführt zum
         Universitäts-Jubiläum am 2. Mai 1897</title>
         <author>
@@ -37,10 +37,7 @@
         <publisher>LiLPa – Université de Strasbourg</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC BY 4.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/4.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

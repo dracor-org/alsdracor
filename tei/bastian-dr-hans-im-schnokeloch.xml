@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">D'r Hans im Schnokeloch</title>
+        <title>D'r Hans im Schnokeloch</title>
         <title type="sub">Volksspiel in 4 Aufzügen mit Musik, Gesang und Tanz von Ferd. Bastian</title>
         <author>
           <persName>
@@ -34,10 +34,7 @@
         <publisher>LiLPa – Université de Strasbourg</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC BY 2.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">D'Jumpfer Prinzesse</title>
+        <title>D'Jumpfer Prinzesse</title>
         <title type="sub">Schauspiel in 3 Aufzügen in Straßburger Mundart von Julius Greber. Mit einer
         Deckenzeichnung von C. Spindler.</title>
         <author>
@@ -35,10 +35,7 @@
         <publisher>LiLPa – Université de Strasbourg</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC BY 2.0</ab>
-            <ref target="https://creativecommons.org/licenses/by/2.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
